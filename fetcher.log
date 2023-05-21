@@ -519,3 +519,96 @@
 [2023-05-22 00:59:37] INFO root fetch - main [MainThread]: End processing [codepy]: success
 [2023-05-22 00:59:37] INFO root fetch - main [MainThread]: End processing [pyasic]: success
 [2023-05-22 00:59:37] INFO root fetch - main [MainThread]: Store serial: [18189774]
+[2023-05-22 01:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189774]
+[2023-05-22 01:04:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dorado
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sagemath-sirocco
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sagemath-bliss
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sagemath-meataxe
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemath-mcqd
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemath-coxeter3
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemath-tdlib
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-data-schema
+[2023-05-22 01:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt-cu101
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-meataxe]: New version: [9.8b1] Old Version: [10.0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-sirocco]: New version: [9.8b1] Old Version: [10.0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-bliss]: New version: [9.8b1] Old Version: [10.0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [agixt]: New version: [1.1.62b0] Old Version: [1.1.61b0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-mcqd]: New version: [9.8b1] Old Version: [10.0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-coxeter3]: New version: [9.8b1] Old Version: [10.0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-tdlib]: New version: [9.8b1] Old Version: [10.0]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230521] Old Version: [0.7.0b20230520]
+[2023-05-22 01:04:46] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 01:04:46] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-meataxe]: Downloading https://files.pythonhosted.org/packages/47/ea/3266c98ce37491b2940ac9092427f1c3b4da1e7c9b8b3996c3abe09067e9/sagemath-meataxe-10.0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-sirocco]: Downloading https://files.pythonhosted.org/packages/e8/47/941f7f610c1d1438674297427c310177348418dce85446d696c1619fe83e/sagemath-sirocco-10.0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-coxeter3]: Downloading https://files.pythonhosted.org/packages/f9/72/ec99f9615405e981537cba07c40a80c615df77b809108bfef06642ff70ed/sagemath-coxeter3-10.0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-tdlib]: Downloading https://files.pythonhosted.org/packages/a0/a0/652205409a1c114b390ae6eb4febf94259d43d1992dc9a5c3129b7617747/sagemath-tdlib-10.0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-mcqd]: Downloading https://files.pythonhosted.org/packages/60/e6/8f0ecd8c2a5cffb48bbb832d128736c6aebae5c31dcc7eb3a825b7300feb/sagemath-mcqd-10.0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [sagemath-bliss]: Downloading https://files.pythonhosted.org/packages/71/59/5acca95958cdbfb0b12036486c6b6f1c1bea363d0ca4bb1e1bb6798d5986/sagemath-bliss-10.0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/f9/86/a2e611fde93bd45c59cc4ed269c35bdd18354529659b7dbd34896e549bd4/agixt-1.1.62b0.tar.gz
+[2023-05-22 01:04:46] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/c7/62/69ed07a9944728c2f2b8df9e96abad2c2a27461624789ffd3e3107be4842/tmnt-cu101-0.7.0b20230520.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.61b0.tar.gz tmp/agixt-1.1.62b0.tar.gz --markdown 20230522/a/agixt/1.1.61b0-1.1.62b0/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-coxeter3]: Downloading https://files.pythonhosted.org/packages/3f/01/5f1c705c13f9e31203dd08bb7cbc28220ea2a913d75ac9366eb1e9fa71c1/sagemath-coxeter3-9.8b1.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-meataxe]: Downloading https://files.pythonhosted.org/packages/8e/b8/a2a3607fb4575896f02a16a77077e9761a27ad84c081f6a2a22509f74ada/sagemath-meataxe-9.8b1.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-tdlib]: Downloading https://files.pythonhosted.org/packages/b5/ad/ad26f8cd628393a4303a0e832c95c0218f4b3cd59196203fbe52dbca1855/sagemath-tdlib-9.8b1.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230522/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-mcqd]: Downloading https://files.pythonhosted.org/packages/cc/14/35fd31511b7d3b2e5fe540c1b89008ed79aa0306eda2d831fa07ab792c73/sagemath-mcqd-9.8b1.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-bliss]: Downloading https://files.pythonhosted.org/packages/ab/1b/7da7337e59f18c9b2960c84a3752cff8a9f5f2e7997a157b36e368ea2d2d/sagemath-bliss-9.8b1.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-sirocco]: Downloading https://files.pythonhosted.org/packages/28/cb/160bc3b7eca0d3fb546c30a5ecbdecd892d03062349e717fc61de420ea66/sagemath-sirocco-9.8b1.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-coxeter3]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-coxeter3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-coxeter3-10.0.tar.gz tmp/sagemath-coxeter3-9.8b1.tar.gz --markdown 20230522/s/sagemath-coxeter3/10.0-9.8b1/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-tdlib]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-tdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-tdlib-10.0.tar.gz tmp/sagemath-tdlib-9.8b1.tar.gz --markdown 20230522/s/sagemath-tdlib/10.0-9.8b1/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-meataxe]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-meataxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-meataxe-10.0.tar.gz tmp/sagemath-meataxe-9.8b1.tar.gz --markdown 20230522/s/sagemath-meataxe/10.0-9.8b1/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/9f/c5/9b1ac2441966db2c46d69cdbea3d8ac037f2ab66aea7ff01283deabf076c/tmnt-cu101-0.7.0b20230521.tar.gz
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-mcqd]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-sirocco]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-mcqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-mcqd-10.0.tar.gz tmp/sagemath-mcqd-9.8b1.tar.gz --markdown 20230522/s/sagemath-mcqd/10.0-9.8b1/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-sirocco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-sirocco-10.0.tar.gz tmp/sagemath-sirocco-9.8b1.tar.gz --markdown 20230522/s/sagemath-sirocco/10.0-9.8b1/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-bliss]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [sagemath-bliss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-bliss-10.0.tar.gz tmp/sagemath-bliss-9.8b1.tar.gz --markdown 20230522/s/sagemath-bliss/10.0-9.8b1/diff.md --exclude *.pyd
+[2023-05-22 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-22 01:04:47] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230520.tar.gz tmp/tmnt-cu101-0.7.0b20230521.tar.gz --markdown 20230522/t/tmnt-cu101/0.7.0b20230520-0.7.0b20230521/diff.md --exclude *.pyd
+[2023-05-22 01:04:48] INFO root fetch - processPackages [agixt]: Start processing: structlog-asgi
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-05-22 01:04:48] INFO root fetch - processPackages [sagemath-meataxe]: Start processing: dorado
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [sagemath-meataxe]: success
+[2023-05-22 01:04:48] WARNING root fetch - processPackages [structlog-asgi]: Skipping, unable to determine old version
+[2023-05-22 01:04:48] INFO root fetch - processPackages [structlog-asgi]: Start processing: tmnt
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [structlog-asgi] error
+[2023-05-22 01:04:48] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 01:04:48] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230521] Old Version: [0.7.0b20230520]
+[2023-05-22 01:04:48] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 01:04:48] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 01:04:48] INFO root fetch - processPackages [sagemath-mcqd]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [sagemath-mcqd]: success
+[2023-05-22 01:04:48] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-22 01:04:48] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/6e/3e/00190acb2a2029c9a93ca2fefe06324e42c68a0580dc4b76af4648d0e7fd/aws_prototyping_sdk.aws_arch-0.18.8.tar.gz
+[2023-05-22 01:04:48] INFO root fetch - processPackages [sagemath-sirocco]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [sagemath-sirocco]: success
+[2023-05-22 01:04:48] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f3/b5/5ea38c0ee8ecc4e6271ad152d4a4ba701586b776578214739894ffddea84/tmnt-0.7.0b20230520.tar.gz
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [sagemath-bliss]: success
+[2023-05-22 01:04:48] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [sagemath-coxeter3]: success
+[2023-05-22 01:04:48] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19296794>=10485760
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-22 01:04:48] INFO root fetch - main [MainThread]: End processing [sagemath-tdlib]: success
+[2023-05-22 01:04:49] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-22 01:04:49] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:04:49] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/15/f4/dc679b2aa16ab24740c852ab6fb728193bb8105ca6f760716835e317e760/tmnt-0.7.0b20230521.tar.gz
+[2023-05-22 01:04:49] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-22 01:04:49] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230520.tar.gz tmp/tmnt-0.7.0b20230521.tar.gz --markdown 20230522/t/tmnt/0.7.0b20230520-0.7.0b20230521/diff.md --exclude *.pyd
+[2023-05-22 01:04:49] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 01:04:49] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-22 01:04:50] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-22 01:04:50] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 01:04:50] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-22 01:04:50] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-22 01:04:50] INFO root fetch - main [MainThread]: Store serial: [18189815]
