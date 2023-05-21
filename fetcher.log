@@ -1,0 +1,60 @@
+[2023-05-22 00:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189501]
+[2023-05-22 00:03:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jao-py
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jj-wingman
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yambs
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docassemble
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docassemble.base
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sidetrek
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docassemble.demo
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docassemble.webapp
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: growmax
+[2023-05-22 00:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discovery-transition-ds
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jj-wingman]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jao-py]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [yambs]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [growmax]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230522/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jao-py]: Downloading https://files.pythonhosted.org/packages/8f/21/b9eacd489fc525754dfe31d08f1c698c4485d5ed83ac531efdd80245a2a3/jao-py-0.3.5.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [growmax]: Downloading https://files.pythonhosted.org/packages/a7/f6/9b20511ff2d39794e5fe2302590ab48ac77e5bcb3132286fe6a50821161d/growmax-1.2.0.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jj-wingman]: Downloading https://files.pythonhosted.org/packages/c0/23/c887155bbe9a3014622888db65a9786859432a624c79d9529cb821e80b54/jj_wingman-0.2.1.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/3a/7d/de8db06ff702191571cbe4ce6a3d61778f2c782789fa596fb66fca44ff1b/yambs-1.4.1.tar.gz
+[2023-05-22 00:03:58] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-05-22 00:03:58] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jj-wingman]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jj-wingman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jj_wingman-0.2.0.tar.gz tmp/jj_wingman-0.2.1.tar.gz --markdown 20230522/j/jj-wingman/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230522/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230522/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230522/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/cf/37/7456edbefcccbc7c56147abd6b4eca2d1367b52c66daa9c6c2b26ccc39d9/yambs-1.4.2.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [growmax]: Downloading https://files.pythonhosted.org/packages/e4/99/28c6b87f362dc71a8089caf00037bd4787363805d09ed7285da67f5dc143/growmax-1.2.1.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.4.1.tar.gz tmp/yambs-1.4.2.tar.gz --markdown 20230522/y/yambs/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-22 00:03:58] INFO root fetch - processPackages [jao-py]: Downloading https://files.pythonhosted.org/packages/ae/00/e67f7a94e10852768fb7141786f25472ace0fa0f26bfa91effeb32bf4e60/jao-py-0.3.6.tar.gz
+[2023-05-22 00:03:58] INFO root fetch - processPackages [growmax]: executing diffoscope
+[2023-05-22 00:03:58] INFO root fetch - processPackages [growmax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/growmax-1.2.0.tar.gz tmp/growmax-1.2.1.tar.gz --markdown 20230522/g/growmax/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-22 00:03:59] INFO root fetch - processPackages [jao-py]: executing diffoscope
+[2023-05-22 00:03:59] INFO root fetch - processPackages [jao-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jao-py-0.3.5.tar.gz tmp/jao-py-0.3.6.tar.gz --markdown 20230522/j/jao-py/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-22 00:04:00] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-05-22 00:04:00] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 00:04:00] INFO root fetch - main [MainThread]: End processing [jao-py]: success
+[2023-05-22 00:04:00] INFO root fetch - main [MainThread]: End processing [growmax]: success
+[2023-05-22 00:04:00] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-05-22 00:04:00] INFO root fetch - main [MainThread]: End processing [jj-wingman]: success
+[2023-05-22 00:04:02] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-22 00:04:08] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-05-22 00:04:08] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-05-22 00:04:08] INFO root fetch - main [MainThread]: Store serial: [18189531]
