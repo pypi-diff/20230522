@@ -462,3 +462,32 @@
 [2023-05-22 00:49:07] INFO root fetch - main [MainThread]: End processing [dorado]: success
 [2023-05-22 00:49:10] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
 [2023-05-22 00:49:10] INFO root fetch - main [MainThread]: Store serial: [18189751]
+[2023-05-22 00:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189751]
+[2023-05-22 00:54:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-22 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: latch-postgres
+[2023-05-22 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-screener
+[2023-05-22 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-CE
+[2023-05-22 00:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-pydantic
+[2023-05-22 00:54:20] INFO root fetch - processPackages [latch-postgres]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 00:54:20] INFO root fetch - processPackages [NEMO-CE]: New version: [1.2.1] Old Version: [1.2.0.dev0]
+[2023-05-22 00:54:20] INFO root fetch - processPackages [openapi-pydantic]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 00:54:20] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:54:20] INFO root fetch - processPackages [latch-postgres]: executing diffoscope
+[2023-05-22 00:54:20] INFO root fetch - processPackages [latch-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_postgres-0.1.8.tar.gz tmp/latch_postgres-0.1.9.tar.gz --markdown 20230522/l/latch-postgres/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 00:54:20] INFO root fetch - processPackages [openapi-pydantic]: Downloading https://files.pythonhosted.org/packages/44/54/ba2793190d4e6fbb866035c328183fc63b2d354bd1bc90107ad492bb3b1d/openapi_pydantic-0.2.1.tar.gz
+[2023-05-22 00:54:20] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/95/23/4dbcfba64c876f7bcecd12377e084d5142ab1da8b4ebeb3d3a127852b847/auto-screener-0.0.8.tar.gz
+[2023-05-22 00:54:20] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/74/91/ab7b025631f29a978dbca5849d2d9677a394eb8bde853bf179098d4b4056/NEMO_CE-1.2.0.dev0-py3-none-any.whl
+[2023-05-22 00:54:20] INFO root fetch - processPackages [openapi-pydantic]: Downloading https://files.pythonhosted.org/packages/1b/46/1b988167542e8f7bcb603b898cd0fd45585d30fa878e5505a7d0de13e18f/openapi_pydantic-0.2.2.tar.gz
+[2023-05-22 00:54:20] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/17/81/2cce88151208fb3d0d0ee59ce98a996260f0578227453f7753134f315aaa/auto-screener-0.0.9.tar.gz
+[2023-05-22 00:54:20] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-22 00:54:20] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230522/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:54:21] INFO root fetch - processPackages [openapi-pydantic]: executing diffoscope
+[2023-05-22 00:54:21] INFO root fetch - processPackages [openapi-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_pydantic-0.2.1.tar.gz tmp/openapi_pydantic-0.2.2.tar.gz --markdown 20230522/o/openapi-pydantic/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 00:54:21] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/8b/f1/3aca792bc0e8a6c6f2c507bf1e1b49bc64d542aefd8d18b28cc777f20869/NEMO_CE-1.2.1-py3-none-any.whl
+[2023-05-22 00:54:21] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2023-05-22 00:54:21] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-1.2.0.dev0-py3-none-any.whl.zip tmp/NEMO_CE-1.2.1-py3-none-any.whl.zip --markdown 20230522/N/NEMO-CE/1.2.0.dev0-1.2.1/diff.md --exclude *.pyd
+[2023-05-22 00:54:21] INFO root fetch - main [MainThread]: End processing [latch-postgres]: success
+[2023-05-22 00:54:21] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-22 00:54:22] INFO root fetch - main [MainThread]: End processing [openapi-pydantic]: success
+[2023-05-22 00:54:26] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2023-05-22 00:54:26] INFO root fetch - main [MainThread]: Store serial: [18189761]
