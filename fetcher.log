@@ -154,3 +154,35 @@
 [2023-05-22 00:14:33] INFO root fetch - main [MainThread]: End processing [taskiq]: success
 [2023-05-22 00:14:34] INFO root fetch - main [MainThread]: End processing [vbcore]: success
 [2023-05-22 00:14:34] INFO root fetch - main [MainThread]: Store serial: [18189577]
+[2023-05-22 00:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189577]
+[2023-05-22 00:19:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-22 00:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: effdet
+[2023-05-22 00:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dense-ev
+[2023-05-22 00:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arfs
+[2023-05-22 00:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marcel
+[2023-05-22 00:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-skill-date-time
+[2023-05-22 00:19:42] WARNING root fetch - processPackages [dense-ev]: Skipping, unable to determine old version
+[2023-05-22 00:19:42] INFO root fetch - main [MainThread]: End processing [dense-ev] error
+[2023-05-22 00:19:42] INFO root fetch - processPackages [effdet]: New version: [0.4.1] Old Version: [0.3.0]
+[2023-05-22 00:19:42] INFO root fetch - processPackages [arfs]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-05-22 00:19:42] INFO root fetch - processPackages [ovos-skill-date-time]: New version: [0.2.3a1] Old Version: [0.2.2a2]
+[2023-05-22 00:19:42] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 00:19:43] INFO root fetch - processPackages [effdet]: Downloading https://files.pythonhosted.org/packages/10/b7/65afcacd818d327a4eb3dfedda7e70ee0f0fdd890804f12357067b657837/effdet-0.3.0.tar.gz
+[2023-05-22 00:19:43] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/72/23/9d608cf5e9e56d116b8a2024304fb5a566a88b15594374ebc5092ca3af72/arfs-1.0.7.tar.gz
+[2023-05-22 00:19:43] INFO root fetch - processPackages [ovos-skill-date-time]: Downloading https://files.pythonhosted.org/packages/96/08/cb3ba7a9d498c26722ce19792e8170f16ecb098b2d3d4ee6d2d3be1b8dc6/ovos_skill_date_time-0.2.2a2-py3-none-any.whl
+[2023-05-22 00:19:43] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2023-05-22 00:19:43] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20230522/m/marcel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 00:19:43] INFO root fetch - processPackages [effdet]: Downloading https://files.pythonhosted.org/packages/0e/c3/12d45167ec36f7f9a5ed80bc2128392b3f6207f760d437287d32a0e43f41/effdet-0.4.1.tar.gz
+[2023-05-22 00:19:43] INFO root fetch - processPackages [ovos-skill-date-time]: Downloading https://files.pythonhosted.org/packages/37/83/99d6a69bad118a0d65d42dfbe34034a0493a7dc75ecfb95650ea21b101c0/ovos_skill_date_time-0.2.3a1-py3-none-any.whl
+[2023-05-22 00:19:43] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/bf/f8/92e1dc66b1467d3508b09b7e964869604098e7a78f9fd1f3477f8250b5d7/arfs-1.1.0.tar.gz
+[2023-05-22 00:19:43] INFO root fetch - processPackages [effdet]: executing diffoscope
+[2023-05-22 00:19:43] INFO root fetch - processPackages [effdet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effdet-0.3.0.tar.gz tmp/effdet-0.4.1.tar.gz --markdown 20230522/e/effdet/0.3.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-22 00:19:43] INFO root fetch - processPackages [ovos-skill-date-time]: executing diffoscope
+[2023-05-22 00:19:43] INFO root fetch - processPackages [ovos-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_date_time-0.2.2a2-py3-none-any.whl.zip tmp/ovos_skill_date_time-0.2.3a1-py3-none-any.whl.zip --markdown 20230522/o/ovos-skill-date-time/0.2.2a2-0.2.3a1/diff.md --exclude *.pyd
+[2023-05-22 00:19:43] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-05-22 00:19:43] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-1.0.7.tar.gz tmp/arfs-1.1.0.tar.gz --markdown 20230522/a/arfs/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 00:19:44] INFO root fetch - main [MainThread]: End processing [effdet]: success
+[2023-05-22 00:19:44] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-05-22 00:19:45] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2023-05-22 00:19:54] INFO root fetch - main [MainThread]: End processing [ovos-skill-date-time]: success
+[2023-05-22 00:19:54] INFO root fetch - main [MainThread]: Store serial: [18189592]
