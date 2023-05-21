@@ -705,3 +705,26 @@
 [2023-05-22 01:25:32] INFO root fetch - processPackages [owmeta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmeta-core-0.14.0.dev20230205162141.tar.gz tmp/owmeta-core-0.14.0.dev20230521232022.tar.gz --markdown 20230522/o/owmeta-core/0.14.0.dev20230205162141-0.14.0.dev20230521232022/diff.md --exclude *.pyd
 [2023-05-22 01:25:34] INFO root fetch - main [MainThread]: End processing [owmeta-core]: success
 [2023-05-22 01:25:34] INFO root fetch - main [MainThread]: Store serial: [18189877]
+[2023-05-22 01:30:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189877]
+[2023-05-22 01:30:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-22 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphix-ibmq
+[2023-05-22 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2023-05-22 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-AutoMLPlus
+[2023-05-22 01:30:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-05-22 01:30:42] INFO root fetch - processPackages [my-AutoMLPlus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 01:30:42] WARNING root fetch - processPackages [graphix-ibmq]: Skipping, unable to determine old version
+[2023-05-22 01:30:42] INFO root fetch - main [MainThread]: End processing [graphix-ibmq] error
+[2023-05-22 01:30:42] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-22 01:30:42] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 01:30:42] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-05-22 01:30:42] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230522/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-22 01:30:42] INFO root fetch - processPackages [my-AutoMLPlus]: Downloading https://files.pythonhosted.org/packages/63/92/1f4d500e7c81482c4cbf547a4313cc533fb39a3c680a3f1cb422393df538/my_AutoMLPlus-0.0.1.tar.gz
+[2023-05-22 01:30:42] INFO root fetch - processPackages [my-AutoMLPlus]: Downloading https://files.pythonhosted.org/packages/8d/b3/b75753799f52d692e555f0be8f6435da97113c7b7814ad89813073b171f3/my_AutoMLPlus-0.0.2.tar.gz
+[2023-05-22 01:30:42] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-22 01:30:42] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230522/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 01:30:43] INFO root fetch - processPackages [my-AutoMLPlus]: executing diffoscope
+[2023-05-22 01:30:43] INFO root fetch - processPackages [my-AutoMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_AutoMLPlus-0.0.1.tar.gz tmp/my_AutoMLPlus-0.0.2.tar.gz --markdown 20230522/m/my-AutoMLPlus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 01:30:43] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-05-22 01:30:43] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
+[2023-05-22 01:30:44] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-22 01:30:44] INFO root fetch - main [MainThread]: Store serial: [18189889]
