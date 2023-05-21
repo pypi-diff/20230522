@@ -692,3 +692,16 @@
 [2023-05-22 01:20:23] WARNING root fetch - processPackages [qnpy-template]: Skipping, unable to determine old version
 [2023-05-22 01:20:23] INFO root fetch - main [MainThread]: End processing [qnpy-template] error
 [2023-05-22 01:20:23] INFO root fetch - main [MainThread]: Store serial: [18189869]
+[2023-05-22 01:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189869]
+[2023-05-22 01:25:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-22 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owmeta-core
+[2023-05-22 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytexreport
+[2023-05-22 01:25:32] WARNING root fetch - processPackages [pytexreport]: Skipping, unable to determine old version
+[2023-05-22 01:25:32] INFO root fetch - main [MainThread]: End processing [pytexreport] error
+[2023-05-22 01:25:32] INFO root fetch - processPackages [owmeta-core]: New version: [0.14.0.dev20230521232022] Old Version: [0.14.0.dev20230205162141]
+[2023-05-22 01:25:32] INFO root fetch - processPackages [owmeta-core]: Downloading https://files.pythonhosted.org/packages/f2/4b/6c129e29f54cf13be8d4edb7d14f873ca7098c81a2dcf0644339b4e75cc5/owmeta-core-0.14.0.dev20230205162141.tar.gz
+[2023-05-22 01:25:32] INFO root fetch - processPackages [owmeta-core]: Downloading https://files.pythonhosted.org/packages/c3/99/a0fed89864d476db3ef4bd7d250b1f1e97e0cfd9f69ad5922eb36337029e/owmeta-core-0.14.0.dev20230521232022.tar.gz
+[2023-05-22 01:25:32] INFO root fetch - processPackages [owmeta-core]: executing diffoscope
+[2023-05-22 01:25:32] INFO root fetch - processPackages [owmeta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmeta-core-0.14.0.dev20230205162141.tar.gz tmp/owmeta-core-0.14.0.dev20230521232022.tar.gz --markdown 20230522/o/owmeta-core/0.14.0.dev20230205162141-0.14.0.dev20230521232022/diff.md --exclude *.pyd
+[2023-05-22 01:25:34] INFO root fetch - main [MainThread]: End processing [owmeta-core]: success
+[2023-05-22 01:25:34] INFO root fetch - main [MainThread]: Store serial: [18189877]
