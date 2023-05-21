@@ -800,3 +800,44 @@
 [2023-05-22 01:41:04] INFO root fetch - main [MainThread]: End processing [loquax]: success
 [2023-05-22 01:41:05] INFO root fetch - main [MainThread]: End processing [spyglass-neuro]: success
 [2023-05-22 01:41:05] INFO root fetch - main [MainThread]: Store serial: [18189942]
+[2023-05-22 01:46:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189942]
+[2023-05-22 01:46:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GrappyLfjv
+[2023-05-22 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-AutoMLPlus
+[2023-05-22 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mirror-tool
+[2023-05-22 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-05-22 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypreql
+[2023-05-22 01:46:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dorado
+[2023-05-22 01:46:14] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-05-22 01:46:14] INFO root fetch - processPackages [GrappyLfjv]: New version: [0.0.15] Old Version: [0.0.12]
+[2023-05-22 01:46:14] INFO root fetch - processPackages [mirror-tool]: New version: [2023.5] Old Version: [1.0.0]
+[2023-05-22 01:46:14] INFO root fetch - processPackages [my-AutoMLPlus]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 01:46:14] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 01:46:14] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.42] Old Version: [4.2.41]
+[2023-05-22 01:46:14] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 01:46:14] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 01:46:14] INFO root fetch - processPackages [GrappyLfjv]: Downloading https://files.pythonhosted.org/packages/54/f3/5fa22896b79cfb45b9d62c6ab1c87995378c6ab4f4eb707e969bad11c4fd/GrappyLfjv-0.0.12.tar.gz
+[2023-05-22 01:46:14] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/43/b8/2abb29f2547d81aff3f05e6578226b18359897a8e67919d46a46231d0bed/pypreql-0.0.1rc8.tar.gz
+[2023-05-22 01:46:14] INFO root fetch - processPackages [mirror-tool]: Downloading https://files.pythonhosted.org/packages/8a/c9/4c5ebcb903bfc0c548d209bf2dafd90ba49f155af259c2e0a603457fe3e1/mirror-tool-1.0.0.tar.gz
+[2023-05-22 01:46:14] INFO root fetch - processPackages [my-AutoMLPlus]: Downloading https://files.pythonhosted.org/packages/27/56/16b02d34f3756e4895acf417ab2b9eafc54afcbb74415e2a13daa8e50536/my_AutoMLPlus-0.0.4.tar.gz
+[2023-05-22 01:46:14] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/82/52/1113478f7e0e1ad87690f0399aefbe3c7bfd9827e4974843d4f44b200abd/cyberdrop-dl-4.2.42.tar.gz
+[2023-05-22 01:46:15] INFO root fetch - processPackages [my-AutoMLPlus]: executing diffoscope
+[2023-05-22 01:46:15] INFO root fetch - processPackages [my-AutoMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_AutoMLPlus-0.0.3.tar.gz tmp/my_AutoMLPlus-0.0.4.tar.gz --markdown 20230522/m/my-AutoMLPlus/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 01:46:15] INFO root fetch - processPackages [GrappyLfjv]: Downloading https://files.pythonhosted.org/packages/fc/06/1e48c0a6bd9acd7ae6da5c62b2f9d3b7d8e0895a0be02390191e262abc0e/GrappyLfjv-0.0.15.tar.gz
+[2023-05-22 01:46:15] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-22 01:46:15] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.41.tar.gz tmp/cyberdrop-dl-4.2.42.tar.gz --markdown 20230522/c/cyberdrop-dl/4.2.41-4.2.42/diff.md --exclude *.pyd
+[2023-05-22 01:46:15] INFO root fetch - processPackages [GrappyLfjv]: executing diffoscope
+[2023-05-22 01:46:15] INFO root fetch - processPackages [GrappyLfjv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrappyLfjv-0.0.12.tar.gz tmp/GrappyLfjv-0.0.15.tar.gz --markdown 20230522/G/GrappyLfjv/0.0.12-0.0.15/diff.md --exclude *.pyd
+[2023-05-22 01:46:15] INFO root fetch - processPackages [mirror-tool]: Downloading https://files.pythonhosted.org/packages/3c/fb/98bdbd27ded3416d2519ad58d199b4b4afe9dab0f3a9e2679c79949232c8/mirror-tool-2023.5.tar.gz
+[2023-05-22 01:46:15] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/1a/ce/33794a7ef68067e22a883f6d200722a8ccfc530b6b40d7ba9956ed4ff8bf/pypreql-0.0.1rc9.tar.gz
+[2023-05-22 01:46:15] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2023-05-22 01:46:15] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20230522/p/pypreql/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-05-22 01:46:15] INFO root fetch - processPackages [mirror-tool]: executing diffoscope
+[2023-05-22 01:46:15] INFO root fetch - processPackages [mirror-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirror-tool-1.0.0.tar.gz tmp/mirror-tool-2023.5.tar.gz --markdown 20230522/m/mirror-tool/1.0.0-2023.5/diff.md --exclude *.pyd
+[2023-05-22 01:46:16] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
+[2023-05-22 01:46:16] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 01:46:16] INFO root fetch - main [MainThread]: End processing [mirror-tool]: success
+[2023-05-22 01:46:17] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2023-05-22 01:46:17] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-22 01:47:00] INFO root fetch - main [MainThread]: End processing [GrappyLfjv]: success
+[2023-05-22 01:47:00] INFO root fetch - main [MainThread]: Store serial: [18189961]
