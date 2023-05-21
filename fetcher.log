@@ -58,3 +58,32 @@
 [2023-05-22 00:04:08] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
 [2023-05-22 00:04:08] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-05-22 00:04:08] INFO root fetch - main [MainThread]: Store serial: [18189531]
+[2023-05-22 00:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189531]
+[2023-05-22 00:09:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-22 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reteps-ctfcli
+[2023-05-22 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sidetrek
+[2023-05-22 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kynaylibs
+[2023-05-22 00:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aionotion
+[2023-05-22 00:09:18] INFO root fetch - processPackages [kynaylibs]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-22 00:09:18] INFO root fetch - processPackages [reteps-ctfcli]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-05-22 00:09:18] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:09:18] INFO root fetch - processPackages [aionotion]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-22 00:09:18] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/3b/45/405135df45869b55b5ce9430b77996f006a61e960715efea35842d889dea/kynaylibs-1.7.2.tar.gz
+[2023-05-22 00:09:18] INFO root fetch - processPackages [reteps-ctfcli]: Downloading https://files.pythonhosted.org/packages/43/d4/51e65837ab30469378351a1ecbe7dfaf8b14b00a76d24c507304bdaaade1/reteps-ctfcli-0.0.12.tar.gz
+[2023-05-22 00:09:18] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/d2/42/38af64fda93eab141ff7953210d2bfa71461fa041ff321c2469fae19dfeb/aionotion-3.0.1.tar.gz
+[2023-05-22 00:09:18] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 00:09:18] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:09:18] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/7f/8b/29e4f4fb6475eb1c66057004c35eab59742ae3390b7d6858649f88867753/kynaylibs-1.7.3.tar.gz
+[2023-05-22 00:09:18] INFO root fetch - processPackages [reteps-ctfcli]: Downloading https://files.pythonhosted.org/packages/c8/dd/c0d18845817d55eca1c5e9c280a3aa68d2674d81ecc39d58a951983258ba/reteps_ctfcli-0.0.13-py3-none-any.whl
+[2023-05-22 00:09:18] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/22/6d/d6ae4c277ccd4e1336a048e2de5585363472505d853a6ab2505e23c3a322/aionotion-3.0.2.tar.gz
+[2023-05-22 00:09:18] INFO root fetch - processPackages [aionotion]: executing diffoscope
+[2023-05-22 00:09:18] INFO root fetch - processPackages [aionotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aionotion-3.0.1.tar.gz tmp/aionotion-3.0.2.tar.gz --markdown 20230522/a/aionotion/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-22 00:09:18] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-22 00:09:18] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.7.2.tar.gz tmp/kynaylibs-1.7.3.tar.gz --markdown 20230522/k/kynaylibs/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-22 00:09:18] INFO root fetch - processPackages [reteps-ctfcli]: executing diffoscope
+[2023-05-22 00:09:18] INFO root fetch - processPackages [reteps-ctfcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reteps-ctfcli-0.0.12.tar.gz tmp/reteps_ctfcli-0.0.13-py3-none-any.whl.zip --markdown 20230522/r/reteps-ctfcli/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-05-22 00:09:19] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 00:09:19] INFO root fetch - main [MainThread]: End processing [reteps-ctfcli]: success
+[2023-05-22 00:09:19] INFO root fetch - main [MainThread]: End processing [aionotion]: success
+[2023-05-22 00:09:22] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-22 00:09:22] INFO root fetch - main [MainThread]: Store serial: [18189542]
