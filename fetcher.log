@@ -186,3 +186,81 @@
 [2023-05-22 00:19:45] INFO root fetch - main [MainThread]: End processing [marcel]: success
 [2023-05-22 00:19:54] INFO root fetch - main [MainThread]: End processing [ovos-skill-date-time]: success
 [2023-05-22 00:19:54] INFO root fetch - main [MainThread]: Store serial: [18189592]
+[2023-05-22 00:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189592]
+[2023-05-22 00:25:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carla-gym
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kynaylibs
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorado
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.identity
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-22 00:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-22 00:25:03] WARNING root fetch - processPackages [carla-gym]: Skipping, unable to determine old version
+[2023-05-22 00:25:03] INFO root fetch - processPackages [carla-gym]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-22 00:25:03] INFO root fetch - main [MainThread]: End processing [carla-gym] error
+[2023-05-22 00:25:03] INFO root fetch - processPackages [kynaylibs]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [alacorder]: New version: [80.7.2] Old Version: [80.7.1]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.7.2.tar.gz tmp/kynaylibs-1.7.3.tar.gz --markdown 20230522/k/kynaylibs/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/6e/3e/00190acb2a2029c9a93ca2fefe06324e42c68a0580dc4b76af4648d0e7fd/aws_prototyping_sdk.aws_arch-0.18.8.tar.gz
+[2023-05-22 00:25:03] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19296794>=10485760
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-22 00:25:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-22 00:25:03] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.7.1.tar.gz tmp/alacorder-80.7.2.tar.gz --markdown 20230522/a/alacorder/80.7.1-80.7.2/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-22 00:25:03] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:25:04] INFO root fetch - processPackages [dorado]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-22 00:25:04] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 00:25:04] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: dorado
+[2023-05-22 00:25:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-22 00:25:04] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 00:25:05] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: ecida
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-22 00:25:05] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-22 00:25:05] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 00:25:05] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 00:25:05] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-22 00:25:05] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/24/c2/6236f2f1bf94e1dea12b55fac2c9275170da186b141e8cc8ffede60b7a03/ecida-0.0.8.tar.gz
+[2023-05-22 00:25:05] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-22 00:25:05] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-22 00:25:05] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.9.tar.gz --markdown 20230522/a/aws-prototyping-sdk.type-safe-api/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-22 00:25:05] INFO root fetch - processPackages [ecida]: Downloading https://files.pythonhosted.org/packages/f7/16/4d2281303335f0d5840a935b14ff0001a169415182a2fb231ef67dd1761d/ecida-0.0.9.tar.gz
+[2023-05-22 00:25:05] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-22 00:25:05] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230522/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:25:06] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 00:25:06] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-22 00:25:06] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-22 00:25:10] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-22 00:25:10] INFO root fetch - main [MainThread]: Store serial: [18189638]
