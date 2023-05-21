@@ -612,3 +612,60 @@
 [2023-05-22 01:04:50] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-05-22 01:04:50] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
 [2023-05-22 01:04:50] INFO root fetch - main [MainThread]: Store serial: [18189815]
+[2023-05-22 01:09:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189815]
+[2023-05-22 01:09:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.identity
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iot-device
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ev-fleet-sim
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: okntool
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-22 01:09:59] INFO root fetch - processPackages [iot-device]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [okntool]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230522/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.9.tar.gz --markdown 20230522/a/aws-prototyping-sdk.type-safe-api/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [iot-device]: Downloading https://files.pythonhosted.org/packages/8c/6c/a95cb2e5fae0bff94a04808b2b663604acdfb8dfdbd144894a5295944436/iot-device-0.5.8.tar.gz
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [okntool]: Downloading https://files.pythonhosted.org/packages/20/d9/009074f2eb19b6dd8fed0cea014281904a7524d8eb73bb69ef8ff0cb068e/okntool-2.0.9.tar.gz
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-22 01:09:59] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230522/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 01:09:59] INFO root fetch - processPackages [okntool]: Downloading https://files.pythonhosted.org/packages/46/e5/ef63db9e41e4a1c38b90b839fe81f92a89118cbcd105553bed8995ecffe8/okntool-3.0.0.tar.gz
+[2023-05-22 01:10:00] INFO root fetch - processPackages [okntool]: executing diffoscope
+[2023-05-22 01:10:00] INFO root fetch - processPackages [okntool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okntool-2.0.9.tar.gz tmp/okntool-3.0.0.tar.gz --markdown 20230522/o/okntool/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-05-22 01:10:00] INFO root fetch - processPackages [iot-device]: Downloading https://files.pythonhosted.org/packages/8d/31/375ddecee2c755ba6b81fec24355a6f180bc6a08922bdf767d3ee3bac6ec/iot-device-0.5.9.tar.gz
+[2023-05-22 01:10:00] INFO root fetch - processPackages [iot-device]: executing diffoscope
+[2023-05-22 01:10:00] INFO root fetch - processPackages [iot-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot-device-0.5.8.tar.gz tmp/iot-device-0.5.9.tar.gz --markdown 20230522/i/iot-device/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-22 01:10:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-22 01:10:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-22 01:10:01] INFO root fetch - main [MainThread]: End processing [okntool]: success
+[2023-05-22 01:10:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-22 01:10:01] INFO root fetch - main [MainThread]: End processing [iot-device]: success
+[2023-05-22 01:10:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-22 01:10:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-22 01:10:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-22 01:10:02] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-05-22 01:10:04] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-22 01:10:04] INFO root fetch - main [MainThread]: Store serial: [18189846]
