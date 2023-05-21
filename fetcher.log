@@ -862,3 +862,59 @@
 [2023-05-22 01:52:10] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
 [2023-05-22 01:52:10] INFO root fetch - main [MainThread]: End processing [mirror-tool]: success
 [2023-05-22 01:52:10] INFO root fetch - main [MainThread]: Store serial: [18189976]
+[2023-05-22 01:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189976]
+[2023-05-22 01:57:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkblock
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cclient
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymodd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speedport-api
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GrappyLfjv
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-AutoMLPlus
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diambra-arena
+[2023-05-22 01:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arxivai
+[2023-05-22 01:57:19] INFO root fetch - processPackages [my-AutoMLPlus]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 01:57:19] WARNING root fetch - processPackages [cclient]: Skipping, unable to determine old version
+[2023-05-22 01:57:19] INFO root fetch - main [MainThread]: End processing [cclient] error
+[2023-05-22 01:57:19] INFO root fetch - processPackages [tkblock]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [speedport-api]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [pymodd]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [GrappyLfjv]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [arxivai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [diambra-arena]: New version: [2.1.0rc7] Old Version: [2.1.0rc6]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.43] Old Version: [4.2.42]
+[2023-05-22 01:57:19] INFO root fetch - processPackages [my-AutoMLPlus]: Downloading https://files.pythonhosted.org/packages/d7/6c/afe40d82a28e2084c14fc696e787cdae0432cde24a9a734fe4bb499b5778/my_AutoMLPlus-0.0.6.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/33/70/624b07224401cd92719b4bd356512c033787512391ce585e6bc06fe0766a/diambra-arena-2.1.0rc6.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/ba/a4/b99d020860cc612c1db521c424117aaa5ea58eb7b117e96745f9735f5892/tkblock-1.1.2.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [GrappyLfjv]: Downloading https://files.pythonhosted.org/packages/47/c9/65963e0d8a927d0d0add31a80c37091f789b446ebdf892cb2c8624daaa0d/GrappyLfjv-0.0.16.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [speedport-api]: Downloading https://files.pythonhosted.org/packages/60/fa/ecda253f60fad03d15c76bd753a4a0048b822b191600b0044e66f8ef0f8b/speedport-api-0.4.6.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/4a/48/e68b8a7f8a2d29d26fe1161ef3f6c5fc23068b353d67f83e132b199740df/pymodd-0.3.0.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/4c/fc/eed6520d73161f39e8535d5168c2f6d1f11c840177408025009ad97afe1e/cyberdrop-dl-4.2.43.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [GrappyLfjv]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [GrappyLfjv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrappyLfjv-0.0.15.tar.gz tmp/GrappyLfjv-0.0.16.tar.gz --markdown 20230522/G/GrappyLfjv/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [speedport-api]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [speedport-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedport-api-0.4.5.tar.gz tmp/speedport-api-0.4.6.tar.gz --markdown 20230522/s/speedport-api/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [my-AutoMLPlus]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [my-AutoMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_AutoMLPlus-0.0.5.tar.gz tmp/my_AutoMLPlus-0.0.6.tar.gz --markdown 20230522/m/my-AutoMLPlus/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.42.tar.gz tmp/cyberdrop-dl-4.2.43.tar.gz --markdown 20230522/c/cyberdrop-dl/4.2.42-4.2.43/diff.md --exclude *.pyd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [arxivai]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [arxivai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxivai-0.0.8.tar.gz tmp/arxivai-0.0.9.tar.gz --markdown 20230522/a/arxivai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [pymodd]: Downloading https://files.pythonhosted.org/packages/7a/83/f60a0ec402a574b2ff6a07bdde9bc3812347ebe6c36681b3938d4af663df/pymodd-1.0.0.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/cb/57/98acc1aa52e4b268e932d69e17b7d9e00b2923fad8a4978e64168c820553/tkblock-2.0.0.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/8b/2c/4788b93011841a695c26ba602e0b5a8059c1211be44ca0183eef877bb3b0/diambra-arena-2.1.0rc7.tar.gz
+[2023-05-22 01:57:19] INFO root fetch - processPackages [pymodd]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [pymodd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodd-0.3.0.tar.gz tmp/pymodd-1.0.0.tar.gz --markdown 20230522/p/pymodd/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 01:57:19] INFO root fetch - processPackages [tkblock]: executing diffoscope
+[2023-05-22 01:57:19] INFO root fetch - processPackages [tkblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkblock-1.1.2.tar.gz tmp/tkblock-2.0.0.tar.gz --markdown 20230522/t/tkblock/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-05-22 01:57:20] INFO root fetch - processPackages [diambra-arena]: executing diffoscope
+[2023-05-22 01:57:20] INFO root fetch - processPackages [diambra-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-arena-2.1.0rc6.tar.gz tmp/diambra-arena-2.1.0rc7.tar.gz --markdown 20230522/d/diambra-arena/2.1.0rc6-2.1.0rc7/diff.md --exclude *.pyd
+[2023-05-22 01:57:20] INFO root fetch - main [MainThread]: End processing [GrappyLfjv]: success
+[2023-05-22 01:57:20] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
+[2023-05-22 01:57:21] INFO root fetch - main [MainThread]: End processing [speedport-api]: success
+[2023-05-22 01:57:21] INFO root fetch - main [MainThread]: End processing [arxivai]: success
+[2023-05-22 01:57:21] INFO root fetch - main [MainThread]: End processing [tkblock]: success
+[2023-05-22 01:57:22] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
+[2023-05-22 01:57:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-22 01:57:37] INFO root fetch - main [MainThread]: End processing [pymodd]: success
+[2023-05-22 01:57:37] INFO root fetch - main [MainThread]: Store serial: [18190004]
