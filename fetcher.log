@@ -323,3 +323,58 @@
 [2023-05-22 00:30:24] INFO root fetch - main [MainThread]: End processing [haupt]: success
 [2023-05-22 00:30:28] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
 [2023-05-22 00:30:28] INFO root fetch - main [MainThread]: Store serial: [18189669]
+[2023-05-22 00:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189669]
+[2023-05-22 00:35:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fling-hub
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sha256bit
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dorado
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecida
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fling-start
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turbogpt
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kynaylibs
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: query-doc
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-unopy
+[2023-05-22 00:35:37] INFO root fetch - processPackages [sha256bit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:35:37] INFO root fetch - processPackages [kynaylibs]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-hub]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ecida]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:35:37] WARNING root fetch - processPackages [query-doc]: Skipping, unable to determine old version
+[2023-05-22 00:35:37] INFO root fetch - processPackages [turbogpt]: New version: [1.0.5] Old Version: [1.0.2]
+[2023-05-22 00:35:37] INFO root fetch - main [MainThread]: End processing [query-doc] error
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-start]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 00:35:37] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 00:35:37] INFO root fetch - processPackages [types-unopy]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-05-22 00:35:37] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/e0/3b/1eaf01bb72b96a9a66d0f370af7e3ff793fbcd06e0aca9b8b6a649584605/kynaylibs-1.7.4.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [turbogpt]: Downloading https://files.pythonhosted.org/packages/9f/f6/0785fef82535d9f1010973ab84cd00092cbb312ec84602e9d711f61ca5b0/turbogpt-1.0.2.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [sha256bit]: Downloading https://files.pythonhosted.org/packages/b3/44/8ff097d798af0dc14dc62167b2b75426259ec8a29d66524987e9334b04e1/sha256bit-0.0.9.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [types-unopy]: Downloading https://files.pythonhosted.org/packages/96/ee/89dd7b82c27d946c374b76dbf2f69a9fde7b05bfe9d02869cb618f8a5c6d/types_unopy-1.0.6.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-hub]: Downloading https://files.pythonhosted.org/packages/a6/3c/e8d46ff6dd1e856a181ef225b63419d623ab0274f31cb685549fbaf71ec6/fling_hub-0.1.7.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-start]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-start]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fling_start-0.1.8.tar.gz tmp/fling_start-0.1.9.tar.gz --markdown 20230522/f/fling-start/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ecida]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [ecida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecida-0.0.8.tar.gz tmp/ecida-0.0.9.tar.gz --markdown 20230522/e/ecida/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/88/09/b964e2dd3708d44f38ff55c45ec397a90836f54264ac0e10a2cfaf442979/kynaylibs-1.7.5.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [turbogpt]: Downloading https://files.pythonhosted.org/packages/2c/02/7ae6cdf63b3764ac02a41b0275739eb5b32e1beb693e5a60e6a9593d4821/turbogpt-1.0.5.tar.gz
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-hub]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [fling-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fling_hub-0.1.6.tar.gz tmp/fling_hub-0.1.7.tar.gz --markdown 20230522/f/fling-hub/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.7.4.tar.gz tmp/kynaylibs-1.7.5.tar.gz --markdown 20230522/k/kynaylibs/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [turbogpt]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [turbogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbogpt-1.0.2.tar.gz tmp/turbogpt-1.0.5.tar.gz --markdown 20230522/t/turbogpt/1.0.2-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [sha256bit]: executing diffoscope
+[2023-05-22 00:35:37] INFO root fetch - processPackages [sha256bit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sha256bit-0.0.8.tar.gz tmp/sha256bit-0.0.9.tar.gz --markdown 20230522/s/sha256bit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:35:37] INFO root fetch - processPackages [types-unopy]: Downloading https://files.pythonhosted.org/packages/4e/b6/22675fdcd7e9b837fdf6b6c6476d73fb372af0f4c193d83b2870fddb7837/types_unopy-1.1.0.tar.gz
+[2023-05-22 00:35:38] INFO root fetch - processPackages [types-unopy]: executing diffoscope
+[2023-05-22 00:35:38] INFO root fetch - processPackages [types-unopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_unopy-1.0.6.tar.gz tmp/types_unopy-1.1.0.tar.gz --markdown 20230522/t/types-unopy/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 00:35:38] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 00:35:38] INFO root fetch - main [MainThread]: End processing [ecida]: success
+[2023-05-22 00:35:38] INFO root fetch - main [MainThread]: End processing [fling-start]: success
+[2023-05-22 00:35:38] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-22 00:35:39] INFO root fetch - main [MainThread]: End processing [turbogpt]: success
+[2023-05-22 00:35:39] INFO root fetch - main [MainThread]: End processing [fling-hub]: success
+[2023-05-22 00:35:40] INFO root fetch - main [MainThread]: End processing [sha256bit]: success
+[2023-05-22 00:38:38] ERROR root fetch - processPackages [types-unopy]: Timeout during execution of pkgdiff
+[2023-05-22 00:38:38] INFO root fetch - main [MainThread]: End processing [types-unopy] error
+[2023-05-22 00:38:38] INFO root fetch - main [MainThread]: Store serial: [18189698]
