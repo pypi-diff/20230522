@@ -686,3 +686,9 @@
 [2023-05-22 01:15:13] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230522/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
 [2023-05-22 01:15:14] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
 [2023-05-22 01:15:14] INFO root fetch - main [MainThread]: Store serial: [18189864]
+[2023-05-22 01:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189864]
+[2023-05-22 01:20:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-22 01:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qnpy-template
+[2023-05-22 01:20:23] WARNING root fetch - processPackages [qnpy-template]: Skipping, unable to determine old version
+[2023-05-22 01:20:23] INFO root fetch - main [MainThread]: End processing [qnpy-template] error
+[2023-05-22 01:20:23] INFO root fetch - main [MainThread]: Store serial: [18189869]
