@@ -728,3 +728,44 @@
 [2023-05-22 01:30:43] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
 [2023-05-22 01:30:44] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-05-22 01:30:44] INFO root fetch - main [MainThread]: Store serial: [18189889]
+[2023-05-22 01:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189889]
+[2023-05-22 01:35:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 01:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySimpleGUI
+[2023-05-22 01:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-easy-cache
+[2023-05-22 01:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-22 01:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dense-ev
+[2023-05-22 01:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speedport-api
+[2023-05-22 01:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tailwiz
+[2023-05-22 01:35:52] INFO root fetch - processPackages [PySimpleGUI]: New version: [4.60.5] Old Version: [4.60.4]
+[2023-05-22 01:35:52] INFO root fetch - processPackages [fastapi-easy-cache]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 01:35:52] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230521.8.54.540521] Old Version: [20230521.8.11.112771]
+[2023-05-22 01:35:52] INFO root fetch - processPackages [dense-ev]: New version: [2023.5.22] Old Version: [2023.5.21]
+[2023-05-22 01:35:52] INFO root fetch - processPackages [tailwiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 01:35:52] INFO root fetch - processPackages [speedport-api]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-22 01:35:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/df/28/639901bb1a9f974004eb4358a9ae2e34c32e8812ebef7f0c3bb93489f070/certora-cli-alpha-master-20230521.8.11.112771.tar.gz
+[2023-05-22 01:35:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38978441>=10485760
+[2023-05-22 01:35:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-22 01:35:53] INFO root fetch - processPackages [dense-ev]: Downloading https://files.pythonhosted.org/packages/89/0e/e284c8e11d24e1c8b7aed295e449400222fdefb78b36e33b3728bb59b172/dense_ev-2023.5.21.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [fastapi-easy-cache]: Downloading https://files.pythonhosted.org/packages/12/90/379fd9bd546fa5fa6dd4b7fb47bcc9ac29372333660391d45402f3c0453b/fastapi_easy_cache-0.1.0.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [PySimpleGUI]: Downloading https://files.pythonhosted.org/packages/6c/52/bb57ad543830222e65f4eb14ebc10a9f9d86811592ce31760fa1824304c9/PySimpleGUI-4.60.4.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [speedport-api]: Downloading https://files.pythonhosted.org/packages/1d/95/ce5707566abd49d306454573b4b50a9188cd69aaf7d5137871291af454f4/speedport-api-0.4.4.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [dense-ev]: Downloading https://files.pythonhosted.org/packages/d1/91/c4d70cca503acee786d07df08252536dba5991ea92fb2789f594d77b5da3/dense_ev-2023.5.22.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [tailwiz]: executing diffoscope
+[2023-05-22 01:35:53] INFO root fetch - processPackages [tailwiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailwiz-0.0.8.tar.gz tmp/tailwiz-0.0.9.tar.gz --markdown 20230522/t/tailwiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 01:35:53] INFO root fetch - processPackages [dense-ev]: executing diffoscope
+[2023-05-22 01:35:53] INFO root fetch - processPackages [dense-ev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dense_ev-2023.5.21.tar.gz tmp/dense_ev-2023.5.22.tar.gz --markdown 20230522/d/dense-ev/2023.5.21-2023.5.22/diff.md --exclude *.pyd
+[2023-05-22 01:35:53] INFO root fetch - processPackages [fastapi-easy-cache]: Downloading https://files.pythonhosted.org/packages/83/38/5e6d025386b678abd7447fb47b70253d357df11d1e085abe8b0af6860a4c/fastapi_easy_cache-0.1.1.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [PySimpleGUI]: Downloading https://files.pythonhosted.org/packages/8f/21/afa5178096672ef7a36c6d98255e8c489313cd640679b9eefefde41a2986/PySimpleGUI-4.60.5.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [speedport-api]: Downloading https://files.pythonhosted.org/packages/da/7b/9bb2d4bdcdd530409aba026e7f1ce783df66133d3b0d4034cec5535b5467/speedport-api-0.4.5.tar.gz
+[2023-05-22 01:35:53] INFO root fetch - processPackages [fastapi-easy-cache]: executing diffoscope
+[2023-05-22 01:35:53] INFO root fetch - processPackages [fastapi-easy-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_easy_cache-0.1.0.tar.gz tmp/fastapi_easy_cache-0.1.1.tar.gz --markdown 20230522/f/fastapi-easy-cache/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 01:35:53] INFO root fetch - processPackages [speedport-api]: executing diffoscope
+[2023-05-22 01:35:53] INFO root fetch - processPackages [speedport-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedport-api-0.4.4.tar.gz tmp/speedport-api-0.4.5.tar.gz --markdown 20230522/s/speedport-api/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-22 01:35:53] INFO root fetch - processPackages [PySimpleGUI]: executing diffoscope
+[2023-05-22 01:35:53] INFO root fetch - processPackages [PySimpleGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySimpleGUI-4.60.4.tar.gz tmp/PySimpleGUI-4.60.5.tar.gz --markdown 20230522/P/PySimpleGUI/4.60.4-4.60.5/diff.md --exclude *.pyd
+[2023-05-22 01:35:54] INFO root fetch - main [MainThread]: End processing [fastapi-easy-cache]: success
+[2023-05-22 01:35:54] INFO root fetch - main [MainThread]: End processing [tailwiz]: success
+[2023-05-22 01:35:54] INFO root fetch - main [MainThread]: End processing [speedport-api]: success
+[2023-05-22 01:35:55] INFO root fetch - main [MainThread]: End processing [dense-ev]: success
+[2023-05-22 01:35:55] INFO root fetch - main [MainThread]: End processing [PySimpleGUI]: success
+[2023-05-22 01:35:55] INFO root fetch - main [MainThread]: Store serial: [18189907]
