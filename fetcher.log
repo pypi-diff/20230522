@@ -491,3 +491,31 @@
 [2023-05-22 00:54:22] INFO root fetch - main [MainThread]: End processing [openapi-pydantic]: success
 [2023-05-22 00:54:26] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2023-05-22 00:54:26] INFO root fetch - main [MainThread]: Store serial: [18189761]
+[2023-05-22 00:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189761]
+[2023-05-22 00:59:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-22 00:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hotbox
+[2023-05-22 00:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: install-pybci
+[2023-05-22 00:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codepy
+[2023-05-22 00:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyasic
+[2023-05-22 00:59:35] INFO root fetch - processPackages [install-pybci]: New version: [0.1.4b6] Old Version: [0.1.4b5]
+[2023-05-22 00:59:35] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 00:59:35] INFO root fetch - processPackages [codepy]: New version: [2023.1] Old Version: [2019.1]
+[2023-05-22 00:59:35] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 00:59:35] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-05-22 00:59:35] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230522/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 00:59:35] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/74/60/4117c6f8a629327e14dec8876dc931816453713f7ed46a27ed55c8649556/install-pybci-0.1.4b6.tar.gz
+[2023-05-22 00:59:35] INFO root fetch - processPackages [codepy]: Downloading https://files.pythonhosted.org/packages/6c/81/338a4d4145af7857f9b6fdf9b4d53c58c7eb4c1d092ff6c010efdb4dfdf3/codepy-2019.1.tar.gz
+[2023-05-22 00:59:35] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-05-22 00:59:35] INFO root fetch - processPackages [install-pybci]: executing diffoscope
+[2023-05-22 00:59:35] INFO root fetch - processPackages [install-pybci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install-pybci-0.1.4b5.tar.gz tmp/install-pybci-0.1.4b6.tar.gz --markdown 20230522/i/install-pybci/0.1.4b5-0.1.4b6/diff.md --exclude *.pyd
+[2023-05-22 00:59:35] INFO root fetch - processPackages [codepy]: Downloading https://files.pythonhosted.org/packages/f0/75/6e16a64cb03581c310db65da9dadb2e3e1882251817babf69caf7e98a10a/codepy-2023.1.tar.gz
+[2023-05-22 00:59:36] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-05-22 00:59:36] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-05-22 00:59:36] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230522/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 00:59:36] INFO root fetch - processPackages [codepy]: executing diffoscope
+[2023-05-22 00:59:36] INFO root fetch - processPackages [codepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codepy-2019.1.tar.gz tmp/codepy-2023.1.tar.gz --markdown 20230522/c/codepy/2019.1-2023.1/diff.md --exclude *.pyd
+[2023-05-22 00:59:36] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-05-22 00:59:36] INFO root fetch - main [MainThread]: End processing [install-pybci]: success
+[2023-05-22 00:59:37] INFO root fetch - main [MainThread]: End processing [codepy]: success
+[2023-05-22 00:59:37] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-05-22 00:59:37] INFO root fetch - main [MainThread]: Store serial: [18189774]
