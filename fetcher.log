@@ -378,3 +378,47 @@
 [2023-05-22 00:38:38] ERROR root fetch - processPackages [types-unopy]: Timeout during execution of pkgdiff
 [2023-05-22 00:38:38] INFO root fetch - main [MainThread]: End processing [types-unopy] error
 [2023-05-22 00:38:38] INFO root fetch - main [MainThread]: Store serial: [18189698]
+[2023-05-22 00:43:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189698]
+[2023-05-22 00:43:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exoplasim
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microdot
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kynaylibs
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-space-toolkit-astrodynamics
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbtgenlib
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aporia
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipywardley
+[2023-05-22 00:43:47] WARNING root fetch - processPackages [dbtgenlib]: Skipping, unable to determine old version
+[2023-05-22 00:43:47] INFO root fetch - processPackages [exoplasim]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-22 00:43:47] INFO root fetch - main [MainThread]: End processing [dbtgenlib] error
+[2023-05-22 00:43:47] INFO root fetch - processPackages [kynaylibs]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-05-22 00:43:47] INFO root fetch - processPackages [microdot]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-22 00:43:47] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-22 00:43:47] INFO root fetch - processPackages [aporia]: New version: [2.9.0] Old Version: [2.7.0]
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ipywardley]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 00:43:47] INFO root fetch - processPackages [microdot]: Downloading https://files.pythonhosted.org/packages/48/3f/738226d58d8848fb2f3592fd6913c29066ea76410d630a1894034c8a4d0f/microdot-1.3.0.tar.gz
+[2023-05-22 00:43:47] INFO root fetch - processPackages [exoplasim]: Downloading https://files.pythonhosted.org/packages/f3/01/a266b3579b8884ac7ab8502c6a18363e4b6aae795cefac59df3510c13276/exoplasim-3.2.0.tar.gz
+[2023-05-22 00:43:47] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/2a/af/041e7de843de50f43ec1925e9bd89996a9c37d8c145b75aca771caccde2b/open_space_toolkit_astrodynamics-0.9.2-py39-none-any.whl
+[2023-05-22 00:43:47] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/aa/db/544634e8e26609d7b416b7df7d08e9d2aadab372d7cd8673acc95e2c2546/kynaylibs-1.7.6.tar.gz
+[2023-05-22 00:43:47] WARNING root fetch - processPackages [exoplasim]: Skipping package: exceeds size limit 21781400>=10485760
+[2023-05-22 00:43:47] INFO root fetch - main [MainThread]: End processing [exoplasim] error
+[2023-05-22 00:43:47] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/b4/49/f13b4b0cccf075288a5d964f2991135c95746a3411297f078d05bb7c8104/aporia-2.7.0.tar.gz
+[2023-05-22 00:43:47] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-05-22 00:43:47] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.7.5.tar.gz tmp/kynaylibs-1.7.6.tar.gz --markdown 20230522/k/kynaylibs/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-05-22 00:43:47] INFO root fetch - processPackages [microdot]: Downloading https://files.pythonhosted.org/packages/71/43/bb92b6da16b02c232fce43212667ac01b0cccd300a8b165f06ce2fe81925/microdot-1.3.1.tar.gz
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ipywardley]: Downloading https://files.pythonhosted.org/packages/a8/28/c739fb73f1f0afb97ec484aa3c4a5b8be336a6d6960621b57a3a343c16df/ipywardley-0.0.6.tar.gz
+[2023-05-22 00:43:47] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: Downloading https://files.pythonhosted.org/packages/c7/ff/670fe3cfb09ff46cfcd2aa0e6a5ee5bcebbd6d3b88d33fc50e4f8c38b2a5/open_space_toolkit_astrodynamics-0.9.3-py39-none-any.whl
+[2023-05-22 00:43:47] INFO root fetch - processPackages [microdot]: executing diffoscope
+[2023-05-22 00:43:47] INFO root fetch - processPackages [microdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdot-1.3.0.tar.gz tmp/microdot-1.3.1.tar.gz --markdown 20230522/m/microdot/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ipywardley]: executing diffoscope
+[2023-05-22 00:43:47] INFO root fetch - processPackages [ipywardley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywardley-0.0.5.tar.gz tmp/ipywardley-0.0.6.tar.gz --markdown 20230522/i/ipywardley/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 00:43:47] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/c9/eb/a431386f5c3115fb1d3e72953856c024f0e7ac52fedb23c14542b586dfc7/aporia-2.9.0.tar.gz
+[2023-05-22 00:43:47] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: executing diffoscope
+[2023-05-22 00:43:47] INFO root fetch - processPackages [open-space-toolkit-astrodynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_space_toolkit_astrodynamics-0.9.2-py39-none-any.whl.zip tmp/open_space_toolkit_astrodynamics-0.9.3-py39-none-any.whl.zip --markdown 20230522/o/open-space-toolkit-astrodynamics/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-22 00:43:47] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-05-22 00:43:47] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-2.7.0.tar.gz tmp/aporia-2.9.0.tar.gz --markdown 20230522/a/aporia/2.7.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-22 00:43:48] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-05-22 00:43:49] INFO root fetch - main [MainThread]: End processing [microdot]: success
+[2023-05-22 00:43:49] INFO root fetch - main [MainThread]: End processing [ipywardley]: success
+[2023-05-22 00:43:49] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-05-22 00:43:56] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics]: success
+[2023-05-22 00:43:56] INFO root fetch - main [MainThread]: Store serial: [18189721]
