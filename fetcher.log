@@ -769,3 +769,34 @@
 [2023-05-22 01:35:55] INFO root fetch - main [MainThread]: End processing [dense-ev]: success
 [2023-05-22 01:35:55] INFO root fetch - main [MainThread]: End processing [PySimpleGUI]: success
 [2023-05-22 01:35:55] INFO root fetch - main [MainThread]: Store serial: [18189907]
+[2023-05-22 01:40:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189907]
+[2023-05-22 01:41:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 01:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpru
+[2023-05-22 01:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-AutoMLPlus
+[2023-05-22 01:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dysweep
+[2023-05-22 01:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loquax
+[2023-05-22 01:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spyglass-neuro
+[2023-05-22 01:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ot-my-libs
+[2023-05-22 01:41:03] INFO root fetch - processPackages [loquax]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 01:41:03] INFO root fetch - processPackages [spyglass-neuro]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-05-22 01:41:03] WARNING root fetch - processPackages [gpru]: Skipping, unable to determine old version
+[2023-05-22 01:41:03] INFO root fetch - processPackages [my-AutoMLPlus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 01:41:03] INFO root fetch - main [MainThread]: End processing [gpru] error
+[2023-05-22 01:41:03] WARNING root fetch - processPackages [dysweep]: Skipping, unable to determine old version
+[2023-05-22 01:41:03] WARNING root fetch - processPackages [ot-my-libs]: Skipping, unable to determine old version
+[2023-05-22 01:41:03] INFO root fetch - main [MainThread]: End processing [dysweep] error
+[2023-05-22 01:41:03] INFO root fetch - main [MainThread]: End processing [ot-my-libs] error
+[2023-05-22 01:41:03] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/71/5c/068a0d1b9641531ff087cb7a2c552f2803898f254f27cf2321f67c6bfb0a/spyglass-neuro-0.3.4.tar.gz
+[2023-05-22 01:41:03] INFO root fetch - processPackages [loquax]: Downloading https://files.pythonhosted.org/packages/91/0c/f61ff9a65e13ba79bcf708ee2a90d799cb7859ea00d1110503173681473a/loquax-0.1.4.tar.gz
+[2023-05-22 01:41:03] INFO root fetch - processPackages [my-AutoMLPlus]: Downloading https://files.pythonhosted.org/packages/1e/44/0eeab494bc73edd4a5243e91df34fc9f1ab340ea6d4520bde18658102c6d/my_AutoMLPlus-0.0.3.tar.gz
+[2023-05-22 01:41:03] INFO root fetch - processPackages [loquax]: executing diffoscope
+[2023-05-22 01:41:03] INFO root fetch - processPackages [loquax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loquax-0.1.3.tar.gz tmp/loquax-0.1.4.tar.gz --markdown 20230522/l/loquax/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 01:41:03] INFO root fetch - processPackages [my-AutoMLPlus]: executing diffoscope
+[2023-05-22 01:41:03] INFO root fetch - processPackages [my-AutoMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_AutoMLPlus-0.0.2.tar.gz tmp/my_AutoMLPlus-0.0.3.tar.gz --markdown 20230522/m/my-AutoMLPlus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 01:41:04] INFO root fetch - processPackages [spyglass-neuro]: Downloading https://files.pythonhosted.org/packages/3b/88/5e3481a4901608e2758f441696db2fcf9972aab6489b4d306b783dc73425/spyglass-neuro-0.4.0.tar.gz
+[2023-05-22 01:41:04] INFO root fetch - processPackages [spyglass-neuro]: executing diffoscope
+[2023-05-22 01:41:04] INFO root fetch - processPackages [spyglass-neuro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyglass-neuro-0.3.4.tar.gz tmp/spyglass-neuro-0.4.0.tar.gz --markdown 20230522/s/spyglass-neuro/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 01:41:04] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
+[2023-05-22 01:41:04] INFO root fetch - main [MainThread]: End processing [loquax]: success
+[2023-05-22 01:41:05] INFO root fetch - main [MainThread]: End processing [spyglass-neuro]: success
+[2023-05-22 01:41:05] INFO root fetch - main [MainThread]: Store serial: [18189942]
