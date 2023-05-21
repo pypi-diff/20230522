@@ -422,3 +422,43 @@
 [2023-05-22 00:43:49] INFO root fetch - main [MainThread]: End processing [aporia]: success
 [2023-05-22 00:43:56] INFO root fetch - main [MainThread]: End processing [open-space-toolkit-astrodynamics]: success
 [2023-05-22 00:43:56] INFO root fetch - main [MainThread]: Store serial: [18189721]
+[2023-05-22 00:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18189721]
+[2023-05-22 00:49:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exoplasim
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dorado
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exodia
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nibiru-proto
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamchat-agent
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqt-json-setting
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ev-fleet-sim
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoviml
+[2023-05-22 00:49:05] WARNING root fetch - processPackages [exodia]: Skipping, unable to determine old version
+[2023-05-22 00:49:05] INFO root fetch - main [MainThread]: End processing [exodia] error
+[2023-05-22 00:49:05] WARNING root fetch - processPackages [pyqt-json-setting]: Skipping, unable to determine old version
+[2023-05-22 00:49:05] INFO root fetch - main [MainThread]: End processing [pyqt-json-setting] error
+[2023-05-22 00:49:05] WARNING root fetch - processPackages [streamchat-agent]: Skipping, unable to determine old version
+[2023-05-22 00:49:05] INFO root fetch - main [MainThread]: End processing [streamchat-agent] error
+[2023-05-22 00:49:05] INFO root fetch - processPackages [exoplasim]: New version: [3.2.1.post1] Old Version: [3.2.1]
+[2023-05-22 00:49:05] INFO root fetch - processPackages [nibiru-proto]: New version: [0.20.0rc1] Old Version: [0.20.0b5]
+[2023-05-22 00:49:05] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-05-22 00:49:05] INFO root fetch - processPackages [autoviml]: New version: [0.1.716] Old Version: [0.1.715]
+[2023-05-22 00:49:05] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 00:49:05] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 00:49:05] INFO root fetch - processPackages [exoplasim]: Downloading https://files.pythonhosted.org/packages/15/3a/8122e753b3bd70dd6e373fd4ce3923a6191e5876edff08cea6c611176c88/exoplasim-3.2.1.tar.gz
+[2023-05-22 00:49:05] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/d9/76/123a8480ef1e04934a039b79e3ee866790f3d1258a61807b802560d16f6e/nibiru_proto-0.20.0b5.tar.gz
+[2023-05-22 00:49:05] WARNING root fetch - processPackages [exoplasim]: Skipping package: exceeds size limit 21875573>=10485760
+[2023-05-22 00:49:05] INFO root fetch - main [MainThread]: End processing [exoplasim] error
+[2023-05-22 00:49:05] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/ce/8f/257a97adcf67c3862392b22a94a7671dd394d9af275a4fb7aac081e60b4c/autoviml-0.1.716.tar.gz
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-05-22 00:49:05] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230522/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-05-22 00:49:06] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/05/5b/6debdbcdd53ce135c4e113b78435b46e93776d7acde62ea667cb6c60df79/nibiru_proto-0.20.0rc1.tar.gz
+[2023-05-22 00:49:06] INFO root fetch - processPackages [autoviml]: executing diffoscope
+[2023-05-22 00:49:06] INFO root fetch - processPackages [autoviml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviml-0.1.715.tar.gz tmp/autoviml-0.1.716.tar.gz --markdown 20230522/a/autoviml/0.1.715-0.1.716/diff.md --exclude *.pyd
+[2023-05-22 00:49:06] INFO root fetch - processPackages [nibiru-proto]: executing diffoscope
+[2023-05-22 00:49:06] INFO root fetch - processPackages [nibiru-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru_proto-0.20.0b5.tar.gz tmp/nibiru_proto-0.20.0rc1.tar.gz --markdown 20230522/n/nibiru-proto/0.20.0b5-0.20.0rc1/diff.md --exclude *.pyd
+[2023-05-22 00:49:07] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-05-22 00:49:07] INFO root fetch - main [MainThread]: End processing [autoviml]: success
+[2023-05-22 00:49:07] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 00:49:10] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
+[2023-05-22 00:49:10] INFO root fetch - main [MainThread]: Store serial: [18189751]
