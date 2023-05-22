@@ -18660,3 +18660,146 @@ EOFError: EOF read where object expected
 [2023-05-22 17:30:16] INFO root fetch - main [MainThread]: End processing [djangoldp-account]: success
 [2023-05-22 17:30:51] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
 [2023-05-22 17:30:51] INFO root fetch - main [MainThread]: Store serial: [18200135]
+[2023-05-22 17:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200135]
+[2023-05-22 17:36:00] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingtalk2
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlitopencvplayer
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-astro-uda
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hummuspy
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylibrb
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linode-api4
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-cisco-maintenance
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: YMS
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tiledb-cloud
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ajm1102pandemic
+[2023-05-22 17:36:00] WARNING root fetch - processPackages [ajm1102pandemic]: Skipping, unable to determine old version
+[2023-05-22 17:36:00] INFO root fetch - processPackages [ajm1102pandemic]: Start processing: sql2mermaid
+[2023-05-22 17:36:00] INFO root fetch - main [MainThread]: End processing [ajm1102pandemic] error
+[2023-05-22 17:36:00] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:36:00] INFO root fetch - processPackages [YMS]: New version: [0.794] Old Version: [0.793]
+[2023-05-22 17:36:00] INFO root fetch - processPackages [dingtalk2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 17:36:01] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-22 17:36:01] INFO root fetch - processPackages [linode-api4]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-05-22 17:36:01] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-22 17:36:01] WARNING root fetch - processPackages [streamlitopencvplayer]: Skipping, unable to determine old version
+[2023-05-22 17:36:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [streamlitopencvplayer]: Start processing: sample-statistics
+[2023-05-22 17:36:01] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:36:01] INFO root fetch - main [MainThread]: End processing [streamlitopencvplayer] error
+[2023-05-22 17:36:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [sql2mermaid]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pylibrb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 17:36:01] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/a7/e4/9937ae80f60a39478e5a2998f03c5dbad264e452d8f7b257d2ebbfc4d54f/YMS-0.793.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [dingtalk2]: Downloading https://files.pythonhosted.org/packages/e9/1b/6a1a77d51815923e6a5ee3f46a0f21a267773b3a60ba5ed0193b9773e1e1/dingtalk2-0.1.0.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/4c/1b/a9bae838036b9ab8e0b6f80adc507dfdd8f9425c236e119b01ff029a190c/linode_api4-5.4.0.tar.gz
+[2023-05-22 17:36:01] WARNING root fetch - processPackages [sample-statistics]: Skipping, unable to determine old version
+[2023-05-22 17:36:01] INFO root fetch - processPackages [sample-statistics]: Start processing: pyfasttrack
+[2023-05-22 17:36:01] INFO root fetch - main [MainThread]: End processing [sample-statistics] error
+[2023-05-22 17:36:01] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/2a/3d/bf9132ce675860beccc97784b781b39f8bb0529665974d1669bb8c5e1f4f/deep_astro_uda-0.2.5.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [sql2mermaid]: Downloading https://files.pythonhosted.org/packages/c0/35/a2a0771f6bdd44b3ff7d56c38dfa2fba13233071c3e3eaf3b83e89f42f06/sql2mermaid-1.1.0.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pylibrb]: Downloading https://files.pythonhosted.org/packages/49/34/46bf18ad9bcb2dac04457ab9a77f72bb382cbfa6dc17693f2649a24f6230/pylibrb-0.0.2.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pyfasttrack]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 17:36:01] INFO root fetch - processPackages [dingtalk2]: Downloading https://files.pythonhosted.org/packages/c0/42/27dd2e16f8906182bf2c7f18f74a19b8d71de243ce5fc67a4448d2b78986/dingtalk2-0.1.1.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/55/a5/8581def51333939ccffd9cd864e7fb4d4955ef3525e01eacdb28fb989a94/YMS-0.794.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230522/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230522/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [dingtalk2]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [dingtalk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk2-0.1.0.tar.gz tmp/dingtalk2-0.1.1.tar.gz --markdown 20230522/d/dingtalk2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pyfasttrack]: Downloading https://files.pythonhosted.org/packages/ae/92/de391a7771e54d8f5b55d32eda3c116f53764d522c6e4e8b945e5cb21532/pyfasttrack-0.0.2-py2.py3-none-any.whl
+[2023-05-22 17:36:01] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/5d/c4/d85c89ea2b0cc082aabc538e27fccd2f706b7922ce0e74370f9b9af708b6/deep_astro_uda-0.2.6.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pylibrb]: Downloading https://files.pythonhosted.org/packages/61/b6/6810a3db353bdbeba29e1f274945f9d2fcb2eea9eaa6918a1173180d6607/pylibrb-0.0.3.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/16/b2/5055b6f4f0160e6158d46ea754e9fce70a6e26a3125adc4f12430bc4b7cb/linode_api4-5.4.1.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.793.tar.gz tmp/YMS-0.794.tar.gz --markdown 20230522/Y/YMS/0.793-0.794/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [sql2mermaid]: Downloading https://files.pythonhosted.org/packages/d1/3d/b1a68b85b62d47d5da328b83a53543945a3a166104cc785610e0ad00a715/sql2mermaid-1.1.1.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pylibrb]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pylibrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibrb-0.0.2.tar.gz tmp/pylibrb-0.0.3.tar.gz --markdown 20230522/p/pylibrb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [linode-api4]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [linode-api4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_api4-5.4.0.tar.gz tmp/linode_api4-5.4.1.tar.gz --markdown 20230522/l/linode-api4/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [sql2mermaid]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [sql2mermaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql2mermaid-1.1.0.tar.gz tmp/sql2mermaid-1.1.1.tar.gz --markdown 20230522/s/sql2mermaid/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.2.5.tar.gz tmp/deep_astro_uda-0.2.6.tar.gz --markdown 20230522/d/deep-astro-uda/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pyfasttrack]: Downloading https://files.pythonhosted.org/packages/b4/a6/24e43f5f394d27157a30a90a468c2aa2a098c3d0f6239737e5c054274852/pyfasttrack-0.0.3.tar.gz
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pyfasttrack]: executing diffoscope
+[2023-05-22 17:36:01] INFO root fetch - processPackages [pyfasttrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfasttrack-0.0.2-py2.py3-none-any.whl.zip tmp/pyfasttrack-0.0.3.tar.gz --markdown 20230522/p/pyfasttrack/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 17:36:02] INFO root fetch - processPackages [hummuspy]: Start processing: cfinterface
+[2023-05-22 17:36:02] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-22 17:36:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: deep-astro-uda
+[2023-05-22 17:36:02] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [dingtalk2]: Start processing: relativedate
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [dingtalk2]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [cfinterface]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-22 17:36:03] WARNING root fetch - processPackages [relativedate]: Skipping, unable to determine old version
+[2023-05-22 17:36:03] INFO root fetch - processPackages [relativedate]: Start processing: diffrax
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [relativedate] error
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.2.5.tar.gz tmp/deep_astro_uda-0.2.6.tar.gz --markdown 20230522/d/deep-astro-uda/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-22 17:36:03] INFO root fetch - processPackages [cfinterface]: Downloading https://files.pythonhosted.org/packages/7c/5e/43144aebac31143eb7e8485469d182d17c616a181e3e2ee636de1d855265/cfinterface-1.3.1.tar.gz
+[2023-05-22 17:36:03] INFO root fetch - processPackages [diffrax]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [YMS]: Start processing: deep-astro-uda
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [pylibrb]: Start processing: morpheus-mail
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [pylibrb]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [morpheus-mail]: New version: [1.0.17] Old Version: [0.0.5]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [pyfasttrack]: Start processing: shinherpro
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [pyfasttrack]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [sql2mermaid]: Start processing: bayanpy
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [sql2mermaid]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: Start processing: swachhdata
+[2023-05-22 17:36:03] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:36:03] INFO root fetch - processPackages [diffrax]: Downloading https://files.pythonhosted.org/packages/88/85/2916619511aa1b5d0b14e43070f6414d18ea548915d4c361936f9a72f9d1/diffrax-0.3.1.tar.gz
+[2023-05-22 17:36:03] INFO root fetch - processPackages [swachhdata]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [morpheus-mail]: executing diffoscope
+[2023-05-22 17:36:03] INFO root fetch - processPackages [morpheus-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morpheus-mail-0.0.5.tar.gz tmp/morpheus-mail-1.0.17.tar.gz --markdown 20230522/m/morpheus-mail/0.0.5-1.0.17/diff.md --exclude *.pyd
+[2023-05-22 17:36:03] INFO root fetch - processPackages [shinherpro]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:36:03] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.2.5.tar.gz tmp/deep_astro_uda-0.2.6.tar.gz --markdown 20230522/d/deep-astro-uda/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-22 17:36:03] INFO root fetch - processPackages [bayanpy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-22 17:36:03] INFO root fetch - processPackages [cfinterface]: Downloading https://files.pythonhosted.org/packages/3e/27/24c658db85821d066478f35fee3b040c858d4bab38ebf248c3a4ed637d8d/cfinterface-1.4.0.tar.gz
+[2023-05-22 17:36:03] INFO root fetch - processPackages [cfinterface]: executing diffoscope
+[2023-05-22 17:36:03] INFO root fetch - processPackages [cfinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfinterface-1.3.1.tar.gz tmp/cfinterface-1.4.0.tar.gz --markdown 20230522/c/cfinterface/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-22 17:36:03] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/22/af/835066636df3a974e1cce893fb69b088ef5b976b2baf662e811d30eccf86/bayanpy-0.7.2.tar.gz
+[2023-05-22 17:36:03] INFO root fetch - processPackages [swachhdata]: executing diffoscope
+[2023-05-22 17:36:03] INFO root fetch - processPackages [swachhdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swachhdata-2.0.0rc1-py3-none-any.whl.zip tmp/swachhdata-2.0.0rc2-py3-none-any.whl.zip --markdown 20230522/s/swachhdata/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-05-22 17:36:03] INFO root fetch - processPackages [diffrax]: Downloading https://files.pythonhosted.org/packages/e7/c8/096433267c2e79029ab174c5033e8aa73ff5da23ac7ebb6d3366744ef0a0/diffrax-0.4.0.tar.gz
+[2023-05-22 17:36:03] INFO root fetch - processPackages [shinherpro]: Downloading https://files.pythonhosted.org/packages/2d/bf/1adb211ea60c88331dc18e807a73d4a405cc173ce64adc7e10c41e69e5c3/shinherpro-1.6.5.tar.gz
+[2023-05-22 17:36:03] INFO root fetch - processPackages [diffrax]: executing diffoscope
+[2023-05-22 17:36:03] INFO root fetch - processPackages [diffrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffrax-0.3.1.tar.gz tmp/diffrax-0.4.0.tar.gz --markdown 20230522/d/diffrax/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 17:36:03] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/5c/82/a0aea485199181a3ab1389d77bee5c74b72a888eb55472fc348cfd2d6f04/bayanpy-0.7.3.tar.gz
+[2023-05-22 17:36:04] INFO root fetch - processPackages [shinherpro]: executing diffoscope
+[2023-05-22 17:36:04] INFO root fetch - processPackages [shinherpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinherpro-1.6.4.tar.gz tmp/shinherpro-1.6.5.tar.gz --markdown 20230522/s/shinherpro/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-22 17:36:04] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2023-05-22 17:36:04] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.7.2.tar.gz tmp/bayanpy-0.7.3.tar.gz --markdown 20230522/b/bayanpy/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-22 17:36:04] INFO root fetch - processPackages [morpheus-mail]: Start processing: shellcrafter
+[2023-05-22 17:36:04] INFO root fetch - main [MainThread]: End processing [morpheus-mail]: success
+[2023-05-22 17:36:04] INFO root fetch - processPackages [deep-astro-uda]: Start processing: sidetrek
+[2023-05-22 17:36:04] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:36:04] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:36:04] INFO root fetch - processPackages [shellcrafter]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 17:36:04] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 17:36:04] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:36:05] INFO root fetch - processPackages [shellcrafter]: Downloading https://files.pythonhosted.org/packages/20/fd/63768aa380e4d55e825b88578b5d295efe0b38865d49c39989d790eca2be/shellcrafter-1.0.4.tar.gz
+[2023-05-22 17:36:05] INFO root fetch - processPackages [deep-astro-uda]: Start processing: deep-astro-uda
+[2023-05-22 17:36:05] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:36:05] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-22 17:36:05] INFO root fetch - main [MainThread]: End processing [swachhdata]: success
+[2023-05-22 17:36:05] INFO root fetch - processPackages [shellcrafter]: Downloading https://files.pythonhosted.org/packages/02/02/88c2d0ac2b0b2872203b68e0c1a7e3bad0e143f20e3baef0bfc7a273288e/shellcrafter-1.0.5.tar.gz
+[2023-05-22 17:36:05] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:36:05] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.2.5.tar.gz tmp/deep_astro_uda-0.2.6.tar.gz --markdown 20230522/d/deep-astro-uda/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-22 17:36:05] INFO root fetch - main [MainThread]: End processing [shinherpro]: success
+[2023-05-22 17:36:05] INFO root fetch - processPackages [shellcrafter]: executing diffoscope
+[2023-05-22 17:36:05] INFO root fetch - processPackages [shellcrafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcrafter-1.0.4.tar.gz tmp/shellcrafter-1.0.5.tar.gz --markdown 20230522/s/shellcrafter/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 17:36:05] INFO root fetch - main [MainThread]: End processing [cfinterface]: success
+[2023-05-22 17:36:05] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2023-05-22 17:36:06] INFO root fetch - main [MainThread]: End processing [diffrax]: success
+[2023-05-22 17:36:06] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 17:36:06] INFO root fetch - main [MainThread]: End processing [linode-api4]: success
+[2023-05-22 17:36:06] INFO root fetch - main [MainThread]: End processing [shellcrafter]: success
+[2023-05-22 17:36:07] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:36:07] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-05-22 17:36:07] INFO root fetch - main [MainThread]: Store serial: [18200240]
