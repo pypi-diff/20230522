@@ -3312,3 +3312,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 03:13:42] INFO root fetch - main [MainThread]: End processing [youte]: success
 [2023-05-22 03:13:54] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-05-22 03:13:54] INFO root fetch - main [MainThread]: Store serial: [18191237]
+[2023-05-22 03:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191237]
+[2023-05-22 03:19:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolombos
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-codebase-documenter
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: looker-deployer
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hassle
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bgutils-hddly
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uos
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fixate
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zos
+[2023-05-22 03:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qrt
+[2023-05-22 03:19:03] WARNING root fetch - processPackages [uos]: Skipping, unable to determine old version
+[2023-05-22 03:19:03] INFO root fetch - processPackages [uos]: Start processing: robin-stocks
+[2023-05-22 03:19:03] INFO root fetch - main [MainThread]: End processing [uos] error
+[2023-05-22 03:19:03] INFO root fetch - processPackages [looker-deployer]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-22 03:19:03] WARNING root fetch - processPackages [auto-codebase-documenter]: Skipping, unable to determine old version
+[2023-05-22 03:19:03] INFO root fetch - processPackages [auto-codebase-documenter]: Start processing: cengal
+[2023-05-22 03:19:03] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter] error
+[2023-05-22 03:19:03] ERROR root fetch - processPackages [qrt]: Unable to get metadata: No such project 'qrt'
+[2023-05-22 03:19:03] INFO root fetch - processPackages [qrt]: Start processing: kolombos
+[2023-05-22 03:19:03] INFO root fetch - main [MainThread]: End processing [qrt] error
+[2023-05-22 03:19:03] INFO root fetch - processPackages [bgutils-hddly]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [hassle]: New version: [2.8.5] Old Version: [2.8.4]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [robin-stocks]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [cengal]: New version: [3.1.18.9] Old Version: [3.1.18.8]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [fixate]: New version: [0.6.1.dev0] Old Version: [0.6.0]
+[2023-05-22 03:19:03] WARNING root fetch - processPackages [zos]: Skipping, unable to determine old version
+[2023-05-22 03:19:03] INFO root fetch - processPackages [zos]: Start processing: duckdb
+[2023-05-22 03:19:03] INFO root fetch - main [MainThread]: End processing [zos] error
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev26] Old Version: [0.8.1.dev23]
+[2023-05-22 03:19:03] INFO root fetch - processPackages [bgutils-hddly]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [bgutils-hddly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip tmp/bgutils_hddly-1.1.9.tar.gz --markdown 20230522/b/bgutils-hddly/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.4.tar.gz tmp/hassle-2.8.5.tar.gz --markdown 20230522/h/hassle/2.8.4-2.8.5/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.18.8.tar.gz tmp/cengal-3.1.18.9.tar.gz --markdown 20230522/c/cengal/3.1.18.8-3.1.18.9/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/8e/c4/06a959ebc00da9970ea3a898001d248eabcb3171aa4f01fc33ba41fd0cdf/robin_stocks-2.1.0.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [looker-deployer]: Downloading https://files.pythonhosted.org/packages/b5/68/24dfd18261f3ba02394be988895503781c9a4fd894b083cabf30ebfedf81/looker_deployer-0.3.8.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: Downloading https://files.pythonhosted.org/packages/2f/01/36aa1219ba7c812a0100dd44ad71f4ac4c2b0366b23d23ca616d31b19369/kolombos-1.5.3.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: Downloading https://files.pythonhosted.org/packages/2f/01/36aa1219ba7c812a0100dd44ad71f4ac4c2b0366b23d23ca616d31b19369/kolombos-1.5.3.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [fixate]: Downloading https://files.pythonhosted.org/packages/f9/87/9a6ae01a83e51e32a0c5135ffb4c35678e96112af624afd9661123d6898b/fixate-0.6.0.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230522/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/2c/5e/2c1bc019de7104ddb7add0cb6ca53741bf1258dad7d14afe33c567f49736/robin_stocks-3.0.0.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: Downloading https://files.pythonhosted.org/packages/e1/dd/979f6046307bb44dcbccd48a3e6146d2937ef898681d55fa9b9cf54cf06d/kolombos-1.5.4.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: Downloading https://files.pythonhosted.org/packages/e1/dd/979f6046307bb44dcbccd48a3e6146d2937ef898681d55fa9b9cf54cf06d/kolombos-1.5.4.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [fixate]: Downloading https://files.pythonhosted.org/packages/10/85/b817145f384d50bc6046249f06b05a30215335e39b585e7e3c16ec8bbcf1/fixate-0.6.1.dev0.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/dd/8c/e88eefb65929801de61df98be744b5c71902d11591eef3b8ae5a872339a9/duckdb-0.8.1.dev26.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [looker-deployer]: Downloading https://files.pythonhosted.org/packages/ec/95/ef03b3f11752b43b5980ed3d28dbb808f03959e0b61030d588489d73b15d/looker_deployer-0.3.9.tar.gz
+[2023-05-22 03:19:03] INFO root fetch - processPackages [robin-stocks]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [robin-stocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_stocks-2.1.0.tar.gz tmp/robin_stocks-3.0.0.tar.gz --markdown 20230522/r/robin-stocks/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolombos-1.5.3.tar.gz tmp/kolombos-1.5.4.tar.gz --markdown 20230522/k/kolombos/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [kolombos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolombos-1.5.3.tar.gz tmp/kolombos-1.5.4.tar.gz --markdown 20230522/k/kolombos/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [looker-deployer]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [looker-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looker_deployer-0.3.8.tar.gz tmp/looker_deployer-0.3.9.tar.gz --markdown 20230522/l/looker-deployer/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [fixate]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [fixate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixate-0.6.0.tar.gz tmp/fixate-0.6.1.dev0.tar.gz --markdown 20230522/f/fixate/0.6.0-0.6.1.dev0/diff.md --exclude *.pyd
+[2023-05-22 03:19:03] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-05-22 03:19:03] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev23.tar.gz tmp/duckdb-0.8.1.dev26.tar.gz --markdown 20230522/d/duckdb/0.8.1.dev23-0.8.1.dev26/diff.md --exclude *.pyd
+[2023-05-22 03:19:04] INFO root fetch - main [MainThread]: End processing [bgutils-hddly]: success
+[2023-05-22 03:19:05] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-22 03:19:05] INFO root fetch - main [MainThread]: End processing [looker-deployer]: success
+[2023-05-22 03:19:05] INFO root fetch - main [MainThread]: End processing [robin-stocks]: success
+[2023-05-22 03:19:05] INFO root fetch - main [MainThread]: End processing [kolombos]: success
+[2023-05-22 03:19:05] INFO root fetch - main [MainThread]: End processing [fixate]: success
+[2023-05-22 03:19:05] INFO root fetch - main [MainThread]: End processing [kolombos]: success
+[2023-05-22 03:19:06] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-22 03:19:18] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-22 03:21:22] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-05-22 03:21:22] INFO root fetch - main [MainThread]: Store serial: [18191283]
