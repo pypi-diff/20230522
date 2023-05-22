@@ -10079,3 +10079,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:08:05] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
 [2023-05-22 12:08:10] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2023-05-22 12:08:10] INFO root fetch - main [MainThread]: Store serial: [18195211]
+[2023-05-22 12:13:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195211]
+[2023-05-22 12:13:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arthub-api
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SRPAstro.FITS
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graph-attention-student
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stocksymboltools
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-cisco-maintenance
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youtube-summary
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybaht
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zoom-python-client
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-model-builder-relations
+[2023-05-22 12:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cnaclib2
+[2023-05-22 12:13:20] INFO root fetch - processPackages [arthub-api]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [SRPAstro.FITS]: New version: [3.0.1] Old Version: [2.9.7]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [zoom-python-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 12:13:20] WARNING root fetch - processPackages [cnaclib2]: Skipping, unable to determine old version
+[2023-05-22 12:13:20] INFO root fetch - processPackages [graph-attention-student]: New version: [0.9.0] Old Version: [0.7.2]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [oarepo-model-builder-relations]: New version: [4.0.0] Old Version: [1.0.4]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [pybaht]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [cnaclib2]: Start processing: almapiwrapper
+[2023-05-22 12:13:20] INFO root fetch - processPackages [stocksymboltools]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 12:13:20] INFO root fetch - main [MainThread]: End processing [cnaclib2] error
+[2023-05-22 12:13:20] INFO root fetch - processPackages [youtube-summary]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [almapiwrapper]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-05-22 12:13:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [almapiwrapper]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [almapiwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almapiwrapper-0.8.6.tar.gz tmp/almapiwrapper-0.9.0.tar.gz --markdown 20230522/a/almapiwrapper/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [stocksymboltools]: Downloading https://files.pythonhosted.org/packages/cf/94/19c5f0a5b2f1949a95b7f2f6d414413ba3fea033e2f981c27fd58f16eaaa/stocksymboltools-0.1.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [SRPAstro.FITS]: Downloading https://files.pythonhosted.org/packages/6a/09/ceec4c7c25f0877acf1662fcdb68973afe63510833072e533931f8899eb8/SRPAstro.FITS-2.9.7.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [youtube-summary]: Downloading https://files.pythonhosted.org/packages/03/db/94685379c6157509d6f1782a936016056303326ccffe2a49d144dc096018/youtube-summary-0.1.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [oarepo-model-builder-relations]: Downloading https://files.pythonhosted.org/packages/bd/ff/7114da575b692c0844efc3ba155c2e71d3a36b6c1eb42b68ef53384ee32a/oarepo-model-builder-relations-1.0.4.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [zoom-python-client]: Downloading https://files.pythonhosted.org/packages/c7/41/1bb44949f229990baa179cefd746c30a403ddd9381ebfe6a7578fba1374c/zoom-python-client-0.0.4.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [pybaht]: Downloading https://files.pythonhosted.org/packages/29/96/0a54bb98ca1a9c1d15a4a72c935ba9cfb1199f25ef2d27210002d38461ab/pybaht-0.2.0.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [pybaht]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [pybaht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaht-0.1.1.tar.gz tmp/pybaht-0.2.0.tar.gz --markdown 20230522/p/pybaht/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.6.8.tar.gz tmp/arthub_api-1.6.9.tar.gz --markdown 20230522/a/arthub-api/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [oarepo-model-builder-relations]: Downloading https://files.pythonhosted.org/packages/54/8b/becef6ccb8ab24f44f0df7c1543e2bc2518715006e0b319772b8cb75eefd/oarepo-model-builder-relations-4.0.0.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [zoom-python-client]: Downloading https://files.pythonhosted.org/packages/02/f1/c67f3fc93c724038450eea16ec04af921b94c3ad3fae6c20094fd0f83ea2/zoom-python-client-0.0.5.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [oarepo-model-builder-relations]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [oarepo-model-builder-relations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-relations-1.0.4.tar.gz tmp/oarepo-model-builder-relations-4.0.0.tar.gz --markdown 20230522/o/oarepo-model-builder-relations/1.0.4-4.0.0/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [zoom-python-client]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [stocksymboltools]: Downloading https://files.pythonhosted.org/packages/c1/0f/a7738ffc2d982d98f87722b7e9ed06dca7d2194b592c3d24ffd946fe816b/stocksymboltools-0.2.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [zoom-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoom-python-client-0.0.4.tar.gz tmp/zoom-python-client-0.0.5.tar.gz --markdown 20230522/z/zoom-python-client/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [youtube-summary]: Downloading https://files.pythonhosted.org/packages/33/10/6264f7bcee0848c7d74390315d20814e9065b4f22cf2e04a0d1b05937f89/youtube-summary-0.1.1.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [SRPAstro.FITS]: Downloading https://files.pythonhosted.org/packages/2e/38/4f710d3c8c1b96dd3aad15d82522a974b9d6423b9016e62f5c1fd5a54abc/SRPAstro.FITS-3.0.1.tar.gz
+[2023-05-22 12:13:20] INFO root fetch - processPackages [graph-attention-student]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [graph-attention-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_attention_student-0.7.2.tar.gz tmp/graph_attention_student-0.9.0.tar.gz --markdown 20230522/g/graph-attention-student/0.7.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [youtube-summary]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [youtube-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube-summary-0.1.tar.gz tmp/youtube-summary-0.1.1.tar.gz --markdown 20230522/y/youtube-summary/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [stocksymboltools]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [stocksymboltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stocksymboltools-0.1.tar.gz tmp/stocksymboltools-0.2.tar.gz --markdown 20230522/s/stocksymboltools/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 12:13:20] INFO root fetch - processPackages [SRPAstro.FITS]: executing diffoscope
+[2023-05-22 12:13:20] INFO root fetch - processPackages [SRPAstro.FITS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SRPAstro.FITS-2.9.7.tar.gz tmp/SRPAstro.FITS-3.0.1.tar.gz --markdown 20230522/S/SRPAstro.FITS/2.9.7-3.0.1/diff.md --exclude *.pyd
+[2023-05-22 12:13:21] INFO root fetch - processPackages [pybaht]: Start processing: wagtail-mautic-integration
+[2023-05-22 12:13:21] INFO root fetch - main [MainThread]: End processing [pybaht]: success
+[2023-05-22 12:13:21] WARNING root fetch - processPackages [wagtail-mautic-integration]: Skipping, unable to determine old version
+[2023-05-22 12:13:21] INFO root fetch - processPackages [wagtail-mautic-integration]: Start processing: idbadapter
+[2023-05-22 12:13:21] INFO root fetch - main [MainThread]: End processing [wagtail-mautic-integration] error
+[2023-05-22 12:13:21] INFO root fetch - processPackages [idbadapter]: New version: [1.3] Old Version: [1.2]
+[2023-05-22 12:13:21] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: dose-response
+[2023-05-22 12:13:21] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 12:13:21] WARNING root fetch - processPackages [dose-response]: Skipping, unable to determine old version
+[2023-05-22 12:13:21] INFO root fetch - processPackages [dose-response]: Start processing: ingenialink
+[2023-05-22 12:13:21] INFO root fetch - main [MainThread]: End processing [dose-response] error
+[2023-05-22 12:13:21] INFO root fetch - processPackages [ingenialink]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-05-22 12:13:21] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/94/31/b15540f4ea8ec6cb72138497871fd8269e0d88c51f5b5297a54c34c18163/idbadapter-1.2.tar.gz
+[2023-05-22 12:13:21] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-22 12:13:22] INFO root fetch - main [MainThread]: End processing [youtube-summary]: success
+[2023-05-22 12:13:22] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-relations]: success
+[2023-05-22 12:13:22] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/a2/7e/3ccc879fced4b82bf025133c81d03ee9b09c0f469f601eeab1147a13e248/idbadapter-1.3.tar.gz
+[2023-05-22 12:13:22] INFO root fetch - main [MainThread]: End processing [stocksymboltools]: success
+[2023-05-22 12:13:22] INFO root fetch - processPackages [ingenialink]: Downloading https://files.pythonhosted.org/packages/e8/f4/1a8bf738c6a89f7ab198c9bdc1d522bbd90f29bcad9f2913c3b0b818f270/ingenialink-7.0.1.tar.gz
+[2023-05-22 12:13:22] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-05-22 12:13:22] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.2.tar.gz tmp/idbadapter-1.3.tar.gz --markdown 20230522/i/idbadapter/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-22 12:13:22] INFO root fetch - main [MainThread]: End processing [zoom-python-client]: success
+[2023-05-22 12:13:22] INFO root fetch - main [MainThread]: End processing [almapiwrapper]: success
+[2023-05-22 12:13:22] INFO root fetch - processPackages [ingenialink]: Downloading https://files.pythonhosted.org/packages/0d/9c/7f9c76999e611a7bb797ea8ac1099aefd96f5d7116605b01a5adc6967b0a/ingenialink-7.0.2.tar.gz
+[2023-05-22 12:13:22] INFO root fetch - processPackages [ingenialink]: executing diffoscope
+[2023-05-22 12:13:22] INFO root fetch - processPackages [ingenialink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingenialink-7.0.1.tar.gz tmp/ingenialink-7.0.2.tar.gz --markdown 20230522/i/ingenialink/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-05-22 12:13:23] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-05-22 12:13:23] INFO root fetch - main [MainThread]: End processing [ingenialink]: success
+[2023-05-22 12:13:24] INFO root fetch - main [MainThread]: End processing [SRPAstro.FITS]: success
+[2023-05-22 12:13:24] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
+[2023-05-22 12:13:24] INFO root fetch - main [MainThread]: Store serial: [18195277]
