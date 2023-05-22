@@ -9618,3 +9618,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:41:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101-py2]: success
 [2023-05-22 11:41:08] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
 [2023-05-22 11:41:08] INFO root fetch - main [MainThread]: Store serial: [18194918]
+[2023-05-22 11:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194918]
+[2023-05-22 11:46:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-adcp20220101
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picassosr
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fez-language
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VerdisCloudConfig
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kodexa
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ninjax
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-resourcehealth
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: requests-pkcs12
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-devhub
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-dnoticias-auth
+[2023-05-22 11:46:17] INFO root fetch - processPackages [alibabacloud-adcp20220101]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [fez-language]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [picassosr]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [VerdisCloudConfig]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [azure-mgmt-resourcehealth]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-05-22 11:46:17] WARNING root fetch - processPackages [azure-mgmt-devhub]: Skipping, unable to determine old version
+[2023-05-22 11:46:17] INFO root fetch - processPackages [azure-mgmt-devhub]: Start processing: genbase
+[2023-05-22 11:46:17] INFO root fetch - main [MainThread]: End processing [azure-mgmt-devhub] error
+[2023-05-22 11:46:17] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [ninjax]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [requests-pkcs12]: New version: [1.9] Old Version: [1.8]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [genbase]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [kodexa]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-05-22 11:46:17] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230522/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Downloading https://files.pythonhosted.org/packages/8f/c8/f5c22630f386956e161e12b3ad0f78e0020a99f5bcb2acd303e66c8a7c69/alibabacloud_adcp20220101-1.0.8.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [fez-language]: Downloading https://files.pythonhosted.org/packages/22/1d/f89e1cd94d72a013790f663fbf9a2510b0d48afa7d7e76a8cc186fb01d2e/fez-language-1.3.4.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [VerdisCloudConfig]: Downloading https://files.pythonhosted.org/packages/d1/15/f8eb26d2211b7f15a91f55fa55099148b30c9268a861c329d6ab3df03e11/VerdisCloudConfig-0.0.2-py3-none-any.whl
+[2023-05-22 11:46:18] INFO root fetch - processPackages [picassosr]: Downloading https://files.pythonhosted.org/packages/66/d3/354f8d1933757dd880095ef0c587c86e21d2e4d80e926776b69240d9e560/picassosr-0.6.0.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [azure-mgmt-resourcehealth]: Downloading https://files.pythonhosted.org/packages/17/fd/d74b404d08eca9a9dbcfdb2a6813a5931e5690b53684e5f92e200f0378b8/azure-mgmt-resourcehealth-1.0.0b3.zip
+[2023-05-22 11:46:18] INFO root fetch - processPackages [genbase]: Downloading https://files.pythonhosted.org/packages/ff/b5/2fe1e98c18283129f586abfe74efd457af7674b21b90fc0499dd8831b467/genbase-0.3.2.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/de/2c/da5f6d836178a8ae77bb0e18d6a44f94e6fb7e425740b797677596cc3276/kodexa-6.1.3.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/70/3c/0141e12b587bec5b891a41842fbcece287881b9943b05633bfe7a77c212e/requests_pkcs12-1.8.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Downloading https://files.pythonhosted.org/packages/f2/51/280ed019d65606c603eea1657742822d32a9c98f4ed15ac1411f571fd0ce/alibabacloud_adcp20220101-1.0.9.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [VerdisCloudConfig]: Downloading https://files.pythonhosted.org/packages/31/c5/f14200cc4102203225cc56565352d1728231f6f1b3f7c3eea8e17c670b92/VerdisCloudConfig-0.0.3-py3-none-any.whl
+[2023-05-22 11:46:18] INFO root fetch - processPackages [genbase]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [genbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genbase-0.3.1.tar.gz tmp/genbase-0.3.2.tar.gz --markdown 20230522/g/genbase/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [ninjax]: Downloading https://files.pythonhosted.org/packages/5c/9d/9c24588831c260ca707f0a20791d6c264919e550860317ba520e54f7320c/ninjax-1.2.0.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [azure-mgmt-resourcehealth]: Downloading https://files.pythonhosted.org/packages/b2/df/9a315b6a63281e3060b6839a3911724d1a5b37da2fd5f7190b8f6d3538f7/azure-mgmt-resourcehealth-1.0.0b4.zip
+[2023-05-22 11:46:18] INFO root fetch - processPackages [alibabacloud-adcp20220101]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [alibabacloud-adcp20220101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_adcp20220101-1.0.8.tar.gz tmp/alibabacloud_adcp20220101-1.0.9.tar.gz --markdown 20230522/a/alibabacloud-adcp20220101/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [picassosr]: Downloading https://files.pythonhosted.org/packages/92/dc/5e361c927418ea582d178b353d85ff4103c7016bc336140b721a3bd927f0/picassosr-0.6.1.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [VerdisCloudConfig]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [VerdisCloudConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VerdisCloudConfig-0.0.2-py3-none-any.whl.zip tmp/VerdisCloudConfig-0.0.3-py3-none-any.whl.zip --markdown 20230522/V/VerdisCloudConfig/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [fez-language]: Downloading https://files.pythonhosted.org/packages/6d/4f/2ea6fcf659151fed208179b3e1681dd5a92a4c2255db746e2b033fe8c451/fez-language-1.4.0.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/12/bc/2e66a281dbd2913d4286c0c8ff4525f725eecc2605ad18903b5536fa7e7b/kodexa-6.1.4.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [ninjax]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [ninjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjax-1.1.0.tar.gz tmp/ninjax-1.2.0.tar.gz --markdown 20230522/n/ninjax/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [azure-mgmt-resourcehealth]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [azure-mgmt-resourcehealth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-resourcehealth-1.0.0b3.zip tmp/azure-mgmt-resourcehealth-1.0.0b4.zip --markdown 20230522/a/azure-mgmt-resourcehealth/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [picassosr]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [picassosr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picassosr-0.6.0.tar.gz tmp/picassosr-0.6.1.tar.gz --markdown 20230522/p/picassosr/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [fez-language]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [fez-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fez-language-1.3.4.tar.gz tmp/fez-language-1.4.0.tar.gz --markdown 20230522/f/fez-language/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/14/dd/3651b0dd709a3712d5581cbd74b92a5b2c38d03c51e07a2906b45a1074b9/requests_pkcs12-1.9.tar.gz
+[2023-05-22 11:46:18] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.1.3.tar.gz tmp/kodexa-6.1.4.tar.gz --markdown 20230522/k/kodexa/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-05-22 11:46:18] INFO root fetch - processPackages [requests-pkcs12]: executing diffoscope
+[2023-05-22 11:46:18] INFO root fetch - processPackages [requests-pkcs12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_pkcs12-1.8.tar.gz tmp/requests_pkcs12-1.9.tar.gz --markdown 20230522/r/requests-pkcs12/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-22 11:46:19] INFO root fetch - processPackages [django-dnoticias-auth]: Start processing: odoo-addon-companyweb-base
+[2023-05-22 11:46:19] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-22 11:46:19] INFO root fetch - processPackages [odoo-addon-companyweb-base]: New version: [16.0.1.0.5] Old Version: [16.0.1.0.4]
+[2023-05-22 11:46:19] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/b7/c4/06d62136654082eb23df856df9dd9e8431353a7a674d7e9a17bac2eb1d37/odoo_addon_companyweb_base-16.0.1.0.4-py3-none-any.whl
+[2023-05-22 11:46:19] INFO root fetch - processPackages [VerdisCloudConfig]: Start processing: oc-checksumsq
+[2023-05-22 11:46:19] INFO root fetch - main [MainThread]: End processing [VerdisCloudConfig]: success
+[2023-05-22 11:46:19] INFO root fetch - processPackages [oc-checksumsq]: New version: [10.2.1] Old Version: [10.2.0.20230419061031]
+[2023-05-22 11:46:19] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Start processing: smartchart
+[2023-05-22 11:46:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101]: success
+[2023-05-22 11:46:19] INFO root fetch - processPackages [oc-checksumsq]: Downloading https://files.pythonhosted.org/packages/e5/e6/3dfb4aa037d887f985b779b7b6ba0e30319329d0d20c8109fa75818e084e/oc_checksumsq-10.2.0.20230419061031-py3-none-any.whl
+[2023-05-22 11:46:19] INFO root fetch - processPackages [smartchart]: New version: [6.6.1] Old Version: [6.6]
+[2023-05-22 11:46:20] INFO root fetch - processPackages [ninjax]: Start processing: odoo14-addon-mail-tracking
+[2023-05-22 11:46:20] INFO root fetch - main [MainThread]: End processing [ninjax]: success
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: New version: [14.0.3.1.2] Old Version: [14.0.3.1.1.dev4]
+[2023-05-22 11:46:20] INFO root fetch - processPackages [requests-pkcs12]: Start processing: azure-mgmt-devcenter
+[2023-05-22 11:46:20] INFO root fetch - main [MainThread]: End processing [requests-pkcs12]: success
+[2023-05-22 11:46:20] INFO root fetch - processPackages [azure-mgmt-devcenter]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2023-05-22 11:46:20] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/45/77/bd2a90d53c8a40f93f7397f95131316c477eb5e7b10eb423c104fefcf7e0/smartchart-6.6.1.tar.gz
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/b0/8a/869135c7dfba6ec9710954ce2d5d6940a7fa91150401a8c2fde4a0ca798f/odoo_addon_companyweb_base-16.0.1.0.5-py3-none-any.whl
+[2023-05-22 11:46:20] INFO root fetch - processPackages [oc-checksumsq]: Downloading https://files.pythonhosted.org/packages/31/5e/276a62682cbca29c5db0e7649195290110e4dd77630fc49658c0d8a61e4b/oc_checksumsq-10.2.1-py3-none-any.whl
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/5b/ea/ba419bd528ddd516cb5692819984a5c949aa57a27098f456ec3574020583/odoo14_addon_mail_tracking-14.0.3.1.1.dev4-py3-none-any.whl
+[2023-05-22 11:46:20] INFO root fetch - main [MainThread]: End processing [genbase]: success
+[2023-05-22 11:46:20] INFO root fetch - processPackages [oc-checksumsq]: executing diffoscope
+[2023-05-22 11:46:20] INFO root fetch - processPackages [oc-checksumsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_checksumsq-10.2.0.20230419061031-py3-none-any.whl.zip tmp/oc_checksumsq-10.2.1-py3-none-any.whl.zip --markdown 20230522/o/oc-checksumsq/10.2.0.20230419061031-10.2.1/diff.md --exclude *.pyd
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo-addon-companyweb-base]: executing diffoscope
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_companyweb_base-16.0.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_companyweb_base-16.0.1.0.5-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-companyweb-base/16.0.1.0.4-16.0.1.0.5/diff.md --exclude *.pyd
+[2023-05-22 11:46:20] INFO root fetch - processPackages [azure-mgmt-devcenter]: Downloading https://files.pythonhosted.org/packages/b0/ca/d79c832f1eb96ec234eb70a04794293dfe823183fceaaa38ac5716729297/azure-mgmt-devcenter-1.0.0b3.zip
+[2023-05-22 11:46:20] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-05-22 11:46:20] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.6.tar.gz tmp/smartchart-6.6.1.tar.gz --markdown 20230522/s/smartchart/6.6-6.6.1/diff.md --exclude *.pyd
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/82/d2/79163594c6c6b7e58b1710a1edd0c9e854bc28369b1bd7fb5b753102b8b0/odoo14_addon_mail_tracking-14.0.3.1.2-py3-none-any.whl
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: executing diffoscope
+[2023-05-22 11:46:20] INFO root fetch - processPackages [odoo14-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mail_tracking-14.0.3.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mail_tracking-14.0.3.1.2-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-mail-tracking/14.0.3.1.1.dev4-14.0.3.1.2/diff.md --exclude *.pyd
+[2023-05-22 11:46:20] INFO root fetch - processPackages [azure-mgmt-devcenter]: Downloading https://files.pythonhosted.org/packages/7e/d2/1a74b8bdbce99990850fd61ddc3924b2fee7b0133b23ebb224d72c9af748/azure-mgmt-devcenter-1.0.0b4.zip
+[2023-05-22 11:46:20] INFO root fetch - processPackages [azure-mgmt-devcenter]: executing diffoscope
+[2023-05-22 11:46:20] INFO root fetch - processPackages [azure-mgmt-devcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-devcenter-1.0.0b3.zip tmp/azure-mgmt-devcenter-1.0.0b4.zip --markdown 20230522/a/azure-mgmt-devcenter/1.0.0b3-1.0.0b4/diff.md --exclude *.pyd
+[2023-05-22 11:46:20] INFO root fetch - main [MainThread]: End processing [picassosr]: success
+[2023-05-22 11:46:21] INFO root fetch - main [MainThread]: End processing [azure-mgmt-resourcehealth]: success
+[2023-05-22 11:46:21] INFO root fetch - main [MainThread]: End processing [oc-checksumsq]: success
+[2023-05-22 11:46:21] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-05-22 11:46:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-companyweb-base]: success
+[2023-05-22 11:46:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mail-tracking]: success
+[2023-05-22 11:46:23] INFO root fetch - main [MainThread]: End processing [azure-mgmt-devcenter]: success
+[2023-05-22 11:46:23] INFO root fetch - main [MainThread]: End processing [fez-language]: success
+[2023-05-22 11:46:25] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-05-22 11:46:25] INFO root fetch - main [MainThread]: Store serial: [18194965]
