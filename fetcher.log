@@ -9520,3 +9520,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:35:21] INFO root fetch - main [MainThread]: End processing [mvtec-halcon]: success
 [2023-05-22 11:35:51] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-22 11:35:51] INFO root fetch - main [MainThread]: Store serial: [18194865]
+[2023-05-22 11:40:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194865]
+[2023-05-22 11:41:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-blob-storage
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voliboli-pdf-scraper
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spatialdata-io
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-servicefabricmanagedclusters
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg-pytest-reporter
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-elastic
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protectedCalculator
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genbase
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-05-22 11:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-mgmt-appcontainers
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-appcontainers]: New version: [3.0.0b1] Old Version: [2.0.0b2]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [django-blob-storage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-elastic]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [protectedCalculator]: New version: [0.3] Old Version: [0.2]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [voliboli-pdf-scraper]: New version: [1.6] Old Version: [1.5]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [cg-pytest-reporter]: New version: [2023.5.22.933] Old Version: [2023.5.19.1522]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-servicefabricmanagedclusters]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [spatialdata-io]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [irene-pro]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [genbase]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-22 11:41:03] INFO root fetch - processPackages [django-blob-storage]: executing diffoscope
+[2023-05-22 11:41:03] INFO root fetch - processPackages [django-blob-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_blob_storage-0.2.0.tar.gz tmp/django_blob_storage-0.2.1.tar.gz --markdown 20230522/d/django-blob-storage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 11:41:03] INFO root fetch - processPackages [protectedCalculator]: Downloading https://files.pythonhosted.org/packages/48/76/29586f35fe65c2478e490975ff9f11cc5cc3fe8de806dbd106a9904ccad7/protectedCalculator-0.2-py3-none-any.whl
+[2023-05-22 11:41:03] INFO root fetch - processPackages [voliboli-pdf-scraper]: Downloading https://files.pythonhosted.org/packages/f9/1a/435ac36f86d0591ca21b6b5a01f8e085f7f3c33ce9778d773e37158efef7/voliboli_pdf_scraper-1.5.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-appcontainers]: Downloading https://files.pythonhosted.org/packages/27/5e/3011d6873e4f2d1d4e26c5522591cc32bef2e2ea9d4711a7c5a622bea52d/azure-mgmt-appcontainers-2.0.0b2.zip
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-servicefabricmanagedclusters]: Downloading https://files.pythonhosted.org/packages/6b/04/c4fa53eeea895731a0d2240d718cf8461e881b757f8f8960a339c16978aa/azure-mgmt-servicefabricmanagedclusters-2.0.0b3.zip
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-elastic]: Downloading https://files.pythonhosted.org/packages/cb/b1/c9ae47b75cdf8f3758e65566502978218fc636253e5954b5fb89037a824f/azure-mgmt-elastic-1.1.0b2.zip
+[2023-05-22 11:41:03] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/8d/0d/7826bd350c86d81ee0a5f1b15a28f16d40b81bdb2fc3af235a9ff36d2642/irene_pro-0.0.41.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/16/57/67245f8319169217c54a12a23c70c5127d0cb02c5c6761bd4f8f30b83248/cg_pytest_reporter-2023.5.19.1522.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/00/d2/56905c87ccdc4582621f3348db39efd55a8e8e107a90bd20ba7bdf8268e3/spatialdata_io-0.0.2.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [genbase]: Downloading https://files.pythonhosted.org/packages/57/d8/d9bda3720a3f6d126fb0cfc879fa0b3b85f6c70d99db275d83be08445ec6/genbase-0.3.0.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-22 11:41:03] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.40.tar.gz tmp/irene_pro-0.0.41.tar.gz --markdown 20230522/i/irene-pro/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-05-22 11:41:03] INFO root fetch - processPackages [voliboli-pdf-scraper]: Downloading https://files.pythonhosted.org/packages/1e/94/c3fe000f5b28680bc2cef740a4d33217167ddd15b6789ebd684ecf3acab0/voliboli_pdf_scraper-1.6.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/03/01/750a472f381a5854f3cbefea8e0efdb5690bb4d8c69adca46da511e102db/cg_pytest_reporter-2023.5.22.933.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [genbase]: Downloading https://files.pythonhosted.org/packages/95/04/2079f862a639fc36ae6a943be595fa38fb676884df3446dcec9d146a17ba/genbase-0.3.1.tar.gz
+[2023-05-22 11:41:03] INFO root fetch - processPackages [protectedCalculator]: Downloading https://files.pythonhosted.org/packages/b4/c8/d070b01630e797efd3806a6fd9714dc6d9ef66688d25b926560a0a74b644/protectedCalculator-0.3-py3-none-any.whl
+[2023-05-22 11:41:03] INFO root fetch - processPackages [protectedCalculator]: executing diffoscope
+[2023-05-22 11:41:03] INFO root fetch - processPackages [protectedCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protectedCalculator-0.2-py3-none-any.whl.zip tmp/protectedCalculator-0.3-py3-none-any.whl.zip --markdown 20230522/p/protectedCalculator/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-22 11:41:03] INFO root fetch - processPackages [genbase]: executing diffoscope
+[2023-05-22 11:41:03] INFO root fetch - processPackages [genbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genbase-0.3.0.tar.gz tmp/genbase-0.3.1.tar.gz --markdown 20230522/g/genbase/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-appcontainers]: Downloading https://files.pythonhosted.org/packages/0d/06/ed07ecb4677b8f0dfb99325cebe3154a1abefa9130e3f83a3bb15038a985/azure-mgmt-appcontainers-3.0.0b1.zip
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-servicefabricmanagedclusters]: Downloading https://files.pythonhosted.org/packages/2e/22/cc84f0924f1ef4a80d2a96e7729595f7faef0cfc20c03455296dfd5ec62b/azure-mgmt-servicefabricmanagedclusters-2.0.0b4.zip
+[2023-05-22 11:41:03] INFO root fetch - processPackages [azure-mgmt-elastic]: Downloading https://files.pythonhosted.org/packages/39/d6/5df3cad46876a5c1695d3c2c79640e92fe09bdf94e64c869d317bcf3059f/azure-mgmt-elastic-1.1.0b3.zip
+[2023-05-22 11:41:03] INFO root fetch - processPackages [voliboli-pdf-scraper]: executing diffoscope
+[2023-05-22 11:41:03] INFO root fetch - processPackages [voliboli-pdf-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voliboli_pdf_scraper-1.5.tar.gz tmp/voliboli_pdf_scraper-1.6.tar.gz --markdown 20230522/v/voliboli-pdf-scraper/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-22 11:41:04] INFO root fetch - processPackages [cg-pytest-reporter]: executing diffoscope
+[2023-05-22 11:41:04] INFO root fetch - processPackages [cg-pytest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_pytest_reporter-2023.5.19.1522.tar.gz tmp/cg_pytest_reporter-2023.5.22.933.tar.gz --markdown 20230522/c/cg-pytest-reporter/2023.5.19.1522-2023.5.22.933/diff.md --exclude *.pyd
+[2023-05-22 11:41:04] INFO root fetch - processPackages [azure-mgmt-appcontainers]: executing diffoscope
+[2023-05-22 11:41:04] INFO root fetch - processPackages [azure-mgmt-servicefabricmanagedclusters]: executing diffoscope
+[2023-05-22 11:41:04] INFO root fetch - processPackages [azure-mgmt-appcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-appcontainers-2.0.0b2.zip tmp/azure-mgmt-appcontainers-3.0.0b1.zip --markdown 20230522/a/azure-mgmt-appcontainers/2.0.0b2-3.0.0b1/diff.md --exclude *.pyd
+[2023-05-22 11:41:04] INFO root fetch - processPackages [azure-mgmt-servicefabricmanagedclusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-servicefabricmanagedclusters-2.0.0b3.zip tmp/azure-mgmt-servicefabricmanagedclusters-2.0.0b4.zip --markdown 20230522/a/azure-mgmt-servicefabricmanagedclusters/2.0.0b3-2.0.0b4/diff.md --exclude *.pyd
+[2023-05-22 11:41:04] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/7e/4b/e1786f2ba513821a7b42ef091ceeea29abdb398de6e7f7c9f6b753937ca4/spatialdata_io-0.0.3.tar.gz
+[2023-05-22 11:41:04] INFO root fetch - processPackages [azure-mgmt-elastic]: executing diffoscope
+[2023-05-22 11:41:04] INFO root fetch - processPackages [azure-mgmt-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-elastic-1.1.0b2.zip tmp/azure-mgmt-elastic-1.1.0b3.zip --markdown 20230522/a/azure-mgmt-elastic/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-05-22 11:41:04] INFO root fetch - processPackages [spatialdata-io]: executing diffoscope
+[2023-05-22 11:41:04] INFO root fetch - processPackages [spatialdata-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata_io-0.0.2.tar.gz tmp/spatialdata_io-0.0.3.tar.gz --markdown 20230522/s/spatialdata-io/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 11:41:04] INFO root fetch - processPackages [django-blob-storage]: Start processing: otools-rpc
+[2023-05-22 11:41:04] INFO root fetch - main [MainThread]: End processing [django-blob-storage]: success
+[2023-05-22 11:41:04] WARNING root fetch - processPackages [otools-rpc]: Skipping, unable to determine old version
+[2023-05-22 11:41:04] INFO root fetch - processPackages [otools-rpc]: Start processing: spatialdata
+[2023-05-22 11:41:04] INFO root fetch - main [MainThread]: End processing [otools-rpc] error
+[2023-05-22 11:41:04] INFO root fetch - processPackages [spatialdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 11:41:05] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/6d/b4/bf769254ba7e0a962a9e496fc43c771403b164c790ed22f7c50f9cc0d6d1/spatialdata-0.0.8.tar.gz
+[2023-05-22 11:41:05] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-05-22 11:41:05] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.7.tar.gz tmp/spatialdata-0.0.8.tar.gz --markdown 20230522/s/spatialdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 11:41:05] INFO root fetch - processPackages [irene-pro]: Start processing: thunder-ml
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-22 11:41:05] INFO root fetch - processPackages [protectedCalculator]: Start processing: questdb-connect
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [protectedCalculator]: success
+[2023-05-22 11:41:05] WARNING root fetch - processPackages [thunder-ml]: Skipping, unable to determine old version
+[2023-05-22 11:41:05] INFO root fetch - processPackages [thunder-ml]: Start processing: serentity-module-root-cause-finder
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [thunder-ml] error
+[2023-05-22 11:41:05] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-05-22 11:41:05] WARNING root fetch - processPackages [serentity-module-root-cause-finder]: Skipping, unable to determine old version
+[2023-05-22 11:41:05] INFO root fetch - processPackages [serentity-module-root-cause-finder]: Start processing: alibabacloud-adcp20220101-py2
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [serentity-module-root-cause-finder] error
+[2023-05-22 11:41:05] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [voliboli-pdf-scraper]: success
+[2023-05-22 11:41:05] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/89/2c/c36cb3a7aafc2a11171e81e555b1b222211c804db35d39d1e44610f152c8/questdb-connect-0.0.84.tar.gz
+[2023-05-22 11:41:05] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Downloading https://files.pythonhosted.org/packages/13/3f/4240c93301da021fc74d38c854f0bcd1dce9190402235e7a047c82113040/alibabacloud_adcp20220101_py2-1.0.8.tar.gz
+[2023-05-22 11:41:05] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-22 11:41:05] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.83.tar.gz tmp/questdb-connect-0.0.84.tar.gz --markdown 20230522/q/questdb-connect/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [genbase]: success
+[2023-05-22 11:41:05] INFO root fetch - main [MainThread]: End processing [cg-pytest-reporter]: success
+[2023-05-22 11:41:06] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Downloading https://files.pythonhosted.org/packages/ae/e5/619462215a3c970eb39abe26ec09f8adb76bbcd8592a429b0087d3b086a3/alibabacloud_adcp20220101_py2-1.0.9.tar.gz
+[2023-05-22 11:41:06] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: executing diffoscope
+[2023-05-22 11:41:06] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_adcp20220101_py2-1.0.8.tar.gz tmp/alibabacloud_adcp20220101_py2-1.0.9.tar.gz --markdown 20230522/a/alibabacloud-adcp20220101-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:41:06] INFO root fetch - main [MainThread]: End processing [spatialdata-io]: success
+[2023-05-22 11:41:06] INFO root fetch - main [MainThread]: End processing [azure-mgmt-servicefabricmanagedclusters]: success
+[2023-05-22 11:41:06] INFO root fetch - main [MainThread]: End processing [azure-mgmt-elastic]: success
+[2023-05-22 11:41:07] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-22 11:41:07] INFO root fetch - main [MainThread]: End processing [azure-mgmt-appcontainers]: success
+[2023-05-22 11:41:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101-py2]: success
+[2023-05-22 11:41:08] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-05-22 11:41:08] INFO root fetch - main [MainThread]: Store serial: [18194918]
