@@ -1009,3 +1009,101 @@
 [2023-05-22 02:08:03] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-05-22 02:08:07] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-05-22 02:08:07] INFO root fetch - main [MainThread]: Store serial: [18190048]
+[2023-05-22 02:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18190048]
+[2023-05-22 02:13:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkverse
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diambra-engine
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: constructs
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-nightly
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aws-discord-notifiers
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-tools
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-grafana
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: intelex-service
+[2023-05-22 02:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: token-throttler
+[2023-05-22 02:13:17] INFO root fetch - processPackages [sparkverse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [diambra-engine]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.1.dev20230521] Old Version: [3.0.1.dev20230520]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 02:13:17] WARNING root fetch - processPackages [intelex-service]: Skipping, unable to determine old version
+[2023-05-22 02:13:17] INFO root fetch - processPackages [intelex-service]: Start processing: cdk-iot-core-certificates
+[2023-05-22 02:13:17] INFO root fetch - main [MainThread]: End processing [intelex-service] error
+[2023-05-22 02:13:17] INFO root fetch - processPackages [token-throttler]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-22 02:13:17] WARNING root fetch - processPackages [pydantic-tools]: Skipping, unable to determine old version
+[2023-05-22 02:13:17] INFO root fetch - processPackages [pydantic-tools]: Start processing: pytexreport
+[2023-05-22 02:13:17] INFO root fetch - main [MainThread]: End processing [pydantic-tools] error
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [pytexreport]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230522/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 02:13:17] INFO root fetch - processPackages [sparkverse]: Downloading https://files.pythonhosted.org/packages/4e/16/4b85214caee47e669e63b9c047a34bb0abbbd5190c022265a29beb431743/sparkverse-0.0.2.tar.gz
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230522/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-22 02:13:17] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/bb/ba/b5ae2a99b8d1db307aec499c56c95eb4cfa5f76a7340cdbd49ed655d5fb2/diambra-engine-2.1.0rc8.tar.gz
+[2023-05-22 02:13:17] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-05-22 02:13:17] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230522/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-05-22 02:13:17] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230522/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 02:13:17] INFO root fetch - processPackages [pytexreport]: Downloading https://files.pythonhosted.org/packages/7a/d7/9ec2238890e537f539a50461fd1dfccf81f60750f6651ffe64541a92e562/pytexreport-0.0.2.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/0e/55/700ae405772433a219bb118d58ca92889fbf6f3a7d3a95ddf4d1b536bde0/openbb_nightly-3.0.1.dev20230521.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230522/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-22 02:13:18] ERROR root fetch - processPackages [cdk8s-grafana]: Diffoscope failed: Error: error creating container storage: the container name "gracious_mclaren" is already in use by "b2ada69aceedf2d8580d53bd7c6a8b36eeb9c437bf93ea897538280edffbeb26". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-22 02:13:18] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: cdklabs.codepipeline-extensions
+[2023-05-22 02:13:18] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana] error
+[2023-05-22 02:13:18] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 02:13:18] INFO root fetch - processPackages [token-throttler]: Downloading https://files.pythonhosted.org/packages/af/d2/9c15342c308691bc57c4a35019876cf204b246367fdf24bfc4c7ed900ec6/token_throttler-1.2.1.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [sparkverse]: Downloading https://files.pythonhosted.org/packages/51/5d/1dbe33d9d3a50ee89a5f556be439ed06366b2c5c153bc585e7c6aeb790e5/sparkverse-0.0.3-py3-none-any.whl
+[2023-05-22 02:13:18] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [pytexreport]: Downloading https://files.pythonhosted.org/packages/e4/52/1c3b77c14f5ce6d0862edf3187d07b1b2edd105f2635e712db2d11511331/pytexreport-0.1.0.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.1.dev20230520.tar.gz tmp/openbb_nightly-3.0.1.dev20230521.tar.gz --markdown 20230522/o/openbb-nightly/3.0.1.dev20230520-3.0.1.dev20230521/diff.md --exclude *.pyd
+[2023-05-22 02:13:18] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-05-22 02:13:18] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: tencentcloud-sdk-python
+[2023-05-22 02:13:18] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-05-22 02:13:18] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-22 02:13:18] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/4b/33/1da34d2f2a44dd6ec8d777d9129a3744af4ae787eb69b9a118a82a7e3aea/diambra-engine-2.1.0rc9.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [sparkverse]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [sparkverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkverse-0.0.2.tar.gz tmp/sparkverse-0.0.3-py3-none-any.whl.zip --markdown 20230522/s/sparkverse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 02:13:18] INFO root fetch - processPackages [token-throttler]: Downloading https://files.pythonhosted.org/packages/64/2e/14ba25cfe3a4836114b3a01a8ea3c3a0bbd39a04b66364ef620eca6e061b/token_throttler-1.3.0.tar.gz
+[2023-05-22 02:13:18] INFO root fetch - processPackages [pytexreport]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [pytexreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytexreport-0.0.2.tar.gz tmp/pytexreport-0.1.0.tar.gz --markdown 20230522/p/pytexreport/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-22 02:13:18] INFO root fetch - processPackages [diambra-engine]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [diambra-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-engine-2.1.0rc8.tar.gz tmp/diambra-engine-2.1.0rc9.tar.gz --markdown 20230522/d/diambra-engine/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-05-22 02:13:18] INFO root fetch - processPackages [token-throttler]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [token-throttler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/token_throttler-1.2.1.tar.gz tmp/token_throttler-1.3.0.tar.gz --markdown 20230522/t/token-throttler/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 02:13:18] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-05-22 02:13:18] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230522/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-22 02:13:19] INFO root fetch - processPackages [constructs]: Start processing: tencentcloud-sdk-python-aa
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.896] Old Version: [3.0.895]
+[2023-05-22 02:13:19] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: tencentcloud-sdk-python-aai
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: New version: [3.0.896] Old Version: [3.0.895]
+[2023-05-22 02:13:19] INFO root fetch - processPackages [sparkverse]: Start processing: tencentcloud-sdk-python-acp
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [sparkverse]: success
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/11/fd/114353ac7aa4922ad0509343ebf1092d4acb4853f88bd65bdf453746ad77/tencentcloud-sdk-python-aa-3.0.896.tar.gz
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.895.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.896.tar.gz --markdown 20230522/t/tencentcloud-sdk-python-aa/3.0.895-3.0.896/diff.md --exclude *.pyd
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [diambra-engine]: success
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/4a/cb/c5e17ab2c9b6adb0eb1430ee880cf253495b9336652ccb7af1fbbc339046/tencentcloud-sdk-python-aai-3.0.896.tar.gz
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: New version: [3.0.896] Old Version: [3.0.895]
+[2023-05-22 02:13:19] INFO root fetch - main [MainThread]: End processing [pytexreport]: success
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: executing diffoscope
+[2023-05-22 02:13:19] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aai-3.0.895.tar.gz tmp/tencentcloud-sdk-python-aai-3.0.896.tar.gz --markdown 20230522/t/tencentcloud-sdk-python-aai/3.0.895-3.0.896/diff.md --exclude *.pyd
+[2023-05-22 02:13:20] INFO root fetch - main [MainThread]: End processing [token-throttler]: success
+[2023-05-22 02:13:20] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/35/29/3973d8969ba9626db37dc262c40804791e682c2d724f4d9c11a1336b467e/tencentcloud-sdk-python-acp-3.0.896.tar.gz
+[2023-05-22 02:13:20] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: executing diffoscope
+[2023-05-22 02:13:20] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-acp-3.0.895.tar.gz tmp/tencentcloud-sdk-python-acp-3.0.896.tar.gz --markdown 20230522/t/tencentcloud-sdk-python-acp/3.0.895-3.0.896/diff.md --exclude *.pyd
+[2023-05-22 02:13:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2023-05-22 02:13:20] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aai]: success
+[2023-05-22 02:13:21] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-acp]: success
+[2023-05-22 02:13:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-05-22 02:13:30] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-05-22 02:13:30] INFO root fetch - main [MainThread]: Store serial: [18190101]
