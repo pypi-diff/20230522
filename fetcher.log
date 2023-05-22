@@ -4310,3 +4310,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:47:20] INFO root fetch - main [MainThread]: End processing [quantbox]: success
 [2023-05-22 04:47:20] INFO root fetch - main [MainThread]: End processing [omniplot]: success
 [2023-05-22 04:47:20] INFO root fetch - main [MainThread]: Store serial: [18191804]
+[2023-05-22 04:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191804]
+[2023-05-22 04:52:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 04:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-codebase-documenter
+[2023-05-22 04:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparrow-order-lib
+[2023-05-22 04:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastsession
+[2023-05-22 04:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: defog
+[2023-05-22 04:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zepben.evolve
+[2023-05-22 04:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixe
+[2023-05-22 04:52:29] INFO root fetch - processPackages [fastsession]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 04:52:29] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.6] Old Version: [0.5]
+[2023-05-22 04:52:29] INFO root fetch - processPackages [pixe]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-22 04:52:29] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 04:52:29] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.92] Old Version: [0.1.91]
+[2023-05-22 04:52:29] INFO root fetch - processPackages [zepben.evolve]: New version: [0.35.0b9] Old Version: [0.35.0b8]
+[2023-05-22 04:52:29] INFO root fetch - processPackages [pixe]: executing diffoscope
+[2023-05-22 04:52:29] INFO root fetch - processPackages [pixe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixe-0.5.3.tar.gz tmp/pixe-0.5.4.tar.gz --markdown 20230522/p/pixe/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-22 04:52:29] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/51/7a/2b4e9ca0befe20a1b3880f0bc45786c4f13a6b467e2e0658eda1c6c05899/auto-codebase-documenter-0.6.tar.gz
+[2023-05-22 04:52:29] INFO root fetch - processPackages [fastsession]: Downloading https://files.pythonhosted.org/packages/9e/89/aeeadd6415ff304231ee8fe32af806f839f6683aad10f4e99f3e440b46be/FastSession-0.1.1.tar.gz
+[2023-05-22 04:52:29] INFO root fetch - processPackages [zepben.evolve]: Downloading https://files.pythonhosted.org/packages/3c/52/68c39e64538c250415cd6d029e45608e6961056e4ce7039b8404433ac826/zepben.evolve-0.35.0b8-py3-none-any.whl
+[2023-05-22 04:52:29] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 04:52:29] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.5.tar.gz tmp/auto-codebase-documenter-0.6.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-22 04:52:29] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-05-22 04:52:29] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230522/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 04:52:30] INFO root fetch - processPackages [fastsession]: Downloading https://files.pythonhosted.org/packages/57/e4/97ee449e73fbf004c3c9a1f9efa5cfb5ccb302b737bf5103dbea0700c9ac/fastsession-0.1.2.tar.gz
+[2023-05-22 04:52:30] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/4e/53/ec29108cf2b35f7b35782f4fadec22e5aa27bf939d8a90076d01c08f7c5e/sparrow-order-lib-0.1.92.tar.gz
+[2023-05-22 04:52:30] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-05-22 04:52:30] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.91.tar.gz tmp/sparrow-order-lib-0.1.92.tar.gz --markdown 20230522/s/sparrow-order-lib/0.1.91-0.1.92/diff.md --exclude *.pyd
+[2023-05-22 04:52:30] INFO root fetch - processPackages [zepben.evolve]: Downloading https://files.pythonhosted.org/packages/66/1b/a52596e200440f9a72d7d09097b404a931ff67b44418a525f5ec2c47603a/zepben.evolve-0.35.0b9-py3-none-any.whl
+[2023-05-22 04:52:30] INFO root fetch - processPackages [fastsession]: executing diffoscope
+[2023-05-22 04:52:30] INFO root fetch - processPackages [fastsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastSession-0.1.1.tar.gz tmp/fastsession-0.1.2.tar.gz --markdown 20230522/f/fastsession/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 04:52:30] INFO root fetch - processPackages [zepben.evolve]: executing diffoscope
+[2023-05-22 04:52:30] INFO root fetch - processPackages [zepben.evolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.evolve-0.35.0b8-py3-none-any.whl.zip tmp/zepben.evolve-0.35.0b9-py3-none-any.whl.zip --markdown 20230522/z/zepben.evolve/0.35.0b8-0.35.0b9/diff.md --exclude *.pyd
+[2023-05-22 04:52:30] INFO root fetch - main [MainThread]: End processing [pixe]: success
+[2023-05-22 04:52:31] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 04:52:31] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-05-22 04:52:31] INFO root fetch - main [MainThread]: End processing [fastsession]: success
+[2023-05-22 04:52:31] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-05-22 04:52:34] INFO root fetch - main [MainThread]: End processing [zepben.evolve]: success
+[2023-05-22 04:52:34] INFO root fetch - main [MainThread]: Store serial: [18191820]
