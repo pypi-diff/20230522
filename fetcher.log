@@ -5121,3 +5121,13 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:29:42] INFO root fetch - main [MainThread]: End processing [pysubcipher]: success
 [2023-05-22 06:29:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
 [2023-05-22 06:29:42] INFO root fetch - main [MainThread]: Store serial: [18192289]
+[2023-05-22 06:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192289]
+[2023-05-22 06:34:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-22 06:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pebbles
+[2023-05-22 06:34:51] INFO root fetch - processPackages [pebbles]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-22 06:34:51] INFO root fetch - processPackages [pebbles]: Downloading https://files.pythonhosted.org/packages/73/e4/79329c644443f2adfc5bfc7ab312fd43372faa06ba19b8656c1709801206/pebbles-0.2.0.tar.gz
+[2023-05-22 06:34:52] INFO root fetch - processPackages [pebbles]: Downloading https://files.pythonhosted.org/packages/19/42/60ffa59a34ecafe40c438141a43b3bfc4232c6ac854116567859d97dfa33/pebbles-0.3.0.tar.gz
+[2023-05-22 06:34:52] INFO root fetch - processPackages [pebbles]: executing diffoscope
+[2023-05-22 06:34:52] INFO root fetch - processPackages [pebbles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pebbles-0.2.0.tar.gz tmp/pebbles-0.3.0.tar.gz --markdown 20230522/p/pebbles/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 06:34:53] INFO root fetch - main [MainThread]: End processing [pebbles]: success
+[2023-05-22 06:34:53] INFO root fetch - main [MainThread]: Store serial: [18192320]
