@@ -15837,3 +15837,99 @@ EOFError: EOF read where object expected
 [2023-05-22 16:49:01] INFO root fetch - main [MainThread]: End processing [carefree-creator]: success
 [2023-05-22 16:49:01] INFO root fetch - main [MainThread]: End processing [lkmlfmt]: success
 [2023-05-22 16:49:01] INFO root fetch - main [MainThread]: Store serial: [18198670]
+[2023-05-22 16:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198670]
+[2023-05-22 16:54:10] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiliot-deployment-tools
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyGachi
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ada-url
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helios-opentelemetry-sdk
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ogc-na
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evina
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf-deploy
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: YMS
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: interpylate
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: socservthread
+[2023-05-22 16:54:10] WARNING root fetch - processPackages [pyGachi]: Skipping, unable to determine old version
+[2023-05-22 16:54:10] INFO root fetch - processPackages [pyGachi]: Start processing: HomoglyphsCJK
+[2023-05-22 16:54:10] INFO root fetch - main [MainThread]: End processing [pyGachi] error
+[2023-05-22 16:54:10] INFO root fetch - processPackages [evina]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-22 16:54:10] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 16:54:10] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 16:54:10] INFO root fetch - processPackages [YMS]: New version: [0.791] Old Version: [0.79]
+[2023-05-22 16:54:10] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 16:54:11] WARNING root fetch - processPackages [ada-url]: Skipping, unable to determine old version
+[2023-05-22 16:54:11] INFO root fetch - processPackages [ada-url]: Start processing: funcio
+[2023-05-22 16:54:11] INFO root fetch - main [MainThread]: End processing [ada-url] error
+[2023-05-22 16:54:11] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.0.3] Old Version: [4.0.0]
+[2023-05-22 16:54:11] INFO root fetch - processPackages [evina]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [evina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evina-1.0.6.tar.gz tmp/evina-1.0.7.tar.gz --markdown 20230522/e/evina/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230522/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] WARNING root fetch - processPackages [socservthread]: Skipping, unable to determine old version
+[2023-05-22 16:54:11] INFO root fetch - processPackages [socservthread]: Start processing: julienne
+[2023-05-22 16:54:11] WARNING root fetch - processPackages [interpylate]: Skipping, unable to determine old version
+[2023-05-22 16:54:11] INFO root fetch - main [MainThread]: End processing [socservthread] error
+[2023-05-22 16:54:11] INFO root fetch - processPackages [interpylate]: Start processing: scorecardpy
+[2023-05-22 16:54:11] INFO root fetch - main [MainThread]: End processing [interpylate] error
+[2023-05-22 16:54:11] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230522/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.0.5.tar.gz tmp/HomoglyphsCJK-0.0.6.tar.gz --markdown 20230522/H/HomoglyphsCJK/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.9] Old Version: [1.0.85]
+[2023-05-22 16:54:11] INFO root fetch - processPackages [julienne]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-22 16:54:11] WARNING root fetch - processPackages [funcio]: Skipping, unable to determine old version
+[2023-05-22 16:54:11] INFO root fetch - processPackages [funcio]: Start processing: watchful
+[2023-05-22 16:54:11] INFO root fetch - main [MainThread]: End processing [funcio] error
+[2023-05-22 16:54:11] INFO root fetch - processPackages [scorecardpy]: New version: [0.1.9.5] Old Version: [0.1.9.2]
+[2023-05-22 16:54:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/1a/a8/6dc1b22f92f6773ae7cded796a8fbc3e4cc9dc3efe2c359fd6f59b80660f/helios-opentelemetry-sdk-1.0.85.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.79.tar.gz tmp/YMS-0.791.tar.gz --markdown 20230522/Y/YMS/0.79-0.791/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/7b/d2/5d39f23bfd97ae2e573af96eafc8694ad540a32e43771ee3fa8687c9f1d7/wiliot-deployment-tools-4.0.0.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [watchful]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-05-22 16:54:11] INFO root fetch - processPackages [julienne]: Downloading https://files.pythonhosted.org/packages/83/43/4dd672e8b47fc2defc1e0808839789491e65ed88d6af4ca92d348ec2ba1e/julienne-0.7.1.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [watchful]: Downloading https://files.pythonhosted.org/packages/36/82/2eaf8928a900605a3b13aff596a3aea5f94b3123383379d89d120db6ebb3/watchful-3.4.1.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [scorecardpy]: Downloading https://files.pythonhosted.org/packages/50/89/50d2c508c91d0888adcad62562d408caf13731b8d80ab2b9ce74d6c252ec/scorecardpy-0.1.9.5.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [julienne]: Downloading https://files.pythonhosted.org/packages/06/24/3e2a76892ff51f21a9bb324c27a77a01322750ea8271c2013e1b53211302/julienne-0.8.0.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.85.tar.gz tmp/helios-opentelemetry-sdk-1.0.9.tar.gz --markdown 20230522/h/helios-opentelemetry-sdk/1.0.85-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/40/c3/7f099f97c6fb92bc872539883515528438a9169c8cf8246c940f243453f9/wiliot-deployment-tools-4.0.3.tar.gz
+[2023-05-22 16:54:11] INFO root fetch - processPackages [scorecardpy]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [scorecardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecardpy-0.1.9.2.tar.gz tmp/scorecardpy-0.1.9.5.tar.gz --markdown 20230522/s/scorecardpy/0.1.9.2-0.1.9.5/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [julienne]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [julienne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julienne-0.7.1.tar.gz tmp/julienne-0.8.0.tar.gz --markdown 20230522/j/julienne/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [watchful]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchful-3.4.1.tar.gz tmp/watchful-3.5.0.tar.gz --markdown 20230522/w/watchful/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2023-05-22 16:54:11] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-05-22 16:54:11] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.0.tar.gz tmp/wiliot-deployment-tools-4.0.3.tar.gz --markdown 20230522/w/wiliot-deployment-tools/4.0.0-4.0.3/diff.md --exclude *.pyd
+[2023-05-22 16:54:12] INFO root fetch - processPackages [cf-deploy]: Start processing: pytest-reportlog
+[2023-05-22 16:54:12] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-05-22 16:54:12] INFO root fetch - processPackages [pytest-reportlog]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-22 16:54:12] INFO root fetch - processPackages [ogc-na]: Start processing: ALMASim
+[2023-05-22 16:54:12] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-22 16:54:12] INFO root fetch - processPackages [YMS]: Start processing: HomoglyphsCJK
+[2023-05-22 16:54:12] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 16:54:12] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 16:54:12] INFO root fetch - processPackages [ALMASim]: New version: [1.4] Old Version: [1.1.1]
+[2023-05-22 16:54:12] INFO root fetch - processPackages [pytest-reportlog]: Downloading https://files.pythonhosted.org/packages/79/33/2e1e5c5c64282be6f90843e6609942787d254131cc8f0cd1b7efe1ba6cb7/pytest-reportlog-0.3.0.tar.gz
+[2023-05-22 16:54:12] INFO root fetch - main [MainThread]: End processing [evina]: success
+[2023-05-22 16:54:12] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-05-22 16:54:12] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/54/19/462f1954160cb80d5122c182d599b809c538dc9e5d12548db2d20c0f0374/HomoglyphsCJK-0.0.7.tar.gz
+[2023-05-22 16:54:12] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/af/24/4bdde06704aec09d78da88b3799a4977b5e372395a6c4d05a9406cf03721/ALMASim-1.1.1.tar.gz
+[2023-05-22 16:54:12] INFO root fetch - processPackages [pytest-reportlog]: Downloading https://files.pythonhosted.org/packages/da/a0/d1372b23d415a0766389480633a676fb1530e94ae8f6ea84619cae0ac215/pytest-reportlog-0.4.0.tar.gz
+[2023-05-22 16:54:13] INFO root fetch - processPackages [pytest-reportlog]: executing diffoscope
+[2023-05-22 16:54:13] INFO root fetch - processPackages [pytest-reportlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-reportlog-0.3.0.tar.gz tmp/pytest-reportlog-0.4.0.tar.gz --markdown 20230522/p/pytest-reportlog/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 16:54:13] INFO root fetch - processPackages [ALMASim]: Downloading https://files.pythonhosted.org/packages/64/28/360a39836fc7efca4c45d8c689204ccaa010a743524876b7ad4bf8776a4b/ALMASim-1.4.tar.gz
+[2023-05-22 16:54:13] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/f7/3b/07e57fc0babaefdc704ebf6ed871ceb76e7e6caa97a292badf93b092bf36/HomoglyphsCJK-0.0.8.tar.gz
+[2023-05-22 16:54:13] INFO root fetch - main [MainThread]: End processing [watchful]: success
+[2023-05-22 16:54:13] INFO root fetch - processPackages [ALMASim]: executing diffoscope
+[2023-05-22 16:54:13] INFO root fetch - processPackages [ALMASim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALMASim-1.1.1.tar.gz tmp/ALMASim-1.4.tar.gz --markdown 20230522/A/ALMASim/1.1.1-1.4/diff.md --exclude *.pyd
+[2023-05-22 16:54:13] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-05-22 16:54:13] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.0.7.tar.gz tmp/HomoglyphsCJK-0.0.8.tar.gz --markdown 20230522/H/HomoglyphsCJK/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 16:54:13] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-05-22 16:54:13] INFO root fetch - main [MainThread]: End processing [scorecardpy]: success
+[2023-05-22 16:54:13] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-05-22 16:54:13] INFO root fetch - main [MainThread]: End processing [julienne]: success
+[2023-05-22 16:54:14] INFO root fetch - main [MainThread]: End processing [pytest-reportlog]: success
+[2023-05-22 16:54:14] INFO root fetch - main [MainThread]: End processing [ALMASim]: success
+[2023-05-22 16:54:57] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-05-22 16:54:57] INFO root fetch - main [MainThread]: Store serial: [18198778]
