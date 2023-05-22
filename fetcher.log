@@ -11668,3 +11668,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 13:44:19] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-22 13:44:32] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-05-22 13:44:32] INFO root fetch - main [MainThread]: Store serial: [18196332]
+[2023-05-22 13:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196332]
+[2023-05-22 13:49:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sequana-mapper
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yookassa-payout
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-calculator-sdk
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddadevops
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foxai
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finlogic
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PandasProx
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upstash-py
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyxecm
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rgbloom
+[2023-05-22 13:49:41] WARNING root fetch - processPackages [PandasProx]: Skipping, unable to determine old version
+[2023-05-22 13:49:41] INFO root fetch - processPackages [PandasProx]: Start processing: netbox-cisco-maintenance
+[2023-05-22 13:49:41] INFO root fetch - main [MainThread]: End processing [PandasProx] error
+[2023-05-22 13:49:41] INFO root fetch - processPackages [sequana-mapper]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [finlogic]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [rgbloom]: New version: [1.4] Old Version: [1.3]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [pyxecm]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-22 13:49:41] WARNING root fetch - processPackages [simple-calculator-sdk]: Skipping, unable to determine old version
+[2023-05-22 13:49:41] INFO root fetch - processPackages [simple-calculator-sdk]: Start processing: naxtopy
+[2023-05-22 13:49:41] INFO root fetch - main [MainThread]: End processing [simple-calculator-sdk] error
+[2023-05-22 13:49:41] INFO root fetch - processPackages [foxai]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [upstash-py]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [yookassa-payout]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 13:49:41] WARNING root fetch - processPackages [naxtopy]: Skipping, unable to determine old version
+[2023-05-22 13:49:41] INFO root fetch - processPackages [naxtopy]: Start processing: checkmk-dev-tools
+[2023-05-22 13:49:41] INFO root fetch - main [MainThread]: End processing [naxtopy] error
+[2023-05-22 13:49:41] WARNING root fetch - processPackages [checkmk-dev-tools]: Skipping, unable to determine old version
+[2023-05-22 13:49:41] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: tenma-serial
+[2023-05-22 13:49:41] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools] error
+[2023-05-22 13:49:41] INFO root fetch - processPackages [tenma-serial]: New version: [1.1.1.dev1] Old Version: [1.1.1]
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230522/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [foxai]: Downloading https://files.pythonhosted.org/packages/9a/de/70ebfcebb90ed62fd8154956dd4f3401a8107a7cf6aed05d578f5e25e43f/foxai-0.5.3.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [sequana-mapper]: Downloading https://files.pythonhosted.org/packages/99/51/afb06a758b41abce685d65f86c2c10a67e1a59d03eb2ab04b67db6e77bf4/sequana_mapper-0.9.0.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [pyxecm]: Downloading https://files.pythonhosted.org/packages/fd/67/b356599f29a4ece7b52fff3caf61bf9148b2ecc7637a482bb867eb98e2b3/pyxecm-0.0.18.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/59/7c/004704546ebb3ad9c190f1bd10bebbc88fba89645814361dada1c5ef4546/finlogic-0.4.7.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [yookassa-payout]: Downloading https://files.pythonhosted.org/packages/a2/4d/6493c8dedf0d32f543da0ad142add287cff2c5024de0d2d352f2079b4319/yookassa-payout-2.5.0.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [rgbloom]: Downloading https://files.pythonhosted.org/packages/9a/e7/a3cdb3872c1ebd24f51a71a956e047fa172af9fe358f261f3bf54d5a37c1/rgbloom-1.3.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [tenma-serial]: Downloading https://files.pythonhosted.org/packages/eb/84/c04f249c0ddd742cfaf8a657287a234ea09f224b36df920d31d55007d6ee/tenma-serial-1.1.1.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [upstash-py]: Downloading https://files.pythonhosted.org/packages/57/87/771f92bcea6ce5bbbfa5174af3ba63105b85614d5e9a579c32f4cb342196/upstash_py-0.8.0.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [pyxecm]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [pyxecm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxecm-0.0.17.tar.gz tmp/pyxecm-0.0.18.tar.gz --markdown 20230522/p/pyxecm/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [finlogic]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [finlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.4.6.tar.gz tmp/finlogic-0.4.7.tar.gz --markdown 20230522/f/finlogic/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [upstash-py]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [upstash-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_py-0.7.0.tar.gz tmp/upstash_py-0.8.0.tar.gz --markdown 20230522/u/upstash-py/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [tenma-serial]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [tenma-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenma-serial-1.1.1.tar.gz tmp/tenma-serial-1.1.1.dev1.tar.gz --markdown 20230522/t/tenma-serial/1.1.1-1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [sequana-mapper]: Downloading https://files.pythonhosted.org/packages/37/d3/924ccde479d25b684382a5d52d02d845f6d06fe482bd556f732299031fdb/sequana_mapper-1.0.0.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [foxai]: Downloading https://files.pythonhosted.org/packages/32/fa/e1928df3a154928a92a88c357cae0aa6a71c5f286a99e918495eec200f43/foxai-0.5.4.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [yookassa-payout]: Downloading https://files.pythonhosted.org/packages/84/47/7a45b154bc8d51ad9eb5777fd6d415ac41f750ba46a7bacf74dbf07deab6/yookassa-payout-2.5.1.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [foxai]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [foxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxai-0.5.3.tar.gz tmp/foxai-0.5.4.tar.gz --markdown 20230522/f/foxai/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [rgbloom]: Downloading https://files.pythonhosted.org/packages/a7/c6/d59949bae5d01967c373bcb7f0ad1bb42cacf0e15691f2d02d9a2e7e2a01/rgbloom-1.4.tar.gz
+[2023-05-22 13:49:41] INFO root fetch - processPackages [sequana-mapper]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [sequana-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_mapper-0.9.0.tar.gz tmp/sequana_mapper-1.0.0.tar.gz --markdown 20230522/s/sequana-mapper/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [yookassa-payout]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [yookassa-payout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa-payout-2.5.0.tar.gz tmp/yookassa-payout-2.5.1.tar.gz --markdown 20230522/y/yookassa-payout/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-22 13:49:41] INFO root fetch - processPackages [rgbloom]: executing diffoscope
+[2023-05-22 13:49:41] INFO root fetch - processPackages [rgbloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgbloom-1.3.tar.gz tmp/rgbloom-1.4.tar.gz --markdown 20230522/r/rgbloom/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-22 13:49:43] INFO root fetch - processPackages [ddadevops]: Start processing: lamadava
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [lamadava]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 13:49:43] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: qibolab
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [pyxecm]: Start processing: odoo14-addon-stock-request-purchase
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [pyxecm]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [qibolab]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 13:49:43] INFO root fetch - processPackages [lamadava]: Downloading https://files.pythonhosted.org/packages/9c/67/54b9b58633bb955cdcd2b14cb797a0bf927ddd20df7dcdb4fae04945ecb3/lamadava-1.0.4.tar.gz
+[2023-05-22 13:49:43] INFO root fetch - processPackages [odoo14-addon-stock-request-purchase]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev4]
+[2023-05-22 13:49:43] INFO root fetch - processPackages [tenma-serial]: Start processing: liteindex
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [tenma-serial]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-22 13:49:43] INFO root fetch - processPackages [finlogic]: Start processing: memory-graph
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [finlogic]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [qibolab]: Downloading https://files.pythonhosted.org/packages/38/32/a5850841c2cca8e1d929d3a6a739ce20931d6f866a035544fd3fec25d703/qibolab-0.0.2.tar.gz
+[2023-05-22 13:49:43] INFO root fetch - processPackages [lamadava]: Downloading https://files.pythonhosted.org/packages/6d/67/edc0834c9c2b3c167e208eb7666bd93a2793e411131c60094d97c64ea6db/lamadava-1.0.5.tar.gz
+[2023-05-22 13:49:43] INFO root fetch - processPackages [memory-graph]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 13:49:43] INFO root fetch - processPackages [lamadava]: executing diffoscope
+[2023-05-22 13:49:43] INFO root fetch - processPackages [lamadava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamadava-1.0.4.tar.gz tmp/lamadava-1.0.5.tar.gz --markdown 20230522/l/lamadava/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 13:49:43] INFO root fetch - processPackages [qibolab]: Downloading https://files.pythonhosted.org/packages/0a/35/52f359837d1f93fe3cd9dcc6e9539de4c54ada8e91ff09ef60e6be090308/qibolab-0.0.3.tar.gz
+[2023-05-22 13:49:43] INFO root fetch - processPackages [odoo14-addon-stock-request-purchase]: Downloading https://files.pythonhosted.org/packages/49/8a/c84b1f536b1585e82220cb879c693f1634cdfea8f79bcebc2d695c2ad885/odoo14_addon_stock_request_purchase-14.0.1.0.2-py3-none-any.whl
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [upstash-py]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [odoo14-addon-stock-request-purchase]: executing diffoscope
+[2023-05-22 13:49:43] INFO root fetch - processPackages [odoo14-addon-stock-request-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request_purchase-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_stock_request_purchase-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-stock-request-purchase/14.0.1.0.1.dev4-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-22 13:49:43] INFO root fetch - processPackages [memory-graph]: Downloading https://files.pythonhosted.org/packages/af/25/86c2ab5d5bd86f4af6f19fd1104ca1247c443c64139abd419736359dc1c5/memory_graph-0.1.9.tar.gz
+[2023-05-22 13:49:43] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-22 13:49:43] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230522/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-22 13:49:43] INFO root fetch - processPackages [qibolab]: executing diffoscope
+[2023-05-22 13:49:43] INFO root fetch - processPackages [qibolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibolab-0.0.2.tar.gz tmp/qibolab-0.0.3.tar.gz --markdown 20230522/q/qibolab/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 13:49:43] INFO root fetch - main [MainThread]: End processing [rgbloom]: success
+[2023-05-22 13:49:43] INFO root fetch - processPackages [memory-graph]: executing diffoscope
+[2023-05-22 13:49:43] INFO root fetch - processPackages [memory-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_graph-0.1.8.tar.gz tmp/memory_graph-0.1.9.tar.gz --markdown 20230522/m/memory-graph/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 13:49:44] INFO root fetch - main [MainThread]: End processing [foxai]: success
+[2023-05-22 13:49:44] INFO root fetch - main [MainThread]: End processing [yookassa-payout]: success
+[2023-05-22 13:49:44] INFO root fetch - main [MainThread]: End processing [lamadava]: success
+[2023-05-22 13:49:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request-purchase]: success
+[2023-05-22 13:49:45] INFO root fetch - main [MainThread]: End processing [memory-graph]: success
+[2023-05-22 13:49:45] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-22 13:49:45] INFO root fetch - main [MainThread]: End processing [qibolab]: success
+[2023-05-22 13:50:24] INFO root fetch - main [MainThread]: End processing [sequana-mapper]: success
+[2023-05-22 13:50:24] INFO root fetch - main [MainThread]: Store serial: [18196391]
