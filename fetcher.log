@@ -14226,3 +14226,122 @@ EOFError: EOF read where object expected
 [2023-05-22 15:38:57] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
 [2023-05-22 15:38:57] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
 [2023-05-22 15:38:57] INFO root fetch - main [MainThread]: Store serial: [18197711]
+[2023-05-22 15:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197711]
+[2023-05-22 15:44:06] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vantage6-server
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doFolder
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: obrpy
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bemserver-api
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AkvoResponseGrouper
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: posttroll
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tokenfinderbot
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paintcompiler
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaemis
+[2023-05-22 15:44:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: civics-cdf-validator
+[2023-05-22 15:44:06] INFO root fetch - processPackages [bemserver-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 15:44:06] WARNING root fetch - processPackages [doFolder]: Skipping, unable to determine old version
+[2023-05-22 15:44:06] INFO root fetch - processPackages [doFolder]: Start processing: proxpi
+[2023-05-22 15:44:06] INFO root fetch - main [MainThread]: End processing [doFolder] error
+[2023-05-22 15:44:06] INFO root fetch - processPackages [obrpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 15:44:06] INFO root fetch - processPackages [spaemis]: New version: [0.2.0a2] Old Version: [0.2.0]
+[2023-05-22 15:44:06] INFO root fetch - processPackages [AkvoResponseGrouper]: New version: [1.3.2a0] Old Version: [1.3.1a0]
+[2023-05-22 15:44:06] INFO root fetch - processPackages [posttroll]: New version: [v1.1.0] Old Version: [1.9.0]
+[2023-05-22 15:44:06] INFO root fetch - processPackages [tokenfinderbot]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-05-22 15:44:06] WARNING root fetch - processPackages [paintcompiler]: Skipping, unable to determine old version
+[2023-05-22 15:44:06] INFO root fetch - processPackages [paintcompiler]: Start processing: ucampurestorage
+[2023-05-22 15:44:06] INFO root fetch - main [MainThread]: End processing [paintcompiler] error
+[2023-05-22 15:44:06] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc2] Old Version: [3.8.8rc3]
+[2023-05-22 15:44:06] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2023-05-22 15:44:06] INFO root fetch - processPackages [proxpi]: New version: [1.1.0rc0] Old Version: [1.1.0b1]
+[2023-05-22 15:44:07] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/fa/48/593b6417e2d014341ae14704d0cdb55b305c266638e8a873ac1a7af744f8/vantage6-server-3.8.8rc3.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [ucampurestorage]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-05-22 15:44:07] INFO root fetch - processPackages [bemserver-api]: Downloading https://files.pythonhosted.org/packages/d1/96/d63eab3b697c60441c8e4773f0f7e4f7ae0cc4ac6c9b80c1b861c1726f94/bemserver-api-0.8.0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [spaemis]: Downloading https://files.pythonhosted.org/packages/19/14/0724959711c8b249745f4b8e902bb36fce609fe42ac0ce0a4d06aac9a472/spaemis-0.2.0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [posttroll]: Downloading https://files.pythonhosted.org/packages/76/bd/f9093663e149159de0e5419e08d58a536262458585b31f4eb1baca0c30bd/posttroll-1.9.0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [tokenfinderbot]: Downloading https://files.pythonhosted.org/packages/37/f2/7ab602cc858d2d34f243a464e2d03b9c8d08901163415fee22dd3c464141/tokenfinderbot-0.1.2.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [AkvoResponseGrouper]: Downloading https://files.pythonhosted.org/packages/fc/09/8fd9daee07aec465cae07e739412721fbd65a316a3e92cd9b979c7cbc3d9/AkvoResponseGrouper-1.3.1a0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [proxpi]: Downloading https://files.pythonhosted.org/packages/cb/38/e54ed6e731fe435e0c04dc8633794005b60f1b3986a95d9abbd73146d58b/proxpi-1.1.0b1.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [spaemis]: Downloading https://files.pythonhosted.org/packages/8e/77/c61b2e7ab20824aed49b1174db9e8f0bd8e9a32f56d3409b89baa682f527/spaemis-0.2.0a2.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [bemserver-api]: Downloading https://files.pythonhosted.org/packages/5c/e7/77a339a63998e92a93bf92e8d87de9152b25180a76f0d202f8550beef516/bemserver-api-0.9.0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [ucampurestorage]: Downloading https://files.pythonhosted.org/packages/0d/d4/7a5191b5d6e59f0693a515e4cccc3634c6b3f8b10fadc6d22ddb0d93640a/ucampurestorage-1.0.8.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20230522/c/civics-cdf-validator/1.9-1.9.dev1/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.8.tar.gz tmp/obrpy-0.0.9.tar.gz --markdown 20230522/o/obrpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.8.8rc3.tar.gz tmp/vantage6-server-3.9.0rc2.tar.gz --markdown 20230522/v/vantage6-server/3.8.8rc3-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [tokenfinderbot]: Downloading https://files.pythonhosted.org/packages/03/15/421684c36d509997f44ce77ba6995c2b1c8eb551ed00f414016bf084017f/tokenfinderbot-1.0.0-py3-none-any.whl
+[2023-05-22 15:44:07] INFO root fetch - processPackages [AkvoResponseGrouper]: Downloading https://files.pythonhosted.org/packages/f9/ce/c1d769ae5a896945f4a170c51b1f94fc152178f7a97b5dec26dc7ff91c30/AkvoResponseGrouper-1.3.2a0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [spaemis]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [spaemis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaemis-0.2.0.tar.gz tmp/spaemis-0.2.0a2.tar.gz --markdown 20230522/s/spaemis/0.2.0-0.2.0a2/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [bemserver-api]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [bemserver-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-api-0.8.0.tar.gz tmp/bemserver-api-0.9.0.tar.gz --markdown 20230522/b/bemserver-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [tokenfinderbot]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [tokenfinderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenfinderbot-0.1.2.tar.gz tmp/tokenfinderbot-1.0.0-py3-none-any.whl.zip --markdown 20230522/t/tokenfinderbot/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [AkvoResponseGrouper]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [AkvoResponseGrouper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkvoResponseGrouper-1.3.1a0.tar.gz tmp/AkvoResponseGrouper-1.3.2a0.tar.gz --markdown 20230522/A/AkvoResponseGrouper/1.3.1a0-1.3.2a0/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [proxpi]: Downloading https://files.pythonhosted.org/packages/d4/34/9ac3383a2b360b8aab20b99e3ee2b4ecf78b9c8f92d4946fc6523bc32fa6/proxpi-1.1.0rc0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [proxpi]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [proxpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxpi-1.1.0b1.tar.gz tmp/proxpi-1.1.0rc0.tar.gz --markdown 20230522/p/proxpi/1.1.0b1-1.1.0rc0/diff.md --exclude *.pyd
+[2023-05-22 15:44:07] INFO root fetch - processPackages [posttroll]: Downloading https://files.pythonhosted.org/packages/00/01/626088695935671fe50a0769bac1849a43bd76611acbf63a4053ab2cec71/posttroll-v1.1.0.tar.gz
+[2023-05-22 15:44:07] INFO root fetch - processPackages [posttroll]: executing diffoscope
+[2023-05-22 15:44:07] INFO root fetch - processPackages [posttroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posttroll-1.9.0.tar.gz tmp/posttroll-v1.1.0.tar.gz --markdown 20230522/p/posttroll/1.9.0-v1.1.0/diff.md --exclude *.pyd
+[2023-05-22 15:44:08] INFO root fetch - processPackages [ucampurestorage]: executing diffoscope
+[2023-05-22 15:44:08] INFO root fetch - processPackages [ucampurestorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucampurestorage-1.0.6.tar.gz tmp/ucampurestorage-1.0.8.tar.gz --markdown 20230522/u/ucampurestorage/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 15:44:09] INFO root fetch - processPackages [tokenfinderbot]: Start processing: tkblock
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [tokenfinderbot]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [tkblock]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-22 15:44:09] INFO root fetch - processPackages [obrpy]: Start processing: warpzone-sdk
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [warpzone-sdk]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-05-22 15:44:09] INFO root fetch - processPackages [AkvoResponseGrouper]: Start processing: pokie-location
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [AkvoResponseGrouper]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [tkblock]: Downloading https://files.pythonhosted.org/packages/b1/02/3808a967554cdd720ac93052b8dfdd8390c583d6663f7e3eeeb5b39dbb19/tkblock-2.1.0.tar.gz
+[2023-05-22 15:44:09] WARNING root fetch - processPackages [pokie-location]: Skipping, unable to determine old version
+[2023-05-22 15:44:09] INFO root fetch - processPackages [pokie-location]: Start processing: STEAM-materials
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [pokie-location] error
+[2023-05-22 15:44:09] INFO root fetch - processPackages [STEAM-materials]: New version: [2023.5.1] Old Version: [2023.4.1]
+[2023-05-22 15:44:09] INFO root fetch - processPackages [tkblock]: executing diffoscope
+[2023-05-22 15:44:09] INFO root fetch - processPackages [tkblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkblock-2.0.0.tar.gz tmp/tkblock-2.1.0.tar.gz --markdown 20230522/t/tkblock/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-22 15:44:09] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/ab/10/44b4997760919d5f183f16624780ff8c06288e48967f070ef669f2eae4d3/warpzone_sdk-6.0.5.tar.gz
+[2023-05-22 15:44:09] INFO root fetch - processPackages [civics-cdf-validator]: Start processing: NuOCR
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [NuOCR]: New version: [0.2.5.2] Old Version: [0.2.5.1]
+[2023-05-22 15:44:09] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/24/46/6dd4fdb2d96d2e721d8a8fc162c1606ef200e7aab338080ce49f2c45284e/STEAM_materials-2023.4.1.tar.gz
+[2023-05-22 15:44:09] INFO root fetch - processPackages [vantage6-server]: Start processing: DataGlitch
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/c6/56/f77ab65228fcfb0c0bf6c6af6f785db093c492b658e648858f9e663ba98e/warpzone_sdk-6.0.6.tar.gz
+[2023-05-22 15:44:09] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/3e/90/1abf06e06deed60509ce0670a74773985de80935f6834b933dc0107c990b/NuOCR-0.2.5.1.tar.gz
+[2023-05-22 15:44:09] WARNING root fetch - processPackages [DataGlitch]: Skipping, unable to determine old version
+[2023-05-22 15:44:09] INFO root fetch - processPackages [DataGlitch]: Start processing: splight-lib
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [DataGlitch] error
+[2023-05-22 15:44:09] INFO root fetch - processPackages [spaemis]: Start processing: gptw
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [spaemis]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-05-22 15:44:09] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-6.0.5.tar.gz tmp/warpzone_sdk-6.0.6.tar.gz --markdown 20230522/w/warpzone-sdk/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-05-22 15:44:09] INFO root fetch - main [MainThread]: End processing [proxpi]: success
+[2023-05-22 15:44:09] INFO root fetch - processPackages [splight-lib]: New version: [3.0.0.dev1] Old Version: [2.3.9]
+[2023-05-22 15:44:09] INFO root fetch - processPackages [gptw]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-22 15:44:10] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/5d/05/07cc4537f2e3dba55412758209fc1cd6c129dc2565f95813132687dbd2ff/NuOCR-0.2.5.2.tar.gz
+[2023-05-22 15:44:10] INFO root fetch - processPackages [NuOCR]: executing diffoscope
+[2023-05-22 15:44:10] INFO root fetch - processPackages [NuOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuOCR-0.2.5.1.tar.gz tmp/NuOCR-0.2.5.2.tar.gz --markdown 20230522/N/NuOCR/0.2.5.1-0.2.5.2/diff.md --exclude *.pyd
+[2023-05-22 15:44:10] INFO root fetch - main [MainThread]: End processing [posttroll]: success
+[2023-05-22 15:44:10] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/6a/29/49675c76778c523615fa8ee3631b4ff67a21dac99f7ad17b28484b36736f/gptw-0.4.0.tar.gz
+[2023-05-22 15:44:10] INFO root fetch - processPackages [STEAM-materials]: Downloading https://files.pythonhosted.org/packages/fb/24/28def833bc4151876ad9a0d7c5eb0789c5c96d48647a415ce2235e8086a6/STEAM_materials-2023.5.1.tar.gz
+[2023-05-22 15:44:10] INFO root fetch - processPackages [gptw]: Downloading https://files.pythonhosted.org/packages/8e/24/86d0cfb253d73eb51de113a170f902c538914526c818829733a9fde76833/gptw-0.4.1.tar.gz
+[2023-05-22 15:44:10] INFO root fetch - processPackages [STEAM-materials]: executing diffoscope
+[2023-05-22 15:44:10] INFO root fetch - processPackages [STEAM-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEAM_materials-2023.4.1.tar.gz tmp/STEAM_materials-2023.5.1.tar.gz --markdown 20230522/S/STEAM-materials/2023.4.1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-22 15:44:10] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
+[2023-05-22 15:44:10] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/f9/f6/b30ae34b4ed09546262a315dc976edaccd069cb65c298aa8d5e064bc80a3/splight-lib-3.0.0.dev1.tar.gz
+[2023-05-22 15:44:10] INFO root fetch - processPackages [gptw]: executing diffoscope
+[2023-05-22 15:44:10] INFO root fetch - processPackages [gptw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptw-0.4.0.tar.gz tmp/gptw-0.4.1.tar.gz --markdown 20230522/g/gptw/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-22 15:44:10] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-22 15:44:10] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.9.tar.gz tmp/splight-lib-3.0.0.dev1.tar.gz --markdown 20230522/s/splight-lib/2.3.9-3.0.0.dev1/diff.md --exclude *.pyd
+[2023-05-22 15:44:10] INFO root fetch - main [MainThread]: End processing [tkblock]: success
+[2023-05-22 15:44:11] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-05-22 15:44:11] INFO root fetch - main [MainThread]: End processing [NuOCR]: success
+[2023-05-22 15:44:11] INFO root fetch - main [MainThread]: End processing [gptw]: success
+[2023-05-22 15:44:12] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-22 15:44:16] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
+[2023-05-22 15:44:42] INFO root fetch - main [MainThread]: End processing [STEAM-materials]: success
+[2023-05-22 15:44:42] INFO root fetch - main [MainThread]: Store serial: [18197782]
