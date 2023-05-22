@@ -21439,3 +21439,158 @@ EOFError: EOF read where object expected
 [2023-05-22 19:52:40] INFO root fetch - main [MainThread]: End processing [iparapheur-utils]: success
 [2023-05-22 19:52:40] INFO root fetch - main [MainThread]: End processing [plone.app.layout]: success
 [2023-05-22 19:52:41] INFO root fetch - main [MainThread]: Store serial: [18201896]
+[2023-05-22 19:57:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201896]
+[2023-05-22 19:57:52] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.app.dexterity
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lzallright
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioairzone-cloud
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plone.app.viewletmanager
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surv-ai
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superpowered-sdk
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amplpy
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plone.app.portlets
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manifest-ml
+[2023-05-22 19:57:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: duckingit
+[2023-05-22 19:57:52] INFO root fetch - processPackages [lzallright]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [surv-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [plone.app.dexterity]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [duckingit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [manifest-ml]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [plone.app.viewletmanager]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [plone.app.portlets]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [amplpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-22 19:57:52] INFO root fetch - processPackages [duckingit]: executing diffoscope
+[2023-05-22 19:57:52] INFO root fetch - processPackages [duckingit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckingit-0.0.8.tar.gz tmp/duckingit-0.0.9.tar.gz --markdown 20230522/d/duckingit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:57:52] INFO root fetch - processPackages [amplpy]: executing diffoscope
+[2023-05-22 19:57:52] INFO root fetch - processPackages [amplpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplpy-0.9.2.tar.gz tmp/amplpy-0.9.3.tar.gz --markdown 20230522/a/amplpy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-22 19:57:52] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/b4/f4/a253f71352d505fd8ae57d65bdee384abb0103bc753a5b45550e05b6d4a3/manifest-ml-0.1.7.tar.gz
+[2023-05-22 19:57:52] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/83/e7/1b9da010a38fc048d37942dc36f70a34dcd12f07df5c2aed6805b7f15d6c/aioairzone-cloud-0.1.1.tar.gz
+[2023-05-22 19:57:52] INFO root fetch - processPackages [lzallright]: Downloading https://files.pythonhosted.org/packages/23/77/97f8d7dfdd3bcedcaa7ed078048043545d74f8ca88538f7ddfab24ddcb1c/lzallright-0.2.2.tar.gz
+[2023-05-22 19:57:52] INFO root fetch - processPackages [plone.app.dexterity]: Downloading https://files.pythonhosted.org/packages/a9/bd/389536c3fe1d58f104ea6f9225cecae0a3906e01102df1817019d98e03a7/plone.app.dexterity-3.1.0.tar.gz
+[2023-05-22 19:57:52] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/2c/cc/15dafb0f286d315554da81ed1c093bc6ac7f24b79bd06b825e1755f4a6c2/surv_ai-0.1.2.tar.gz
+[2023-05-22 19:57:52] INFO root fetch - processPackages [plone.app.viewletmanager]: Downloading https://files.pythonhosted.org/packages/94/92/995985c59f5550a8abbe53571146313960412b582bf86ea4e8f21d8b9e07/plone.app.viewletmanager-4.0.1.tar.gz
+[2023-05-22 19:57:52] INFO root fetch - processPackages [plone.app.portlets]: Downloading https://files.pythonhosted.org/packages/00/79/91d6434fd47c3d19ef11ed14867e717bb790d359b61e48260ccd3a7aeac7/plone.app.portlets-5.0.4.tar.gz
+[2023-05-22 19:57:53] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.0.tar.gz tmp/aioairzone-cloud-0.1.1.tar.gz --markdown 20230522/a/aioairzone-cloud/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/5b/f3/a31e53427c8b408781563de292d156b145954b27f32088762904339eda04/superpowered-sdk-0.1.3.tar.gz
+[2023-05-22 19:57:53] INFO root fetch - processPackages [lzallright]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [lzallright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzallright-0.2.1.tar.gz tmp/lzallright-0.2.2.tar.gz --markdown 20230522/l/lzallright/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [manifest-ml]: Downloading https://files.pythonhosted.org/packages/1e/b8/ca8cd85c24409274ce4f2ae2a48c1392a9a950f55d9a5f0481c4fb96a660/manifest-ml-0.1.8.tar.gz
+[2023-05-22 19:57:53] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.1.tar.gz tmp/surv_ai-0.1.2.tar.gz --markdown 20230522/s/surv-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.dexterity]: Downloading https://files.pythonhosted.org/packages/4b/fb/6ee41b97722bf974754226e083c64bfdb7037d70e6f1507b7d80d2e1d904/plone.app.dexterity-3.1.1.tar.gz
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.dexterity]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.dexterity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.dexterity-3.1.0.tar.gz tmp/plone.app.dexterity-3.1.1.tar.gz --markdown 20230522/p/plone.app.dexterity/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.1.tar.gz tmp/superpowered-sdk-0.1.3.tar.gz --markdown 20230522/s/superpowered-sdk/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.viewletmanager]: Downloading https://files.pythonhosted.org/packages/5a/fd/df4a6c57cded991af4ead69c10567f16ce7bec82fc52b4d7964266fd02b8/plone.app.viewletmanager-4.0.2.tar.gz
+[2023-05-22 19:57:53] INFO root fetch - processPackages [manifest-ml]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [manifest-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifest-ml-0.1.7.tar.gz tmp/manifest-ml-0.1.8.tar.gz --markdown 20230522/m/manifest-ml/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.viewletmanager]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.viewletmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.viewletmanager-4.0.1.tar.gz tmp/plone.app.viewletmanager-4.0.2.tar.gz --markdown 20230522/p/plone.app.viewletmanager/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.portlets]: Downloading https://files.pythonhosted.org/packages/56/e4/8a0bf8160613a6c7609192a05af53d4d72c3b74227e241bc960d7a4cd043/plone.app.portlets-5.0.5.tar.gz
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.portlets]: executing diffoscope
+[2023-05-22 19:57:53] INFO root fetch - processPackages [plone.app.portlets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.portlets-5.0.4.tar.gz tmp/plone.app.portlets-5.0.5.tar.gz --markdown 20230522/p/plone.app.portlets/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-05-22 19:57:54] INFO root fetch - processPackages [duckingit]: Start processing: moto
+[2023-05-22 19:57:54] INFO root fetch - main [MainThread]: End processing [duckingit]: success
+[2023-05-22 19:57:54] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-22 19:57:54] INFO root fetch - processPackages [aioairzone-cloud]: Start processing: sockettools
+[2023-05-22 19:57:54] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-05-22 19:57:54] INFO root fetch - processPackages [sockettools]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-22 19:57:54] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-22 19:57:54] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230522/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 19:57:54] INFO root fetch - processPackages [surv-ai]: Start processing: task-assembly
+[2023-05-22 19:57:54] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-22 19:57:54] INFO root fetch - processPackages [task-assembly]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 19:57:54] INFO root fetch - processPackages [sockettools]: Downloading https://files.pythonhosted.org/packages/d6/03/6c82758cdb3528a453430d34ce5475bffd27cdcbb4ebf37a488951b290e4/sockettools-0.1.0.tar.gz
+[2023-05-22 19:57:54] INFO root fetch - processPackages [task-assembly]: executing diffoscope
+[2023-05-22 19:57:54] INFO root fetch - processPackages [task-assembly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_assembly-0.1.8.tar.gz tmp/task_assembly-0.1.9.tar.gz --markdown 20230522/t/task-assembly/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 19:57:54] INFO root fetch - processPackages [superpowered-sdk]: Start processing: vector-vault
+[2023-05-22 19:57:54] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-05-22 19:57:54] INFO root fetch - processPackages [sockettools]: Downloading https://files.pythonhosted.org/packages/7c/40/eec60b2e7466aa7473278aa3e82bc02cbfb249fbcd1f256f7d07f863f150/sockettools-0.1.2.tar.gz
+[2023-05-22 19:57:54] INFO root fetch - processPackages [vector-vault]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-22 19:57:54] INFO root fetch - processPackages [lzallright]: Start processing: x-transformers
+[2023-05-22 19:57:54] INFO root fetch - main [MainThread]: End processing [lzallright]: success
+[2023-05-22 19:57:54] INFO root fetch - processPackages [sockettools]: executing diffoscope
+[2023-05-22 19:57:54] INFO root fetch - processPackages [sockettools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockettools-0.1.0.tar.gz tmp/sockettools-0.1.2.tar.gz --markdown 20230522/s/sockettools/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 19:57:54] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-22 19:57:55] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/6c/2c/42c54a71ffac59c927e13d3fba8579f5bcb25b3c3078af3b9e48fe235068/vector_vault-0.2.5.tar.gz
+[2023-05-22 19:57:55] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-22 19:57:55] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-0.2.4.tar.gz tmp/vector_vault-0.2.5.tar.gz --markdown 20230522/v/vector-vault/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-22 19:57:55] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-05-22 19:57:55] INFO root fetch - processPackages [manifest-ml]: Start processing: pyxecm-llm
+[2023-05-22 19:57:55] INFO root fetch - main [MainThread]: End processing [manifest-ml]: success
+[2023-05-22 19:57:55] WARNING root fetch - processPackages [pyxecm-llm]: Skipping, unable to determine old version
+[2023-05-22 19:57:55] INFO root fetch - processPackages [pyxecm-llm]: Start processing: openmc-geometry-plot
+[2023-05-22 19:57:55] INFO root fetch - main [MainThread]: End processing [pyxecm-llm] error
+[2023-05-22 19:57:55] INFO root fetch - processPackages [openmc-geometry-plot]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-22 19:57:55] INFO root fetch - processPackages [plone.app.viewletmanager]: Start processing: melnor-bluetooth
+[2023-05-22 19:57:55] INFO root fetch - main [MainThread]: End processing [plone.app.viewletmanager]: success
+[2023-05-22 19:57:55] INFO root fetch - processPackages [melnor-bluetooth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:57:55] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-05-22 19:57:55] INFO root fetch - processPackages [openmc-geometry-plot]: Downloading https://files.pythonhosted.org/packages/a1/9b/fb8959c08455b5cc26d62e553b0001a77e6fe50736fa9a0f66fe9a7c89c3/openmc_geometry_plot-0.3.4.tar.gz
+[2023-05-22 19:57:55] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-05-22 19:57:55] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230522/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-22 19:57:55] INFO root fetch - processPackages [melnor-bluetooth]: executing diffoscope
+[2023-05-22 19:57:55] INFO root fetch - processPackages [melnor-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melnor-bluetooth-0.0.8.tar.gz tmp/melnor-bluetooth-0.0.9.tar.gz --markdown 20230522/m/melnor-bluetooth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:57:55] INFO root fetch - processPackages [openmc-geometry-plot]: Downloading https://files.pythonhosted.org/packages/48/a5/83d7a876c2f2189d14df0d9459958b39a1186c40a3f0b3c10bbc17921b12/openmc_geometry_plot-0.3.5.tar.gz
+[2023-05-22 19:57:55] INFO root fetch - processPackages [plone.app.portlets]: Start processing: PlexTraktSync
+[2023-05-22 19:57:55] INFO root fetch - main [MainThread]: End processing [plone.app.portlets]: success
+[2023-05-22 19:57:56] INFO root fetch - processPackages [openmc-geometry-plot]: executing diffoscope
+[2023-05-22 19:57:56] INFO root fetch - processPackages [openmc-geometry-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmc_geometry_plot-0.3.4.tar.gz tmp/openmc_geometry_plot-0.3.5.tar.gz --markdown 20230522/o/openmc-geometry-plot/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-22 19:57:56] INFO root fetch - processPackages [task-assembly]: Start processing: codat-accounting
+[2023-05-22 19:57:56] INFO root fetch - main [MainThread]: End processing [task-assembly]: success
+[2023-05-22 19:57:56] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.5] Old Version: [0.26.4]
+[2023-05-22 19:57:56] INFO root fetch - processPackages [sockettools]: Start processing: impick
+[2023-05-22 19:57:56] INFO root fetch - main [MainThread]: End processing [sockettools]: success
+[2023-05-22 19:57:56] INFO root fetch - processPackages [impick]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-accounting]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-05-22 19:57:56] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/76/70/576823e4179674120b5ea806544381272a3004ce5967d60a2a04627b3db3/PlexTraktSync-0.26.4.tar.gz
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/bf/47/f4cdb75c867c024099ef9160e409fd058e88bdab11b26ab1203dca2ef1f2/codat-accounting-0.5.1.tar.gz
+[2023-05-22 19:57:56] INFO root fetch - processPackages [impick]: Downloading https://files.pythonhosted.org/packages/8c/d5/201c7648e1ac257fc98c9ef1c9f6df4d6fc259f1a1092fd34673f8bd8fea/impick-0.1.1.tar.gz
+[2023-05-22 19:57:56] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/a8/f8/7c837fbc22c57856a700628dc663fe26d1d1a220c4434fad7c922ad1d472/PlexTraktSync-0.26.5.tar.gz
+[2023-05-22 19:57:56] INFO root fetch - processPackages [impick]: executing diffoscope
+[2023-05-22 19:57:56] INFO root fetch - processPackages [impick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impick-0.1.0.tar.gz tmp/impick-0.1.1.tar.gz --markdown 20230522/i/impick/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 19:57:56] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-05-22 19:57:56] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.4.tar.gz tmp/PlexTraktSync-0.26.5.tar.gz --markdown 20230522/P/PlexTraktSync/0.26.4-0.26.5/diff.md --exclude *.pyd
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/5b/d6/7816e15411df42a3927b96e719b12df2b452f71167af865f1128d44bf77b/codat-accounting-0.9.6.tar.gz
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-accounting]: executing diffoscope
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-accounting-0.5.1.tar.gz tmp/codat-accounting-0.9.6.tar.gz --markdown 20230522/c/codat-accounting/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-05-22 19:57:56] INFO root fetch - processPackages [x-transformers]: Start processing: gpt-review
+[2023-05-22 19:57:56] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-05-22 19:57:56] INFO root fetch - processPackages [vector-vault]: Start processing: codat-banking
+[2023-05-22 19:57:56] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-22 19:57:56] INFO root fetch - processPackages [melnor-bluetooth]: Start processing: codat-commerce
+[2023-05-22 19:57:56] INFO root fetch - main [MainThread]: End processing [melnor-bluetooth]: success
+[2023-05-22 19:57:56] INFO root fetch - processPackages [gpt-review]: New version: [0.9.4rc860.post1] Old Version: [0.9.3rc850.post1]
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-banking]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-05-22 19:57:56] INFO root fetch - processPackages [codat-commerce]: New version: [0.9.6] Old Version: [0.7.0]
+[2023-05-22 19:57:57] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/b2/67/b084d283648809692d3c8041847804abd7f84339ae948ce7f6da7a32b680/codat-banking-0.5.1.tar.gz
+[2023-05-22 19:57:57] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/78/d7/b881e986c315874f2fa7db3ddc550597c9f80779cf512de9f31b95c43597/gpt_review-0.9.4rc860.post1.tar.gz
+[2023-05-22 19:57:57] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/03/e8/014083e796ec06673a05a666a7990cbb928cd2ff12ff970fbd141ed4b9e3/codat-banking-0.8.4.tar.gz
+[2023-05-22 19:57:57] INFO root fetch - processPackages [codat-banking]: executing diffoscope
+[2023-05-22 19:57:57] INFO root fetch - processPackages [codat-banking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-banking-0.5.1.tar.gz tmp/codat-banking-0.8.4.tar.gz --markdown 20230522/c/codat-banking/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-05-22 19:57:57] INFO root fetch - processPackages [codat-commerce]: executing diffoscope
+[2023-05-22 19:57:57] INFO root fetch - processPackages [codat-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-commerce-0.7.0.tar.gz tmp/codat-commerce-0.9.6.tar.gz --markdown 20230522/c/codat-commerce/0.7.0-0.9.6/diff.md --exclude *.pyd
+[2023-05-22 19:57:57] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-22 19:57:57] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.3rc850.post1.tar.gz tmp/gpt_review-0.9.4rc860.post1.tar.gz --markdown 20230522/g/gpt-review/0.9.3rc850.post1-0.9.4rc860.post1/diff.md --exclude *.pyd
+[2023-05-22 19:57:57] INFO root fetch - processPackages [openmc-geometry-plot]: Start processing: plone.app.contenttypes
+[2023-05-22 19:57:57] INFO root fetch - main [MainThread]: End processing [openmc-geometry-plot]: success
+[2023-05-22 19:57:57] INFO root fetch - main [MainThread]: End processing [impick]: success
+[2023-05-22 19:57:57] INFO root fetch - processPackages [plone.app.contenttypes]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-22 19:57:58] INFO root fetch - processPackages [plone.app.contenttypes]: Downloading https://files.pythonhosted.org/packages/63/f9/bfe23b30df435e8f798e723bcd3f9520113a28aa52c8e6d8d07158a17a64/plone.app.contenttypes-3.0.2.tar.gz
+[2023-05-22 19:57:58] INFO root fetch - processPackages [plone.app.contenttypes]: Downloading https://files.pythonhosted.org/packages/24/a2/de8da2c9d614bdf432707716967f60db4e43f31e511e364a8ddac779f889/plone.app.contenttypes-3.0.3.tar.gz
+[2023-05-22 19:57:58] INFO root fetch - processPackages [plone.app.contenttypes]: executing diffoscope
+[2023-05-22 19:57:58] INFO root fetch - processPackages [plone.app.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.contenttypes-3.0.2.tar.gz tmp/plone.app.contenttypes-3.0.3.tar.gz --markdown 20230522/p/plone.app.contenttypes/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-22 19:57:58] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-05-22 19:57:58] INFO root fetch - main [MainThread]: End processing [plone.app.dexterity]: success
+[2023-05-22 19:57:58] INFO root fetch - main [MainThread]: End processing [codat-banking]: success
+[2023-05-22 19:57:59] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-22 19:57:59] INFO root fetch - main [MainThread]: End processing [codat-commerce]: success
+[2023-05-22 19:57:59] INFO root fetch - main [MainThread]: End processing [codat-accounting]: success
+[2023-05-22 19:58:00] INFO root fetch - main [MainThread]: End processing [amplpy]: success
+[2023-05-22 19:58:00] INFO root fetch - main [MainThread]: End processing [plone.app.contenttypes]: success
+[2023-05-22 19:58:27] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-22 19:58:27] INFO root fetch - main [MainThread]: Store serial: [18202020]
