@@ -5091,3 +5091,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:24:30] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
 [2023-05-22 06:24:30] INFO root fetch - main [MainThread]: End processing [krutils]: success
 [2023-05-22 06:24:30] INFO root fetch - main [MainThread]: Store serial: [18192263]
+[2023-05-22 06:29:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192263]
+[2023-05-22 06:29:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-22 06:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aroma
+[2023-05-22 06:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jort
+[2023-05-22 06:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voicevox-client
+[2023-05-22 06:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-invoice-overdue-reminder
+[2023-05-22 06:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysubcipher
+[2023-05-22 06:29:40] INFO root fetch - processPackages [voicevox-client]: New version: [0.2.0rc0] Old Version: [0.2.0a2]
+[2023-05-22 06:29:40] WARNING root fetch - processPackages [jort]: Skipping, unable to determine old version
+[2023-05-22 06:29:40] INFO root fetch - main [MainThread]: End processing [jort] error
+[2023-05-22 06:29:40] WARNING root fetch - processPackages [aroma]: Skipping, unable to determine old version
+[2023-05-22 06:29:40] INFO root fetch - main [MainThread]: End processing [aroma] error
+[2023-05-22 06:29:40] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: New version: [14.0.1.4.1.dev2] Old Version: [14.0.1.4.1.dev1]
+[2023-05-22 06:29:40] INFO root fetch - processPackages [pysubcipher]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-22 06:29:40] INFO root fetch - processPackages [voicevox-client]: Downloading https://files.pythonhosted.org/packages/a2/fc/0e49786896ff6f0fa4e101cf78af0b23e2db08a28500de7091c1a515a293/voicevox-client-0.2.0a2.tar.gz
+[2023-05-22 06:29:40] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/dc/7f/80f44ebd5339a44bba08f64f0141afa5bf216aae0cf84e27f04a5e35e194/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev1-py3-none-any.whl
+[2023-05-22 06:29:40] INFO root fetch - processPackages [pysubcipher]: Downloading https://files.pythonhosted.org/packages/c2/ee/caba3bfe6e4bd16c0fe8448e9a1e8ff0b2490ff1de546111c195e0392180/pysubcipher-2.3.0.tar.gz
+[2023-05-22 06:29:41] INFO root fetch - processPackages [voicevox-client]: Downloading https://files.pythonhosted.org/packages/fe/4f/359a5f0e32c6131cc307a7482ad287dfb66bdfa2a414277da3711ab42866/voicevox-client-0.2.0rc0.tar.gz
+[2023-05-22 06:29:41] INFO root fetch - processPackages [pysubcipher]: Downloading https://files.pythonhosted.org/packages/5a/31/3de26840e8ae069fd46ef379eb6602408403e87a2fadb5ec0c06de82eaa8/pysubcipher-2.3.1.tar.gz
+[2023-05-22 06:29:41] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/a7/cf/6db76936825b38c44924a49e7de36fa90d9f0855ecc2e51f5e44afe37d5a/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev2-py3-none-any.whl
+[2023-05-22 06:29:41] INFO root fetch - processPackages [voicevox-client]: executing diffoscope
+[2023-05-22 06:29:41] INFO root fetch - processPackages [voicevox-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicevox-client-0.2.0a2.tar.gz tmp/voicevox-client-0.2.0rc0.tar.gz --markdown 20230522/v/voicevox-client/0.2.0a2-0.2.0rc0/diff.md --exclude *.pyd
+[2023-05-22 06:29:41] INFO root fetch - processPackages [pysubcipher]: executing diffoscope
+[2023-05-22 06:29:41] INFO root fetch - processPackages [pysubcipher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysubcipher-2.3.0.tar.gz tmp/pysubcipher-2.3.1.tar.gz --markdown 20230522/p/pysubcipher/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-22 06:29:41] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-22 06:29:41] INFO root fetch - processPackages [odoo14-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_overdue_reminder-14.0.1.4.1.dev2-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-account-invoice-overdue-reminder/14.0.1.4.1.dev1-14.0.1.4.1.dev2/diff.md --exclude *.pyd
+[2023-05-22 06:29:42] INFO root fetch - main [MainThread]: End processing [voicevox-client]: success
+[2023-05-22 06:29:42] INFO root fetch - main [MainThread]: End processing [pysubcipher]: success
+[2023-05-22 06:29:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-overdue-reminder]: success
+[2023-05-22 06:29:42] INFO root fetch - main [MainThread]: Store serial: [18192289]
