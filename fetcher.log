@@ -6620,3 +6620,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:08:59] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-05-22 09:09:00] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2023-05-22 09:09:00] INFO root fetch - main [MainThread]: Store serial: [18193224]
+[2023-05-22 09:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193224]
+[2023-05-22 09:14:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mootdx
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-codebase-documenter
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GXYUR-env
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decore-base
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyikarus
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tokenfinderbot
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nshuman-python
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudPackage
+[2023-05-22 09:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: selenextra
+[2023-05-22 09:14:10] WARNING root fetch - processPackages [tokenfinderbot]: Skipping, unable to determine old version
+[2023-05-22 09:14:10] INFO root fetch - processPackages [tokenfinderbot]: Start processing: yolo-pyutils
+[2023-05-22 09:14:10] INFO root fetch - main [MainThread]: End processing [tokenfinderbot] error
+[2023-05-22 09:14:10] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.9] Old Version: [0.8]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.0.0.0.0.9] Old Version: [0.0.0.0.0.0.8]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [selenextra]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.8.tar.gz tmp/auto-codebase-documenter-0.9.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] WARNING root fetch - processPackages [GXYUR-env]: Skipping, unable to determine old version
+[2023-05-22 09:14:10] INFO root fetch - processPackages [GXYUR-env]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-22 09:14:10] INFO root fetch - processPackages [mootdx]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 09:14:10] INFO root fetch - main [MainThread]: End processing [GXYUR-env] error
+[2023-05-22 09:14:10] INFO root fetch - processPackages [pyikarus]: New version: [0.3.1.dev20230522071144] Old Version: [0.3.0.dev202310000087]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [cloudPackage]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [decore-base]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.0.0.0.0.8-py3-none-any.whl.zip tmp/nshuman_python-0.0.0.0.0.0.9-py3-none-any.whl.zip --markdown 20230522/n/nshuman-python/0.0.0.0.0.0.8-0.0.0.0.0.0.9/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] INFO root fetch - processPackages [selenextra]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [selenextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenextra-1.0.8.tar.gz tmp/selenextra-1.0.9.tar.gz --markdown 20230522/s/selenextra/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] INFO root fetch - processPackages [yolo-pyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [mootdx]: Downloading https://files.pythonhosted.org/packages/72/07/da98b3355ddcc663ca86afb6fc85557412fdf562280b02ffe9a7c7b14f05/mootdx-0.9.8.tar.gz
+[2023-05-22 09:14:10] INFO root fetch - processPackages [yolo-pyutils]: Downloading https://files.pythonhosted.org/packages/cb/ea/54abd1615fb9630e5464dd9192793cf77f733c0b4f4e9a1c444add7c772e/yolo-pyutils-0.1.8.tar.gz
+[2023-05-22 09:14:10] INFO root fetch - processPackages [decore-base]: Downloading https://files.pythonhosted.org/packages/d8/ff/aa2e7dfc2a8949642a946472b375e43a5881e5cc541e43aab286095b9c75/decore-base-0.0.5.tar.gz
+[2023-05-22 09:14:10] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/c5/a2/e8645227d7706c92acef08ed6b015e3fe9edb8e9143b157f1c5d62c1974f/pyikarus-0.3.1.dev20230522071144.tar.gz
+[2023-05-22 09:14:10] INFO root fetch - processPackages [cloudPackage]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [cloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudPackage-0.1-py3-none-any.whl.zip tmp/cloudPackage-0.2-py3-none-any.whl.zip --markdown 20230522/c/cloudPackage/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] INFO root fetch - processPackages [decore-base]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [decore-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore-base-0.0.4.tar.gz tmp/decore-base-0.0.5.tar.gz --markdown 20230522/d/decore-base/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000087.tar.gz tmp/pyikarus-0.3.1.dev20230522071144.tar.gz --markdown 20230522/p/pyikarus/0.3.0.dev202310000087-0.3.1.dev20230522071144/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] INFO root fetch - processPackages [mootdx]: Downloading https://files.pythonhosted.org/packages/f7/94/bebf14fdb2cde078167d69a93a491cd27d77902c24eaa462b2faaa154f28/mootdx-0.9.9.tar.gz
+[2023-05-22 09:14:10] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-22 09:14:10] INFO root fetch - processPackages [mootdx]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [mootdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mootdx-0.9.8.tar.gz tmp/mootdx-0.9.9.tar.gz --markdown 20230522/m/mootdx/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 09:14:10] INFO root fetch - processPackages [yolo-pyutils]: Downloading https://files.pythonhosted.org/packages/b1/e1/e18b8e80188a424763dd655eb65290c8948ae754ee86ea20105ec535fc22/yolo-pyutils-0.1.9.tar.gz
+[2023-05-22 09:14:10] INFO root fetch - processPackages [yolo-pyutils]: executing diffoscope
+[2023-05-22 09:14:10] INFO root fetch - processPackages [yolo-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolo-pyutils-0.1.8.tar.gz tmp/yolo-pyutils-0.1.9.tar.gz --markdown 20230522/y/yolo-pyutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 09:14:11] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-22 09:14:11] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-22 09:14:11] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230522/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-22 09:14:11] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230522/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-22 09:14:11] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 09:14:11] INFO root fetch - main [MainThread]: End processing [selenextra]: success
+[2023-05-22 09:14:11] INFO root fetch - main [MainThread]: End processing [cloudPackage]: success
+[2023-05-22 09:14:11] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-22 09:14:12] INFO root fetch - main [MainThread]: End processing [yolo-pyutils]: success
+[2023-05-22 09:14:12] INFO root fetch - main [MainThread]: End processing [mootdx]: success
+[2023-05-22 09:14:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-22 09:14:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-22 09:14:14] INFO root fetch - main [MainThread]: End processing [decore-base]: success
+[2023-05-22 09:14:16] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-22 09:14:16] INFO root fetch - main [MainThread]: Store serial: [18193261]
