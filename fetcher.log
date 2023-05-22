@@ -22315,3 +22315,74 @@ EOFError: EOF read where object expected
 [2023-05-22 20:46:30] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
 [2023-05-22 20:46:30] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
 [2023-05-22 20:46:30] INFO root fetch - main [MainThread]: Store serial: [18202455]
+[2023-05-22 20:51:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202455]
+[2023-05-22 20:51:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: license-manager-cli
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: license-manager-backend
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: license-manager-agent
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixturemapping-binning
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noobminswap
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotON_sdk
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mixturemapping
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vka
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fw-gear-splitter
+[2023-05-22 20:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdm-conda
+[2023-05-22 20:51:40] INFO root fetch - processPackages [license-manager-backend]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-22 20:51:40] INFO root fetch - processPackages [license-manager-cli]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-22 20:51:40] INFO root fetch - processPackages [vka]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-22 20:51:40] INFO root fetch - processPackages [mixturemapping-binning]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-22 20:51:40] WARNING root fetch - processPackages [noobminswap]: Skipping, unable to determine old version
+[2023-05-22 20:51:41] INFO root fetch - processPackages [noobminswap]: Start processing: orion-ml
+[2023-05-22 20:51:41] INFO root fetch - main [MainThread]: End processing [noobminswap] error
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-agent]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-22 20:51:41] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-05-22 20:51:41] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2023-05-22 20:51:41] INFO root fetch - processPackages [fw-gear-splitter]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-22 20:51:41] INFO root fetch - processPackages [orion-ml]: New version: [0.4.2.dev0] Old Version: [0.4.1.dev0]
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-backend]: Downloading https://files.pythonhosted.org/packages/2a/02/931a4f6d8dc6bca7cb548784dd8f6d5fc24aad39eb5183ec98c5812dff8e/license_manager_backend-2.3.0.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-cli]: Downloading https://files.pythonhosted.org/packages/e7/69/ff5aebe21a460f82401a4da091bffdd8a06bba9286afcd231212a7afe71a/license_manager_cli-2.3.0.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/71/99/c41908bf010a0fb498030450757a12ec66f4f862246249185bae27911e03/spotON_sdk-0.0.4.8.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [fw-gear-splitter]: Downloading https://files.pythonhosted.org/packages/bd/47/20b2cf448414ace03a83d5f880b3fac5af5eb1c27a62b1b142dbd4072a0e/fw_gear_splitter-1.4.3-py3-none-any.whl
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping-binning]: Downloading https://files.pythonhosted.org/packages/aa/ef/ff5c7dac3b6575d862e759b876127df34a62df83851251868b530c391619/mixturemapping_binning-0.5.1-py39-none-any.whl
+[2023-05-22 20:51:41] INFO root fetch - processPackages [vka]: Downloading https://files.pythonhosted.org/packages/b0/bb/9e2424da6ba6efb491947a984af904fdd3e896435bb6417a8e3666e0d748/vka-1.2.8.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping]: Downloading https://files.pythonhosted.org/packages/a4/87/e64f2c4f16c8bb77ca604b71a40687ac0ce44e142a0057a43369584e0bd9/mixturemapping-0.5.1-py39-none-any.whl
+[2023-05-22 20:51:41] INFO root fetch - processPackages [orion-ml]: Downloading https://files.pythonhosted.org/packages/3e/d6/ec9be87c9c72f2d8ca941a365146990e9810a941af01c7f1770626c26589/orion-ml-0.4.1.dev0.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-agent]: Downloading https://files.pythonhosted.org/packages/61/3c/187085b7a69e706d8fab1f4036a315dca017d8eda904a0f412f6bb0032a9/license_manager_agent-2.3.0.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.7.tar.gz tmp/spotON_sdk-0.0.4.8.tar.gz --markdown 20230522/s/spotON_sdk/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-backend]: Downloading https://files.pythonhosted.org/packages/c9/39/af0fadf52e59f1f9bdcdef79b8b07a1febc0da1d348a2be78cbb58a6f5dc/license_manager_backend-2.3.1.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixturemapping-0.5.0-py39-none-any.whl.zip tmp/mixturemapping-0.5.1-py39-none-any.whl.zip --markdown 20230522/m/mixturemapping/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping-binning]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [mixturemapping-binning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixturemapping_binning-0.5.0-py39-none-any.whl.zip tmp/mixturemapping_binning-0.5.1-py39-none-any.whl.zip --markdown 20230522/m/mixturemapping-binning/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20230522/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-cli]: Downloading https://files.pythonhosted.org/packages/17/95/0934e0ee9d512fb6eb807d4f8fa91a64a4388e91e74f8bd78bb506189050/license_manager_cli-2.3.1.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [vka]: Downloading https://files.pythonhosted.org/packages/8e/46/ab7a7c188e32f0b2c63ff472431c60a38a52687c4b854aa6783e469c1595/vka-1.2.9.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [vka]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [vka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vka-1.2.8.tar.gz tmp/vka-1.2.9.tar.gz --markdown 20230522/v/vka/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-backend]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_manager_backend-2.3.0.tar.gz tmp/license_manager_backend-2.3.1.tar.gz --markdown 20230522/l/license-manager-backend/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [fw-gear-splitter]: Downloading https://files.pythonhosted.org/packages/a4/c4/57192b5ad729c75e07411380b51a081a4f870082f6808d3af2b31f48b91d/fw_gear_splitter-1.5.0-py3-none-any.whl
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-cli]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_manager_cli-2.3.0.tar.gz tmp/license_manager_cli-2.3.1.tar.gz --markdown 20230522/l/license-manager-cli/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-agent]: Downloading https://files.pythonhosted.org/packages/08/b8/e21b4858e8c872ae15bdca274fda8d19fbfb134a1bcf172a10374f79fc49/license_manager_agent-2.3.1.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [orion-ml]: Downloading https://files.pythonhosted.org/packages/c0/df/d6b7260a7c871f7cca24542af13946a4df6fbe3863b6a6c31c200bde5055/orion-ml-0.4.2.dev0.tar.gz
+[2023-05-22 20:51:41] INFO root fetch - processPackages [fw-gear-splitter]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [fw-gear-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_gear_splitter-1.4.3-py3-none-any.whl.zip tmp/fw_gear_splitter-1.5.0-py3-none-any.whl.zip --markdown 20230522/f/fw-gear-splitter/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-agent]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [license-manager-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_manager_agent-2.3.0.tar.gz tmp/license_manager_agent-2.3.1.tar.gz --markdown 20230522/l/license-manager-agent/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-22 20:51:41] INFO root fetch - processPackages [orion-ml]: executing diffoscope
+[2023-05-22 20:51:41] INFO root fetch - processPackages [orion-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orion-ml-0.4.1.dev0.tar.gz tmp/orion-ml-0.4.2.dev0.tar.gz --markdown 20230522/o/orion-ml/0.4.1.dev0-0.4.2.dev0/diff.md --exclude *.pyd
+[2023-05-22 20:51:42] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [mixturemapping-binning]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [mixturemapping]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [license-manager-backend]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [fw-gear-splitter]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [license-manager-agent]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [vka]: success
+[2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [license-manager-cli]: success
+[2023-05-22 20:51:47] INFO root fetch - main [MainThread]: End processing [orion-ml]: success
+[2023-05-22 20:51:47] INFO root fetch - main [MainThread]: Store serial: [18202489]
