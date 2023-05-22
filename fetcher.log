@@ -11776,3 +11776,127 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 13:49:45] INFO root fetch - main [MainThread]: End processing [qibolab]: success
 [2023-05-22 13:50:24] INFO root fetch - main [MainThread]: End processing [sequana-mapper]: success
 [2023-05-22 13:50:24] INFO root fetch - main [MainThread]: Store serial: [18196391]
+[2023-05-22 13:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196391]
+[2023-05-22 13:55:33] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OptiMOBO
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FyersTestSDK
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PDKMaster
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sequana-pipetools
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: angorapy
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wasmpy-build
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tof
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-somconnexio-python-client
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Zope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liteindex
+[2023-05-22 13:55:33] INFO root fetch - processPackages [FyersTestSDK]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [OptiMOBO]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [sequana-pipetools]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [PDKMaster]: New version: [0.9.2.post1] Old Version: [0.9.2]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [odoo-somconnexio-python-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [wasmpy-build]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [tof]: New version: [23.5.2] Old Version: [23.5.1]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [angorapy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [Zope]: New version: [5.8.2] Old Version: [5.8.1]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230522/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [FyersTestSDK]: Downloading https://files.pythonhosted.org/packages/80/fa/5fa171af152ca75027900f5d32938ce84493e8d9f8cf5cf7cf52c1d9d6fb/FyersTestSDK-0.0.1-py3-none-any.whl
+[2023-05-22 13:55:33] ERROR root fetch - processPackages [OptiMOBO]: Unable to fetch info: No such project/version 'OptiMOBO' 0.1.1
+[2023-05-22 13:55:33] INFO root fetch - processPackages [OptiMOBO]: Start processing: succulent
+[2023-05-22 13:55:33] INFO root fetch - main [MainThread]: End processing [OptiMOBO] error
+[2023-05-22 13:55:33] INFO root fetch - processPackages [succulent]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [angorapy]: Downloading https://files.pythonhosted.org/packages/49/1a/b61d846990b562082b5e584b940b134cf921a53b17c93d677ac464387788/angorapy-0.9.0.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/6c/d9/668489983994bbd379806286dfaee8ea0971a0eb6924110f832d4863a60f/wasmpy-build-0.2.0.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [tof]: Downloading https://files.pythonhosted.org/packages/31/6b/326e2fe13033d8d95fd119b236f8e51d5b61a433d011416478e94de3e6de/tof-23.5.1.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Downloading https://files.pythonhosted.org/packages/7c/b2/c90cc8ba26aa5ea738b48d84041866034780c193542b40b8a5154dcf91e4/odoo-somconnexio-python-client-0.1.8.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [Zope]: Downloading https://files.pythonhosted.org/packages/3a/21/9cebd6963bded6f0f6b1b981ffb5ddf7ee8cc624112add131165531c169b/Zope-5.8.1.tar.gz
+[2023-05-22 13:55:33] WARNING root fetch - processPackages [Zope]: Skipping package: exceeds size limit 12455846>=10485760
+[2023-05-22 13:55:33] INFO root fetch - processPackages [Zope]: Start processing: durin
+[2023-05-22 13:55:33] INFO root fetch - main [MainThread]: End processing [Zope] error
+[2023-05-22 13:55:33] INFO root fetch - processPackages [durin]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-05-22 13:55:33] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/9c/a0/5c0c7fc260f39db3da9033e9629ae57f88412124855c428c9c28d1c8e9b3/PDKMaster-0.9.2.post1.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [FyersTestSDK]: Downloading https://files.pythonhosted.org/packages/bb/8e/59a2b427a22d42c49b859cf614c38c6d46838e0db32a09db1a5a7fc110f8/FyersTestSDK-0.0.2-py3-none-any.whl
+[2023-05-22 13:55:33] INFO root fetch - processPackages [angorapy]: Downloading https://files.pythonhosted.org/packages/cf/6a/60f4cadab0d81100aa93aa8f479b114852dd48a28a246409cf492609d05c/angorapy-0.9.1.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [tof]: Downloading https://files.pythonhosted.org/packages/30/8c/00d969c68676fab1969a62e530e0791228148bbe8671f8aad0d0584a434b/tof-23.5.2.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [sequana-pipetools]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [sequana-pipetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pipetools-0.9.5.tar.gz tmp/sequana_pipetools-0.9.6.tar.gz --markdown 20230522/s/sequana-pipetools/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [succulent]: Downloading https://files.pythonhosted.org/packages/75/8b/7708c3cf9142d605077b6701d9fb85933b3b186518314adbfd969d9770d0/succulent-0.1.2.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/54/33/f805d2996440c12ac9a89218526c8f9f0f8f8c680b08b2c161ec4b62a747/durin-0.0.79.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/a8/9f/e79c198a0df4f7f513c2513fc091d66cce22df69d04f5e8e0f9ab30c09d4/wasmpy-build-0.2.1.tar.gz
+[2023-05-22 13:55:33] INFO root fetch - processPackages [tof]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [tof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tof-23.5.1.tar.gz tmp/tof-23.5.2.tar.gz --markdown 20230522/t/tof/23.5.1-23.5.2/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [PDKMaster]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [PDKMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDKMaster-0.9.2.tar.gz tmp/PDKMaster-0.9.2.post1.tar.gz --markdown 20230522/P/PDKMaster/0.9.2-0.9.2.post1/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [succulent]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [succulent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/succulent-0.1.1.tar.gz tmp/succulent-0.1.2.tar.gz --markdown 20230522/s/succulent/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [angorapy]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [angorapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angorapy-0.9.0.tar.gz tmp/angorapy-0.9.1.tar.gz --markdown 20230522/a/angorapy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [FyersTestSDK]: executing diffoscope
+[2023-05-22 13:55:33] INFO root fetch - processPackages [FyersTestSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FyersTestSDK-0.0.1-py3-none-any.whl.zip tmp/FyersTestSDK-0.0.2-py3-none-any.whl.zip --markdown 20230522/F/FyersTestSDK/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 13:55:33] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Downloading https://files.pythonhosted.org/packages/db/ae/1fbdff028cdf00431a3a68d4c040a09f21c473f177e26349f6c55b50095f/odoo-somconnexio-python-client-0.1.9.tar.gz
+[2023-05-22 13:55:34] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-05-22 13:55:34] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.2.0.tar.gz tmp/wasmpy-build-0.2.1.tar.gz --markdown 20230522/w/wasmpy-build/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 13:55:34] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/66/96/18250e034c186184273cb4929d6a9fd4a7d4d3fe6abc77a3381899be55c1/durin-0.0.80.tar.gz
+[2023-05-22 13:55:34] INFO root fetch - processPackages [odoo-somconnexio-python-client]: executing diffoscope
+[2023-05-22 13:55:34] INFO root fetch - processPackages [odoo-somconnexio-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo-somconnexio-python-client-0.1.8.tar.gz tmp/odoo-somconnexio-python-client-0.1.9.tar.gz --markdown 20230522/o/odoo-somconnexio-python-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 13:55:34] INFO root fetch - processPackages [durin]: executing diffoscope
+[2023-05-22 13:55:34] INFO root fetch - processPackages [durin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durin-0.0.79.tar.gz tmp/durin-0.0.80.tar.gz --markdown 20230522/d/durin/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-05-22 13:55:35] INFO root fetch - processPackages [liteindex]: Start processing: finetune-eval-harness
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-22 13:55:35] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.9.dev1] Old Version: [0.6.8.dev1]
+[2023-05-22 13:55:35] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-22 13:55:35] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.6.8.dev1.tar.gz tmp/finetune_eval_harness-0.6.9.dev1.tar.gz --markdown 20230522/f/finetune-eval-harness/0.6.8.dev1-0.6.9.dev1/diff.md --exclude *.pyd
+[2023-05-22 13:55:35] INFO root fetch - processPackages [FyersTestSDK]: Start processing: FyersTestSDK
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [FyersTestSDK]: success
+[2023-05-22 13:55:35] INFO root fetch - processPackages [succulent]: Start processing: PandasProx
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [succulent]: success
+[2023-05-22 13:55:35] INFO root fetch - processPackages [FyersTestSDK]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 13:55:35] INFO root fetch - processPackages [PandasProx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 13:55:35] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/b2/fd/3145bcbf8cdd88623a37288a8ae066e374064043370d79464d329b69bc86/PandasProx-1.0.1.tar.gz
+[2023-05-22 13:55:35] INFO root fetch - processPackages [FyersTestSDK]: Downloading https://files.pythonhosted.org/packages/ae/68/e129fd854eb5cd49793b3a02c4765f74f40bce5099ab86763171bd19c2b8/FyersTestSDK-0.0.3-py3-none-any.whl
+[2023-05-22 13:55:35] INFO root fetch - processPackages [tof]: Start processing: liteindex
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [tof]: success
+[2023-05-22 13:55:35] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-22 13:55:35] INFO root fetch - processPackages [FyersTestSDK]: executing diffoscope
+[2023-05-22 13:55:35] INFO root fetch - processPackages [FyersTestSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FyersTestSDK-0.0.2-py3-none-any.whl.zip tmp/FyersTestSDK-0.0.3-py3-none-any.whl.zip --markdown 20230522/F/FyersTestSDK/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 13:55:35] INFO root fetch - processPackages [sequana-pipetools]: Start processing: install-pybci
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [sequana-pipetools]: success
+[2023-05-22 13:55:35] INFO root fetch - processPackages [install-pybci]: New version: [0.1.4b9] Old Version: [0.1.4b8]
+[2023-05-22 13:55:35] INFO root fetch - processPackages [durin]: Start processing: needle-cli
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [durin]: success
+[2023-05-22 13:55:35] INFO root fetch - processPackages [odoo-somconnexio-python-client]: Start processing: cf-deploy
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [odoo-somconnexio-python-client]: success
+[2023-05-22 13:55:35] WARNING root fetch - processPackages [needle-cli]: Skipping, unable to determine old version
+[2023-05-22 13:55:35] INFO root fetch - processPackages [needle-cli]: Start processing: PandasProx
+[2023-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [needle-cli] error
+[2023-05-22 13:55:35] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-22 13:55:35] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230522/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-22 13:55:35] INFO root fetch - processPackages [PandasProx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 13:55:35] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/0b/bc/411c38576bbe259356141be63cdd018917ea9360d8247dae74614accd673/PandasProx-1.0.2.tar.gz
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PandasProx]: Downloading https://files.pythonhosted.org/packages/0b/bc/411c38576bbe259356141be63cdd018917ea9360d8247dae74614accd673/PandasProx-1.0.2.tar.gz
+[2023-05-22 13:55:36] INFO root fetch - processPackages [install-pybci]: Downloading https://files.pythonhosted.org/packages/58/13/41c11042a218d97db89e9edbb062bfd10f9d0e6f4423be3c0f48fd985f9c/install-pybci-0.1.4b9.tar.gz
+[2023-05-22 13:55:36] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/5f/b4/80914e66b3d2421004e6153c7e82f50f6c194fd736ef183b090abbd5e798/cf_deploy-0.1.8.tar.gz
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-1.0.1.tar.gz tmp/PandasProx-1.0.2.tar.gz --markdown 20230522/P/PandasProx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-1.0.1.tar.gz tmp/PandasProx-1.0.2.tar.gz --markdown 20230522/P/PandasProx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 13:55:36] INFO root fetch - processPackages [install-pybci]: executing diffoscope
+[2023-05-22 13:55:36] INFO root fetch - processPackages [install-pybci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/install-pybci-0.1.4b8.tar.gz tmp/install-pybci-0.1.4b9.tar.gz --markdown 20230522/i/install-pybci/0.1.4b8-0.1.4b9/diff.md --exclude *.pyd
+[2023-05-22 13:55:36] INFO root fetch - processPackages [PDKMaster]: Start processing: git4net
+[2023-05-22 13:55:36] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
+[2023-05-22 13:55:36] WARNING root fetch - processPackages [git4net]: Skipping, unable to determine old version
+[2023-05-22 13:55:36] INFO root fetch - main [MainThread]: End processing [git4net] error
+[2023-05-22 13:55:36] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/e5/5f/c1080016400e67671af90cd9f789866f0ad8fb9d3464a30d3b7a9460b5f1/cf_deploy-0.1.9.tar.gz
+[2023-05-22 13:55:36] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-05-22 13:55:36] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230522/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 13:55:36] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-22 13:55:36] INFO root fetch - main [MainThread]: End processing [FyersTestSDK]: success
+[2023-05-22 13:55:37] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-22 13:55:37] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-22 13:55:37] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-22 13:55:37] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-05-22 13:55:38] INFO root fetch - main [MainThread]: End processing [install-pybci]: success
+[2023-05-22 13:55:40] INFO root fetch - main [MainThread]: End processing [angorapy]: success
+[2023-05-22 13:55:46] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-05-22 13:55:46] INFO root fetch - main [MainThread]: Store serial: [18196464]
