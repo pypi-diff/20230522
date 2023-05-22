@@ -9832,3 +9832,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:52:08] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
 [2023-05-22 11:52:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
 [2023-05-22 11:52:16] INFO root fetch - main [MainThread]: Store serial: [18195034]
+[2023-05-22 11:57:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195034]
+[2023-05-22 11:57:27] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irene-pro
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imaginAIry
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lexikos
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbapy
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-eigen-ingenuity
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg-stage
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-encode
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-ivid
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mse-lib-sgx
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybaht
+[2023-05-22 11:57:27] INFO root fetch - processPackages [lexikos]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [irene-pro]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [mbapy]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [flet-ivid]: New version: [1.1] Old Version: [1.0]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [pybaht]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [pg-stage]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.7.2] Old Version: [0.4.7.1]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.77] Old Version: [0.1.76]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [mse-lib-sgx]: New version: [2.0a9] Old Version: [2.0a7]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [imaginAIry]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-05-22 11:57:27] INFO root fetch - processPackages [pybaht]: Downloading https://files.pythonhosted.org/packages/99/6a/c15f4692e8c612746f12c44276fdf9e5349724965064635a16ee67913e87/pybaht-0.1.0.tar.gz
+[2023-05-22 11:57:27] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/57/77/561dd598bc1cb79b5dce57363452e96a6c77f847695075711961df03a183/mbapy-0.0.9.tar.gz
+[2023-05-22 11:57:27] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/13/05/c4415275caf99630f08ff79c53f24d5026ec706ed86df49defd83a9f6605/lexikos-0.0.1rc1.tar.gz
+[2023-05-22 11:57:27] INFO root fetch - processPackages [flet-ivid]: Downloading https://files.pythonhosted.org/packages/f3/27/1e7b28d5f752fa2613277e5829289a27d30d8ffd914ad0bf7b9f488f6b33/flet_ivid-1.0.tar.gz
+[2023-05-22 11:57:27] INFO root fetch - processPackages [pg-stage]: Downloading https://files.pythonhosted.org/packages/68/11/c9b1efeda59e7d6b214531615229aed1d134c412e058fc95b7221a71d6c0/pg_stage-0.1.8.tar.gz
+[2023-05-22 11:57:27] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/de/d3/0e2de224fd86b7a4b1ae9ff15d4dc4657edb76693413ca394254990a64ea/ansar-encode-0.1.77.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [mse-lib-sgx]: Downloading https://files.pythonhosted.org/packages/47/cf/5acc67c27010feec14dd5dcda3ba9a95e01e2ee3c6d0c32c519969e88a83/mse_lib_sgx-2.0a9.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/65/c2/aa52fe725354b573fefa3b93c72abab9a31cd659dbc466e5e383a6d898ed/irene_pro-0.0.42.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.41.tar.gz tmp/irene_pro-0.0.42.tar.gz --markdown 20230522/i/irene-pro/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.76.tar.gz tmp/ansar-encode-0.1.77.tar.gz --markdown 20230522/a/ansar-encode/0.1.76-0.1.77/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/3f/9a/5d694abbb830818a0ad3d09a0e96b8474a85016c497d703cef9d762e38f4/python-eigen-ingenuity-0.4.7.2.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [flet-ivid]: Downloading https://files.pythonhosted.org/packages/19/2a/a73d03d717a775d1131131c88344bc4fd69c9e97579794fd0d46dc756611/flet_ivid-1.1.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [pybaht]: Downloading https://files.pythonhosted.org/packages/52/5d/2ed6e0eba3f4d486ae22ecb25eba4c4f4987fcd6dbf59585edc80053a222/pybaht-0.1.1.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [mse-lib-sgx]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [mse-lib-sgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_lib_sgx-2.0a7.tar.gz tmp/mse_lib_sgx-2.0a9.tar.gz --markdown 20230522/m/mse-lib-sgx/2.0a7-2.0a9/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.7.1.tar.gz tmp/python-eigen-ingenuity-0.4.7.2.tar.gz --markdown 20230522/p/python-eigen-ingenuity/0.4.7.1-0.4.7.2/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/84/fe/7943056eae73f83e3df19d4ec26aa1962eba5a21be702449104a7035df46/mbapy-0.1.0.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [imaginAIry]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [imaginAIry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginAIry-9.0.1-py3-none-win_amd64.whl.zip tmp/imaginAIry-9.0.2-py3-none-win_amd64.whl.zip --markdown 20230522/i/imaginAIry/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [pg-stage]: Downloading https://files.pythonhosted.org/packages/50/9b/29acb6a00c45cf5b91d7532fc17fa7f1abdc4d512abedd204cb5f6e94a30/pg_stage-0.1.9.tar.gz
+[2023-05-22 11:57:28] INFO root fetch - processPackages [mbapy]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [mbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbapy-0.0.9.tar.gz tmp/mbapy-0.1.0.tar.gz --markdown 20230522/m/mbapy/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [flet-ivid]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [flet-ivid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_ivid-1.0.tar.gz tmp/flet_ivid-1.1.tar.gz --markdown 20230522/f/flet-ivid/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [pg-stage]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [pg-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_stage-0.1.8.tar.gz tmp/pg_stage-0.1.9.tar.gz --markdown 20230522/p/pg-stage/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [pybaht]: executing diffoscope
+[2023-05-22 11:57:28] INFO root fetch - processPackages [pybaht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaht-0.1.0.tar.gz tmp/pybaht-0.1.1.tar.gz --markdown 20230522/p/pybaht/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 11:57:28] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/00/94/9931b7ed3ea4e9717acef58ad77ee1736e081374ef514c0e120f1fbc08ed/lexikos-0.0.1rc2.tar.gz
+[2023-05-22 11:57:29] INFO root fetch - processPackages [irene-pro]: Start processing: pytest-integration-mark
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-22 11:57:29] INFO root fetch - processPackages [pytest-integration-mark]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 11:57:29] INFO root fetch - processPackages [pybaht]: Start processing: super-autotest
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [pybaht]: success
+[2023-05-22 11:57:29] INFO root fetch - processPackages [lexikos]: executing diffoscope
+[2023-05-22 11:57:29] INFO root fetch - processPackages [lexikos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikos-0.0.1rc1.tar.gz tmp/lexikos-0.0.1rc2.tar.gz --markdown 20230522/l/lexikos/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-05-22 11:57:29] INFO root fetch - processPackages [flet-ivid]: Start processing: json-log-viewer
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [flet-ivid]: success
+[2023-05-22 11:57:29] WARNING root fetch - processPackages [json-log-viewer]: Skipping, unable to determine old version
+[2023-05-22 11:57:29] INFO root fetch - processPackages [json-log-viewer]: Start processing: genbase
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [json-log-viewer] error
+[2023-05-22 11:57:29] WARNING root fetch - processPackages [super-autotest]: Skipping, unable to determine old version
+[2023-05-22 11:57:29] INFO root fetch - processPackages [super-autotest]: Start processing: nkj
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [super-autotest] error
+[2023-05-22 11:57:29] INFO root fetch - processPackages [genbase]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-22 11:57:29] WARNING root fetch - processPackages [nkj]: Skipping, unable to determine old version
+[2023-05-22 11:57:29] INFO root fetch - processPackages [nkj]: Start processing: flake8-django
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [nkj] error
+[2023-05-22 11:57:29] INFO root fetch - processPackages [mbapy]: Start processing: rdkit-doc-stubs
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [mbapy]: success
+[2023-05-22 11:57:29] INFO root fetch - processPackages [flake8-django]: New version: [1.3] Old Version: [1.2]
+[2023-05-22 11:57:29] WARNING root fetch - processPackages [rdkit-doc-stubs]: Skipping, unable to determine old version
+[2023-05-22 11:57:29] INFO root fetch - processPackages [rdkit-doc-stubs]: Start processing: jal
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [rdkit-doc-stubs] error
+[2023-05-22 11:57:29] INFO root fetch - processPackages [pytest-integration-mark]: Downloading https://files.pythonhosted.org/packages/af/19/020812f1bd108682eb351b904a8025810b6a474454c81a52cdea586bb103/pytest_integration_mark-0.1.0.tar.gz
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [mse-lib-sgx]: success
+[2023-05-22 11:57:29] INFO root fetch - main [MainThread]: End processing [pg-stage]: success
+[2023-05-22 11:57:30] INFO root fetch - processPackages [genbase]: Downloading https://files.pythonhosted.org/packages/34/f6/7aaa68a5e7b3a57fb59d3eb76c6f908c31d5167faf70c73e8a1b155a3af5/genbase-0.3.3.tar.gz
+[2023-05-22 11:57:30] INFO root fetch - processPackages [flake8-django]: Downloading https://files.pythonhosted.org/packages/63/68/ab2e5606630eb188b054cc084a36b1939abb65dc87f2532bd6c0ec6ad753/flake8_django-1.2.tar.gz
+[2023-05-22 11:57:30] INFO root fetch - processPackages [jal]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-22 11:57:30] INFO root fetch - processPackages [genbase]: executing diffoscope
+[2023-05-22 11:57:30] INFO root fetch - processPackages [genbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genbase-0.3.2.tar.gz tmp/genbase-0.3.3.tar.gz --markdown 20230522/g/genbase/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-22 11:57:30] INFO root fetch - processPackages [pytest-integration-mark]: Downloading https://files.pythonhosted.org/packages/43/1d/e091051123391bc3b7706c2e2d91f35e448b359fd697967ca93cc2fa99e5/pytest_integration_mark-0.2.0.tar.gz
+[2023-05-22 11:57:30] INFO root fetch - processPackages [flake8-django]: Downloading https://files.pythonhosted.org/packages/04/7a/8ed46ae0095a3b0e5f3628a95a969ace7c34e30a15c2120be435e0dfbf2a/flake8_django-1.3.tar.gz
+[2023-05-22 11:57:30] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-05-22 11:57:30] INFO root fetch - processPackages [flake8-django]: executing diffoscope
+[2023-05-22 11:57:30] INFO root fetch - processPackages [flake8-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_django-1.2.tar.gz tmp/flake8_django-1.3.tar.gz --markdown 20230522/f/flake8-django/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-22 11:57:30] INFO root fetch - processPackages [jal]: Downloading https://files.pythonhosted.org/packages/38/23/d25fcb1fe645be35b8d8ad4ddc2385137d90973ed16daadbfc4ce7c8b6f8/jal-2023.5.1.tar.gz
+[2023-05-22 11:57:30] INFO root fetch - processPackages [pytest-integration-mark]: executing diffoscope
+[2023-05-22 11:57:30] INFO root fetch - processPackages [pytest-integration-mark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_integration_mark-0.1.0.tar.gz tmp/pytest_integration_mark-0.2.0.tar.gz --markdown 20230522/p/pytest-integration-mark/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 11:57:30] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-05-22 11:57:30] INFO root fetch - processPackages [jal]: Downloading https://files.pythonhosted.org/packages/09/25/f6fa615b880dc6420db9edfab40659f4356a6f2c13f30ee7391a388c89bd/jal-2023.5.2.tar.gz
+[2023-05-22 11:57:30] INFO root fetch - processPackages [jal]: executing diffoscope
+[2023-05-22 11:57:30] INFO root fetch - processPackages [jal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jal-2023.5.1.tar.gz tmp/jal-2023.5.2.tar.gz --markdown 20230522/j/jal/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-22 11:57:30] INFO root fetch - main [MainThread]: End processing [imaginAIry]: success
+[2023-05-22 11:57:31] INFO root fetch - main [MainThread]: End processing [flake8-django]: success
+[2023-05-22 11:57:31] INFO root fetch - main [MainThread]: End processing [genbase]: success
+[2023-05-22 11:57:31] INFO root fetch - main [MainThread]: End processing [pytest-integration-mark]: success
+[2023-05-22 11:57:32] INFO root fetch - main [MainThread]: End processing [lexikos]: success
+[2023-05-22 11:57:33] INFO root fetch - main [MainThread]: End processing [jal]: success
+[2023-05-22 11:57:33] INFO root fetch - main [MainThread]: Store serial: [18195097]
