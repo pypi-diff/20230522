@@ -21124,3 +21124,140 @@ EOFError: EOF read where object expected
 [2023-05-22 19:39:37] INFO root fetch - main [MainThread]: End processing [gwsumm]: success
 [2023-05-22 19:42:02] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-05-22 19:42:02] INFO root fetch - main [MainThread]: Store serial: [18201716]
+[2023-05-22 19:47:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201716]
+[2023-05-22 19:47:14] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task-assembly
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqrfpy
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lilypond
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: STLLock
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: canaveral-cli
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ftrixminer
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: longitudinal-trends
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cicpy
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duckingit
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lilypond
+[2023-05-22 19:47:14] INFO root fetch - processPackages [ftrixminer]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-22 19:47:14] INFO root fetch - processPackages [lilypond]: New version: [2.25.5] Old Version: [2.25.2]
+[2023-05-22 19:47:14] WARNING root fetch - processPackages [STLLock]: Skipping, unable to determine old version
+[2023-05-22 19:47:14] INFO root fetch - processPackages [STLLock]: Start processing: stlock
+[2023-05-22 19:47:14] INFO root fetch - processPackages [longitudinal-trends]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 19:47:14] INFO root fetch - main [MainThread]: End processing [STLLock] error
+[2023-05-22 19:47:14] INFO root fetch - processPackages [canaveral-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 19:47:14] INFO root fetch - processPackages [lilypond]: New version: [2.25.5] Old Version: [2.25.2]
+[2023-05-22 19:47:14] INFO root fetch - processPackages [duckingit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:47:14] INFO root fetch - processPackages [cicpy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 19:47:14] INFO root fetch - processPackages [task-assembly]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 19:47:14] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 19:47:15] WARNING root fetch - processPackages [stlock]: Skipping, unable to determine old version
+[2023-05-22 19:47:15] INFO root fetch - processPackages [stlock]: Start processing: deepdanbooru
+[2023-05-22 19:47:15] INFO root fetch - main [MainThread]: End processing [stlock] error
+[2023-05-22 19:47:15] INFO root fetch - processPackages [lilypond]: Downloading https://files.pythonhosted.org/packages/70/98/2ef78384e1dc4809c8464797c44ab1f46ce07a75dbe9f8f45d542ab9abfe/lilypond-2.25.2-0-py3-none-macosx_10_15_x86_64.whl
+[2023-05-22 19:47:15] INFO root fetch - processPackages [deepdanbooru]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 19:47:15] INFO root fetch - processPackages [lilypond]: Downloading https://files.pythonhosted.org/packages/70/98/2ef78384e1dc4809c8464797c44ab1f46ce07a75dbe9f8f45d542ab9abfe/lilypond-2.25.2-0-py3-none-macosx_10_15_x86_64.whl
+[2023-05-22 19:47:15] INFO root fetch - processPackages [cicpy]: Downloading https://files.pythonhosted.org/packages/f8/11/9271099e239a678de18426f15193ba83aaefab3415ab1bd52cd6b604c3ac/cicpy-0.1.5.tar.gz
+[2023-05-22 19:47:15] WARNING root fetch - processPackages [lilypond]: Skipping package: exceeds size limit 40577833>=10485760
+[2023-05-22 19:47:15] INFO root fetch - processPackages [lilypond]: Start processing: shellcrafter
+[2023-05-22 19:47:15] WARNING root fetch - processPackages [lilypond]: Skipping package: exceeds size limit 40577833>=10485760
+[2023-05-22 19:47:15] INFO root fetch - main [MainThread]: End processing [lilypond] error
+[2023-05-22 19:47:15] INFO root fetch - processPackages [lilypond]: Start processing: whacc
+[2023-05-22 19:47:15] INFO root fetch - main [MainThread]: End processing [lilypond] error
+[2023-05-22 19:47:15] INFO root fetch - processPackages [deepdanbooru]: Downloading https://files.pythonhosted.org/packages/e5/37/cbbf416ddb77118466ede9af146197dd653629c4cda70d3c7b699f4a716b/deepdanbooru-1.0.0.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [ftrixminer]: Downloading https://files.pythonhosted.org/packages/9d/90/fcd0453fb6d97faab48b75279309a44ce138b8b48d36736b19b3d3593c20/ftrixminer-1.3.1.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [duckingit]: Downloading https://files.pythonhosted.org/packages/32/74/20ab4717c27b1aa7ccd0ca5960ec0d0cace21f5f71a0e061e6a5b498b4aa/duckingit-0.0.9.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [shellcrafter]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 19:47:15] INFO root fetch - processPackages [canaveral-cli]: Downloading https://files.pythonhosted.org/packages/13/f9/546bd27398c1b20fb36c68b2e397da47ec92c82febe95da7e7c588be8f2e/canaveral_cli-0.1.2.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230522/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [longitudinal-trends]: Downloading https://files.pythonhosted.org/packages/ae/9b/a5a2c56f4e7f10d0b196bc7e500544a0567985d9a0914ba5802bed6272f4/longitudinal_trends-0.1.8.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [whacc]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-22 19:47:15] INFO root fetch - processPackages [task-assembly]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [task-assembly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_assembly-0.1.8.tar.gz tmp/task_assembly-0.1.9.tar.gz --markdown 20230522/t/task-assembly/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [ftrixminer]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [ftrixminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrixminer-1.3.0.tar.gz tmp/ftrixminer-1.3.1.tar.gz --markdown 20230522/f/ftrixminer/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [shellcrafter]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [shellcrafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcrafter-1.0.4.tar.gz tmp/shellcrafter-1.0.5.tar.gz --markdown 20230522/s/shellcrafter/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [cicpy]: Downloading https://files.pythonhosted.org/packages/58/ed/e62bd6c04afa3c79ecf25a5be5983a0b308059d62ca9f7c41b357ba19718/cicpy-0.1.6.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [duckingit]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [duckingit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckingit-0.0.8.tar.gz tmp/duckingit-0.0.9.tar.gz --markdown 20230522/d/duckingit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [canaveral-cli]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [canaveral-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canaveral_cli-0.1.1.tar.gz tmp/canaveral_cli-0.1.2.tar.gz --markdown 20230522/c/canaveral-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [whacc]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [whacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whacc-1.3.8.tar.gz tmp/whacc-1.3.9.tar.gz --markdown 20230522/w/whacc/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [longitudinal-trends]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [longitudinal-trends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longitudinal_trends-0.1.7.tar.gz tmp/longitudinal_trends-0.1.8.tar.gz --markdown 20230522/l/longitudinal-trends/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [deepdanbooru]: Downloading https://files.pythonhosted.org/packages/33/b3/0e60ab36c7aa0edd9e4a13988cee01b37a45981fb27ec39a4d993dcc33e0/deepdanbooru-1.0.1.tar.gz
+[2023-05-22 19:47:15] INFO root fetch - processPackages [cicpy]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [cicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicpy-0.1.5.tar.gz tmp/cicpy-0.1.6.tar.gz --markdown 20230522/c/cicpy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 19:47:15] INFO root fetch - processPackages [deepdanbooru]: executing diffoscope
+[2023-05-22 19:47:15] INFO root fetch - processPackages [deepdanbooru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdanbooru-1.0.0.tar.gz tmp/deepdanbooru-1.0.1.tar.gz --markdown 20230522/d/deepdanbooru/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 19:47:16] INFO root fetch - processPackages [task-assembly]: Start processing: aiokeepin
+[2023-05-22 19:47:16] INFO root fetch - main [MainThread]: End processing [task-assembly]: success
+[2023-05-22 19:47:17] WARNING root fetch - processPackages [aiokeepin]: Skipping, unable to determine old version
+[2023-05-22 19:47:17] INFO root fetch - processPackages [aiokeepin]: Start processing: plombery
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [aiokeepin] error
+[2023-05-22 19:47:17] INFO root fetch - processPackages [shellcrafter]: Start processing: melnor-bluetooth
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [shellcrafter]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [melnor-bluetooth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [plombery]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [melnor-bluetooth]: executing diffoscope
+[2023-05-22 19:47:17] INFO root fetch - processPackages [melnor-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melnor-bluetooth-0.0.8.tar.gz tmp/melnor-bluetooth-0.0.9.tar.gz --markdown 20230522/m/melnor-bluetooth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:47:17] INFO root fetch - processPackages [canaveral-cli]: Start processing: lilypond
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [canaveral-cli]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [lilypond]: New version: [2.25.5] Old Version: [2.25.2]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [plombery]: Downloading https://files.pythonhosted.org/packages/66/d1/a0296906f01d56a6047f44f94c540de5de43e2bcd75b7bc8a7599677e425/plombery-0.3.0rc2.tar.gz
+[2023-05-22 19:47:17] INFO root fetch - processPackages [duckingit]: Start processing: chia-dev-tools
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [duckingit]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [deepdanbooru]: Start processing: rhods-model-registry-poc
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [deepdanbooru]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [lilypond]: Downloading https://files.pythonhosted.org/packages/70/98/2ef78384e1dc4809c8464797c44ab1f46ce07a75dbe9f8f45d542ab9abfe/lilypond-2.25.2-0-py3-none-macosx_10_15_x86_64.whl
+[2023-05-22 19:47:17] WARNING root fetch - processPackages [lilypond]: Skipping package: exceeds size limit 40577833>=10485760
+[2023-05-22 19:47:17] INFO root fetch - processPackages [lilypond]: Start processing: iparapheur-utils.beta
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [lilypond] error
+[2023-05-22 19:47:17] INFO root fetch - processPackages [cicpy]: Start processing: lilypond
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [cicpy]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [longitudinal-trends]: Start processing: nerfstudio
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [longitudinal-trends]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [lilypond]: New version: [2.25.5] Old Version: [2.25.2]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [ftrixminer]: Start processing: finbourne-access-sdk
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [ftrixminer]: success
+[2023-05-22 19:47:17] INFO root fetch - processPackages [rhods-model-registry-poc]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [chia-dev-tools]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [lilypond]: Downloading https://files.pythonhosted.org/packages/70/98/2ef78384e1dc4809c8464797c44ab1f46ce07a75dbe9f8f45d542ab9abfe/lilypond-2.25.2-0-py3-none-macosx_10_15_x86_64.whl
+[2023-05-22 19:47:17] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-22 19:47:17] WARNING root fetch - processPackages [lilypond]: Skipping package: exceeds size limit 40577833>=10485760
+[2023-05-22 19:47:17] INFO root fetch - processPackages [lilypond]: Start processing: shellcrafter
+[2023-05-22 19:47:17] INFO root fetch - main [MainThread]: End processing [lilypond] error
+[2023-05-22 19:47:17] INFO root fetch - processPackages [plombery]: executing diffoscope
+[2023-05-22 19:47:17] INFO root fetch - processPackages [plombery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plombery-0.3.0rc1.tar.gz tmp/plombery-0.3.0rc2.tar.gz --markdown 20230522/p/plombery/0.3.0rc1-0.3.0rc2/diff.md --exclude *.pyd
+[2023-05-22 19:47:17] INFO root fetch - processPackages [iparapheur-utils.beta]: New version: [0.0.1.post94309] Old Version: [0.0.1.post94307]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [shellcrafter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [nerfstudio]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-22 19:47:17] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-22 19:47:17] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230522/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-22 19:47:17] INFO root fetch - processPackages [iparapheur-utils.beta]: executing diffoscope
+[2023-05-22 19:47:17] INFO root fetch - processPackages [iparapheur-utils.beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-utils.beta-0.0.1.post94307.tar.gz tmp/iparapheur-utils.beta-0.0.1.post94309.tar.gz --markdown 20230522/i/iparapheur-utils.beta/0.0.1.post94307-0.0.1.post94309/diff.md --exclude *.pyd
+[2023-05-22 19:47:17] INFO root fetch - processPackages [chia-dev-tools]: Downloading https://files.pythonhosted.org/packages/e1/37/226a3d090946be87e6592284a3adf6559ffa09f1119abde17002f0fd1dbb/chia_dev_tools-1.2.0.tar.gz
+[2023-05-22 19:47:17] INFO root fetch - processPackages [rhods-model-registry-poc]: Downloading https://files.pythonhosted.org/packages/ff/34/5accc8779af13a946de42c9266bb66e43c203861a19dfa5bb0c0e7b2f1ce/rhods_model_registry_poc-0.1.7.tar.gz
+[2023-05-22 19:47:17] INFO root fetch - processPackages [shellcrafter]: Downloading https://files.pythonhosted.org/packages/b0/db/9a5e3f6b759d98a407c12bfa34d80fbfc8b9b37218b65ffe2d2412f51007/shellcrafter-1.0.8.tar.gz
+[2023-05-22 19:47:17] INFO root fetch - processPackages [nerfstudio]: Downloading https://files.pythonhosted.org/packages/dd/70/84dd26dabf41d4e5db1392cb6c372cfcfd492e76eceeb461640b6f7c1858/nerfstudio-0.3.0.tar.gz
+[2023-05-22 19:47:17] INFO root fetch - processPackages [chia-dev-tools]: Downloading https://files.pythonhosted.org/packages/75/b7/c8ef68639d8bfbbc6bc1fdae7b25094d2a93624d85e754df7b7b0d99e366/chia_dev_tools-1.2.1.tar.gz
+[2023-05-22 19:47:18] INFO root fetch - processPackages [rhods-model-registry-poc]: Downloading https://files.pythonhosted.org/packages/84/f1/5952536efaa72d3e752f2a2201e854b54274bbc55912d8528dc1616c64b1/rhods_model_registry_poc-0.1.8.tar.gz
+[2023-05-22 19:47:18] INFO root fetch - processPackages [chia-dev-tools]: executing diffoscope
+[2023-05-22 19:47:18] INFO root fetch - processPackages [chia-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia_dev_tools-1.2.0.tar.gz tmp/chia_dev_tools-1.2.1.tar.gz --markdown 20230522/c/chia-dev-tools/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-22 19:47:18] INFO root fetch - processPackages [shellcrafter]: Downloading https://files.pythonhosted.org/packages/6b/31/49e9f901a30d3f05b6173037c8bbe2cb993b57950b45996a653f9c7a72b6/shellcrafter-1.0.9.tar.gz
+[2023-05-22 19:47:18] INFO root fetch - processPackages [rhods-model-registry-poc]: executing diffoscope
+[2023-05-22 19:47:18] INFO root fetch - processPackages [rhods-model-registry-poc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhods_model_registry_poc-0.1.7.tar.gz tmp/rhods_model_registry_poc-0.1.8.tar.gz --markdown 20230522/r/rhods-model-registry-poc/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 19:47:18] INFO root fetch - processPackages [shellcrafter]: executing diffoscope
+[2023-05-22 19:47:18] INFO root fetch - processPackages [shellcrafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcrafter-1.0.8.tar.gz tmp/shellcrafter-1.0.9.tar.gz --markdown 20230522/s/shellcrafter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:47:18] WARNING root fetch - processPackages [nerfstudio]: Skipping package: exceeds size limit 13637222>=10485760
+[2023-05-22 19:47:18] INFO root fetch - main [MainThread]: End processing [nerfstudio] error
+[2023-05-22 19:47:18] INFO root fetch - main [MainThread]: End processing [melnor-bluetooth]: success
+[2023-05-22 19:47:19] INFO root fetch - main [MainThread]: End processing [plombery]: success
+[2023-05-22 19:47:19] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc]: success
+[2023-05-22 19:47:19] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-22 19:47:19] INFO root fetch - main [MainThread]: End processing [shellcrafter]: success
+[2023-05-22 19:47:19] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-22 19:47:20] INFO root fetch - main [MainThread]: End processing [chia-dev-tools]: success
+[2023-05-22 19:47:20] INFO root fetch - main [MainThread]: End processing [iparapheur-utils.beta]: success
+[2023-05-22 19:47:23] INFO root fetch - main [MainThread]: End processing [whacc]: success
+[2023-05-22 19:47:23] INFO root fetch - main [MainThread]: Store serial: [18201797]
