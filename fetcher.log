@@ -22621,3 +22621,163 @@ EOFError: EOF read where object expected
 [2023-05-22 21:12:51] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
 [2023-05-22 21:12:54] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-22 21:12:54] INFO root fetch - main [MainThread]: Store serial: [18202610]
+[2023-05-22 21:18:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202610]
+[2023-05-22 21:18:05] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adata
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pitop
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pitop.battery
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pitop.camera
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pitop.common
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pitop.core
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pitop.display
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pitop.keyboard
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pitop.miniscreen
+[2023-05-22 21:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pitop.pma
+[2023-05-22 21:18:05] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.battery]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.camera]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.common]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.miniscreen]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.keyboard]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.display]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.pma]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop]: New version: [0.8.1] Old Version: [0.7.0]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.core]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.battery]: Downloading https://files.pythonhosted.org/packages/0f/56/74b4ec44e9cc0bb7c02fa3f6846ddd50b4832bce6fac212381496dcb9870/pitop.battery-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.miniscreen]: Downloading https://files.pythonhosted.org/packages/8a/07/d8423d20ab399b5d5a0b23fae52abe1d80787fd6cdaab2082de444daf9f9/pitop.miniscreen-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.keyboard]: Downloading https://files.pythonhosted.org/packages/f8/48/09fdaf1b2f06cfe30fcc110aeaca1ceee19f0350eb934b808241729396de/pitop.keyboard-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.camera]: Downloading https://files.pythonhosted.org/packages/22/9b/c97b6f1dfcbd35dca3ee06012afdaed7ca9cb5f8f1aaf05c3464b1c4cde4/pitop.camera-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.pma]: Downloading https://files.pythonhosted.org/packages/9a/6b/67514c1867f20be07e7956dc9f41f9222b8ed83867bcbc8c0d7de2ba0edf/pitop.pma-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.common]: Downloading https://files.pythonhosted.org/packages/bd/96/0b035f942d1fcc2c0a05d8d7690103a126202ac9e79fdf705bd78855f1a4/pitop.common-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.display]: Downloading https://files.pythonhosted.org/packages/04/52/46839149d017b07afabca38ca14fe3b55fdbc985e01f1aab94651c0f4556/pitop.display-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop]: Downloading https://files.pythonhosted.org/packages/16/80/02e7398d7289a776ed67e83e75b4c85acee1f3f43bc7853af66e999cfcc2/pitop-0.7.0.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.core]: Downloading https://files.pythonhosted.org/packages/8b/3f/176d6b9fdd05f828fbbca103873e78fe8e69e14faa465c79e8005eb21c70/pitop.core-0.30.0.post1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230522/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.battery]: Downloading https://files.pythonhosted.org/packages/0b/27/812cec5f2b515160264da80404205fd5fc99106b7039e515b3d1e4fb06c7/pitop.battery-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.keyboard]: Downloading https://files.pythonhosted.org/packages/dc/c2/9d0e9a6b12b1e973cc2724008567caa4eee56fdd71460a13e167c564a200/pitop.keyboard-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.camera]: Downloading https://files.pythonhosted.org/packages/3c/94/69713f51b1a02c6ce6340d07318c316850014131caa2e77bfd2f6aac3196/pitop.camera-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.pma]: Downloading https://files.pythonhosted.org/packages/bf/69/40522f7fbbf4cde3323c3c42c3154ccf6c01ddad4ce284ca76bfec707bb7/pitop.pma-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.display]: Downloading https://files.pythonhosted.org/packages/19/65/747c1e36e5762aaa37ab0ac378b40a93bf31d020e35cfbd0448a670fe5c4/pitop.display-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.miniscreen]: Downloading https://files.pythonhosted.org/packages/bf/34/a583ecd2f2278061dd503e06e50aab5a48a0b9a31a34f29fd6fd68b6a8fe/pitop.miniscreen-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.common]: Downloading https://files.pythonhosted.org/packages/0b/d6/d5d612e11947b7417cdfa2c18bf26ffecda3d2b1056e443858728aa223a5/pitop.common-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.core]: Downloading https://files.pythonhosted.org/packages/8b/4b/84912ffa8393f13d68d1623de92a065d437a9cbf3196769770ee9d32d98e/pitop.core-0.31.0.post2.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop]: Downloading https://files.pythonhosted.org/packages/57/6d/a791c8b1cc5bbad390f11df733dc6dd57a3d1c44855a58121349f7ec5659/pitop-0.8.1.tar.gz
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop-0.7.0.tar.gz tmp/pitop-0.8.1.tar.gz --markdown 20230522/p/pitop/0.7.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.battery]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.battery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.battery-0.30.0.post1.tar.gz tmp/pitop.battery-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.battery/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.pma]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.pma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.pma-0.30.0.post1.tar.gz tmp/pitop.pma-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.pma/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.display]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.display-0.30.0.post1.tar.gz tmp/pitop.display-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.display/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.camera]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.camera-0.30.0.post1.tar.gz tmp/pitop.camera-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.camera/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.miniscreen]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.miniscreen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.miniscreen-0.30.0.post1.tar.gz tmp/pitop.miniscreen-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.miniscreen/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.keyboard]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.keyboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.keyboard-0.30.0.post1.tar.gz tmp/pitop.keyboard-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.keyboard/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.common]: executing diffoscope
+[2023-05-22 21:18:05] INFO root fetch - processPackages [pitop.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.common-0.30.0.post1.tar.gz tmp/pitop.common-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.common/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:06] INFO root fetch - processPackages [pitop.core]: executing diffoscope
+[2023-05-22 21:18:06] INFO root fetch - processPackages [pitop.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.core-0.30.0.post1.tar.gz tmp/pitop.core-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.core/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.battery]: Start processing: pitop.processing
+[2023-05-22 21:18:07] INFO root fetch - main [MainThread]: End processing [pitop.battery]: success
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.processing]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.camera]: Start processing: pitop.robotics
+[2023-05-22 21:18:07] INFO root fetch - main [MainThread]: End processing [pitop.camera]: success
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.processing]: Downloading https://files.pythonhosted.org/packages/cd/32/56c4576ec31d8873167f602448ca32d0ae31deafbf197c5aabf0dccaa4c6/pitop.processing-0.30.0.post1.tar.gz
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.robotics]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:07] INFO root fetch - processPackages [adata]: Start processing: pitop.simulation
+[2023-05-22 21:18:07] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.display]: Start processing: pitop.system
+[2023-05-22 21:18:07] INFO root fetch - main [MainThread]: End processing [pitop.display]: success
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.simulation]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.system]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.robotics]: Downloading https://files.pythonhosted.org/packages/d9/db/db39d42cf2eec88c02879a975cf8ee03e30cec86547797d7893c4592eeeb/pitop.robotics-0.30.0.post1.tar.gz
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.processing]: Downloading https://files.pythonhosted.org/packages/41/c8/da4ec2f069ec4b1eba8e6a6313ef84d7981836110f47cd5253e1615e7d6c/pitop.processing-0.31.0.post2.tar.gz
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.miniscreen]: Start processing: pitopcli
+[2023-05-22 21:18:07] INFO root fetch - main [MainThread]: End processing [pitop.miniscreen]: success
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.simulation]: Downloading https://files.pythonhosted.org/packages/f2/73/0af5fc9689d7983b77555eeca164b94ab0c36cfb7d13aba86dd49a7e3d76/pitop.simulation-0.30.0.post1.tar.gz
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitopcli]: New version: [0.31.0.post2] Old Version: [0.30.0.post1]
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.system]: Downloading https://files.pythonhosted.org/packages/ca/fe/02e9a64868d6a346eef1eb4ddb91f8700433fff7b59eba991527793fc2b6/pitop.system-0.30.0.post1.tar.gz
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.core]: Start processing: morphology-workflows
+[2023-05-22 21:18:07] INFO root fetch - main [MainThread]: End processing [pitop.core]: success
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.processing]: executing diffoscope
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.processing-0.30.0.post1.tar.gz tmp/pitop.processing-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.processing/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:07] INFO root fetch - processPackages [morphology-workflows]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-22 21:18:07] INFO root fetch - processPackages [pitop.robotics]: Downloading https://files.pythonhosted.org/packages/8a/be/3ea9038c1d39ec737dbafeae435b83dbb68fe44916c7f6f81aee4ff63474/pitop.robotics-0.31.0.post2.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.common]: Start processing: Files.com
+[2023-05-22 21:18:08] INFO root fetch - main [MainThread]: End processing [pitop.common]: success
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.pma]: Start processing: pyikarus
+[2023-05-22 21:18:08] INFO root fetch - main [MainThread]: End processing [pitop.pma]: success
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop]: Start processing: secret-message
+[2023-05-22 21:18:08] INFO root fetch - main [MainThread]: End processing [pitop]: success
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pyikarus]: New version: [0.3.2.dev20230522090628] Old Version: [0.3.1.dev20230522191446]
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitopcli]: Downloading https://files.pythonhosted.org/packages/c3/19/40189bc5f0f430d9bc09e23266f6812db6185fad46e5412c107c7eb1fc5c/pitopcli-0.30.0.post1.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [Files.com]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.simulation]: Downloading https://files.pythonhosted.org/packages/90/d9/c711136bb8a8e6997a14b1c1a18365f11e6e3e10335f196b65359ddf3ce0/pitop.simulation-0.31.0.post2.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.system]: Downloading https://files.pythonhosted.org/packages/07/1e/dc62608d97d28d5ec858a5b626b1f7f6818c3f2ef5f8dee0c093c53d9fc4/pitop.system-0.31.0.post2.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [secret-message]: New version: [0.4] Old Version: [0.3]
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.robotics]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.robotics-0.30.0.post1.tar.gz tmp/pitop.robotics-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.robotics/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [morphology-workflows]: Downloading https://files.pythonhosted.org/packages/59/85/9952ef22d35602804f52063e7c195c1fc707830783b198ec7303248c483b/morphology-workflows-0.6.1.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/a6/c0/5509f4eb755f137c2358215fe5b1dbdbbb1bc85ec8c3f759984ebd98011a/pyikarus-0.3.1.dev20230522191446.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.simulation]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.simulation-0.30.0.post1.tar.gz tmp/pitop.simulation-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.simulation/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.system]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.system-0.30.0.post1.tar.gz tmp/pitop.system-0.31.0.post2.tar.gz --markdown 20230522/p/pitop.system/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitopcli]: Downloading https://files.pythonhosted.org/packages/74/af/10d538d08646a17b3fb90a2af6d7b5b3377a0ff45be36f12bbacfcb8097b/pitopcli-0.31.0.post2.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/94/53/fbdfda733dea9c814dc2617b3c6ff721e4e11d756b49b2d6dc317f00d5c3/Files.com-1.0.98.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [secret-message]: Downloading https://files.pythonhosted.org/packages/f2/19/a8f49419f8aeabeeb4f44f299d3dc550cf146e667aae74c0d4aaaf9c434b/secret_message-0.4.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [secret-message]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [secret-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secret_message-0.3.tar.gz tmp/secret_message-0.4.tar.gz --markdown 20230522/s/secret-message/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitopcli]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitopcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitopcli-0.30.0.post1.tar.gz tmp/pitopcli-0.31.0.post2.tar.gz --markdown 20230522/p/pitopcli/0.30.0.post1-0.31.0.post2/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.1.dev20230522191446.tar.gz tmp/pyikarus-0.3.2.dev20230522090628.tar.gz --markdown 20230522/p/pyikarus/0.3.1.dev20230522191446-0.3.2.dev20230522090628/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [morphology-workflows]: Downloading https://files.pythonhosted.org/packages/0c/e3/4858d0e31fa6ea433e193a55b66fac74b9ceb04f2b1ad68501d787bc64b3/morphology-workflows-0.7.0.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/3b/2c/ec980b43b6c82499f9f9442e06cf2b0e489d114398d6098f2a9049a19767/Files.com-1.0.99.tar.gz
+[2023-05-22 21:18:08] INFO root fetch - processPackages [pitop.keyboard]: Start processing: titiler.pgstac
+[2023-05-22 21:18:08] INFO root fetch - main [MainThread]: End processing [pitop.keyboard]: success
+[2023-05-22 21:18:08] INFO root fetch - processPackages [titiler.pgstac]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-22 21:18:08] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.0.98.tar.gz tmp/Files.com-1.0.99.tar.gz --markdown 20230522/F/Files.com/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-22 21:18:08] INFO root fetch - processPackages [morphology-workflows]: executing diffoscope
+[2023-05-22 21:18:08] INFO root fetch - processPackages [morphology-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphology-workflows-0.6.1.tar.gz tmp/morphology-workflows-0.7.0.tar.gz --markdown 20230522/m/morphology-workflows/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-22 21:18:09] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/96/86/555c3f900e2b9bb694a989e2bc7649f63845e7a2f736014b6bd68934a393/titiler.pgstac-0.4.0.tar.gz
+[2023-05-22 21:18:09] INFO root fetch - processPackages [titiler.pgstac]: executing diffoscope
+[2023-05-22 21:18:09] INFO root fetch - processPackages [titiler.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.pgstac-0.3.3.tar.gz tmp/titiler.pgstac-0.4.0.tar.gz --markdown 20230522/t/titiler.pgstac/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 21:18:09] INFO root fetch - processPackages [pitop.processing]: Start processing: socketlabs-injectionapi
+[2023-05-22 21:18:09] INFO root fetch - main [MainThread]: End processing [pitop.processing]: success
+[2023-05-22 21:18:09] INFO root fetch - processPackages [pitop.system]: Start processing: shellcrafter
+[2023-05-22 21:18:09] INFO root fetch - main [MainThread]: End processing [pitop.system]: success
+[2023-05-22 21:18:09] INFO root fetch - processPackages [shellcrafter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 21:18:09] INFO root fetch - processPackages [socketlabs-injectionapi]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-05-22 21:18:09] INFO root fetch - processPackages [secret-message]: Start processing: linode-cli
+[2023-05-22 21:18:09] INFO root fetch - main [MainThread]: End processing [secret-message]: success
+[2023-05-22 21:18:09] INFO root fetch - processPackages [linode-cli]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-05-22 21:18:09] INFO root fetch - processPackages [pitop.robotics]: Start processing: reactivated
+[2023-05-22 21:18:09] INFO root fetch - main [MainThread]: End processing [pitop.robotics]: success
+[2023-05-22 21:18:09] INFO root fetch - processPackages [shellcrafter]: executing diffoscope
+[2023-05-22 21:18:09] INFO root fetch - processPackages [shellcrafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcrafter-1.0.8.tar.gz tmp/shellcrafter-1.0.9.tar.gz --markdown 20230522/s/shellcrafter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 21:18:09] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-05-22 21:18:10] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-05-22 21:18:10] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230522/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-05-22 21:18:10] INFO root fetch - processPackages [socketlabs-injectionapi]: Downloading https://files.pythonhosted.org/packages/a1/0b/da45481d73add486823fd483ef9019d52a99ce2a6a043f78c9fa19d09954/socketlabs_injectionapi-1.4.0.tar.gz
+[2023-05-22 21:18:10] INFO root fetch - processPackages [linode-cli]: executing diffoscope
+[2023-05-22 21:18:10] INFO root fetch - processPackages [linode-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_cli-5.9.0-py2.py3-none-any.whl.zip tmp/linode_cli-5.9.1-py2.py3-none-any.whl.zip --markdown 20230522/l/linode-cli/5.9.0-5.9.1/diff.md --exclude *.pyd
+[2023-05-22 21:18:10] INFO root fetch - processPackages [socketlabs-injectionapi]: Downloading https://files.pythonhosted.org/packages/b4/62/3b4797320d7ca330a11a67e17009fe463e6fa019278c91c4495ec373a1bd/socketlabs_injectionapi-1.4.2.tar.gz
+[2023-05-22 21:18:10] INFO root fetch - processPackages [socketlabs-injectionapi]: executing diffoscope
+[2023-05-22 21:18:10] INFO root fetch - processPackages [socketlabs-injectionapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketlabs_injectionapi-1.4.0.tar.gz tmp/socketlabs_injectionapi-1.4.2.tar.gz --markdown 20230522/s/socketlabs-injectionapi/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-05-22 21:18:10] INFO root fetch - main [MainThread]: End processing [titiler.pgstac]: success
+[2023-05-22 21:18:10] INFO root fetch - main [MainThread]: End processing [pitopcli]: success
+[2023-05-22 21:18:11] INFO root fetch - main [MainThread]: End processing [shellcrafter]: success
+[2023-05-22 21:18:11] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-05-22 21:18:11] INFO root fetch - main [MainThread]: End processing [pitop.simulation]: success
+[2023-05-22 21:18:11] INFO root fetch - main [MainThread]: End processing [socketlabs-injectionapi]: success
+[2023-05-22 21:18:11] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2023-05-22 21:18:12] INFO root fetch - main [MainThread]: End processing [linode-cli]: success
+[2023-05-22 21:18:14] INFO root fetch - main [MainThread]: End processing [morphology-workflows]: success
+[2023-05-22 21:18:14] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-22 21:18:14] INFO root fetch - main [MainThread]: Store serial: [18202685]
