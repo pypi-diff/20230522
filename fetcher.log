@@ -4736,3 +4736,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 05:46:25] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-05-22 05:46:26] INFO root fetch - main [MainThread]: End processing [bitcoin-explorer]: success
 [2023-05-22 05:46:26] INFO root fetch - main [MainThread]: Store serial: [18192068]
+[2023-05-22 05:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192068]
+[2023-05-22 05:51:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galactic-messenger
+[2023-05-22 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krutils
+[2023-05-22 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galactic-messenger
+[2023-05-22 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomica
+[2023-05-22 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iiblib
+[2023-05-22 05:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hagworm
+[2023-05-22 05:51:35] INFO root fetch - processPackages [atomica]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-22 05:51:35] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1245] Old Version: [0.20230504.1600]
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 05:51:35] INFO root fetch - processPackages [iiblib]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 05:51:35] INFO root fetch - processPackages [hagworm]: New version: [5.5.5] Old Version: [5.5.4]
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/1a/72/87ad752c412bba2c1a96671b48e55e1fb28bda8e89b656db73e0c15eb33e/galactic-messenger-0.1.5.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/1a/72/87ad752c412bba2c1a96671b48e55e1fb28bda8e89b656db73e0c15eb33e/galactic-messenger-0.1.5.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/06/4d/9909b5afdcba81558f1ce484224ff22ac0682ff63bf10f0585efac867927/krutils-0.20230504.1600.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [atomica]: Downloading https://files.pythonhosted.org/packages/1b/1a/d450921edf87184f6760143cf5169b5f2d3c848b1f336dc9d8df39e3106f/atomica-1.4.0.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [iiblib]: Downloading https://files.pythonhosted.org/packages/68/fb/59e3464af82359b24ed071384d4322dc233bec1787a81b0fad294f6569a4/iiblib-7.0.0.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/56/9b/43323eba3f56156e4a2c4e5527b86bdd6df54089b541d6012ffcff64b1ca/hagworm-5.5.5.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/4f/ce/6042ad6d5356b72afe27e8a7da94816aaf2586c658d6fbc9b254d7bf9e41/galactic-messenger-0.1.6.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: Downloading https://files.pythonhosted.org/packages/4f/ce/6042ad6d5356b72afe27e8a7da94816aaf2586c658d6fbc9b254d7bf9e41/galactic-messenger-0.1.6.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/01/9b/39f22b90ef4cc453121868ca5cb523a928ba41627a130a03aab1d4cd7b17/krutils-0.20230522.1245.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [atomica]: Downloading https://files.pythonhosted.org/packages/cb/11/7ee713e8ab563588b2c9f563dd86298499097f6b3bf542c2ae164d7ac32b/atomica-1.5.0.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: executing diffoscope
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galactic-messenger-0.1.5.tar.gz tmp/galactic-messenger-0.1.6.tar.gz --markdown 20230522/g/galactic-messenger/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: executing diffoscope
+[2023-05-22 05:51:35] INFO root fetch - processPackages [galactic-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galactic-messenger-0.1.5.tar.gz tmp/galactic-messenger-0.1.6.tar.gz --markdown 20230522/g/galactic-messenger/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 05:51:35] INFO root fetch - processPackages [iiblib]: Downloading https://files.pythonhosted.org/packages/30/30/5815bc52e0714468d214a889c1ef781e7ce04fe46f21a897197adc5e5be2/iiblib-7.1.0.tar.gz
+[2023-05-22 05:51:35] INFO root fetch - processPackages [atomica]: executing diffoscope
+[2023-05-22 05:51:35] INFO root fetch - processPackages [atomica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomica-1.4.0.tar.gz tmp/atomica-1.5.0.tar.gz --markdown 20230522/a/atomica/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-22 05:51:35] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2023-05-22 05:51:35] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.5.4.tar.gz tmp/hagworm-5.5.5.tar.gz --markdown 20230522/h/hagworm/5.5.4-5.5.5/diff.md --exclude *.pyd
+[2023-05-22 05:51:35] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 05:51:35] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230504.1600.tar.gz tmp/krutils-0.20230522.1245.tar.gz --markdown 20230522/k/krutils/0.20230504.1600-0.20230522.1245/diff.md --exclude *.pyd
+[2023-05-22 05:51:36] INFO root fetch - processPackages [iiblib]: executing diffoscope
+[2023-05-22 05:51:36] INFO root fetch - processPackages [iiblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iiblib-7.0.0.tar.gz tmp/iiblib-7.1.0.tar.gz --markdown 20230522/i/iiblib/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-05-22 05:51:36] INFO root fetch - main [MainThread]: End processing [galactic-messenger]: success
+[2023-05-22 05:51:36] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 05:51:37] INFO root fetch - main [MainThread]: End processing [galactic-messenger]: success
+[2023-05-22 05:51:37] INFO root fetch - main [MainThread]: End processing [iiblib]: success
+[2023-05-22 05:51:37] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2023-05-22 05:51:37] INFO root fetch - main [MainThread]: End processing [atomica]: success
+[2023-05-22 05:51:37] INFO root fetch - main [MainThread]: Store serial: [18192085]
