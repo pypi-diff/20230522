@@ -18803,3 +18803,50 @@ EOFError: EOF read where object expected
 [2023-05-22 17:36:07] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
 [2023-05-22 17:36:07] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
 [2023-05-22 17:36:07] INFO root fetch - main [MainThread]: Store serial: [18200240]
+[2023-05-22 17:41:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200240]
+[2023-05-22 17:41:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shays-CERT-2092
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-astro-uda
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: txt2dub
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ajm1102-2d-pandemic
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djlint
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miniscutil
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nhound
+[2023-05-22 17:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ajm1102pandemic2d
+[2023-05-22 17:41:17] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-22 17:41:17] INFO root fetch - processPackages [txt2dub]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 17:41:17] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:41:17] ERROR root fetch - processPackages [ajm1102-2d-pandemic]: Unable to get metadata: No such project 'ajm1102-2d-pandemic'
+[2023-05-22 17:41:17] INFO root fetch - main [MainThread]: End processing [ajm1102-2d-pandemic] error
+[2023-05-22 17:41:17] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-22 17:41:17] WARNING root fetch - processPackages [ajm1102pandemic2d]: Skipping, unable to determine old version
+[2023-05-22 17:41:17] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-2092]: Skipping, unable to determine old version
+[2023-05-22 17:41:17] INFO root fetch - main [MainThread]: End processing [ajm1102pandemic2d] error
+[2023-05-22 17:41:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-2092] error
+[2023-05-22 17:41:17] INFO root fetch - processPackages [nhound]: New version: [0.1.1] Old Version: [0.0.0]
+[2023-05-22 17:41:17] INFO root fetch - processPackages [miniscutil]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-22 17:41:17] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 17:41:17] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:41:17] INFO root fetch - processPackages [txt2dub]: Downloading https://files.pythonhosted.org/packages/80/34/19c12b2d1ecc9530b0c04dadc1db97db2185909837deb057fe8b58847c24/txt2dub-0.1.3.tar.gz
+[2023-05-22 17:41:17] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:41:17] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.2.5.tar.gz tmp/deep_astro_uda-0.2.6.tar.gz --markdown 20230522/d/deep-astro-uda/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-22 17:41:17] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/5d/22/76b67abf5a85bb4fc2038b67332d161545011275666f11bae43349e1347d/miniscutil-0.0.3.tar.gz
+[2023-05-22 17:41:17] INFO root fetch - processPackages [nhound]: Downloading https://files.pythonhosted.org/packages/38/e8/173f0e83fa47643949130413db346eef8f80d7e356092bb9fd2665b7ddb1/nhound-0.0.0.tar.gz
+[2023-05-22 17:41:17] INFO root fetch - processPackages [txt2dub]: executing diffoscope
+[2023-05-22 17:41:17] INFO root fetch - processPackages [txt2dub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2dub-0.1.2.tar.gz tmp/txt2dub-0.1.3.tar.gz --markdown 20230522/t/txt2dub/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 17:41:17] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-05-22 17:41:17] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230522/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-22 17:41:17] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/54/78/ab208d7cc729f2e236d6818c0fc28240d987d7b5ae9bef4d68b6a70d8bf5/miniscutil-0.1.0.tar.gz
+[2023-05-22 17:41:17] INFO root fetch - processPackages [nhound]: Downloading https://files.pythonhosted.org/packages/85/45/91db652fe76b8f7b5e9aad154ab1df4fed367ae9d68da86a18cc7b3d7f05/nhound-0.1.1.tar.gz
+[2023-05-22 17:41:17] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-05-22 17:41:17] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.0.3.tar.gz tmp/miniscutil-0.1.0.tar.gz --markdown 20230522/m/miniscutil/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-22 17:41:17] INFO root fetch - processPackages [nhound]: executing diffoscope
+[2023-05-22 17:41:17] INFO root fetch - processPackages [nhound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhound-0.0.0.tar.gz tmp/nhound-0.1.1.tar.gz --markdown 20230522/n/nhound/0.0.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 17:41:18] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:41:18] INFO root fetch - main [MainThread]: End processing [txt2dub]: success
+[2023-05-22 17:41:18] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 17:41:18] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-05-22 17:41:19] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-05-22 17:41:19] INFO root fetch - main [MainThread]: End processing [nhound]: success
+[2023-05-22 17:41:19] INFO root fetch - main [MainThread]: Store serial: [18200289]
