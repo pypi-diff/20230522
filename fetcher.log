@@ -12063,3 +12063,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 14:06:42] INFO root fetch - main [MainThread]: End processing [autoxx]: success
 [2023-05-22 14:06:47] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-22 14:06:47] INFO root fetch - main [MainThread]: Store serial: [18196553]
+[2023-05-22 14:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196553]
+[2023-05-22 14:11:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dyrun
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assets2036py
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asad-14-json-generator
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlw-lectiomat
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-paielasticdatasetaccelerator
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automated-selenium
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: motion3d
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solid-backend
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Slpapy
+[2023-05-22 14:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-calculator-sdk
+[2023-05-22 14:11:56] INFO root fetch - processPackages [dyrun]: New version: [1.0.24] Old Version: [1.0.23]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [aliyun-python-sdk-paielasticdatasetaccelerator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [assets2036py]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [Slpapy]: New version: [0.3.22] Old Version: [0.3.21]
+[2023-05-22 14:11:56] WARNING root fetch - processPackages [mlw-lectiomat]: Skipping, unable to determine old version
+[2023-05-22 14:11:56] INFO root fetch - processPackages [mlw-lectiomat]: Start processing: optimobo
+[2023-05-22 14:11:56] INFO root fetch - main [MainThread]: End processing [mlw-lectiomat] error
+[2023-05-22 14:11:56] INFO root fetch - processPackages [automated-selenium]: New version: [1.1.0] Old Version: [0.1.0]
+[2023-05-22 14:11:56] WARNING root fetch - processPackages [motion3d]: Skipping, unable to determine old version
+[2023-05-22 14:11:56] INFO root fetch - processPackages [solid-backend]: New version: [0.3a2] Old Version: [0.3.1]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [asad-14-json-generator]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [motion3d]: Start processing: cg
+[2023-05-22 14:11:56] INFO root fetch - processPackages [simple-calculator-sdk]: New version: [0.0.9] Old Version: [0.0.2]
+[2023-05-22 14:11:56] INFO root fetch - main [MainThread]: End processing [motion3d] error
+[2023-05-22 14:11:56] INFO root fetch - processPackages [optimobo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [cg]: New version: [31.0.2] Old Version: [31.0.1]
+[2023-05-22 14:11:56] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/69/17/0b60cd9ead9dcd59d27329c8abbba2b3d12347027ebf46547f341dde51d6/dyrun-1.0.23.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/0b/da/aa519bb3142b5274f2c2c8d77e8c3bd2b30e4c30c7d43514af27619f6467/Slpapy-0.3.21.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [assets2036py]: Downloading https://files.pythonhosted.org/packages/7b/c5/da7c380da05bc3d4bf5eca1e8d293ec6c78dab6be9dd48abbfd04d2eaa3f/assets2036py-0.0.14.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [simple-calculator-sdk]: Downloading https://files.pythonhosted.org/packages/6c/5f/4e9da245b430f626046b64eb451ca4c7425f0a082a5d60e9ac7017d0fdc7/simple-calculator-sdk-0.0.2.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [solid-backend]: Downloading https://files.pythonhosted.org/packages/18/fb/239a8d8485700422d79c46f5d68faede12e41baf6a358c9a2ff6d02b893c/solid_backend-0.3.1.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [asad-14-json-generator]: Downloading https://files.pythonhosted.org/packages/a3/d0/b2b14f3997c0216e8da89e043983406b9ada0b2f2ec03a56512b2a3c91d3/asad-14-json-generator-0.1.2.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [aliyun-python-sdk-paielasticdatasetaccelerator]: Downloading https://files.pythonhosted.org/packages/d2/29/19dc48f11b9178a1cff1ee7999325b05c602fe1822fa986bcafc9c6d4e8a/aliyun-python-sdk-paielasticdatasetaccelerator-1.0.3.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [automated-selenium]: Downloading https://files.pythonhosted.org/packages/03/4a/f3b15e06537a31e88341775ecb77cd3acd2f739cfca7e3856ecfe3bcbaec/automated_selenium-0.1.0.tar.gz
+[2023-05-22 14:11:56] INFO root fetch - processPackages [optimobo]: Downloading https://files.pythonhosted.org/packages/49/5d/8da70044ba4662e47b3fda7fb3f5112ac3748100f92f950782495bef75d6/optimobo-0.1.2.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [aliyun-python-sdk-paielasticdatasetaccelerator]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [aliyun-python-sdk-paielasticdatasetaccelerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-paielasticdatasetaccelerator-1.0.2.tar.gz tmp/aliyun-python-sdk-paielasticdatasetaccelerator-1.0.3.tar.gz --markdown 20230522/a/aliyun-python-sdk-paielasticdatasetaccelerator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/52/bc/4a19662e76bb6063e3f7a1e9017c617b51b79ff316150220e9012cdcb6e3/cg-31.0.2.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [simple-calculator-sdk]: Downloading https://files.pythonhosted.org/packages/c9/ee/e6aa278170e01bd3ccfbbbf3edbdc9b1436e33c1ccaf06bbe42f67e14fa9/simple-calculator-sdk-0.0.9.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [assets2036py]: Downloading https://files.pythonhosted.org/packages/17/8f/9d5ac4f71d8929f355f03fcebdc75c1b41e93386ca638ebf50a3ed5732a3/assets2036py-0.0.15.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/c3/6f/c8de75172cf4078b3ff122562e3bac83c07af2ebd2a1b5e79c13bbe61f4b/Slpapy-0.3.22.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [asad-14-json-generator]: Downloading https://files.pythonhosted.org/packages/23/2e/84f161fbaa35320edb39cd5561bd8096e0f4a5602bc30cd6008823b783d1/asad-14-json-generator-0.2.0.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [optimobo]: Downloading https://files.pythonhosted.org/packages/67/0a/4744bfc926be7dec23307e177f16ec7815b0a834e78ab9bab86d19c78ae9/optimobo-0.1.3.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/e3/83/84e661fa1feff22d966b77957c7ab1f18c525be30134b320072ac20a5ad1/dyrun-1.0.24.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [automated-selenium]: Downloading https://files.pythonhosted.org/packages/36/98/45d655ff7922a1c930c923dac191ab45c3f6dda8ddb733c8747ee93d50eb/automated_selenium-1.1.0.tar.gz
+[2023-05-22 14:11:57] INFO root fetch - processPackages [simple-calculator-sdk]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [simple-calculator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-calculator-sdk-0.0.2.tar.gz tmp/simple-calculator-sdk-0.0.9.tar.gz --markdown 20230522/s/simple-calculator-sdk/0.0.2-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [assets2036py]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [assets2036py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assets2036py-0.0.14.tar.gz tmp/assets2036py-0.0.15.tar.gz --markdown 20230522/a/assets2036py/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [solid-backend]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [solid-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solid_backend-0.3.1.tar.gz tmp/solid_backend-0.3a2.tar.gz --markdown 20230522/s/solid-backend/0.3.1-0.3a2/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [automated-selenium]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [automated-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automated_selenium-0.1.0.tar.gz tmp/automated_selenium-1.1.0.tar.gz --markdown 20230522/a/automated-selenium/0.1.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.21.tar.gz tmp/Slpapy-0.3.22.tar.gz --markdown 20230522/S/Slpapy/0.3.21-0.3.22/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [asad-14-json-generator]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [asad-14-json-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asad-14-json-generator-0.1.2.tar.gz tmp/asad-14-json-generator-0.2.0.tar.gz --markdown 20230522/a/asad-14-json-generator/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [optimobo]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [optimobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimobo-0.1.2.tar.gz tmp/optimobo-0.1.3.tar.gz --markdown 20230522/o/optimobo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [dyrun]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [dyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyrun-1.0.23.tar.gz tmp/dyrun-1.0.24.tar.gz --markdown 20230522/d/dyrun/1.0.23-1.0.24/diff.md --exclude *.pyd
+[2023-05-22 14:11:57] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-22 14:11:57] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.0.1.tar.gz tmp/cg-31.0.2.tar.gz --markdown 20230522/c/cg/31.0.1-31.0.2/diff.md --exclude *.pyd
+[2023-05-22 14:11:58] INFO root fetch - processPackages [aliyun-python-sdk-paielasticdatasetaccelerator]: Start processing: bm-utilities
+[2023-05-22 14:11:58] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-paielasticdatasetaccelerator]: success
+[2023-05-22 14:11:58] INFO root fetch - processPackages [bm-utilities]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-22 14:11:58] INFO root fetch - processPackages [simple-calculator-sdk]: Start processing: ipyeos
+[2023-05-22 14:11:58] INFO root fetch - main [MainThread]: End processing [simple-calculator-sdk]: success
+[2023-05-22 14:11:58] INFO root fetch - processPackages [ipyeos]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-22 14:11:58] INFO root fetch - processPackages [assets2036py]: Start processing: gitlab-changelog-tool
+[2023-05-22 14:11:58] INFO root fetch - main [MainThread]: End processing [assets2036py]: success
+[2023-05-22 14:11:58] INFO root fetch - processPackages [gitlab-changelog-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 14:11:58] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/a1/b8/9109c5816f0d732f979e9961d88825b4c3883a064671a9ceaee1d19ed299/bm_utilities-0.1.4.tar.gz
+[2023-05-22 14:11:58] INFO root fetch - processPackages [automated-selenium]: Start processing: permit
+[2023-05-22 14:11:58] INFO root fetch - main [MainThread]: End processing [automated-selenium]: success
+[2023-05-22 14:11:58] INFO root fetch - processPackages [permit]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-22 14:11:58] INFO root fetch - processPackages [ipyeos]: Downloading https://files.pythonhosted.org/packages/2d/1d/26ed631c2906883695ba3eb63aa832178cea906893dd3f137bfdb8b9b69b/ipyeos-0.3.9-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-22 14:11:58] INFO root fetch - processPackages [gitlab-changelog-tool]: Downloading https://files.pythonhosted.org/packages/54/4b/8ca6f03006ea7957022f5dd854b503e1ed6b659ba30096719d550d0e9f21/gitlab_changelog_tool-1.0.0-py3-none-any.whl
+[2023-05-22 14:11:59] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/f6/62/ea1aa6812ce6fcbfb717028e11dfbb6ebefad662d00d577d5974014d91d0/permit-2.0.1.tar.gz
+[2023-05-22 14:11:59] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/93/54/12e748be6ee32869cf77f25e8a2fe7316696a8016aa73ba19c71e71928dc/bm_utilities-0.1.5.tar.gz
+[2023-05-22 14:11:59] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-05-22 14:11:59] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.1.4.tar.gz tmp/bm_utilities-0.1.5.tar.gz --markdown 20230522/b/bm-utilities/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-22 14:11:59] INFO root fetch - processPackages [optimobo]: Start processing: mozark-sdk
+[2023-05-22 14:11:59] INFO root fetch - main [MainThread]: End processing [optimobo]: success
+[2023-05-22 14:11:59] INFO root fetch - processPackages [mozark-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 14:11:59] INFO root fetch - processPackages [gitlab-changelog-tool]: Downloading https://files.pythonhosted.org/packages/63/39/18c5d399aa0040cc0ea1464334f491f23b409c8de181da4883655801d494/gitlab_changelog_tool-1.0.1-py3-none-any.whl
+[2023-05-22 14:11:59] INFO root fetch - processPackages [permit]: executing diffoscope
+[2023-05-22 14:11:59] INFO root fetch - processPackages [permit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-2.0.0.tar.gz tmp/permit-2.0.1.tar.gz --markdown 20230522/p/permit/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-22 14:11:59] INFO root fetch - processPackages [gitlab-changelog-tool]: executing diffoscope
+[2023-05-22 14:11:59] INFO root fetch - processPackages [gitlab-changelog-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_changelog_tool-1.0.0-py3-none-any.whl.zip tmp/gitlab_changelog_tool-1.0.1-py3-none-any.whl.zip --markdown 20230522/g/gitlab-changelog-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 14:11:59] INFO root fetch - processPackages [mozark-sdk]: Downloading https://files.pythonhosted.org/packages/e3/56/8de0422c0c55bc8b040c69a901df73dd6b400dd1a7b7f5b38d9d886b9841/mozark_sdk-1.0.1.tar.gz
+[2023-05-22 14:11:59] INFO root fetch - processPackages [asad-14-json-generator]: Start processing: qstock
+[2023-05-22 14:11:59] INFO root fetch - main [MainThread]: End processing [asad-14-json-generator]: success
+[2023-05-22 14:11:59] INFO root fetch - processPackages [qstock]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-22 14:11:59] INFO root fetch - processPackages [mozark-sdk]: executing diffoscope
+[2023-05-22 14:11:59] INFO root fetch - processPackages [mozark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozark_sdk-1.0.0.tar.gz tmp/mozark_sdk-1.0.1.tar.gz --markdown 20230522/m/mozark-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 14:11:59] INFO root fetch - processPackages [qstock]: executing diffoscope
+[2023-05-22 14:11:59] INFO root fetch - processPackages [qstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstock-1.3.3.tar.gz tmp/qstock-1.3.4.tar.gz --markdown 20230522/q/qstock/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-22 14:12:00] INFO root fetch - processPackages [Slpapy]: Start processing: shell-source
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-22 14:12:00] INFO root fetch - processPackages [shell-source]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-05-22 14:12:00] WARNING root fetch - processPackages [ipyeos]: Skipping package: exceeds size limit 24328490>=10485760
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [ipyeos] error
+[2023-05-22 14:12:00] INFO root fetch - processPackages [shell-source]: Downloading https://files.pythonhosted.org/packages/24/b1/bc7305ab628493b9eb2fc66d276058b6e46774cdf2126538f115e15cda24/shell-source-1.0.1.tar.gz
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [gitlab-changelog-tool]: success
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [solid-backend]: success
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [mozark-sdk]: success
+[2023-05-22 14:12:00] INFO root fetch - processPackages [shell-source]: Downloading https://files.pythonhosted.org/packages/b9/f2/6e73eb236edeb4bbec201c8663c92b525e442b8aec21f820728ec36d6488/shell_source-2.0.0.tar.gz
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [qstock]: success
+[2023-05-22 14:12:00] INFO root fetch - main [MainThread]: End processing [dyrun]: success
+[2023-05-22 14:12:00] INFO root fetch - processPackages [shell-source]: executing diffoscope
+[2023-05-22 14:12:00] INFO root fetch - processPackages [shell-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell-source-1.0.1.tar.gz tmp/shell_source-2.0.0.tar.gz --markdown 20230522/s/shell-source/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-22 14:12:01] INFO root fetch - main [MainThread]: End processing [permit]: success
+[2023-05-22 14:12:01] INFO root fetch - main [MainThread]: End processing [shell-source]: success
+[2023-05-22 14:12:11] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-22 14:12:11] INFO root fetch - main [MainThread]: Store serial: [18196616]
