@@ -11972,3 +11972,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 14:00:59] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-22 14:01:20] INFO root fetch - main [MainThread]: End processing [aries-askar]: success
 [2023-05-22 14:01:20] INFO root fetch - main [MainThread]: Store serial: [18196503]
+[2023-05-22 14:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196503]
+[2023-05-22 14:06:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: useragents-me-scraper
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djpykafka
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbsite
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shelephant
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytelerdac
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cubicweb-bootstrap
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hierarqcal
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: teleexception
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asad-14-json-generator
+[2023-05-22 14:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optimobo
+[2023-05-22 14:06:38] INFO root fetch - processPackages [shelephant]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [useragents-me-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [hierarqcal]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [cubicweb-bootstrap]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [pytelerdac]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [djpykafka]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [teleexception]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-22 14:06:38] WARNING root fetch - processPackages [asad-14-json-generator]: Skipping, unable to determine old version
+[2023-05-22 14:06:38] INFO root fetch - processPackages [asad-14-json-generator]: Start processing: acids-msprior
+[2023-05-22 14:06:38] INFO root fetch - main [MainThread]: End processing [asad-14-json-generator] error
+[2023-05-22 14:06:38] INFO root fetch - processPackages [acids-msprior]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-22 14:06:38] WARNING root fetch - processPackages [optimobo]: Skipping, unable to determine old version
+[2023-05-22 14:06:38] INFO root fetch - processPackages [optimobo]: Start processing: gpt-code-ui
+[2023-05-22 14:06:38] INFO root fetch - main [MainThread]: End processing [optimobo] error
+[2023-05-22 14:06:38] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-22 14:06:38] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230522/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-22 14:06:38] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-22 14:06:38] INFO root fetch - processPackages [useragents-me-scraper]: Downloading https://files.pythonhosted.org/packages/b0/4b/16ce994783556acb88f9ffe03553823c66663e4bb715bb0cb617c287db06/useragents_me_scraper-0.1.1.tar.gz
+[2023-05-22 14:06:38] INFO root fetch - processPackages [shelephant]: Downloading https://files.pythonhosted.org/packages/2d/a4/eb89174621cb4db480e5ee671940c1839e2aa2d7672091785663efee5de7/shelephant-0.8.1.tar.gz
+[2023-05-22 14:06:38] INFO root fetch - processPackages [hierarqcal]: Downloading https://files.pythonhosted.org/packages/60/c2/41c7f41ff02f2d010ab0d1b45cddab47303c438cf92a8d7f6c91fb76cce0/hierarqcal-0.3.0.tar.gz
+[2023-05-22 14:06:38] INFO root fetch - processPackages [djpykafka]: Downloading https://files.pythonhosted.org/packages/6a/e8/f26d4f0fa76a8729d6f62df502c0c711281bf1c3a9ce827e15324e8fe1bb/djpykafka-0.0.8.tar.gz
+[2023-05-22 14:06:38] INFO root fetch - processPackages [cubicweb-bootstrap]: Downloading https://files.pythonhosted.org/packages/c2/69/dac1ad5435bb896f0bb914fbdbb786f9f707090ceebd13de98a465b953eb/cubicweb-bootstrap-1.8.0.tar.gz
+[2023-05-22 14:06:38] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-22 14:06:38] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230522/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-22 14:06:38] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/27/24/dbae32e893934ca7781fcfa630702b141e842c4589c27525e7649fc17bdf/acids-msprior-1.0.9.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [pytelerdac]: Downloading https://files.pythonhosted.org/packages/bb/14/ee81b93f3a95016bafd9fc44c45a623d24b008cf8781432e7d72af147b90/pytelerdac-0.4.0-cp36-cp36m-manylinux2014_aarch64.whl
+[2023-05-22 14:06:39] INFO root fetch - processPackages [teleexception]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [teleexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleexception-0.3.8-py3-none-any.whl.zip tmp/teleexception-0.3.9-py3-none-any.whl.zip --markdown 20230522/t/teleexception/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [pytelerdac]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [pytelerdac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytelerdac-0.3.0-cp38-cp38-manylinux1_x86_64.whl.zip tmp/pytelerdac-0.4.0-cp36-cp36m-manylinux2014_aarch64.whl.zip --markdown 20230522/p/pytelerdac/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [hierarqcal]: Downloading https://files.pythonhosted.org/packages/f9/ea/6f3914db157dcda9cb24745a7fd152f73814698ea6ca03f567da44fd6878/hierarqcal-0.4.0.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [acids-msprior]: Downloading https://files.pythonhosted.org/packages/f2/aa/f48be8bd4e0d1fef9f81767111342d26b309208497b7183efd2eddeb482c/acids-msprior-1.1.0.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [useragents-me-scraper]: Downloading https://files.pythonhosted.org/packages/d2/30/15e4a850b6d90d4527376128c5088526aeb5d74f68b8e5c06b5df9a99976/useragents_me_scraper-0.1.2.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [cubicweb-bootstrap]: Downloading https://files.pythonhosted.org/packages/a2/28/8f771250f38f7afe7921097e33b1dbce436d8ec53268f54a05388ccdb27c/cubicweb-bootstrap-1.9.0.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [djpykafka]: Downloading https://files.pythonhosted.org/packages/9b/31/ffec0d84f9fc59bf8f6f4d871420069c6a1e118a573dba0238cf7786bba9/djpykafka-0.0.9.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [shelephant]: Downloading https://files.pythonhosted.org/packages/93/46/ce850f729de093ce798c0d10e2125a344d87d2cf42e56b9380fbf5578cef/shelephant-0.9.0.tar.gz
+[2023-05-22 14:06:39] INFO root fetch - processPackages [hierarqcal]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [hierarqcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hierarqcal-0.3.0.tar.gz tmp/hierarqcal-0.4.0.tar.gz --markdown 20230522/h/hierarqcal/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [useragents-me-scraper]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [useragents-me-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragents_me_scraper-0.1.1.tar.gz tmp/useragents_me_scraper-0.1.2.tar.gz --markdown 20230522/u/useragents-me-scraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [acids-msprior]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [acids-msprior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids-msprior-1.0.9.tar.gz tmp/acids-msprior-1.1.0.tar.gz --markdown 20230522/a/acids-msprior/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [cubicweb-bootstrap]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [cubicweb-bootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-bootstrap-1.8.0.tar.gz tmp/cubicweb-bootstrap-1.9.0.tar.gz --markdown 20230522/c/cubicweb-bootstrap/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [djpykafka]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [djpykafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djpykafka-0.0.8.tar.gz tmp/djpykafka-0.0.9.tar.gz --markdown 20230522/d/djpykafka/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 14:06:39] INFO root fetch - processPackages [shelephant]: executing diffoscope
+[2023-05-22 14:06:39] INFO root fetch - processPackages [shelephant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelephant-0.8.1.tar.gz tmp/shelephant-0.9.0.tar.gz --markdown 20230522/s/shelephant/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 14:06:40] INFO root fetch - processPackages [teleexception]: Start processing: tf-agents-nightly
+[2023-05-22 14:06:40] INFO root fetch - main [MainThread]: End processing [teleexception]: success
+[2023-05-22 14:06:40] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-22 14:06:40] INFO root fetch - processPackages [pytelerdac]: Start processing: muffin-babel
+[2023-05-22 14:06:40] INFO root fetch - main [MainThread]: End processing [pytelerdac]: success
+[2023-05-22 14:06:40] INFO root fetch - processPackages [muffin-babel]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-22 14:06:40] INFO root fetch - processPackages [useragents-me-scraper]: Start processing: autoxx
+[2023-05-22 14:06:40] INFO root fetch - main [MainThread]: End processing [useragents-me-scraper]: success
+[2023-05-22 14:06:40] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-22 14:06:40] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230522/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-22 14:06:40] INFO root fetch - processPackages [muffin-babel]: executing diffoscope
+[2023-05-22 14:06:40] INFO root fetch - processPackages [muffin-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_babel-1.4.1.tar.gz tmp/muffin_babel-1.4.2.tar.gz --markdown 20230522/m/muffin-babel/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-22 14:06:40] INFO root fetch - processPackages [autoxx]: New version: [0.0.15] Old Version: [0.0.13]
+[2023-05-22 14:06:40] INFO root fetch - processPackages [acids-msprior]: Start processing: dyrun
+[2023-05-22 14:06:40] INFO root fetch - main [MainThread]: End processing [acids-msprior]: success
+[2023-05-22 14:06:40] WARNING root fetch - processPackages [dyrun]: Skipping, unable to determine old version
+[2023-05-22 14:06:40] INFO root fetch - main [MainThread]: End processing [dyrun] error
+[2023-05-22 14:06:40] INFO root fetch - main [MainThread]: End processing [shelephant]: success
+[2023-05-22 14:06:41] INFO root fetch - main [MainThread]: End processing [djpykafka]: success
+[2023-05-22 14:06:41] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/be/b8/4f8a3196f85a15cd27b9330c0b61e3f3fab95dc606172d433c4fe67074d6/autoxx-0.0.15.tar.gz
+[2023-05-22 14:06:41] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-22 14:06:41] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-22 14:06:41] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.13.tar.gz tmp/autoxx-0.0.15.tar.gz --markdown 20230522/a/autoxx/0.0.13-0.0.15/diff.md --exclude *.pyd
+[2023-05-22 14:06:41] INFO root fetch - main [MainThread]: End processing [cubicweb-bootstrap]: success
+[2023-05-22 14:06:41] INFO root fetch - main [MainThread]: End processing [hierarqcal]: success
+[2023-05-22 14:06:41] INFO root fetch - main [MainThread]: End processing [muffin-babel]: success
+[2023-05-22 14:06:42] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-22 14:06:42] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-22 14:06:47] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-22 14:06:47] INFO root fetch - main [MainThread]: Store serial: [18196553]
