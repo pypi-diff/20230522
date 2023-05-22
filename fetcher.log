@@ -6861,3 +6861,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:25:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-22 09:26:36] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-05-22 09:26:36] INFO root fetch - main [MainThread]: Store serial: [18193427]
+[2023-05-22 09:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193427]
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: InCli
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoCarver
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Verdis-PythonConfig
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krutils
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sample-pckg-publish
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ZipDAS
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskproc
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-seqviz
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: VerdisPythonConfig
+[2023-05-22 09:31:45] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1625] Old Version: [0.20230522.1619]
+[2023-05-22 09:31:45] WARNING root fetch - processPackages [ZipDAS]: Skipping, unable to determine old version
+[2023-05-22 09:31:45] INFO root fetch - processPackages [ZipDAS]: Start processing: tldrwl
+[2023-05-22 09:31:45] WARNING root fetch - processPackages [sample-pckg-publish]: Skipping, unable to determine old version
+[2023-05-22 09:31:45] INFO root fetch - processPackages [sample-pckg-publish]: Start processing: vss-tools
+[2023-05-22 09:31:45] ERROR root fetch - processPackages [Verdis-PythonConfig]: Unable to get metadata: No such project 'Verdis-PythonConfig'
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: End processing [ZipDAS] error
+[2023-05-22 09:31:45] INFO root fetch - processPackages [Verdis-PythonConfig]: Start processing: GrappyLfjv
+[2023-05-22 09:31:45] INFO root fetch - processPackages [AutoCarver]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-05-22 09:31:45] WARNING root fetch - processPackages [streamlit-seqviz]: Skipping, unable to determine old version
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: End processing [sample-pckg-publish] error
+[2023-05-22 09:31:45] WARNING root fetch - processPackages [VerdisPythonConfig]: Skipping, unable to determine old version
+[2023-05-22 09:31:45] INFO root fetch - processPackages [taskproc]: New version: [0.11.2] Old Version: [0.11.1]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [streamlit-seqviz]: Start processing: PyTraffic
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: End processing [Verdis-PythonConfig] error
+[2023-05-22 09:31:45] INFO root fetch - processPackages [VerdisPythonConfig]: Start processing: template-pptx-jinja-fix
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: End processing [streamlit-seqviz] error
+[2023-05-22 09:31:45] INFO root fetch - processPackages [GrappyLfjv]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [InCli]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [tldrwl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: End processing [VerdisPythonConfig] error
+[2023-05-22 09:31:45] WARNING root fetch - processPackages [template-pptx-jinja-fix]: Skipping, unable to determine old version
+[2023-05-22 09:31:45] INFO root fetch - processPackages [template-pptx-jinja-fix]: Start processing: oc-cdt-queue2
+[2023-05-22 09:31:45] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-fix] error
+[2023-05-22 09:31:45] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [vss-tools]: New version: [4.1.dev5] Old Version: [4.0rc2]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [PyTraffic]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [InCli]: Downloading https://files.pythonhosted.org/packages/a1/25/3eb36884c459436d3ae8f2d5858eb7501926760210ab5189fc3ead76bf37/InCli-0.0.81.tar.gz
+[2023-05-22 09:31:45] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/08/5d/8690c3c3188478e36625ba44c6716be797f7783c300b3c851897ce6b8354/AutoCarver-4.2.1.tar.gz
+[2023-05-22 09:31:45] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-22 09:31:45] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.3.tar.gz tmp/tldrwl-0.0.4.tar.gz --markdown 20230522/t/tldrwl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 09:31:45] INFO root fetch - processPackages [oc-cdt-queue2]: New version: [4.0.2] Old Version: [4.0.1.20230403143600]
+[2023-05-22 09:31:45] INFO root fetch - processPackages [taskproc]: Downloading https://files.pythonhosted.org/packages/93/19/b86a44536232f4b2cc5d5548d44350b90da1246542d7fb4cd4474c55e0a2/taskproc-0.11.1.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/76/7f/4db3332dac35153e14803afdcd0443d1aa9aa10db4910a58ca9dda2534b2/krutils-0.20230522.1625.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [GrappyLfjv]: Downloading https://files.pythonhosted.org/packages/bd/aa/984ddd508649779e5c3ddf8c918dcc78302f403f536ba407751d72c7f1aa/GrappyLfjv-0.0.19.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [PyTraffic]: Downloading https://files.pythonhosted.org/packages/4a/d4/c27748b070aa23b4fde8b220f3c7b67a5dc233e1f3f15debd036098a0231/PyTraffic-1.1.4.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/94/c6/1d160f6da6de3f5689d856d392f8fd96ba3d7a86ed93647c07c599b81489/vss-tools-4.0rc2.tar.gz
+[2023-05-22 09:31:46] WARNING root fetch - processPackages [PyTraffic]: Skipping package: exceeds size limit 53117565>=10485760
+[2023-05-22 09:31:46] INFO root fetch - main [MainThread]: End processing [PyTraffic] error
+[2023-05-22 09:31:46] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/ad/5d/6bf05c272042d848fcac1948a0d1a5d4b664992bfdc14f62f8c8e6da6f02/AutoCarver-4.3.0.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [oc-cdt-queue2]: Downloading https://files.pythonhosted.org/packages/54/12/7d971a9321a2ea4319f833964ca3c6c466371f508aafe282a7212528656a/oc_cdt_queue2-4.0.1.20230403143600-py3-none-any.whl
+[2023-05-22 09:31:46] INFO root fetch - processPackages [taskproc]: Downloading https://files.pythonhosted.org/packages/d3/53/70cabb26b89587a26fa93e8db00319afe449ae1ec471fe4567c0c3042710/taskproc-0.11.2.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1619.tar.gz tmp/krutils-0.20230522.1625.tar.gz --markdown 20230522/k/krutils/0.20230522.1619-0.20230522.1625/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [GrappyLfjv]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [GrappyLfjv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrappyLfjv-0.0.18.tar.gz tmp/GrappyLfjv-0.0.19.tar.gz --markdown 20230522/G/GrappyLfjv/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [InCli]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [InCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InCli-0.0.81.tar.gz tmp/InCli-0.0.9.tar.gz --markdown 20230522/I/InCli/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.2.1.tar.gz tmp/AutoCarver-4.3.0.tar.gz --markdown 20230522/A/AutoCarver/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [taskproc]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [taskproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskproc-0.11.1.tar.gz tmp/taskproc-0.11.2.tar.gz --markdown 20230522/t/taskproc/0.11.1-0.11.2/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [vss-tools]: Downloading https://files.pythonhosted.org/packages/e4/45/5a5992009fabc072fcc61f1408263ab40ac21769dcda39aa9622358e9234/vss-tools-4.1.dev5.tar.gz
+[2023-05-22 09:31:46] INFO root fetch - processPackages [vss-tools]: executing diffoscope
+[2023-05-22 09:31:46] INFO root fetch - processPackages [vss-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-tools-4.0rc2.tar.gz tmp/vss-tools-4.1.dev5.tar.gz --markdown 20230522/v/vss-tools/4.0rc2-4.1.dev5/diff.md --exclude *.pyd
+[2023-05-22 09:31:46] INFO root fetch - processPackages [oc-cdt-queue2]: Downloading https://files.pythonhosted.org/packages/15/63/07e5e178dcfa8e136e0b141fd0e13a598e21b7943802179b193ca8397aaa/oc_cdt_queue2-4.0.2-py2-none-any.whl
+[2023-05-22 09:31:47] INFO root fetch - processPackages [oc-cdt-queue2]: executing diffoscope
+[2023-05-22 09:31:47] INFO root fetch - processPackages [oc-cdt-queue2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdt_queue2-4.0.1.20230403143600-py3-none-any.whl.zip tmp/oc_cdt_queue2-4.0.2-py2-none-any.whl.zip --markdown 20230522/o/oc-cdt-queue2/4.0.1.20230403143600-4.0.2/diff.md --exclude *.pyd
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [GrappyLfjv]: success
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [vss-tools]: success
+[2023-05-22 09:31:47] INFO root fetch - main [MainThread]: End processing [InCli]: success
+[2023-05-22 09:31:48] INFO root fetch - main [MainThread]: End processing [taskproc]: success
+[2023-05-22 09:31:48] INFO root fetch - main [MainThread]: End processing [oc-cdt-queue2]: success
+[2023-05-22 09:31:48] INFO root fetch - main [MainThread]: Store serial: [18193490]
