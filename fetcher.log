@@ -19110,3 +19110,164 @@ EOFError: EOF read where object expected
 [2023-05-22 17:58:34] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-22 17:58:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-22 17:58:47] INFO root fetch - main [MainThread]: Store serial: [18200440]
+[2023-05-22 18:03:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200440]
+[2023-05-22 18:03:56] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sequana-pacbio-qc
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdsfactory
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tree-of-thoughts
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plantstar-shared
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blobtk
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aos-keys
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terra-python
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prefect-streamline
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aos-prov
+[2023-05-22 18:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rofi-rbw
+[2023-05-22 18:03:56] INFO root fetch - processPackages [sequana-pacbio-qc]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [sequana-pacbio-qc]: executing diffoscope
+[2023-05-22 18:03:56] INFO root fetch - processPackages [sequana-pacbio-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pacbio_qc-0.9.0.tar.gz tmp/sequana_pacbio_qc-1.0.0.tar.gz --markdown 20230522/s/sequana-pacbio-qc/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 18:03:56] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [rofi-rbw]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [prefect-streamline]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [aos-prov]: New version: [4.0.2b2] Old Version: [4.0.1b6]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [terra-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [aos-keys]: New version: [1.5.2b2] Old Version: [1.5.2b1]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [blobtk]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [plantstar-shared]: New version: [2.0.2.3.3] Old Version: [2.0.2.3.2]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [gdsfactory]: New version: [6.97.1] Old Version: [6.97.0]
+[2023-05-22 18:03:56] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/81/a6/155dd2687895586b1f6bff2d8b8b22dca58ce0a9623ee9a64c257de62c11/tree-of-thoughts-0.1.5.tar.gz
+[2023-05-22 18:03:56] INFO root fetch - processPackages [rofi-rbw]: Downloading https://files.pythonhosted.org/packages/eb/a9/4575f028660069b23b14faf5b62d486e5b3b2270c020830c6541b8c6b0e9/rofi_rbw-1.1.0.tar.gz
+[2023-05-22 18:03:56] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/90/e1/1d3f5323bed1034e41d5666d48242d877b694e927f30e8fd6f4066d530c0/aos_prov-4.0.1b6-py3-none-any.whl
+[2023-05-22 18:03:56] INFO root fetch - processPackages [terra-python]: Downloading https://files.pythonhosted.org/packages/ec/01/3bc95bc56f7c7c2e8518d53c73477b80bff88c47a3c32a2ddee84959391f/terra-python-0.0.8.tar.gz
+[2023-05-22 18:03:56] INFO root fetch - processPackages [prefect-streamline]: Downloading https://files.pythonhosted.org/packages/82/47/ee9efc7cc87048a55dc3d813b1e663442cc860b52d46e1e31174610a723f/prefect_streamline-1.1.2.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-keys]: Downloading https://files.pythonhosted.org/packages/20/55/6cf4c25298d10a67f22fba49c0fd2749be8665ec25296bf4632617364fd5/aos_keys-1.5.2b1-py3-none-any.whl
+[2023-05-22 18:03:57] INFO root fetch - processPackages [blobtk]: Downloading https://files.pythonhosted.org/packages/e4/65/2e32d87f063a37f792580b87b0a78017d59b1635b4d45631847090d1fcf1/blobtk-0.3.5.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/07/43/506048a4a654f235232e48fcc2b37e8f9487d0d8fa23f921eacca6abfac4/gdsfactory-6.97.1.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [rofi-rbw]: Downloading https://files.pythonhosted.org/packages/ac/1f/2902908a55a5aad7b0d07259526fd34ce6faa046ce60785327f545660eae/rofi_rbw-1.2.0.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/31/2e/1de2d2b4f016378f275c7d7dfbbfbf4ed9aba480e3dffefb3b75f2ac9aed/plantstar-shared-2.0.2.3.3.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [terra-python]: Downloading https://files.pythonhosted.org/packages/9c/3c/bed205e1fc734c50e1dbfc924dc095d71bf3cea97dddc66e70609bd5ac18/terra-python-0.0.9.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [prefect-streamline]: Downloading https://files.pythonhosted.org/packages/2b/5d/dcda833606d039eeb7ea4d2aa6d0ba29a74d0c27414852d3512e278cfa88/prefect_streamline-1.1.3.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/5c/2a/296e44c5d6a86aaaea0eb50fb8129bddcee91c33f75a35b410c3d909e16a/tree-of-thoughts-0.1.6.tar.gz
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/29/01/b4aae78cf0231f001eb29c7cee3b139cd63d4c6e2b9cb2f62adc70766796/aos_prov-4.0.2b2-py3-none-any.whl
+[2023-05-22 18:03:57] INFO root fetch - processPackages [blobtk]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [blobtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blobtk-0.3.3.tar.gz tmp/blobtk-0.3.5.tar.gz --markdown 20230522/b/blobtk/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-keys]: Downloading https://files.pythonhosted.org/packages/ab/6f/be912281c243f203b57825194eac5326d11bb53b1798c5b9f41da07a0ec8/aos_keys-1.5.2b2-py3-none-any.whl
+[2023-05-22 18:03:57] INFO root fetch - processPackages [plantstar-shared]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [plantstar-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantstar-shared-2.0.2.3.2.tar.gz tmp/plantstar-shared-2.0.2.3.3.tar.gz --markdown 20230522/p/plantstar-shared/2.0.2.3.2-2.0.2.3.3/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [rofi-rbw]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [rofi-rbw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rofi_rbw-1.1.0.tar.gz tmp/rofi_rbw-1.2.0.tar.gz --markdown 20230522/r/rofi-rbw/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [terra-python]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [terra-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terra-python-0.0.8.tar.gz tmp/terra-python-0.0.9.tar.gz --markdown 20230522/t/terra-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [prefect-streamline]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [prefect-streamline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect_streamline-1.1.2.tar.gz tmp/prefect_streamline-1.1.3.tar.gz --markdown 20230522/p/prefect-streamline/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.97.0.tar.gz tmp/gdsfactory-6.97.1.tar.gz --markdown 20230522/g/gdsfactory/6.97.0-6.97.1/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.1.5.tar.gz tmp/tree-of-thoughts-0.1.6.tar.gz --markdown 20230522/t/tree-of-thoughts/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-keys]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-keys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_keys-1.5.2b1-py3-none-any.whl.zip tmp/aos_keys-1.5.2b2-py3-none-any.whl.zip --markdown 20230522/a/aos-keys/1.5.2b1-1.5.2b2/diff.md --exclude *.pyd
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2023-05-22 18:03:57] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.0.1b6-py3-none-any.whl.zip tmp/aos_prov-4.0.2b2-py3-none-any.whl.zip --markdown 20230522/a/aos-prov/4.0.1b6-4.0.2b2/diff.md --exclude *.pyd
+[2023-05-22 18:03:58] INFO root fetch - processPackages [sequana-pacbio-qc]: Start processing: aos-signer
+[2023-05-22 18:03:58] INFO root fetch - main [MainThread]: End processing [sequana-pacbio-qc]: success
+[2023-05-22 18:03:58] INFO root fetch - processPackages [aos-signer]: New version: [1.8.2b7] Old Version: [1.8.2b6]
+[2023-05-22 18:03:58] INFO root fetch - processPackages [aos-signer]: Downloading https://files.pythonhosted.org/packages/fd/b4/6dc9d24139ec702fe7032adb7fd7b204e72835ce45eefb9f63579e76eb64/aos_signer-1.8.2b6-py3-none-any.whl
+[2023-05-22 18:03:58] INFO root fetch - processPackages [aos-signer]: Downloading https://files.pythonhosted.org/packages/0d/3d/6a066a4c1171f696642484a67ead543f49e95db564fd8eeeeecbb4d700e8/aos_signer-1.8.2b7-py3-none-any.whl
+[2023-05-22 18:03:58] INFO root fetch - processPackages [rofi-rbw]: Start processing: ldimbenchmark
+[2023-05-22 18:03:58] INFO root fetch - main [MainThread]: End processing [rofi-rbw]: success
+[2023-05-22 18:03:58] INFO root fetch - processPackages [aos-signer]: executing diffoscope
+[2023-05-22 18:03:58] INFO root fetch - processPackages [aos-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_signer-1.8.2b6-py3-none-any.whl.zip tmp/aos_signer-1.8.2b7-py3-none-any.whl.zip --markdown 20230522/a/aos-signer/1.8.2b6-1.8.2b7/diff.md --exclude *.pyd
+[2023-05-22 18:03:58] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-05-22 18:03:59] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230522/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 18:03:59] INFO root fetch - processPackages [aos-keys]: Start processing: LasBuildSeg
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [aos-keys]: success
+[2023-05-22 18:03:59] INFO root fetch - processPackages [prefect-streamline]: Start processing: windmill-api
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [prefect-streamline]: success
+[2023-05-22 18:03:59] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [plantstar-shared]: Start processing: wmill
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
+[2023-05-22 18:03:59] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [terra-python]: Start processing: wmill-pg
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [terra-python]: success
+[2023-05-22 18:03:59] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [tree-of-thoughts]: Start processing: dbml-to-fides
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-05-22 18:03:59] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/1f/fc/6010cb09190e3cbe47685da9008facbdbb69c6eb044c5819d923438e87f5/LasBuildSeg-0.1.14.tar.gz
+[2023-05-22 18:03:59] WARNING root fetch - processPackages [dbml-to-fides]: Skipping, unable to determine old version
+[2023-05-22 18:03:59] INFO root fetch - processPackages [dbml-to-fides]: Start processing: ovos-microphone-plugin-arecord
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [dbml-to-fides] error
+[2023-05-22 18:03:59] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [ovos-microphone-plugin-arecord]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [aos-prov]: Start processing: scarf
+[2023-05-22 18:03:59] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2023-05-22 18:03:59] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/a6/93/cd283de09a09c93fa5b5c717da89ed795662ee0959b8151c38e1fd283086/LasBuildSeg-0.1.15.tar.gz
+[2023-05-22 18:03:59] INFO root fetch - processPackages [scarf]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 18:03:59] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-05-22 18:03:59] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230522/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-22 18:03:59] INFO root fetch - processPackages [ovos-microphone-plugin-arecord]: Downloading https://files.pythonhosted.org/packages/c9/fc/612ade93f19b9c0076118c526888a21a78bf6e73786d065a769b50953c75/ovos-microphone-plugin-arecord-0.0.0a1.tar.gz
+[2023-05-22 18:03:59] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-05-22 18:03:59] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230522/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-22 18:03:59] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-22 18:03:59] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.1.14.tar.gz tmp/LasBuildSeg-0.1.15.tar.gz --markdown 20230522/L/LasBuildSeg/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-05-22 18:03:59] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-05-22 18:03:59] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230522/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-22 18:04:00] INFO root fetch - processPackages [ovos-microphone-plugin-arecord]: Downloading https://files.pythonhosted.org/packages/80/6e/6366918350dfcdd9def07d948064c1fdc60f7df358351a35b04e45d12878/ovos-microphone-plugin-arecord-0.0.0a2.tar.gz
+[2023-05-22 18:04:00] INFO root fetch - processPackages [scarf]: executing diffoscope
+[2023-05-22 18:04:00] INFO root fetch - processPackages [scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarf-0.9.1.tar.gz tmp/scarf-0.9.2.tar.gz --markdown 20230522/s/scarf/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 18:04:00] INFO root fetch - processPackages [aos-signer]: Start processing: cybrid-api-organization-python
+[2023-05-22 18:04:00] INFO root fetch - main [MainThread]: End processing [aos-signer]: success
+[2023-05-22 18:04:00] INFO root fetch - processPackages [ovos-microphone-plugin-arecord]: executing diffoscope
+[2023-05-22 18:04:00] INFO root fetch - processPackages [ovos-microphone-plugin-arecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-microphone-plugin-arecord-0.0.0a1.tar.gz tmp/ovos-microphone-plugin-arecord-0.0.0a2.tar.gz --markdown 20230522/o/ovos-microphone-plugin-arecord/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-05-22 18:04:00] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 18:04:00] INFO root fetch - processPackages [blobtk]: Start processing: bbox
+[2023-05-22 18:04:00] INFO root fetch - main [MainThread]: End processing [blobtk]: success
+[2023-05-22 18:04:00] INFO root fetch - processPackages [ldimbenchmark]: Start processing: cybrid-api-id-python
+[2023-05-22 18:04:00] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-05-22 18:04:00] INFO root fetch - processPackages [bbox]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-05-22 18:04:00] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 18:04:00] INFO root fetch - processPackages [bbox]: Downloading https://files.pythonhosted.org/packages/5d/9d/0a1b74752ff42567818248e561fc52fd83d00aadd1a5b2bf38ca0bc3e2ee/bbox-0.9.2.tar.gz
+[2023-05-22 18:04:00] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-22 18:04:00] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230522/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 18:04:00] INFO root fetch - processPackages [bbox]: Downloading https://files.pythonhosted.org/packages/6b/e6/0884340cd52de507e78110e1f98739ea321c1ea661ffc0c236cdf54acc4f/bbox-0.9.4.tar.gz
+[2023-05-22 18:04:01] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-22 18:04:01] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230522/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 18:04:01] INFO root fetch - processPackages [bbox]: executing diffoscope
+[2023-05-22 18:04:01] INFO root fetch - processPackages [bbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbox-0.9.2.tar.gz tmp/bbox-0.9.4.tar.gz --markdown 20230522/b/bbox/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 18:04:01] INFO root fetch - processPackages [wmill]: Start processing: jina-now
+[2023-05-22 18:04:01] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-05-22 18:04:01] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-05-22 18:04:01] INFO root fetch - processPackages [LasBuildSeg]: Start processing: cybrid-api-bank-python
+[2023-05-22 18:04:01] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-22 18:04:01] INFO root fetch - processPackages [wmill-pg]: Start processing: oak9-tython
+[2023-05-22 18:04:01] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-05-22 18:04:01] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.7b4] Old Version: [1.0.7b3]
+[2023-05-22 18:04:01] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 18:04:01] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-05-22 18:04:01] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.7b3.tar.gz tmp/oak9_tython-1.0.7b4.tar.gz --markdown 20230522/o/oak9-tython/1.0.7b3-1.0.7b4/diff.md --exclude *.pyd
+[2023-05-22 18:04:01] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-05-22 18:04:01] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230522/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-05-22 18:04:01] INFO root fetch - processPackages [ovos-microphone-plugin-arecord]: Start processing: cerbeyra-api
+[2023-05-22 18:04:01] INFO root fetch - main [MainThread]: End processing [ovos-microphone-plugin-arecord]: success
+[2023-05-22 18:04:01] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-22 18:04:01] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230522/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 18:04:02] INFO root fetch - processPackages [cerbeyra-api]: New version: [1.1b0] Old Version: [1.0b0]
+[2023-05-22 18:04:02] INFO root fetch - processPackages [cerbeyra-api]: Downloading https://files.pythonhosted.org/packages/29/8c/06f275edaad700a28bed627118e82488c1bff0d97dad8aac28238e055595/cerbeyra-api-1.0b0.tar.gz
+[2023-05-22 18:04:02] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: nb-helpers
+[2023-05-22 18:04:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-22 18:04:02] INFO root fetch - processPackages [nb-helpers]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-22 18:04:02] INFO root fetch - processPackages [nb-helpers]: executing diffoscope
+[2023-05-22 18:04:02] INFO root fetch - processPackages [nb-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_helpers-0.4.0.tar.gz tmp/nb_helpers-0.5.0.tar.gz --markdown 20230522/n/nb-helpers/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 18:04:02] INFO root fetch - processPackages [cerbeyra-api]: Downloading https://files.pythonhosted.org/packages/06/84/0e3461fd1952c4c1b0c52474611b4317b136073799f22e84e4b980d89187/cerbeyra-api-1.1b0.tar.gz
+[2023-05-22 18:04:02] INFO root fetch - processPackages [cerbeyra-api]: executing diffoscope
+[2023-05-22 18:04:02] INFO root fetch - processPackages [cerbeyra-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbeyra-api-1.0b0.tar.gz tmp/cerbeyra-api-1.1b0.tar.gz --markdown 20230522/c/cerbeyra-api/1.0b0-1.1b0/diff.md --exclude *.pyd
+[2023-05-22 18:04:02] INFO root fetch - main [MainThread]: End processing [bbox]: success
+[2023-05-22 18:04:03] INFO root fetch - main [MainThread]: End processing [scarf]: success
+[2023-05-22 18:04:03] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-05-22 18:04:03] INFO root fetch - main [MainThread]: End processing [nb-helpers]: success
+[2023-05-22 18:04:03] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-22 18:04:04] INFO root fetch - main [MainThread]: End processing [cerbeyra-api]: success
+[2023-05-22 18:04:04] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-22 18:04:09] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-22 18:04:16] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-05-22 18:04:17] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-05-22 18:04:17] INFO root fetch - main [MainThread]: Store serial: [18200525]
