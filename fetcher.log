@@ -20292,3 +20292,106 @@ EOFError: EOF read where object expected
 [2023-05-22 18:58:31] INFO root fetch - main [MainThread]: End processing [pedal]: success
 [2023-05-22 18:58:35] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
 [2023-05-22 18:58:35] INFO root fetch - main [MainThread]: Store serial: [18201165]
+[2023-05-22 19:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201165]
+[2023-05-22 19:03:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2gui
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coordinate-descent-attention
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unicode-name-inquiry
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixture-of-attention
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surv-ai
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peewee-migrate
+[2023-05-22 19:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UComp
+[2023-05-22 19:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serializer-Konchik
+[2023-05-22 19:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: groundingdino-py
+[2023-05-22 19:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: file-name-attributes
+[2023-05-22 19:03:44] INFO root fetch - processPackages [coordinate-descent-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:03:44] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:03:44] INFO root fetch - processPackages [unicode-name-inquiry]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-22 19:03:44] INFO root fetch - processPackages [surv-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 19:03:44] WARNING root fetch - processPackages [UComp]: Skipping, unable to determine old version
+[2023-05-22 19:03:44] INFO root fetch - processPackages [UComp]: Start processing: sampo
+[2023-05-22 19:03:44] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-22 19:03:44] INFO root fetch - processPackages [peewee-migrate]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-22 19:03:44] INFO root fetch - processPackages [q2gui]: New version: [0.1.9] Old Version: [0.1.86]
+[2023-05-22 19:03:44] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-05-22 19:03:44] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/0d/22/2dd6caf2d14841f29b91fbb951059a47b568dfb047bf621a4873a2d92924/mixture-of-attention-0.0.8.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [unicode-name-inquiry]: Downloading https://files.pythonhosted.org/packages/51/71/686ec56f518b678348b2f380a266acce62c309966898b8be6cfc6504faa3/unicode-name-inquiry-1.9.1.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/82/bd/80b118af81de7fa24de9b6172c982a37451c66c42ce4b0a0b3e08b32abae/surv_ai-0.1.0.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/06/08/2053f2d321ff86747aeba1ffdd1eedd519a900ef5579af4c341f1af1c063/coordinate-descent-attention-0.0.8.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/88/0b/ab406e0f6e5b329e4d76dbd27063ab6eb78b35c9bdfa3863d7b7407ed55e/q2gui-0.1.86.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-05-22 19:03:44] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230522/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-05-22 19:03:44] INFO root fetch - processPackages [peewee-migrate]: Downloading https://files.pythonhosted.org/packages/cd/e6/2db2f09c51f44f8ff061e6ea898407f5ea60366a4ce166cf63131b8251bb/peewee_migrate-1.7.3.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [peewee-migrate]: executing diffoscope
+[2023-05-22 19:03:44] INFO root fetch - processPackages [peewee-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_migrate-1.7.2.tar.gz tmp/peewee_migrate-1.7.3.tar.gz --markdown 20230522/p/peewee-migrate/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-22 19:03:44] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/67/a6/a1d065797692d42fe3810427aa234b035b69869ee0f257f19c58020fa8e3/mixture-of-attention-0.0.9.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/e2/e6/f7954281104b9a9755d873d311b20fe3bd1441c00eb928cd8d7500d435b9/surv_ai-0.1.1.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [unicode-name-inquiry]: Downloading https://files.pythonhosted.org/packages/14/42/577e22855d99702173f3889e5f0c06fa94c489cdfa5e4dd792668f5e9f07/unicode-name-inquiry-1.9.2.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-22 19:03:44] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.0.tar.gz tmp/surv_ai-0.1.1.tar.gz --markdown 20230522/s/surv-ai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 19:03:44] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/b5/70/466f2fbec4a72f00c6f07fdce89a2bfb0a1200b6742c61d2c09e405775c6/q2gui-0.1.9.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-05-22 19:03:44] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/d8/95/3e9b60b4c326ec76e9d06080630c88f08397383a3427a90edf8c95eb121d/coordinate-descent-attention-0.0.9.tar.gz
+[2023-05-22 19:03:44] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230522/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:03:44] INFO root fetch - processPackages [unicode-name-inquiry]: executing diffoscope
+[2023-05-22 19:03:44] INFO root fetch - processPackages [unicode-name-inquiry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicode-name-inquiry-1.9.1.tar.gz tmp/unicode-name-inquiry-1.9.2.tar.gz --markdown 20230522/u/unicode-name-inquiry/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-22 19:03:45] INFO root fetch - processPackages [coordinate-descent-attention]: executing diffoscope
+[2023-05-22 19:03:45] INFO root fetch - processPackages [coordinate-descent-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coordinate-descent-attention-0.0.8.tar.gz tmp/coordinate-descent-attention-0.0.9.tar.gz --markdown 20230522/c/coordinate-descent-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:03:45] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-05-22 19:03:45] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.86.tar.gz tmp/q2gui-0.1.9.tar.gz --markdown 20230522/q/q2gui/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 19:03:45] INFO root fetch - processPackages [serializer-Konchik]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 19:03:45] WARNING root fetch - processPackages [groundingdino-py]: Skipping, unable to determine old version
+[2023-05-22 19:03:45] INFO root fetch - processPackages [groundingdino-py]: Start processing: sidetrek
+[2023-05-22 19:03:45] INFO root fetch - main [MainThread]: End processing [groundingdino-py] error
+[2023-05-22 19:03:45] INFO root fetch - processPackages [file-name-attributes]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-22 19:03:45] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:03:45] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 19:03:45] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:03:45] INFO root fetch - processPackages [serializer-Konchik]: Downloading https://files.pythonhosted.org/packages/65/a8/5aec4b9533b27687176ab4002584803d1011a2123f4ba3e47f72c448dd95/serializer_Konchik-0.1.3.tar.gz
+[2023-05-22 19:03:45] INFO root fetch - processPackages [file-name-attributes]: Downloading https://files.pythonhosted.org/packages/11/f7/1eca30e67b40a9a72384f954a3239aba589b6ad815c8980338b6a3121681/file-name-attributes-0.2.2.tar.gz
+[2023-05-22 19:03:45] INFO root fetch - processPackages [serializer-Konchik]: executing diffoscope
+[2023-05-22 19:03:45] INFO root fetch - processPackages [serializer-Konchik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializer_Konchik-0.1.2.tar.gz tmp/serializer_Konchik-0.1.3.tar.gz --markdown 20230522/s/serializer-Konchik/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 19:03:45] INFO root fetch - processPackages [file-name-attributes]: Downloading https://files.pythonhosted.org/packages/63/d4/6799f3bbba179473236c9d0ee5a30f398becfe977ef4884ebf76bb109a19/file-name-attributes-0.2.3.tar.gz
+[2023-05-22 19:03:45] INFO root fetch - processPackages [file-name-attributes]: executing diffoscope
+[2023-05-22 19:03:45] INFO root fetch - processPackages [file-name-attributes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-name-attributes-0.2.2.tar.gz tmp/file-name-attributes-0.2.3.tar.gz --markdown 20230522/f/file-name-attributes/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-22 19:03:46] INFO root fetch - processPackages [mixture-of-attention]: Start processing: databricks-common
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-05-22 19:03:46] INFO root fetch - processPackages [databricks-common]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 19:03:46] INFO root fetch - processPackages [peewee-migrate]: Start processing: sidetrek
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [peewee-migrate]: success
+[2023-05-22 19:03:46] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:03:46] INFO root fetch - processPackages [databricks-common]: Downloading https://files.pythonhosted.org/packages/ab/30/40791b0cfbe48e54fb71c62f0c76d4f171b7b70b70645c06eb0ea7bab703/databricks_common-0.1.6.tar.gz
+[2023-05-22 19:03:46] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 19:03:46] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:03:46] INFO root fetch - processPackages [sampo]: Start processing: rbtoolz
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-05-22 19:03:46] INFO root fetch - processPackages [coordinate-descent-attention]: Start processing: UComp
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [coordinate-descent-attention]: success
+[2023-05-22 19:03:46] INFO root fetch - processPackages [rbtoolz]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-22 19:03:46] ERROR root fetch - processPackages [UComp]: Unable to get metadata: No such project 'UComp'
+[2023-05-22 19:03:46] INFO root fetch - processPackages [UComp]: Start processing: policyengine-us
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [UComp] error
+[2023-05-22 19:03:46] INFO root fetch - processPackages [databricks-common]: executing diffoscope
+[2023-05-22 19:03:46] INFO root fetch - processPackages [databricks-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_common-0.1.5.tar.gz tmp/databricks_common-0.1.6.tar.gz --markdown 20230522/d/databricks-common/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 19:03:46] INFO root fetch - processPackages [policyengine-us]: New version: [0.319.0] Old Version: [0.318.0]
+[2023-05-22 19:03:46] INFO root fetch - processPackages [serializer-Konchik]: Start processing: fedops
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [serializer-Konchik]: success
+[2023-05-22 19:03:46] INFO root fetch - processPackages [rbtoolz]: Downloading https://files.pythonhosted.org/packages/e8/e0/432bde4573f97e92e7170ea952bbf49985132cec770e5da4ade63276e02c/rbtoolz-1.2.9.tar.gz
+[2023-05-22 19:03:46] WARNING root fetch - processPackages [fedops]: Skipping, unable to determine old version
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [fedops] error
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 19:03:46] INFO root fetch - main [MainThread]: End processing [unicode-name-inquiry]: success
+[2023-05-22 19:03:47] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-22 19:03:47] INFO root fetch - processPackages [rbtoolz]: Downloading https://files.pythonhosted.org/packages/20/88/9b937c149f39d366ecb44f64f356d791ab6863e8d357ad6c28f70f4a4aa8/rbtoolz-1.3.0.tar.gz
+[2023-05-22 19:03:47] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/50/62/57569d97b054e2b26a3f858742440b9c93c936faf98349995042d44f347c/policyengine-us-0.319.0.tar.gz
+[2023-05-22 19:03:47] INFO root fetch - processPackages [rbtoolz]: executing diffoscope
+[2023-05-22 19:03:47] INFO root fetch - processPackages [rbtoolz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbtoolz-1.2.9.tar.gz tmp/rbtoolz-1.3.0.tar.gz --markdown 20230522/r/rbtoolz/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 19:03:47] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-22 19:03:47] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.318.0.tar.gz tmp/policyengine-us-0.319.0.tar.gz --markdown 20230522/p/policyengine-us/0.318.0-0.319.0/diff.md --exclude *.pyd
+[2023-05-22 19:03:47] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-05-22 19:03:47] INFO root fetch - main [MainThread]: End processing [databricks-common]: success
+[2023-05-22 19:03:48] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 19:03:48] INFO root fetch - main [MainThread]: End processing [rbtoolz]: success
+[2023-05-22 19:03:48] INFO root fetch - main [MainThread]: End processing [file-name-attributes]: success
+[2023-05-22 19:05:03] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-22 19:05:03] INFO root fetch - main [MainThread]: Store serial: [18201229]
