@@ -12182,3 +12182,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 14:12:01] INFO root fetch - main [MainThread]: End processing [shell-source]: success
 [2023-05-22 14:12:11] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-22 14:12:11] INFO root fetch - main [MainThread]: Store serial: [18196616]
+[2023-05-22 14:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196616]
+[2023-05-22 14:17:20] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lakefs-client
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-paielasticdatasetaccelerator20220801
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apigw-manager
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tree-of-thoughts
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybi-next
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mcrit
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: useragents-me-scraper
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-access-sdk
+[2023-05-22 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Apiamtic-python
+[2023-05-22 14:17:20] INFO root fetch - processPackages [alibabacloud-paielasticdatasetaccelerator20220801]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 14:17:20] WARNING root fetch - processPackages [tree-of-thoughts]: Skipping, unable to determine old version
+[2023-05-22 14:17:20] INFO root fetch - processPackages [tree-of-thoughts]: Start processing: arch
+[2023-05-22 14:17:20] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts] error
+[2023-05-22 14:17:20] WARNING root fetch - processPackages [Apiamtic-python]: Skipping, unable to determine old version
+[2023-05-22 14:17:20] INFO root fetch - processPackages [Apiamtic-python]: Start processing: dyrun
+[2023-05-22 14:17:20] INFO root fetch - main [MainThread]: End processing [Apiamtic-python] error
+[2023-05-22 14:17:20] INFO root fetch - processPackages [useragents-me-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [dyrun]: New version: [1.0.24] Old Version: [1.0.23]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [mcrit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [lakefs-client]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.702] Old Version: [0.1.687]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [apigw-manager]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [pybi-next]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [alibabacloud-paielasticdatasetaccelerator20220801]: executing diffoscope
+[2023-05-22 14:17:20] INFO root fetch - processPackages [alibabacloud-paielasticdatasetaccelerator20220801]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_paielasticdatasetaccelerator20220801-1.0.2.tar.gz tmp/alibabacloud_paielasticdatasetaccelerator20220801-1.0.3.tar.gz --markdown 20230522/a/alibabacloud-paielasticdatasetaccelerator20220801/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 14:17:20] INFO root fetch - processPackages [arch]: New version: [6.0.0] Old Version: [5.5.0]
+[2023-05-22 14:17:20] INFO root fetch - processPackages [useragents-me-scraper]: executing diffoscope
+[2023-05-22 14:17:20] INFO root fetch - processPackages [useragents-me-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragents_me_scraper-0.1.1.tar.gz tmp/useragents_me_scraper-0.1.2.tar.gz --markdown 20230522/u/useragents-me-scraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 14:17:20] INFO root fetch - processPackages [dyrun]: executing diffoscope
+[2023-05-22 14:17:20] INFO root fetch - processPackages [dyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyrun-1.0.23.tar.gz tmp/dyrun-1.0.24.tar.gz --markdown 20230522/d/dyrun/1.0.23-1.0.24/diff.md --exclude *.pyd
+[2023-05-22 14:17:20] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-22 14:17:20] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230522/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-22 14:17:20] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/f0/61/41f013105ffc16843b0d120dd6b7e25380ad8bb20c9063bc590d5d2f1e86/mcrit-1.0.1.tar.gz
+[2023-05-22 14:17:20] INFO root fetch - processPackages [arch]: Downloading https://files.pythonhosted.org/packages/be/e3/111a8c6990f51f90de0affbfa2b2896f2166aa52525ee73537e0839b73d6/arch-5.5.0.tar.gz
+[2023-05-22 14:17:20] INFO root fetch - processPackages [apigw-manager]: Downloading https://files.pythonhosted.org/packages/83/83/320f07e238af04e432fa4c381a4bd53568057bcbe13e87b66773300176ce/apigw_manager-1.1.7-py3-none-any.whl
+[2023-05-22 14:17:20] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/c5/bb/8542923ae8800e3f29c62ec877e8a90f750895f91e36e4db59939024a194/lakefs-client-0.98.0.tar.gz
+[2023-05-22 14:17:20] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/c9/22bf0f533133141e3fe2762be9febc4cbf853419b3406adc3de0cadbbc4f/lusid-notifications-sdk-preview-0.1.687.tar.gz
+[2023-05-22 14:17:21] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/18/f0/28163bd9aa0791365b6c048aec0c8ce66cfea18a22a826c1f3aa00abf9ad/pybi-next-0.4.6.tar.gz
+[2023-05-22 14:17:21] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/de/d9/ca4a60e81be3a1a2df0d58a24395475e3c0ccefa4bb87c8b4a62c998770c/mcrit-1.0.2.tar.gz
+[2023-05-22 14:17:21] INFO root fetch - processPackages [apigw-manager]: Downloading https://files.pythonhosted.org/packages/d0/2a/fad36e96153d2f83ec08cbc1feff75ef00f6dbc64912facb85521994fbd8/apigw_manager-1.2.0-py3-none-any.whl
+[2023-05-22 14:17:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/52/bb/738d338c4db08e40d118cde37c55df363736abc3173b74b7379e9c524dce/lusid-notifications-sdk-preview-0.1.702.tar.gz
+[2023-05-22 14:17:21] INFO root fetch - processPackages [arch]: Downloading https://files.pythonhosted.org/packages/95/3d/d23c7f5985ddc4a5be60be9c660057096b899ceed0bd87088d4edede3708/arch-6.0.0-cp311-cp311-win_amd64.whl
+[2023-05-22 14:17:21] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2023-05-22 14:17:21] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.0.1.tar.gz tmp/mcrit-1.0.2.tar.gz --markdown 20230522/m/mcrit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 14:17:21] INFO root fetch - processPackages [apigw-manager]: executing diffoscope
+[2023-05-22 14:17:21] INFO root fetch - processPackages [apigw-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigw_manager-1.1.7-py3-none-any.whl.zip tmp/apigw_manager-1.2.0-py3-none-any.whl.zip --markdown 20230522/a/apigw-manager/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 14:17:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-22 14:17:21] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.687.tar.gz tmp/lusid-notifications-sdk-preview-0.1.702.tar.gz --markdown 20230522/l/lusid-notifications-sdk-preview/0.1.687-0.1.702/diff.md --exclude *.pyd
+[2023-05-22 14:17:21] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/fc/59/0329ad02ba104cb0a0ae44e4628d60eddc1222a0826f7a805f1a20bca946/lakefs-client-0.99.0.tar.gz
+[2023-05-22 14:17:21] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2023-05-22 14:17:21] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-0.98.0.tar.gz tmp/lakefs-client-0.99.0.tar.gz --markdown 20230522/l/lakefs-client/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-22 14:17:21] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2023-05-22 14:17:21] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.4.5.tar.gz tmp/pybi-next-0.4.6.tar.gz --markdown 20230522/p/pybi-next/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-22 14:17:21] INFO root fetch - processPackages [arch]: executing diffoscope
+[2023-05-22 14:17:21] INFO root fetch - processPackages [arch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch-5.5.0.tar.gz tmp/arch-6.0.0-cp311-cp311-win_amd64.whl.zip --markdown 20230522/a/arch/5.5.0-6.0.0/diff.md --exclude *.pyd
+[2023-05-22 14:17:22] INFO root fetch - processPackages [useragents-me-scraper]: Start processing: oc-ldap-user-locker
+[2023-05-22 14:17:22] INFO root fetch - main [MainThread]: End processing [useragents-me-scraper]: success
+[2023-05-22 14:17:22] INFO root fetch - processPackages [oc-ldap-user-locker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 14:17:22] INFO root fetch - processPackages [dyrun]: Start processing: wheel-doctor
+[2023-05-22 14:17:22] INFO root fetch - main [MainThread]: End processing [dyrun]: success
+[2023-05-22 14:17:22] WARNING root fetch - processPackages [wheel-doctor]: Skipping, unable to determine old version
+[2023-05-22 14:17:22] INFO root fetch - processPackages [wheel-doctor]: Start processing: hstream
+[2023-05-22 14:17:22] INFO root fetch - main [MainThread]: End processing [wheel-doctor] error
+[2023-05-22 14:17:22] INFO root fetch - processPackages [oc-ldap-user-locker]: Downloading https://files.pythonhosted.org/packages/15/10/3fc8fb8f6ff29bd0ca91b54cb536da22293833957a2695fc54f3fcb23804/oc_ldap_user_locker-1.0.0-py3-none-any.whl
+[2023-05-22 14:17:22] INFO root fetch - processPackages [hstream]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 14:17:22] INFO root fetch - processPackages [alibabacloud-paielasticdatasetaccelerator20220801]: Start processing: hollihop-api-client
+[2023-05-22 14:17:22] INFO root fetch - main [MainThread]: End processing [alibabacloud-paielasticdatasetaccelerator20220801]: success
+[2023-05-22 14:17:22] INFO root fetch - processPackages [oc-ldap-user-locker]: Downloading https://files.pythonhosted.org/packages/d6/15/e5ff94934de7f6f4e47a96d6d4c3e6e1081f1bfd4f74ef95d5192e1185d3/oc_ldap_user_locker-1.0.1-py3-none-any.whl
+[2023-05-22 14:17:22] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/55/24/3afacd7aef813f9e2a0735ccc523a350d04fbf77bcf9a2d1fff62d656b1f/hstream-0.0.8.tar.gz
+[2023-05-22 14:17:22] INFO root fetch - processPackages [oc-ldap-user-locker]: executing diffoscope
+[2023-05-22 14:17:22] INFO root fetch - processPackages [oc-ldap-user-locker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ldap_user_locker-1.0.0-py3-none-any.whl.zip tmp/oc_ldap_user_locker-1.0.1-py3-none-any.whl.zip --markdown 20230522/o/oc-ldap-user-locker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 14:17:22] INFO root fetch - processPackages [hollihop-api-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 14:17:23] INFO root fetch - processPackages [apigw-manager]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-22 14:17:23] INFO root fetch - main [MainThread]: End processing [apigw-manager]: success
+[2023-05-22 14:17:23] INFO root fetch - processPackages [mcrit]: Start processing: embedbase
+[2023-05-22 14:17:23] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/60/e6/690a575531437de6aa72515d5451acfb4ba88118add59ec43a7442971406/hstream-0.0.9.tar.gz
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/2a/2e/2231b47b73ff4ec496a6cf8bd3c3f174840188619f925cad83e767cb60dc/hollihop_api_client-0.0.7.tar.gz
+[2023-05-22 14:17:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 14:17:23] INFO root fetch - processPackages [embedbase]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.0.8.tar.gz tmp/hstream-0.0.9.tar.gz --markdown 20230522/h/hstream/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 14:17:23] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: ut-date
+[2023-05-22 14:17:23] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-22 14:17:23] INFO root fetch - processPackages [arch]: Start processing: tala
+[2023-05-22 14:17:23] INFO root fetch - main [MainThread]: End processing [arch]: success
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/d0/1b/a827aa1c888ff23e8a1d46e0352d1cf7a5131bd66821c530a00068b96886/hollihop_api_client-0.0.8.tar.gz
+[2023-05-22 14:17:23] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-22 14:17:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hollihop-api-client]: executing diffoscope
+[2023-05-22 14:17:23] INFO root fetch - processPackages [hollihop-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hollihop_api_client-0.0.7.tar.gz tmp/hollihop_api_client-0.0.8.tar.gz --markdown 20230522/h/hollihop-api-client/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 14:17:23] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-05-22 14:17:23] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230522/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-22 14:17:23] INFO root fetch - processPackages [ut-date]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-22 14:17:23] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/02/d5/95599578ed9f7605308af5cef1436f89cd8bcfd3ba3c051fe9eff291dcdd/embedbase-1.2.0.tar.gz
+[2023-05-22 14:17:23] INFO root fetch - processPackages [ut-date]: Downloading https://files.pythonhosted.org/packages/df/4a/4a86d676fffeb0afe40ae1f686c0c71c2f87f07790ebc39e252a267609a2/ut-date-1.4.3.tar.gz
+[2023-05-22 14:17:23] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-05-22 14:17:23] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.1.9.tar.gz tmp/embedbase-1.2.0.tar.gz --markdown 20230522/e/embedbase/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 14:17:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-05-22 14:17:23] WARNING root fetch - processPackages [ut-date]: Skipping package: exceeds size limit 12768677>=10485760
+[2023-05-22 14:17:23] INFO root fetch - main [MainThread]: End processing [ut-date] error
+[2023-05-22 14:17:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-22 14:17:23] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 14:17:23] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2023-05-22 14:17:24] INFO root fetch - main [MainThread]: End processing [oc-ldap-user-locker]: success
+[2023-05-22 14:17:24] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2023-05-22 14:17:24] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2023-05-22 14:17:24] INFO root fetch - main [MainThread]: End processing [hollihop-api-client]: success
+[2023-05-22 14:17:24] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-22 14:17:25] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-05-22 14:17:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-22 14:17:26] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-05-22 14:17:26] INFO root fetch - main [MainThread]: Store serial: [18196677]
