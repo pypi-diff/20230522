@@ -6685,3 +6685,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:14:14] INFO root fetch - main [MainThread]: End processing [decore-base]: success
 [2023-05-22 09:14:16] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-05-22 09:14:16] INFO root fetch - main [MainThread]: Store serial: [18193261]
+[2023-05-22 09:19:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193261]
+[2023-05-22 09:19:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3namic
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fedbase
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openAIInsight
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assisted-service-client
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soil
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfq-nightly
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phomber
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robodyno
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GrappyLfjv
+[2023-05-22 09:19:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xtdb
+[2023-05-22 09:19:25] WARNING root fetch - processPackages [phomber]: Skipping, unable to determine old version
+[2023-05-22 09:19:25] INFO root fetch - processPackages [GrappyLfjv]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [phomber]: Start processing: twyn
+[2023-05-22 09:19:25] INFO root fetch - main [MainThread]: End processing [phomber] error
+[2023-05-22 09:19:25] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230521] Old Version: [0.7.3.dev20230520]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [twyn]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [fedbase]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [s3namic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [robodyno]: New version: [1.6.1b0] Old Version: [1.6.0]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [soil]: New version: [1.0.0rc7] Old Version: [1.0.0rc5.post1]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [xtdb]: New version: [0.2.0] Old Version: [0.1.1a0]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [GrappyLfjv]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [GrappyLfjv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrappyLfjv-0.0.16.tar.gz tmp/GrappyLfjv-0.0.17.tar.gz --markdown 20230522/G/GrappyLfjv/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230522/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [openAIInsight]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/cf/20/c165713a4bdab9d1612cdc8b419ed43197a6178ae82d8bf5ac73073c79f8/tfq_nightly-0.7.3.dev20230520-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-22 09:19:25] INFO root fetch - processPackages [fedbase]: Downloading https://files.pythonhosted.org/packages/74/f1/e1ee5071696283aeecd70789e75583a873554bfdda3478fa1c0bf776e5ce/fedbase-0.9.8.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/56/8e/b3f7bbcd45e66b6a16a1a3c6813d79bd6c66c011f3284fb470c94d293401/robodyno-1.6.0.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/dd/ec/4ca7d40a6987d718fb9bd84eadf14b7b499106dceac0f3891fbd7ba1dc13/soil-1.0.0rc5.post1.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/f5/4b/d236e1b68c754cc028be9f08e825155d06ae8b4e44a73294fbc6effe2ed8/twyn-2.3.1.tar.gz
+[2023-05-22 09:19:25] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819847>=10485760
+[2023-05-22 09:19:25] INFO root fetch - processPackages [tfq-nightly]: Start processing: mmh3
+[2023-05-22 09:19:25] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-22 09:19:25] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.3.0.tar.gz tmp/twyn-2.3.1.tar.gz --markdown 20230522/t/twyn/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [s3namic]: Downloading https://files.pythonhosted.org/packages/6c/ed/83a84a12bdad89d03de6f38d2d25eac7bbcc0e9a2355fe098b36ce7986d8/s3namic-0.0.5.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/4f/f7/068c408ea5067f582c24295d0889afe2a9c63512934a420faeedc3b5543c/openAIInsight-0.0.4-py3-none-any.whl
+[2023-05-22 09:19:25] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/dc/02/ed2c32d8665e3186c9493d7e1e5244377ea2ef9c1e9494af65bd7b692dd5/robodyno-1.6.1b0.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/b3/72/6ba1d2e34260bb065d82958fe33b00cbc718ea3318316a576c0efc632a70/xtdb-0.2.0.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/97/96/7e39ef6f1574585d00450ede674d0a4e879d1347feae7c51f2ccc7abb139/soil-1.0.0rc7.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [mmh3]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-05-22 09:19:25] INFO root fetch - processPackages [fedbase]: Downloading https://files.pythonhosted.org/packages/ab/a1/92ba259603e43820ab0a315f4871d759113de02b219b25002faf8c777fb4/fedbase-0.9.9.tar.gz
+[2023-05-22 09:19:25] INFO root fetch - processPackages [s3namic]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [s3namic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3namic-0.0.4.tar.gz tmp/s3namic-0.0.5.tar.gz --markdown 20230522/s/s3namic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [fedbase]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [fedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedbase-0.9.8.tar.gz tmp/fedbase-0.9.9.tar.gz --markdown 20230522/f/fedbase/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [openAIInsight]: Downloading https://files.pythonhosted.org/packages/87/ed/dc9b05b81c7a85729bf8921798bb59deb784b61da2976e4809bf51e10974/openAIInsight-0.0.5-py3-none-any.whl
+[2023-05-22 09:19:25] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.1.1a0.tar.gz tmp/xtdb-0.2.0.tar.gz --markdown 20230522/x/xtdb/0.1.1a0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [robodyno]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [robodyno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robodyno-1.6.0.tar.gz tmp/robodyno-1.6.1b0.tar.gz --markdown 20230522/r/robodyno/1.6.0-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc5.post1.tar.gz tmp/soil-1.0.0rc7.tar.gz --markdown 20230522/s/soil/1.0.0rc5.post1-1.0.0rc7/diff.md --exclude *.pyd
+[2023-05-22 09:19:25] INFO root fetch - processPackages [openAIInsight]: executing diffoscope
+[2023-05-22 09:19:25] INFO root fetch - processPackages [openAIInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openAIInsight-0.0.4-py3-none-any.whl.zip tmp/openAIInsight-0.0.5-py3-none-any.whl.zip --markdown 20230522/o/openAIInsight/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 09:19:26] INFO root fetch - processPackages [mmh3]: Downloading https://files.pythonhosted.org/packages/73/65/33dce4b13a77ed6aeb1f41994240cc4d3c49fb79b3acdac9a502ae6e254d/mmh3-3.1.0.tar.gz
+[2023-05-22 09:19:26] INFO root fetch - processPackages [mmh3]: Downloading https://files.pythonhosted.org/packages/15/38/372cbb795dee3f4882b776061cc33a6802ae39014850fdfe79f22bc7913d/mmh3-4.0.0-cp310-cp310-musllinux_1_1_x86_64.whl
+[2023-05-22 09:19:26] INFO root fetch - processPackages [mmh3]: executing diffoscope
+[2023-05-22 09:19:26] INFO root fetch - processPackages [mmh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmh3-3.1.0.tar.gz tmp/mmh3-4.0.0-cp310-cp310-musllinux_1_1_x86_64.whl.zip --markdown 20230522/m/mmh3/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-22 09:19:26] INFO root fetch - main [MainThread]: End processing [GrappyLfjv]: success
+[2023-05-22 09:19:27] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2023-05-22 09:19:27] INFO root fetch - main [MainThread]: End processing [s3namic]: success
+[2023-05-22 09:19:27] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2023-05-22 09:19:27] INFO root fetch - main [MainThread]: End processing [openAIInsight]: success
+[2023-05-22 09:19:27] INFO root fetch - main [MainThread]: End processing [fedbase]: success
+[2023-05-22 09:19:27] INFO root fetch - main [MainThread]: End processing [robodyno]: success
+[2023-05-22 09:19:29] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-22 09:19:30] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-05-22 09:20:10] INFO root fetch - main [MainThread]: End processing [mmh3]: success
+[2023-05-22 09:20:10] INFO root fetch - main [MainThread]: Store serial: [18193307]
