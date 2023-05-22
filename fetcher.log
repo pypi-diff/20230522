@@ -3388,3 +3388,73 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 03:19:18] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-05-22 03:21:22] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-05-22 03:21:22] INFO root fetch - main [MainThread]: Store serial: [18191283]
+[2023-05-22 03:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191283]
+[2023-05-22 03:26:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adata
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anvaad-py
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helios-client
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tldrwl
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Swapsies
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-codebase-documenter
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bioregistry
+[2023-05-22 03:26:31] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-22 03:26:31] WARNING root fetch - processPackages [anvaad-py]: Skipping, unable to determine old version
+[2023-05-22 03:26:31] INFO root fetch - processPackages [anvaad-py]: Start processing: ats-case
+[2023-05-22 03:26:31] INFO root fetch - main [MainThread]: End processing [anvaad-py] error
+[2023-05-22 03:26:31] WARNING root fetch - processPackages [tldrwl]: Skipping, unable to determine old version
+[2023-05-22 03:26:31] INFO root fetch - processPackages [tldrwl]: Start processing: scotthsieh-projen-statemachine
+[2023-05-22 03:26:31] INFO root fetch - main [MainThread]: End processing [tldrwl] error
+[2023-05-22 03:26:31] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [helios-client]: New version: [0.3.20230521.post1] Old Version: [0.3.20220603.post1]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [Swapsies]: New version: [1.9] Old Version: [1.8]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ats-case]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-22 03:26:31] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230522/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 03:26:31] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.0.9.dev202305211684601026] Old Version: [1.8.0.9.dev202305201684304798]
+[2023-05-22 03:26:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-22 03:26:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230522/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:26:31] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/2d/89/9116cfdb46b285ad89c505bddb339dbccd559545294912ad24ce43306b94/auto-codebase-documenter-0.1.tar.gz
+[2023-05-22 03:26:31] INFO root fetch - processPackages [helios-client]: Downloading https://files.pythonhosted.org/packages/89/a5/e3c4629ad45b3c9e902e3524d59472f2938e2561f7de06a3fc41a0ab5ca7/helios-client-0.3.20220603.post1.tar.gz
+[2023-05-22 03:26:31] INFO root fetch - processPackages [Swapsies]: Downloading https://files.pythonhosted.org/packages/1d/5c/3cc7d5df7cc8b19477bf658b1890ac29b3c600cf2dc06bb21bc0d4e57646/Swapsies-1.8.tar.gz
+[2023-05-22 03:26:31] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-05-22 03:26:31] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/06/67/4b46bfd85c762f3a39a32bb4e35163f4f6ea1a74a2e91ffd3eb6ef0e146c/ats_case-0.7.6.tar.gz
+[2023-05-22 03:26:31] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-22 03:26:32] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230522/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/97/c5/dafdcbb1748588cead7c25f243a44559177af213a3d3f5852e8e470fe965/pyAgrum_nightly-1.8.0.9.dev202305211684601026-cp39-cp39-win_amd64.whl
+[2023-05-22 03:26:32] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230522/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [helios-client]: Downloading https://files.pythonhosted.org/packages/65/0d/4ffdab972f05ef25691b3eb2ea31e15f4ac1716750815cc39838be989768/helios-client-0.3.20230521.post1.tar.gz
+[2023-05-22 03:26:32] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/c0/b6/8bc7938f4fe2d25245c30e10d39cfb0832296c19858a09a0761330e7624b/auto-codebase-documenter-0.2.tar.gz
+[2023-05-22 03:26:32] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/39/f1/5125343a61ada9d42aee09ee4d03b2785bc3d7303d657edc1efe641aa3fc/ats_case-0.7.7.tar.gz
+[2023-05-22 03:26:32] INFO root fetch - processPackages [Swapsies]: Downloading https://files.pythonhosted.org/packages/01/aa/e282d6127e0eba443e799ed717f0cca3f1029a45001a740dccff04af8219/Swapsies-1.9.tar.gz
+[2023-05-22 03:26:32] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/a8/b4/65647d57045b6c7d198901b3c90bec97ada894e04e9504c736ca433399c0/adata-0.0.9b0.tar.gz
+[2023-05-22 03:26:32] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.7.6.tar.gz tmp/ats_case-0.7.7.tar.gz --markdown 20230522/a/ats-case/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.0.9.dev202305201684304798-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.0.9.dev202305211684601026-cp39-cp39-win_amd64.whl.zip --markdown 20230522/p/pyagrum-nightly/1.8.0.9.dev202305201684304798-1.8.0.9.dev202305211684601026/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [Swapsies]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [Swapsies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swapsies-1.8.tar.gz tmp/Swapsies-1.9.tar.gz --markdown 20230522/S/Swapsies/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230522/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [helios-client]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [helios-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-client-0.3.20220603.post1.tar.gz tmp/helios-client-0.3.20230521.post1.tar.gz --markdown 20230522/h/helios-client/0.3.20220603.post1-0.3.20230521.post1/diff.md --exclude *.pyd
+[2023-05-22 03:26:32] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 03:26:32] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.1.tar.gz tmp/auto-codebase-documenter-0.2.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 03:26:33] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-22 03:26:33] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-05-22 03:26:33] INFO root fetch - main [MainThread]: End processing [Swapsies]: success
+[2023-05-22 03:26:33] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 03:26:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-22 03:26:34] INFO root fetch - main [MainThread]: End processing [helios-client]: success
+[2023-05-22 03:26:34] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-22 03:26:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-22 03:26:35] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-22 03:28:31] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-22 03:28:31] INFO root fetch - main [MainThread]: Store serial: [18191337]
