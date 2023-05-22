@@ -3910,3 +3910,34 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:10:38] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
 [2023-05-22 04:10:39] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
 [2023-05-22 04:10:39] INFO root fetch - main [MainThread]: Store serial: [18191614]
+[2023-05-22 04:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191614]
+[2023-05-22 04:15:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-22 04:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misc-io-operations
+[2023-05-22 04:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vector-vault
+[2023-05-22 04:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-rest-api
+[2023-05-22 04:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HomoglyphsCJK
+[2023-05-22 04:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knic-jupyter
+[2023-05-22 04:15:47] INFO root fetch - processPackages [github-rest-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 04:15:47] INFO root fetch - processPackages [misc-io-operations]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-22 04:15:47] WARNING root fetch - processPackages [HomoglyphsCJK]: Skipping, unable to determine old version
+[2023-05-22 04:15:47] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK] error
+[2023-05-22 04:15:47] INFO root fetch - processPackages [vector-vault]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-22 04:15:47] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 04:15:47] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 04:15:47] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.1.1.tar.gz tmp/misc_io_operations-1.1.2.tar.gz --markdown 20230522/m/misc-io-operations/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-22 04:15:47] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/8f/57/ef04e20d686d1e56790b3220f8ca484132cba1863947e8a4dd8ba749a8c7/vector_vault-0.2.4.tar.gz
+[2023-05-22 04:15:48] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/dd/3b/66d44de252bf2a58adcca26586e782feb3d3a1254115a5c9dee1b8055439/knic_jupyter-0.1.7.tar.gz
+[2023-05-22 04:15:48] INFO root fetch - processPackages [github-rest-api]: Downloading https://files.pythonhosted.org/packages/9a/37/e35f3f3de327dd29fb97ea75d37963d721d970fed66f20453397e2692178/github_rest_api-0.8.0.tar.gz
+[2023-05-22 04:15:48] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-05-22 04:15:48] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-0.2.3.tar.gz tmp/vector_vault-0.2.4.tar.gz --markdown 20230522/v/vector-vault/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-22 04:15:48] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/ed/ff/e24ba7d45587f93bd0f09d36cc4aeb96c06a23d749179ded9c1e4199a3ae/knic_jupyter-0.1.8.tar.gz
+[2023-05-22 04:15:48] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-22 04:15:48] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.7.tar.gz tmp/knic_jupyter-0.1.8.tar.gz --markdown 20230522/k/knic-jupyter/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 04:15:48] INFO root fetch - processPackages [github-rest-api]: Downloading https://files.pythonhosted.org/packages/3b/fa/7e69f72f1bbfcaff9eff251e9a0a8334ff6b6c352fc8bf80be1314eb9650/github_rest_api-0.9.0.tar.gz
+[2023-05-22 04:15:48] INFO root fetch - processPackages [github-rest-api]: executing diffoscope
+[2023-05-22 04:15:48] INFO root fetch - processPackages [github-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_rest_api-0.8.0.tar.gz tmp/github_rest_api-0.9.0.tar.gz --markdown 20230522/g/github-rest-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 04:15:48] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 04:15:49] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
+[2023-05-22 04:15:49] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-05-22 04:15:50] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-22 04:15:50] INFO root fetch - main [MainThread]: Store serial: [18191629]
