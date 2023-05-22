@@ -4999,3 +4999,35 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:13:11] INFO root fetch - main [MainThread]: End processing [spatialprofilingtoolbox]: success
 [2023-05-22 06:13:24] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-05-22 06:13:24] INFO root fetch - main [MainThread]: Store serial: [18192213]
+[2023-05-22 06:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192213]
+[2023-05-22 06:18:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-22 06:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axion
+[2023-05-22 06:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiextras
+[2023-05-22 06:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swachhdata
+[2023-05-22 06:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qnpy-template
+[2023-05-22 06:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudreactor-aws-setup-wizard
+[2023-05-22 06:18:33] INFO root fetch - processPackages [aiextras]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 06:18:33] INFO root fetch - processPackages [axion]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-05-22 06:18:33] INFO root fetch - processPackages [swachhdata]: New version: [2.0.0rc1] Old Version: [2.0.0a2]
+[2023-05-22 06:18:33] WARNING root fetch - processPackages [cloudreactor-aws-setup-wizard]: Skipping, unable to determine old version
+[2023-05-22 06:18:33] INFO root fetch - main [MainThread]: End processing [cloudreactor-aws-setup-wizard] error
+[2023-05-22 06:18:33] INFO root fetch - processPackages [qnpy-template]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-22 06:18:33] INFO root fetch - processPackages [swachhdata]: Downloading https://files.pythonhosted.org/packages/2d/c3/de0645c9ddb32b5d259a1a2a4c178d0bc67ea2ea80300e78904e78321122/swachhdata-2.0.0a2-py3-none-any.whl
+[2023-05-22 06:18:33] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/c7/6c/a71ec6515cbef5f2a6c52dc257e92c665ee66817a88be57ef05aea90f0ff/axion-3.3.3-cp311-cp311-win_amd64.whl
+[2023-05-22 06:18:33] INFO root fetch - processPackages [qnpy-template]: Downloading https://files.pythonhosted.org/packages/9b/94/8a63c7beea1a24af06299602803eb5926f62eb991a4245e427fe6e094a2b/qnpy-template-2.0.1.tar.gz
+[2023-05-22 06:18:33] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/c7/23/eb645d49f3185d6777f2b9a15a2b6f6be477142be022c89331cafcd15b5a/aiextras-0.0.5.tar.gz
+[2023-05-22 06:18:33] INFO root fetch - processPackages [swachhdata]: executing diffoscope
+[2023-05-22 06:18:33] INFO root fetch - processPackages [swachhdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swachhdata-2.0.0a2-py3-none-any.whl.zip tmp/swachhdata-2.0.0rc1-py3-none-any.whl.zip --markdown 20230522/s/swachhdata/2.0.0a2-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-22 06:18:33] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:18:33] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.4.tar.gz tmp/aiextras-0.0.5.tar.gz --markdown 20230522/a/aiextras/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 06:18:33] INFO root fetch - processPackages [qnpy-template]: Downloading https://files.pythonhosted.org/packages/22/27/61d8be2dd77cfefb8cb89c353d51f51873c98626f7bc03dc6dbad4cfb8c8/qnpy-template-2.0.2.tar.gz
+[2023-05-22 06:18:33] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/28/98/18d01bb9276e0deb2b111a1b5eba5a12477f2257c5066b7dc1666c4d95d9/axion-3.3.4-cp311-cp311-win_amd64.whl
+[2023-05-22 06:18:34] INFO root fetch - processPackages [qnpy-template]: executing diffoscope
+[2023-05-22 06:18:34] INFO root fetch - processPackages [qnpy-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnpy-template-2.0.1.tar.gz tmp/qnpy-template-2.0.2.tar.gz --markdown 20230522/q/qnpy-template/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-22 06:18:34] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-05-22 06:18:34] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.3.3-cp311-cp311-win_amd64.whl.zip tmp/axion-3.3.4-cp311-cp311-win_amd64.whl.zip --markdown 20230522/a/axion/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-05-22 06:18:34] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:18:35] INFO root fetch - main [MainThread]: End processing [qnpy-template]: success
+[2023-05-22 06:18:35] INFO root fetch - main [MainThread]: End processing [swachhdata]: success
+[2023-05-22 06:19:17] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-05-22 06:19:17] INFO root fetch - main [MainThread]: Store serial: [18192232]
