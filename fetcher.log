@@ -19934,3 +19934,87 @@ EOFError: EOF read where object expected
 [2023-05-22 18:37:26] INFO root fetch - main [MainThread]: End processing [sdvi-rally]: success
 [2023-05-22 18:37:28] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
 [2023-05-22 18:37:28] INFO root fetch - main [MainThread]: Store serial: [18200922]
+[2023-05-22 18:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200922]
+[2023-05-22 18:42:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-gpt
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soil
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dyrun
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrosetta-help
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databend
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: relativedate
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moe
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LasBuildSeg
+[2023-05-22 18:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zipreport-lib
+[2023-05-22 18:42:38] INFO root fetch - processPackages [databend]: New version: [1.1.43] Old Version: [1.1.42]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [pyrosetta-help]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [soil]: New version: [1.0.0rc8] Old Version: [1.0.0rc7]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.441.0]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dyrun]: New version: [1.1.11] Old Version: [1.1.1]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [moe]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [relativedate]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [zipreport-lib]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230522/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/42/ba/76d226df19b853dd4b5791ae5ae1cf20aed3e523444e82df2aa5c819dc3c/stigg_api_client-0.441.0.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [pyrosetta-help]: Downloading https://files.pythonhosted.org/packages/ae/c7/e4b7dba5d1864d75d688b14325caef76317a1e91df50e0d5b99606b2f58a/pyrosetta_help-0.5.6.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/90/02/3c0c5f03eb7beb7cf5490705160e8af847cb67511dbdb864ccd873b0305e/dyrun-1.1.11.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/a4/d8/494bae4abbfa2baf94f0eebc5824bdd1795cb70aab59eff6cb2b4a4a62d3/soil-1.0.0rc8.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [relativedate]: Downloading https://files.pythonhosted.org/packages/eb/e8/8dd37b8961d45febacde4b3357c09dc02bb5aea1f252718ce8462eea42e3/relativedate-0.1.0.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/44/79/50fc54a8d2bb8f97250a52ae1923173e469b14ea632f41ad1a2fd4ab16f1/LasBuildSeg-0.1.18.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dyrun]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [dyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyrun-1.1.1.tar.gz tmp/dyrun-1.1.11.tar.gz --markdown 20230522/d/dyrun/1.1.1-1.1.11/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc7.tar.gz tmp/soil-1.0.0rc8.tar.gz --markdown 20230522/s/soil/1.0.0rc7-1.0.0rc8/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [moe]: Downloading https://files.pythonhosted.org/packages/14/5b/fb286af4064cc8812db6b8da23f5147da6b9c831a36fb2bd4bb4150b6ddd/moe-2.1.0.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/f6/39/ba35e30fb06426c4a9b5880129a475bee2b650d2c80064c0e7f8c38a8db1/databend-1.1.42-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-22 18:42:38] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 28071145>=10485760
+[2023-05-22 18:42:38] INFO root fetch - processPackages [databend]: Start processing: flowjax
+[2023-05-22 18:42:38] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-05-22 18:42:38] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.441.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230522/s/stigg-api-client/0.441.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [pyrosetta-help]: Downloading https://files.pythonhosted.org/packages/7a/8b/b14f0cd9233f3bdbbbdd473e44f89f60a0f3ce1ad113c692d179f78dd33f/pyrosetta_help-0.5.7.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [zipreport-lib]: Downloading https://files.pythonhosted.org/packages/15/5a/149f4d64b9fb53bd676353656d7b78887fadff15450f4ad0a5438dd2217e/zipreport-lib-1.1.0.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.1.17.tar.gz tmp/LasBuildSeg-0.1.18.tar.gz --markdown 20230522/L/LasBuildSeg/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [relativedate]: Downloading https://files.pythonhosted.org/packages/4a/07/f18e5eaea63c0be27375f162fa5b2d845fb05a17b56528c457902262c9ad/relativedate-0.1.1.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [zipreport-lib]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [zipreport-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipreport-lib-1.0.2.tar.gz tmp/zipreport-lib-1.1.0.tar.gz --markdown 20230522/z/zipreport-lib/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [pyrosetta-help]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [pyrosetta-help]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosetta_help-0.5.6.tar.gz tmp/pyrosetta_help-0.5.7.tar.gz --markdown 20230522/p/pyrosetta-help/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [flowjax]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-05-22 18:42:38] INFO root fetch - processPackages [moe]: Downloading https://files.pythonhosted.org/packages/d1/b3/5d20fec373b743304ebbd1c65ea22876806752a10d90298986db077e69f0/moe-2.1.1.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [relativedate]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [relativedate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relativedate-0.1.0.tar.gz tmp/relativedate-0.1.1.tar.gz --markdown 20230522/r/relativedate/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 18:42:38] INFO root fetch - processPackages [flowjax]: Downloading https://files.pythonhosted.org/packages/da/c8/9fe145ea30187a5aa5d915eee41441341e8b9baeabe05e855d9ced532a93/flowjax-9.0.0.tar.gz
+[2023-05-22 18:42:38] INFO root fetch - processPackages [moe]: executing diffoscope
+[2023-05-22 18:42:38] INFO root fetch - processPackages [moe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moe-2.1.0.tar.gz tmp/moe-2.1.1.tar.gz --markdown 20230522/m/moe/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-22 18:42:39] INFO root fetch - processPackages [flowjax]: Downloading https://files.pythonhosted.org/packages/a1/46/9e5097779f354ccec4e7315cb83d209f517a415747e9087a06f5f1011746/flowjax-9.1.0.tar.gz
+[2023-05-22 18:42:39] INFO root fetch - processPackages [flowjax]: executing diffoscope
+[2023-05-22 18:42:39] INFO root fetch - processPackages [flowjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowjax-9.0.0.tar.gz tmp/flowjax-9.1.0.tar.gz --markdown 20230522/f/flowjax/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-05-22 18:42:40] INFO root fetch - processPackages [LasBuildSeg]: Start processing: ovos-skill-setup
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-22 18:42:40] INFO root fetch - processPackages [ovos-skill-setup]: New version: [0.0.2a6] Old Version: [0.0.2a5]
+[2023-05-22 18:42:40] INFO root fetch - processPackages [relativedate]: Start processing: helios-opentelemetry-sdk
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [relativedate]: success
+[2023-05-22 18:42:40] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.9] Old Version: [1.0.86]
+[2023-05-22 18:42:40] INFO root fetch - processPackages [ovos-skill-setup]: Downloading https://files.pythonhosted.org/packages/c8/83/48032a3841999203f5f9f394a4c4614de39931ec738839fff6cc21e1c188/ovos_skill_setup-0.0.2a5-py3-none-any.whl
+[2023-05-22 18:42:40] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/c7/72/96870d8e4759131b563b6b3065a3feb34ccbeed0723b27cc14ffc3ad5222/helios-opentelemetry-sdk-1.0.86.tar.gz
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [zipreport-lib]: success
+[2023-05-22 18:42:40] INFO root fetch - processPackages [ovos-skill-setup]: Downloading https://files.pythonhosted.org/packages/a8/ec/c28d97457f613673d1a19c315d56048f17a782d197e4919b04c00a5992de/ovos_skill_setup-0.0.2a6-py3-none-any.whl
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-22 18:42:40] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-05-22 18:42:40] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.86.tar.gz tmp/helios-opentelemetry-sdk-1.0.9.tar.gz --markdown 20230522/h/helios-opentelemetry-sdk/1.0.86-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [moe]: success
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [dyrun]: success
+[2023-05-22 18:42:40] INFO root fetch - processPackages [ovos-skill-setup]: executing diffoscope
+[2023-05-22 18:42:40] INFO root fetch - processPackages [ovos-skill-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_setup-0.0.2a5-py3-none-any.whl.zip tmp/ovos_skill_setup-0.0.2a6-py3-none-any.whl.zip --markdown 20230522/o/ovos-skill-setup/0.0.2a5-0.0.2a6/diff.md --exclude *.pyd
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [flowjax]: success
+[2023-05-22 18:42:40] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-22 18:42:41] INFO root fetch - main [MainThread]: End processing [pyrosetta-help]: success
+[2023-05-22 18:42:42] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-05-22 18:42:45] INFO root fetch - main [MainThread]: End processing [ovos-skill-setup]: success
+[2023-05-22 18:42:45] INFO root fetch - main [MainThread]: Store serial: [18200964]
