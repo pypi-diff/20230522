@@ -9724,3 +9724,111 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:46:23] INFO root fetch - main [MainThread]: End processing [fez-language]: success
 [2023-05-22 11:46:25] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-05-22 11:46:25] INFO root fetch - main [MainThread]: Store serial: [18194965]
+[2023-05-22 11:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194965]
+[2023-05-22 11:51:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-servicenetworking
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ghevaluator
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wordlink
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VerdisCloudPackage
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-network
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdstools
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-recoveryservices
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-allib
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-confluence-ci-type-sync
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zwave-me-ws
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-servicenetworking]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [pdstools]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ghevaluator]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [VerdisCloudPackage]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [wordlink]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-recoveryservices]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [zwave-me-ws]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [python-allib]: New version: [0.3.6.0] Old Version: [0.3.5.0]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-network]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-22 11:51:34] INFO root fetch - processPackages [wordlink]: Downloading https://files.pythonhosted.org/packages/2b/ee/18448816f4d3a66eb2044d3658be5ee816ffc55daa270843a6e153c8ff92/wordlink-1.0.1.tar.gz
+[2023-05-22 11:51:34] INFO root fetch - processPackages [VerdisCloudPackage]: Downloading https://files.pythonhosted.org/packages/99/e7/41f78f14032a3d73a5034aef6889fafb67defc43b9bb42030a2be4f550d3/VerdisCloudPackage-0.0.3-py3-none-any.whl
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/b6/07/cf14041170a367fe2c46df44bf3099638ccdb6a0931a2faab3df8fb09239/ghevaluator-2.0.0.tar.gz
+[2023-05-22 11:51:34] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Downloading https://files.pythonhosted.org/packages/45/6c/f82c1b160ab96419775373641afe5cda14af9f7cff1f5b41c7bf7a5bb207/oc_confluence_ci_type_sync-1.0.0-py3-none-any.whl
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-recoveryservices]: Downloading https://files.pythonhosted.org/packages/c6/26/e60d8990117f4c422f281feb15f010732ec9c293e72e334a3837c0fb6e21/azure-mgmt-recoveryservices-2.3.0.zip
+[2023-05-22 11:51:34] INFO root fetch - processPackages [python-allib]: Downloading https://files.pythonhosted.org/packages/10/3b/008c8ccc3571012e873fab91a5f5fadbd5044ad2e989fc0b45ffff202090/python-allib-0.3.5.0.tar.gz
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-servicenetworking]: Downloading https://files.pythonhosted.org/packages/73/5d/7c55588b6bfb9780152b55f3dc7d8b41181a93fc6d96c6fd2b81887de9f3/azure-mgmt-servicenetworking-1.0.0b1.zip
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/97/28/6cb33ab8c36044241c708815e56b398171df214336064449abe946b22569/azure-mgmt-network-8.0.0.zip
+[2023-05-22 11:51:34] INFO root fetch - processPackages [zwave-me-ws]: Downloading https://files.pythonhosted.org/packages/fe/8c/0e903e6b8ce46c6a7cf091873ff0def840d3e9084eb7ab05dea013fb8cfd/zwave_me_ws-0.4.2.tar.gz
+[2023-05-22 11:51:34] INFO root fetch - processPackages [wordlink]: Downloading https://files.pythonhosted.org/packages/d4/79/16d61ffb9dae83021e48cae5130e7240e5254d9046c0b2153f891ce96cdb/wordlink-1.0.2.tar.gz
+[2023-05-22 11:51:34] INFO root fetch - processPackages [VerdisCloudPackage]: Downloading https://files.pythonhosted.org/packages/91/3d/d256ac4d624577f99a2e395bed7db7e1ff8fe8ac3c1ef6cc8d6b034161b5/VerdisCloudPackage-0.0.5-py3-none-any.whl
+[2023-05-22 11:51:34] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/c0/35/7ced05df125c0ca7217e9f447063acb4cc3033b2ca7a70263f4bed3bfe16/ghevaluator-2.1.0.tar.gz
+[2023-05-22 11:51:34] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Downloading https://files.pythonhosted.org/packages/ee/23/820401f6021c96a8c8df2b81f394d078e2cf96f8e1cc65fb005e811f3c92/oc_confluence_ci_type_sync-1.0.1-py3-none-any.whl
+[2023-05-22 11:51:34] INFO root fetch - processPackages [pdstools]: executing diffoscope
+[2023-05-22 11:51:34] INFO root fetch - processPackages [pdstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdstools-3.1.8.tar.gz tmp/pdstools-3.1.9.tar.gz --markdown 20230522/p/pdstools/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-recoveryservices]: Downloading https://files.pythonhosted.org/packages/70/e1/f6d04b1128f655ef4451c8b3bd977fc185c6cb866e3bf4d31ce79c8f5530/azure-mgmt-recoveryservices-2.4.0.zip
+[2023-05-22 11:51:34] INFO root fetch - processPackages [azure-mgmt-servicenetworking]: Downloading https://files.pythonhosted.org/packages/f6/12/0185e3e49f44348c1fe27b4e5d68aa36062110a657ee21e788b0eabcc7b3/azure-mgmt-servicenetworking-1.0.0b2.zip
+[2023-05-22 11:51:35] INFO root fetch - processPackages [wordlink]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [wordlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordlink-1.0.1.tar.gz tmp/wordlink-1.0.2.tar.gz --markdown 20230522/w/wordlink/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [VerdisCloudPackage]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [VerdisCloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VerdisCloudPackage-0.0.3-py3-none-any.whl.zip tmp/VerdisCloudPackage-0.0.5-py3-none-any.whl.zip --markdown 20230522/V/VerdisCloudPackage/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_confluence_ci_type_sync-1.0.0-py3-none-any.whl.zip tmp/oc_confluence_ci_type_sync-1.0.1-py3-none-any.whl.zip --markdown 20230522/o/oc-confluence-ci-type-sync/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [ghevaluator]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [ghevaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghevaluator-2.0.0.tar.gz tmp/ghevaluator-2.1.0.tar.gz --markdown 20230522/g/ghevaluator/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-recoveryservices]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-recoveryservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-recoveryservices-2.3.0.zip tmp/azure-mgmt-recoveryservices-2.4.0.zip --markdown 20230522/a/azure-mgmt-recoveryservices/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-servicenetworking]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-servicenetworking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-servicenetworking-1.0.0b1.zip tmp/azure-mgmt-servicenetworking-1.0.0b2.zip --markdown 20230522/a/azure-mgmt-servicenetworking/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [zwave-me-ws]: Downloading https://files.pythonhosted.org/packages/6c/da/bc194ffa707abc970d085dde29b50b6b3657f033adcc949687c1042e89d4/zwave_me_ws-0.4.3.tar.gz
+[2023-05-22 11:51:35] INFO root fetch - processPackages [python-allib]: Downloading https://files.pythonhosted.org/packages/17/6c/213ff3098f6d4f8027bd0670ddc3e6dc424328270ba3a5215883ec7b6f64/python-allib-0.3.6.0.tar.gz
+[2023-05-22 11:51:35] INFO root fetch - processPackages [zwave-me-ws]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [zwave-me-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwave_me_ws-0.4.2.tar.gz tmp/zwave_me_ws-0.4.3.tar.gz --markdown 20230522/z/zwave-me-ws/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/44/e7/700fc045e69afd654874ab4b7ccb07d2df6284785eb9d28381dede0eb775/azure-mgmt-network-9.0.0.zip
+[2023-05-22 11:51:35] INFO root fetch - processPackages [python-allib]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [python-allib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-allib-0.3.5.0.tar.gz tmp/python-allib-0.3.6.0.tar.gz --markdown 20230522/p/python-allib/0.3.5.0-0.3.6.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-network]: executing diffoscope
+[2023-05-22 11:51:35] INFO root fetch - processPackages [azure-mgmt-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-network-8.0.0.zip tmp/azure-mgmt-network-9.0.0.zip --markdown 20230522/a/azure-mgmt-network/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:36] INFO root fetch - processPackages [VerdisCloudPackage]: Start processing: pylibrb
+[2023-05-22 11:51:36] INFO root fetch - main [MainThread]: End processing [VerdisCloudPackage]: success
+[2023-05-22 11:51:36] WARNING root fetch - processPackages [pylibrb]: Skipping, unable to determine old version
+[2023-05-22 11:51:36] INFO root fetch - processPackages [pylibrb]: Start processing: odoo-addon-sale-elaboration
+[2023-05-22 11:51:36] INFO root fetch - processPackages [wordlink]: Start processing: odoo14-addon-l10n-nl-xaf-auditfile-export
+[2023-05-22 11:51:36] INFO root fetch - main [MainThread]: End processing [pylibrb] error
+[2023-05-22 11:51:36] INFO root fetch - main [MainThread]: End processing [wordlink]: success
+[2023-05-22 11:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: New version: [14.0.3.2.0] Old Version: [14.0.3.1.0]
+[2023-05-22 11:51:36] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [15.0.3.1.0] Old Version: [15.0.2.0.0.3]
+[2023-05-22 11:51:36] INFO root fetch - processPackages [oc-confluence-ci-type-sync]: Start processing: django-blob-storage
+[2023-05-22 11:51:36] INFO root fetch - main [MainThread]: End processing [oc-confluence-ci-type-sync]: success
+[2023-05-22 11:51:36] INFO root fetch - processPackages [django-blob-storage]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 11:51:36] INFO root fetch - processPackages [zwave-me-ws]: Start processing: oarepo-model-builder-ui
+[2023-05-22 11:51:36] INFO root fetch - main [MainThread]: End processing [zwave-me-ws]: success
+[2023-05-22 11:51:36] INFO root fetch - processPackages [oarepo-model-builder-ui]: New version: [4.0.0] Old Version: [2.0.7]
+[2023-05-22 11:51:36] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: Downloading https://files.pythonhosted.org/packages/81/56/8ab5f62aaae98b3cd9324968d0f626824f617947a76c146b3139e29652ad/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.3.1.0-py3-none-any.whl
+[2023-05-22 11:51:36] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/a3/f1/4c0c8c4a75fbc23af416c0961a8c6cbce79aa98a7f2a5b44f5343ed46f2f/odoo_addon_sale_elaboration-15.0.2.0.0.3-py3-none-any.whl
+[2023-05-22 11:51:36] INFO root fetch - processPackages [django-blob-storage]: Downloading https://files.pythonhosted.org/packages/2b/21/4f62515414984d88521ef2216c5c94927efb01b4632c5cea9c3fa4af3c40/django_blob_storage-0.2.2.tar.gz
+[2023-05-22 11:51:36] INFO root fetch - processPackages [oarepo-model-builder-ui]: Downloading https://files.pythonhosted.org/packages/f2/b9/9d65f0cc7d7e21454a1106360da3eaf33a9740512389621f92703155d0c3/oarepo-model-builder-ui-2.0.7.tar.gz
+[2023-05-22 11:51:37] INFO root fetch - processPackages [django-blob-storage]: executing diffoscope
+[2023-05-22 11:51:37] INFO root fetch - processPackages [django-blob-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_blob_storage-0.2.1.tar.gz tmp/django_blob_storage-0.2.2.tar.gz --markdown 20230522/d/django-blob-storage/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 11:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: Downloading https://files.pythonhosted.org/packages/4d/af/4643ac6c9f83e6fea698ab5ac0f67ed487330eda6438ef78bef932ae6eb0/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.3.2.0-py3-none-any.whl
+[2023-05-22 11:51:37] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/d6/32/f193c8867ec801b3149047ec3360657f942edf60bf43d1ffa0830c1c16ca/odoo_addon_sale_elaboration-15.0.3.1.0-py3-none-any.whl
+[2023-05-22 11:51:37] INFO root fetch - processPackages [ghevaluator]: Start processing: klldFN
+[2023-05-22 11:51:37] INFO root fetch - main [MainThread]: End processing [ghevaluator]: success
+[2023-05-22 11:51:37] INFO root fetch - processPackages [klldFN]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-22 11:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: executing diffoscope
+[2023-05-22 11:51:37] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.3.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.3.2.0-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-l10n-nl-xaf-auditfile-export/14.0.3.1.0-14.0.3.2.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:37] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2023-05-22 11:51:37] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-15.0.2.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-15.0.3.1.0-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-sale-elaboration/15.0.2.0.0.3-15.0.3.1.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:37] INFO root fetch - processPackages [klldFN]: Downloading https://files.pythonhosted.org/packages/a5/e9/fe3ab06460318b0f243960626d87412ea7290ab4bb22eab35a35cc7ebb58/klldFN-1.0.5.tar.gz
+[2023-05-22 11:51:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-servicenetworking]: success
+[2023-05-22 11:51:37] INFO root fetch - processPackages [oarepo-model-builder-ui]: Downloading https://files.pythonhosted.org/packages/f9/a0/b4ebbd2f11ac69be460796ffbab1c68b3cf5475141f9e85a799eb1f9171f/oarepo-model-builder-ui-4.0.0.tar.gz
+[2023-05-22 11:51:37] INFO root fetch - main [MainThread]: End processing [azure-mgmt-recoveryservices]: success
+[2023-05-22 11:51:37] INFO root fetch - processPackages [oarepo-model-builder-ui]: executing diffoscope
+[2023-05-22 11:51:37] INFO root fetch - processPackages [oarepo-model-builder-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-ui-2.0.7.tar.gz tmp/oarepo-model-builder-ui-4.0.0.tar.gz --markdown 20230522/o/oarepo-model-builder-ui/2.0.7-4.0.0/diff.md --exclude *.pyd
+[2023-05-22 11:51:37] INFO root fetch - processPackages [klldFN]: Downloading https://files.pythonhosted.org/packages/1c/44/96339cae7e66a4f049100a202cbd77e990da66429b9eef327f24c7a537f9/klldFN-1.0.6.tar.gz
+[2023-05-22 11:51:37] INFO root fetch - processPackages [klldFN]: executing diffoscope
+[2023-05-22 11:51:37] INFO root fetch - processPackages [klldFN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klldFN-1.0.5.tar.gz tmp/klldFN-1.0.6.tar.gz --markdown 20230522/k/klldFN/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-22 11:51:37] INFO root fetch - main [MainThread]: End processing [python-allib]: success
+[2023-05-22 11:51:37] INFO root fetch - main [MainThread]: End processing [pdstools]: success
+[2023-05-22 11:51:38] INFO root fetch - main [MainThread]: End processing [django-blob-storage]: success
+[2023-05-22 11:51:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-nl-xaf-auditfile-export]: success
+[2023-05-22 11:51:38] INFO root fetch - main [MainThread]: End processing [klldFN]: success
+[2023-05-22 11:51:39] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-ui]: success
+[2023-05-22 11:52:08] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
+[2023-05-22 11:52:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2023-05-22 11:52:16] INFO root fetch - main [MainThread]: Store serial: [18195034]
