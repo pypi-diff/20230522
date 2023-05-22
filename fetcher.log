@@ -22436,3 +22436,62 @@ EOFError: EOF read where object expected
 [2023-05-22 20:57:00] INFO root fetch - processPackages [antimony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimony-2.9.3-cp36-cp36m-win_amd64.whl.zip tmp/antimony-2.9.4-cp36-cp36m-win_amd64.whl.zip --markdown 20230522/a/antimony/2.9.3-2.9.4/diff.md --exclude *.pyd
 [2023-05-22 20:57:03] INFO root fetch - main [MainThread]: End processing [antimony]: success
 [2023-05-22 20:57:03] INFO root fetch - main [MainThread]: Store serial: [18202518]
+[2023-05-22 21:02:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202518]
+[2023-05-22 21:02:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 21:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: earthranger-utils
+[2023-05-22 21:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2023-05-22 21:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 21:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prfiesta
+[2023-05-22 21:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autotraders
+[2023-05-22 21:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxsp
+[2023-05-22 21:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simcardems
+[2023-05-22 21:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DSSE
+[2023-05-22 21:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: config-wrangler
+[2023-05-22 21:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goodai-ltm
+[2023-05-22 21:02:14] WARNING root fetch - processPackages [earthranger-utils]: Skipping, unable to determine old version
+[2023-05-22 21:02:14] INFO root fetch - main [MainThread]: End processing [earthranger-utils] error
+[2023-05-22 21:02:14] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [prfiesta]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [autotraders]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-22 21:02:14] WARNING root fetch - processPackages [DSSE]: Skipping, unable to determine old version
+[2023-05-22 21:02:14] INFO root fetch - main [MainThread]: End processing [DSSE] error
+[2023-05-22 21:02:14] INFO root fetch - processPackages [simcardems]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [config-wrangler]: New version: [0.5.4a0] Old Version: [0.5.3]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [goodai-ltm]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-22 21:02:14] INFO root fetch - processPackages [prfiesta]: Downloading https://files.pythonhosted.org/packages/bd/f8/5526fbf05074fcb0c64ea8077923a6a60fdeb62ceba406a757aa79c09d7f/prfiesta-0.7.0.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/d8/c9/458765edd8f3b6c265e93a7550f9c3a5c5133778fe0f0ccfb720c09949f4/DroneSwarmSearchEnvironment-0.1.9.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [autotraders]: Downloading https://files.pythonhosted.org/packages/58/cf/9a7c0c150d10a5551a34fe88bea956caf103319d428d7e4874d017a61c1a/autotraders-1.1.1.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [config-wrangler]: Downloading https://files.pythonhosted.org/packages/0c/ee/aad3c20888cfbee500bbb93c5d27960387d14b763020de8c48906e6e1116/config_wrangler-0.5.3.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [simcardems]: Downloading https://files.pythonhosted.org/packages/e3/ad/c5913b6e80009b0c05642a61663cef98370cd91159455d4cf2088433b22d/simcardems-2023.4.1.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/b7/b7/9df6dd1a05d5cc2b8a454df1a077d206fde6546097eb685b8efb127b34ca/goodai-ltm-0.0.5.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [autotraders]: executing diffoscope
+[2023-05-22 21:02:14] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 21:02:14] INFO root fetch - processPackages [autotraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotraders-1.1.0.tar.gz tmp/autotraders-1.1.1.tar.gz --markdown 20230522/a/autotraders/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 21:02:14] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.8.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.9.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 21:02:14] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-22 21:02:14] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc2.tar.gz tmp/rime_sdk-2.1.0rc3.tar.gz --markdown 20230522/r/rime-sdk/2.1.0rc2-2.1.0rc3/diff.md --exclude *.pyd
+[2023-05-22 21:02:14] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-22 21:02:14] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230522/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-22 21:02:14] INFO root fetch - processPackages [prfiesta]: Downloading https://files.pythonhosted.org/packages/2b/f3/37d183b954dca95cc39986b9d6d8864f1cdde96362c3889c7520618175b4/prfiesta-0.8.0.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [simcardems]: Downloading https://files.pythonhosted.org/packages/14/cc/e97dab395d2687e8cce2a452ceb93b831d2d6cdffa0d1559b83e7689671f/simcardems-2023.4.2.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [prfiesta]: executing diffoscope
+[2023-05-22 21:02:14] INFO root fetch - processPackages [prfiesta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prfiesta-0.7.0.tar.gz tmp/prfiesta-0.8.0.tar.gz --markdown 20230522/p/prfiesta/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-22 21:02:14] INFO root fetch - processPackages [config-wrangler]: Downloading https://files.pythonhosted.org/packages/4d/90/e9b416ba4ab59c1cc6c73d309a4f3ec25904139e17ee47b6ab9d4cf294e3/config_wrangler-0.5.4a0.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [goodai-ltm]: Downloading https://files.pythonhosted.org/packages/e4/ad/35b1c64f229714c3cf233b35bd0ee536c92d152bab90d13f673cc09e0bbd/goodai-ltm-0.1.0.tar.gz
+[2023-05-22 21:02:14] INFO root fetch - processPackages [simcardems]: executing diffoscope
+[2023-05-22 21:02:14] INFO root fetch - processPackages [simcardems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simcardems-2023.4.1.tar.gz tmp/simcardems-2023.4.2.tar.gz --markdown 20230522/s/simcardems/2023.4.1-2023.4.2/diff.md --exclude *.pyd
+[2023-05-22 21:02:15] INFO root fetch - processPackages [config-wrangler]: executing diffoscope
+[2023-05-22 21:02:15] INFO root fetch - processPackages [config-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_wrangler-0.5.3.tar.gz tmp/config_wrangler-0.5.4a0.tar.gz --markdown 20230522/c/config-wrangler/0.5.3-0.5.4a0/diff.md --exclude *.pyd
+[2023-05-22 21:02:15] INFO root fetch - processPackages [goodai-ltm]: executing diffoscope
+[2023-05-22 21:02:15] INFO root fetch - processPackages [goodai-ltm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodai-ltm-0.0.5.tar.gz tmp/goodai-ltm-0.1.0.tar.gz --markdown 20230522/g/goodai-ltm/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-22 21:02:15] INFO root fetch - main [MainThread]: End processing [autotraders]: success
+[2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [prfiesta]: success
+[2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [config-wrangler]: success
+[2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [goodai-ltm]: success
+[2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [simcardems]: success
+[2023-05-22 21:02:22] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-22 21:02:22] INFO root fetch - main [MainThread]: Store serial: [18202550]
