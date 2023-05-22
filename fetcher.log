@@ -11900,3 +11900,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 13:55:40] INFO root fetch - main [MainThread]: End processing [angorapy]: success
 [2023-05-22 13:55:46] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
 [2023-05-22 13:55:46] INFO root fetch - main [MainThread]: Store serial: [18196464]
+[2023-05-22 14:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196464]
+[2023-05-22 14:00:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-gpt
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mfinance
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymysqlite
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jnt-django-admin-tools
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: carchive
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aries-askar
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yookassa
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FyersTestSDK
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muffin-babel
+[2023-05-22 14:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PandasProx
+[2023-05-22 14:00:55] WARNING root fetch - processPackages [mfinance]: Skipping, unable to determine old version
+[2023-05-22 14:00:55] INFO root fetch - processPackages [mfinance]: Start processing: tester-stripped-mhr
+[2023-05-22 14:00:55] INFO root fetch - main [MainThread]: End processing [mfinance] error
+[2023-05-22 14:00:55] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [PandasProx]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [pymysqlite]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [yookassa]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [FyersTestSDK]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [carchive]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [muffin-babel]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [aries-askar]: New version: [0.2.9.dev1] Old Version: [0.2.8.dev4]
+[2023-05-22 14:00:55] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 14:00:55] WARNING root fetch - processPackages [tester-stripped-mhr]: Skipping, unable to determine old version
+[2023-05-22 14:00:55] INFO root fetch - processPackages [tester-stripped-mhr]: Start processing: soniox
+[2023-05-22 14:00:55] INFO root fetch - main [MainThread]: End processing [tester-stripped-mhr] error
+[2023-05-22 14:00:55] INFO root fetch - processPackages [PandasProx]: executing diffoscope
+[2023-05-22 14:00:55] INFO root fetch - processPackages [PandasProx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandasProx-1.0.1.tar.gz tmp/PandasProx-1.0.2.tar.gz --markdown 20230522/P/PandasProx/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 14:00:55] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-22 14:00:55] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230522/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-22 14:00:55] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-05-22 14:00:55] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230522/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 14:00:55] INFO root fetch - processPackages [muffin-babel]: Downloading https://files.pythonhosted.org/packages/c2/09/b43c5e9f7980c61b8cd48f3b5be366441ee4f34eddbc963ba7c148853278/muffin_babel-1.4.1.tar.gz
+[2023-05-22 14:00:55] INFO root fetch - processPackages [pymysqlite]: Downloading https://files.pythonhosted.org/packages/d8/37/4ac9ea0fb25c30c6764dcf431d035cf1d5068f806640d01858871aa55ec7/pymysqlite-0.0.2-py2.py3-none-any.whl
+[2023-05-22 14:00:55] INFO root fetch - processPackages [yookassa]: Downloading https://files.pythonhosted.org/packages/b3/84/e0777a65484febdf7ef003bde7f37a7348047a98efaf1d168e4c34b7f810/yookassa-2.3.5.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/b5/16/543ecd539a8c80946b75383976e0cad2d71c1c437d0d53b74537bc02b003/carchive-0.0.58.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [FyersTestSDK]: Downloading https://files.pythonhosted.org/packages/51/f0/acce908c89676949f0209bf33f1d729c43c64d640a93a57f90048d4b211a/FyersTestSDK-0.0.4-py3-none-any.whl
+[2023-05-22 14:00:56] INFO root fetch - processPackages [aries-askar]: Downloading https://files.pythonhosted.org/packages/c3/36/b47276a61a43a924e603f6cae3b2827a7be28f5471a91295abe0c5ee8cf9/aries_askar-0.2.8.dev4-py3-none-win_amd64.whl
+[2023-05-22 14:00:56] INFO root fetch - processPackages [soniox]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-05-22 14:00:56] INFO root fetch - processPackages [FyersTestSDK]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [FyersTestSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FyersTestSDK-0.0.3-py3-none-any.whl.zip tmp/FyersTestSDK-0.0.4-py3-none-any.whl.zip --markdown 20230522/F/FyersTestSDK/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 14:00:56] INFO root fetch - processPackages [soniox]: Downloading https://files.pythonhosted.org/packages/54/b0/8316a2a4dcfc2471f7d6090bc6ee987fdc3a131d29eb0d0920e312412894/soniox-1.6.2.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [carchive]: Downloading https://files.pythonhosted.org/packages/1d/0b/0e648670e579ae9e13e30cefc7b7ed1426a565ddfb4ddf93c378f5a5aad8/carchive-0.0.59.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [muffin-babel]: Downloading https://files.pythonhosted.org/packages/10/da/04b63c9de3b365cceb9837fc57f65f85621f7478ec45e3ecfc46b5f4d360/muffin_babel-1.4.2.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [yookassa]: Downloading https://files.pythonhosted.org/packages/3f/4a/83af4c3b7192d47a55169a53559bd9f0a4458b02f612170ded8f1c2f847d/yookassa-2.3.6.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [pymysqlite]: Downloading https://files.pythonhosted.org/packages/08/ff/c45cd4245a318bfb3e600cd829efa22ccb955de6fe1b4bd339b61e9d1552/pymysqlite-0.0.3.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [carchive]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [carchive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carchive-0.0.58.tar.gz tmp/carchive-0.0.59.tar.gz --markdown 20230522/c/carchive/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-05-22 14:00:56] INFO root fetch - processPackages [muffin-babel]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [muffin-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_babel-1.4.1.tar.gz tmp/muffin_babel-1.4.2.tar.gz --markdown 20230522/m/muffin-babel/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-22 14:00:56] INFO root fetch - processPackages [pymysqlite]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [pymysqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysqlite-0.0.2-py2.py3-none-any.whl.zip tmp/pymysqlite-0.0.3.tar.gz --markdown 20230522/p/pymysqlite/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 14:00:56] INFO root fetch - processPackages [aries-askar]: Downloading https://files.pythonhosted.org/packages/82/18/7a90985e8c1069f771f2d1e1c9413de2dff9ef82fa7ddb7cdcf48a7466e5/aries_askar-0.2.9.dev1-py3-none-win_amd64.whl
+[2023-05-22 14:00:56] INFO root fetch - processPackages [yookassa]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [yookassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yookassa-2.3.5.tar.gz tmp/yookassa-2.3.6.tar.gz --markdown 20230522/y/yookassa/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-05-22 14:00:56] INFO root fetch - processPackages [soniox]: Downloading https://files.pythonhosted.org/packages/47/ab/f481e2fcb63ff7bc0ff577545efe9b3c31bfeee75aafdc9a59a352773fe2/soniox-1.7.0.tar.gz
+[2023-05-22 14:00:56] INFO root fetch - processPackages [aries-askar]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [aries-askar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_askar-0.2.8.dev4-py3-none-win_amd64.whl.zip tmp/aries_askar-0.2.9.dev1-py3-none-win_amd64.whl.zip --markdown 20230522/a/aries-askar/0.2.8.dev4-0.2.9.dev1/diff.md --exclude *.pyd
+[2023-05-22 14:00:56] INFO root fetch - processPackages [soniox]: executing diffoscope
+[2023-05-22 14:00:56] INFO root fetch - processPackages [soniox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soniox-1.6.2.tar.gz tmp/soniox-1.7.0.tar.gz --markdown 20230522/s/soniox/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-05-22 14:00:57] INFO root fetch - main [MainThread]: End processing [PandasProx]: success
+[2023-05-22 14:00:57] INFO root fetch - main [MainThread]: End processing [FyersTestSDK]: success
+[2023-05-22 14:00:57] INFO root fetch - main [MainThread]: End processing [pymysqlite]: success
+[2023-05-22 14:00:57] INFO root fetch - main [MainThread]: End processing [carchive]: success
+[2023-05-22 14:00:57] INFO root fetch - main [MainThread]: End processing [muffin-babel]: success
+[2023-05-22 14:00:58] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-05-22 14:00:58] INFO root fetch - main [MainThread]: End processing [yookassa]: success
+[2023-05-22 14:00:58] INFO root fetch - main [MainThread]: End processing [soniox]: success
+[2023-05-22 14:00:59] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-22 14:01:20] INFO root fetch - main [MainThread]: End processing [aries-askar]: success
+[2023-05-22 14:01:20] INFO root fetch - main [MainThread]: Store serial: [18196503]
