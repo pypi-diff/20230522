@@ -11006,3 +11006,180 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 13:12:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
 [2023-05-22 13:12:11] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-05-22 13:12:11] INFO root fetch - main [MainThread]: Store serial: [18195835]
+[2023-05-22 13:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195835]
+[2023-05-22 13:17:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nightly
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: natalify
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scar
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uffpy
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mozark-sdk
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-enroll
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultima-scraper-api
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FyersTesting
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcat-ap-de-validator
+[2023-05-22 13:17:20] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [natalify]: New version: [1.8] Old Version: [1.6]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202305221046] Old Version: [99.0.202305220926]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [uffpy]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [mozark-sdk]: New version: [1.0.0] Old Version: [0.5]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [scar]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-22 13:17:20] WARNING root fetch - processPackages [dcat-ap-de-validator]: Skipping, unable to determine old version
+[2023-05-22 13:17:20] WARNING root fetch - processPackages [FyersTesting]: Skipping, unable to determine old version
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ultima-scraper-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [dcat-ap-de-validator]: Start processing: OptiMOBO
+[2023-05-22 13:17:20] INFO root fetch - main [MainThread]: End processing [dcat-ap-de-validator] error
+[2023-05-22 13:17:20] INFO root fetch - processPackages [FyersTesting]: Start processing: mixturemapping
+[2023-05-22 13:17:20] INFO root fetch - main [MainThread]: End processing [FyersTesting] error
+[2023-05-22 13:17:20] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-22 13:17:20] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230522/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-22 13:17:20] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cd/53/1ab0e7a5d9120927475a197e8d964b67d2d04c307ad02e14c88a60e6c0a3/kcli-99.0.202305221046-py3-none-any.whl
+[2023-05-22 13:17:20] WARNING root fetch - processPackages [OptiMOBO]: Skipping, unable to determine old version
+[2023-05-22 13:17:20] INFO root fetch - processPackages [OptiMOBO]: Start processing: joeflow
+[2023-05-22 13:17:20] INFO root fetch - main [MainThread]: End processing [OptiMOBO] error
+[2023-05-22 13:17:20] INFO root fetch - processPackages [mixturemapping]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [natalify]: Downloading https://files.pythonhosted.org/packages/e4/9b/4d81b39a7a526d797edac07c4f6f4db2afe76851776b085a38990352e259/natalify-1.8.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [uffpy]: Downloading https://files.pythonhosted.org/packages/10/bd/04a9ae6d2d2ed1307d4abe08bfa47f89b82f98b480c56bf8c5d3c14c96f6/uffpy-0.0.0.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [scar]: Downloading https://files.pythonhosted.org/packages/92/9d/7a08b3a39b53e27a748631dbf3cc008b2cd704c0cd10587f0f01be293442/scar-4.3.0.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-22 13:17:20] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305220926-py3-none-any.whl.zip tmp/kcli-99.0.202305221046-py3-none-any.whl.zip --markdown 20230522/k/kcli/99.0.202305220926-99.0.202305221046/diff.md --exclude *.pyd
+[2023-05-22 13:17:20] INFO root fetch - processPackages [mozark-sdk]: Downloading https://files.pythonhosted.org/packages/71/ff/8b9f76f415ae16dd49f27f4597f5cac27e990d707023562259e44180b192/mozark-sdk-0.5.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/7a/b4/c6f1dc7e12fd24eb8de91515336da17241b95e877639fa00f09266a6cc25/ultima_scraper_api-1.1.0.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [joeflow]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-22 13:17:20] INFO root fetch - processPackages [natalify]: executing diffoscope
+[2023-05-22 13:17:20] INFO root fetch - processPackages [natalify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natalify-1.6.tar.gz tmp/natalify-1.8.tar.gz --markdown 20230522/n/natalify/1.6-1.8/diff.md --exclude *.pyd
+[2023-05-22 13:17:20] INFO root fetch - processPackages [mixturemapping]: Downloading https://files.pythonhosted.org/packages/0c/71/b40e840ec5b4087e8231ec3a192b92200c26e901ac347c9d58ab0db6c0c7/mixturemapping-0.4.0-py39-none-any.whl
+[2023-05-22 13:17:20] INFO root fetch - processPackages [uffpy]: Downloading https://files.pythonhosted.org/packages/29/78/e7a58f66542a2c533d00cb30f6d2c0018bf350483835414cd5fe1ba96730/uffpy-0.0.1.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [scar]: Downloading https://files.pythonhosted.org/packages/65/b7/1c38b9092a96bca6ee05d864669095be271ee8bd782cf1b2a94e0c325cae/scar-4.3.1.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [mozark-sdk]: Downloading https://files.pythonhosted.org/packages/f0/19/ec48358b6228d7a0f7506e56f005266acf4284fb2a9a27cf51b908461330/mozark_sdk-1.0.0.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/04/0a/ac223ffb1ac5dac812b0d1598d9657a353c98678a8bf449da2332454da2b/ultima_scraper_api-1.1.1.tar.gz
+[2023-05-22 13:17:20] INFO root fetch - processPackages [joeflow]: Downloading https://files.pythonhosted.org/packages/5a/66/4076c5f36a9df017c80c4bba3b7196b3c5f9e20d53a0a4918a7db7b6d31a/joeflow-1.2.2.tar.gz
+[2023-05-22 13:17:21] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230522/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-22 13:17:21] INFO root fetch - processPackages [uffpy]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [uffpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uffpy-0.0.0.tar.gz tmp/uffpy-0.0.1.tar.gz --markdown 20230522/u/uffpy/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-22 13:17:21] INFO root fetch - processPackages [scar]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [scar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scar-4.3.0.tar.gz tmp/scar-4.3.1.tar.gz --markdown 20230522/s/scar/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-05-22 13:17:21] INFO root fetch - processPackages [mozark-sdk]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [mozark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozark-sdk-0.5.tar.gz tmp/mozark_sdk-1.0.0.tar.gz --markdown 20230522/m/mozark-sdk/0.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 13:17:21] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-1.1.0.tar.gz tmp/ultima_scraper_api-1.1.1.tar.gz --markdown 20230522/u/ultima-scraper-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 13:17:21] INFO root fetch - processPackages [mixturemapping]: Downloading https://files.pythonhosted.org/packages/1a/0a/6cbcbae26d021b4cc66b43f5f79ffcdb87741524b42e793219bcbd81e507/mixturemapping-0.5.0-py39-none-any.whl
+[2023-05-22 13:17:21] INFO root fetch - processPackages [joeflow]: Downloading https://files.pythonhosted.org/packages/ef/5f/5eac4b3fcc1fc60750073f1f4eaad12abf415e88cbcf1aedd4e5d928d49c/joeflow-1.2.3.tar.gz
+[2023-05-22 13:17:21] INFO root fetch - processPackages [mixturemapping]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [mixturemapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixturemapping-0.4.0-py39-none-any.whl.zip tmp/mixturemapping-0.5.0-py39-none-any.whl.zip --markdown 20230522/m/mixturemapping/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 13:17:21] INFO root fetch - processPackages [joeflow]: executing diffoscope
+[2023-05-22 13:17:21] INFO root fetch - processPackages [joeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joeflow-1.2.2.tar.gz tmp/joeflow-1.2.3.tar.gz --markdown 20230522/j/joeflow/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-22 13:17:22] INFO root fetch - processPackages [uffpy]: Start processing: ultima-scraper-collection
+[2023-05-22 13:17:22] INFO root fetch - main [MainThread]: End processing [uffpy]: success
+[2023-05-22 13:17:22] INFO root fetch - processPackages [natalify]: Start processing: hypothesis-rdkit
+[2023-05-22 13:17:22] INFO root fetch - main [MainThread]: End processing [natalify]: success
+[2023-05-22 13:17:22] INFO root fetch - processPackages [ultima-scraper-collection]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 13:17:22] INFO root fetch - processPackages [hypothesis-rdkit]: New version: [0.3] Old Version: [0.1]
+[2023-05-22 13:17:22] INFO root fetch - processPackages [joeflow]: Start processing: kfish
+[2023-05-22 13:17:22] INFO root fetch - main [MainThread]: End processing [joeflow]: success
+[2023-05-22 13:17:22] INFO root fetch - processPackages [kfish]: New version: [99.0.202305221049] Old Version: [99.0.202305220930]
+[2023-05-22 13:17:22] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/b8/79/aaad9416946c9e616d75433634a130035c2d070c0f1af7044f4fd63b0242/ultima_scraper_collection-1.1.0.tar.gz
+[2023-05-22 13:17:22] INFO root fetch - processPackages [hypothesis-rdkit]: Downloading https://files.pythonhosted.org/packages/a2/3a/6db3538048570f0661744c63caab8e3b5ee89b9f874d1d5ce59f40dc90e0/hypothesis-rdkit-0.1.tar.gz
+[2023-05-22 13:17:22] INFO root fetch - processPackages [mixturemapping]: Start processing: luminesce-sdk-preview
+[2023-05-22 13:17:22] INFO root fetch - main [MainThread]: End processing [mixturemapping]: success
+[2023-05-22 13:17:22] INFO root fetch - processPackages [ultima-scraper-collection]: Downloading https://files.pythonhosted.org/packages/7e/2c/3a12b6f62bef0e7811ebb0629346d2034eafd0d8d79c4ecaff77f6b34ff4/ultima_scraper_collection-1.1.1.tar.gz
+[2023-05-22 13:17:22] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-22 13:17:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/71/95/4fcd2b1feb7a0a98b8735d7476e15ec9ae3fbc13163032d73b0146c94a83/kfish-99.0.202305221049-py3-none-any.whl
+[2023-05-22 13:17:23] INFO root fetch - processPackages [hypothesis-rdkit]: Downloading https://files.pythonhosted.org/packages/0c/cb/25cbe8d5ff9fe426e47d9146f74a435c4ad10dfeccf9929750d8a8952fae/hypothesis-rdkit-0.3.tar.gz
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ultima-scraper-collection]: executing diffoscope
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ultima-scraper-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_collection-1.1.0.tar.gz tmp/ultima_scraper_collection-1.1.1.tar.gz --markdown 20230522/u/ultima-scraper-collection/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 13:17:23] INFO root fetch - processPackages [xj-enroll]: Start processing: ws-one
+[2023-05-22 13:17:23] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-22 13:17:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-22 13:17:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305220930-py3-none-any.whl.zip tmp/kfish-99.0.202305221049-py3-none-any.whl.zip --markdown 20230522/k/kfish/99.0.202305220930-99.0.202305221049/diff.md --exclude *.pyd
+[2023-05-22 13:17:23] INFO root fetch - processPackages [hypothesis-rdkit]: executing diffoscope
+[2023-05-22 13:17:23] INFO root fetch - processPackages [hypothesis-rdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-rdkit-0.1.tar.gz tmp/hypothesis-rdkit-0.3.tar.gz --markdown 20230522/h/hypothesis-rdkit/0.1-0.3/diff.md --exclude *.pyd
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ws-one]: New version: [1.12.3] Old Version: [1.12.2]
+[2023-05-22 13:17:23] INFO root fetch - processPackages [mozark-sdk]: Start processing: jina
+[2023-05-22 13:17:23] INFO root fetch - main [MainThread]: End processing [mozark-sdk]: success
+[2023-05-22 13:17:23] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-22 13:17:23] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230522/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ws-one]: Downloading https://files.pythonhosted.org/packages/8c/43/dfc8f015b9b271f12a19ae67f4ee3a6704024f5a6947d594210ac02b4863/ws_one-1.12.2-py3-none-any.whl
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ultima-scraper-api]: Start processing: django-medialogue
+[2023-05-22 13:17:23] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ws-one]: Downloading https://files.pythonhosted.org/packages/90/fe/24784856121b632bf25e24fe27f3297f8c87325f36ea9c9f064e5d845353/ws_one-1.12.3-py3-none-any.whl
+[2023-05-22 13:17:23] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-22 13:17:23] INFO root fetch - processPackages [django-medialogue]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ws-one]: executing diffoscope
+[2023-05-22 13:17:23] INFO root fetch - processPackages [ws-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_one-1.12.2-py3-none-any.whl.zip tmp/ws_one-1.12.3-py3-none-any.whl.zip --markdown 20230522/w/ws-one/1.12.2-1.12.3/diff.md --exclude *.pyd
+[2023-05-22 13:17:24] INFO root fetch - processPackages [django-medialogue]: executing diffoscope
+[2023-05-22 13:17:24] INFO root fetch - processPackages [django-medialogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-medialogue-2.0.8.tar.gz tmp/django-medialogue-2.0.9.tar.gz --markdown 20230522/d/django-medialogue/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-22 13:17:24] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-22 13:17:24] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230522/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-22 13:17:24] INFO root fetch - processPackages [kfish]: Start processing: lamadava
+[2023-05-22 13:17:24] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-22 13:17:24] INFO root fetch - processPackages [lamadava]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-22 13:17:24] INFO root fetch - main [MainThread]: End processing [scar]: success
+[2023-05-22 13:17:24] INFO root fetch - processPackages [lamadava]: Downloading https://files.pythonhosted.org/packages/cd/f2/938efd8ae79ae689e4f345edc4e68ad69bc0221f04196a41001e54ba5fc6/lamadava-0.0.1.tar.gz
+[2023-05-22 13:17:24] INFO root fetch - main [MainThread]: End processing [ultima-scraper-collection]: success
+[2023-05-22 13:17:24] INFO root fetch - processPackages [lamadava]: Downloading https://files.pythonhosted.org/packages/4f/c2/9786b28911c4fd4ebca4754ef0e787ae7f2e9eb295887b61cf15f86a10a1/lamadava-1.0.0.tar.gz
+[2023-05-22 13:17:25] INFO root fetch - processPackages [lamadava]: executing diffoscope
+[2023-05-22 13:17:25] INFO root fetch - processPackages [lamadava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamadava-0.0.1.tar.gz tmp/lamadava-1.0.0.tar.gz --markdown 20230522/l/lamadava/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 13:17:25] INFO root fetch - main [MainThread]: End processing [ws-one]: success
+[2023-05-22 13:17:25] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-22 13:17:25] ERROR root fetch - processPackages [django-medialogue]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-22 13:17:25] INFO root fetch - main [MainThread]: End processing [django-medialogue] error
+[2023-05-22 13:17:25] INFO root fetch - main [MainThread]: End processing [hypothesis-rdkit]: success
+[2023-05-22 13:17:26] INFO root fetch - main [MainThread]: End processing [lamadava]: success
+[2023-05-22 13:17:27] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-22 13:17:28] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-22 13:17:31] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-22 13:17:31] INFO root fetch - main [MainThread]: Store serial: [18195959]
