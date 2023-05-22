@@ -2962,3 +2962,24 @@
 [2023-05-22 02:46:32] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
 [2023-05-22 02:46:41] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-22 02:46:41] INFO root fetch - main [MainThread]: Store serial: [18191092]
+[2023-05-22 02:51:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191092]
+[2023-05-22 02:51:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-22 02:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2023-05-22 02:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-githubcard
+[2023-05-22 02:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aporia
+[2023-05-22 02:51:50] INFO root fetch - processPackages [nonebot-plugin-githubcard]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 02:51:50] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-22 02:51:50] INFO root fetch - processPackages [aporia]: New version: [3.0.0a18] Old Version: [2.9.0]
+[2023-05-22 02:51:50] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-22 02:51:50] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230522/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-22 02:51:50] INFO root fetch - processPackages [nonebot-plugin-githubcard]: Downloading https://files.pythonhosted.org/packages/fd/6a/a035a4b9307ae0975fd8dddb2e5f722c80bb4f6c902cb1259cd0e079860f/nonebot_plugin_githubcard-0.1.0.tar.gz
+[2023-05-22 02:51:50] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/0a/f3/73b03bb4027987cb89a6949b008ac834644e45b035976499199d051acc3d/aporia-3.0.0a18.tar.gz
+[2023-05-22 02:51:50] INFO root fetch - processPackages [nonebot-plugin-githubcard]: Downloading https://files.pythonhosted.org/packages/2a/10/da55db1fa02221f7299cc314f459890ee8ddbbcf3ce27868c77b2684e212/nonebot_plugin_githubcard-0.1.1.tar.gz
+[2023-05-22 02:51:51] INFO root fetch - processPackages [nonebot-plugin-githubcard]: executing diffoscope
+[2023-05-22 02:51:51] INFO root fetch - processPackages [nonebot-plugin-githubcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_githubcard-0.1.0.tar.gz tmp/nonebot_plugin_githubcard-0.1.1.tar.gz --markdown 20230522/n/nonebot-plugin-githubcard/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 02:51:51] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-05-22 02:51:51] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-2.9.0.tar.gz tmp/aporia-3.0.0a18.tar.gz --markdown 20230522/a/aporia/2.9.0-3.0.0a18/diff.md --exclude *.pyd
+[2023-05-22 02:51:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-githubcard]: success
+[2023-05-22 02:51:52] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-05-22 02:51:52] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-22 02:51:52] INFO root fetch - main [MainThread]: Store serial: [18191102]
