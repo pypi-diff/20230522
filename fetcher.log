@@ -22495,3 +22495,86 @@ EOFError: EOF read where object expected
 [2023-05-22 21:02:16] INFO root fetch - main [MainThread]: End processing [simcardems]: success
 [2023-05-22 21:02:22] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-05-22 21:02:22] INFO root fetch - main [MainThread]: Store serial: [18202550]
+[2023-05-22 21:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202550]
+[2023-05-22 21:07:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotON_sdk
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sayuDB
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-singlestore
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surv-ai
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tupa123
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prefixed-aiostatsd
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantconnect-stubs
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontrunner-sdk
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DSSE
+[2023-05-22 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stlock
+[2023-05-22 21:07:32] INFO root fetch - processPackages [sayuDB]: New version: [1.2.1] Old Version: [1.1.4]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [surv-ai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [frontrunner-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.93] Old Version: [0.0.4.92]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [DSSE]: New version: [0.1.11] Old Version: [0.1.10]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [dbt-singlestore]: New version: [1.2.2] Old Version: [1.1.2]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [stlock]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [prefixed-aiostatsd]: New version: [1.1] Old Version: [1.0]
+[2023-05-22 21:07:32] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-22 21:07:33] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/77/05/d827896f0c8252789bb6503d430751d4d0584e61f328803fd8f223e5e3ba/surv_ai-0.1.3.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230522/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230522/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/12/03/63839ab72c76ad15e189e7125d5eb59a5c6549b81da19b00ae9fb2fa8f4b/spotON_sdk-0.0.4.92.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [DSSE]: Downloading https://files.pythonhosted.org/packages/24/01/43c9741c6de7dd92ea65faf365dd35854bb236443bbce3d32767389ba30f/DSSE-0.1.10.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [stlock]: Downloading https://files.pythonhosted.org/packages/8c/3b/1d80fa150a2e4aad804be03e3fc68110c8d7afc78e5147429e464982fb2b/stlock-0.0.3.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [dbt-singlestore]: Downloading https://files.pythonhosted.org/packages/dc/14/c98facb68d4652ca940de2e353521b1a9bc6e0f201a00642d1da56490d13/dbt-singlestore-1.1.2.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [prefixed-aiostatsd]: Downloading https://files.pythonhosted.org/packages/e9/cb/6a779f4c7d750080f2d6faedd8279fa28b74da8964e267242ff7a7ee0171/prefixed_aiostatsd-1.1-py3-none-any.whl
+[2023-05-22 21:07:33] INFO root fetch - processPackages [prefixed-aiostatsd]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [prefixed-aiostatsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefixed_aiostatsd-1.0-py3-none-any.whl.zip tmp/prefixed_aiostatsd-1.1-py3-none-any.whl.zip --markdown 20230522/p/prefixed-aiostatsd/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [frontrunner-sdk]: Downloading https://files.pythonhosted.org/packages/d9/53/89cb53fd94ec15eb3eb5db1c4758724e274e9eec4a7c4017240e42f15462/frontrunner-sdk-0.1.6.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/fd/67/b8ba2b217e482d05bdc81ae6a5f74eb207b219028cc02431ff601bfcd884/spotON_sdk-0.0.4.93.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/ac/47/77e2d757a745766c94799f8d97d4fd070e0ead1db8c6a1ba8d8f70a35b33/surv_ai-0.1.4.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [stlock]: Downloading https://files.pythonhosted.org/packages/e8/54/8e39f0c775abbc8b19bc03fbaa208c8eb803563740585aa278af4102b7f3/stlock-0.0.4.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/02/3c/7b78a9aa3876c178efbd533c08a107869e47995d143b9c51c283b73aa764/sayuDB-1.2.1.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [frontrunner-sdk]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [frontrunner-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontrunner-sdk-0.1.5.tar.gz tmp/frontrunner-sdk-0.1.6.tar.gz --markdown 20230522/f/frontrunner-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [DSSE]: Downloading https://files.pythonhosted.org/packages/6a/19/95e249271aa80a8ae427caaec4cbe4f8b15a509140c2cbd20517019e50d8/DSSE-0.1.11.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.92.tar.gz tmp/spotON_sdk-0.0.4.93.tar.gz --markdown 20230522/s/spotON_sdk/0.0.4.92-0.0.4.93/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.3.tar.gz tmp/surv_ai-0.1.4.tar.gz --markdown 20230522/s/surv-ai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [stlock]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [stlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stlock-0.0.3.tar.gz tmp/stlock-0.0.4.tar.gz --markdown 20230522/s/stlock/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [sayuDB]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [sayuDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayuDB-1.1.4.tar.gz tmp/sayuDB-1.2.1.tar.gz --markdown 20230522/s/sayuDB/1.1.4-1.2.1/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [dbt-singlestore]: Downloading https://files.pythonhosted.org/packages/e5/d0/c638602a6436e09d0bfe0108ff569ca7ea6f7d3fac119c6af3bf9bb1d2ab/dbt-singlestore-1.2.2.tar.gz
+[2023-05-22 21:07:33] INFO root fetch - processPackages [DSSE]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [DSSE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSSE-0.1.10.tar.gz tmp/DSSE-0.1.11.tar.gz --markdown 20230522/D/DSSE/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2023-05-22 21:07:33] INFO root fetch - processPackages [dbt-singlestore]: executing diffoscope
+[2023-05-22 21:07:33] INFO root fetch - processPackages [dbt-singlestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-singlestore-1.1.2.tar.gz tmp/dbt-singlestore-1.2.2.tar.gz --markdown 20230522/d/dbt-singlestore/1.1.2-1.2.2/diff.md --exclude *.pyd
+[2023-05-22 21:07:34] INFO root fetch - processPackages [prefixed-aiostatsd]: Start processing: spotON_sdk
+[2023-05-22 21:07:34] INFO root fetch - main [MainThread]: End processing [prefixed-aiostatsd]: success
+[2023-05-22 21:07:34] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.93] Old Version: [0.0.4.92]
+[2023-05-22 21:07:34] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-22 21:07:34] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.92.tar.gz tmp/spotON_sdk-0.0.4.93.tar.gz --markdown 20230522/s/spotON_sdk/0.0.4.92-0.0.4.93/diff.md --exclude *.pyd
+[2023-05-22 21:07:34] INFO root fetch - processPackages [stlock]: Start processing: motor-types
+[2023-05-22 21:07:34] INFO root fetch - main [MainThread]: End processing [stlock]: success
+[2023-05-22 21:07:34] INFO root fetch - processPackages [motor-types]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-22 21:07:35] INFO root fetch - processPackages [sayuDB]: Start processing: surv-ai
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [sayuDB]: success
+[2023-05-22 21:07:35] INFO root fetch - processPackages [surv-ai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 21:07:35] INFO root fetch - processPackages [motor-types]: Downloading https://files.pythonhosted.org/packages/ab/3b/0934a03bad2d8b3496908cf062ccb34198fe569d05c5dde5ac2f6dc955e2/motor_types-1.0.0b1.tar.gz
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-22 21:07:35] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-22 21:07:35] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.3.tar.gz tmp/surv_ai-0.1.4.tar.gz --markdown 20230522/s/surv-ai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [frontrunner-sdk]: success
+[2023-05-22 21:07:35] INFO root fetch - processPackages [motor-types]: Downloading https://files.pythonhosted.org/packages/26/33/4ddd08dd62894703e8b0838b9050d1ef8bb56205c5c5fadc6124612f1a31/motor_types-1.0.0b2.tar.gz
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [dbt-singlestore]: success
+[2023-05-22 21:07:35] INFO root fetch - processPackages [motor-types]: executing diffoscope
+[2023-05-22 21:07:35] INFO root fetch - processPackages [motor-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motor_types-1.0.0b1.tar.gz tmp/motor_types-1.0.0b2.tar.gz --markdown 20230522/m/motor-types/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-22 21:07:35] INFO root fetch - main [MainThread]: End processing [DSSE]: success
+[2023-05-22 21:07:36] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-22 21:07:36] INFO root fetch - main [MainThread]: End processing [motor-types]: success
+[2023-05-22 21:07:37] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-22 21:07:38] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-22 21:07:38] INFO root fetch - main [MainThread]: Store serial: [18202589]
