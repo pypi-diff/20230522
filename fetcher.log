@@ -18208,3 +18208,135 @@ EOFError: EOF read where object expected
 [2023-05-22 17:12:03] INFO root fetch - main [MainThread]: End processing [aws-cdk.yaml-cfn]: success
 [2023-05-22 17:12:46] INFO root fetch - main [MainThread]: End processing [aws-cdk.pipelines]: success
 [2023-05-22 17:12:46] INFO root fetch - main [MainThread]: Store serial: [18199568]
+[2023-05-22 17:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18199568]
+[2023-05-22 17:17:56] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monocdk
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-serve
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-cli
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netdem
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: requests
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ghastoolkit
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idem-core-functions
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inels-mqtt-new
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openstacksdk
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deep-astro-uda
+[2023-05-22 17:17:56] INFO root fetch - processPackages [requests]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-22 17:17:56] INFO root fetch - processPackages [monocdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-22 17:17:56] WARNING root fetch - processPackages [deep-astro-uda]: Skipping, unable to determine old version
+[2023-05-22 17:17:56] INFO root fetch - processPackages [deep-astro-uda]: Start processing: jax-xc
+[2023-05-22 17:17:56] INFO root fetch - main [MainThread]: End processing [deep-astro-uda] error
+[2023-05-22 17:17:56] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-22 17:17:56] INFO root fetch - processPackages [monocdk]: Downloading https://files.pythonhosted.org/packages/1e/58/0c31033859ec4261bfcbddfffb5940d98aa264ffcec79c7305e0a88a7ec9/monocdk-1.98.0.tar.gz
+[2023-05-22 17:17:56] INFO root fetch - processPackages [sentry-cli]: New version: [2.18.1] Old Version: [2.18.0]
+[2023-05-22 17:17:56] ERROR root fetch - processPackages [netdem]: Unable to get metadata: No such project 'netdem'
+[2023-05-22 17:17:56] INFO root fetch - processPackages [netdem]: Start processing: certora-cli-alpha-gereon-cert-2296-configscope-default
+[2023-05-22 17:17:56] INFO root fetch - main [MainThread]: End processing [netdem] error
+[2023-05-22 17:17:56] INFO root fetch - processPackages [openstacksdk]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-22 17:17:56] INFO root fetch - processPackages [ghastoolkit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-22 17:17:56] WARNING root fetch - processPackages [monocdk]: Skipping package: exceeds size limit 52400909>=10485760
+[2023-05-22 17:17:56] INFO root fetch - processPackages [monocdk]: Start processing: eigenai
+[2023-05-22 17:17:56] INFO root fetch - main [MainThread]: End processing [monocdk] error
+[2023-05-22 17:17:56] INFO root fetch - processPackages [idem-core-functions]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-22 17:17:56] INFO root fetch - processPackages [jax-xc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 17:17:57] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-05-22 17:17:57] WARNING root fetch - processPackages [eigenai]: Skipping, unable to determine old version
+[2023-05-22 17:17:57] INFO root fetch - processPackages [eigenai]: Start processing: types-PyYAML
+[2023-05-22 17:17:57] INFO root fetch - main [MainThread]: End processing [eigenai] error
+[2023-05-22 17:17:57] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2296-configscope-default]: Skipping, unable to determine old version
+[2023-05-22 17:17:57] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2296-configscope-default]: Start processing: types-aiofiles
+[2023-05-22 17:17:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2296-configscope-default] error
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-PyYAML]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-05-22 17:17:57] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-22 17:17:57] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230522/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-aiofiles]: New version: [23.1.0.3] Old Version: [23.1.0.2]
+[2023-05-22 17:17:57] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/24/76/2912d503fd9d80901e0f044471ecb27cdfbc927ed3ee49c22ee69e3bdb1f/sentry_cli-2.18.1.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-PyYAML]: Downloading https://files.pythonhosted.org/packages/1d/b5/bb2c2541056b26c419ed9ce8635e483257562433026a7174bddd078f665c/types-PyYAML-6.0.8.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [jax-xc]: Downloading https://files.pythonhosted.org/packages/64/f3/ac93a4bbbbce3d97ae076a2452f12c02cee170b476e6f5ce3a7a199a4fd0/jax_xc-0.0.3-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-22 17:17:57] INFO root fetch - processPackages [openstacksdk]: Downloading https://files.pythonhosted.org/packages/e9/3b/560ac295eb3db0cc03fd78b46bbaf322103e460bde06ded056a3dfb3c585/openstacksdk-1.1.0.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/d3/12/e5f11e8d5f4c9bb64ebe6557945c536dea8ae6df0bb36a88acd3ae4f9e08/ghastoolkit-0.3.0.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [idem-core-functions]: Downloading https://files.pythonhosted.org/packages/02/77/6a45b679e28baeedb65e865ea3632c4e4383353d85ea39ef285a9da725b4/idem-core-functions-0.2.2.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-aiofiles]: Downloading https://files.pythonhosted.org/packages/3f/9f/2bf6540f140e7d56d4500709add97976b93be990602e332ed722c75daad8/types-aiofiles-23.1.0.2.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-05-22 17:17:57] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.18.0.tar.gz tmp/sentry_cli-2.18.1.tar.gz --markdown 20230522/s/sentry-cli/2.18.0-2.18.1/diff.md --exclude *.pyd
+[2023-05-22 17:17:57] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/f3/b4/aad26ab80dde8799302dbe662e01e1fe40a55a40eba4691be5a5ebcc58a7/inels-mqtt-new-0.2.9a1.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-aiofiles]: Downloading https://files.pythonhosted.org/packages/8f/e9/8259e6cbb9b80180f2034d3ae46c1ec0cd66d331ddb2d4e6c8280c36f3f5/types-aiofiles-23.1.0.3.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [idem-core-functions]: Downloading https://files.pythonhosted.org/packages/27/24/121489290ba58047d9dcce0da21db36d63c89188e7f5f6a173d31f441552/idem-core-functions-0.3.0.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/ca/73/667143ec0e8beca0129901275796d253c99a1610575b61643fa7bf2a13dd/ghastoolkit-0.3.1.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [idem-core-functions]: executing diffoscope
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-aiofiles]: executing diffoscope
+[2023-05-22 17:17:57] INFO root fetch - processPackages [idem-core-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-core-functions-0.2.2.tar.gz tmp/idem-core-functions-0.3.0.tar.gz --markdown 20230522/i/idem-core-functions/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-aiofiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiofiles-23.1.0.2.tar.gz tmp/types-aiofiles-23.1.0.3.tar.gz --markdown 20230522/t/types-aiofiles/23.1.0.2-23.1.0.3/diff.md --exclude *.pyd
+[2023-05-22 17:17:57] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-22 17:17:57] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.3.0.tar.gz tmp/ghastoolkit-0.3.1.tar.gz --markdown 20230522/g/ghastoolkit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-22 17:17:57] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/a6/7a/baead4901c82cd855d0c5606eadd3c032b5e97b8d81da9cd7c40919e99f4/inels-mqtt-new-0.2.9a2.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [types-PyYAML]: Downloading https://files.pythonhosted.org/packages/2b/0d/882d0771996897df176521a93c2ce9d9b0da66d0f9c2bc441b9872a91297/types-PyYAML-6.0.9.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [openstacksdk]: Downloading https://files.pythonhosted.org/packages/0a/7f/a3535e523ef1ae853229bb30af8f32d98f3fd21b50c0f42e917b6174afb2/openstacksdk-1.2.0.tar.gz
+[2023-05-22 17:17:57] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-05-22 17:17:57] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230522/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-05-22 17:17:58] INFO root fetch - processPackages [requests]: Downloading https://files.pythonhosted.org/packages/f9/6d/07c44fb1ebe04d069459a189e7dab9e4abfe9432adcd4477367c25332748/requests-2.9.1.tar.gz
+[2023-05-22 17:17:58] INFO root fetch - processPackages [types-PyYAML]: executing diffoscope
+[2023-05-22 17:17:58] INFO root fetch - processPackages [types-PyYAML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyYAML-6.0.8.tar.gz tmp/types-PyYAML-6.0.9.tar.gz --markdown 20230522/t/types-PyYAML/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:17:58] INFO root fetch - processPackages [openstacksdk]: executing diffoscope
+[2023-05-22 17:17:58] INFO root fetch - processPackages [openstacksdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstacksdk-1.1.0.tar.gz tmp/openstacksdk-1.2.0.tar.gz --markdown 20230522/o/openstacksdk/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 17:17:58] INFO root fetch - processPackages [jax-xc]: Downloading https://files.pythonhosted.org/packages/1f/ed/b554143aa002d3b648ee82d921794f5a170c4f8844ce05fca291ac885bcd/jax_xc-0.0.4-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-22 17:17:58] INFO root fetch - processPackages [requests]: Downloading https://files.pythonhosted.org/packages/64/20/2133a092a0e87d1c250fe48704974b73a1341b7e4f800edecf40462a825d/requests-2.9.2.tar.gz
+[2023-05-22 17:17:58] INFO root fetch - processPackages [requests]: executing diffoscope
+[2023-05-22 17:17:58] INFO root fetch - processPackages [requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests-2.9.1.tar.gz tmp/requests-2.9.2.tar.gz --markdown 20230522/r/requests/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-22 17:17:58] INFO root fetch - processPackages [langchain-serve]: Start processing: dash-extensions
+[2023-05-22 17:17:58] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-22 17:17:58] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.1] Old Version: [1.0.0rc3]
+[2023-05-22 17:17:59] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/51/ac/704e55efd24a8f3638ae49aab33ae4885bac1a913183b6785f4b8ed2c061/dash_extensions-1.0.0rc3.tar.gz
+[2023-05-22 17:17:59] INFO root fetch - processPackages [jax-xc]: executing diffoscope
+[2023-05-22 17:17:59] INFO root fetch - processPackages [jax-xc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_xc-0.0.3-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/jax_xc-0.0.4-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230522/j/jax-xc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 17:17:59] INFO root fetch - processPackages [ghastoolkit]: Start processing: lzallright
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-22 17:17:59] INFO root fetch - processPackages [inels-mqtt-new]: Start processing: types-tensorflow
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-05-22 17:17:59] INFO root fetch - processPackages [lzallright]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-tensorflow]: New version: [2.12.0.4] Old Version: [2.12.0.3]
+[2023-05-22 17:17:59] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/a5/da/7a207b3ff2edd0fcf48e8db3174461e7d7659b597f7c87539d5746de5ac0/dash_extensions-1.0.1.tar.gz
+[2023-05-22 17:17:59] INFO root fetch - processPackages [idem-core-functions]: Start processing: quantconnect-stubs
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [idem-core-functions]: success
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-aiofiles]: Start processing: dingtalk2
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [types-aiofiles]: success
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-PyYAML]: Start processing: methylink
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [types-PyYAML]: success
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/90/ea/becb0717eda43d65ee95e8bad6011577b397c2a83549045cb25480694853/types-tensorflow-2.12.0.3.tar.gz
+[2023-05-22 17:17:59] WARNING root fetch - processPackages [methylink]: Skipping, unable to determine old version
+[2023-05-22 17:17:59] INFO root fetch - processPackages [methylink]: Start processing: edl-mod
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [methylink] error
+[2023-05-22 17:17:59] INFO root fetch - processPackages [edl-mod]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-05-22 17:17:59] INFO root fetch - processPackages [lzallright]: Downloading https://files.pythonhosted.org/packages/44/b4/af82baf7d606ec72d6717a20dff559cabc97396162ba1a3e0aa95cf939c2/lzallright-0.1.0.tar.gz
+[2023-05-22 17:17:59] INFO root fetch - processPackages [edl-mod]: executing diffoscope
+[2023-05-22 17:17:59] INFO root fetch - processPackages [edl-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edl-mod-0.0.36.tar.gz tmp/edl-mod-0.0.37.tar.gz --markdown 20230522/e/edl-mod/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-05-22 17:17:59] WARNING root fetch - processPackages [dingtalk2]: Skipping, unable to determine old version
+[2023-05-22 17:17:59] INFO root fetch - processPackages [dingtalk2]: Start processing: easyass
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [dingtalk2] error
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/ed/65/015937f42879182dcb3fd397c59e74a2c2bad7796cdd58b23570943c481b/types-tensorflow-2.12.0.4.tar.gz
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2023-05-22 17:17:59] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.12.0.3.tar.gz tmp/types-tensorflow-2.12.0.4.tar.gz --markdown 20230522/t/types-tensorflow/2.12.0.3-2.12.0.4/diff.md --exclude *.pyd
+[2023-05-22 17:17:59] WARNING root fetch - processPackages [easyass]: Skipping, unable to determine old version
+[2023-05-22 17:17:59] INFO root fetch - processPackages [easyass]: Start processing: msaDocModels
+[2023-05-22 17:17:59] INFO root fetch - main [MainThread]: End processing [easyass] error
+[2023-05-22 17:18:00] INFO root fetch - processPackages [lzallright]: Downloading https://files.pythonhosted.org/packages/b6/14/c64b1c22064f51f0ff98743493bb6321ac50749f32e297e82ca567c746a9/lzallright-0.2.0.tar.gz
+[2023-05-22 17:18:00] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-22 17:18:00] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:18:00] INFO root fetch - processPackages [lzallright]: executing diffoscope
+[2023-05-22 17:18:00] INFO root fetch - processPackages [lzallright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzallright-0.1.0.tar.gz tmp/lzallright-0.2.0.tar.gz --markdown 20230522/l/lzallright/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 17:18:00] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-05-22 17:18:00] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230522/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:18:00] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-22 17:18:00] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230522/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-22 17:18:00] INFO root fetch - main [MainThread]: End processing [requests]: success
+[2023-05-22 17:18:00] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2023-05-22 17:18:00] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.0rc3.tar.gz tmp/dash_extensions-1.0.1.tar.gz --markdown 20230522/d/dash-extensions/1.0.0rc3-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 17:18:01] INFO root fetch - main [MainThread]: End processing [edl-mod]: success
+[2023-05-22 17:18:01] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-05-22 17:18:01] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-05-22 17:18:01] INFO root fetch - main [MainThread]: End processing [lzallright]: success
+[2023-05-22 17:18:04] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2023-05-22 17:18:05] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2023-05-22 17:18:05] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-22 17:18:49] INFO root fetch - main [MainThread]: End processing [jax-xc]: success
+[2023-05-22 17:18:54] INFO root fetch - main [MainThread]: End processing [openstacksdk]: success
+[2023-05-22 17:18:54] INFO root fetch - main [MainThread]: Store serial: [18199921]
