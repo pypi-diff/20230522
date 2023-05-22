@@ -20395,3 +20395,134 @@ EOFError: EOF read where object expected
 [2023-05-22 19:03:48] INFO root fetch - main [MainThread]: End processing [file-name-attributes]: success
 [2023-05-22 19:05:03] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-22 19:05:03] INFO root fetch - main [MainThread]: Store serial: [18201229]
+[2023-05-22 19:10:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201229]
+[2023-05-22 19:10:14] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-22 19:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudone-vsapi
+[2023-05-22 19:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacy-transformers
+[2023-05-22 19:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchmd
+[2023-05-22 19:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dysweep
+[2023-05-22 19:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metabeaver
+[2023-05-22 19:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: memory-graph
+[2023-05-22 19:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-gql-pygen
+[2023-05-22 19:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amplpy
+[2023-05-22 19:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oak9-tython
+[2023-05-22 19:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tidy3d
+[2023-05-22 19:10:15] INFO root fetch - processPackages [dysweep]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [memory-graph]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [tidy3d]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [metabeaver]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cognite-gql-pygen]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [torchmd]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.7b6] Old Version: [1.0.7b5]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [spacy-transformers]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [amplpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cloudone-vsapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cognite-gql-pygen]: Downloading https://files.pythonhosted.org/packages/bd/a1/5f19f0cbcbc97c2b441a1ae705f782c1c78c040f52e87e36b19031bf404c/cognite_gql_pygen-0.8.0.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/df/d0/91d8cc0bbf91db951b00a5005ee6bd85015a896b74551a7725d5152fe6a7/amplpy-0.9.2.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [spacy-transformers]: Downloading https://files.pythonhosted.org/packages/53/95/9edb2e8412ff4877ce59c0b7aac44402037fa0a49a9ad3e859cc33339329/spacy-transformers-1.2.3.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [tidy3d]: Downloading https://files.pythonhosted.org/packages/b2/02/987eb29138b8eaaba8fff794fd1d1f321205414de391a98a7d72d3ab4754/tidy3d-2.1.1.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [metabeaver]: Downloading https://files.pythonhosted.org/packages/39/01/6074a0d9f724975dba6a859f9a63bfee2a8346db13bee5ed49c6b632f3d5/metabeaver-0.1.6.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [torchmd]: Downloading https://files.pythonhosted.org/packages/72/21/68ea222e9bae0d151bdac499895d303c6dcfbf3738eceba7c0386c6a5f46/torchmd-0.0.4.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cloudone-vsapi]: Downloading https://files.pythonhosted.org/packages/68/c7/d8ae30b156f2cd73ad312f71727129f3dbeadd783470fd76390d2825927a/cloudone-vsapi-1.0.3.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/cf/df/4345c49a7772da135abe1c528ffdfd8b356e21ed5bc4bdcc3155d968e437/oak9_tython-1.0.7b5.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/f0/91/fb7fac4140ccdb3b0f7004d29cba310b41292139b650881aa74ee5a48fe2/dysweep-0.0.5.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [memory-graph]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [memory-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_graph-0.1.8.tar.gz tmp/memory_graph-0.1.9.tar.gz --markdown 20230522/m/memory-graph/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [spacy-transformers]: Downloading https://files.pythonhosted.org/packages/6d/7c/29ad941337944b99c696e009ef1fc58cd9c96c4bfb53e2826681201ab512/spacy-transformers-1.2.4.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [torchmd]: Downloading https://files.pythonhosted.org/packages/75/ed/e7adbe1a6c9e150792c80a55718b7bce4688e270c704669064edd6d0e880/torchmd-1.0.0.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [dysweep]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [dysweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dysweep-0.0.4.tar.gz tmp/dysweep-0.0.5.tar.gz --markdown 20230522/d/dysweep/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cloudone-vsapi]: Downloading https://files.pythonhosted.org/packages/ee/b6/afd00c0ec447fb64c6552202a0439d6ccba381df4338acb54088376ba277/cloudone-vsapi-1.0.4.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [tidy3d]: Downloading https://files.pythonhosted.org/packages/86/eb/f7962b78bc5619e61efe065e15e88c2365a66b171bc923c78e0d8dd2fb01/tidy3d-2.2.0.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cognite-gql-pygen]: Downloading https://files.pythonhosted.org/packages/6d/ca/221f7717ef84370ac8a9b27b0ec840d8ffb5bebfc147e0adfa70bfda1fef/cognite_gql_pygen-0.8.1.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [metabeaver]: Downloading https://files.pythonhosted.org/packages/a9/af/d208c6695a9f665ab4a51beea95d934758b798444b3db57285051a838aba/metabeaver-0.1.7.tar.gz
+[2023-05-22 19:10:15] INFO root fetch - processPackages [spacy-transformers]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [spacy-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-transformers-1.2.3.tar.gz tmp/spacy-transformers-1.2.4.tar.gz --markdown 20230522/s/spacy-transformers/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [torchmd]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [torchmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmd-0.0.4.tar.gz tmp/torchmd-1.0.0.tar.gz --markdown 20230522/t/torchmd/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cloudone-vsapi]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cloudone-vsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudone-vsapi-1.0.3.tar.gz tmp/cloudone-vsapi-1.0.4.tar.gz --markdown 20230522/c/cloudone-vsapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [tidy3d]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [tidy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy3d-2.1.1.tar.gz tmp/tidy3d-2.2.0.tar.gz --markdown 20230522/t/tidy3d/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cognite-gql-pygen]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [cognite-gql-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_gql_pygen-0.8.0.tar.gz tmp/cognite_gql_pygen-0.8.1.tar.gz --markdown 20230522/c/cognite-gql-pygen/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-22 19:10:15] INFO root fetch - processPackages [metabeaver]: executing diffoscope
+[2023-05-22 19:10:15] INFO root fetch - processPackages [metabeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabeaver-0.1.6.tar.gz tmp/metabeaver-0.1.7.tar.gz --markdown 20230522/m/metabeaver/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 19:10:16] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/3f/df/ce7d9e4ab67db51ec0ad0e34d17cd091fad1300510381b63beca7c301cb9/oak9_tython-1.0.7b6.tar.gz
+[2023-05-22 19:10:16] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/cf/22/5b01cf9c3cc1a70c81f3fc27901121a544a5e75eea08a20c9953565ac9d2/amplpy-0.9.3.tar.gz
+[2023-05-22 19:10:16] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-05-22 19:10:16] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.7b5.tar.gz tmp/oak9_tython-1.0.7b6.tar.gz --markdown 20230522/o/oak9-tython/1.0.7b5-1.0.7b6/diff.md --exclude *.pyd
+[2023-05-22 19:10:16] INFO root fetch - processPackages [amplpy]: executing diffoscope
+[2023-05-22 19:10:16] INFO root fetch - processPackages [amplpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplpy-0.9.2.tar.gz tmp/amplpy-0.9.3.tar.gz --markdown 20230522/a/amplpy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-22 19:10:16] INFO root fetch - processPackages [memory-graph]: Start processing: audit-repo-cloner
+[2023-05-22 19:10:16] INFO root fetch - main [MainThread]: End processing [memory-graph]: success
+[2023-05-22 19:10:16] WARNING root fetch - processPackages [audit-repo-cloner]: Skipping, unable to determine old version
+[2023-05-22 19:10:16] INFO root fetch - processPackages [audit-repo-cloner]: Start processing: sidetrek
+[2023-05-22 19:10:16] INFO root fetch - main [MainThread]: End processing [audit-repo-cloner] error
+[2023-05-22 19:10:17] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [dysweep]: Start processing: serializer-Konchik
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [dysweep]: success
+[2023-05-22 19:10:17] INFO root fetch - processPackages [serializer-Konchik]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 19:10:17] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:10:17] INFO root fetch - processPackages [metabeaver]: Start processing: nbsite
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [metabeaver]: success
+[2023-05-22 19:10:17] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [torchmd]: Start processing: pulumi-snowflake
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [torchmd]: success
+[2023-05-22 19:10:17] INFO root fetch - processPackages [serializer-Konchik]: Downloading https://files.pythonhosted.org/packages/d4/61/cf87c396c671e509dac3515c10fb0174e22d8eba2bed290d1db7ff5788fa/serializer_Konchik-0.1.4.tar.gz
+[2023-05-22 19:10:17] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-22 19:10:17] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230522/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-22 19:10:17] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [cloudone-vsapi]: Start processing: python-amcards
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [cloudone-vsapi]: success
+[2023-05-22 19:10:17] INFO root fetch - processPackages [serializer-Konchik]: executing diffoscope
+[2023-05-22 19:10:17] INFO root fetch - processPackages [serializer-Konchik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializer_Konchik-0.1.3.tar.gz tmp/serializer_Konchik-0.1.4.tar.gz --markdown 20230522/s/serializer-Konchik/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 19:10:17] INFO root fetch - processPackages [cognite-gql-pygen]: Start processing: bfio
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [cognite-gql-pygen]: success
+[2023-05-22 19:10:17] INFO root fetch - processPackages [python-amcards]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [bfio]: New version: [2.3.1.dev0] Old Version: [2.3.0.dev0]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [spacy-transformers]: Start processing: Keg-Auth
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [spacy-transformers]: success
+[2023-05-22 19:10:17] INFO root fetch - processPackages [bfio]: Downloading https://files.pythonhosted.org/packages/d9/d6/085af679a8f7e8e5e2170084d405eab13b3f95c3c4b4ce634bb5ccb5fc3e/bfio-2.3.0.dev0.tar.gz
+[2023-05-22 19:10:17] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-22 19:10:17] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230522/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-22 19:10:17] INFO root fetch - processPackages [Keg-Auth]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-22 19:10:17] WARNING root fetch - processPackages [bfio]: Skipping package: exceeds size limit 40645353>=10485760
+[2023-05-22 19:10:17] INFO root fetch - processPackages [bfio]: Start processing: sidetrek
+[2023-05-22 19:10:17] INFO root fetch - main [MainThread]: End processing [bfio] error
+[2023-05-22 19:10:17] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:10:17] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2023-05-22 19:10:17] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.8.tar.gz tmp/python-amcards-1.2.9.tar.gz --markdown 20230522/p/python-amcards/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-22 19:10:18] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 19:10:18] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:10:18] INFO root fetch - processPackages [Keg-Auth]: Downloading https://files.pythonhosted.org/packages/4f/26/0600a6b8250bc024cb868b8c7409033fc26f93356b5858557fc09e38c01b/Keg-Auth-0.7.1.tar.gz
+[2023-05-22 19:10:18] INFO root fetch - processPackages [Keg-Auth]: Downloading https://files.pythonhosted.org/packages/6c/3c/c111efbdaaec579c6e01fe44abc1b119cb585bfc0c4e265e44b6c3a4d3de/Keg-Auth-0.7.2.tar.gz
+[2023-05-22 19:10:18] INFO root fetch - processPackages [Keg-Auth]: executing diffoscope
+[2023-05-22 19:10:18] INFO root fetch - processPackages [Keg-Auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Keg-Auth-0.7.1.tar.gz tmp/Keg-Auth-0.7.2.tar.gz --markdown 20230522/K/Keg-Auth/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-22 19:10:18] INFO root fetch - processPackages [sidetrek]: Start processing: careamics
+[2023-05-22 19:10:18] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 19:10:18] WARNING root fetch - processPackages [careamics]: Skipping, unable to determine old version
+[2023-05-22 19:10:18] INFO root fetch - processPackages [careamics]: Start processing: mautrix-twitter
+[2023-05-22 19:10:18] INFO root fetch - main [MainThread]: End processing [careamics] error
+[2023-05-22 19:10:18] INFO root fetch - processPackages [mautrix-twitter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 19:10:18] INFO root fetch - processPackages [mautrix-twitter]: Downloading https://files.pythonhosted.org/packages/d7/4f/cd9a71a85f05dd4819315ebe2acc088f5427c83932efbce45026c4a4f4d4/mautrix-twitter-0.1.5.tar.gz
+[2023-05-22 19:10:19] INFO root fetch - processPackages [tidy3d]: Start processing: ardilla
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [tidy3d]: success
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [serializer-Konchik]: success
+[2023-05-22 19:10:19] INFO root fetch - processPackages [mautrix-twitter]: Downloading https://files.pythonhosted.org/packages/d6/fb/7ab69c9477965c97db5983d18d568ea2d93a1fb678c7536b871f5a1bf374/mautrix-twitter-0.1.6.tar.gz
+[2023-05-22 19:10:19] INFO root fetch - processPackages [ardilla]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [amplpy]: success
+[2023-05-22 19:10:19] INFO root fetch - processPackages [mautrix-twitter]: executing diffoscope
+[2023-05-22 19:10:19] INFO root fetch - processPackages [mautrix-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mautrix-twitter-0.1.5.tar.gz tmp/mautrix-twitter-0.1.6.tar.gz --markdown 20230522/m/mautrix-twitter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-22 19:10:19] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-22 19:10:19] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.0.8a0.tar.gz tmp/ardilla-0.0.9a0.tar.gz --markdown 20230522/a/ardilla/0.0.8a0-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-22 19:10:19] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-22 19:10:20] INFO root fetch - main [MainThread]: End processing [Keg-Auth]: success
+[2023-05-22 19:10:20] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-22 19:10:20] INFO root fetch - main [MainThread]: End processing [mautrix-twitter]: success
+[2023-05-22 19:10:32] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-05-22 19:10:32] INFO root fetch - main [MainThread]: Store serial: [18201362]
