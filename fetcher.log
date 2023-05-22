@@ -4878,3 +4878,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:02:42] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-05-22 06:02:47] INFO root fetch - main [MainThread]: End processing [gradio-offline]: success
 [2023-05-22 06:02:47] INFO root fetch - main [MainThread]: Store serial: [18192148]
+[2023-05-22 06:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192148]
+[2023-05-22 06:07:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mojo-testplus
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixate
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiextras
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krutils
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neutrosopy
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smoloki
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfem
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twiss
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiextras
+[2023-05-22 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Swaiter
+[2023-05-22 06:07:56] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 06:07:56] WARNING root fetch - processPackages [twiss]: Skipping, unable to determine old version
+[2023-05-22 06:07:56] INFO root fetch - main [MainThread]: End processing [twiss] error
+[2023-05-22 06:07:56] INFO root fetch - processPackages [neutrosopy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [pyfem]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [smoloki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [fixate]: New version: [0.6.1.post1] Old Version: [0.6.1.dev0]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [Swaiter]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1301] Old Version: [0.20230522.1259]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/a6/80/929b2bcc81730bc25fd87f5f8df1b11ca8d160f275345bd49be1b2e0741f/aiextras-0.0.1.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/a6/80/929b2bcc81730bc25fd87f5f8df1b11ca8d160f275345bd49be1b2e0741f/aiextras-0.0.1.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/6c/92/a31f755694244bee2502b15664c819fe30951abb6859956dc030956e45c2/pyfem-0.0.8.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [neutrosopy]: Downloading https://files.pythonhosted.org/packages/b9/0a/b240c7a39313773292cd9f1b64c730511203182984e1c4e291a584f2f6f3/neutrosopy-0.0.7.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/39/1f/61b2e206df6ebaa1c0b92d3e2458b65b97b3176ebef8f4a0b8181aa64f1f/mojo_testplus-0.0.5.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.0.7.tar.gz tmp/pyfem-0.0.8.tar.gz --markdown 20230522/p/pyfem/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/bf/97/b6ea2626bdd10e47964a724cfa692045a020d8f9a3ae50d87dea8c8e552e/krutils-0.20230522.1301.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [smoloki]: Downloading https://files.pythonhosted.org/packages/88/d7/3e6002951b3056c393f97345d3b4c2c59cebf6ece6917ceea24909988149/smoloki-0.0.8.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [neutrosopy]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [neutrosopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutrosopy-0.0.6.tar.gz tmp/neutrosopy-0.0.7.tar.gz --markdown 20230522/n/neutrosopy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [Swaiter]: Downloading https://files.pythonhosted.org/packages/d3/4d/ab866b1948d4fc928bfe5b4c97a15a0fd8ac899c766f98a232743ca1358d/Swaiter-1.0.3.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/23/b1/ec72598c1ca4fd4fb7d5daef3b1f4e8a3e6f78a439e08441d2b8cc7ae59f/aiextras-0.0.2.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/23/b1/ec72598c1ca4fd4fb7d5daef3b1f4e8a3e6f78a439e08441d2b8cc7ae59f/aiextras-0.0.2.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1259.tar.gz tmp/krutils-0.20230522.1301.tar.gz --markdown 20230522/k/krutils/0.20230522.1259-0.20230522.1301/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.1.tar.gz tmp/aiextras-0.0.2.tar.gz --markdown 20230522/a/aiextras/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.1.tar.gz tmp/aiextras-0.0.2.tar.gz --markdown 20230522/a/aiextras/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [fixate]: Downloading https://files.pythonhosted.org/packages/9b/70/cb40daf8beac8c59bd54180ee96c9c6e22a42d84aeb0612b4b3056c7a87f/fixate-0.6.1.post1.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [fixate]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [fixate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixate-0.6.1.dev0.tar.gz tmp/fixate-0.6.1.post1.tar.gz --markdown 20230522/f/fixate/0.6.1.dev0-0.6.1.post1/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/d7/5d/ef815d751cc3d4b592c2b5e50d0c8a7549435e90ad7e958087a633cccb68/mojo_testplus-0.0.8.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [Swaiter]: Downloading https://files.pythonhosted.org/packages/1f/5f/e48b8b695b202c0b459e9785714e321e64fa5f1baf48b0ff7e67f7a8367c/Swaiter-1.0.4.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [smoloki]: Downloading https://files.pythonhosted.org/packages/9f/a3/10631a2338c9a76d19cd32f7fc3ab8355f595abae43f927833a42aa8913b/smoloki-0.0.9.tar.gz
+[2023-05-22 06:07:56] INFO root fetch - processPackages [Swaiter]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [Swaiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swaiter-1.0.3.tar.gz tmp/Swaiter-1.0.4.tar.gz --markdown 20230522/S/Swaiter/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [smoloki]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [smoloki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoloki-0.0.8.tar.gz tmp/smoloki-0.0.9.tar.gz --markdown 20230522/s/smoloki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 06:07:56] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-05-22 06:07:56] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.5.tar.gz tmp/mojo_testplus-0.0.8.tar.gz --markdown 20230522/m/mojo-testplus/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 06:07:57] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 06:07:57] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [neutrosopy]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [smoloki]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [Swaiter]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [fixate]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2023-05-22 06:07:58] INFO root fetch - main [MainThread]: Store serial: [18192187]
