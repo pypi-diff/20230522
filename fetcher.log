@@ -4427,3 +4427,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 05:02:56] INFO root fetch - main [MainThread]: End processing [fc2-live-dl]: success
 [2023-05-22 05:02:56] INFO root fetch - main [MainThread]: End processing [persyn]: success
 [2023-05-22 05:02:56] INFO root fetch - main [MainThread]: Store serial: [18191869]
+[2023-05-22 05:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191869]
+[2023-05-22 05:08:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 05:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkpyutil
+[2023-05-22 05:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misc-io-operations
+[2023-05-22 05:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robin-stocks
+[2023-05-22 05:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: misc-io-operations
+[2023-05-22 05:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adnbidder
+[2023-05-22 05:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molfeat
+[2023-05-22 05:08:05] INFO root fetch - processPackages [robin-stocks]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-22 05:08:05] INFO root fetch - processPackages [adnbidder]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 05:08:05] INFO root fetch - processPackages [molfeat]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-22 05:08:05] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-05-22 05:08:05] INFO root fetch - processPackages [misc-io-operations]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-22 05:08:05] INFO root fetch - processPackages [misc-io-operations]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-22 05:08:05] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/eb/78/1bec4abc0580ec726260f64a7a711c7ac50184dc0964af37736c5fb72b62/misc_io_operations-1.2.9.tar.gz
+[2023-05-22 05:08:05] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/eb/78/1bec4abc0580ec726260f64a7a711c7ac50184dc0964af37736c5fb72b62/misc_io_operations-1.2.9.tar.gz
+[2023-05-22 05:08:05] INFO root fetch - processPackages [robin-stocks]: Downloading https://files.pythonhosted.org/packages/21/58/57b9344e39a1d0d063560c0e2949e9c82f5770d990ee1c18a8cb4a1a2e64/robin_stocks-3.0.1.tar.gz
+[2023-05-22 05:08:05] INFO root fetch - processPackages [molfeat]: Downloading https://files.pythonhosted.org/packages/ab/15/0ca3c4576c97e77e847b0a87b2b471c6de09fa52fccb0358653d453d9a00/molfeat-0.8.8.tar.gz
+[2023-05-22 05:08:05] INFO root fetch - processPackages [adnbidder]: Downloading https://files.pythonhosted.org/packages/ee/6a/824faec0e39d19ffea7f79ea062dae87830a0cc497f82dd193a4f08a88b7/adnbidder-1.0.2.tar.gz
+[2023-05-22 05:08:06] INFO root fetch - processPackages [robin-stocks]: executing diffoscope
+[2023-05-22 05:08:06] INFO root fetch - processPackages [robin-stocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_stocks-3.0.0.tar.gz tmp/robin_stocks-3.0.1.tar.gz --markdown 20230522/r/robin-stocks/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-22 05:08:06] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-05-22 05:08:06] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230522/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-05-22 05:08:06] INFO root fetch - processPackages [adnbidder]: executing diffoscope
+[2023-05-22 05:08:06] INFO root fetch - processPackages [adnbidder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnbidder-1.0.1.tar.gz tmp/adnbidder-1.0.2.tar.gz --markdown 20230522/a/adnbidder/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 05:08:06] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/a5/b9/7dfd33b9f266d6b07920a0067d76a61f9ef064e8dea28e30aeaa0a96335c/misc_io_operations-1.3.0.tar.gz
+[2023-05-22 05:08:06] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/a5/b9/7dfd33b9f266d6b07920a0067d76a61f9ef064e8dea28e30aeaa0a96335c/misc_io_operations-1.3.0.tar.gz
+[2023-05-22 05:08:06] INFO root fetch - processPackages [molfeat]: Downloading https://files.pythonhosted.org/packages/a1/59/a253e8d8b3002ab6efb00e6c9db6bf5f4285ae0dea7e148055d98d213ecb/molfeat-0.8.9.tar.gz
+[2023-05-22 05:08:06] INFO root fetch - processPackages [molfeat]: executing diffoscope
+[2023-05-22 05:08:06] INFO root fetch - processPackages [molfeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molfeat-0.8.8.tar.gz tmp/molfeat-0.8.9.tar.gz --markdown 20230522/m/molfeat/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-22 05:08:06] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 05:08:06] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 05:08:06] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.2.9.tar.gz tmp/misc_io_operations-1.3.0.tar.gz --markdown 20230522/m/misc-io-operations/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 05:08:06] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.2.9.tar.gz tmp/misc_io_operations-1.3.0.tar.gz --markdown 20230522/m/misc-io-operations/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 05:08:07] INFO root fetch - main [MainThread]: End processing [adnbidder]: success
+[2023-05-22 05:08:07] INFO root fetch - main [MainThread]: End processing [robin-stocks]: success
+[2023-05-22 05:08:07] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 05:08:07] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 05:08:07] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-05-22 05:08:08] INFO root fetch - main [MainThread]: End processing [molfeat]: success
+[2023-05-22 05:08:08] INFO root fetch - main [MainThread]: Store serial: [18191887]
