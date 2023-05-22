@@ -7040,3 +7040,172 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:37:03] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
 [2023-05-22 09:37:44] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2023-05-22 09:37:44] INFO root fetch - main [MainThread]: Store serial: [18193555]
+[2023-05-22 09:42:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193555]
+[2023-05-22 09:42:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsdotpy
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cengal
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tldrwl
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YKDraco
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-seqviz
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynamicprompts
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: template-pptx-jinja-fix
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmsdna-lakeapi
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: VerdisConfigPackage
+[2023-05-22 09:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudstructs
+[2023-05-22 09:42:58] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-22 09:42:58] INFO root fetch - processPackages [streamlit-seqviz]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [dynamicprompts]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [cengal]: New version: [3.2.0.23] Old Version: [3.1.18.9]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [tldrwl]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [YKDraco]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [nsdotpy]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.1.1.tar.gz tmp/bmsdna_lakeapi-0.2.1.tar.gz --markdown 20230522/b/bmsdna-lakeapi/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [dynamicprompts]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [template-pptx-jinja-fix]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [dynamicprompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicprompts-0.7.0.tar.gz tmp/dynamicprompts-0.7.1.tar.gz --markdown 20230522/d/dynamicprompts/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [cloudstructs]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-22 09:42:59] WARNING root fetch - processPackages [VerdisConfigPackage]: Skipping, unable to determine old version
+[2023-05-22 09:42:59] INFO root fetch - processPackages [VerdisConfigPackage]: Start processing: ConfigPackageVerdis
+[2023-05-22 09:42:59] INFO root fetch - main [MainThread]: End processing [VerdisConfigPackage] error
+[2023-05-22 09:42:59] INFO root fetch - processPackages [streamlit-seqviz]: Downloading https://files.pythonhosted.org/packages/33/da/0761536337c55eede10cce1cc6b780d6478325edb8afa430c0d3c62e0e25/streamlit-seqviz-0.0.1.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/79/3d/a0f26ac19acce8a9e4e89e33fb2c3d15d21cc3f3ef37ff8d18390efc5750/tldrwl-0.0.5.tar.gz
+[2023-05-22 09:42:59] WARNING root fetch - processPackages [ConfigPackageVerdis]: Skipping, unable to determine old version
+[2023-05-22 09:42:59] INFO root fetch - processPackages [ConfigPackageVerdis]: Start processing: oc-connections
+[2023-05-22 09:42:59] INFO root fetch - main [MainThread]: End processing [ConfigPackageVerdis] error
+[2023-05-22 09:42:59] INFO root fetch - processPackages [template-pptx-jinja-fix]: Downloading https://files.pythonhosted.org/packages/ec/d0/72fc2844f0087c21860deba5ce36467f334e98822f296387d2cd7e299799/template-pptx-jinja-fix-0.0.2.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [YKDraco]: Downloading https://files.pythonhosted.org/packages/f2/21/519c86c55218c7efccfce9d05e824e0b88ba0a55edaa1aa2cc2155659536/YKDraco-0.0.2-cp311-cp311-win_amd64.whl
+[2023-05-22 09:42:59] INFO root fetch - processPackages [oc-connections]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 09:42:59] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/e2/78/71de45ff9aa5a8f1f1b8ed324ce4504f192f8de394d3c628525f5d1f888a/cloudstructs-0.6.8.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [cengal]: Downloading https://files.pythonhosted.org/packages/34/5f/bda34f132debfa87207b32027416febc70a31cbe42ee874b13f1cdc0db75/cengal-3.2.0.23.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [streamlit-seqviz]: Downloading https://files.pythonhosted.org/packages/2a/07/591fcde79cc31b6088f4b90c53c84537de6d4146a2782637e0b34abea489/streamlit-seqviz-0.0.2.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/f2/d4/7c55bd1e0f56b4988d84cd7032698ff94340620fe496bb9d44bbe75e4789/nsdotpy-1.3.3.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [streamlit-seqviz]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [streamlit-seqviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-seqviz-0.0.1.tar.gz tmp/streamlit-seqviz-0.0.2.tar.gz --markdown 20230522/s/streamlit-seqviz/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [oc-connections]: Downloading https://files.pythonhosted.org/packages/b1/42/d9db227cee4ece8b1750248b55c5bd55e2d60e0e3831a83e0a0999cdc35d/oc_connections-1.0.0-py3-none-any.whl
+[2023-05-22 09:42:59] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/1c/4f/262d39803d54fc12e63e2b46421e381062fee0f5a51d945810d48b5ef6fa/tldrwl-0.0.6.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [YKDraco]: Downloading https://files.pythonhosted.org/packages/d4/96/ef0b8cdefeaf7983a6f30a7d8d37c99700869c31dbd204906186290ca439/YKDraco-0.0.3-cp311-cp311-win_amd64.whl
+[2023-05-22 09:42:59] INFO root fetch - processPackages [template-pptx-jinja-fix]: Downloading https://files.pythonhosted.org/packages/63/4e/acad0c7be3ee34edf8d856ee828c5a443e9381d46f3f5c557a7070e8020e/template-pptx-jinja-fix-0.0.3.tar.gz
+[2023-05-22 09:42:59] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.18.9.tar.gz tmp/cengal-3.2.0.23.tar.gz --markdown 20230522/c/cengal/3.1.18.9-3.2.0.23/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [nsdotpy]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.3.2.tar.gz tmp/nsdotpy-1.3.3.tar.gz --markdown 20230522/n/nsdotpy/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.5.tar.gz tmp/tldrwl-0.0.6.tar.gz --markdown 20230522/t/tldrwl/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [template-pptx-jinja-fix]: executing diffoscope
+[2023-05-22 09:42:59] INFO root fetch - processPackages [template-pptx-jinja-fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pptx-jinja-fix-0.0.2.tar.gz tmp/template-pptx-jinja-fix-0.0.3.tar.gz --markdown 20230522/t/template-pptx-jinja-fix/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 09:42:59] INFO root fetch - processPackages [oc-connections]: Downloading https://files.pythonhosted.org/packages/95/39/21a0af82506c2e7c778eb48a507b14e11f893eb1333c83e5eeae7607a493/oc_connections-1.0.1-py3-none-any.whl
+[2023-05-22 09:43:00] INFO root fetch - processPackages [oc-connections]: executing diffoscope
+[2023-05-22 09:43:00] INFO root fetch - processPackages [oc-connections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_connections-1.0.0-py3-none-any.whl.zip tmp/oc_connections-1.0.1-py3-none-any.whl.zip --markdown 20230522/o/oc-connections/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 09:43:00] INFO root fetch - processPackages [dynamicprompts]: Start processing: paideia-contracts
+[2023-05-22 09:43:00] INFO root fetch - main [MainThread]: End processing [dynamicprompts]: success
+[2023-05-22 09:43:00] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/3a/59/0b763f27e6baa4f63f45fded3a4b9812a6b7f46c9c6ae023c795a6d640fd/cloudstructs-0.6.9.tar.gz
+[2023-05-22 09:43:00] INFO root fetch - processPackages [bmsdna-lakeapi]: Start processing: VerdisCloudPackage
+[2023-05-22 09:43:00] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-05-22 09:43:00] INFO root fetch - processPackages [paideia-contracts]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-22 09:43:00] INFO root fetch - processPackages [YKDraco]: executing diffoscope
+[2023-05-22 09:43:00] INFO root fetch - processPackages [YKDraco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YKDraco-0.0.2-cp311-cp311-win_amd64.whl.zip tmp/YKDraco-0.0.3-cp311-cp311-win_amd64.whl.zip --markdown 20230522/Y/YKDraco/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 09:43:00] INFO root fetch - processPackages [VerdisCloudPackage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 09:43:00] INFO root fetch - processPackages [paideia-contracts]: Downloading https://files.pythonhosted.org/packages/80/68/52462e8723d4cdfab71b45fcd58c27954eecf6471509c300d6cc601d908a/paideia_contracts-1.1.2.tar.gz
+[2023-05-22 09:43:00] INFO root fetch - processPackages [VerdisCloudPackage]: Downloading https://files.pythonhosted.org/packages/43/00/b7feca5820eac62ca88f59e33ceddce4898736f087795cf963285899f86d/VerdisCloudPackage-0.0.1-py3-none-any.whl
+[2023-05-22 09:43:00] INFO root fetch - processPackages [cloudstructs]: executing diffoscope
+[2023-05-22 09:43:00] INFO root fetch - processPackages [cloudstructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstructs-0.6.8.tar.gz tmp/cloudstructs-0.6.9.tar.gz --markdown 20230522/c/cloudstructs/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-22 09:43:00] INFO root fetch - processPackages [tldrwl]: Start processing: hopic
+[2023-05-22 09:43:00] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-22 09:43:01] INFO root fetch - processPackages [hopic]: New version: [1.61.0] Old Version: [1.60.0]
+[2023-05-22 09:43:01] INFO root fetch - processPackages [paideia-contracts]: Downloading https://files.pythonhosted.org/packages/e6/16/f10a7ba95bcecb0e0016d210f1f60e18a4d81de588efb87212512dbc2618/paideia_contracts-1.1.3.tar.gz
+[2023-05-22 09:43:01] INFO root fetch - processPackages [template-pptx-jinja-fix]: Start processing: configloaders
+[2023-05-22 09:43:01] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-fix]: success
+[2023-05-22 09:43:01] INFO root fetch - processPackages [configloaders]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-22 09:43:01] INFO root fetch - processPackages [VerdisCloudPackage]: Downloading https://files.pythonhosted.org/packages/16/d9/045e69b8a8649e9afecb4b7f797383a1c1fd84e2887d42038286c8d9215b/VerdisCloudPackage-0.0.2-py3-none-any.whl
+[2023-05-22 09:43:01] INFO root fetch - processPackages [nsdotpy]: Start processing: sarus-data-spec-public
+[2023-05-22 09:43:01] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
+[2023-05-22 09:43:01] INFO root fetch - processPackages [configloaders]: executing diffoscope
+[2023-05-22 09:43:01] INFO root fetch - processPackages [configloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configloaders-2.1.0.tar.gz tmp/configloaders-2.2.0.tar.gz --markdown 20230522/c/configloaders/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-22 09:43:01] INFO root fetch - processPackages [hopic]: Downloading https://files.pythonhosted.org/packages/42/22/32de442223ba80a631b13fdedb9f460cd89d103f52f918bead9a76d8df8a/hopic-1.60.0.tar.gz
+[2023-05-22 09:43:01] INFO root fetch - processPackages [oc-connections]: Start processing: injson-ok
+[2023-05-22 09:43:01] INFO root fetch - main [MainThread]: End processing [oc-connections]: success
+[2023-05-22 09:43:01] INFO root fetch - processPackages [paideia-contracts]: executing diffoscope
+[2023-05-22 09:43:01] INFO root fetch - processPackages [paideia-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paideia_contracts-1.1.2.tar.gz tmp/paideia_contracts-1.1.3.tar.gz --markdown 20230522/p/paideia-contracts/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-22 09:43:01] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.3.0.dev1] Old Version: [3.3.0.dev0]
+[2023-05-22 09:43:01] INFO root fetch - processPackages [VerdisCloudPackage]: executing diffoscope
+[2023-05-22 09:43:01] INFO root fetch - processPackages [VerdisCloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VerdisCloudPackage-0.0.1-py3-none-any.whl.zip tmp/VerdisCloudPackage-0.0.2-py3-none-any.whl.zip --markdown 20230522/V/VerdisCloudPackage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 09:43:01] WARNING root fetch - processPackages [injson-ok]: Skipping, unable to determine old version
+[2023-05-22 09:43:01] INFO root fetch - processPackages [injson-ok]: Start processing: VerdisCloudPackage
+[2023-05-22 09:43:01] INFO root fetch - main [MainThread]: End processing [injson-ok] error
+[2023-05-22 09:43:01] INFO root fetch - processPackages [VerdisCloudPackage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 09:43:01] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/22/fe/8b0f39c0e8ffb1f22e72d9191330e06087e265703490fc7884a5d5f0b085/sarus_data_spec_public-3.3.0.dev0.tar.gz
+[2023-05-22 09:43:01] INFO root fetch - processPackages [streamlit-seqviz]: Start processing: energymeter2mqtt
+[2023-05-22 09:43:01] INFO root fetch - main [MainThread]: End processing [streamlit-seqviz]: success
+[2023-05-22 09:43:01] INFO root fetch - processPackages [hopic]: Downloading https://files.pythonhosted.org/packages/82/a8/0575b54c2c340686915f0d7d114596892d746b8b0b2d741d14ae88c534b2/hopic-1.61.0.tar.gz
+[2023-05-22 09:43:01] INFO root fetch - processPackages [VerdisCloudPackage]: executing diffoscope
+[2023-05-22 09:43:01] INFO root fetch - processPackages [VerdisCloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VerdisCloudPackage-0.0.1-py3-none-any.whl.zip tmp/VerdisCloudPackage-0.0.2-py3-none-any.whl.zip --markdown 20230522/V/VerdisCloudPackage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 09:43:01] ERROR root fetch - processPackages [energymeter2mqtt]: Unable to get metadata: No such project 'energymeter2mqtt'
+[2023-05-22 09:43:01] INFO root fetch - main [MainThread]: End processing [energymeter2mqtt] error
+[2023-05-22 09:43:01] INFO root fetch - processPackages [hopic]: executing diffoscope
+[2023-05-22 09:43:01] INFO root fetch - processPackages [hopic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopic-1.60.0.tar.gz tmp/hopic-1.61.0.tar.gz --markdown 20230522/h/hopic/1.60.0-1.61.0/diff.md --exclude *.pyd
+[2023-05-22 09:43:01] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/aa/7f/15517ec6a659673c6274f77e089e2540f39aacfea2790e1f4f5829115dd3/sarus_data_spec_public-3.3.0.dev1.tar.gz
+[2023-05-22 09:43:01] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-22 09:43:01] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.3.0.dev0.tar.gz tmp/sarus_data_spec_public-3.3.0.dev1.tar.gz --markdown 20230522/s/sarus-data-spec-public/3.3.0.dev0-3.3.0.dev1/diff.md --exclude *.pyd
+[2023-05-22 09:43:02] INFO root fetch - main [MainThread]: End processing [VerdisCloudPackage]: success
+[2023-05-22 09:43:02] INFO root fetch - main [MainThread]: End processing [cloudstructs]: success
+[2023-05-22 09:43:02] ERROR root fetch - processPackages [configloaders]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-22 09:43:02] INFO root fetch - main [MainThread]: End processing [configloaders] error
+[2023-05-22 09:43:02] INFO root fetch - main [MainThread]: End processing [VerdisCloudPackage]: success
+[2023-05-22 09:43:03] INFO root fetch - main [MainThread]: End processing [hopic]: success
+[2023-05-22 09:43:03] INFO root fetch - main [MainThread]: End processing [paideia-contracts]: success
+[2023-05-22 09:43:04] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-22 09:43:04] INFO root fetch - main [MainThread]: End processing [YKDraco]: success
+[2023-05-22 09:43:15] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-22 09:43:15] INFO root fetch - main [MainThread]: Store serial: [18193624]
