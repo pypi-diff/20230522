@@ -4624,3 +4624,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 05:29:44] INFO root fetch - main [MainThread]: End processing [pypreql-nlp]: success
 [2023-05-22 05:30:27] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2023-05-22 05:30:27] INFO root fetch - main [MainThread]: Store serial: [18191973]
+[2023-05-22 05:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191973]
+[2023-05-22 05:35:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixe
+[2023-05-22 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yyperf
+[2023-05-22 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cengal
+[2023-05-22 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HomoglyphsCJK
+[2023-05-22 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor
+[2023-05-22 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor-dev
+[2023-05-22 05:35:36] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 05:35:36] INFO root fetch - processPackages [pixe]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-22 05:35:36] INFO root fetch - processPackages [cengal]: New version: [3.1.18.9] Old Version: [3.1.18.8]
+[2023-05-22 05:35:36] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 05:35:36] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-05-22 05:35:36] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 05:35:36] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-22 05:35:36] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.18.8.tar.gz tmp/cengal-3.1.18.9.tar.gz --markdown 20230522/c/cengal/3.1.18.8-3.1.18.9/diff.md --exclude *.pyd
+[2023-05-22 05:35:36] INFO root fetch - processPackages [pixe]: Downloading https://files.pythonhosted.org/packages/ac/81/f39b150a866b57ddc18135dcafc1e90530fe3aba58c5ed83c721e894841a/pixe-0.5.5.tar.gz
+[2023-05-22 05:35:36] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/53/3e/b0759f247753c86401c0cc16b911e8b1af6a504b7917498326ab31892db9/HomoglyphsCJK-0.0.5.tar.gz
+[2023-05-22 05:35:37] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-05-22 05:35:37] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-05-22 05:35:37] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.0.4.tar.gz tmp/HomoglyphsCJK-0.0.5.tar.gz --markdown 20230522/H/HomoglyphsCJK/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 05:35:37] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-05-22 05:35:37] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-05-22 05:35:37] INFO root fetch - processPackages [pixe]: Downloading https://files.pythonhosted.org/packages/e0/73/faebc5352759f6fa5987f9456078153cd47463f77fc2db082ea0a4faceeb/pixe-0.5.6.tar.gz
+[2023-05-22 05:35:37] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-22 05:35:37] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230522/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 05:35:37] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-22 05:35:37] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230522/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 05:35:37] INFO root fetch - processPackages [pixe]: executing diffoscope
+[2023-05-22 05:35:37] INFO root fetch - processPackages [pixe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixe-0.5.5.tar.gz tmp/pixe-0.5.6.tar.gz --markdown 20230522/p/pixe/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-22 05:35:38] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-05-22 05:35:38] INFO root fetch - main [MainThread]: End processing [pixe]: success
+[2023-05-22 05:35:38] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-22 05:35:38] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-22 05:35:51] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-22 05:35:51] INFO root fetch - main [MainThread]: Store serial: [18191993]
