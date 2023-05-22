@@ -10531,3 +10531,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:40:35] INFO root fetch - processPackages [pyprocessors-afp_entities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-afp_entities-0.5.92.tar.gz tmp/pyprocessors-afp_entities-0.5.98.tar.gz --markdown 20230522/p/pyprocessors-afp_entities/0.5.92-0.5.98/diff.md --exclude *.pyd
 [2023-05-22 12:40:38] INFO root fetch - main [MainThread]: End processing [pyprocessors-afp_entities]: success
 [2023-05-22 12:40:38] INFO root fetch - main [MainThread]: Store serial: [18195541]
+[2023-05-22 12:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195541]
+[2023-05-22 12:45:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphapept
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allianceauth-corptools
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jnt-django-admin-tools
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnaclib
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esp-coredump
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-ak-ee637c8293f64104af9686dc12e0cd18
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VerdisCloudPackage
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eventloop
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yolo-pyutils
+[2023-05-22 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: accordo
+[2023-05-22 12:45:47] INFO root fetch - processPackages [cnaclib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [yolo-pyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [VerdisCloudPackage]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [cnaclib]: executing diffoscope
+[2023-05-22 12:45:47] INFO root fetch - processPackages [cnaclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnaclib-0.1.7.tar.gz tmp/cnaclib-0.1.8.tar.gz --markdown 20230522/c/cnaclib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 12:45:47] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [allianceauth-corptools]: New version: [2.6.0b1] Old Version: [2.5.5]
+[2023-05-22 12:45:47] WARNING root fetch - processPackages [accordo]: Skipping, unable to determine old version
+[2023-05-22 12:45:47] INFO root fetch - processPackages [accordo]: Start processing: cnaclib
+[2023-05-22 12:45:47] INFO root fetch - main [MainThread]: End processing [accordo] error
+[2023-05-22 12:45:47] INFO root fetch - processPackages [VerdisCloudPackage]: executing diffoscope
+[2023-05-22 12:45:47] INFO root fetch - processPackages [esp-coredump]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [eventloop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [VerdisCloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VerdisCloudPackage-0.0.6-py3-none-any.whl.zip tmp/VerdisCloudPackage-0.0.7-py3-none-any.whl.zip --markdown 20230522/V/VerdisCloudPackage/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 12:45:47] INFO root fetch - processPackages [alphapept]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [yolo-pyutils]: executing diffoscope
+[2023-05-22 12:45:47] INFO root fetch - processPackages [yolo-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolo-pyutils-0.1.8.tar.gz tmp/yolo-pyutils-0.1.9.tar.gz --markdown 20230522/y/yolo-pyutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 12:45:47] INFO root fetch - processPackages [jnt-django-admin-tools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-22 12:45:47] INFO root fetch - processPackages [cnaclib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 12:45:48] INFO root fetch - processPackages [alphapept]: Downloading https://files.pythonhosted.org/packages/61/ab/6de66815dcfe5250c2dc9596915fdb778f401310aeddf440cf3c1c81bb2a/alphapept-0.4.9.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [esp-coredump]: Downloading https://files.pythonhosted.org/packages/2a/11/4acdcb860c5c9a70e8b97c32b98237ccdbc82d9b366fe9244fb21ca02140/esp-coredump-1.5.0.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [eventloop]: Downloading https://files.pythonhosted.org/packages/0e/4b/c46b3f8ec6527c5ca9530c25de2952a355e75d8aa3c4c951d59c0d94428e/eventloop-0.0.8.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/fe/6b/b3063a4bb824d4ebe91cc69ca6a29126b8ee3e65e124b4a3226ec325534a/jnt-django-admin-tools-0.9.8.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [cnaclib]: Downloading https://files.pythonhosted.org/packages/f6/2c/bc5abdad8a6367e250c7a7206f392c8df49bf8a8cdb2fdca08823bbfe5d4/cnaclib-0.1.9.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [allianceauth-corptools]: Downloading https://files.pythonhosted.org/packages/1d/15/63124b3b2569ce920617818f7d04bb724f349948bb03ad906becf791014b/allianceauth-corptools-2.5.5.tar.gz
+[2023-05-22 12:45:48] WARNING root fetch - processPackages [alphapept]: Skipping package: exceeds size limit 64249761>=10485760
+[2023-05-22 12:45:48] INFO root fetch - main [MainThread]: End processing [alphapept] error
+[2023-05-22 12:45:48] INFO root fetch - processPackages [esp-coredump]: Downloading https://files.pythonhosted.org/packages/3b/fe/6ee228af2cfe2b33bb8895ed377164828ee9f522df693a4012c03ec81e43/esp-coredump-1.5.1.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [eventloop]: Downloading https://files.pythonhosted.org/packages/d9/86/c0a577a5a90c6c5af6486977a3433fd498b79485d3a44112c856670fd728/eventloop-0.0.9.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [cnaclib]: executing diffoscope
+[2023-05-22 12:45:48] INFO root fetch - processPackages [cnaclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnaclib-0.1.8.tar.gz tmp/cnaclib-0.1.9.tar.gz --markdown 20230522/c/cnaclib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 12:45:48] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: executing diffoscope
+[2023-05-22 12:45:48] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.2.tar.gz tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.1.0.tar.gz --markdown 20230522/a/antchain-ak-ee637c8293f64104af9686dc12e0cd18/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 12:45:48] INFO root fetch - processPackages [eventloop]: executing diffoscope
+[2023-05-22 12:45:48] INFO root fetch - processPackages [eventloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventloop-0.0.8.tar.gz tmp/eventloop-0.0.9.tar.gz --markdown 20230522/e/eventloop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 12:45:48] INFO root fetch - processPackages [esp-coredump]: executing diffoscope
+[2023-05-22 12:45:48] INFO root fetch - processPackages [esp-coredump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-coredump-1.5.0.tar.gz tmp/esp-coredump-1.5.1.tar.gz --markdown 20230522/e/esp-coredump/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-22 12:45:48] INFO root fetch - processPackages [jnt-django-admin-tools]: Downloading https://files.pythonhosted.org/packages/4a/8d/8e85ee009bdc218cfc4fd6b6e009852d5ac3c4e5ec6b7a1b22fc185c7451/jnt-django-admin-tools-0.9.9.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - processPackages [jnt-django-admin-tools]: executing diffoscope
+[2023-05-22 12:45:48] INFO root fetch - processPackages [jnt-django-admin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jnt-django-admin-tools-0.9.8.tar.gz tmp/jnt-django-admin-tools-0.9.9.tar.gz --markdown 20230522/j/jnt-django-admin-tools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 12:45:48] INFO root fetch - processPackages [allianceauth-corptools]: Downloading https://files.pythonhosted.org/packages/6d/9d/e00a92103869d270a0594ca135aaeb301d6702e9f8dd8b29dedf97536739/allianceauth-corptools-2.6.0b1.tar.gz
+[2023-05-22 12:45:48] INFO root fetch - main [MainThread]: End processing [VerdisCloudPackage]: success
+[2023-05-22 12:45:49] INFO root fetch - processPackages [allianceauth-corptools]: executing diffoscope
+[2023-05-22 12:45:49] INFO root fetch - processPackages [allianceauth-corptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-corptools-2.5.5.tar.gz tmp/allianceauth-corptools-2.6.0b1.tar.gz --markdown 20230522/a/allianceauth-corptools/2.5.5-2.6.0b1/diff.md --exclude *.pyd
+[2023-05-22 12:45:49] INFO root fetch - main [MainThread]: End processing [cnaclib]: success
+[2023-05-22 12:45:49] INFO root fetch - main [MainThread]: End processing [cnaclib]: success
+[2023-05-22 12:45:49] INFO root fetch - main [MainThread]: End processing [yolo-pyutils]: success
+[2023-05-22 12:45:49] INFO root fetch - main [MainThread]: End processing [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: success
+[2023-05-22 12:45:49] INFO root fetch - main [MainThread]: End processing [eventloop]: success
+[2023-05-22 12:45:49] INFO root fetch - main [MainThread]: End processing [esp-coredump]: success
+[2023-05-22 12:45:50] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
+[2023-05-22 12:45:52] INFO root fetch - main [MainThread]: End processing [allianceauth-corptools]: success
+[2023-05-22 12:45:52] INFO root fetch - main [MainThread]: Store serial: [18195579]
