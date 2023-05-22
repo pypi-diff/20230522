@@ -10850,3 +10850,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 13:01:39] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
 [2023-05-22 13:01:41] INFO root fetch - main [MainThread]: End processing [evidently]: success
 [2023-05-22 13:01:41] INFO root fetch - main [MainThread]: Store serial: [18195739]
+[2023-05-22 13:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195739]
+[2023-05-22 13:06:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: win-defender
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shoppyapi
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-githubcard
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnaclib
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chellow
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cosapp
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: veetility
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: safe-eth-py
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: num-stack-arithmac
+[2023-05-22 13:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nqtgbot
+[2023-05-22 13:06:50] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [cnaclib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 13:06:50] WARNING root fetch - processPackages [shoppyapi]: Skipping, unable to determine old version
+[2023-05-22 13:06:50] INFO root fetch - processPackages [win-defender]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [num-stack-arithmac]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 13:06:50] INFO root fetch - main [MainThread]: End processing [shoppyapi] error
+[2023-05-22 13:06:50] INFO root fetch - processPackages [cosapp]: New version: [0.14.0.post1] Old Version: [0.14.0]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [safe-eth-py]: New version: [5.4.0] Old Version: [5.3.1]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [nonebot-plugin-githubcard]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [cnaclib]: executing diffoscope
+[2023-05-22 13:06:50] INFO root fetch - processPackages [cnaclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnaclib-0.1.8.tar.gz tmp/cnaclib-0.1.9.tar.gz --markdown 20230522/c/cnaclib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 13:06:50] INFO root fetch - processPackages [win-defender]: Downloading https://files.pythonhosted.org/packages/61/68/0ededad9235462953144747af2c2633cd1e61cb52b8daff6a9b89743b559/win_defender-0.1.0.tar.gz
+[2023-05-22 13:06:50] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/6e/59/4f9c77dda19fd663702f6b28ac44b8548e0237082d4a591d98279c65e789/safe-eth-py-5.3.1.tar.gz
+[2023-05-22 13:06:50] INFO root fetch - processPackages [nqtgbot]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-05-22 13:06:50] INFO root fetch - processPackages [num-stack-arithmac]: Downloading https://files.pythonhosted.org/packages/e4/59/3d6d9b160dcf59a41a44f9214608f665d2322290d805274d85d27400002b/num_stack_arithmac-0.0.1.tar.gz
+[2023-05-22 13:06:50] INFO root fetch - processPackages [nonebot-plugin-githubcard]: Downloading https://files.pythonhosted.org/packages/a5/8a/9ca91cf39ba378695acd907a2c80ff9ba05276abb947438abb15f91da712/nonebot_plugin_githubcard-0.1.3.tar.gz
+[2023-05-22 13:06:50] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nqtgbot]: Downloading https://files.pythonhosted.org/packages/47/cb/164f383e1b2f9537f116579ab5e97a6a4dfc53344d4d5a82a17d3f39839d/nqtgbot-1.0.0a4.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [cosapp]: Downloading https://files.pythonhosted.org/packages/ee/11/ebb81c3ea46ff1d31129ff65321de32484e6c8a4932690364066504c7a64/cosapp-0.14.0.post1-py3-none-any.whl
+[2023-05-22 13:06:51] INFO root fetch - processPackages [win-defender]: Downloading https://files.pythonhosted.org/packages/38/cf/c05b46624a3e78f05b109622161415dd666620960fd568b7161f53006c5c/win_defender-0.1.1.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230522/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/c5/6f/c5686b83673809f6a32444c54f06d506ddcf5bc17bc5c2158004ddf4dcd5/safe-eth-py-5.4.0.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [num-stack-arithmac]: Downloading https://files.pythonhosted.org/packages/e1/88/4b4cd6d85ddfeeb45827f8b8ddb8694ee7b84a806f947b0b9cc915006530/num_stack_arithmac-0.0.2.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nonebot-plugin-githubcard]: Downloading https://files.pythonhosted.org/packages/55/d1/76965a1d34489e9561b387af24924e8b8f6884970aae3499796717d76aec/nonebot_plugin_githubcard-0.1.4.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [win-defender]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [win-defender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win_defender-0.1.0.tar.gz tmp/win_defender-0.1.1.tar.gz --markdown 20230522/w/win-defender/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [num-stack-arithmac]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [num-stack-arithmac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/num_stack_arithmac-0.0.1.tar.gz tmp/num_stack_arithmac-0.0.2.tar.gz --markdown 20230522/n/num-stack-arithmac/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nonebot-plugin-githubcard]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nonebot-plugin-githubcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_githubcard-0.1.3.tar.gz tmp/nonebot_plugin_githubcard-0.1.4.tar.gz --markdown 20230522/n/nonebot-plugin-githubcard/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-5.3.1.tar.gz tmp/safe-eth-py-5.4.0.tar.gz --markdown 20230522/s/safe-eth-py/5.3.1-5.4.0/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [cosapp]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [cosapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosapp-0.14.0.tar.gz tmp/cosapp-0.14.0.post1-py3-none-any.whl.zip --markdown 20230522/c/cosapp/0.14.0-0.14.0.post1/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nqtgbot]: Downloading https://files.pythonhosted.org/packages/46/0c/d26c5102830069d1d03e77806e12b59895e358dc52b17f026fc1ce885f96/nqtgbot-1.0.0a5.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-05-22 13:06:51] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230522/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nqtgbot]: executing diffoscope
+[2023-05-22 13:06:51] INFO root fetch - processPackages [nqtgbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqtgbot-1.0.0a4.tar.gz tmp/nqtgbot-1.0.0a5.tar.gz --markdown 20230522/n/nqtgbot/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-05-22 13:06:52] INFO root fetch - main [MainThread]: End processing [cnaclib]: success
+[2023-05-22 13:06:52] INFO root fetch - main [MainThread]: End processing [win-defender]: success
+[2023-05-22 13:06:52] INFO root fetch - main [MainThread]: End processing [num-stack-arithmac]: success
+[2023-05-22 13:06:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-githubcard]: success
+[2023-05-22 13:06:52] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-22 13:06:52] INFO root fetch - main [MainThread]: End processing [nqtgbot]: success
+[2023-05-22 13:06:53] INFO root fetch - main [MainThread]: End processing [cosapp]: success
+[2023-05-22 13:06:54] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2023-05-22 13:06:58] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-05-22 13:06:58] INFO root fetch - main [MainThread]: Store serial: [18195787]
