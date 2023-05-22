@@ -9266,3 +9266,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:24:34] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
 [2023-05-22 11:24:36] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2023-05-22 11:24:36] INFO root fetch - main [MainThread]: Store serial: [18194741]
+[2023-05-22 11:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194741]
+[2023-05-22 11:29:46] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-newrelicobservability
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-privatedns
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codeforlife-portal
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfl-common
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swspy
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: panfeed
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-code-ui
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata-hydra
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pharmpy-core
+[2023-05-22 11:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-05-22 11:29:46] INFO root fetch - processPackages [udata-hydra]: New version: [2.0.0.dev956] Old Version: [2.0.0.dev919]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [panfeed]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [swspy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-newrelicobservability]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-privatedns]: New version: [1.1.0b1] Old Version: [1.1.0]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [pharmpy-core]: New version: [0.95.0] Old Version: [0.94.0]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [kcli]: New version: [99.0.202305220926] Old Version: [99.0.202305210831]
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-privatedns]: Downloading https://files.pythonhosted.org/packages/9a/e8/eec726aa2f75236f9d649a87e6f1ff4ce9686456e10b9afa495b96b08098/azure-mgmt-privatedns-1.1.0.zip
+[2023-05-22 11:29:46] INFO root fetch - processPackages [udata-hydra]: Downloading https://files.pythonhosted.org/packages/da/ff/189bea85d99b6b0682ebc110ecc2dfbd2a2de5571ca19e3df0d4089bab00/udata_hydra-2.0.0.dev919.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-newrelicobservability]: Downloading https://files.pythonhosted.org/packages/fb/c0/bebcae0b373ad794e18baded99eecfb2e324c467ee2ebeff5b854286e4c3/azure-mgmt-newrelicobservability-1.0.0.zip
+[2023-05-22 11:29:46] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230522/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-22 11:29:46] INFO root fetch - processPackages [swspy]: Downloading https://files.pythonhosted.org/packages/2f/ad/ce47213e8916e2f3a8732496b3fc1f7ef53a4c41b89136adcda389ff9f5f/swspy-1.0.0.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/05/33/ad7236db4b1d61bce2519a3604718eeef031dce129690a0191d10bc6b6a5/panfeed-1.4.0.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/33/92/af1627ce46934fce9307589f066b4051dffeb092e26e5c300610a7b4fd51/pharmpy-core-0.94.0.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/66/56/52a62a2edaa97035709c8ae9b483208b57c45f412bbf5a797237884b3c15/kcli-99.0.202305210831-py3-none-any.whl
+[2023-05-22 11:29:46] INFO root fetch - processPackages [panfeed]: Downloading https://files.pythonhosted.org/packages/59/d3/89d2e29c5788d594ef7b3c7913af245349bade4b3d13cc291eac5bdbccf0/panfeed-1.5.0.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [swspy]: Downloading https://files.pythonhosted.org/packages/63/5b/4de80ee6281556e59c79cab880e948b4b2641d739c9f60357fb2efa252dc/swspy-1.0.1.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [udata-hydra]: Downloading https://files.pythonhosted.org/packages/e5/8b/9a25046aee4ab7924b7ab415cd3f8ad3b59a453a7971b688f17c6077f874/udata_hydra-2.0.0.dev956.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-privatedns]: Downloading https://files.pythonhosted.org/packages/93/46/78a28e61471240aaf90558afdadbe7dcd2b86a2bc2bb17a590b20451b84a/azure-mgmt-privatedns-1.1.0b1.zip
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-newrelicobservability]: Downloading https://files.pythonhosted.org/packages/74/bc/e5089f04bbd7057943b44968f211b22e753f68e8df01f75819f00ed676ea/azure-mgmt-newrelicobservability-1.0.0b1.zip
+[2023-05-22 11:29:46] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/58/1d/1c58e08717613b81fbf2f0af7ae75cea82109c46ce34513e8b088daa4c8e/kcli-99.0.202305220926-py3-none-any.whl
+[2023-05-22 11:29:46] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-privatedns]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [udata-hydra]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-privatedns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-privatedns-1.1.0.zip tmp/azure-mgmt-privatedns-1.1.0b1.zip --markdown 20230522/a/azure-mgmt-privatedns/1.1.0-1.1.0b1/diff.md --exclude *.pyd
+[2023-05-22 11:29:46] INFO root fetch - processPackages [udata-hydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra-2.0.0.dev919.tar.gz tmp/udata_hydra-2.0.0.dev956.tar.gz --markdown 20230522/u/udata-hydra/2.0.0.dev919-2.0.0.dev956/diff.md --exclude *.pyd
+[2023-05-22 11:29:46] INFO root fetch - processPackages [panfeed]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [panfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panfeed-1.4.0.tar.gz tmp/panfeed-1.5.0.tar.gz --markdown 20230522/p/panfeed/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-newrelicobservability]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [azure-mgmt-newrelicobservability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-newrelicobservability-1.0.0.zip tmp/azure-mgmt-newrelicobservability-1.0.0b1.zip --markdown 20230522/a/azure-mgmt-newrelicobservability/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-05-22 11:29:46] INFO root fetch - processPackages [swspy]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [swspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swspy-1.0.0.tar.gz tmp/swspy-1.0.1.tar.gz --markdown 20230522/s/swspy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 11:29:46] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-22 11:29:46] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305210831-py3-none-any.whl.zip tmp/kcli-99.0.202305220926-py3-none-any.whl.zip --markdown 20230522/k/kcli/99.0.202305210831-99.0.202305220926/diff.md --exclude *.pyd
+[2023-05-22 11:29:47] INFO root fetch - processPackages [pharmpy-core]: Downloading https://files.pythonhosted.org/packages/be/f9/21668f1ff85ee67fb258fbbd01417b1076f235069cb3977c6f257e4bc418/pharmpy-core-0.95.0.tar.gz
+[2023-05-22 11:29:47] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-05-22 11:29:47] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230522/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-22 11:29:47] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-05-22 11:29:47] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.94.0.tar.gz tmp/pharmpy-core-0.95.0.tar.gz --markdown 20230522/p/pharmpy-core/0.94.0-0.95.0/diff.md --exclude *.pyd
+[2023-05-22 11:29:48] INFO root fetch - processPackages [panfeed]: Start processing: django-dnoticias-auth
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [panfeed]: success
+[2023-05-22 11:29:48] INFO root fetch - processPackages [udata-hydra]: Start processing: automation-editor
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [udata-hydra]: success
+[2023-05-22 11:29:48] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-22 11:29:48] INFO root fetch - processPackages [swspy]: Start processing: automation-editor-dev
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [swspy]: success
+[2023-05-22 11:29:48] INFO root fetch - processPackages [automation-editor]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 11:29:48] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/69/a6/6c1b254c96bdd6b927b9a4d855c6cc969fb9538e372cd82eba36b8511f30/django_dnoticias_auth-1.3rc8.tar.gz
+[2023-05-22 11:29:48] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 11:29:48] INFO root fetch - processPackages [cfl-common]: Start processing: kathara
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-05-22 11:29:48] INFO root fetch - processPackages [azure-mgmt-newrelicobservability]: Start processing: x-decorator
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [azure-mgmt-newrelicobservability]: success
+[2023-05-22 11:29:48] INFO root fetch - processPackages [kathara]: New version: [3.6.0] Old Version: [3.5.5]
+[2023-05-22 11:29:48] INFO root fetch - processPackages [azure-mgmt-privatedns]: Start processing: vxpy
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [azure-mgmt-privatedns]: success
+[2023-05-22 11:29:48] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/a6/cc/235d014fef7e03686b0488b987150241cb106dcd6fd45abc8fcb6af5a349/automation_editor-0.0.8.tar.gz
+[2023-05-22 11:29:48] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-05-22 11:29:48] INFO root fetch - processPackages [x-decorator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 11:29:48] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/00/7f/952117cc044c6a56f24b3e31b54d2ae7b3f3f94e1ea65aa39fad146ee263/automation_editor_dev-0.0.8.tar.gz
+[2023-05-22 11:29:48] WARNING root fetch - processPackages [vxpy]: Skipping, unable to determine old version
+[2023-05-22 11:29:48] INFO root fetch - processPackages [vxpy]: Start processing: azure-mgmt-frontdoor
+[2023-05-22 11:29:48] INFO root fetch - main [MainThread]: End processing [vxpy] error
+[2023-05-22 11:29:48] INFO root fetch - processPackages [kathara]: Downloading https://files.pythonhosted.org/packages/e6/10/7fa58a0a91ce31e2c8b0cd5a823b04f31bdc2522faed1ae23a86796904cd/kathara-3.5.5.tar.gz
+[2023-05-22 11:29:48] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/8c/e3/fda76c4416e1891b6a260f8640bacae541e65171c5a2f3901e8c268882d3/django_dnoticias_auth-1.3rc9.tar.gz
+[2023-05-22 11:29:48] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-05-22 11:29:48] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.7.tar.gz tmp/automation_editor-0.0.8.tar.gz --markdown 20230522/a/automation-editor/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 11:29:49] INFO root fetch - processPackages [azure-mgmt-frontdoor]: New version: [1.1.0b1] Old Version: [1.1.0]
+[2023-05-22 11:29:49] INFO root fetch - processPackages [x-decorator]: Downloading https://files.pythonhosted.org/packages/9b/d5/04f94dcbc27f11cfff17494058fb4a03efeb7ce490d6015930001609499a/x_decorator-1.0.0.tar.gz
+[2023-05-22 11:29:49] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-22 11:29:49] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230522/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-22 11:29:49] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-05-22 11:29:49] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.7.tar.gz tmp/automation_editor_dev-0.0.8.tar.gz --markdown 20230522/a/automation-editor-dev/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 11:29:49] INFO root fetch - processPackages [azure-mgmt-frontdoor]: Downloading https://files.pythonhosted.org/packages/9b/d4/24991da42b12605209adae8a4ccbdda4ce571546b6063c5cf9ba0afc22e0/azure-mgmt-frontdoor-1.1.0.zip
+[2023-05-22 11:29:49] INFO root fetch - processPackages [kathara]: Downloading https://files.pythonhosted.org/packages/76/13/ff5155ea4ca5f498ac5a5ef7abefbda003fd7d491d09efc6785d380e52b8/kathara-3.6.0.tar.gz
+[2023-05-22 11:29:49] INFO root fetch - processPackages [x-decorator]: Downloading https://files.pythonhosted.org/packages/aa/5a/66c0dca138c8763b57e87ea78a2619327ab8f595fdad16498a92208017d9/x_decorator-1.0.1.tar.gz
+[2023-05-22 11:29:49] INFO root fetch - processPackages [kathara]: executing diffoscope
+[2023-05-22 11:29:49] INFO root fetch - processPackages [kathara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kathara-3.5.5.tar.gz tmp/kathara-3.6.0.tar.gz --markdown 20230522/k/kathara/3.5.5-3.6.0/diff.md --exclude *.pyd
+[2023-05-22 11:29:49] INFO root fetch - processPackages [azure-mgmt-frontdoor]: Downloading https://files.pythonhosted.org/packages/59/d7/1f070f804cca088e46be889942c3963d165478567f189f310a94c3e6a825/azure-mgmt-frontdoor-1.1.0b1.zip
+[2023-05-22 11:29:49] INFO root fetch - processPackages [x-decorator]: executing diffoscope
+[2023-05-22 11:29:49] INFO root fetch - processPackages [x-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x_decorator-1.0.0.tar.gz tmp/x_decorator-1.0.1.tar.gz --markdown 20230522/x/x-decorator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 11:29:49] INFO root fetch - processPackages [azure-mgmt-frontdoor]: executing diffoscope
+[2023-05-22 11:29:49] INFO root fetch - processPackages [azure-mgmt-frontdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-frontdoor-1.1.0.zip tmp/azure-mgmt-frontdoor-1.1.0b1.zip --markdown 20230522/a/azure-mgmt-frontdoor/1.1.0-1.1.0b1/diff.md --exclude *.pyd
+[2023-05-22 11:29:50] INFO root fetch - processPackages [django-dnoticias-auth]: Start processing: dyrun
+[2023-05-22 11:29:50] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-22 11:29:50] INFO root fetch - processPackages [dyrun]: New version: [1.0.21] Old Version: [1.0.2]
+[2023-05-22 11:29:50] INFO root fetch - processPackages [dyrun]: executing diffoscope
+[2023-05-22 11:29:50] INFO root fetch - processPackages [dyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyrun-1.0.2.tar.gz tmp/dyrun-1.0.21.tar.gz --markdown 20230522/d/dyrun/1.0.2-1.0.21/diff.md --exclude *.pyd
+[2023-05-22 11:29:50] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-05-22 11:29:50] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230522/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-05-22 11:29:50] INFO root fetch - processPackages [x-decorator]: Start processing: anoncreds
+[2023-05-22 11:29:50] INFO root fetch - main [MainThread]: End processing [x-decorator]: success
+[2023-05-22 11:29:50] INFO root fetch - processPackages [anoncreds]: New version: [0.1.0.dev17] Old Version: [0.1.0.dev16]
+[2023-05-22 11:29:51] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-05-22 11:29:51] INFO root fetch - processPackages [anoncreds]: Downloading https://files.pythonhosted.org/packages/d5/81/4d443f78d2aead84910a1bc1a6834b4cda4acb2020e3ea141caa24c08e42/anoncreds-0.1.0.dev16.tar.gz
+[2023-05-22 11:29:51] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-22 11:29:51] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-05-22 11:29:51] INFO root fetch - processPackages [anoncreds]: Downloading https://files.pythonhosted.org/packages/94/3c/c1c38e4c907fdc143cce61c61e85567c27c3b1fab0a9a7f2cb1ca6c572b0/anoncreds-0.1.0.dev17-py3-none-win_amd64.whl
+[2023-05-22 11:29:51] INFO root fetch - main [MainThread]: End processing [azure-mgmt-frontdoor]: success
+[2023-05-22 11:29:51] INFO root fetch - main [MainThread]: End processing [dyrun]: success
+[2023-05-22 11:29:52] INFO root fetch - processPackages [anoncreds]: executing diffoscope
+[2023-05-22 11:29:52] INFO root fetch - processPackages [anoncreds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoncreds-0.1.0.dev16.tar.gz tmp/anoncreds-0.1.0.dev17-py3-none-win_amd64.whl.zip --markdown 20230522/a/anoncreds/0.1.0.dev16-0.1.0.dev17/diff.md --exclude *.pyd
+[2023-05-22 11:29:53] INFO root fetch - main [MainThread]: End processing [anoncreds]: success
+[2023-05-22 11:29:53] INFO root fetch - main [MainThread]: End processing [kathara]: success
+[2023-05-22 11:29:54] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-22 11:29:56] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-05-22 11:30:01] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-05-22 11:30:01] INFO root fetch - main [MainThread]: Store serial: [18194809]
