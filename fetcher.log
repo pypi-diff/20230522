@@ -13902,3 +13902,109 @@ EOFError: EOF read where object expected
 [2023-05-22 15:28:02] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-05-22 15:28:12] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-05-22 15:28:12] INFO root fetch - main [MainThread]: Store serial: [18197548]
+[2023-05-22 15:33:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197548]
+[2023-05-22 15:33:21] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-aws-utils
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaemis
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: armrest
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowconvert-helpers
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbox
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: textbsr
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smda
+[2023-05-22 15:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mail-tracking
+[2023-05-22 15:33:21] INFO root fetch - processPackages [databricks-aws-utils]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-22 15:33:21] WARNING root fetch - processPackages [spaemis]: Skipping, unable to determine old version
+[2023-05-22 15:33:21] INFO root fetch - processPackages [spaemis]: Start processing: SecretMessage
+[2023-05-22 15:33:21] INFO root fetch - main [MainThread]: End processing [spaemis] error
+[2023-05-22 15:33:21] WARNING root fetch - processPackages [armrest]: Skipping, unable to determine old version
+[2023-05-22 15:33:21] INFO root fetch - processPackages [armrest]: Start processing: mlfactory
+[2023-05-22 15:33:21] INFO root fetch - main [MainThread]: End processing [armrest] error
+[2023-05-22 15:33:21] INFO root fetch - processPackages [textbsr]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230522132757] Old Version: [2.0.3.dev20230522112155]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [snowconvert-helpers]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-22 15:33:21] WARNING root fetch - processPackages [SecretMessage]: Skipping, unable to determine old version
+[2023-05-22 15:33:21] INFO root fetch - processPackages [SecretMessage]: Start processing: trifinger-rl-datasets
+[2023-05-22 15:33:21] INFO root fetch - main [MainThread]: End processing [SecretMessage] error
+[2023-05-22 15:33:21] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [15.0.2.0.5] Old Version: [15.0.2.0.4]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [mlfactory]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [smda]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [trifinger-rl-datasets]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 15:33:21] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/dc/8b/de677db825da05c19b7a725d81cf333d3f6eb43e1af1d6c264cc450374ad/localstack-core-2.0.3.dev20230522112155.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-22 15:33:21] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 15:33:21] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/64/18/a58ee2ce6c9a535a198ae8b09911ea863c51d6ae98fcf71134731b66ff8a/textbsr-0.0.3.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [snowconvert-helpers]: Downloading https://files.pythonhosted.org/packages/8e/c1/aeb046668a50836055ffd472a29932b2fe036524289a73438b0def4ff7e4/snowconvert-helpers-2.0.8.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [databricks-aws-utils]: Downloading https://files.pythonhosted.org/packages/3c/ee/90a1d4b4e880b3a2be25068cc420fd0fecfa4d4c2739a955d4d6dd4d273c/databricks_aws_utils-1.3.1.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/18/3c/a866f175060f6afa22c66bf6a362cfaba4d49050b020a551f4c4106af95b/mlfactory-0.0.2.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [trifinger-rl-datasets]: Downloading https://files.pythonhosted.org/packages/89/9a/3231a2686acfb8395427d8616e6cf200d68e3f985d7280676bcc0928602c/trifinger_rl_datasets-1.0.0.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/40/50/967240bbdf001a21e562621b3f595f118075be010338b47109c0230444cf/odoo_addon_mail_tracking-15.0.2.0.4-py3-none-any.whl
+[2023-05-22 15:33:21] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/0a/02/7144cdaabb7ced1428c53348f4608286160dcc6e4923a4ca258254a0a60a/smda-1.9.8.tar.gz
+[2023-05-22 15:33:21] INFO root fetch - processPackages [databricks-aws-utils]: executing diffoscope
+[2023-05-22 15:33:21] INFO root fetch - processPackages [databricks-aws-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_aws_utils-1.3.0.tar.gz tmp/databricks_aws_utils-1.3.1.tar.gz --markdown 20230522/d/databricks-aws-utils/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-22 15:33:21] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-22 15:33:21] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230522/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [textbsr]: Downloading https://files.pythonhosted.org/packages/02/25/6902aa67c206c20ca9fdfd3bf0bda59779951391fee4a9a17b3c5c75476f/textbsr-0.0.4.tar.gz
+[2023-05-22 15:33:22] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7d/32/9095e5a63bc8d72764eaba2edef03b2573dab858fdab02cd61fb56cbbd40/localstack-core-2.0.3.dev20230522132757.tar.gz
+[2023-05-22 15:33:22] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/ea/2e/c598a3d007aca8cbab929a7593a834348bb30596215a5a486618cfbf5dde/mlfactory-0.0.3.tar.gz
+[2023-05-22 15:33:22] INFO root fetch - processPackages [trifinger-rl-datasets]: Downloading https://files.pythonhosted.org/packages/60/36/c12f306cbe143676268975ccbc4ba1242c05a86aad9541b9f7c56559bdcc/trifinger_rl_datasets-1.0.1.tar.gz
+[2023-05-22 15:33:22] INFO root fetch - processPackages [textbsr]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [textbsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbsr-0.0.3.tar.gz tmp/textbsr-0.0.4.tar.gz --markdown 20230522/t/textbsr/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/f0/66/62a89019992aee76df2c8d4629074d5f153d26e8607dba703ec67579f2b4/odoo_addon_mail_tracking-15.0.2.0.5-py3-none-any.whl
+[2023-05-22 15:33:22] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230522112155.tar.gz tmp/localstack-core-2.0.3.dev20230522132757.tar.gz --markdown 20230522/l/localstack-core/2.0.3.dev20230522112155-2.0.3.dev20230522132757/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [snowconvert-helpers]: Downloading https://files.pythonhosted.org/packages/f8/c8/d9fc5e1413f4dc6fe15e9aea55d5cc5485b20d801ac06720d01a5b6dd4f2/snowconvert-helpers-2.0.9.tar.gz
+[2023-05-22 15:33:22] INFO root fetch - processPackages [mlfactory]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [mlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfactory-0.0.2.tar.gz tmp/mlfactory-0.0.3.tar.gz --markdown 20230522/m/mlfactory/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [trifinger-rl-datasets]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [trifinger-rl-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trifinger_rl_datasets-1.0.0.tar.gz tmp/trifinger_rl_datasets-1.0.1.tar.gz --markdown 20230522/t/trifinger-rl-datasets/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-15.0.2.0.4-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-15.0.2.0.5-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-mail-tracking/15.0.2.0.4-15.0.2.0.5/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [smda]: Downloading https://files.pythonhosted.org/packages/a4/5e/2ae3bfbc6c8969a963dd284b8e76c6d20a82197a9845e73e7e7be85080f8/smda-1.9.9.tar.gz
+[2023-05-22 15:33:22] INFO root fetch - processPackages [snowconvert-helpers]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [snowconvert-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowconvert-helpers-2.0.8.tar.gz tmp/snowconvert-helpers-2.0.9.tar.gz --markdown 20230522/s/snowconvert-helpers/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:33:22] INFO root fetch - processPackages [smda]: executing diffoscope
+[2023-05-22 15:33:22] INFO root fetch - processPackages [smda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smda-1.9.8.tar.gz tmp/smda-1.9.9.tar.gz --markdown 20230522/s/smda/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-22 15:33:23] INFO root fetch - processPackages [databricks-aws-utils]: Start processing: JanusReader
+[2023-05-22 15:33:23] INFO root fetch - main [MainThread]: End processing [databricks-aws-utils]: success
+[2023-05-22 15:33:23] INFO root fetch - processPackages [JanusReader]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-22 15:33:23] INFO root fetch - processPackages [JanusReader]: Downloading https://files.pythonhosted.org/packages/46/bb/eb63490abcdb0b9b9c27c9216c852a16c902da7ecdab5a9dfd08a132a13b/JanusReader-0.5.0.tar.gz
+[2023-05-22 15:33:23] INFO root fetch - processPackages [JanusReader]: Downloading https://files.pythonhosted.org/packages/a2/b4/147034f2ae3427da135fdeb3abb37b906efd49caa49ad6e0f1b0f0e5b34f/JanusReader-0.6.0.tar.gz
+[2023-05-22 15:33:23] INFO root fetch - processPackages [textbsr]: Start processing: mpf
+[2023-05-22 15:33:23] INFO root fetch - main [MainThread]: End processing [textbsr]: success
+[2023-05-22 15:33:23] INFO root fetch - processPackages [snowconvert-helpers]: Start processing: girder
+[2023-05-22 15:33:23] INFO root fetch - main [MainThread]: End processing [snowconvert-helpers]: success
+[2023-05-22 15:33:23] INFO root fetch - processPackages [JanusReader]: executing diffoscope
+[2023-05-22 15:33:23] INFO root fetch - processPackages [JanusReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JanusReader-0.5.0.tar.gz tmp/JanusReader-0.6.0.tar.gz --markdown 20230522/J/JanusReader/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-22 15:33:23] INFO root fetch - processPackages [girder]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-22 15:33:23] INFO root fetch - processPackages [trifinger-rl-datasets]: Start processing: upgini
+[2023-05-22 15:33:23] INFO root fetch - main [MainThread]: End processing [trifinger-rl-datasets]: success
+[2023-05-22 15:33:24] INFO root fetch - processPackages [mpf]: New version: [0.56.0.dev9] Old Version: [0.56.0.dev33]
+[2023-05-22 15:33:24] INFO root fetch - processPackages [smda]: Start processing: girder-audit-logs
+[2023-05-22 15:33:24] INFO root fetch - main [MainThread]: End processing [smda]: success
+[2023-05-22 15:33:24] INFO root fetch - processPackages [mpf]: Downloading https://files.pythonhosted.org/packages/09/23/d44de45e2d88ad0dd6977c4576e6039189d7ad0dcb0aae7e8a81a47e3bb0/mpf-0.56.0.dev33.tar.gz
+[2023-05-22 15:33:24] INFO root fetch - processPackages [girder-audit-logs]: New version: [3.1.9.dev8] Old Version: [3.1.9.dev6]
+[2023-05-22 15:33:24] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-22 15:33:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2023-05-22 15:33:24] INFO root fetch - processPackages [girder]: executing diffoscope
+[2023-05-22 15:33:24] INFO root fetch - processPackages [girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-3.1.9.dev6.tar.gz tmp/girder-3.1.9.dev8.tar.gz --markdown 20230522/g/girder/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-22 15:33:24] INFO root fetch - processPackages [girder-audit-logs]: executing diffoscope
+[2023-05-22 15:33:24] INFO root fetch - processPackages [girder-audit-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-audit-logs-3.1.9.dev6.tar.gz tmp/girder-audit-logs-3.1.9.dev8.tar.gz --markdown 20230522/g/girder-audit-logs/3.1.9.dev6-3.1.9.dev8/diff.md --exclude *.pyd
+[2023-05-22 15:33:24] INFO root fetch - main [MainThread]: End processing [JanusReader]: success
+[2023-05-22 15:33:24] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-22 15:33:24] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-22 15:33:24] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230522/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-22 15:33:24] INFO root fetch - processPackages [mpf]: Downloading https://files.pythonhosted.org/packages/71/cf/61e1ca8e1c8179f967e3456facb0341fa072866648f92d0ea365dbf4560d/mpf-0.56.0.dev9.tar.gz
+[2023-05-22 15:33:25] INFO root fetch - processPackages [mpf]: executing diffoscope
+[2023-05-22 15:33:25] INFO root fetch - processPackages [mpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpf-0.56.0.dev33.tar.gz tmp/mpf-0.56.0.dev9.tar.gz --markdown 20230522/m/mpf/0.56.0.dev33-0.56.0.dev9/diff.md --exclude *.pyd
+[2023-05-22 15:33:25] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
+[2023-05-22 15:33:25] INFO root fetch - main [MainThread]: End processing [girder-audit-logs]: success
+[2023-05-22 15:33:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-22 15:33:26] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-22 15:33:31] INFO root fetch - main [MainThread]: End processing [girder]: success
+[2023-05-22 15:33:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-22 15:33:38] INFO root fetch - main [MainThread]: End processing [mpf]: success
+[2023-05-22 15:33:38] INFO root fetch - main [MainThread]: Store serial: [18197603]
