@@ -13717,3 +13717,188 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 15:22:31] INFO root fetch - main [MainThread]: End processing [blockapi]: success
 [2023-05-22 15:22:40] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-22 15:22:40] INFO root fetch - main [MainThread]: Store serial: [18197457]
+[2023-05-22 15:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197457]
+[2023-05-22 15:27:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gopro-overlay
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyEng
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youtube-summary
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnx2kerastl
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kthutils
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffdice
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omero-cli-zarr
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-operator
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fbgemm-gpu-nightly
+[2023-05-22 15:27:49] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.94.dev1] Old Version: [0.0.93]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [gopro-overlay]: New version: [0.93.0] Old Version: [0.92.0]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [kthutils]: New version: [1.2] Old Version: [1.1]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.21] Old Version: [2023.5.20]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [youtube-summary]: New version: [0.2] Old Version: [0.1.1]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [ffdice]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [PyEng]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [omero-cli-zarr]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-22 15:27:49] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 15:27:50] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/c9/07/e9e7ee836e2993d73bd3f280009381547cfa91c68b5552ab12fe497d6871/gopro-overlay-0.92.0.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [ffdice]: Downloading https://files.pythonhosted.org/packages/17/53/78ad624d5753bccc3c1ce172162ce24d1c476ec3508937dd252a3c789768/ffdice-1.0.2.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/32/15/a1f721ecfdcc268474403955bce8b1323702ad40226acb7aba1653aa852f/fbgemm_gpu_nightly-2023.5.20-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-22 15:27:50] INFO root fetch - processPackages [kthutils]: Downloading https://files.pythonhosted.org/packages/bb/66/f7ec4c4a6ca8bb5aae022c7adad2d03794d1da9e5f051ce7bc5a27acbf08/kthutils-1.1.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-05-22 15:27:50] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 283983180>=10485760
+[2023-05-22 15:27:50] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: unit-python-sdk
+[2023-05-22 15:27:50] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-22 15:27:50] INFO root fetch - processPackages [PyEng]: Downloading https://files.pythonhosted.org/packages/a4/3f/1b526ec79dc25b1ecea70e16a4b5046f5f0e4c6b328863ef51793932e2df/PyEng-1.0.3.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [unit-python-sdk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-22 15:27:50] INFO root fetch - processPackages [youtube-summary]: Downloading https://files.pythonhosted.org/packages/2d/2b/afbb121e7b7d610e5aa951c0bb37c238b8547a8dac491736e6bb07f456b1/youtube-summary-0.2.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/34/4c/da202be40a23434ae387abe998cb60a30c94bdcba60aba66a3bb798086d6/onnx2kerastl-0.0.94.dev1.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [omero-cli-zarr]: Downloading https://files.pythonhosted.org/packages/a2/69/84d092582e5c410cacf6dddc844f089a6a9d048e4c7a8128bb622f80d0ba/omero-cli-zarr-0.5.3.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [youtube-summary]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [youtube-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube-summary-0.1.1.tar.gz tmp/youtube-summary-0.2.tar.gz --markdown 20230522/y/youtube-summary/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.93.tar.gz tmp/onnx2kerastl-0.0.94.dev1.tar.gz --markdown 20230522/o/onnx2kerastl/0.0.93-0.0.94.dev1/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [gopro-overlay]: Downloading https://files.pythonhosted.org/packages/e4/61/7aeca75175133fdde59e4dc7b074981bef0a01a01d88df9097c7a0c137d5/gopro-overlay-0.93.0.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [ffdice]: Downloading https://files.pythonhosted.org/packages/35/ac/4fa0988185b9f220216fe95e29b2c297cf339bf0699fa90bba7c2d6565b7/ffdice-1.1.0.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [omero-cli-zarr]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [omero-cli-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-cli-zarr-0.5.2.tar.gz tmp/omero-cli-zarr-0.5.3.tar.gz --markdown 20230522/o/omero-cli-zarr/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [unit-python-sdk]: Downloading https://files.pythonhosted.org/packages/d6/29/65a1b06a6d3e1b295cf1788aee3b354863c1759f28c940d634f1648530a8/unit-python-sdk-0.9.2.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [kthutils]: Downloading https://files.pythonhosted.org/packages/1e/dc/526cf3e4d0d240440212bca176f6ab00d735f091872a6ce657b4f284c032/kthutils-1.2.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [PyEng]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [PyEng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEng-1.0.2.tar.gz tmp/PyEng-1.0.3.tar.gz --markdown 20230522/P/PyEng/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [ffdice]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [ffdice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffdice-1.0.2.tar.gz tmp/ffdice-1.1.0.tar.gz --markdown 20230522/f/ffdice/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.92.0.tar.gz tmp/gopro-overlay-0.93.0.tar.gz --markdown 20230522/g/gopro-overlay/0.92.0-0.93.0/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [kthutils]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [kthutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthutils-1.1.tar.gz tmp/kthutils-1.2.tar.gz --markdown 20230522/k/kthutils/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230522/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 15:27:50] INFO root fetch - processPackages [unit-python-sdk]: Downloading https://files.pythonhosted.org/packages/59/11/edd1becb5a2350e8f84e58b77c96c0c1a77d29431195b2ac123f24f25981/unit-python-sdk-0.9.3.tar.gz
+[2023-05-22 15:27:50] INFO root fetch - processPackages [unit-python-sdk]: executing diffoscope
+[2023-05-22 15:27:50] INFO root fetch - processPackages [unit-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit-python-sdk-0.9.2.tar.gz tmp/unit-python-sdk-0.9.3.tar.gz --markdown 20230522/u/unit-python-sdk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-22 15:27:51] INFO root fetch - processPackages [youtube-summary]: Start processing: ory-client
+[2023-05-22 15:27:51] INFO root fetch - main [MainThread]: End processing [youtube-summary]: success
+[2023-05-22 15:27:51] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-05-22 15:27:51] INFO root fetch - processPackages [onnx2kerastl]: Start processing: gps-building-blocks
+[2023-05-22 15:27:51] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-22 15:27:52] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-22 15:27:52] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-05-22 15:27:52] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230522/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-05-22 15:27:52] INFO root fetch - processPackages [kthutils]: Start processing: YMS
+[2023-05-22 15:27:52] INFO root fetch - main [MainThread]: End processing [kthutils]: success
+[2023-05-22 15:27:52] INFO root fetch - processPackages [YMS]: New version: [0.77] Old Version: [0.76]
+[2023-05-22 15:27:52] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/71/de/29b8d5afef1de629736885761de3eeeed53a58c7f5dc93ea834fa2edae65/gps_building_blocks-1.98.0-py3-none-any.whl
+[2023-05-22 15:27:52] INFO root fetch - processPackages [ffdice]: Start processing: pco
+[2023-05-22 15:27:52] INFO root fetch - main [MainThread]: End processing [ffdice]: success
+[2023-05-22 15:27:52] INFO root fetch - processPackages [pco]: New version: [2.0.0] Old Version: [0.1.3]
+[2023-05-22 15:27:52] INFO root fetch - processPackages [omero-cli-zarr]: Start processing: cvrmap
+[2023-05-22 15:27:52] INFO root fetch - main [MainThread]: End processing [omero-cli-zarr]: success
+[2023-05-22 15:27:52] WARNING root fetch - processPackages [cvrmap]: Skipping, unable to determine old version
+[2023-05-22 15:27:52] INFO root fetch - processPackages [cvrmap]: Start processing: questdb-connect
+[2023-05-22 15:27:52] INFO root fetch - main [MainThread]: End processing [cvrmap] error
+[2023-05-22 15:27:52] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 15:27:52] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/5b/59/674da3d0eff039b54b1ee37446a2bacef4ebb22afe0729644dd9c7ac72e2/YMS-0.77.tar.gz
+[2023-05-22 15:27:52] INFO root fetch - processPackages [unit-python-sdk]: Start processing: djangoldp-energiepartagee
+[2023-05-22 15:27:52] INFO root fetch - main [MainThread]: End processing [unit-python-sdk]: success
+[2023-05-22 15:27:52] INFO root fetch - processPackages [pco]: Downloading https://files.pythonhosted.org/packages/14/b2/ebd75069413347abaeed78f597464ba05380e66a8df21e4efa5d29ea2432/pco-0.1.3.tar.gz
+[2023-05-22 15:27:52] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 15:27:52] INFO root fetch - processPackages [cdk8s-operator]: Start processing: leap-model-parser
+[2023-05-22 15:27:52] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-05-22 15:27:52] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-22 15:27:52] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/9c/6d/6173744a741036d552c160c7f66a2e032de01b6872dee9694dbae8db9e3c/questdb-connect-1.0.1.tar.gz
+[2023-05-22 15:27:52] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2023-05-22 15:27:52] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-0.0.8.tar.gz tmp/djangoldp_energiepartagee-0.0.9.tar.gz --markdown 20230522/d/djangoldp-energiepartagee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:27:52] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 15:27:52] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.76.tar.gz tmp/YMS-0.77.tar.gz --markdown 20230522/Y/YMS/0.76-0.77/diff.md --exclude *.pyd
+[2023-05-22 15:27:52] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-22 15:27:52] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230522/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-22 15:27:52] INFO root fetch - processPackages [pco]: Downloading https://files.pythonhosted.org/packages/d6/8b/b5cd343e0d616b261baabd4a72e4492da3a740712089c47e8a8b9365d41e/pco-2.0.0.tar.gz
+[2023-05-22 15:27:52] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/79/b4/9d18eee49dfd6521e304862a4c835a7fe5cf477f45d83a4f98f885c76c29/gps_building_blocks-1.99.0-py3-none-any.whl
+[2023-05-22 15:27:52] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/eb/3a/351cb8f36ebc247e02e7fbccedbeb4b62e112baec82a00810d8a1ccf4902/questdb-connect-1.0.2.tar.gz
+[2023-05-22 15:27:53] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-05-22 15:27:53] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230522/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-22 15:27:53] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-22 15:27:53] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.1.tar.gz tmp/questdb-connect-1.0.2.tar.gz --markdown 20230522/q/questdb-connect/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 15:27:53] INFO root fetch - processPackages [pco]: executing diffoscope
+[2023-05-22 15:27:53] INFO root fetch - processPackages [pco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pco-0.1.3.tar.gz tmp/pco-2.0.0.tar.gz --markdown 20230522/p/pco/0.1.3-2.0.0/diff.md --exclude *.pyd
+[2023-05-22 15:27:53] INFO root fetch - processPackages [PyEng]: Start processing: nuance
+[2023-05-22 15:27:53] INFO root fetch - main [MainThread]: End processing [PyEng]: success
+[2023-05-22 15:27:53] WARNING root fetch - processPackages [nuance]: Skipping, unable to determine old version
+[2023-05-22 15:27:53] INFO root fetch - processPackages [nuance]: Start processing: asimov
+[2023-05-22 15:27:53] INFO root fetch - main [MainThread]: End processing [nuance] error
+[2023-05-22 15:27:53] INFO root fetch - processPackages [asimov]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-05-22 15:27:53] INFO root fetch - processPackages [YMS]: Start processing: certbot-dns-vultr
+[2023-05-22 15:27:53] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 15:27:53] INFO root fetch - processPackages [certbot-dns-vultr]: New version: [1.1.0rc1] Old Version: [1.0.3]
+[2023-05-22 15:27:54] INFO root fetch - processPackages [djangoldp-energiepartagee]: Start processing: cellsnake
+[2023-05-22 15:27:54] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2023-05-22 15:27:54] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-22 15:27:54] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a1-py2.py3-none-any.whl.zip tmp/asimov-0.6.0a2-py2.py3-none-any.whl.zip --markdown 20230522/a/asimov/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-05-22 15:27:54] INFO root fetch - processPackages [certbot-dns-vultr]: Downloading https://files.pythonhosted.org/packages/4f/fc/178e70322d54ecb4928d26d6929b8cfe5cf55863a1e492263bd1c083644f/certbot-dns-vultr-1.0.3.tar.gz
+[2023-05-22 15:27:54] INFO root fetch - processPackages [cellsnake]: New version: [0.2.0rc2] Old Version: [0.2.0.dev9]
+[2023-05-22 15:27:54] INFO root fetch - processPackages [certbot-dns-vultr]: Downloading https://files.pythonhosted.org/packages/06/6f/b784a381c92ad049da9237a6ab278388dd71c0cc3d741ec7440f3d5fb61e/certbot-dns-vultr-1.1.0rc1.tar.gz
+[2023-05-22 15:27:54] INFO root fetch - processPackages [cellsnake]: Downloading https://files.pythonhosted.org/packages/fb/76/5764c8ee317b627e051c2920615f081ada8a5554206702f508fc4a28c5c0/cellsnake-0.2.0.dev9.tar.gz
+[2023-05-22 15:27:54] INFO root fetch - processPackages [certbot-dns-vultr]: executing diffoscope
+[2023-05-22 15:27:54] INFO root fetch - processPackages [certbot-dns-vultr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-vultr-1.0.3.tar.gz tmp/certbot-dns-vultr-1.1.0rc1.tar.gz --markdown 20230522/c/certbot-dns-vultr/1.0.3-1.1.0rc1/diff.md --exclude *.pyd
+[2023-05-22 15:27:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-22 15:27:55] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-05-22 15:27:55] INFO root fetch - processPackages [cellsnake]: Downloading https://files.pythonhosted.org/packages/bb/57/03dd90eec875ba60740df674babeee1635d849a4d30bd5cc750c09f265cf/cellsnake-0.2.0rc2.tar.gz
+[2023-05-22 15:27:55] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-22 15:27:55] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-05-22 15:27:55] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-22 15:27:55] INFO root fetch - processPackages [cellsnake]: executing diffoscope
+[2023-05-22 15:27:55] INFO root fetch - processPackages [cellsnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellsnake-0.2.0.dev9.tar.gz tmp/cellsnake-0.2.0rc2.tar.gz --markdown 20230522/c/cellsnake/0.2.0.dev9-0.2.0rc2/diff.md --exclude *.pyd
+[2023-05-22 15:27:55] INFO root fetch - main [MainThread]: End processing [certbot-dns-vultr]: success
+[2023-05-22 15:27:55] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-22 15:27:57] INFO root fetch - main [MainThread]: End processing [cellsnake]: success
+[2023-05-22 15:27:57] INFO root fetch - main [MainThread]: End processing [pco]: success
+[2023-05-22 15:28:02] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-05-22 15:28:12] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-22 15:28:12] INFO root fetch - main [MainThread]: Store serial: [18197548]
