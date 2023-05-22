@@ -20611,3 +20611,67 @@ EOFError: EOF read where object expected
 [2023-05-22 19:15:45] INFO root fetch - main [MainThread]: End processing [transphone]: success
 [2023-05-22 19:15:48] INFO root fetch - main [MainThread]: End processing [open-cravat]: success
 [2023-05-22 19:15:48] INFO root fetch - main [MainThread]: Store serial: [18201405]
+[2023-05-22 19:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201405]
+[2023-05-22 19:20:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sidetrek
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-lightweight-charts
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irispreppy
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lockstep-sdk
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qcs-sdk-python
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwiqc
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akerbp.mlops
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raylib
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canaveral-cli
+[2023-05-22 19:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-meet-api
+[2023-05-22 19:20:59] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-05-22 19:20:59] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230522/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-22 19:20:59] INFO root fetch - processPackages [dwiqc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [streamlit-lightweight-charts]: New version: [0.7.20] Old Version: [0.7.19]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 19:20:59] WARNING root fetch - processPackages [canaveral-cli]: Skipping, unable to determine old version
+[2023-05-22 19:20:59] INFO root fetch - processPackages [canaveral-cli]: Start processing: spanishconjugator
+[2023-05-22 19:20:59] WARNING root fetch - processPackages [google-meet-api]: Skipping, unable to determine old version
+[2023-05-22 19:20:59] INFO root fetch - main [MainThread]: End processing [canaveral-cli] error
+[2023-05-22 19:20:59] INFO root fetch - main [MainThread]: End processing [google-meet-api] error
+[2023-05-22 19:20:59] INFO root fetch - processPackages [lockstep-sdk]: New version: [2023.7.7] Old Version: [2023.5.21]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [raylib]: New version: [4.5.0.0] Old Version: [4.2.1.2]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.2a0] Old Version: [3.1.1a5]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.6.0rc4] Old Version: [0.6.0rc3]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-22 19:20:59] INFO root fetch - processPackages [raylib]: Downloading https://files.pythonhosted.org/packages/c9/6b/4d1094462f96e510a87f147dbda0336d1e80ed94c8bfd04e03e5a96ff25a/raylib-4.2.1.2.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/e2/92/af3bad4a25324f355437690beda65f252590f30b74cfbb02d6004a76fcdb/akerbp.mlops-3.1.1a5.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [lockstep-sdk]: Downloading https://files.pythonhosted.org/packages/95/2d/c1f20ec0e4860ae0e6fecacabdcdeb96364408255edf57f0e96d0c0021e2/lockstep-sdk-2023.5.21.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [streamlit-lightweight-charts]: Downloading https://files.pythonhosted.org/packages/92/9e/8347d4a9cf5a01c3903ef344824a3b00b9df1ecb2834a84cc00150d46d81/streamlit-lightweight-charts-0.7.19.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-22 19:20:59] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230522/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-22 19:20:59] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/ec/f9/1e950e3edcb7a40faa7de025c7bd3f2bfcc9daad35d5ea8727ba99838edb/dwiqc-0.1.6-py2.py3-none-any.whl
+[2023-05-22 19:20:59] INFO root fetch - processPackages [raylib]: Downloading https://files.pythonhosted.org/packages/24/18/aa8e35bd946bb04b58528b6af80d39d9e980a3f12fcc1197518ea55cb1cc/raylib-4.5.0.0.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/c3/79/45e006c6c38603a8ad4bdfc5d72ab6ea5f83f1f8b9140edeea7842351346/qcs_sdk_python-0.6.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-22 19:20:59] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 19:20:59] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:20:59] INFO root fetch - processPackages [streamlit-lightweight-charts]: Downloading https://files.pythonhosted.org/packages/7e/51/4a1b5c968746baf403845e4dc58d0e4c789f0a4274a690b06d1f11e073a2/streamlit-lightweight-charts-0.7.20.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-22 19:20:59] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.5-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.6-py2.py3-none-any.whl.zip --markdown 20230522/d/dwiqc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 19:20:59] INFO root fetch - processPackages [lockstep-sdk]: Downloading https://files.pythonhosted.org/packages/27/03/c0f04cd79ec5c404cf38f1fa4073862161c3d4583d482fab48959fcd7b7a/lockstep-sdk-2023.7.7.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/31/9b/1293f1e3639774d46e4225c1f64d2e975ccba7e29b2a1b31323c30c8015e/akerbp.mlops-3.1.2a0.tar.gz
+[2023-05-22 19:20:59] INFO root fetch - processPackages [raylib]: executing diffoscope
+[2023-05-22 19:20:59] INFO root fetch - processPackages [raylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raylib-4.2.1.2.tar.gz tmp/raylib-4.5.0.0.tar.gz --markdown 20230522/r/raylib/4.2.1.2-4.5.0.0/diff.md --exclude *.pyd
+[2023-05-22 19:21:00] INFO root fetch - processPackages [lockstep-sdk]: executing diffoscope
+[2023-05-22 19:21:00] INFO root fetch - processPackages [lockstep-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockstep-sdk-2023.5.21.tar.gz tmp/lockstep-sdk-2023.7.7.tar.gz --markdown 20230522/l/lockstep-sdk/2023.5.21-2023.7.7/diff.md --exclude *.pyd
+[2023-05-22 19:21:00] INFO root fetch - processPackages [streamlit-lightweight-charts]: executing diffoscope
+[2023-05-22 19:21:00] INFO root fetch - processPackages [streamlit-lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-lightweight-charts-0.7.19.tar.gz tmp/streamlit-lightweight-charts-0.7.20.tar.gz --markdown 20230522/s/streamlit-lightweight-charts/0.7.19-0.7.20/diff.md --exclude *.pyd
+[2023-05-22 19:21:00] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-22 19:21:00] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.1a5.tar.gz tmp/akerbp.mlops-3.1.2a0.tar.gz --markdown 20230522/a/akerbp.mlops/3.1.1a5-3.1.2a0/diff.md --exclude *.pyd
+[2023-05-22 19:21:00] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-05-22 19:21:01] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-22 19:21:01] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-05-22 19:21:01] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.6.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.6.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230522/q/qcs-sdk-python/0.6.0rc3-0.6.0rc4/diff.md --exclude *.pyd
+[2023-05-22 19:21:01] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 19:21:01] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-22 19:21:01] INFO root fetch - main [MainThread]: End processing [raylib]: success
+[2023-05-22 19:21:01] INFO root fetch - main [MainThread]: End processing [streamlit-lightweight-charts]: success
+[2023-05-22 19:21:01] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-22 19:21:02] INFO root fetch - main [MainThread]: End processing [lockstep-sdk]: success
+[2023-05-22 19:23:12] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-05-22 19:23:12] INFO root fetch - main [MainThread]: Store serial: [18201477]
