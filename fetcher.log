@@ -4011,3 +4011,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:21:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
 [2023-05-22 04:21:03] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vpc]: success
 [2023-05-22 04:21:03] INFO root fetch - main [MainThread]: Store serial: [18191665]
+[2023-05-22 04:26:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191665]
+[2023-05-22 04:26:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dLux
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-redisdb
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akari-client
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorado
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neutrosopy
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: askCO
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: misc-io-operations
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: compose-py
+[2023-05-22 04:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arc-cli
+[2023-05-22 04:26:12] INFO root fetch - processPackages [askCO]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 04:26:12] INFO root fetch - processPackages [cdk-redisdb]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-22 04:26:12] INFO root fetch - processPackages [akari-client]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-22 04:26:12] INFO root fetch - processPackages [misc-io-operations]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-22 04:26:12] INFO root fetch - processPackages [dLux]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 04:26:12] WARNING root fetch - processPackages [neutrosopy]: Skipping, unable to determine old version
+[2023-05-22 04:26:12] WARNING root fetch - processPackages [compose-py]: Skipping, unable to determine old version
+[2023-05-22 04:26:12] INFO root fetch - main [MainThread]: End processing [neutrosopy] error
+[2023-05-22 04:26:12] INFO root fetch - main [MainThread]: End processing [compose-py] error
+[2023-05-22 04:26:12] INFO root fetch - processPackages [arc-cli]: New version: [8.4.1] Old Version: [8.4.0]
+[2023-05-22 04:26:12] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 04:26:12] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 04:26:12] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 04:26:12] INFO root fetch - processPackages [akari-client]: Downloading https://files.pythonhosted.org/packages/fd/0c/201bf4ae84383ffe058b8e313a38a35848c93f6ed9a550a72cc882dea9c4/akari-client-0.3.1.tar.gz
+[2023-05-22 04:26:12] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/fa/68/d085f6267b164179140f1863ce15a56d5f919085112652934a2d91558df7/arc_cli-8.4.0.tar.gz
+[2023-05-22 04:26:12] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/3e/42/1bca13ebb5b65d5817fa1dff6179d1965d3bd038f26107b061913e77473e/misc_io_operations-1.1.3.tar.gz
+[2023-05-22 04:26:12] INFO root fetch - processPackages [dLux]: Downloading https://files.pythonhosted.org/packages/08/cd/33b0f9aac62a239f88e839c71d68f1c633f44493924447cd2241abcc3e86/dLux-0.9.1.tar.gz
+[2023-05-22 04:26:13] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/49/32/e5ff328e5b03a8a044086512442c737c46952c7b8c70398c0d0369902e0d/askCO-0.0.3.tar.gz
+[2023-05-22 04:26:13] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 04:26:13] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.1.2.tar.gz tmp/misc_io_operations-1.1.3.tar.gz --markdown 20230522/m/misc-io-operations/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-22 04:26:13] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/4f/9f/a6fe7de26ba29190f5e738520498ee76d04c8014d53090f23d1fce650502/cdk-redisdb-0.0.24.tar.gz
+[2023-05-22 04:26:13] INFO root fetch - processPackages [askCO]: executing diffoscope
+[2023-05-22 04:26:13] INFO root fetch - processPackages [askCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askCO-0.0.2.tar.gz tmp/askCO-0.0.3.tar.gz --markdown 20230522/a/askCO/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 04:26:13] INFO root fetch - processPackages [cdk-redisdb]: executing diffoscope
+[2023-05-22 04:26:13] INFO root fetch - processPackages [cdk-redisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-redisdb-0.0.23.tar.gz tmp/cdk-redisdb-0.0.24.tar.gz --markdown 20230522/c/cdk-redisdb/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-22 04:26:13] INFO root fetch - processPackages [akari-client]: Downloading https://files.pythonhosted.org/packages/f5/60/bb44dabfb17f8c6c5796ad5b4a003a93094db0c3616c8e0ebebc53c82073/akari-client-0.3.2.tar.gz
+[2023-05-22 04:26:13] INFO root fetch - processPackages [arc-cli]: Downloading https://files.pythonhosted.org/packages/0d/b6/a79145cda25ddd34871655d9cf266fb149b15acdc33b292933a559cc4c74/arc_cli-8.4.1.tar.gz
+[2023-05-22 04:26:13] INFO root fetch - processPackages [akari-client]: executing diffoscope
+[2023-05-22 04:26:13] INFO root fetch - processPackages [akari-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akari-client-0.3.1.tar.gz tmp/akari-client-0.3.2.tar.gz --markdown 20230522/a/akari-client/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-22 04:26:13] INFO root fetch - processPackages [dLux]: Downloading https://files.pythonhosted.org/packages/7d/e0/d7e1d8e5a6f5c1eaf16a2aa0c2fc99e5504fe6a8b347bf8ff967640462b3/dLux-0.9.2.tar.gz
+[2023-05-22 04:26:13] INFO root fetch - processPackages [arc-cli]: executing diffoscope
+[2023-05-22 04:26:13] INFO root fetch - processPackages [arc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arc_cli-8.4.0.tar.gz tmp/arc_cli-8.4.1.tar.gz --markdown 20230522/a/arc-cli/8.4.0-8.4.1/diff.md --exclude *.pyd
+[2023-05-22 04:26:13] INFO root fetch - processPackages [dLux]: executing diffoscope
+[2023-05-22 04:26:13] INFO root fetch - processPackages [dLux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dLux-0.9.1.tar.gz tmp/dLux-0.9.2.tar.gz --markdown 20230522/d/dLux/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 04:26:14] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 04:26:14] INFO root fetch - main [MainThread]: End processing [askCO]: success
+[2023-05-22 04:26:14] INFO root fetch - main [MainThread]: End processing [cdk-redisdb]: success
+[2023-05-22 04:26:14] INFO root fetch - main [MainThread]: End processing [arc-cli]: success
+[2023-05-22 04:26:15] INFO root fetch - main [MainThread]: End processing [akari-client]: success
+[2023-05-22 04:26:15] INFO root fetch - main [MainThread]: End processing [dLux]: success
+[2023-05-22 04:26:16] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 04:26:16] INFO root fetch - main [MainThread]: Store serial: [18191696]
