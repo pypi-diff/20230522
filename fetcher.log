@@ -14904,3 +14904,139 @@ EOFError: EOF read where object expected
 [2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-22 16:06:36] INFO root fetch - main [MainThread]: End processing [nbox]: success
 [2023-05-22 16:06:36] INFO root fetch - main [MainThread]: Store serial: [18198106]
+[2023-05-22 16:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198106]
+[2023-05-22 16:11:45] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynterfacelib
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hwpapi
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterhub-tmpauthenticator
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secret-message
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: infra-buddy-too
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runningz
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chimpflow
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-remote-stack
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pystacker
+[2023-05-22 16:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: etsy-apiv3
+[2023-05-22 16:11:45] WARNING root fetch - processPackages [hwpapi]: Skipping, unable to determine old version
+[2023-05-22 16:11:45] INFO root fetch - processPackages [hwpapi]: Start processing: tkintertools
+[2023-05-22 16:11:45] WARNING root fetch - processPackages [pynterfacelib]: Skipping, unable to determine old version
+[2023-05-22 16:11:45] INFO root fetch - main [MainThread]: End processing [hwpapi] error
+[2023-05-22 16:11:45] INFO root fetch - processPackages [pynterfacelib]: Start processing: fabrictestbed-extensions
+[2023-05-22 16:11:45] INFO root fetch - main [MainThread]: End processing [pynterfacelib] error
+[2023-05-22 16:11:45] INFO root fetch - processPackages [secret-message]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [infra-buddy-too]: New version: [64] Old Version: [63]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [chimpflow]: New version: [1.3.0] Old Version: [1.1.3]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [runningz]: New version: [0.11.3.4] Old Version: [0.11.3.3]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [pystacker]: New version: [1.4.0] Old Version: [1.2.9]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [pulumi-remote-stack]: New version: [0.1.5.dev0] Old Version: [0.1.4]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [tkintertools]: New version: [2.6.1.2] Old Version: [2.6.1.1]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.5.0rc3] Old Version: [1.5.0rc2]
+[2023-05-22 16:11:45] INFO root fetch - processPackages [jupyterhub-tmpauthenticator]: New version: [1.0.0] Old Version: [0.6]
+[2023-05-22 16:11:46] INFO root fetch - processPackages [secret-message]: Downloading https://files.pythonhosted.org/packages/fd/40/e9142ce3523dd3b06ea2ed67f09d37bb1c2c469b2d2ee427ded885a8f4d0/secret_message-0.1.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/7c/95/7e8e5662672b15a497879780d3bb63eb78e1baa833cb20bb3a17a9883547/runningz-0.11.3.4-py39-none-any.whl
+[2023-05-22 16:11:46] INFO root fetch - processPackages [chimpflow]: Downloading https://files.pythonhosted.org/packages/f6/e1/9ff388c8bb73e88f1b432ac68facc4e59ac905861111c9d66cbf98732814/chimpflow-1.1.3.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/d1/90/bae5b380c6d069ebffc9846c33c9533d37bf92f5ab459a5f5825464ab0fa/fabrictestbed-extensions-1.5.0rc3.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/d4/72/5397faab84830a78eb134d544db8552187e80164eabc3f2a7afaf5e86d6a/etsy-apiv3-1.8.1.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/12/f7/16388811c8844999531d5d81e32628e518117a7086678909a8000167272d/infra-buddy-too-63.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [jupyterhub-tmpauthenticator]: Downloading https://files.pythonhosted.org/packages/4e/76/86df432b52fd714651326474847ee0eb3d8f9c1f859aee25e5e777abfa45/jupyterhub-tmpauthenticator-0.6.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pulumi-remote-stack]: Downloading https://files.pythonhosted.org/packages/56/0d/1617673741f18cc20829fc8c9863f31c0b0791f7f8cfaba069a7d6d16759/pulumi-remote-stack-0.1.4.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/8c/24/0eeee80193cf061d0406639fb1514c409281ce630c71938249aa58c72c4a/pystacker-1.2.9-py3.10.egg
+[2023-05-22 16:11:46] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.8.0.tar.gz tmp/etsy-apiv3-1.8.1.tar.gz --markdown 20230522/e/etsy-apiv3/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.3.3-py39-none-any.whl.zip tmp/runningz-0.11.3.4-py39-none-any.whl.zip --markdown 20230522/r/runningz/0.11.3.3-0.11.3.4/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.5.0rc2.tar.gz tmp/fabrictestbed-extensions-1.5.0rc3.tar.gz --markdown 20230522/f/fabrictestbed-extensions/1.5.0rc2-1.5.0rc3/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/c3/17/f88f5e3bc9b7577caf39c3bb0fa9e5e992c0e5e06c48ad6d5f7c395549c8/tkintertools-2.6.1.2.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.1.1.tar.gz tmp/tkintertools-2.6.1.2.tar.gz --markdown 20230522/t/tkintertools/2.6.1.1-2.6.1.2/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [chimpflow]: Downloading https://files.pythonhosted.org/packages/08/15/c651bb57b0f2a60ddea4b3abc0571a1f530cb642fdbb8b36358a47ee26f8/chimpflow-1.3.0.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [secret-message]: Downloading https://files.pythonhosted.org/packages/32/53/f2c52070256027bef737a8645a1bd9a6c00217f2a54654d37916c1ecea07/secret_message-0.2.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pulumi-remote-stack]: Downloading https://files.pythonhosted.org/packages/04/77/9c87190379ca06baa54680d1982d5c9b329362078495f49dedf5911db0f0/pulumi-remote-stack-0.1.5.dev0.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [jupyterhub-tmpauthenticator]: Downloading https://files.pythonhosted.org/packages/ef/26/5a2c77cdcbe0e160630a6e7bcb36d0dd6fab86c385faec0479833c1d2879/jupyterhub-tmpauthenticator-1.0.0.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/9d/bc/cf9b60b9af24e09aff52a53c5d61e3699aacdec9cd508107a5300dd9f228/pystacker-1.4.0-py3-none-any.whl
+[2023-05-22 16:11:46] INFO root fetch - processPackages [chimpflow]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [chimpflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chimpflow-1.1.3.tar.gz tmp/chimpflow-1.3.0.tar.gz --markdown 20230522/c/chimpflow/1.1.3-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [secret-message]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [secret-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secret_message-0.1.tar.gz tmp/secret_message-0.2.tar.gz --markdown 20230522/s/secret-message/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [infra-buddy-too]: Downloading https://files.pythonhosted.org/packages/cc/1d/f3d56001ad6e19e694af313e8d45219679a998a24476343baebc406fedd4/infra-buddy-too-64.tar.gz
+[2023-05-22 16:11:46] INFO root fetch - processPackages [jupyterhub-tmpauthenticator]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [jupyterhub-tmpauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-tmpauthenticator-0.6.tar.gz tmp/jupyterhub-tmpauthenticator-1.0.0.tar.gz --markdown 20230522/j/jupyterhub-tmpauthenticator/0.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.2.9-py3.10.egg tmp/pystacker-1.4.0-py3-none-any.whl.zip --markdown 20230522/p/pystacker/1.2.9-1.4.0/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [infra-buddy-too]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [infra-buddy-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infra-buddy-too-63.tar.gz tmp/infra-buddy-too-64.tar.gz --markdown 20230522/i/infra-buddy-too/63-64/diff.md --exclude *.pyd
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pulumi-remote-stack]: executing diffoscope
+[2023-05-22 16:11:46] INFO root fetch - processPackages [pulumi-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-remote-stack-0.1.4.tar.gz tmp/pulumi-remote-stack-0.1.5.dev0.tar.gz --markdown 20230522/p/pulumi-remote-stack/0.1.4-0.1.5.dev0/diff.md --exclude *.pyd
+[2023-05-22 16:11:47] INFO root fetch - processPackages [jupyterhub-tmpauthenticator]: Start processing: dumpulator
+[2023-05-22 16:11:47] INFO root fetch - main [MainThread]: End processing [jupyterhub-tmpauthenticator]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [secret-message]: Start processing: contur
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [secret-message]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [dumpulator]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [contur]: New version: [2.4.2] Old Version: [2.4.1b0]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pulumi-remote-stack]: Start processing: localstack-core
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [pulumi-remote-stack]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230522132757] Old Version: [2.0.3.dev20230522112155]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [etsy-apiv3]: Start processing: econml
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-22 16:11:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230522112155.tar.gz tmp/localstack-core-2.0.3.dev20230522132757.tar.gz --markdown 20230522/l/localstack-core/2.0.3.dev20230522112155-2.0.3.dev20230522132757/diff.md --exclude *.pyd
+[2023-05-22 16:11:48] INFO root fetch - processPackages [dumpulator]: Downloading https://files.pythonhosted.org/packages/d5/d1/3cd6e46799a94c84d80240018e76bc1023b29cfcc9da0f2a7241e81add4f/dumpulator-0.2.4.tar.gz
+[2023-05-22 16:11:48] INFO root fetch - processPackages [contur]: Downloading https://files.pythonhosted.org/packages/d9/d0/12c205c324845e9df57ffa1b1c33200afe8f483cf42c155a4e3604709954/contur-2.4.1b0-py3-none-any.whl
+[2023-05-22 16:11:48] INFO root fetch - processPackages [tkintertools]: Start processing: pymavlog
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [runningz]: Start processing: json-xml-serializer-yedka
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [econml]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pymavlog]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-22 16:11:48] WARNING root fetch - processPackages [json-xml-serializer-yedka]: Skipping, unable to determine old version
+[2023-05-22 16:11:48] INFO root fetch - processPackages [json-xml-serializer-yedka]: Start processing: pyhyypapihawkmod
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [json-xml-serializer-yedka] error
+[2023-05-22 16:11:48] INFO root fetch - processPackages [dumpulator]: Downloading https://files.pythonhosted.org/packages/f2/f9/a0a6db2d24f93403f5e71f05823286274d459a0a5859fb7edc7715b05418/dumpulator-0.2.5.tar.gz
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [dumpulator]: executing diffoscope
+[2023-05-22 16:11:48] INFO root fetch - processPackages [dumpulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumpulator-0.2.4.tar.gz tmp/dumpulator-0.2.5.tar.gz --markdown 20230522/d/dumpulator/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pystacker]: Start processing: ana-sdk
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [econml]: Downloading https://files.pythonhosted.org/packages/ef/2c/c262ae40bde6709bacc0fd97a522658bdf5f6110c091fe64be0aef0df486/econml-0.9.1.tar.gz
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-0.0.0.2.tar.gz tmp/pyhyypapihawkmod-0.0.0.3.tar.gz --markdown 20230522/p/pyhyypapihawkmod/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pymavlog]: Downloading https://files.pythonhosted.org/packages/7a/d6/a15c28c81cf19660a36164f3725fce0c890d019119b9788689098eac39ab/pymavlog-0.2.0.tar.gz
+[2023-05-22 16:11:48] WARNING root fetch - processPackages [ana-sdk]: Skipping, unable to determine old version
+[2023-05-22 16:11:48] INFO root fetch - processPackages [ana-sdk]: Start processing: kronbinations
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [ana-sdk] error
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pymavlog]: Downloading https://files.pythonhosted.org/packages/7c/a3/77cbac61a7d6d4e0ffd5e3b831f77d7f8e549c372b8e21ea43b26f7fc57b/pymavlog-0.3.0.tar.gz
+[2023-05-22 16:11:48] INFO root fetch - processPackages [kronbinations]: New version: [1.9] Old Version: [1.8]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [infra-buddy-too]: Start processing: brightsky
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [infra-buddy-too]: success
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pymavlog]: executing diffoscope
+[2023-05-22 16:11:48] INFO root fetch - processPackages [pymavlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymavlog-0.2.0.tar.gz tmp/pymavlog-0.3.0.tar.gz --markdown 20230522/p/pymavlog/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 16:11:48] WARNING root fetch - processPackages [contur]: Skipping package: exceeds size limit 64994559>=10485760
+[2023-05-22 16:11:48] INFO root fetch - processPackages [contur]: Start processing: YMS
+[2023-05-22 16:11:48] INFO root fetch - main [MainThread]: End processing [contur] error
+[2023-05-22 16:11:48] INFO root fetch - processPackages [YMS]: New version: [0.77] Old Version: [0.76]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [econml]: Downloading https://files.pythonhosted.org/packages/23/59/2b3cff1c6afa257452c7d3991260a32931bea9f3f2e146b4c1e26d1f012b/econml-0.9.2.tar.gz
+[2023-05-22 16:11:48] INFO root fetch - processPackages [brightsky]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-22 16:11:48] INFO root fetch - processPackages [kronbinations]: Downloading https://files.pythonhosted.org/packages/b7/9a/e9874d8ee4f7f8ade1c2e9e5c02c809aecccb3d9a12d4d63c99500e062f0/kronbinations-1.8.tar.gz
+[2023-05-22 16:11:48] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 16:11:48] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.76.tar.gz tmp/YMS-0.77.tar.gz --markdown 20230522/Y/YMS/0.76-0.77/diff.md --exclude *.pyd
+[2023-05-22 16:11:49] INFO root fetch - processPackages [econml]: executing diffoscope
+[2023-05-22 16:11:49] INFO root fetch - processPackages [econml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econml-0.9.1.tar.gz tmp/econml-0.9.2.tar.gz --markdown 20230522/e/econml/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 16:11:49] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/83/8f/22e0964277e36a9623636968e7dec9081825089e69c2b9deb860fa57614f/brightsky-2.0.2.tar.gz
+[2023-05-22 16:11:49] INFO root fetch - processPackages [kronbinations]: Downloading https://files.pythonhosted.org/packages/c6/68/a57e444ec397a5e664c42625bbc90f15b94dd216babe509df24ad30d21be/kronbinations-1.9.tar.gz
+[2023-05-22 16:11:49] INFO root fetch - processPackages [kronbinations]: executing diffoscope
+[2023-05-22 16:11:49] INFO root fetch - processPackages [kronbinations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kronbinations-1.8.tar.gz tmp/kronbinations-1.9.tar.gz --markdown 20230522/k/kronbinations/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-22 16:11:49] INFO root fetch - processPackages [brightsky]: Downloading https://files.pythonhosted.org/packages/c1/d6/2784fa06a7fe44e3fab6211d9454cc1da7970896a2d85ff4c2a0ad16b101/brightsky-2.0.3.tar.gz
+[2023-05-22 16:11:49] INFO root fetch - processPackages [brightsky]: executing diffoscope
+[2023-05-22 16:11:49] INFO root fetch - processPackages [brightsky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightsky-2.0.2.tar.gz tmp/brightsky-2.0.3.tar.gz --markdown 20230522/b/brightsky/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [pymavlog]: success
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [dumpulator]: success
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [chimpflow]: success
+[2023-05-22 16:11:50] INFO root fetch - main [MainThread]: End processing [brightsky]: success
+[2023-05-22 16:11:51] INFO root fetch - main [MainThread]: End processing [kronbinations]: success
+[2023-05-22 16:11:54] INFO root fetch - main [MainThread]: End processing [econml]: success
+[2023-05-22 16:11:54] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-22 16:11:54] INFO root fetch - main [MainThread]: Store serial: [18198187]
