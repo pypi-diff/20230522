@@ -14702,3 +14702,94 @@ EOFError: EOF read where object expected
 [2023-05-22 15:55:57] INFO root fetch - main [MainThread]: End processing [pydantic-tools]: success
 [2023-05-22 15:56:06] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-05-22 15:56:06] INFO root fetch - main [MainThread]: Store serial: [18197987]
+[2023-05-22 16:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197987]
+[2023-05-22 16:01:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ambient-toolbox
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lts-mpsmqutils
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-neat
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odh-core
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batou
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omc3
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: titiler.pgstac
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grewpy
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: echofish-aws-indexing-lambda
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: celerity
+[2023-05-22 16:01:16] INFO root fetch - processPackages [titiler.pgstac]: New version: [4.0.0] Old Version: [0.3.3]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.14]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.4.0] Old Version: [8.3.5]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [cognite-neat]: New version: [0.11.4] Old Version: [0.11.3]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [omc3]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [lts-mpsmqutils]: New version: [2.0.2a12] Old Version: [2.0.2a0]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [grewpy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: New version: [1.0.0.dev20230522135447] Old Version: [1.0.0.dev20230519191526]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [batou]: New version: [2.3b6] Old Version: [2.3b5]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-22 16:01:16] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230522/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 16:01:16] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/20/21/b6407ade54c3811d9a9df0c4d934f79cf11bad624a70ca3ceeb113cfce0f/odh_core-0.1.14.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [omc3]: Downloading https://files.pythonhosted.org/packages/bd/c5/164f854277c605ffc5a41a551b3bc773ed1627adf2493b9dc17dbd4889bf/omc3-0.8.0.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [grewpy]: Downloading https://files.pythonhosted.org/packages/1b/2c/bf73636bfc5bdbb2d32b585a40d5d2f82203160214a177eb3f4cd5fb38a4/grewpy-0.3.0.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/66/08/6f3e8fcc9b29b7a67fb917a513797d07de23456932afb194c58574bd6e98/batou-2.3b5.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/c7/51/494a4b0b4f91e3b67488aabafe301ec51494e990b3d2133f99cf9443c479/titiler.pgstac-0.3.3.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/f7/83/0d16b4f207fa7d26584ab9b660c09a8d6de8590436442a0cad70862eadfe/ambient-toolbox-8.3.5.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [lts-mpsmqutils]: Downloading https://files.pythonhosted.org/packages/22/cf/eeb966935779fe67dfb984d130cb987f4d2c7b4863bcf106a066b4e4aeb1/lts-mpsmqutils-2.0.2a0.tar.gz
+[2023-05-22 16:01:16] WARNING root fetch - processPackages [omc3]: Skipping package: exceeds size limit 20450935>=10485760
+[2023-05-22 16:01:16] INFO root fetch - processPackages [omc3]: Start processing: ebeer
+[2023-05-22 16:01:16] INFO root fetch - main [MainThread]: End processing [omc3] error
+[2023-05-22 16:01:16] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8b/ec/25c59cb32af59810c9ceaf22a7b0cb5760143f45780a8d5c7abccad5e4ea/cognite_neat-0.11.4.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Downloading https://files.pythonhosted.org/packages/09/8a/f8e00bcc07967dac25b5e0b613faa5eae299b876cc3ab368911b03bbf328/echofish-aws-indexing-lambda-1.0.0.dev20230522135447.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ebeer]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-05-22 16:01:16] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/e2/59/84e2244bc7adbdda6de71553b6c508d191ca90e12c18b6a253e6672be9c0/odh_core-0.1.9.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: executing diffoscope
+[2023-05-22 16:01:16] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-indexing-lambda-1.0.0.dev20230519191526.tar.gz tmp/echofish-aws-indexing-lambda-1.0.0.dev20230522135447.tar.gz --markdown 20230522/e/echofish-aws-indexing-lambda/1.0.0.dev20230519191526-1.0.0.dev20230522135447/diff.md --exclude *.pyd
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/53/df/b82fef977534a6230e25ef75c063b2510e818e0e1cf345cfff7d957476c5/ambient-toolbox-8.4.0.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-05-22 16:01:16] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.14.tar.gz tmp/odh_core-0.1.9.tar.gz --markdown 20230522/o/odh-core/0.1.14-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/ec/45/784a49fcb9d88fe8a7f417463ad43a42f636a825568df26b394316fe9cde/ebeer-0.0.12.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/32/5d/57953576604bb22b64a97a00430080a8252462497e2d32dd9008c583cbc9/batou-2.3b6.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [lts-mpsmqutils]: Downloading https://files.pythonhosted.org/packages/da/df/12369f9b109acdf544b18c303bb3e092ef25a747f1093aeb3c89a6af0f7a/lts-mpsmqutils-2.0.2a12.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/18/7e/889dffcd31cab9635eb7edb257907611e94e7de6bbcb57b75180443eea7a/titiler.pgstac-4.0.0.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [grewpy]: Downloading https://files.pythonhosted.org/packages/a8/bd/073d7e41ee3b7cc7115084059883833d8f5b6de56c1fc23aedf36e1cd7d0/grewpy-0.4.0.tar.gz
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-05-22 16:01:16] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.3.5.tar.gz tmp/ambient-toolbox-8.4.0.tar.gz --markdown 20230522/a/ambient-toolbox/8.3.5-8.4.0/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [lts-mpsmqutils]: executing diffoscope
+[2023-05-22 16:01:17] INFO root fetch - processPackages [lts-mpsmqutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lts-mpsmqutils-2.0.2a0.tar.gz tmp/lts-mpsmqutils-2.0.2a12.tar.gz --markdown 20230522/l/lts-mpsmqutils/2.0.2a0-2.0.2a12/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [batou]: executing diffoscope
+[2023-05-22 16:01:17] INFO root fetch - processPackages [batou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batou-2.3b5.tar.gz tmp/batou-2.3b6.tar.gz --markdown 20230522/b/batou/2.3b5-2.3b6/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [titiler.pgstac]: executing diffoscope
+[2023-05-22 16:01:17] INFO root fetch - processPackages [titiler.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.pgstac-0.3.3.tar.gz tmp/titiler.pgstac-4.0.0.tar.gz --markdown 20230522/t/titiler.pgstac/0.3.3-4.0.0/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [grewpy]: executing diffoscope
+[2023-05-22 16:01:17] INFO root fetch - processPackages [grewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grewpy-0.3.0.tar.gz tmp/grewpy-0.4.0.tar.gz --markdown 20230522/g/grewpy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-22 16:01:17] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.12.tar.gz tmp/ebeer-0.0.9.tar.gz --markdown 20230522/e/ebeer/0.0.12-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-05-22 16:01:17] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.11.3.tar.gz tmp/cognite_neat-0.11.4.tar.gz --markdown 20230522/c/cognite-neat/0.11.3-0.11.4/diff.md --exclude *.pyd
+[2023-05-22 16:01:17] INFO root fetch - processPackages [celerity]: Start processing: decore-Base
+[2023-05-22 16:01:17] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-22 16:01:17] INFO root fetch - processPackages [decore-Base]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 16:01:18] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-05-22 16:01:18] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.8.tar.gz tmp/decore_Base-0.0.9.tar.gz --markdown 20230522/d/decore-Base/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:01:18] INFO root fetch - processPackages [echofish-aws-indexing-lambda]: Start processing: fetchify
+[2023-05-22 16:01:18] INFO root fetch - main [MainThread]: End processing [echofish-aws-indexing-lambda]: success
+[2023-05-22 16:01:18] INFO root fetch - processPackages [fetchify]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 16:01:18] INFO root fetch - processPackages [odh-core]: Start processing: meet-api
+[2023-05-22 16:01:18] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-05-22 16:01:18] WARNING root fetch - processPackages [meet-api]: Skipping, unable to determine old version
+[2023-05-22 16:01:18] INFO root fetch - processPackages [meet-api]: Start processing: DataGlitch
+[2023-05-22 16:01:18] INFO root fetch - main [MainThread]: End processing [meet-api] error
+[2023-05-22 16:01:18] ERROR root fetch - processPackages [DataGlitch]: Unable to get metadata: No such project 'DataGlitch'
+[2023-05-22 16:01:18] INFO root fetch - main [MainThread]: End processing [DataGlitch] error
+[2023-05-22 16:01:18] INFO root fetch - main [MainThread]: End processing [lts-mpsmqutils]: success
+[2023-05-22 16:01:18] INFO root fetch - processPackages [fetchify]: Downloading https://files.pythonhosted.org/packages/18/da/798c11f596910d0655a25b7a6f4da06274a003e39a3500130821d5171816/fetchify-1.0.3.tar.gz
+[2023-05-22 16:01:18] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-22 16:01:18] INFO root fetch - processPackages [fetchify]: Downloading https://files.pythonhosted.org/packages/0f/62/f855028b175553662bbc397c184ab9408c6f9c055b48628eeb7201134682/fetchify-1.0.4.tar.gz
+[2023-05-22 16:01:18] INFO root fetch - processPackages [fetchify]: executing diffoscope
+[2023-05-22 16:01:18] INFO root fetch - processPackages [fetchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetchify-1.0.3.tar.gz tmp/fetchify-1.0.4.tar.gz --markdown 20230522/f/fetchify/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 16:01:19] INFO root fetch - main [MainThread]: End processing [grewpy]: success
+[2023-05-22 16:01:19] INFO root fetch - main [MainThread]: End processing [titiler.pgstac]: success
+[2023-05-22 16:01:19] INFO root fetch - main [MainThread]: End processing [batou]: success
+[2023-05-22 16:01:19] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-05-22 16:01:19] INFO root fetch - main [MainThread]: End processing [fetchify]: success
+[2023-05-22 16:01:20] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-05-22 16:01:22] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-05-22 16:01:22] INFO root fetch - main [MainThread]: Store serial: [18198048]
