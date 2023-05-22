@@ -8035,3 +8035,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:29:34] INFO root fetch - main [MainThread]: End processing [jupyterhub-nativeauthenticator]: success
 [2023-05-22 10:29:38] INFO root fetch - main [MainThread]: End processing [hybrid-example]: success
 [2023-05-22 10:29:38] INFO root fetch - main [MainThread]: Store serial: [18194146]
+[2023-05-22 10:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194146]
+[2023-05-22 10:34:47] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daktari
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patch-denoise
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cacheyou
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddadevops
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynkdv
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: so-vits-svc-fork
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starsaiot-monit
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparrow-order-lib
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbox
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aomaker
+[2023-05-22 10:34:47] INFO root fetch - processPackages [patch-denoise]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [starsaiot-monit]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.95] Old Version: [0.1.93]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [pynkdv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [aomaker]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [cacheyou]: New version: [23.2] Old Version: [23.1]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-22 10:34:47] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-22 10:34:48] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230522/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [pynkdv]: Downloading https://files.pythonhosted.org/packages/60/ae/3dff1130bdc59842dc37999b93afd517413cc708e48cda07beef2d4a2668/pynkdv-0.0.8.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [patch-denoise]: Downloading https://files.pythonhosted.org/packages/08/fd/d1e20fa5195914e1cff2b98493342b00baf8ebcc465b10e84c4e9f15816d/patch-denoise-1.3.4.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/a2/e4/4aad9b1c6227bc52736acd53be6d3dd7045143434892b6ba371710ea438b/so_vits_svc_fork-3.9.4.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/64/5f/89324829430891e9520fd0c0310fef0db5cb660701945acd338794b2db42/sparrow-order-lib-0.1.95.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [aomaker]: Downloading https://files.pythonhosted.org/packages/11/bd/50656939ed9d8cc97b267990e9f47513ba09fd6d7c66e64d0d882aaaa647/aomaker-2.2.1.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [starsaiot-monit]: Downloading https://files.pythonhosted.org/packages/d6/46/a29424aed9a0915fa4d367265d64294f7ece13086deee2cc6f5fa82c768c/starsaiot-monit-1.2.8.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [cacheyou]: Downloading https://files.pythonhosted.org/packages/92/ba/58715e6183e2143499f5d6434be66313d8c9b4f1fddff8695116ecf8e669/cacheyou-23.2.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.93.tar.gz tmp/sparrow-order-lib-0.1.95.tar.gz --markdown 20230522/s/sparrow-order-lib/0.1.93-0.1.95/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230522/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [cacheyou]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [cacheyou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheyou-23.1.tar.gz tmp/cacheyou-23.2.tar.gz --markdown 20230522/c/cacheyou/23.1-23.2/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [aomaker]: Downloading https://files.pythonhosted.org/packages/4c/68/318f71c20da566989c79ebfa13be3dc9ffbdba4f0e70756a945939bd3b95/aomaker-2.2.2.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [starsaiot-monit]: Downloading https://files.pythonhosted.org/packages/fc/0b/c09f8c3370147eafe5032c8dbcf11c438057a479ecd7b517dd9b4300ef72/starsaiot-monit-1.2.9.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [patch-denoise]: Downloading https://files.pythonhosted.org/packages/3c/eb/eaac9c99dde7a0bad6b8d07f105d88a8b935bd716cccc57229360e5d7d0a/patch-denoise-1.4.0.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [pynkdv]: Downloading https://files.pythonhosted.org/packages/5c/30/75861c1b48fe5866bdadc7984bd4433cbc99f6636c754830cd421592dd9e/pynkdv-0.0.9.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [patch-denoise]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [patch-denoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patch-denoise-1.3.4.tar.gz tmp/patch-denoise-1.4.0.tar.gz --markdown 20230522/p/patch-denoise/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/ef/17/23ad44cbca05b2881798a17db40b32b7b4d9c715d70eec2e10bb8bff079a/so_vits_svc_fork-3.9.5.tar.gz
+[2023-05-22 10:34:48] INFO root fetch - processPackages [pynkdv]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [pynkdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynkdv-0.0.8.tar.gz tmp/pynkdv-0.0.9.tar.gz --markdown 20230522/p/pynkdv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [starsaiot-monit]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [aomaker]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [starsaiot-monit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starsaiot-monit-1.2.8.tar.gz tmp/starsaiot-monit-1.2.9.tar.gz --markdown 20230522/s/starsaiot-monit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [aomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aomaker-2.2.1.tar.gz tmp/aomaker-2.2.2.tar.gz --markdown 20230522/a/aomaker/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230522/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 10:34:48] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-05-22 10:34:48] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-3.9.4.tar.gz tmp/so_vits_svc_fork-3.9.5.tar.gz --markdown 20230522/s/so-vits-svc-fork/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-05-22 10:34:49] INFO root fetch - processPackages [ddadevops]: Start processing: balance
+[2023-05-22 10:34:49] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-22 10:34:49] INFO root fetch - processPackages [balance]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 10:34:49] INFO root fetch - processPackages [balance]: Downloading https://files.pythonhosted.org/packages/b2/ae/0a1dc61540604550ac03384d341185f78bcd19d95ad0f1e9cf0d5c17f905/balance-0.8.0.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [cacheyou]: Start processing: flask-matomo2
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [cacheyou]: success
+[2023-05-22 10:34:50] INFO root fetch - processPackages [pynkdv]: Start processing: skretry
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [pynkdv]: success
+[2023-05-22 10:34:50] INFO root fetch - processPackages [flask-matomo2]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 10:34:50] INFO root fetch - processPackages [skretry]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-22 10:34:50] INFO root fetch - processPackages [skretry]: Downloading https://files.pythonhosted.org/packages/18/b9/2fc5f6c4ac100150ef93d6f1781ecfdad59de92cddb1b10062cfed9d0d24/skretry-0.1.0.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [flask-matomo2]: Downloading https://files.pythonhosted.org/packages/5f/e2/46a0f84e79d7a7ab9b03f4a491641feef02b3b0e6f06d03854581514d8d9/flask_matomo2-0.2.0.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [balance]: Downloading https://files.pythonhosted.org/packages/55/91/8a8795bad5d74007a8bb75c11978ada555bc194c8a9e1477f6010c01e714/balance-0.9.0.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [patch-denoise]: Start processing: flet-ivid
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [patch-denoise]: success
+[2023-05-22 10:34:50] WARNING root fetch - processPackages [flet-ivid]: Skipping, unable to determine old version
+[2023-05-22 10:34:50] INFO root fetch - processPackages [flet-ivid]: Start processing: irispreppy
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [flet-ivid] error
+[2023-05-22 10:34:50] INFO root fetch - processPackages [starsaiot-monit]: Start processing: ttcore
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [starsaiot-monit]: success
+[2023-05-22 10:34:50] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-22 10:34:50] INFO root fetch - processPackages [ttcore]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 10:34:50] INFO root fetch - processPackages [sparrow-order-lib]: Start processing: tranquilo
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-05-22 10:34:50] INFO root fetch - processPackages [nbox]: Start processing: dyrun
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-22 10:34:50] INFO root fetch - processPackages [tranquilo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 10:34:50] WARNING root fetch - processPackages [dyrun]: Skipping, unable to determine old version
+[2023-05-22 10:34:50] INFO root fetch - processPackages [dyrun]: Start processing: aomaker
+[2023-05-22 10:34:50] INFO root fetch - main [MainThread]: End processing [dyrun] error
+[2023-05-22 10:34:50] INFO root fetch - processPackages [skretry]: Downloading https://files.pythonhosted.org/packages/a5/7d/d19c65e26b0fc2d544fbd93565c4fe226df327506122b8bef1b7039fef11/skretry-0.1.2.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [aomaker]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-22 10:34:50] INFO root fetch - processPackages [flask-matomo2]: Downloading https://files.pythonhosted.org/packages/6b/f8/001ca011366ff951f8b40a486ba90c8ffa33940cb329654d7d09283ea994/flask_matomo2-0.2.1.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [skretry]: executing diffoscope
+[2023-05-22 10:34:50] INFO root fetch - processPackages [skretry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skretry-0.1.0.tar.gz tmp/skretry-0.1.2.tar.gz --markdown 20230522/s/skretry/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 10:34:50] INFO root fetch - processPackages [aomaker]: Downloading https://files.pythonhosted.org/packages/6e/c0/ad4b040dfd7d0929cd63980aa06a4db0f2223c09d71d90a669c8aeab23ea/aomaker-2.2.3.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [ttcore]: Downloading https://files.pythonhosted.org/packages/51/1c/70d33d101f025bedf2fc3756d7a4fab630b1d605e1bf088f4a8c10697614/ttcore-0.1.8.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-05-22 10:34:50] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230522/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-22 10:34:50] INFO root fetch - processPackages [flask-matomo2]: executing diffoscope
+[2023-05-22 10:34:50] INFO root fetch - processPackages [flask-matomo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_matomo2-0.2.0.tar.gz tmp/flask_matomo2-0.2.1.tar.gz --markdown 20230522/f/flask-matomo2/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 10:34:50] INFO root fetch - processPackages [ttcore]: executing diffoscope
+[2023-05-22 10:34:50] INFO root fetch - processPackages [ttcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttcore-0.1.7.tar.gz tmp/ttcore-0.1.8.tar.gz --markdown 20230522/t/ttcore/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 10:34:50] INFO root fetch - processPackages [tranquilo]: Downloading https://files.pythonhosted.org/packages/1a/70/e841948268b74d37b77af2e25e0fe7f0b9a4ad2c5369f89e8dfc9678f6ce/tranquilo-0.0.4.tar.gz
+[2023-05-22 10:34:50] INFO root fetch - processPackages [balance]: executing diffoscope
+[2023-05-22 10:34:50] INFO root fetch - processPackages [balance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balance-0.8.0.tar.gz tmp/balance-0.9.0.tar.gz --markdown 20230522/b/balance/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 10:34:51] INFO root fetch - processPackages [aomaker]: executing diffoscope
+[2023-05-22 10:34:51] INFO root fetch - processPackages [aomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aomaker-2.2.2.tar.gz tmp/aomaker-2.2.3.tar.gz --markdown 20230522/a/aomaker/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-22 10:34:51] INFO root fetch - processPackages [tranquilo]: executing diffoscope
+[2023-05-22 10:34:51] INFO root fetch - processPackages [tranquilo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tranquilo-0.0.3.tar.gz tmp/tranquilo-0.0.4.tar.gz --markdown 20230522/t/tranquilo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 10:34:51] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-05-22 10:34:51] INFO root fetch - main [MainThread]: End processing [aomaker]: success
+[2023-05-22 10:34:52] INFO root fetch - main [MainThread]: End processing [skretry]: success
+[2023-05-22 10:34:52] INFO root fetch - main [MainThread]: End processing [ttcore]: success
+[2023-05-22 10:34:52] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-05-22 10:34:52] INFO root fetch - main [MainThread]: End processing [flask-matomo2]: success
+[2023-05-22 10:34:52] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-05-22 10:34:53] INFO root fetch - main [MainThread]: End processing [aomaker]: success
+[2023-05-22 10:34:54] INFO root fetch - main [MainThread]: End processing [tranquilo]: success
+[2023-05-22 10:35:39] INFO root fetch - main [MainThread]: End processing [balance]: success
+[2023-05-22 10:35:39] INFO root fetch - main [MainThread]: Store serial: [18194201]
