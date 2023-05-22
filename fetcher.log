@@ -12721,3 +12721,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 14:38:25] INFO root fetch - main [MainThread]: End processing [croydon]: success
 [2023-05-22 14:38:29] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-22 14:38:29] INFO root fetch - main [MainThread]: Store serial: [18196862]
+[2023-05-22 14:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196862]
+[2023-05-22 14:43:38] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyroFork-dev
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laff
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetnet
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caafe
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optimobo
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dapla-team-cli
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorcircuit-nightly
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secrets-env
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Ultimarc
+[2023-05-22 14:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyForMetrix
+[2023-05-22 14:43:38] INFO root fetch - processPackages [caafe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [laff]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-22 14:43:38] WARNING root fetch - processPackages [sweetnet]: Skipping, unable to determine old version
+[2023-05-22 14:43:38] INFO root fetch - processPackages [sweetnet]: Start processing: Flask-AppBuilder
+[2023-05-22 14:43:38] INFO root fetch - main [MainThread]: End processing [sweetnet] error
+[2023-05-22 14:43:38] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.0.dev202305221238] Old Version: [2.1.8.dev202305221227]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [pyForMetrix]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [dapla-team-cli]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [optimobo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 14:43:38] WARNING root fetch - processPackages [Ultimarc]: Skipping, unable to determine old version
+[2023-05-22 14:43:38] INFO root fetch - processPackages [secrets-env]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [Ultimarc]: Start processing: premium
+[2023-05-22 14:43:38] INFO root fetch - main [MainThread]: End processing [Ultimarc] error
+[2023-05-22 14:43:38] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.3.2rc2] Old Version: [4.3.2rc1]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230521] Old Version: [0.9.1.dev20230520]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [premium]: New version: [23.5.22.20] Old Version: [23.5.11.1]
+[2023-05-22 14:43:38] INFO root fetch - processPackages [secrets-env]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [secrets-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets_env-0.8.0-py3-none-any.whl.zip tmp/secrets_env-0.9.0.tar.gz --markdown 20230522/s/secrets-env/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [dapla-team-cli]: Downloading https://files.pythonhosted.org/packages/51/90/11c00327c0c8c67b8c7627303e6aa2dd1691d2ea706d6ba9cae916744cb1/dapla_team_cli-0.1.2.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230520.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230521.tar.gz --markdown 20230522/t/tensorcircuit-nightly/0.9.1.dev20230520-0.9.1.dev20230521/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [pyForMetrix]: Downloading https://files.pythonhosted.org/packages/98/25/8d9788019d95643141e9c2ec788d38b42f0441d3b60af3c2fcab7f0f0cad/pyformetrix-0.0.5.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.3.2rc1.tar.gz tmp/Flask-AppBuilder-4.3.2rc2.tar.gz --markdown 20230522/F/Flask-AppBuilder/4.3.2rc1-4.3.2rc2/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [optimobo]: Downloading https://files.pythonhosted.org/packages/da/78/8ba04f6fe03ebc682b1316db57fc68f60d51559c0dfce0427fe7c7facb92/optimobo-0.1.4.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [premium]: Downloading https://files.pythonhosted.org/packages/f7/b1/ddce35d6c54b8b17de3ce086bdb866cec9ee2254c73ed617d8b67367e14e/premium-23.5.11.1.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/f1/c8/60134ff77037c15c244dd067e7f721a8be2cbbff93fae328e34988fd0c48/PyroFork-dev-2.2.0.dev202305221238.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [caafe]: Downloading https://files.pythonhosted.org/packages/cc/37/ee136ae84a08cfb5b1b0c61519596bd608479b5cd2b89d2a3d3014f26f45/caafe-0.1.3.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [laff]: Downloading https://files.pythonhosted.org/packages/b5/c5/5fe6e2a916dad80b9433550f7673e4bdce2f731de46627780676b777c74e/laff-0.6.1.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [dapla-team-cli]: Downloading https://files.pythonhosted.org/packages/ba/7f/95cad962cb56c150faf8f17fe5626076c5f0944e8b35b3b94403aa5fcb30/dapla_team_cli-0.2.0.tar.gz
+[2023-05-22 14:43:38] INFO root fetch - processPackages [optimobo]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [optimobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimobo-0.1.3.tar.gz tmp/optimobo-0.1.4.tar.gz --markdown 20230522/o/optimobo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.8.dev202305221227.tar.gz tmp/PyroFork-dev-2.2.0.dev202305221238.tar.gz --markdown 20230522/P/PyroFork-dev/2.1.8.dev202305221227-2.2.0.dev202305221238/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [laff]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [laff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laff-0.6.0.tar.gz tmp/laff-0.6.1.tar.gz --markdown 20230522/l/laff/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [caafe]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [caafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caafe-0.1.2.tar.gz tmp/caafe-0.1.3.tar.gz --markdown 20230522/c/caafe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [dapla-team-cli]: executing diffoscope
+[2023-05-22 14:43:38] INFO root fetch - processPackages [dapla-team-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_team_cli-0.1.2.tar.gz tmp/dapla_team_cli-0.2.0.tar.gz --markdown 20230522/d/dapla-team-cli/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 14:43:38] INFO root fetch - processPackages [pyForMetrix]: Downloading https://files.pythonhosted.org/packages/05/71/89e68306e792738ea47287179e09680330a7455e1199a9d8d1e846efa48e/pyformetrix-0.0.6.tar.gz
+[2023-05-22 14:43:39] INFO root fetch - processPackages [pyForMetrix]: executing diffoscope
+[2023-05-22 14:43:39] INFO root fetch - processPackages [pyForMetrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyformetrix-0.0.5.tar.gz tmp/pyformetrix-0.0.6.tar.gz --markdown 20230522/p/pyForMetrix/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 14:43:39] INFO root fetch - processPackages [secrets-env]: Start processing: pysentimiento
+[2023-05-22 14:43:39] INFO root fetch - main [MainThread]: End processing [secrets-env]: success
+[2023-05-22 14:43:39] INFO root fetch - processPackages [pysentimiento]: New version: [0.7.1] Old Version: [0.7.0rc1]
+[2023-05-22 14:43:39] INFO root fetch - processPackages [pysentimiento]: Downloading https://files.pythonhosted.org/packages/43/7e/3257b19d3bf456d4719f01130bcd9015be5388deb0d7beb473b163273f1c/pysentimiento-0.7.0rc1.tar.gz
+[2023-05-22 14:43:39] INFO root fetch - processPackages [premium]: Downloading https://files.pythonhosted.org/packages/5f/39/3176f7d4b2277332be9aa2b10e0f25aeb841d196942fafbe714471165f56/premium-23.5.22.20.tar.gz
+[2023-05-22 14:43:39] INFO root fetch - processPackages [laff]: Start processing: bigdl-dllib-spark3
+[2023-05-22 14:43:39] INFO root fetch - main [MainThread]: End processing [laff]: success
+[2023-05-22 14:43:39] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:43:40] INFO root fetch - processPackages [caafe]: Start processing: bigdl-orca-spark3
+[2023-05-22 14:43:40] INFO root fetch - main [MainThread]: End processing [caafe]: success
+[2023-05-22 14:43:40] INFO root fetch - processPackages [optimobo]: Start processing: bigdl-friesian-spark3
+[2023-05-22 14:43:40] INFO root fetch - main [MainThread]: End processing [optimobo]: success
+[2023-05-22 14:43:40] INFO root fetch - processPackages [pysentimiento]: Downloading https://files.pythonhosted.org/packages/11/50/27d67682d4227553a1bb09827e23db16b4a1337e33424f9a9740493408e3/pysentimiento-0.7.1.tar.gz
+[2023-05-22 14:43:40] INFO root fetch - processPackages [premium]: executing diffoscope
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:43:40] INFO root fetch - processPackages [premium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premium-23.5.11.1.tar.gz tmp/premium-23.5.22.20.tar.gz --markdown 20230522/p/premium/23.5.11.1-23.5.22.20/diff.md --exclude *.pyd
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/72/2a/67233553f139aa2f59f8af206a61790f2157c7e6782fe6033d102804745f/bigdl-dllib-spark3-2.4.0b20230521.tar.gz
+[2023-05-22 14:43:40] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251976>=10485760
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-chronos-spark3
+[2023-05-22 14:43:40] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-22 14:43:40] INFO root fetch - processPackages [pysentimiento]: executing diffoscope
+[2023-05-22 14:43:40] INFO root fetch - processPackages [pysentimiento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysentimiento-0.7.0rc1.tar.gz tmp/pysentimiento-0.7.1.tar.gz --markdown 20230522/p/pysentimiento/0.7.0rc1-0.7.1/diff.md --exclude *.pyd
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/04/82/cbbb8a79cc145faa341cc59d59b13aa814acf31c7682e4dbf76cfb7c36c8/bigdl_orca_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/b0/0e/9ccc94182fdfc0efafceb6d5c0d2dc945e3b176482015e14f64f99ed549f/bigdl_friesian_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207630>=10485760
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-spark3
+[2023-05-22 14:43:40] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/91/13/4ec9e2d4ab0c72019a70a654dd9effa9111f77581949adad1f95e8fa12d8/bigdl_chronos_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/e5/16/f0db6622a104e19041f8ead38ff78f5d4688e4e7b9f9d912a824a6b603a6/bigdl_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/d6/c5/2e6e4602febec13df6f81ad3acfe015ae42d3215e7d524b6585dbb39d039/bigdl_friesian_spark3-2.4.0b20230522-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/d1/52/183e03c12086d31d863a982177f936a7ad0780fa7caf9d2738dee57a800d/bigdl_chronos_spark3-2.4.0b20230522-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/1e/76/59571290962c5f23e2c7753b4b4e149fd30f9be5530584e690f873c06660/bigdl_spark3-2.4.0b20230522-py3-none-manylinux1_x86_64.whl
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230522-py3-none-manylinux1_x86_64.whl.zip --markdown 20230522/b/bigdl-friesian-spark3/2.4.0b20230521-2.4.0b20230522/diff.md --exclude *.pyd
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230522-py3-none-manylinux1_x86_64.whl.zip --markdown 20230522/b/bigdl-chronos-spark3/2.4.0b20230521-2.4.0b20230522/diff.md --exclude *.pyd
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-22 14:43:40] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230521-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230522-py3-none-manylinux1_x86_64.whl.zip --markdown 20230522/b/bigdl-spark3/2.4.0b20230521-2.4.0b20230522/diff.md --exclude *.pyd
+[2023-05-22 14:43:41] INFO root fetch - processPackages [dapla-team-cli]: Start processing: CosmoTech-Acceleration-Library
+[2023-05-22 14:43:41] INFO root fetch - main [MainThread]: End processing [dapla-team-cli]: success
+[2023-05-22 14:43:41] INFO root fetch - processPackages [pysentimiento]: Start processing: propan
+[2023-05-22 14:43:41] INFO root fetch - main [MainThread]: End processing [pysentimiento]: success
+[2023-05-22 14:43:41] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 14:43:41] INFO root fetch - processPackages [propan]: New version: [0.1.1.3] Old Version: [0.1.1.2]
+[2023-05-22 14:43:41] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Downloading https://files.pythonhosted.org/packages/98/c0/5d37f95c76a1397f25eb42cb526471039fdad2cee3e15a9ea831dc45ea0c/CosmoTech_Acceleration_Library-0.2.8.tar.gz
+[2023-05-22 14:43:42] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/a4/02/09b0e9bc7dac6046f3c501a0788582ef1add1c9e5b6104bc6c8fcd539aae/propan-0.1.1.2.tar.gz
+[2023-05-22 14:43:42] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Downloading https://files.pythonhosted.org/packages/9f/d5/a982785b4379072488fcd0064fe809a8cfad4af0493eb540681602322981/CosmoTech_Acceleration_Library-0.2.9.tar.gz
+[2023-05-22 14:43:42] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/c9/70/736ef6f062b4ebd7f0a098be23ac22970b2114f101800c151fe59f0c1e6e/propan-0.1.1.3.tar.gz
+[2023-05-22 14:43:42] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: executing diffoscope
+[2023-05-22 14:43:42] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech_Acceleration_Library-0.2.8.tar.gz tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz --markdown 20230522/C/CosmoTech-Acceleration-Library/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 14:43:42] INFO root fetch - processPackages [bigdl-spark3]: Start processing: pyVLMP
+[2023-05-22 14:43:42] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-22 14:43:42] INFO root fetch - main [MainThread]: End processing [pyForMetrix]: success
+[2023-05-22 14:43:42] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-05-22 14:43:42] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.1.2.tar.gz tmp/propan-0.1.1.3.tar.gz --markdown 20230522/p/propan/0.1.1.2-0.1.1.3/diff.md --exclude *.pyd
+[2023-05-22 14:43:42] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-22 14:43:42] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 14:43:42] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-05-22 14:43:42] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.8.tar.gz tmp/pyVLMP-1.0.9.tar.gz --markdown 20230522/p/pyVLMP/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 14:43:43] INFO root fetch - main [MainThread]: End processing [premium]: success
+[2023-05-22 14:43:43] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-22 14:43:43] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-22 14:43:44] INFO root fetch - main [MainThread]: End processing [CosmoTech-Acceleration-Library]: success
+[2023-05-22 14:43:44] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-05-22 14:43:44] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-05-22 14:43:44] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-22 14:43:49] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2023-05-22 14:43:49] INFO root fetch - main [MainThread]: Store serial: [18196924]
