@@ -10707,3 +10707,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:51:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-22 12:51:11] INFO root fetch - main [MainThread]: End processing [logprep]: success
 [2023-05-22 12:51:11] INFO root fetch - main [MainThread]: Store serial: [18195642]
+[2023-05-22 12:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195642]
+[2023-05-22 12:56:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bdsf
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhyypapihawkmod
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metroid
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serverless-sdk
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: premodel
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-matomo2
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypots
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aeropress
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: automated-selenium
+[2023-05-22 12:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: otrs-somconnexio
+[2023-05-22 12:56:21] INFO root fetch - processPackages [bdsf]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-22 12:56:21] WARNING root fetch - processPackages [pyhyypapihawkmod]: Skipping, unable to determine old version
+[2023-05-22 12:56:21] INFO root fetch - processPackages [pyhyypapihawkmod]: Start processing: apache-airflow-client
+[2023-05-22 12:56:21] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod] error
+[2023-05-22 12:56:21] WARNING root fetch - processPackages [premodel]: Skipping, unable to determine old version
+[2023-05-22 12:56:21] INFO root fetch - processPackages [premodel]: Start processing: alibabacloud-dcdn20180115-py2
+[2023-05-22 12:56:21] INFO root fetch - processPackages [flask-matomo2]: New version: [0.2.6] Old Version: [0.2.1]
+[2023-05-22 12:56:21] INFO root fetch - main [MainThread]: End processing [premodel] error
+[2023-05-22 12:56:21] WARNING root fetch - processPackages [automated-selenium]: Skipping, unable to determine old version
+[2023-05-22 12:56:21] INFO root fetch - processPackages [metroid]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [automated-selenium]: Start processing: alibabacloud-dcdn20180115
+[2023-05-22 12:56:21] INFO root fetch - main [MainThread]: End processing [automated-selenium] error
+[2023-05-22 12:56:21] INFO root fetch - processPackages [pypots]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [aeropress]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [apache-airflow-client]: New version: [2.6.1rc1] Old Version: [2.6.1]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-22 12:56:21] INFO root fetch - processPackages [metroid]: Downloading https://files.pythonhosted.org/packages/06/cf/9ff08ac5feb11819a0b8c8eccc4e9be942f5351646623059e261fb8e04e0/metroid-1.2.4.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [aeropress]: Downloading https://files.pythonhosted.org/packages/b9/3b/e20a2bfd98802e89c8980824ed12f1d2018d4eb829b8ea30c4a4a877b749/aeropress-0.0.8.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/74/1d/44bd3d54f00a5ff4903b5ad09a74ed045412c3cc215bde2f77b0c5363e54/pypots-0.1.0.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/24/61/f12a7af09c175dfc8830738eef0b0f2e7248bc680d1b4d319dacd61b1c4b/otrs_somconnexio-0.4.8.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [apache-airflow-client]: Downloading https://files.pythonhosted.org/packages/30/b5/5344a76fc495940ba568daa670d95ab7c6cb9dfbd80c28bff5f7e96e44f7/apache-airflow-client-2.6.1.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [flask-matomo2]: Downloading https://files.pythonhosted.org/packages/e9/2e/f1bba677d2558b3e5088eab63d8e7df839e6ff66c09961b957d730349dc1/flask_matomo2-0.2.6.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [bdsf]: executing diffoscope
+[2023-05-22 12:56:21] INFO root fetch - processPackages [bdsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdsf-1.9.1.tar.gz tmp/bdsf-1.9.2.tar.gz --markdown 20230522/b/bdsf/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-22 12:56:21] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: Downloading https://files.pythonhosted.org/packages/eb/ef/06e095ffd858068c82d2589cae84966d4d2ac3e73812d62968e16dea80a1/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-05-22 12:56:21] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.8.tar.gz tmp/serverless-sdk-0.4.9.tar.gz --markdown 20230522/s/serverless-sdk/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-22 12:56:21] INFO root fetch - processPackages [flask-matomo2]: executing diffoscope
+[2023-05-22 12:56:21] INFO root fetch - processPackages [flask-matomo2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_matomo2-0.2.1.tar.gz tmp/flask_matomo2-0.2.6.tar.gz --markdown 20230522/f/flask-matomo2/0.2.1-0.2.6/diff.md --exclude *.pyd
+[2023-05-22 12:56:21] INFO root fetch - processPackages [aeropress]: Downloading https://files.pythonhosted.org/packages/b8/65/799fb78ed8165f1411c9139956b4a3d222a94c48c04718d3cd56a7d7bee0/aeropress-0.0.9.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [pypots]: Downloading https://files.pythonhosted.org/packages/8c/57/2482cc200d74ff69c8637dbe3a302b3d007dea07adc78e1d45a4708acf20/pypots-0.1.1.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [metroid]: Downloading https://files.pythonhosted.org/packages/a3/a8/f6c57b23d80f1b11797b185a56f1a45a78de434cae39e9652e40e9e712a9/metroid-1.3.0.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: Downloading https://files.pythonhosted.org/packages/2f/88/fe6cfb73e7d5c72f5860767276a2df606b63ca558583a27a818b60598985/alibabacloud_dcdn20180115-1.1.8.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: executing diffoscope
+[2023-05-22 12:56:21] INFO root fetch - processPackages [alibabacloud-dcdn20180115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115_py2-1.1.7.tar.gz tmp/alibabacloud_dcdn20180115_py2-1.1.8.tar.gz --markdown 20230522/a/alibabacloud-dcdn20180115-py2/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-22 12:56:21] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/e5/91/0ea2de8ef72bee6e5e7ad4882d4afa735692fe75764c546ea0a7f8b2bee1/otrs_somconnexio-0.4.9.tar.gz
+[2023-05-22 12:56:21] INFO root fetch - processPackages [apache-airflow-client]: executing diffoscope
+[2023-05-22 12:56:21] INFO root fetch - processPackages [apache-airflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-client-2.6.1.tar.gz tmp/apache-airflow-client-2.6.1rc1.tar.gz --markdown 20230522/a/apache-airflow-client/2.6.1-2.6.1rc1/diff.md --exclude *.pyd
+[2023-05-22 12:56:22] INFO root fetch - processPackages [aeropress]: executing diffoscope
+[2023-05-22 12:56:22] INFO root fetch - processPackages [aeropress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeropress-0.0.8.tar.gz tmp/aeropress-0.0.9.tar.gz --markdown 20230522/a/aeropress/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 12:56:22] INFO root fetch - processPackages [pypots]: executing diffoscope
+[2023-05-22 12:56:22] INFO root fetch - processPackages [pypots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypots-0.1.0.tar.gz tmp/pypots-0.1.1.tar.gz --markdown 20230522/p/pypots/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 12:56:22] INFO root fetch - processPackages [metroid]: executing diffoscope
+[2023-05-22 12:56:22] INFO root fetch - processPackages [metroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metroid-1.2.4.tar.gz tmp/metroid-1.3.0.tar.gz --markdown 20230522/m/metroid/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 12:56:22] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: executing diffoscope
+[2023-05-22 12:56:22] INFO root fetch - processPackages [alibabacloud-dcdn20180115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dcdn20180115-1.1.7.tar.gz tmp/alibabacloud_dcdn20180115-1.1.8.tar.gz --markdown 20230522/a/alibabacloud-dcdn20180115/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-22 12:56:22] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-05-22 12:56:22] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230522/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-22 12:56:23] INFO root fetch - processPackages [flask-matomo2]: Start processing: greedyFAS
+[2023-05-22 12:56:23] INFO root fetch - main [MainThread]: End processing [flask-matomo2]: success
+[2023-05-22 12:56:23] INFO root fetch - processPackages [greedyFAS]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-22 12:56:23] INFO root fetch - main [MainThread]: End processing [aeropress]: success
+[2023-05-22 12:56:23] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/17/a1/5db526d0aff1735e04ea3cb4cafd2fb9dfac4d36e8e148dba07b29811754/greedyFAS-1.9.0.tar.gz
+[2023-05-22 12:56:23] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-05-22 12:56:23] INFO root fetch - main [MainThread]: End processing [metroid]: success
+[2023-05-22 12:56:23] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/5e/ef/a255efe3fba413830c37f81917a8f31daf07ba429901b9c69b8ab1d8061c/greedyFAS-1.9.1.tar.gz
+[2023-05-22 12:56:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115-py2]: success
+[2023-05-22 12:56:24] INFO root fetch - processPackages [greedyFAS]: executing diffoscope
+[2023-05-22 12:56:24] INFO root fetch - processPackages [greedyFAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greedyFAS-1.9.0.tar.gz tmp/greedyFAS-1.9.1.tar.gz --markdown 20230522/g/greedyFAS/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-22 12:56:24] INFO root fetch - main [MainThread]: End processing [pypots]: success
+[2023-05-22 12:56:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-dcdn20180115]: success
+[2023-05-22 12:56:24] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-05-22 12:56:25] INFO root fetch - main [MainThread]: End processing [greedyFAS]: success
+[2023-05-22 12:56:26] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
+[2023-05-22 12:56:27] INFO root fetch - main [MainThread]: End processing [bdsf]: success
+[2023-05-22 12:56:27] INFO root fetch - main [MainThread]: Store serial: [18195704]
