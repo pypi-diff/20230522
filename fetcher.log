@@ -12552,3 +12552,116 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 14:27:56] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-22 14:27:58] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-22 14:27:58] INFO root fetch - main [MainThread]: Store serial: [18196786]
+[2023-05-22 14:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196786]
+[2023-05-22 14:33:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-webpack-loader
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asgi-matomo
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-nano
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instagpy
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JFIO
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbdemos
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aeropress
+[2023-05-22 14:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dj-whisperer
+[2023-05-22 14:33:07] INFO root fetch - processPackages [django-webpack-loader]: New version: [2.0.0] Old Version: [1.8.1]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [asgi-matomo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [JFIO]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [instagpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [dj-whisperer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [aeropress]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230522] Old Version: [2.4.0b20230521]
+[2023-05-22 14:33:07] INFO root fetch - processPackages [aeropress]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [aeropress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeropress-0.0.8.tar.gz tmp/aeropress-0.0.9.tar.gz --markdown 20230522/a/aeropress/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [django-webpack-loader]: Downloading https://files.pythonhosted.org/packages/aa/8d/3a7d689e56ad739a3234af47d2dd2bc22172d263233712e3b39c8246615d/django-webpack-loader-1.8.1.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2023-05-22 14:33:07] INFO root fetch - processPackages [asgi-matomo]: Downloading https://files.pythonhosted.org/packages/62/e0/4de98f1ac8b7271b5f5b91cb21d58484b0b74af54f27f9d5d2ed45a2dc03/asgi_matomo-0.2.0.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/00/70/f83a1731d9257fa87bf424fec6891ff4a06c783c045ee83262122eafbc0d/instagpy-0.1.1.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/91/a9/5a716c2924157453da5dc74f8c9535615dc2e527d4975431e497f27112b2/JFIO-1.0.1.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/cd/46/a1ea348f3204e1f6a58eb11e8b6218d0a16fcd004caf201d94961160b888/dj-whisperer-0.2.8.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e4/55/96b8751fbaf6d756328d62c21d31a2e31c8641d9a56b4097399f68b09f80/bigdl_serving-2.4.0b20230522-py2.py3-none-any.whl
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/23/26/6f7bd6b38f57d259a7b88bb888fc77a5e3de655a4000f634c0ea001c8c42/bigdl_nano-2.4.0b20230522-py3-none-win_amd64.whl
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/48/f0/f5d959c86a4507c09f64e84c95433ed9c1f1b2c1501511387762c1437424/bigdl_chronos-2.4.0b20230522-py3-none-win_amd64.whl
+[2023-05-22 14:33:07] INFO root fetch - processPackages [asgi-matomo]: Downloading https://files.pythonhosted.org/packages/92/9c/2c85ebca40c83fde0dafa9447085be4b69b0c0cb157cf54e07a6cc593bf8/asgi_matomo-0.3.0.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [django-webpack-loader]: Downloading https://files.pythonhosted.org/packages/51/15/c6df0bd8c2f7654ead00e15e2b6343c7597982494239f3d9203bb4d92b64/django-webpack-loader-2.0.0.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/12/30/7d687813d28fd7ad5457bd640d94f7cfd4e8fe8f62db57fcc8f92a77d684/instagpy-0.1.2.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230521-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230522-py2.py3-none-any.whl.zip --markdown 20230522/b/bigdl-serving/2.4.0b20230521-2.4.0b20230522/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/45/02/b80d4ec80e2b8a22c75a55ba58aea328f297bfb66aaa2cac98ce7069a146/JFIO-1.0.2.tar.gz
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230521-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230522-py3-none-win_amd64.whl.zip --markdown 20230522/b/bigdl-nano/2.4.0b20230521-2.4.0b20230522/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [asgi-matomo]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [asgi-matomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_matomo-0.2.0.tar.gz tmp/asgi_matomo-0.3.0.tar.gz --markdown 20230522/a/asgi-matomo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [django-webpack-loader]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [django-webpack-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webpack-loader-1.8.1.tar.gz tmp/django-webpack-loader-2.0.0.tar.gz --markdown 20230522/d/django-webpack-loader/1.8.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [instagpy]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [instagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagpy-0.1.1.tar.gz tmp/instagpy-0.1.2.tar.gz --markdown 20230522/i/instagpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-22 14:33:07] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-1.0.1.tar.gz tmp/JFIO-1.0.2.tar.gz --markdown 20230522/J/JFIO/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 14:33:07] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/1e/1d/47fdb71b6958124b0c9a9fedd98fdc6001393e01da4625d8a9cec075660e/dj-whisperer-0.2.9.tar.gz
+[2023-05-22 14:33:08] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-22 14:33:08] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230521-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230522-py3-none-win_amd64.whl.zip --markdown 20230522/b/bigdl-chronos/2.4.0b20230521-2.4.0b20230522/diff.md --exclude *.pyd
+[2023-05-22 14:33:08] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2023-05-22 14:33:08] INFO root fetch - processPackages [dbdemos]: Start processing: seaplayer
+[2023-05-22 14:33:08] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-05-22 14:33:08] INFO root fetch - processPackages [seaplayer]: New version: [0.5.0] Old Version: [0.4a3]
+[2023-05-22 14:33:08] INFO root fetch - processPackages [dj-whisperer]: executing diffoscope
+[2023-05-22 14:33:08] INFO root fetch - processPackages [dj-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-whisperer-0.2.8.tar.gz tmp/dj-whisperer-0.2.9.tar.gz --markdown 20230522/d/dj-whisperer/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 14:33:08] INFO root fetch - processPackages [seaplayer]: Downloading https://files.pythonhosted.org/packages/a2/1f/44979db423e452f8faf08ad1b28cdb26fca41077a21943ac494d39ab245b/seaplayer-0.5.0.tar.gz
+[2023-05-22 14:33:08] INFO root fetch - processPackages [seaplayer]: executing diffoscope
+[2023-05-22 14:33:08] INFO root fetch - processPackages [seaplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplayer-0.4a3.tar.gz tmp/seaplayer-0.5.0.tar.gz --markdown 20230522/s/seaplayer/0.4a3-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 14:33:09] INFO root fetch - processPackages [aeropress]: Start processing: otools-rpc
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [aeropress]: success
+[2023-05-22 14:33:09] INFO root fetch - processPackages [otools-rpc]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-22 14:33:09] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/73/77/76a9dac9519b19b1e096e10d3c24f14fd0b5cfbe3e8854c9472d177d0a37/otools-rpc-0.2.2.tar.gz
+[2023-05-22 14:33:09] INFO root fetch - processPackages [bigdl-serving]: Start processing: hollihop-api-client
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-22 14:33:09] WARNING root fetch - processPackages [hollihop-api-client]: Skipping, unable to determine old version
+[2023-05-22 14:33:09] INFO root fetch - processPackages [hollihop-api-client]: Start processing: dagshub
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [hollihop-api-client] error
+[2023-05-22 14:33:09] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-05-22 14:33:09] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/fc/ab/fe74d7ee957778e07a78fe99bdb658d237bad91b619bb64207dca8bae6b2/otools-rpc-0.2.3.tar.gz
+[2023-05-22 14:33:09] INFO root fetch - processPackages [asgi-matomo]: Start processing: cubicweb-seda
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [asgi-matomo]: success
+[2023-05-22 14:33:09] INFO root fetch - processPackages [cubicweb-seda]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 14:33:09] INFO root fetch - processPackages [otools-rpc]: executing diffoscope
+[2023-05-22 14:33:09] INFO root fetch - processPackages [otools-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otools-rpc-0.2.2.tar.gz tmp/otools-rpc-0.2.3.tar.gz --markdown 20230522/o/otools-rpc/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-22 14:33:09] INFO root fetch - processPackages [instagpy]: Start processing: rudderclient
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [instagpy]: success
+[2023-05-22 14:33:09] INFO root fetch - processPackages [rudderclient]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-22 14:33:09] INFO root fetch - processPackages [cubicweb-seda]: Downloading https://files.pythonhosted.org/packages/b6/49/9c17b1bf7be4ecd6fa97fa4402e9327ef9438d50e9347deebad512eff2d4/cubicweb-seda-0.8.0.tar.gz
+[2023-05-22 14:33:09] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-05-22 14:33:09] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230522/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-05-22 14:33:09] INFO root fetch - processPackages [seaplayer]: Start processing: yams-cli
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [seaplayer]: success
+[2023-05-22 14:33:09] INFO root fetch - processPackages [yams-cli]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-05-22 14:33:09] INFO root fetch - processPackages [dj-whisperer]: Start processing: mcrit
+[2023-05-22 14:33:09] INFO root fetch - main [MainThread]: End processing [dj-whisperer]: success
+[2023-05-22 14:33:09] INFO root fetch - processPackages [mcrit]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 14:33:10] INFO root fetch - processPackages [yams-cli]: Downloading https://files.pythonhosted.org/packages/a1/d5/5cb248c371911df8d747e0615cc2c0da6f5d418dc6302e76fb6c6266cc4b/yams_cli-3.3.1-py3-none-any.whl
+[2023-05-22 14:33:10] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/fc/7a/4f8a67824bf142c8cb8ba10f24fe41cc13189b69bf6a12ab21bd64834924/rudderclient-1.1.0.tar.gz
+[2023-05-22 14:33:10] INFO root fetch - main [MainThread]: End processing [django-webpack-loader]: success
+[2023-05-22 14:33:10] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/a8/7a/0c15993e14f3c95589d02fd2b295c57670169f1803d3abfe241e6989bc03/mcrit-1.0.3.tar.gz
+[2023-05-22 14:33:10] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-05-22 14:33:10] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.0.1.tar.gz tmp/rudderclient-1.1.0.tar.gz --markdown 20230522/r/rudderclient/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 14:33:10] INFO root fetch - processPackages [cubicweb-seda]: Downloading https://files.pythonhosted.org/packages/09/f7/8db9d3b65ccfcb25f76e8fece5d333a511b7a196753890c8ade3f7789352/cubicweb-seda-0.9.0.tar.gz
+[2023-05-22 14:33:10] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2023-05-22 14:33:10] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.0.2.tar.gz tmp/mcrit-1.0.3.tar.gz --markdown 20230522/m/mcrit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 14:33:10] INFO root fetch - processPackages [yams-cli]: Downloading https://files.pythonhosted.org/packages/d6/2e/a96ad323da9eaf71ec77c456ef398845ac85c4916b2c8b8794bd00001bf3/yams_cli-3.3.2-py3-none-any.whl
+[2023-05-22 14:33:10] INFO root fetch - processPackages [yams-cli]: executing diffoscope
+[2023-05-22 14:33:10] INFO root fetch - processPackages [yams-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yams_cli-3.3.1-py3-none-any.whl.zip tmp/yams_cli-3.3.2-py3-none-any.whl.zip --markdown 20230522/y/yams-cli/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-05-22 14:33:10] INFO root fetch - processPackages [cubicweb-seda]: executing diffoscope
+[2023-05-22 14:33:10] INFO root fetch - processPackages [cubicweb-seda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-seda-0.8.0.tar.gz tmp/cubicweb-seda-0.9.0.tar.gz --markdown 20230522/c/cubicweb-seda/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 14:33:10] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-22 14:33:10] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-05-22 14:33:10] INFO root fetch - main [MainThread]: End processing [otools-rpc]: success
+[2023-05-22 14:33:11] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-22 14:33:11] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-05-22 14:33:11] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-22 14:33:11] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2023-05-22 14:33:11] INFO root fetch - main [MainThread]: End processing [yams-cli]: success
+[2023-05-22 14:33:12] INFO root fetch - main [MainThread]: End processing [cubicweb-seda]: success
+[2023-05-22 14:33:12] INFO root fetch - main [MainThread]: Store serial: [18196838]
