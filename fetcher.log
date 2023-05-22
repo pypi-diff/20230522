@@ -13352,3 +13352,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 15:05:17] INFO root fetch - main [MainThread]: End processing [fastly]: success
 [2023-05-22 15:05:35] INFO root fetch - main [MainThread]: End processing [rasa]: success
 [2023-05-22 15:05:35] INFO root fetch - main [MainThread]: Store serial: [18197215]
+[2023-05-22 15:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197215]
+[2023-05-22 15:10:46] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: squad-ds-utils
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-matter-server
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicommeta
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sampo
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FHIRkit
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyscan-rs
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-auth-micro
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netbox-cisco-maintenance
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-05-22 15:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kinepy
+[2023-05-22 15:10:46] INFO root fetch - processPackages [py-auth-micro]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 15:10:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 15:10:46] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 15:10:46] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 15:10:46] WARNING root fetch - processPackages [dicommeta]: Skipping, unable to determine old version
+[2023-05-22 15:10:46] INFO root fetch - processPackages [dicommeta]: Start processing: chyp
+[2023-05-22 15:10:46] INFO root fetch - processPackages [squad-ds-utils]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-05-22 15:10:46] INFO root fetch - main [MainThread]: End processing [dicommeta] error
+[2023-05-22 15:10:47] INFO root fetch - processPackages [kinepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 15:10:47] INFO root fetch - processPackages [python-matter-server]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-05-22 15:10:47] INFO root fetch - processPackages [pyscan-rs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 15:10:47] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-05-22 15:10:47] INFO root fetch - processPackages [py-auth-micro]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [py-auth-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_micro-0.1.2.tar.gz tmp/py_auth_micro-0.1.3.tar.gz --markdown 20230522/p/py-auth-micro/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230522/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230522/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [chyp]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-22 15:10:47] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/a8/e1/7c383e3cdb6d60761f7f66fb5fca86a186483341c6e77b61c9ea6580060c/python-matter-server-3.3.1.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [squad-ds-utils]: Downloading https://files.pythonhosted.org/packages/74/14/54e8bd82b250a062d21135bae26817ee3a25c9f91db26ee8b174ffc2a360/squad_ds_utils-0.1.5.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [chyp]: Downloading https://files.pythonhosted.org/packages/25/1a/dbbe9d1d8276a71e1cb343dc943b482716db05855d0cb55e6eeeddf08902/chyp-0.3.3.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [pyscan-rs]: Downloading https://files.pythonhosted.org/packages/39/ce/15bca86b5801095641308dde846f63f2156cc61711f1eec5c85bbe834b29/pyscan_rs-0.1.2.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [kinepy]: Downloading https://files.pythonhosted.org/packages/b9/e4/274e6746f3223737c3a0f8cfded3970ee711e000713d6ff98952407da4a7/kinepy-0.1.1.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [pyscan-rs]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [pyscan-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscan_rs-0.1.1.tar.gz tmp/pyscan_rs-0.1.2.tar.gz --markdown 20230522/p/pyscan-rs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/01/d1/afe26f5bc505251aef1d796fd749685cce5084ce02d950105831c823cdbf/python-matter-server-3.4.0.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [squad-ds-utils]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [squad-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad_ds_utils-0.1.3.tar.gz tmp/squad_ds_utils-0.1.5.tar.gz --markdown 20230522/s/squad-ds-utils/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [kinepy]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [kinepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinepy-0.1.0.tar.gz tmp/kinepy-0.1.1.tar.gz --markdown 20230522/k/kinepy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [chyp]: Downloading https://files.pythonhosted.org/packages/c0/70/5fb45599122cf411300da04ac1f2eb7f0ca5346df32c2267832cea14b768/chyp-0.3.4.tar.gz
+[2023-05-22 15:10:47] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-matter-server-3.3.1.tar.gz tmp/python-matter-server-3.4.0.tar.gz --markdown 20230522/p/python-matter-server/3.3.1-3.4.0/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230522/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-05-22 15:10:47] INFO root fetch - processPackages [chyp]: executing diffoscope
+[2023-05-22 15:10:47] INFO root fetch - processPackages [chyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chyp-0.3.3.tar.gz tmp/chyp-0.3.4.tar.gz --markdown 20230522/c/chyp/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-22 15:10:48] INFO root fetch - processPackages [squad-ds-utils]: Start processing: dune-harmonizer
+[2023-05-22 15:10:48] INFO root fetch - main [MainThread]: End processing [squad-ds-utils]: success
+[2023-05-22 15:10:48] INFO root fetch - processPackages [py-auth-micro]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-22 15:10:48] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
+[2023-05-22 15:10:48] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.21] Old Version: [2023.5.20]
+[2023-05-22 15:10:48] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 15:10:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: nbdev-numpy
+[2023-05-22 15:10:48] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 15:10:48] INFO root fetch - processPackages [pyscan-rs]: Start processing: cg
+[2023-05-22 15:10:48] INFO root fetch - main [MainThread]: End processing [pyscan-rs]: success
+[2023-05-22 15:10:49] INFO root fetch - processPackages [FHIRkit]: Start processing: djangoldp-energiepartagee
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-22 15:10:49] INFO root fetch - processPackages [kinepy]: Start processing: ec2ninja
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [kinepy]: success
+[2023-05-22 15:10:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/40/e3/ac0fad7f392cdb47bc4df390879c76060d801a6b5ed07a9fe61558811133/fbgemm_gpu_nightly_cpu-2023.5.21-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-22 15:10:49] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 15:10:49] INFO root fetch - processPackages [cg]: New version: [31.1.0] Old Version: [31.0.2]
+[2023-05-22 15:10:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 15:10:49] WARNING root fetch - processPackages [ec2ninja]: Skipping, unable to determine old version
+[2023-05-22 15:10:49] INFO root fetch - processPackages [ec2ninja]: Start processing: gpt-translate
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [ec2ninja] error
+[2023-05-22 15:10:49] INFO root fetch - processPackages [chyp]: Start processing: django-encryption
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [chyp]: success
+[2023-05-22 15:10:49] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230522/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 15:10:49] WARNING root fetch - processPackages [gpt-translate]: Skipping, unable to determine old version
+[2023-05-22 15:10:49] INFO root fetch - processPackages [gpt-translate]: Start processing: pysparse-array
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [gpt-translate] error
+[2023-05-22 15:10:49] INFO root fetch - processPackages [pysparse-array]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 15:10:49] INFO root fetch - processPackages [django-encryption]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-22 15:10:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/39/f9/15bcf110e506ad1cd553ac4cec9e7a67ba3be11acc9ae08fa4fdb4ca5c0b/djangoldp_energiepartagee-0.0.8.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/43/70/3920eb8db6ea7cb2f21384de04bb03938eefcd6e511b53aaf646416c438f/cg-31.1.0.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [pysparse-array]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [pysparse-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparse-array-1.0.3.tar.gz tmp/pysparse-array-1.0.4.tar.gz --markdown 20230522/p/pysparse-array/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 15:10:49] INFO root fetch - processPackages [sampo]: Start processing: nbdev-pandas
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-05-22 15:10:49] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 15:10:49] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230522/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 15:10:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.20-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.21-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230522/f/fbgemm-gpu-nightly-cpu/2023.5.20-2023.5.21/diff.md --exclude *.pyd
+[2023-05-22 15:10:49] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/ae/d2/60926492195d00a77970ac7c8f74728eeb0c92f338866f66258038924f77/django_encryption-0.3.3.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230522/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 15:10:49] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2023-05-22 15:10:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/2b/80/6ab8fefeacd7aad9e8184584d89252ef42fd2e6a765ad1e9f1f348a7984b/djangoldp_energiepartagee-0.0.9.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-0.0.8.tar.gz tmp/djangoldp_energiepartagee-0.0.9.tar.gz --markdown 20230522/d/djangoldp-energiepartagee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:10:49] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/3d/b3/527c784c8179ad7d696b428009b66a96cad207fa6580080c86b2dbea508b/django_encryption-0.3.4.tar.gz
+[2023-05-22 15:10:49] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2023-05-22 15:10:49] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.3.tar.gz tmp/django_encryption-0.3.4.tar.gz --markdown 20230522/d/django-encryption/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-22 15:10:50] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-22 15:10:50] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.0.2.tar.gz tmp/cg-31.1.0.tar.gz --markdown 20230522/c/cg/31.0.2-31.1.0/diff.md --exclude *.pyd
+[2023-05-22 15:10:50] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-22 15:10:50] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-22 15:10:50] INFO root fetch - main [MainThread]: End processing [pysparse-array]: success
+[2023-05-22 15:10:50] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-05-22 15:10:51] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2023-05-22 15:10:51] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2023-05-22 15:10:51] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-22 15:11:00] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-22 15:11:46] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-22 15:11:46] INFO root fetch - main [MainThread]: Store serial: [18197288]
