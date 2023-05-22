@@ -15336,3 +15336,79 @@ EOFError: EOF read where object expected
 [2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
 [2023-05-22 16:27:43] INFO root fetch - main [MainThread]: Store serial: [18198371]
+[2023-05-22 16:32:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198371]
+[2023-05-22 16:32:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftw.referencewidget
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-dapr-helper
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyGachi
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fenjing
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmu-graphics
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QGrain
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bovine-herd
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bycon
+[2023-05-22 16:32:52] INFO root fetch - processPackages [fenjing]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-22 16:32:52] WARNING root fetch - processPackages [pyGachi]: Skipping, unable to determine old version
+[2023-05-22 16:32:52] INFO root fetch - processPackages [pyGachi]: Start processing: nbox
+[2023-05-22 16:32:52] INFO root fetch - main [MainThread]: End processing [pyGachi] error
+[2023-05-22 16:32:52] WARNING root fetch - processPackages [fastapi-dapr-helper]: Skipping, unable to determine old version
+[2023-05-22 16:32:52] INFO root fetch - processPackages [fastapi-dapr-helper]: Start processing: YMS
+[2023-05-22 16:32:52] INFO root fetch - main [MainThread]: End processing [fastapi-dapr-helper] error
+[2023-05-22 16:32:52] WARNING root fetch - processPackages [bovine-herd]: Skipping, unable to determine old version
+[2023-05-22 16:32:52] INFO root fetch - processPackages [bovine-herd]: Start processing: exe-kg-lib
+[2023-05-22 16:32:52] INFO root fetch - main [MainThread]: End processing [bovine-herd] error
+[2023-05-22 16:32:52] INFO root fetch - processPackages [QGrain]: New version: [0.5.4.1] Old Version: [0.5.3.6]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [cmu-graphics]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [nwebclient]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [YMS]: New version: [0.79] Old Version: [0.78]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ftw.referencewidget]: New version: [4.0.0b2] Old Version: [4.0.0b1]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [exe-kg-lib]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-22 16:32:52] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-22 16:32:52] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230522/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-22 16:32:52] INFO root fetch - processPackages [cmu-graphics]: Downloading https://files.pythonhosted.org/packages/7b/c8/31da9b8d1804660c7aaed29a2f47d278c5fea5431e60e953c5cfc79ca7b2/cmu-graphics-1.1.8.tar.gz
+[2023-05-22 16:32:52] INFO root fetch - processPackages [QGrain]: Downloading https://files.pythonhosted.org/packages/82/f4/ce97582601eb472207bd2a78380192da4c22dc5e14045d4d8ba6e55dfcb4/QGrain-0.5.3.6.tar.gz
+[2023-05-22 16:32:52] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/61/da/0dabc5b23509db58091c96fb3e0cf658956adf3c1ae4147714826686c0e4/YMS-0.78.tar.gz
+[2023-05-22 16:32:52] WARNING root fetch - processPackages [QGrain]: Skipping package: exceeds size limit 14865584>=10485760
+[2023-05-22 16:32:52] INFO root fetch - main [MainThread]: End processing [QGrain] error
+[2023-05-22 16:32:52] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/25/bb/b36b1b4c3fe6801c505f25fbbf15becc0f498e12165ef094a288641e6725/nwebclient-1.0.99.tar.gz
+[2023-05-22 16:32:52] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-05-22 16:32:52] INFO root fetch - processPackages [ftw.referencewidget]: Downloading https://files.pythonhosted.org/packages/9f/48/182512133d083674815c37d1f110764700f776cff42833d15e69134d6685/ftw.referencewidget-4.0.0b1.tar.gz
+[2023-05-22 16:32:52] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-05-22 16:32:52] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/9e/22/4be1f06e5b257c9be5ca53adb21c52bb651a5e72d7d6cbb0541379fbf434/exe_kg_lib-2.1.0.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.98.tar.gz tmp/nwebclient-1.0.99.tar.gz --markdown 20230522/n/nwebclient/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-22 16:32:53] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/03/dd/b70efe8d2a9ae7efb2771ca938648be4e921bb6749ac8bc16fc1e75e9f71/YMS-0.79.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/d1/03/b41c08a32e7d1a9ce765d52fa89c160f1c414a5bcf416ed42bdf088614d4/fenjing-0.3.6.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [cmu-graphics]: Downloading https://files.pythonhosted.org/packages/6e/a7/3c72d798ee1cc8dcf86587eda8af2a45c30948ca5ed5cbc64daea85c219b/cmu-graphics-1.1.9.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [ftw.referencewidget]: Downloading https://files.pythonhosted.org/packages/67/c2/a7d48b24f9e8eab6737fc3c5a69a053510433d48b50d34137cd6ae2810cc/ftw.referencewidget-4.0.0b2.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/df/4c/aaa3c57d4a4243f3282e76ca13940824cded764d839237f114abf1c6d612/exe_kg_lib-2.1.1.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.3.5.tar.gz tmp/fenjing-0.3.6.tar.gz --markdown 20230522/f/fenjing/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-22 16:32:53] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.78.tar.gz tmp/YMS-0.79.tar.gz --markdown 20230522/Y/YMS/0.78-0.79/diff.md --exclude *.pyd
+[2023-05-22 16:32:53] INFO root fetch - processPackages [ftw.referencewidget]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [ftw.referencewidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.referencewidget-4.0.0b1.tar.gz tmp/ftw.referencewidget-4.0.0b2.tar.gz --markdown 20230522/f/ftw.referencewidget/4.0.0b1-4.0.0b2/diff.md --exclude *.pyd
+[2023-05-22 16:32:53] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-05-22 16:32:53] INFO root fetch - processPackages [exe-kg-lib]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [exe-kg-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exe_kg_lib-2.1.0.tar.gz tmp/exe_kg_lib-2.1.1.tar.gz --markdown 20230522/e/exe-kg-lib/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-22 16:32:53] INFO root fetch - processPackages [cmu-graphics]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [cmu-graphics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmu-graphics-1.1.8.tar.gz tmp/cmu-graphics-1.1.9.tar.gz --markdown 20230522/c/cmu-graphics/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-22 16:32:53] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-05-22 16:32:53] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230522/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:32:54] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-22 16:32:54] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-22 16:32:54] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 16:32:54] INFO root fetch - main [MainThread]: End processing [cmu-graphics]: success
+[2023-05-22 16:32:54] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-05-22 16:32:54] INFO root fetch - main [MainThread]: End processing [exe-kg-lib]: success
+[2023-05-22 16:32:55] INFO root fetch - main [MainThread]: End processing [ftw.referencewidget]: success
+[2023-05-22 16:32:55] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-22 16:32:55] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-05-22 16:32:55] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230522/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:32:58] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-05-22 16:33:02] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-05-22 16:33:02] INFO root fetch - main [MainThread]: Store serial: [18198416]
