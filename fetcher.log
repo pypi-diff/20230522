@@ -21817,3 +21817,94 @@ EOFError: EOF read where object expected
 [2023-05-22 20:09:33] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-22 20:09:40] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-22 20:09:40] INFO root fetch - main [MainThread]: Store serial: [18202166]
+[2023-05-22 20:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202166]
+[2023-05-22 20:14:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superpowered-sdk
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: natml
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: truesight
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arulespy
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shellcrafter
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: canaveral-cli
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellmaps-ppidownloader
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-git-authors-plugin
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: braintree
+[2023-05-22 20:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lmanage
+[2023-05-22 20:14:52] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [natml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [arulespy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [truesight]: New version: [0.0.2a3] Old Version: [0.0.2a2]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [canaveral-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [shellcrafter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [mkdocs-git-authors-plugin]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [cellmaps-ppidownloader]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [braintree]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [lmanage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-22 20:14:52] INFO root fetch - processPackages [shellcrafter]: executing diffoscope
+[2023-05-22 20:14:52] INFO root fetch - processPackages [shellcrafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcrafter-1.0.8.tar.gz tmp/shellcrafter-1.0.9.tar.gz --markdown 20230522/s/shellcrafter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 20:14:52] INFO root fetch - processPackages [canaveral-cli]: Downloading https://files.pythonhosted.org/packages/ca/d9/bee8e1aa6fa00a9027186e340d325f9bea0ef37bbf929e2e91f358a2a351/canaveral_cli-0.1.3.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [cellmaps-ppidownloader]: Downloading https://files.pythonhosted.org/packages/3a/5a/a6a56226bacbb30898ec201e4d7644b67a170753c0333499aada1a901dbc/cellmaps_ppidownloader-0.1.0a1.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/0d/a6/58e38a48950b3eb23499d290d1594baf7cb2879893c2154cd1ef5b293f30/superpowered-sdk-0.1.4.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [braintree]: Downloading https://files.pythonhosted.org/packages/76/36/5897868e2b5abebab026f0620875f82478ab48abceeb73c63df3a528fc08/braintree-4.8.0.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [canaveral-cli]: executing diffoscope
+[2023-05-22 20:14:52] INFO root fetch - processPackages [canaveral-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canaveral_cli-0.1.2.tar.gz tmp/canaveral_cli-0.1.3.tar.gz --markdown 20230522/c/canaveral-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 20:14:52] INFO root fetch - processPackages [truesight]: Downloading https://files.pythonhosted.org/packages/0c/b3/b371a10026713c54ab5403dde30ad7115b4ec636d41f6e2b4200fe479676/truesight-0.0.2a3.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [mkdocs-git-authors-plugin]: Downloading https://files.pythonhosted.org/packages/54/4c/39fbcb5baf47a6e81315a1735c72ab0cf829babe698be95d1993beaf3ef5/mkdocs-git-authors-plugin-0.7.0.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [arulespy]: Downloading https://files.pythonhosted.org/packages/4c/5d/9bf5d803512a56153bb4e7f26ec04c0f4714b8615f872e063b8d77cb3250/arulespy-0.1.1.tar.gz
+[2023-05-22 20:14:52] INFO root fetch - processPackages [natml]: executing diffoscope
+[2023-05-22 20:14:52] INFO root fetch - processPackages [natml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natml-0.0.8.tar.gz tmp/natml-0.0.9.tar.gz --markdown 20230522/n/natml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 20:14:52] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-05-22 20:14:52] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.3.tar.gz tmp/superpowered-sdk-0.1.4.tar.gz --markdown 20230522/s/superpowered-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 20:14:52] INFO root fetch - processPackages [arulespy]: executing diffoscope
+[2023-05-22 20:14:52] INFO root fetch - processPackages [arulespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arulespy-0.1.0.tar.gz tmp/arulespy-0.1.1.tar.gz --markdown 20230522/a/arulespy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 20:14:52] INFO root fetch - processPackages [lmanage]: executing diffoscope
+[2023-05-22 20:14:52] INFO root fetch - processPackages [lmanage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmanage-0.3.8.tar.gz tmp/lmanage-0.3.9.tar.gz --markdown 20230522/l/lmanage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-22 20:14:53] INFO root fetch - processPackages [truesight]: executing diffoscope
+[2023-05-22 20:14:53] INFO root fetch - processPackages [truesight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truesight-0.0.2a2.tar.gz tmp/truesight-0.0.2a3.tar.gz --markdown 20230522/t/truesight/0.0.2a2-0.0.2a3/diff.md --exclude *.pyd
+[2023-05-22 20:14:53] INFO root fetch - processPackages [braintree]: Downloading https://files.pythonhosted.org/packages/38/d5/afbc904ae228fb2cc8602e6eebb5d7709dc8d04670ef642ad8890269370c/braintree-4.9.0.tar.gz
+[2023-05-22 20:14:53] INFO root fetch - processPackages [mkdocs-git-authors-plugin]: Downloading https://files.pythonhosted.org/packages/2f/b7/acad9a8928caba9f0fe8cbfa656cfd9a8d278cfedc5eebc07394fca6a87f/mkdocs-git-authors-plugin-0.7.1.tar.gz
+[2023-05-22 20:14:53] INFO root fetch - processPackages [cellmaps-ppidownloader]: Downloading https://files.pythonhosted.org/packages/1e/a8/3d77afccb58176c055724d476902dbe87f1284431701ca6e4ed13feab7cf/cellmaps_ppidownloader-0.1.0a2.tar.gz
+[2023-05-22 20:14:53] INFO root fetch - processPackages [braintree]: executing diffoscope
+[2023-05-22 20:14:53] INFO root fetch - processPackages [braintree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintree-4.8.0.tar.gz tmp/braintree-4.9.0.tar.gz --markdown 20230522/b/braintree/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-22 20:14:53] INFO root fetch - processPackages [mkdocs-git-authors-plugin]: executing diffoscope
+[2023-05-22 20:14:53] INFO root fetch - processPackages [mkdocs-git-authors-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-authors-plugin-0.7.0.tar.gz tmp/mkdocs-git-authors-plugin-0.7.1.tar.gz --markdown 20230522/m/mkdocs-git-authors-plugin/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-22 20:14:53] INFO root fetch - processPackages [cellmaps-ppidownloader]: executing diffoscope
+[2023-05-22 20:14:53] INFO root fetch - processPackages [cellmaps-ppidownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_ppidownloader-0.1.0a1.tar.gz tmp/cellmaps_ppidownloader-0.1.0a2.tar.gz --markdown 20230522/c/cellmaps-ppidownloader/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-05-22 20:14:54] INFO root fetch - processPackages [shellcrafter]: Start processing: bowtie-json-schema
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [shellcrafter]: success
+[2023-05-22 20:14:54] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.5.8] Old Version: [2023.5.7]
+[2023-05-22 20:14:54] INFO root fetch - processPackages [natml]: Start processing: AdaptiveConsistency
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [natml]: success
+[2023-05-22 20:14:54] INFO root fetch - processPackages [canaveral-cli]: Start processing: sockettools
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [canaveral-cli]: success
+[2023-05-22 20:14:54] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/0f/6f/f86a561ee48c59ab16889e34475f06a05e6559d54b9fb399561720c774c8/bowtie_json_schema-2023.5.8.tar.gz
+[2023-05-22 20:14:54] INFO root fetch - processPackages [superpowered-sdk]: Start processing: spotON_sdk
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-05-22 20:14:54] WARNING root fetch - processPackages [AdaptiveConsistency]: Skipping, unable to determine old version
+[2023-05-22 20:14:54] INFO root fetch - processPackages [AdaptiveConsistency]: Start processing: json-fingerprint
+[2023-05-22 20:14:54] INFO root fetch - processPackages [sockettools]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [AdaptiveConsistency] error
+[2023-05-22 20:14:54] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-05-22 20:14:54] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.5.7.tar.gz tmp/bowtie_json_schema-2023.5.8.tar.gz --markdown 20230522/b/bowtie-json-schema/2023.5.7-2023.5.8/diff.md --exclude *.pyd
+[2023-05-22 20:14:54] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.7] Old Version: [0.0.4.5]
+[2023-05-22 20:14:54] INFO root fetch - processPackages [json-fingerprint]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [truesight]: success
+[2023-05-22 20:14:54] INFO root fetch - processPackages [sockettools]: Downloading https://files.pythonhosted.org/packages/4f/cd/f92cc8f11fa721cad7a7fbf97ddc1a3ff4c0ee81dc480d030975423a8273/sockettools-1.0.0.tar.gz
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [arulespy]: success
+[2023-05-22 20:14:54] INFO root fetch - main [MainThread]: End processing [lmanage]: success
+[2023-05-22 20:14:55] INFO root fetch - processPackages [json-fingerprint]: Downloading https://files.pythonhosted.org/packages/98/f6/e6e00592d9bc51d85bb1ebfd549d939ddf06e466efd97987883783291108/json-fingerprint-0.9.1.tar.gz
+[2023-05-22 20:14:55] INFO root fetch - processPackages [sockettools]: executing diffoscope
+[2023-05-22 20:14:55] INFO root fetch - processPackages [sockettools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockettools-0.1.2.tar.gz tmp/sockettools-1.0.0.tar.gz --markdown 20230522/s/sockettools/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 20:14:55] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/a7/01/8070445d2218457829a089d2904f5603900795541105a6b2b76fa35ac823/spotON_sdk-0.0.4.7.tar.gz
+[2023-05-22 20:14:55] INFO root fetch - main [MainThread]: End processing [mkdocs-git-authors-plugin]: success
+[2023-05-22 20:14:55] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-22 20:14:55] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.5.tar.gz tmp/spotON_sdk-0.0.4.7.tar.gz --markdown 20230522/s/spotON_sdk/0.0.4.5-0.0.4.7/diff.md --exclude *.pyd
+[2023-05-22 20:14:55] INFO root fetch - main [MainThread]: End processing [cellmaps-ppidownloader]: success
+[2023-05-22 20:14:55] INFO root fetch - processPackages [json-fingerprint]: Downloading https://files.pythonhosted.org/packages/b2/9d/3037daf1c2a25f3767591a4b4e3df9f4cffd3dba555410b74d99e555549a/json-fingerprint-0.9.2.tar.gz
+[2023-05-22 20:14:55] INFO root fetch - processPackages [json-fingerprint]: executing diffoscope
+[2023-05-22 20:14:55] INFO root fetch - processPackages [json-fingerprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-fingerprint-0.9.1.tar.gz tmp/json-fingerprint-0.9.2.tar.gz --markdown 20230522/j/json-fingerprint/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 20:14:55] INFO root fetch - main [MainThread]: End processing [braintree]: success
+[2023-05-22 20:14:56] INFO root fetch - main [MainThread]: End processing [sockettools]: success
+[2023-05-22 20:14:56] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-22 20:14:56] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-05-22 20:14:56] INFO root fetch - main [MainThread]: End processing [json-fingerprint]: success
+[2023-05-22 20:14:56] INFO root fetch - main [MainThread]: Store serial: [18202218]
