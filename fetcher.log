@@ -22258,3 +22258,32 @@ EOFError: EOF read where object expected
 [2023-05-22 20:36:03] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-22 20:36:07] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-22 20:36:07] INFO root fetch - main [MainThread]: Store serial: [18202414]
+[2023-05-22 20:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202414]
+[2023-05-22 20:41:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 20:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medseglib
+[2023-05-22 20:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ebeer
+[2023-05-22 20:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-exportar-deposito-xls
+[2023-05-22 20:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: earthranger-utils
+[2023-05-22 20:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enebootools
+[2023-05-22 20:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: os-bedtime
+[2023-05-22 20:41:16] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: New version: [13.0.1.0.3.dev2] Old Version: [13.0.1.0.3.dev1]
+[2023-05-22 20:41:16] WARNING root fetch - processPackages [ebeer]: Skipping, unable to determine old version
+[2023-05-22 20:41:16] INFO root fetch - main [MainThread]: End processing [ebeer] error
+[2023-05-22 20:41:16] WARNING root fetch - processPackages [medseglib]: Skipping, unable to determine old version
+[2023-05-22 20:41:16] INFO root fetch - main [MainThread]: End processing [medseglib] error
+[2023-05-22 20:41:16] WARNING root fetch - processPackages [earthranger-utils]: Skipping, unable to determine old version
+[2023-05-22 20:41:16] INFO root fetch - main [MainThread]: End processing [earthranger-utils] error
+[2023-05-22 20:41:16] INFO root fetch - processPackages [os-bedtime]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 20:41:16] INFO root fetch - processPackages [enebootools]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-22 20:41:16] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: executing diffoscope
+[2023-05-22 20:41:16] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230522/o/odoo13-addon-exportar-deposito-xls/13.0.1.0.3.dev1-13.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-22 20:41:16] INFO root fetch - processPackages [os-bedtime]: Downloading https://files.pythonhosted.org/packages/e9/46/ca9f31643975a52230df86666eb6d2fcabd9c007bf9b203926ecf66293db/os_bedtime-0.2.1.tar.gz
+[2023-05-22 20:41:17] INFO root fetch - processPackages [os-bedtime]: executing diffoscope
+[2023-05-22 20:41:17] INFO root fetch - processPackages [os-bedtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_bedtime-0.2.0.tar.gz tmp/os_bedtime-0.2.1.tar.gz --markdown 20230522/o/os-bedtime/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 20:41:17] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/95/7c/97a14aa06f3a7d8ad318cf7014eb5ba66e88c6d212ebadd252e7edf46228/enebootools-2.0.2.tar.gz
+[2023-05-22 20:41:17] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-05-22 20:41:17] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.1.tar.gz tmp/enebootools-2.0.2.tar.gz --markdown 20230522/e/enebootools/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-22 20:41:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-exportar-deposito-xls]: success
+[2023-05-22 20:41:18] INFO root fetch - main [MainThread]: End processing [os-bedtime]: success
+[2023-05-22 20:41:18] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-05-22 20:41:18] INFO root fetch - main [MainThread]: Store serial: [18202439]
