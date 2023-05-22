@@ -5179,3 +5179,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:40:04] INFO root fetch - main [MainThread]: End processing [django-workos]: success
 [2023-05-22 06:40:04] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
 [2023-05-22 06:40:04] INFO root fetch - main [MainThread]: Store serial: [18192341]
+[2023-05-22 06:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192341]
+[2023-05-22 06:45:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-22 06:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-05-22 06:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiextras
+[2023-05-22 06:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xw-utils
+[2023-05-22 06:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krutils
+[2023-05-22 06:45:13] INFO root fetch - processPackages [xw-utils]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-05-22 06:45:13] INFO root fetch - processPackages [aiextras]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 06:45:13] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1343] Old Version: [0.20230522.1322]
+[2023-05-22 06:45:13] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-05-22 06:45:13] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/9f/cf/9455bc98499a3d5959d8e2db98ce98d54eb54675c31f17e175236639ba74/xw_utils-0.0.1-cp39-cp39-musllinux_1_1_x86_64.whl
+[2023-05-22 06:45:13] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/99/b1/cedefb160458661a5df0488ccf8933eec326e5f184ae782c697222c9af3a/aiextras-0.0.8.tar.gz
+[2023-05-22 06:45:13] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/3f/d0/990bbbc94501b0c9c8572b80857275a42bcdb0b3373c040a970f3e0ab671/krutils-0.20230522.1343.tar.gz
+[2023-05-22 06:45:13] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:45:13] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.7.tar.gz tmp/aiextras-0.0.8.tar.gz --markdown 20230522/a/aiextras/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 06:45:13] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-22 06:45:13] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230522/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-05-22 06:45:13] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 06:45:13] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1322.tar.gz tmp/krutils-0.20230522.1343.tar.gz --markdown 20230522/k/krutils/0.20230522.1322-0.20230522.1343/diff.md --exclude *.pyd
+[2023-05-22 06:45:13] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/e2/a5/ed7fe231dbaa0e72c930bc7733b2f3813de7648790911ad714cb7e7cbd83/xw_utils-1.0.1-cp39-cp39-macosx_11_0_arm64.whl
+[2023-05-22 06:45:14] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-05-22 06:45:14] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-0.0.1-cp39-cp39-musllinux_1_1_x86_64.whl.zip tmp/xw_utils-1.0.1-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230522/x/xw-utils/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 06:45:14] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:45:14] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 06:45:15] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-05-22 06:45:15] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-22 06:45:15] INFO root fetch - main [MainThread]: Store serial: [18192360]
