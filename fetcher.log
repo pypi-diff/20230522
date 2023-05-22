@@ -3620,3 +3620,146 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 03:44:14] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.4.4.1.dev7.tar.gz tmp/yyxx_game_pkg_dev-2023.5.17.1.dev5.tar.gz --markdown 20230522/y/yyxx-game-pkg-dev/2023.4.4.1.dev7-2023.5.17.1.dev5/diff.md --exclude *.pyd
 [2023-05-22 03:44:16] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
 [2023-05-22 03:44:16] INFO root fetch - main [MainThread]: Store serial: [18191471]
+[2023-05-22 03:49:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191471]
+[2023-05-22 03:49:25] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cengal
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agixt
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Slpapy
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyCQuery
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantbox
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: configloaders
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cleanrl
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: git-debranch
+[2023-05-22 03:49:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auto-codebase-documenter
+[2023-05-22 03:49:25] INFO root fetch - processPackages [Slpapy]: New version: [0.3.20] Old Version: [0.3.17]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [agixt]: New version: [1.1.65b0] Old Version: [1.1.64b0]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cengal]: New version: [3.1.18.9] Old Version: [3.1.18.8]
+[2023-05-22 03:49:25] WARNING root fetch - processPackages [quantbox]: Skipping, unable to determine old version
+[2023-05-22 03:49:25] INFO root fetch - processPackages [quantbox]: Start processing: shady-island
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cleanrl]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-22 03:49:25] INFO root fetch - main [MainThread]: End processing [quantbox] error
+[2023-05-22 03:49:25] INFO root fetch - processPackages [configloaders]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [PyCQuery]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.3] Old Version: [0.2]
+[2023-05-22 03:49:25] WARNING root fetch - processPackages [git-debranch]: Skipping, unable to determine old version
+[2023-05-22 03:49:25] INFO root fetch - processPackages [git-debranch]: Start processing: FreeTVG-karjakak
+[2023-05-22 03:49:25] INFO root fetch - main [MainThread]: End processing [git-debranch] error
+[2023-05-22 03:49:25] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.787] Old Version: [0.0.786]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.7] Old Version: [3.2.5]
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.18.8.tar.gz tmp/cengal-3.1.18.9.tar.gz --markdown 20230522/c/cengal/3.1.18.8-3.1.18.9/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/6b/a6/199168125dd78826d4e44ae71f9aa3822128ceacd4b3f0b4650cdac84f38/auto-codebase-documenter-0.3.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cleanrl]: Downloading https://files.pythonhosted.org/packages/2f/a6/2bb4bf696c7811280f5a5e14e7ebb8486b2d991934b4709097c909bf751d/cleanrl-1.1.0.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9c/0e/cbc59a95c05a49cd1b382bdb41e05f3a6a223673dee53ef9e6971f525051/agixt-1.1.65b0.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [configloaders]: Downloading https://files.pythonhosted.org/packages/8c/37/bc4259b521f7f211cc6cdd9bda347770db0dfd0f0a24cbf6d5c9a4188249/configloaders-2.1.0.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/36/75/256aa4e9ec091fcf8d7864ef1a79f9b84d45f7014802c87f1c812be137a3/FreeTVG-karjakak-3.2.5.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/f5/5a/d8ab262b51b06011a7cec11584f4242cecea599610bf6476c6cefd3f3215/nbdev-apl-0.0.786.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/67/1b/41a6e9ac245ba29aa7143e7458aaa9e3a3240dbb45bb3424e454814c42a9/Slpapy-0.3.20.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.64b0.tar.gz tmp/agixt-1.1.65b0.tar.gz --markdown 20230522/a/agixt/1.1.64b0-1.1.65b0/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [PyCQuery]: Downloading https://files.pythonhosted.org/packages/62/cc/be3f72b26686cb688ccf2d983be0cb869ba3cedad941d2bd595967a230ba/PyCQuery-1.0.7.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.2.tar.gz tmp/auto-codebase-documenter-0.3.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.17.tar.gz tmp/Slpapy-0.3.20.tar.gz --markdown 20230522/S/Slpapy/0.3.17-0.3.20/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [configloaders]: Downloading https://files.pythonhosted.org/packages/e9/e6/b92b1089a15a637f3b906132cf9fdfeb0532c8172fc9ca94971104868d6b/configloaders-2.2.0.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [PyCQuery]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [PyCQuery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCQuery-1.0.6.tar.gz tmp/PyCQuery-1.0.7.tar.gz --markdown 20230522/P/PyCQuery/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/17/d9/7a3fb739afbef6896b995815743851a46310e99880c70921ee814814cafb/nbdev-apl-0.0.787.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/a2/04/13aa3816b690c370c7e75598d920132f4bbda82ebd52ee8a698e4d7ffbab/FreeTVG-karjakak-3.2.7.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [configloaders]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [configloaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configloaders-2.1.0.tar.gz tmp/configloaders-2.2.0.tar.gz --markdown 20230522/c/configloaders/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cleanrl]: Downloading https://files.pythonhosted.org/packages/a7/09/c3d996cad4ba1032976fd5c98837f5c3243f89beaa0fb79f24c51ef5d0ea/cleanrl-1.2.0.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-05-22 03:49:25] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.786.tar.gz tmp/nbdev-apl-0.0.787.tar.gz --markdown 20230522/n/nbdev-apl/0.0.786-0.0.787/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cleanrl]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [cleanrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanrl-1.1.0.tar.gz tmp/cleanrl-1.2.0.tar.gz --markdown 20230522/c/cleanrl/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.5.tar.gz tmp/FreeTVG-karjakak-3.2.7.tar.gz --markdown 20230522/F/FreeTVG-karjakak/3.2.5-3.2.7/diff.md --exclude *.pyd
+[2023-05-22 03:49:25] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-05-22 03:49:25] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230522/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 03:49:27] INFO root fetch - processPackages [PyCQuery]: Start processing: usdanuts
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [PyCQuery]: success
+[2023-05-22 03:49:27] WARNING root fetch - processPackages [usdanuts]: Skipping, unable to determine old version
+[2023-05-22 03:49:27] INFO root fetch - processPackages [usdanuts]: Start processing: pepperize.cdk-organizations
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [usdanuts] error
+[2023-05-22 03:49:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-22 03:49:27] INFO root fetch - processPackages [auto-codebase-documenter]: Start processing: sampling-constraints
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 03:49:27] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 03:49:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-22 03:49:27] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230522/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-22 03:49:27] INFO root fetch - processPackages [nbdev-apl]: Start processing: cdk-lambda-layer-wget
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-22 03:49:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-22 03:49:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-22 03:49:27] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230522/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:49:27] ERROR root fetch - processPackages [configloaders]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [configloaders] error
+[2023-05-22 03:49:27] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-22 03:49:27] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.8.tar.gz tmp/sampling-constraints-0.0.9.tar.gz --markdown 20230522/s/sampling-constraints/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-05-22 03:49:27] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-05-22 03:49:28] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-22 03:49:28] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-05-22 03:49:28] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-22 03:49:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-22 03:49:29] INFO root fetch - main [MainThread]: End processing [cleanrl]: success
+[2023-05-22 03:49:41] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-22 03:49:41] INFO root fetch - main [MainThread]: Store serial: [18191534]
