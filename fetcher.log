@@ -5131,3 +5131,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:34:52] INFO root fetch - processPackages [pebbles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pebbles-0.2.0.tar.gz tmp/pebbles-0.3.0.tar.gz --markdown 20230522/p/pebbles/0.2.0-0.3.0/diff.md --exclude *.pyd
 [2023-05-22 06:34:53] INFO root fetch - main [MainThread]: End processing [pebbles]: success
 [2023-05-22 06:34:53] INFO root fetch - main [MainThread]: Store serial: [18192320]
+[2023-05-22 06:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192320]
+[2023-05-22 06:40:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-ph
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reactivated
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-workos
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cuke
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantbox
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiextras
+[2023-05-22 06:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tldrwl
+[2023-05-22 06:40:02] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [quantbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [cuke]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [django-workos]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [tldrwl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [aiextras]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-05-22 06:40:02] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-05-22 06:40:02] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230522/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-05-22 06:40:02] INFO root fetch - processPackages [quantbox]: Downloading https://files.pythonhosted.org/packages/db/5b/f9c57a4310804300bc6f44e0fa2455a7be110793d74a7e29b05998613373/quantbox-0.0.9-py3-none-any.whl
+[2023-05-22 06:40:02] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [cuke]: Downloading https://files.pythonhosted.org/packages/82/96/dfd8a60e9fef4338cb980852b673c9e51e9b259db5538e088c4477a7014c/cuke-0.2.0.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/b6/5a/20226e8ae4d919d63e6d9369ccb4dc8d5cc14b0bbf62826706aa8d9cdfa9/tldrwl-0.0.1.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/28/74/955c9266780269e9e50dbf7f4258c6889026bec27629823322afab10e1fa/aiextras-0.0.6.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [django-workos]: Downloading https://files.pythonhosted.org/packages/f7/b0/794edb35c0f406bfdbbdf17fd45e365c7d8aeb48bc1b95bee2fed98d7903/django-workos-0.4.8.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [quantbox]: executing diffoscope
+[2023-05-22 06:40:02] INFO root fetch - processPackages [quantbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantbox-0.0.8-py3-none-any.whl.zip tmp/quantbox-0.0.9-py3-none-any.whl.zip --markdown 20230522/q/quantbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 06:40:02] INFO root fetch - processPackages [cuke]: executing diffoscope
+[2023-05-22 06:40:02] INFO root fetch - processPackages [cuke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuke-0.1.4.tar.gz tmp/cuke-0.2.0.tar.gz --markdown 20230522/c/cuke/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 06:40:02] INFO root fetch - processPackages [django-workos]: Downloading https://files.pythonhosted.org/packages/80/cd/7f6b6338d5585558f5bf409b1bd1143a41e9fd75153a8d5532ab1a7e4822/django-workos-0.5.0.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/3f/14/8f5bb22f5e33048f28c5a177a7b7b00dccddfbaaf560486c4927f3262d82/tldrwl-0.0.2.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/47/38/2bac9087c975c4fb1b61888bb9079a43f7445c19d43c0634f1250660fca8/aiextras-0.0.7.tar.gz
+[2023-05-22 06:40:02] INFO root fetch - processPackages [django-workos]: executing diffoscope
+[2023-05-22 06:40:02] INFO root fetch - processPackages [django-workos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-workos-0.4.8.tar.gz tmp/django-workos-0.5.0.tar.gz --markdown 20230522/d/django-workos/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 06:40:02] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:40:02] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-22 06:40:02] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.6.tar.gz tmp/aiextras-0.0.7.tar.gz --markdown 20230522/a/aiextras/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 06:40:02] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.1.tar.gz tmp/tldrwl-0.0.2.tar.gz --markdown 20230522/t/tldrwl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 06:40:03] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2023-05-22 06:40:03] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2023-05-22 06:40:03] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20230522/h/honeybee-ph/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-22 06:40:03] INFO root fetch - main [MainThread]: End processing [quantbox]: success
+[2023-05-22 06:40:03] INFO root fetch - main [MainThread]: End processing [cuke]: success
+[2023-05-22 06:40:03] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-22 06:40:03] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:40:04] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-05-22 06:40:04] INFO root fetch - main [MainThread]: End processing [django-workos]: success
+[2023-05-22 06:40:04] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2023-05-22 06:40:04] INFO root fetch - main [MainThread]: Store serial: [18192341]
