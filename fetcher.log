@@ -13626,3 +13626,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 15:17:11] INFO root fetch - main [MainThread]: End processing [bsb]: success
 [2023-05-22 15:17:17] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-22 15:17:17] INFO root fetch - main [MainThread]: Store serial: [18197409]
+[2023-05-22 15:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197409]
+[2023-05-22 15:22:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: squad-ds-utils
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-notifications-sdk-preview
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf-deploy
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bsb
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-martin-sflag
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oceans
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: transformer-smaller-training-vocab
+[2023-05-22 15:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easy-ass
+[2023-05-22 15:22:27] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.703] Old Version: [0.1.702]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [bsb]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [certora-cli-alpha-martin-sflag]: New version: [20230522.7.23.839940] Old Version: [20230522.13.19.110100]
+[2023-05-22 15:22:27] WARNING root fetch - processPackages [easy-ass]: Skipping, unable to determine old version
+[2023-05-22 15:22:27] INFO root fetch - processPackages [easy-ass]: Start processing: oak9-tython
+[2023-05-22 15:22:27] INFO root fetch - main [MainThread]: End processing [easy-ass] error
+[2023-05-22 15:22:27] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.788] Old Version: [0.0.787]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [squad-ds-utils]: New version: [0.1.6] Old Version: [0.1.3]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230522/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oceans]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [transformer-smaller-training-vocab]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [bsb]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [bsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsb-4.0.0a8.tar.gz tmp/bsb-4.0.0a9-py3-none-any.whl.zip --markdown 20230522/b/bsb/4.0.0a8-4.0.0a9/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.7b3] Old Version: [1.0.7b2]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [certora-cli-alpha-martin-sflag]: Downloading https://files.pythonhosted.org/packages/de/b5/f03c4cb50f326b415ad8c31b775bfd6b4089f5dedddf7197ff5e8b3e37d1/certora-cli-alpha-martin-sflag-20230522.13.19.110100.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/eb/dd/57304a904dd5c47e876fd282412ffdbd4a2530fd445d61fdafd08ecf4700/nbdev-apl-0.0.788.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b2/3c/4f19515760ce3b122009fdf0d8865c95b18fc00cddd30eb5b8989596bd62/lusid-notifications-sdk-preview-0.1.703.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [transformer-smaller-training-vocab]: Downloading https://files.pythonhosted.org/packages/cf/48/910d300aa0f6d7f9f28f6717c200300025c88754c0c6a522022e4eaabd1c/transformer_smaller_training_vocab-0.2.3.tar.gz
+[2023-05-22 15:22:27] WARNING root fetch - processPackages [certora-cli-alpha-martin-sflag]: Skipping package: exceeds size limit 38978663>=10485760
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oceans]: Downloading https://files.pythonhosted.org/packages/58/c5/b1646e0bc05d46e3a896fac016533ca20d4ce4156aaac16926e284c6db54/oceans-1.0.0.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [certora-cli-alpha-martin-sflag]: Start processing: certbot-bigip
+[2023-05-22 15:22:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-sflag] error
+[2023-05-22 15:22:27] INFO root fetch - processPackages [certbot-bigip]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-22 15:22:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.702.tar.gz tmp/lusid-notifications-sdk-preview-0.1.703.tar.gz --markdown 20230522/l/lusid-notifications-sdk-preview/0.1.702-0.1.703/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.787.tar.gz tmp/nbdev-apl-0.0.788.tar.gz --markdown 20230522/n/nbdev-apl/0.0.787-0.0.788/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [squad-ds-utils]: Downloading https://files.pythonhosted.org/packages/d2/b8/a49d56af6eb30d3ca9a0916c334538c9a3cc7c58c7dbf53a1a4e845c72e6/squad_ds_utils-0.1.6.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.7b2.tar.gz tmp/oak9_tython-1.0.7b3.tar.gz --markdown 20230522/o/oak9-tython/1.0.7b2-1.0.7b3/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [squad-ds-utils]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [squad-ds-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad_ds_utils-0.1.3.tar.gz tmp/squad_ds_utils-0.1.6.tar.gz --markdown 20230522/s/squad-ds-utils/0.1.3-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [transformer-smaller-training-vocab]: Downloading https://files.pythonhosted.org/packages/4f/1b/22119b86eefc153bae07298a19b24ab8b8f3bcb2c64f200a788d4beb8718/transformer_smaller_training_vocab-0.2.4.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [certbot-bigip]: Downloading https://files.pythonhosted.org/packages/0b/25/c08e2a57810edb60880833298d4a61294dcb29ab49ea8de19fdbf2360268/certbot-bigip-1.2.0.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oceans]: Downloading https://files.pythonhosted.org/packages/b0/8a/3d914ed50ea2c9402e5d4c01d0f7b7d2d2ed7ee2670c2a40da5097933a69/oceans-1.1.0.tar.gz
+[2023-05-22 15:22:27] INFO root fetch - processPackages [transformer-smaller-training-vocab]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [transformer-smaller-training-vocab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_smaller_training_vocab-0.2.3.tar.gz tmp/transformer_smaller_training_vocab-0.2.4.tar.gz --markdown 20230522/t/transformer-smaller-training-vocab/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oceans]: executing diffoscope
+[2023-05-22 15:22:27] INFO root fetch - processPackages [oceans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceans-1.0.0.tar.gz tmp/oceans-1.1.0.tar.gz --markdown 20230522/o/oceans/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 15:22:27] INFO root fetch - processPackages [certbot-bigip]: Downloading https://files.pythonhosted.org/packages/e7/a6/a86f3ed8813ad31ab660860b74fb913b72729f0701ff2b1d1332d5143feb/certbot-bigip-1.2.1.tar.gz
+[2023-05-22 15:22:28] INFO root fetch - processPackages [certbot-bigip]: executing diffoscope
+[2023-05-22 15:22:28] INFO root fetch - processPackages [certbot-bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-bigip-1.2.0.tar.gz tmp/certbot-bigip-1.2.1.tar.gz --markdown 20230522/c/certbot-bigip/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-22 15:22:28] INFO root fetch - processPackages [cf-deploy]: Start processing: gmap-compiler
+[2023-05-22 15:22:28] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-05-22 15:22:28] INFO root fetch - processPackages [gmap-compiler]: New version: [1.1] Old Version: [1.0]
+[2023-05-22 15:22:28] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: pysmo
+[2023-05-22 15:22:28] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 15:22:28] INFO root fetch - processPackages [gmap-compiler]: Downloading https://files.pythonhosted.org/packages/f1/32/0ca9c73656d3decdacccd7e86e17851936177069ea0c5edb4e0af11b4f7b/gmap-compiler-1.0.tar.gz
+[2023-05-22 15:22:28] INFO root fetch - processPackages [pysmo]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-22 15:22:28] INFO root fetch - processPackages [squad-ds-utils]: Start processing: blockapi
+[2023-05-22 15:22:28] INFO root fetch - main [MainThread]: End processing [squad-ds-utils]: success
+[2023-05-22 15:22:28] INFO root fetch - processPackages [pysmo]: Downloading https://files.pythonhosted.org/packages/b9/73/338af6a31bc861958c61334607ca9487131162b57c3562046be9ab95f190/pysmo-0.8.0.tar.gz
+[2023-05-22 15:22:28] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-22 15:22:28] INFO root fetch - processPackages [gmap-compiler]: Downloading https://files.pythonhosted.org/packages/f4/27/c15bbfb6ac31eeb6c69f45b2d1248a938624d6b4caa0e21cb5e57c21d8f3/gmap-compiler-1.1.tar.gz
+[2023-05-22 15:22:29] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-22 15:22:29] INFO root fetch - main [MainThread]: End processing [transformer-smaller-training-vocab]: success
+[2023-05-22 15:22:29] INFO root fetch - processPackages [pysmo]: Downloading https://files.pythonhosted.org/packages/05/aa/ed863936ad30800fbb39ae38eff46c79af0ffd4e8cf6c4b64273ed7ca182/pysmo-0.8.1.tar.gz
+[2023-05-22 15:22:29] INFO root fetch - processPackages [gmap-compiler]: executing diffoscope
+[2023-05-22 15:22:29] INFO root fetch - processPackages [gmap-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmap-compiler-1.0.tar.gz tmp/gmap-compiler-1.1.tar.gz --markdown 20230522/g/gmap-compiler/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-22 15:22:29] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2023-05-22 15:22:29] INFO root fetch - processPackages [pysmo]: executing diffoscope
+[2023-05-22 15:22:29] INFO root fetch - processPackages [pysmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmo-0.8.0.tar.gz tmp/pysmo-0.8.1.tar.gz --markdown 20230522/p/pysmo/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-22 15:22:29] INFO root fetch - main [MainThread]: End processing [certbot-bigip]: success
+[2023-05-22 15:22:29] INFO root fetch - main [MainThread]: End processing [oceans]: success
+[2023-05-22 15:22:29] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2023-05-22 15:22:29] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2023-05-22 15:22:29] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20230522/b/blockapi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 15:22:30] INFO root fetch - main [MainThread]: End processing [pysmo]: success
+[2023-05-22 15:22:30] INFO root fetch - main [MainThread]: End processing [gmap-compiler]: success
+[2023-05-22 15:22:30] INFO root fetch - main [MainThread]: End processing [bsb]: success
+[2023-05-22 15:22:31] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-22 15:22:31] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2023-05-22 15:22:40] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-05-22 15:22:40] INFO root fetch - main [MainThread]: Store serial: [18197457]
