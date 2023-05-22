@@ -8368,3 +8368,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [syngen]: success
 [2023-05-22 10:46:25] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
 [2023-05-22 10:46:25] INFO root fetch - main [MainThread]: Store serial: [18194315]
+[2023-05-22 10:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194315]
+[2023-05-22 10:51:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iimcsim
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mecapacktools
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-dataframe-tools
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynkdv
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmping
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dyrun
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stringtokenizer
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-pokie
+[2023-05-22 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: r2diaphora
+[2023-05-22 10:51:34] INFO root fetch - processPackages [iimcsim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 10:51:34] INFO root fetch - processPackages [nmping]: New version: [0.3] Old Version: [0.2]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [pynkdv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [spark-dataframe-tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [dyrun]: New version: [1.0.21] Old Version: [1.0.2]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [mecapacktools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [stringtokenizer]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-22 10:51:35] WARNING root fetch - processPackages [pytest-pokie]: Skipping, unable to determine old version
+[2023-05-22 10:51:35] INFO root fetch - main [MainThread]: End processing [pytest-pokie] error
+[2023-05-22 10:51:35] INFO root fetch - processPackages [pynkdv]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [pynkdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynkdv-0.0.8.tar.gz tmp/pynkdv-0.0.9.tar.gz --markdown 20230522/p/pynkdv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [iimcsim]: Downloading https://files.pythonhosted.org/packages/c5/40/d1068f7198f3719a9601066f6fa4ebd2675e8a27d526545a42aee2d0f4d9/iimcsim-0.0.3.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/fc/1d/df397b2426e8a778f26b0d259f35819b0ee91b62f1195e4b032ad24b0aee/spark_dataframe_tools-0.1.0.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/61/00/ab4323a7785b0a02dd34aefffe2e82573cbbb95a5a65438ae74556d444f8/dyrun-1.0.2.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [nmping]: Downloading https://files.pythonhosted.org/packages/fb/58/650434bf055237337e75d9be34719e6a132f2767733fef976649ee01fcfb/nmping-0.3.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/ff/80/345c091fdf625af68e284be3c458e60434c75934bacd56ff1827e95979b3/mecapacktools-1.0.0.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [stringtokenizer]: Downloading https://files.pythonhosted.org/packages/5a/6a/19a95b6dad5adcae42671ebc509d2f347e378e205d9aaf8e13335f1166ff/stringtokenizer-1.1.3.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-22 10:51:35] INFO root fetch - processPackages [nmping]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [nmping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmping-0.2.tar.gz tmp/nmping-0.3.tar.gz --markdown 20230522/n/nmping/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/21/b7/e43d6f0e22b463039f5c34a3032cd91c896fb825adbb846ba8d56a08a025/r2diaphora-0.2.7.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [spark-dataframe-tools]: Downloading https://files.pythonhosted.org/packages/5b/51/2593a89ae8d2d69617a6f1d646d8866c619b5240da5300d1ec06abdc4862/spark_dataframe_tools-0.2.0.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/a7/d6/43e42cdafc256d29467b288f322f757a661db247b19be7bdf19d42e6cf00/dyrun-1.0.21.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [stringtokenizer]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [stringtokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringtokenizer-1.1.2.tar.gz tmp/stringtokenizer-1.1.3.tar.gz --markdown 20230522/s/stringtokenizer/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [iimcsim]: Downloading https://files.pythonhosted.org/packages/cc/d1/fb495ea0e382819acf3838f85824e08c7381cebc2a11b7e07826765b365d/iimcsim-0.0.4.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/3a/5c/222e1d2f46ea8ee0e3133d0ca4fb6da03f3f9610a19284e988024c6d1285/mecapacktools-1.0.1.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [mecapacktools]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [mecapacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecapacktools-1.0.0.tar.gz tmp/mecapacktools-1.0.1.tar.gz --markdown 20230522/m/mecapacktools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [spark-dataframe-tools]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [spark-dataframe-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dataframe_tools-0.1.0.tar.gz tmp/spark_dataframe_tools-0.2.0.tar.gz --markdown 20230522/s/spark-dataframe-tools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [dyrun]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [dyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyrun-1.0.2.tar.gz tmp/dyrun-1.0.21.tar.gz --markdown 20230522/d/dyrun/1.0.2-1.0.21/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [iimcsim]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [iimcsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iimcsim-0.0.3.tar.gz tmp/iimcsim-0.0.4.tar.gz --markdown 20230522/i/iimcsim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/ae/ff/e971473b97e898c76de3e37e43801dfa2bc05c5f66284d71edcf82b7e880/r2diaphora-0.2.8.tar.gz
+[2023-05-22 10:51:35] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230522/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-22 10:51:35] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-05-22 10:51:35] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.2.7.tar.gz tmp/r2diaphora-0.2.8.tar.gz --markdown 20230522/r/r2diaphora/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-22 10:51:36] INFO root fetch - main [MainThread]: End processing [pynkdv]: success
+[2023-05-22 10:51:36] INFO root fetch - main [MainThread]: End processing [nmping]: success
+[2023-05-22 10:51:36] INFO root fetch - main [MainThread]: End processing [stringtokenizer]: success
+[2023-05-22 10:51:36] INFO root fetch - main [MainThread]: End processing [iimcsim]: success
+[2023-05-22 10:51:37] INFO root fetch - main [MainThread]: End processing [spark-dataframe-tools]: success
+[2023-05-22 10:51:37] INFO root fetch - main [MainThread]: End processing [mecapacktools]: success
+[2023-05-22 10:51:37] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-05-22 10:51:38] INFO root fetch - main [MainThread]: End processing [dyrun]: success
+[2023-05-22 10:51:51] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-22 10:51:51] INFO root fetch - main [MainThread]: Store serial: [18194343]
