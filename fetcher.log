@@ -5487,3 +5487,56 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:24:19] INFO root fetch - main [MainThread]: End processing [simple-locations]: success
 [2023-05-22 07:24:21] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
 [2023-05-22 07:24:21] INFO root fetch - main [MainThread]: Store serial: [18192564]
+[2023-05-22 07:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192564]
+[2023-05-22 07:29:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CADPR
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2aff
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MakerToolbox
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zwave-js-server-python
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upbit-client
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-fast-frontend
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crazy-thursday
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MakerToolbox
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geofabrics
+[2023-05-22 07:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: packagetenssor
+[2023-05-22 07:29:30] INFO root fetch - processPackages [s2aff]: New version: [0.53] Old Version: [0.52]
+[2023-05-22 07:29:30] WARNING root fetch - processPackages [django-fast-frontend]: Skipping, unable to determine old version
+[2023-05-22 07:29:30] INFO root fetch - main [MainThread]: End processing [django-fast-frontend] error
+[2023-05-22 07:29:30] INFO root fetch - processPackages [upbit-client]: New version: [1.3.4.1] Old Version: [1.3.4.0]
+[2023-05-22 07:29:30] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 07:29:30] WARNING root fetch - processPackages [MakerToolbox]: Skipping, unable to determine old version
+[2023-05-22 07:29:30] INFO root fetch - processPackages [packagetenssor]: New version: [0.4] Old Version: [0.3]
+[2023-05-22 07:29:30] WARNING root fetch - processPackages [MakerToolbox]: Skipping, unable to determine old version
+[2023-05-22 07:29:30] INFO root fetch - main [MainThread]: End processing [MakerToolbox] error
+[2023-05-22 07:29:30] INFO root fetch - main [MainThread]: End processing [MakerToolbox] error
+[2023-05-22 07:29:30] INFO root fetch - processPackages [zwave-js-server-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 07:29:30] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-05-22 07:29:30] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-22 07:29:30] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 07:29:30] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 07:29:30] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-22 07:29:30] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230522/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-22 07:29:30] INFO root fetch - processPackages [upbit-client]: Downloading https://files.pythonhosted.org/packages/1c/12/d672175b65326fe5e777f624be0393849fe4f0e52b3cb31dcdbc1bc9084e/upbit-client-1.3.4.1.tar.gz
+[2023-05-22 07:29:30] INFO root fetch - processPackages [zwave-js-server-python]: Downloading https://files.pythonhosted.org/packages/d2/4e/d0ff6115142a87cf98a455f6bb2a40fe717c73d40a29a18508342bf64cb5/zwave-js-server-python-0.8.0.tar.gz
+[2023-05-22 07:29:30] INFO root fetch - processPackages [packagetenssor]: Downloading https://files.pythonhosted.org/packages/e4/f9/3eff8cc5d5a3687fd70c2a3837fecaddee0387e2e9667ea6342c6e5380e3/packagetenssor-0.3.tar.gz
+[2023-05-22 07:29:31] INFO root fetch - processPackages [s2aff]: Downloading https://files.pythonhosted.org/packages/27/06/44ad74397ad87156d9829212843d48ac837f1926f04cbb80e04f99c6fd43/s2aff-0.53.tar.gz
+[2023-05-22 07:29:31] INFO root fetch - processPackages [upbit-client]: executing diffoscope
+[2023-05-22 07:29:31] INFO root fetch - processPackages [upbit-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upbit-client-1.3.4.0.tar.gz tmp/upbit-client-1.3.4.1.tar.gz --markdown 20230522/u/upbit-client/1.3.4.0-1.3.4.1/diff.md --exclude *.pyd
+[2023-05-22 07:29:31] INFO root fetch - processPackages [s2aff]: executing diffoscope
+[2023-05-22 07:29:31] INFO root fetch - processPackages [s2aff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2aff-0.52.tar.gz tmp/s2aff-0.53.tar.gz --markdown 20230522/s/s2aff/0.52-0.53/diff.md --exclude *.pyd
+[2023-05-22 07:29:31] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-05-22 07:29:31] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230522/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 07:29:31] INFO root fetch - processPackages [zwave-js-server-python]: Downloading https://files.pythonhosted.org/packages/3c/d7/f078929568a9191db249a7a2f8a27990a3132eafe6322079104067cb8d66/zwave-js-server-python-0.9.0.tar.gz
+[2023-05-22 07:29:31] INFO root fetch - processPackages [packagetenssor]: Downloading https://files.pythonhosted.org/packages/37/17/cfdd27cd8b2becf6957091440bd451a936980d815c142e134591f9a1e878/packagetenssor-0.4.tar.gz
+[2023-05-22 07:29:31] INFO root fetch - processPackages [zwave-js-server-python]: executing diffoscope
+[2023-05-22 07:29:31] INFO root fetch - processPackages [zwave-js-server-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwave-js-server-python-0.8.0.tar.gz tmp/zwave-js-server-python-0.9.0.tar.gz --markdown 20230522/z/zwave-js-server-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 07:29:31] INFO root fetch - processPackages [packagetenssor]: executing diffoscope
+[2023-05-22 07:29:31] INFO root fetch - processPackages [packagetenssor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagetenssor-0.3.tar.gz tmp/packagetenssor-0.4.tar.gz --markdown 20230522/p/packagetenssor/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [s2aff]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [zwave-js-server-python]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [upbit-client]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [packagetenssor]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-05-22 07:29:32] INFO root fetch - main [MainThread]: Store serial: [18192601]
