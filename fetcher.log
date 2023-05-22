@@ -3864,3 +3864,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:05:17] INFO root fetch - main [MainThread]: End processing [optinist]: success
 [2023-05-22 04:05:27] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-05-22 04:05:27] INFO root fetch - main [MainThread]: Store serial: [18191595]
+[2023-05-22 04:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191595]
+[2023-05-22 04:10:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tastytrade
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-clock
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: template-pptx-jinja-my
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: misc-io-operations
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ripandtear
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tree-of-thoughts
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: misc-io-operations
+[2023-05-22 04:10:36] INFO root fetch - processPackages [nonebot-plugin-clock]: New version: [0.9] Old Version: [0.8.8]
+[2023-05-22 04:10:36] INFO root fetch - processPackages [tastytrade]: New version: [5.2] Old Version: [5.1]
+[2023-05-22 04:10:36] INFO root fetch - processPackages [template-pptx-jinja-my]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 04:10:36] WARNING root fetch - processPackages [tree-of-thoughts]: Skipping, unable to determine old version
+[2023-05-22 04:10:36] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts] error
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ripandtear]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-05-22 04:10:36] INFO root fetch - processPackages [nonebot-plugin-clock]: Downloading https://files.pythonhosted.org/packages/02/6f/f71ef5b887b7f57cd6b9e328bb0831d7f629607faa26ffcba58cfd183693/nonebot-plugin-clock-0.8.8.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/2c/f3/43638a223c6f10c616bb47ef002fae28efb23437b272b531a8027e24e54f/ripandtear-0.9.7.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [misc-io-operations]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-22 04:10:36] INFO root fetch - processPackages [misc-io-operations]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-22 04:10:36] INFO root fetch - processPackages [template-pptx-jinja-my]: Downloading https://files.pythonhosted.org/packages/6e/f1/d54e8de3c8fe9f7fe14a932545919e3f4bc695a0a153573d2f60fbd6e3c2/template-pptx-jinja-my-0.0.3.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [tastytrade]: Downloading https://files.pythonhosted.org/packages/2a/7c/3509ac92eadca8047c9a58fdc941eaa708589bec4469f5c884373c019ffb/tastytrade-5.2.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [template-pptx-jinja-my]: executing diffoscope
+[2023-05-22 04:10:36] INFO root fetch - processPackages [template-pptx-jinja-my]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pptx-jinja-my-0.0.2.tar.gz tmp/template-pptx-jinja-my-0.0.3.tar.gz --markdown 20230522/t/template-pptx-jinja-my/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 04:10:36] INFO root fetch - processPackages [tastytrade]: executing diffoscope
+[2023-05-22 04:10:36] INFO root fetch - processPackages [tastytrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-5.1.tar.gz tmp/tastytrade-5.2.tar.gz --markdown 20230522/t/tastytrade/5.1-5.2/diff.md --exclude *.pyd
+[2023-05-22 04:10:36] INFO root fetch - processPackages [nonebot-plugin-clock]: Downloading https://files.pythonhosted.org/packages/02/b0/70ccf0ec2aef69d44dda2449fc3066ec02c50a4127c5ccbd6cda83629fe5/nonebot-plugin-clock-0.9.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/40/f9/7a339926f262774dc4ff237582bed4020100565ad47de9fdd251c14db694/misc_io_operations-1.1.1.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/40/f9/7a339926f262774dc4ff237582bed4020100565ad47de9fdd251c14db694/misc_io_operations-1.1.1.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [ripandtear]: Downloading https://files.pythonhosted.org/packages/bb/33/c3d19a2184a3997ddbec798a026fd98fd336119a50b23ebe1c0233e31aea/ripandtear-0.9.9.tar.gz
+[2023-05-22 04:10:36] INFO root fetch - processPackages [nonebot-plugin-clock]: executing diffoscope
+[2023-05-22 04:10:36] INFO root fetch - processPackages [nonebot-plugin-clock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-clock-0.8.8.tar.gz tmp/nonebot-plugin-clock-0.9.tar.gz --markdown 20230522/n/nonebot-plugin-clock/0.8.8-0.9/diff.md --exclude *.pyd
+[2023-05-22 04:10:37] INFO root fetch - processPackages [ripandtear]: executing diffoscope
+[2023-05-22 04:10:37] INFO root fetch - processPackages [ripandtear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ripandtear-0.9.7.tar.gz tmp/ripandtear-0.9.9.tar.gz --markdown 20230522/r/ripandtear/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-05-22 04:10:37] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/63/0f/07767381056280e978477bd446346497b521dded7cf1acb4cd29dcf8bc5d/misc_io_operations-1.1.2.tar.gz
+[2023-05-22 04:10:37] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/63/0f/07767381056280e978477bd446346497b521dded7cf1acb4cd29dcf8bc5d/misc_io_operations-1.1.2.tar.gz
+[2023-05-22 04:10:37] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 04:10:37] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.1.1.tar.gz tmp/misc_io_operations-1.1.2.tar.gz --markdown 20230522/m/misc-io-operations/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-22 04:10:37] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 04:10:37] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.1.1.tar.gz tmp/misc_io_operations-1.1.2.tar.gz --markdown 20230522/m/misc-io-operations/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-22 04:10:37] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-my]: success
+[2023-05-22 04:10:38] INFO root fetch - main [MainThread]: End processing [tastytrade]: success
+[2023-05-22 04:10:38] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-clock]: success
+[2023-05-22 04:10:38] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 04:10:38] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 04:10:39] INFO root fetch - main [MainThread]: End processing [ripandtear]: success
+[2023-05-22 04:10:39] INFO root fetch - main [MainThread]: Store serial: [18191614]
