@@ -6505,3 +6505,118 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:03:30] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-22 09:03:44] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-22 09:03:44] INFO root fetch - main [MainThread]: Store serial: [18193170]
+[2023-05-22 09:08:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193170]
+[2023-05-22 09:08:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Slpapy
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.smartweb.core
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiktools
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-ghost
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nshuman-python
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DDesignerAPI
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imio.smartweb.locales
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: krutils
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imio.smartweb.common
+[2023-05-22 09:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qstock
+[2023-05-22 09:08:53] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1405] Old Version: [0.20230522.1343]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [Slpapy]: New version: [0.3.20] Old Version: [0.3.17]
+[2023-05-22 09:08:53] WARNING root fetch - processPackages [nshuman-python]: Skipping, unable to determine old version
+[2023-05-22 09:08:53] INFO root fetch - processPackages [nshuman-python]: Start processing: imio.smartweb.policy
+[2023-05-22 09:08:53] INFO root fetch - main [MainThread]: End processing [nshuman-python] error
+[2023-05-22 09:08:53] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.2.8] Old Version: [0.0.2.7]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [astro-ghost]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-22 09:08:53] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.17.tar.gz tmp/Slpapy-0.3.20.tar.gz --markdown 20230522/S/Slpapy/0.3.17-0.3.20/diff.md --exclude *.pyd
+[2023-05-22 09:08:53] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 09:08:53] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1343.tar.gz tmp/krutils-0.20230522.1405.tar.gz --markdown 20230522/k/krutils/0.20230522.1343-0.20230522.1405/diff.md --exclude *.pyd
+[2023-05-22 09:08:53] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [imio.smartweb.locales]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [qstock]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-05-22 09:08:53] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.2.7-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.2.8-py3-none-any.whl.zip --markdown 20230522/D/DDesignerAPI/0.0.2.7-0.0.2.8/diff.md --exclude *.pyd
+[2023-05-22 09:08:53] INFO root fetch - processPackages [hiktools]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-22 09:08:53] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.policy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-22 09:08:54] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/2a/6d/0761ef9a763737d50e2c9ee2d934d8838540bf835edccf1884967fda44fc/astro_ghost-1.0.2.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [qstock]: Downloading https://files.pythonhosted.org/packages/10/ac/209b6f657e5b6af62d39e3daa658bb8fe6a3ed77ef129fcb3cc1aec23b6c/qstock-1.3.3.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.locales]: Downloading https://files.pythonhosted.org/packages/30/5c/b3896c9310375df37db87c7ca9cf9674cd678faa0c86d4348403e18fcb4e/imio.smartweb.locales-1.1.3.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [hiktools]: Downloading https://files.pythonhosted.org/packages/24/bf/caf821db04c1a56c3ede00e63341445b72fc5b41fc8c2ba6c23262f87e90/hiktools-1.2.1.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/64/c2/8158254b0b0e5d18de5a743ebdeb1f107a0f9978c85f64fdc2ea8000783a/imio.smartweb.common-1.1.6.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/39/01/1ae2ef4e6028f2c52dd5a3806f86711119ccb76425e1d8277c4247f19feb/imio.smartweb.core-1.1.8.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.policy]: Downloading https://files.pythonhosted.org/packages/2a/7d/b342aa30c05aab86e1e8e623a1b32c555ac0680518cd0cc3ad543d20d8df/imio.smartweb.policy-1.1.3.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [hiktools]: Downloading https://files.pythonhosted.org/packages/62/d9/685896bf1e65134642791371964b68f407229fdcffc67cb4b2d44cc44265/hiktools-1.2.2.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/b9/00/a232c7196193999a5219eed0bcee16883bb57b6b4f39dbc0c41982cc075f/imio.smartweb.common-1.1.7.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [qstock]: Downloading https://files.pythonhosted.org/packages/cb/b5/da6efa29c588549dbaf7d7b3b37786b888b58da0b2a2f657eff75f3f5d26/qstock-1.3.4.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.policy]: Downloading https://files.pythonhosted.org/packages/c6/d7/a9ba30f748a08f434fabc0028baa753f06420045dc573b5a73c97e026fcc/imio.smartweb.policy-1.1.4.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/0f/a3/6cca5dd5885aab74c6eda6e55cfd18561b54b23359684f77ff3a38bf4be8/imio.smartweb.core-1.1.9.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.locales]: Downloading https://files.pythonhosted.org/packages/f5/06/f8b48d72320c86508ffd6a6b15831fda49f16ce6b7bed29051f928e7cfcc/imio.smartweb.locales-1.1.4.tar.gz
+[2023-05-22 09:08:54] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-1.0.1.tar.gz tmp/astro_ghost-1.0.2.tar.gz --markdown 20230522/a/astro-ghost/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 09:08:54] INFO root fetch - processPackages [hiktools]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [hiktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiktools-1.2.1.tar.gz tmp/hiktools-1.2.2.tar.gz --markdown 20230522/h/hiktools/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.1.8.tar.gz tmp/imio.smartweb.core-1.1.9.tar.gz --markdown 20230522/i/imio.smartweb.core/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.1.6.tar.gz tmp/imio.smartweb.common-1.1.7.tar.gz --markdown 20230522/i/imio.smartweb.common/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-22 09:08:54] INFO root fetch - processPackages [qstock]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [qstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstock-1.3.3.tar.gz tmp/qstock-1.3.4.tar.gz --markdown 20230522/q/qstock/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.policy]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.policy-1.1.3.tar.gz tmp/imio.smartweb.policy-1.1.4.tar.gz --markdown 20230522/i/imio.smartweb.policy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.locales]: executing diffoscope
+[2023-05-22 09:08:54] INFO root fetch - processPackages [imio.smartweb.locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.locales-1.1.3.tar.gz tmp/imio.smartweb.locales-1.1.4.tar.gz --markdown 20230522/i/imio.smartweb.locales/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-22 09:08:55] INFO root fetch - processPackages [Slpapy]: Start processing: xj-enroll
+[2023-05-22 09:08:55] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-22 09:08:55] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-22 09:08:55] INFO root fetch - processPackages [krutils]: Start processing: tf-hub-nightly
+[2023-05-22 09:08:55] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-05-22 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-05-22 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230522/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-05-22 09:08:55] INFO root fetch - processPackages [DDesignerAPI]: Start processing: exergenics-etl
+[2023-05-22 09:08:55] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-05-22 09:08:55] INFO root fetch - processPackages [exergenics-etl]: New version: [0.5.0] Old Version: [0.1.0]
+[2023-05-22 09:08:55] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-22 09:08:55] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230522/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-22 09:08:56] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/d3/d8/98cb54d499870aee8b1e616e7d0b1bd3379e813058bdbbbbcab38377e76f/exergenics-etl-0.5.0.tar.gz
+[2023-05-22 09:08:56] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-05-22 09:08:56] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-0.1.0.tar.gz tmp/exergenics-etl-0.5.0.tar.gz --markdown 20230522/e/exergenics-etl/0.1.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 09:08:56] INFO root fetch - processPackages [hiktools]: Start processing: wordlink
+[2023-05-22 09:08:56] INFO root fetch - main [MainThread]: End processing [hiktools]: success
+[2023-05-22 09:08:56] WARNING root fetch - processPackages [wordlink]: Skipping, unable to determine old version
+[2023-05-22 09:08:56] INFO root fetch - processPackages [wordlink]: Start processing: hatch-fancy-pypi-readme
+[2023-05-22 09:08:56] INFO root fetch - main [MainThread]: End processing [wordlink] error
+[2023-05-22 09:08:56] INFO root fetch - processPackages [imio.smartweb.policy]: Start processing: coiled
+[2023-05-22 09:08:56] INFO root fetch - main [MainThread]: End processing [imio.smartweb.policy]: success
+[2023-05-22 09:08:56] INFO root fetch - processPackages [hatch-fancy-pypi-readme]: New version: [23.1.0] Old Version: [22.8.0]
+[2023-05-22 09:08:56] INFO root fetch - processPackages [coiled]: New version: [0.6.7.dev1] Old Version: [0.6.6.dev8]
+[2023-05-22 09:08:56] INFO root fetch - processPackages [hatch-fancy-pypi-readme]: Downloading https://files.pythonhosted.org/packages/4e/ab/9b48589d6e3a2f72cc1e8f5221c28ff28fcdf116dbbd6e9beb946054212d/hatch_fancy_pypi_readme-22.8.0.tar.gz
+[2023-05-22 09:08:56] INFO root fetch - processPackages [imio.smartweb.common]: Start processing: nshuman-python
+[2023-05-22 09:08:56] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2023-05-22 09:08:56] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.0.0.0.0.9] Old Version: [0.0.0.0.0.0.8]
+[2023-05-22 09:08:56] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: eargait
+[2023-05-22 09:08:56] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-05-22 09:08:56] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/f6/5b/a727ff48e0609c622eda8c36edbea88c7c56c26f76e7bc26181d700a2e9a/nshuman_python-0.0.0.0.0.0.8-py3-none-any.whl
+[2023-05-22 09:08:56] INFO root fetch - processPackages [hatch-fancy-pypi-readme]: Downloading https://files.pythonhosted.org/packages/85/a6/58d585eba4321bf2e7a4d1ed2af141c99d88c1afa4b751926be160f09325/hatch_fancy_pypi_readme-23.1.0.tar.gz
+[2023-05-22 09:08:57] INFO root fetch - processPackages [eargait]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-22 09:08:57] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-22 09:08:57] INFO root fetch - processPackages [hatch-fancy-pypi-readme]: executing diffoscope
+[2023-05-22 09:08:57] INFO root fetch - processPackages [hatch-fancy-pypi-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_fancy_pypi_readme-22.8.0.tar.gz tmp/hatch_fancy_pypi_readme-23.1.0.tar.gz --markdown 20230522/h/hatch-fancy-pypi-readme/22.8.0-23.1.0/diff.md --exclude *.pyd
+[2023-05-22 09:08:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/f9/c0/024d917c9f8cb7cfbd468b580dde0e9b1e0c7385e7588f7084860930fd8b/coiled-0.6.7.dev1.tar.gz
+[2023-05-22 09:08:57] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/e8/2e/c001a4ed184ed0bfd34523e8bf1489208ed0e8812be1f4c327c988c60af5/nshuman_python-0.0.0.0.0.0.9-py3-none-any.whl
+[2023-05-22 09:08:57] INFO root fetch - processPackages [eargait]: Downloading https://files.pythonhosted.org/packages/fc/40/c0e03b348604ef32dc8b33d4432b4e2de55e5019c1a6ee95db2d31330e94/eargait-1.7.0.tar.gz
+[2023-05-22 09:08:57] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-22 09:08:57] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.6.dev8.tar.gz tmp/coiled-0.6.7.dev1.tar.gz --markdown 20230522/c/coiled/0.6.6.dev8-0.6.7.dev1/diff.md --exclude *.pyd
+[2023-05-22 09:08:57] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-05-22 09:08:57] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-22 09:08:57] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.0.0.0.0.8-py3-none-any.whl.zip tmp/nshuman_python-0.0.0.0.0.0.9-py3-none-any.whl.zip --markdown 20230522/n/nshuman-python/0.0.0.0.0.0.8-0.0.0.0.0.0.9/diff.md --exclude *.pyd
+[2023-05-22 09:08:57] INFO root fetch - processPackages [eargait]: Downloading https://files.pythonhosted.org/packages/61/88/6737542df547cfa000f7dfbde3034633bce179a88e1c6287f997cf490a32/eargait-1.8.0.tar.gz
+[2023-05-22 09:08:57] INFO root fetch - processPackages [eargait]: executing diffoscope
+[2023-05-22 09:08:57] INFO root fetch - processPackages [eargait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eargait-1.7.0.tar.gz tmp/eargait-1.8.0.tar.gz --markdown 20230522/e/eargait/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-22 09:08:57] INFO root fetch - main [MainThread]: End processing [qstock]: success
+[2023-05-22 09:08:58] INFO root fetch - main [MainThread]: End processing [imio.smartweb.locales]: success
+[2023-05-22 09:08:58] INFO root fetch - main [MainThread]: End processing [hatch-fancy-pypi-readme]: success
+[2023-05-22 09:08:58] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-22 09:08:58] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-22 09:08:58] INFO root fetch - main [MainThread]: End processing [eargait]: success
+[2023-05-22 09:08:59] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-05-22 09:09:00] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2023-05-22 09:09:00] INFO root fetch - main [MainThread]: Store serial: [18193224]
