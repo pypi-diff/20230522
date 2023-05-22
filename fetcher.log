@@ -21908,3 +21908,45 @@ EOFError: EOF read where object expected
 [2023-05-22 20:14:56] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
 [2023-05-22 20:14:56] INFO root fetch - main [MainThread]: End processing [json-fingerprint]: success
 [2023-05-22 20:14:56] INFO root fetch - main [MainThread]: Store serial: [18202218]
+[2023-05-22 20:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202218]
+[2023-05-22 20:20:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 20:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-05-22 20:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-mlops-scoring-client
+[2023-05-22 20:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: os-bedtime
+[2023-05-22 20:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prefixed-aiostatsd
+[2023-05-22 20:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: print-torch
+[2023-05-22 20:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: groundingdino-py
+[2023-05-22 20:20:06] INFO root fetch - processPackages [groundingdino-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-22 20:20:06] INFO root fetch - processPackages [print-torch]: New version: [1.1] Old Version: [1.0]
+[2023-05-22 20:20:06] INFO root fetch - processPackages [os-bedtime]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 20:20:06] INFO root fetch - processPackages [h2o-mlops-scoring-client]: New version: [0.0.7b1] Old Version: [0.0.6b1]
+[2023-05-22 20:20:06] INFO root fetch - processPackages [prefixed-aiostatsd]: New version: [1.0] Old Version: [0.3]
+[2023-05-22 20:20:07] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-22 20:20:07] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-22 20:20:07] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230522/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-22 20:20:07] INFO root fetch - processPackages [os-bedtime]: Downloading https://files.pythonhosted.org/packages/4e/d8/8fed31f93f827d41c94b4c1b58b73a59fdab11d88c31041112c5bf46b63b/os_bedtime-0.1.0.tar.gz
+[2023-05-22 20:20:07] INFO root fetch - processPackages [groundingdino-py]: Downloading https://files.pythonhosted.org/packages/9e/d3/0874c945175e25e4090da382f4ac8c1afc3866a7535417720a102214939d/groundingdino-py-0.3.0.tar.gz
+[2023-05-22 20:20:07] INFO root fetch - processPackages [h2o-mlops-scoring-client]: Downloading https://files.pythonhosted.org/packages/e6/71/9e0b16f211e5f30581ff38602fa0b1201d93113caee6b4e6332622f16344/h2o_mlops_scoring_client-0.0.6b1-py3-none-any.whl
+[2023-05-22 20:20:07] INFO root fetch - processPackages [print-torch]: Downloading https://files.pythonhosted.org/packages/66/13/7ff8fd5979edf349e055f22a7c07086ba77eacdd9d7df73debed80a7c65b/print_torch-1.0.tar.gz
+[2023-05-22 20:20:07] INFO root fetch - processPackages [prefixed-aiostatsd]: Downloading https://files.pythonhosted.org/packages/30/31/9a5f6daf91bb08eaccc4e6bc9efe1156b2d859369b02458f3424039ee5ce/prefixed_aiostatsd-0.3-py3-none-any.whl
+[2023-05-22 20:20:07] INFO root fetch - processPackages [groundingdino-py]: executing diffoscope
+[2023-05-22 20:20:07] INFO root fetch - processPackages [groundingdino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groundingdino-py-0.2.0.tar.gz tmp/groundingdino-py-0.3.0.tar.gz --markdown 20230522/g/groundingdino-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 20:20:07] INFO root fetch - processPackages [os-bedtime]: Downloading https://files.pythonhosted.org/packages/67/d9/b226e234a13cf8f775bde295a3519ddeb2977601c63cd4afcf46a642d9e5/os_bedtime-0.2.0.tar.gz
+[2023-05-22 20:20:07] INFO root fetch - processPackages [os-bedtime]: executing diffoscope
+[2023-05-22 20:20:07] INFO root fetch - processPackages [os-bedtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_bedtime-0.1.0.tar.gz tmp/os_bedtime-0.2.0.tar.gz --markdown 20230522/o/os-bedtime/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 20:20:07] INFO root fetch - processPackages [print-torch]: Downloading https://files.pythonhosted.org/packages/45/2b/5a347591268ce3ab31921a8dbecbf3c16d533e3ee63e6c39175b771e3d2a/print_torch-1.1.tar.gz
+[2023-05-22 20:20:07] INFO root fetch - processPackages [prefixed-aiostatsd]: Downloading https://files.pythonhosted.org/packages/f1/84/f91473fa45f849307519bfc8a4ae9ffb5f257d89677142c169bfab48f3bb/prefixed_aiostatsd-1.0-py3-none-any.whl
+[2023-05-22 20:20:07] INFO root fetch - processPackages [h2o-mlops-scoring-client]: Downloading https://files.pythonhosted.org/packages/76/f5/1cd109d81bb93f7b909502bd60021644446afe765dbc5a1c5ceabb875509/h2o_mlops_scoring_client-0.0.7b1-py3-none-any.whl
+[2023-05-22 20:20:07] INFO root fetch - processPackages [print-torch]: executing diffoscope
+[2023-05-22 20:20:07] INFO root fetch - processPackages [print-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/print_torch-1.0.tar.gz tmp/print_torch-1.1.tar.gz --markdown 20230522/p/print-torch/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-22 20:20:07] INFO root fetch - processPackages [prefixed-aiostatsd]: executing diffoscope
+[2023-05-22 20:20:07] INFO root fetch - processPackages [prefixed-aiostatsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefixed_aiostatsd-0.3-py3-none-any.whl.zip tmp/prefixed_aiostatsd-1.0-py3-none-any.whl.zip --markdown 20230522/p/prefixed-aiostatsd/0.3-1.0/diff.md --exclude *.pyd
+[2023-05-22 20:20:07] INFO root fetch - processPackages [h2o-mlops-scoring-client]: executing diffoscope
+[2023-05-22 20:20:07] INFO root fetch - processPackages [h2o-mlops-scoring-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_mlops_scoring_client-0.0.6b1-py3-none-any.whl.zip tmp/h2o_mlops_scoring_client-0.0.7b1-py3-none-any.whl.zip --markdown 20230522/h/h2o-mlops-scoring-client/0.0.6b1-0.0.7b1/diff.md --exclude *.pyd
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: End processing [os-bedtime]: success
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: End processing [groundingdino-py]: success
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: End processing [h2o-mlops-scoring-client]: success
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: End processing [prefixed-aiostatsd]: success
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: End processing [print-torch]: success
+[2023-05-22 20:20:08] INFO root fetch - main [MainThread]: Store serial: [18202233]
