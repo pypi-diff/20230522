@@ -7360,3 +7360,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:48:37] INFO root fetch - main [MainThread]: End processing [vitriolic]: success
 [2023-05-22 09:48:39] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-22 09:48:39] INFO root fetch - main [MainThread]: Store serial: [18193707]
+[2023-05-22 09:53:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193707]
+[2023-05-22 09:53:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-jrubics-poetry-publish
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VerdisCloudPackage
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: westat
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuNet
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: censius
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: energinet-ml-sdk
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: textbsr
+[2023-05-22 09:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-github
+[2023-05-22 09:53:49] WARNING root fetch - processPackages [VerdisCloudPackage]: Skipping, unable to determine old version
+[2023-05-22 09:53:49] INFO root fetch - processPackages [VerdisCloudPackage]: Start processing: llmo
+[2023-05-22 09:53:49] INFO root fetch - main [MainThread]: End processing [VerdisCloudPackage] error
+[2023-05-22 09:53:49] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [censius]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [test-jrubics-poetry-publish]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [westat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 09:53:49] WARNING root fetch - processPackages [textbsr]: Skipping, unable to determine old version
+[2023-05-22 09:53:49] INFO root fetch - processPackages [textbsr]: Start processing: AutoCarver
+[2023-05-22 09:53:49] INFO root fetch - main [MainThread]: End processing [textbsr] error
+[2023-05-22 09:53:49] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230522/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [1.0.0.dev25] Old Version: [1.0.0.dev24]
+[2023-05-22 09:53:49] WARNING root fetch - processPackages [llmo]: Skipping, unable to determine old version
+[2023-05-22 09:53:49] INFO root fetch - processPackages [llmo]: Start processing: template-pptx-jinja-fix
+[2023-05-22 09:53:49] INFO root fetch - main [MainThread]: End processing [llmo] error
+[2023-05-22 09:53:49] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230522] Old Version: [2.14.0.dev20230521]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [AutoCarver]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [template-pptx-jinja-fix]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/02/a6/a60a81492d57c77834d223ca70a2a263622f3e1a1a3e3726278238ecdd71/censius-1.6.8.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 09:53:49] INFO root fetch - processPackages [westat]: Downloading https://files.pythonhosted.org/packages/1b/c1/e5ec77ac37a7132d64d4fdef5fcd8ddcb492653509c5fc5e56667fa29e05/westat-0.1.8.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Downloading https://files.pythonhosted.org/packages/fe/50/02f5895cdd0a17b5c40aa78982bd24d9563640a95f13d0bd000b699a23c2/test_jrubics_poetry_publish-0.2.1.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/95/56/4447bfd2a3a46695a321c0953791235c4e98a854d3a5259bf17ca10275d5/AutoCarver-4.3.1.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [energinet-ml-sdk]: Downloading https://files.pythonhosted.org/packages/4f/65/30430ce6a092372eb18939abfb21271751c81380d8c40e7256745a6c8dac/energinet-ml-sdk-1.0.0.dev25.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [template-pptx-jinja-fix]: Downloading https://files.pythonhosted.org/packages/36/ed/191242837e7761a2aec0c3df0ad52324596be73f0577c188d87625a3f1ee/template-pptx-jinja-fix-0.0.4.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/05/b8/4850cca61568e61a1f4a041687a7f3ae2263a717cad4a0f6e40d0b7437f2/tf_nightly_cpu-2.14.0.dev20230522-cp39-cp39-win_amd64.whl
+[2023-05-22 09:53:49] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-4.3.0.tar.gz tmp/AutoCarver-4.3.1.tar.gz --markdown 20230522/A/AutoCarver/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-1.0.0.dev24.tar.gz tmp/energinet-ml-sdk-1.0.0.dev25.tar.gz --markdown 20230522/e/energinet-ml-sdk/1.0.0.dev24-1.0.0.dev25/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/7b/37/4db7fd417ab927875f7d74c86f5e790a85c5615e27b09736348523dfe162/censius-1.6.9.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Downloading https://files.pythonhosted.org/packages/46/ca/681be90e0b42e678d4da7cb0b1ece825bc47a73178e49a278cfa4c2391ba/test_jrubics_poetry_publish-0.2.2.tar.gz
+[2023-05-22 09:53:49] INFO root fetch - processPackages [template-pptx-jinja-fix]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [template-pptx-jinja-fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pptx-jinja-fix-0.0.3.tar.gz tmp/template-pptx-jinja-fix-0.0.4.tar.gz --markdown 20230522/t/template-pptx-jinja-fix/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230521-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230522-cp39-cp39-win_amd64.whl.zip --markdown 20230522/t/tf-nightly-cpu/2.14.0.dev20230521-2.14.0.dev20230522/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [test-jrubics-poetry-publish]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [test-jrubics-poetry-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_jrubics_poetry_publish-0.2.1.tar.gz tmp/test_jrubics_poetry_publish-0.2.2.tar.gz --markdown 20230522/t/test-jrubics-poetry-publish/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 09:53:49] INFO root fetch - processPackages [censius]: executing diffoscope
+[2023-05-22 09:53:49] INFO root fetch - processPackages [censius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censius-1.6.8.tar.gz tmp/censius-1.6.9.tar.gz --markdown 20230522/c/censius/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-22 09:53:50] INFO root fetch - processPackages [westat]: Downloading https://files.pythonhosted.org/packages/4a/4d/b6ef220a906ddeda6cfa07a012ae2137848ef821a44dfb29a746d68e6aae/westat-0.1.9.tar.gz
+[2023-05-22 09:53:50] INFO root fetch - processPackages [QuNet]: Start processing: metalattice
+[2023-05-22 09:53:50] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-22 09:53:50] INFO root fetch - processPackages [metalattice]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-05-22 09:53:50] INFO root fetch - processPackages [westat]: executing diffoscope
+[2023-05-22 09:53:50] INFO root fetch - processPackages [westat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/westat-0.1.8.tar.gz tmp/westat-0.1.9.tar.gz --markdown 20230522/w/westat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 09:53:50] INFO root fetch - processPackages [metalattice]: Downloading https://files.pythonhosted.org/packages/5d/1b/7c2e232502dda171a455910291a993959e82ee8952939a79a96174ac3dbc/metalattice-0.0.26.tar.gz
+[2023-05-22 09:53:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-22 09:53:51] INFO root fetch - processPackages [metalattice]: executing diffoscope
+[2023-05-22 09:53:51] INFO root fetch - processPackages [metalattice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalattice-0.0.26.tar.gz tmp/metalattice-0.0.27.tar.gz --markdown 20230522/m/metalattice/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-05-22 09:53:51] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-fix]: success
+[2023-05-22 09:53:51] INFO root fetch - main [MainThread]: End processing [test-jrubics-poetry-publish]: success
+[2023-05-22 09:53:51] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-05-22 09:53:51] INFO root fetch - main [MainThread]: End processing [censius]: success
+[2023-05-22 09:53:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-05-22 09:53:52] INFO root fetch - main [MainThread]: End processing [metalattice]: success
+[2023-05-22 09:53:55] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-22 09:54:30] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-05-22 09:56:50] ERROR root fetch - processPackages [westat]: Timeout during execution of pkgdiff
+[2023-05-22 09:56:50] INFO root fetch - main [MainThread]: End processing [westat] error
+[2023-05-22 09:56:50] INFO root fetch - main [MainThread]: Store serial: [18193750]
