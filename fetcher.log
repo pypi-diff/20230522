@@ -19389,3 +19389,93 @@ EOFError: EOF read where object expected
 [2023-05-22 18:09:33] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-05-22 18:09:37] INFO root fetch - main [MainThread]: End processing [vos-mjjo]: success
 [2023-05-22 18:09:37] INFO root fetch - main [MainThread]: Store serial: [18200595]
+[2023-05-22 18:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200595]
+[2023-05-22 18:14:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-vpc
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paper-qa
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampo
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ldimbenchmark
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exodia
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rekuest
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: encord
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weatheropen
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LasBuildSeg
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: msmhelper
+[2023-05-22 18:14:48] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [exodia]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [encord]: New version: [0.1.76] Old Version: [0.1.75]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [msmhelper]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 18:14:48] WARNING root fetch - processPackages [weatheropen]: Skipping, unable to determine old version
+[2023-05-22 18:14:48] INFO root fetch - processPackages [weatheropen]: Start processing: rasm-arch
+[2023-05-22 18:14:48] INFO root fetch - main [MainThread]: End processing [weatheropen] error
+[2023-05-22 18:14:48] INFO root fetch - processPackages [paper-qa]: New version: [1.8.0] Old Version: [1.6.3]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230522/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230522/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [exodia]: Downloading https://files.pythonhosted.org/packages/2b/c6/e1a8de42302bf76b6c80aa1a0d508a16ca2b696c7dd42bfd489442059a04/exodia-1.0.0.tar.gz
+[2023-05-22 18:14:48] WARNING root fetch - processPackages [rasm-arch]: Skipping, unable to determine old version
+[2023-05-22 18:14:48] INFO root fetch - processPackages [rasm-arch]: Start processing: amazon-braket-pennylane-plugin
+[2023-05-22 18:14:48] INFO root fetch - main [MainThread]: End processing [rasm-arch] error
+[2023-05-22 18:14:48] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/28/7f/e36dc2cf92f1034d886a6b83b0745fcc89c220e9f5b777f0c642785d62d0/LasBuildSeg-0.1.16.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/b8/a1/68957e8daefde843a7c26949f2cb231a291eaf264f90afec8935873f28b1/encord-0.1.75.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-22 18:14:48] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.1.15.tar.gz tmp/LasBuildSeg-0.1.16.tar.gz --markdown 20230522/L/LasBuildSeg/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [msmhelper]: Downloading https://files.pythonhosted.org/packages/64/7e/3e076309900cc581ca68a2d9d51ac9ae3ef33514850b8c882873f1a5a577/msmhelper-1.0.3.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [exodia]: Downloading https://files.pythonhosted.org/packages/17/94/118564c28f6e83dddd70cac48d1a1aaa366fad316f1605ebda02f911fe21/exodia-1.0.1.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/84/25/4d3c46be4b5aacd6df33479287e78fc4bdf50982aa7e2e1884c9ac843378/paper-qa-1.8.0.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230522/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [exodia]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [exodia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodia-1.0.0.tar.gz tmp/exodia-1.0.1.tar.gz --markdown 20230522/e/exodia/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [msmhelper]: Downloading https://files.pythonhosted.org/packages/15/1a/02a8180a64c8b12660f3e1640bbe3f8716c2b085f19825066acac3e06382/msmhelper-1.0.4.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-1.6.3.tar.gz tmp/paper-qa-1.8.0.tar.gz --markdown 20230522/p/paper-qa/1.6.3-1.8.0/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/5f/72/8b7b2890c34223462d0ba9894bf7228c1759916b36e83c925c8f3de547e6/encord-0.1.76.tar.gz
+[2023-05-22 18:14:48] INFO root fetch - processPackages [msmhelper]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [msmhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmhelper-1.0.3.tar.gz tmp/msmhelper-1.0.4.tar.gz --markdown 20230522/m/msmhelper/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [encord]: executing diffoscope
+[2023-05-22 18:14:48] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.75.tar.gz tmp/encord-0.1.76.tar.gz --markdown 20230522/e/encord/0.1.75-0.1.76/diff.md --exclude *.pyd
+[2023-05-22 18:14:48] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/95/95/8e28d0f8b5ef7a7ecb48c398bbc026f6e765510347b46a114a993653e369/amazon-braket-pennylane-plugin-1.8.0.tar.gz
+[2023-05-22 18:14:49] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/20/1b/9eacc1dc4e4a53515e50e9d14155ef17ff031ee0f90420b437271f5026f6/amazon-braket-pennylane-plugin-1.9.0.tar.gz
+[2023-05-22 18:14:49] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: executing diffoscope
+[2023-05-22 18:14:49] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz --markdown 20230522/a/amazon-braket-pennylane-plugin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 18:14:49] INFO root fetch - processPackages [ldimbenchmark]: Start processing: doppkit-esri-toolbox
+[2023-05-22 18:14:49] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-05-22 18:14:49] INFO root fetch - processPackages [LasBuildSeg]: Start processing: legend-pygeom-hpges
+[2023-05-22 18:14:49] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-22 18:14:49] INFO root fetch - processPackages [doppkit-esri-toolbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 18:14:49] WARNING root fetch - processPackages [legend-pygeom-hpges]: Skipping, unable to determine old version
+[2023-05-22 18:14:49] INFO root fetch - processPackages [legend-pygeom-hpges]: Start processing: django-pfx
+[2023-05-22 18:14:49] INFO root fetch - main [MainThread]: End processing [legend-pygeom-hpges] error
+[2023-05-22 18:14:50] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-22 18:14:50] INFO root fetch - processPackages [sampo]: Start processing: dev-gpt
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-05-22 18:14:50] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-22 18:14:50] INFO root fetch - processPackages [doppkit-esri-toolbox]: Downloading https://files.pythonhosted.org/packages/e4/6a/98003dab1906a54115b418403a3a7eea7a92393b222e73b150ef01e0850d/doppkit-esri-toolbox-0.1.2.tar.gz
+[2023-05-22 18:14:50] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-22 18:14:50] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230522/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-05-22 18:14:50] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a1/0d/f18110bf781805e992d1694bccb5f9c8fba9b93b4dbb99cd63864546a630/django-pfx-1.2.dev6.tar.gz
+[2023-05-22 18:14:50] INFO root fetch - processPackages [doppkit-esri-toolbox]: executing diffoscope
+[2023-05-22 18:14:50] INFO root fetch - processPackages [doppkit-esri-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doppkit-esri-toolbox-0.1.1.tar.gz tmp/doppkit-esri-toolbox-0.1.2.tar.gz --markdown 20230522/d/doppkit-esri-toolbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-22 18:14:50] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [msmhelper]: success
+[2023-05-22 18:14:50] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-22 18:14:50] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230522/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [exodia]: success
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2023-05-22 18:14:50] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
+[2023-05-22 18:14:51] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-05-22 18:14:51] INFO root fetch - main [MainThread]: End processing [doppkit-esri-toolbox]: success
+[2023-05-22 18:14:52] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-22 18:14:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-22 18:14:52] INFO root fetch - main [MainThread]: Store serial: [18200643]
