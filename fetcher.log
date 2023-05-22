@@ -18920,3 +18920,107 @@ EOFError: EOF read where object expected
 [2023-05-22 17:46:33] INFO root fetch - main [MainThread]: End processing [aws-parallelcluster]: success
 [2023-05-22 17:47:09] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-05-22 17:47:09] INFO root fetch - main [MainThread]: Store serial: [18200326]
+[2023-05-22 17:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200326]
+[2023-05-22 17:52:19] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ypricemagic
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aish
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plantstar-shared
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deep-astro-uda
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betterdataclass
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: padawan
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xrd-image-util
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: t4flib
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: impick
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicommeta
+[2023-05-22 17:52:19] INFO root fetch - processPackages [dicommeta]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [t4flib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-22 17:52:19] WARNING root fetch - processPackages [impick]: Skipping, unable to determine old version
+[2023-05-22 17:52:19] INFO root fetch - processPackages [impick]: Start processing: hyperactive
+[2023-05-22 17:52:19] INFO root fetch - main [MainThread]: End processing [impick] error
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.9.dev9] Old Version: [2.2.9.dev8]
+[2023-05-22 17:52:19] WARNING root fetch - processPackages [aish]: Skipping, unable to determine old version
+[2023-05-22 17:52:19] INFO root fetch - processPackages [aish]: Start processing: tree-of-thoughts
+[2023-05-22 17:52:19] INFO root fetch - processPackages [dicommeta]: executing diffoscope
+[2023-05-22 17:52:19] INFO root fetch - main [MainThread]: End processing [aish] error
+[2023-05-22 17:52:19] INFO root fetch - processPackages [dicommeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicommeta-0.4.0.tar.gz tmp/dicommeta-0.5.0.tar.gz --markdown 20230522/d/dicommeta/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 17:52:19] INFO root fetch - processPackages [betterdataclass]: New version: [202.4] Old Version: [2.1]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [xrd-image-util]: New version: [1.0.0] Old Version: [0.5.0b0]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [plantstar-shared]: New version: [2.0.2.3.2] Old Version: [2.0.2.0.3]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [padawan]: New version: [0.7] Old Version: [0.6]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-22 17:52:19] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.2.4-py2.py3-none-any.whl.zip tmp/t4flib-0.2.5-py2.py3-none-any.whl.zip --markdown 20230522/t/t4flib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-22 17:52:19] INFO root fetch - processPackages [hyperactive]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-22 17:52:19] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.9.dev8.tar.gz tmp/ypricemagic-2.2.9.dev9.tar.gz --markdown 20230522/y/ypricemagic/2.2.9.dev8-2.2.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/7e/e8/a87c59ddeef0343bc185aa8bff7750b5392f2779c0a892521502bf030b85/deep_astro_uda-0.3.2.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [padawan]: Downloading https://files.pythonhosted.org/packages/1d/e1/6cd380ec3bc54f056bf1ec15e1d3ff1a0a8b125edf1062677c087dddebba/padawan-0.6.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [hyperactive]: Downloading https://files.pythonhosted.org/packages/fe/93/0c95635d7bd0b4e5b723341e1e41db93ff26dda539355c154a54957b70ea/hyperactive-4.4.1-py3-none-any.whl
+[2023-05-22 17:52:20] INFO root fetch - processPackages [xrd-image-util]: Downloading https://files.pythonhosted.org/packages/7d/68/38c7c14e393ea4cfa5b01a171a984725e623bc4d3c1158fba235e828c90b/xrd-image-util-0.5.0b0.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/4f/0e/b08406403dc52c45515618b48ba4a7f56b3640969a09cc3bf869e990d377/plantstar-shared-2.0.2.0.3.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/cf/36/c3b01a8c774ca3bc1d31d458c0db9538124faa2d7a339f4475c7358ecb33/tree-of-thoughts-0.1.4.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [betterdataclass]: Downloading https://files.pythonhosted.org/packages/96/bb/1e6bad25e192a60b21a4166fc2b24b8bcdb15830bd1460637e4465516c52/betterdataclass-202.4.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-of-thoughts-0.1.3.tar.gz tmp/tree-of-thoughts-0.1.4.tar.gz --markdown 20230522/t/tree-of-thoughts/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/c6/20/2b8e90f0795e2c773a2d2b221f04f29039a99556177025bf008bf7c9b09e/deep_astro_uda-0.3.3.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [padawan]: Downloading https://files.pythonhosted.org/packages/7d/0c/1fad7299980bef4a929db86a2d6f742a542f8b7d5e8c97fb224db565b59d/padawan-0.7.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [xrd-image-util]: Downloading https://files.pythonhosted.org/packages/61/eb/10271f6282c34f7d1f00347660e5836d95e5eb1d78ed116f7bfc6a1596de/xrd-image-util-1.0.0.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [hyperactive]: Downloading https://files.pythonhosted.org/packages/49/bd/ff20d3f35437cc58794ac3618f3327404e88ac7cb714a37840ea925fce1d/hyperactive-4.4.2-py3-none-any.whl
+[2023-05-22 17:52:20] INFO root fetch - processPackages [betterdataclass]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [betterdataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterdataclass-2.1.tar.gz tmp/betterdataclass-202.4.tar.gz --markdown 20230522/b/betterdataclass/2.1-202.4/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [padawan]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [padawan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padawan-0.6.tar.gz tmp/padawan-0.7.tar.gz --markdown 20230522/p/padawan/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [xrd-image-util]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [xrd-image-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrd-image-util-0.5.0b0.tar.gz tmp/xrd-image-util-1.0.0.tar.gz --markdown 20230522/x/xrd-image-util/0.5.0b0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [hyperactive]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [hyperactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperactive-4.4.1-py3-none-any.whl.zip tmp/hyperactive-4.4.2-py3-none-any.whl.zip --markdown 20230522/h/hyperactive/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/24/ba/2835602da68b5cfea07c3b51411dc0d662dc789586080372e012efd060a5/plantstar-shared-2.0.2.3.2.tar.gz
+[2023-05-22 17:52:20] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.3.2.tar.gz tmp/deep_astro_uda-0.3.3.tar.gz --markdown 20230522/d/deep-astro-uda/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-22 17:52:20] INFO root fetch - processPackages [plantstar-shared]: executing diffoscope
+[2023-05-22 17:52:20] INFO root fetch - processPackages [plantstar-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantstar-shared-2.0.2.0.3.tar.gz tmp/plantstar-shared-2.0.2.3.2.tar.gz --markdown 20230522/p/plantstar-shared/2.0.2.0.3-2.0.2.3.2/diff.md --exclude *.pyd
+[2023-05-22 17:52:21] INFO root fetch - processPackages [dicommeta]: Start processing: morpheus-mail
+[2023-05-22 17:52:21] INFO root fetch - main [MainThread]: End processing [dicommeta]: success
+[2023-05-22 17:52:21] INFO root fetch - processPackages [morpheus-mail]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-05-22 17:52:21] INFO root fetch - processPackages [t4flib]: Start processing: lamineml
+[2023-05-22 17:52:21] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-22 17:52:21] INFO root fetch - processPackages [morpheus-mail]: Downloading https://files.pythonhosted.org/packages/45/1e/fb49cccd44a7245281c3ce43a7b03bdc988398534ace4ec28148eea8326a/morpheus-mail-1.0.18.tar.gz
+[2023-05-22 17:52:21] INFO root fetch - processPackages [lamineml]: New version: [0.0.67] Old Version: [0.0.66]
+[2023-05-22 17:52:21] INFO root fetch - processPackages [morpheus-mail]: executing diffoscope
+[2023-05-22 17:52:21] INFO root fetch - processPackages [morpheus-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morpheus-mail-1.0.17.tar.gz tmp/morpheus-mail-1.0.18.tar.gz --markdown 20230522/m/morpheus-mail/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-05-22 17:52:21] INFO root fetch - processPackages [tree-of-thoughts]: Start processing: nexgen
+[2023-05-22 17:52:21] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2023-05-22 17:52:21] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/d0/4e/d68c652bfffd1984ed84bb798705cecd2b3ed737dd0af03cf9a370b48800/lamineml-0.0.67.tar.gz
+[2023-05-22 17:52:21] INFO root fetch - processPackages [nexgen]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-22 17:52:21] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-22 17:52:21] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.66.tar.gz tmp/lamineml-0.0.67.tar.gz --markdown 20230522/l/lamineml/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2023-05-22 17:52:21] INFO root fetch - processPackages [xrd-image-util]: Start processing: deep-astro-uda
+[2023-05-22 17:52:21] INFO root fetch - main [MainThread]: End processing [xrd-image-util]: success
+[2023-05-22 17:52:21] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-22 17:52:22] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:52:22] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.3.2.tar.gz tmp/deep_astro_uda-0.3.3.tar.gz --markdown 20230522/d/deep-astro-uda/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-22 17:52:22] INFO root fetch - processPackages [deep-astro-uda]: Start processing: YMS
+[2023-05-22 17:52:22] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:52:22] INFO root fetch - processPackages [YMS]: New version: [0.794] Old Version: [0.793]
+[2023-05-22 17:52:22] INFO root fetch - processPackages [nexgen]: executing diffoscope
+[2023-05-22 17:52:22] INFO root fetch - processPackages [nexgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexgen-0.6.8.tar.gz tmp/nexgen-0.6.9.tar.gz --markdown 20230522/n/nexgen/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-22 17:52:22] INFO root fetch - processPackages [plantstar-shared]: Start processing: fun-calculator-thing
+[2023-05-22 17:52:22] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
+[2023-05-22 17:52:22] WARNING root fetch - processPackages [fun-calculator-thing]: Skipping, unable to determine old version
+[2023-05-22 17:52:22] INFO root fetch - processPackages [fun-calculator-thing]: Start processing: plombery
+[2023-05-22 17:52:22] INFO root fetch - main [MainThread]: End processing [fun-calculator-thing] error
+[2023-05-22 17:52:22] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 17:52:22] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.793.tar.gz tmp/YMS-0.794.tar.gz --markdown 20230522/Y/YMS/0.793-0.794/diff.md --exclude *.pyd
+[2023-05-22 17:52:22] WARNING root fetch - processPackages [plombery]: Skipping, unable to determine old version
+[2023-05-22 17:52:22] INFO root fetch - main [MainThread]: End processing [plombery] error
+[2023-05-22 17:52:22] INFO root fetch - main [MainThread]: End processing [hyperactive]: success
+[2023-05-22 17:52:22] INFO root fetch - main [MainThread]: End processing [padawan]: success
+[2023-05-22 17:52:23] INFO root fetch - main [MainThread]: End processing [morpheus-mail]: success
+[2023-05-22 17:52:23] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-22 17:52:23] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-22 17:52:23] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:52:23] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 17:52:24] INFO root fetch - main [MainThread]: End processing [nexgen]: success
+[2023-05-22 17:53:03] INFO root fetch - main [MainThread]: End processing [betterdataclass]: success
+[2023-05-22 17:53:03] INFO root fetch - main [MainThread]: Store serial: [18200385]
