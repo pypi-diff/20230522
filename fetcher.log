@@ -5869,3 +5869,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:07:29] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-22 08:07:42] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-05-22 08:07:42] INFO root fetch - main [MainThread]: Store serial: [18192782]
+[2023-05-22 08:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192782]
+[2023-05-22 08:12:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-threedee
+[2023-05-22 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qky-tools
+[2023-05-22 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enough
+[2023-05-22 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-codebase-documenter
+[2023-05-22 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seabornai
+[2023-05-22 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-05-22 08:12:51] WARNING root fetch - processPackages [seabornai]: Skipping, unable to determine old version
+[2023-05-22 08:12:51] INFO root fetch - main [MainThread]: End processing [seabornai] error
+[2023-05-22 08:12:51] INFO root fetch - processPackages [enough]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-22 08:12:51] INFO root fetch - processPackages [qky-tools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-22 08:12:51] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.8] Old Version: [0.7]
+[2023-05-22 08:12:51] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 08:12:51] INFO root fetch - processPackages [enough]: Downloading https://files.pythonhosted.org/packages/50/9b/6ea82fdea9b2845e199d7fad429c0d59e5051c584d2ebc8dd1bc8994d024/enough-2.2.8.tar.gz
+[2023-05-22 08:12:51] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/58/c8/03f72eb3b0eaf1cd530bdb7108bebfc1eeae897ec0c0d94c6f975bdb603f/auto-codebase-documenter-0.8.tar.gz
+[2023-05-22 08:12:52] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/3b/70/4e892251e0c8510fee507d7cbc0832629ed70e29e75ca555e1f782195d87/napari-threedee-0.0.8.tar.gz
+[2023-05-22 08:12:52] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 08:12:52] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.7.tar.gz tmp/auto-codebase-documenter-0.8.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-22 08:12:52] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/e8/ae/52d153292b855b7db8bdf0b3efe06720305832f5d86e165f07e6ef64d486/qky-tools-0.3.0.tar.gz
+[2023-05-22 08:12:52] INFO root fetch - processPackages [qky-tools]: executing diffoscope
+[2023-05-22 08:12:52] INFO root fetch - processPackages [qky-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qky-tools-0.2.0.tar.gz tmp/qky-tools-0.3.0.tar.gz --markdown 20230522/q/qky-tools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 08:12:52] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/81/1f/82e3d9c32140273bc57be3c479e8e5ee885204a3dca7be7d2476b777ac72/napari-threedee-0.0.9.tar.gz
+[2023-05-22 08:12:52] INFO root fetch - processPackages [cg]: New version: [31.0.0] Old Version: [30.3.0]
+[2023-05-22 08:12:52] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2023-05-22 08:12:52] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20230522/n/napari-threedee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 08:12:52] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/8d/2f/f2d167297e1b7e0e25d2b4557bd0006fab678d7a878be1a8d0645fa7e917/cg-31.0.0.tar.gz
+[2023-05-22 08:12:52] INFO root fetch - processPackages [enough]: Downloading https://files.pythonhosted.org/packages/4f/81/999139ff303999e3aaee84084e050f5640abeea079d6f770bd3997370e16/enough-2.2.9.tar.gz
+[2023-05-22 08:12:53] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 08:12:53] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-22 08:12:53] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.3.0.tar.gz tmp/cg-31.0.0.tar.gz --markdown 20230522/c/cg/30.3.0-31.0.0/diff.md --exclude *.pyd
+[2023-05-22 08:12:53] INFO root fetch - main [MainThread]: End processing [qky-tools]: success
+[2023-05-22 08:12:54] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2023-05-22 08:12:54] INFO root fetch - processPackages [enough]: executing diffoscope
+[2023-05-22 08:12:54] INFO root fetch - processPackages [enough]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enough-2.2.8.tar.gz tmp/enough-2.2.9.tar.gz --markdown 20230522/e/enough/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-22 08:13:03] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-22 08:15:54] ERROR root fetch - processPackages [enough]: Timeout during execution of pkgdiff
+[2023-05-22 08:15:54] INFO root fetch - main [MainThread]: End processing [enough] error
+[2023-05-22 08:15:54] INFO root fetch - main [MainThread]: Store serial: [18192803]
