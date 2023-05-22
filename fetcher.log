@@ -20526,3 +20526,88 @@ EOFError: EOF read where object expected
 [2023-05-22 19:10:20] INFO root fetch - main [MainThread]: End processing [mautrix-twitter]: success
 [2023-05-22 19:10:32] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-22 19:10:32] INFO root fetch - main [MainThread]: Store serial: [18201362]
+[2023-05-22 19:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201362]
+[2023-05-22 19:15:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datagit
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-small-world
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colorsysx
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eve-client
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ShellUtilities
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-cravat
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautical
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iparapheur-utils3.beta
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mitol-django-hubspot-api
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ts-task-script-utils
+[2023-05-22 19:15:42] INFO root fetch - processPackages [colorsysx]: New version: [1.1a1] Old Version: [1.0a1]
+[2023-05-22 19:15:42] WARNING root fetch - processPackages [ShellUtilities]: Skipping, unable to determine old version
+[2023-05-22 19:15:42] WARNING root fetch - processPackages [datagit]: Skipping, unable to determine old version
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ShellUtilities]: Start processing: gdal2numpy
+[2023-05-22 19:15:42] INFO root fetch - main [MainThread]: End processing [ShellUtilities] error
+[2023-05-22 19:15:42] INFO root fetch - processPackages [datagit]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-22 19:15:42] INFO root fetch - main [MainThread]: End processing [datagit] error
+[2023-05-22 19:15:42] INFO root fetch - processPackages [nonebot-plugin-small-world]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [eve-client]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [open-cravat]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ts-task-script-utils]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [mitol-django-hubspot-api]: New version: [2023.5.22] Old Version: [2023.5.10]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [iparapheur-utils3.beta]: New version: [0.0.1.post587146] Old Version: [0.0.1.post577886]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [nautical]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 19:15:42] INFO root fetch - processPackages [nonebot-plugin-small-world]: Downloading https://files.pythonhosted.org/packages/8e/8b/45af74c88ee25bc970ae1cb49338349ba59841c9d9992cd013d5bcb13905/nonebot_plugin_small_world-0.1.0.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [open-cravat]: Downloading https://files.pythonhosted.org/packages/24/74/73d2fcf1c6782a7eaba4583fda8b7cb68855419cf2604d6be8a14343f724/open-cravat-2.3.0.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ts-task-script-utils]: Downloading https://files.pythonhosted.org/packages/49/74/7223f98e11af322d0cd4650c4af98f2a13aa15e605f6a80f808451702e90/ts_task_script_utils-1.6.0.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [iparapheur-utils3.beta]: Downloading https://files.pythonhosted.org/packages/e0/f7/a04ae0a294c6a09ec3c8077fb91694c69171fa551efd04943a4dbbfc2c60/iparapheur-utils3.beta-0.0.1.post577886.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [mitol-django-hubspot-api]: Downloading https://files.pythonhosted.org/packages/09/bc/9d4ca2e54801840a6890254c103204b2132dd04a02f23d1176c0f44978fe/mitol-django-hubspot-api-2023.5.10.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [nautical]: Downloading https://files.pythonhosted.org/packages/1f/9c/bef6c6fa6e01e7b141d43f33379a2c716cdf0b9a51c2f0d526e832309655/nautical-4.1.1.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [eve-client]: executing diffoscope
+[2023-05-22 19:15:42] INFO root fetch - processPackages [eve-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eve_client-2.0.8.tar.gz tmp/eve_client-2.0.9.tar.gz --markdown 20230522/e/eve-client/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-22 19:15:42] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/4c/97/7e7ee48e76578e376852415f8f3506f459ac0999dde2c44ae8a214009250/pepperize.cdk-lambda-deno-0.0.98.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [colorsysx]: Downloading https://files.pythonhosted.org/packages/89/bd/b6d03e771b7f44652755ed90f62e74e7dd065004135d1d3dd857ebeba27e/colorsysx-1.1a1.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [ts-task-script-utils]: Downloading https://files.pythonhosted.org/packages/e6/ac/5822e8b29669fbfb0e39146a9f0c1004ed66303b2661bdd93a8873da901d/ts_task_script_utils-1.7.0.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [iparapheur-utils3.beta]: Downloading https://files.pythonhosted.org/packages/af/9a/44eae3f7d4e10405309284dacad85482d54bc00994394741e35b0373b35d/iparapheur-utils3.beta-0.0.1.post587146.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [nautical]: Downloading https://files.pythonhosted.org/packages/bc/f7/ea330eeb59a04fdcdbb289b19452459585eca9c0d3b29f1837fba7292c4d/nautical-4.2.0.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-05-22 19:15:42] INFO root fetch - processPackages [colorsysx]: executing diffoscope
+[2023-05-22 19:15:42] INFO root fetch - processPackages [colorsysx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorsysx-1.0a1.tar.gz tmp/colorsysx-1.1a1.tar.gz --markdown 20230522/c/colorsysx/1.0a1-1.1a1/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230522/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [mitol-django-hubspot-api]: Downloading https://files.pythonhosted.org/packages/0c/37/98b1010ae10e6bcc80967ef8c4f9c6235a909d0217bd0e068b37ed1cb2e8/mitol-django-hubspot-api-2023.5.22.tar.gz
+[2023-05-22 19:15:43] INFO root fetch - processPackages [nonebot-plugin-small-world]: Downloading https://files.pythonhosted.org/packages/54/df/839d62a1be96ada1b362c6b03b312834e5c0c87e919043c1add87ab5748b/nonebot_plugin_small_world-0.1.1.tar.gz
+[2023-05-22 19:15:43] INFO root fetch - processPackages [ts-task-script-utils]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [ts-task-script-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_task_script_utils-1.6.0.tar.gz tmp/ts_task_script_utils-1.7.0.tar.gz --markdown 20230522/t/ts-task-script-utils/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [iparapheur-utils3.beta]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [iparapheur-utils3.beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-utils3.beta-0.0.1.post577886.tar.gz tmp/iparapheur-utils3.beta-0.0.1.post587146.tar.gz --markdown 20230522/i/iparapheur-utils3.beta/0.0.1.post577886-0.0.1.post587146/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [nautical]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [nautical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautical-4.1.1.tar.gz tmp/nautical-4.2.0.tar.gz --markdown 20230522/n/nautical/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: Downloading https://files.pythonhosted.org/packages/85/5f/f687fbc9239934d25fca128989aec9e2827e117f5b840cc95329a9c1fd77/pepperize.cdk-lambda-deno-0.0.99.tar.gz
+[2023-05-22 19:15:43] INFO root fetch - processPackages [mitol-django-hubspot-api]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [mitol-django-hubspot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitol-django-hubspot-api-2023.5.10.tar.gz tmp/mitol-django-hubspot-api-2023.5.22.tar.gz --markdown 20230522/m/mitol-django-hubspot-api/2023.5.10-2023.5.22/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [nonebot-plugin-small-world]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [nonebot-plugin-small-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_small_world-0.1.0.tar.gz tmp/nonebot_plugin_small_world-0.1.1.tar.gz --markdown 20230522/n/nonebot-plugin-small-world/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 19:15:43] INFO root fetch - processPackages [open-cravat]: Downloading https://files.pythonhosted.org/packages/fa/d9/531fe9ef81ce8c982ba665b24047178c4f791461942854d08f5b5c3fbbec/open-cravat-2.3.1.tar.gz
+[2023-05-22 19:15:43] INFO root fetch - processPackages [open-cravat]: executing diffoscope
+[2023-05-22 19:15:43] INFO root fetch - processPackages [open-cravat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-cravat-2.3.0.tar.gz tmp/open-cravat-2.3.1.tar.gz --markdown 20230522/o/open-cravat/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-22 19:15:44] INFO root fetch - processPackages [eve-client]: Start processing: stlock
+[2023-05-22 19:15:44] INFO root fetch - main [MainThread]: End processing [eve-client]: success
+[2023-05-22 19:15:44] WARNING root fetch - processPackages [stlock]: Skipping, unable to determine old version
+[2023-05-22 19:15:44] INFO root fetch - processPackages [stlock]: Start processing: transphone
+[2023-05-22 19:15:44] INFO root fetch - main [MainThread]: End processing [stlock] error
+[2023-05-22 19:15:44] INFO root fetch - processPackages [transphone]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-22 19:15:44] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-05-22 19:15:44] INFO root fetch - processPackages [transphone]: Downloading https://files.pythonhosted.org/packages/fb/58/ac0f97f04baa2ee6d5677b2a4ef7469380c8deb93e968246a8099b93e5e2/transphone-1.5.1.tar.gz
+[2023-05-22 19:15:44] INFO root fetch - main [MainThread]: End processing [mitol-django-hubspot-api]: success
+[2023-05-22 19:15:44] INFO root fetch - main [MainThread]: End processing [colorsysx]: success
+[2023-05-22 19:15:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-22 19:15:44] INFO root fetch - processPackages [transphone]: executing diffoscope
+[2023-05-22 19:15:44] INFO root fetch - processPackages [transphone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transphone-1.5.0.tar.gz tmp/transphone-1.5.1.tar.gz --markdown 20230522/t/transphone/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-22 19:15:45] INFO root fetch - main [MainThread]: End processing [nautical]: success
+[2023-05-22 19:15:45] INFO root fetch - main [MainThread]: End processing [iparapheur-utils3.beta]: success
+[2023-05-22 19:15:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-small-world]: success
+[2023-05-22 19:15:45] INFO root fetch - main [MainThread]: End processing [ts-task-script-utils]: success
+[2023-05-22 19:15:45] INFO root fetch - main [MainThread]: End processing [transphone]: success
+[2023-05-22 19:15:48] INFO root fetch - main [MainThread]: End processing [open-cravat]: success
+[2023-05-22 19:15:48] INFO root fetch - main [MainThread]: Store serial: [18201405]
