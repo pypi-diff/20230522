@@ -7920,3 +7920,118 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:24:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-22 10:24:18] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-22 10:24:18] INFO root fetch - main [MainThread]: Store serial: [18194081]
+[2023-05-22 10:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194081]
+[2023-05-22 10:29:27] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparrow-order-lib
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panda-client-light
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panda-client
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-factories
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skretry
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgstools
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bgstools
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterhub-nativeauthenticator
+[2023-05-22 10:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xzy-db
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client-light]: New version: [1.5.52] Old Version: [1.5.51]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [jupyterhub-nativeauthenticator]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [trytond-factories]: New version: [6.6.4] Old Version: [6.6.3]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.1.93] Old Version: [0.1.92]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [irene-pro]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [xzy-db]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 10:29:28] WARNING root fetch - processPackages [skretry]: Skipping, unable to determine old version
+[2023-05-22 10:29:28] INFO root fetch - processPackages [skretry]: Start processing: NuOCR
+[2023-05-22 10:29:28] INFO root fetch - main [MainThread]: End processing [skretry] error
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [NuOCR]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/7b/ec/af552eeea54f98b07a466680b7305f237d137897c264d9ad61ff0135812b/panda_client_light-1.5.51-py2.py3-none-any.whl
+[2023-05-22 10:29:28] INFO root fetch - processPackages [xzy-db]: Downloading https://files.pythonhosted.org/packages/ae/b8/4e73008364bb7d7b1772beceb1f33d296d5e27c5e89e63aeb2a882f4847b/xzy-db-0.0.5.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [trytond-factories]: Downloading https://files.pythonhosted.org/packages/61/ac/2248a7a6320822866d6b686410a76dd36af100bb940d4482a9eb2fa0e079/trytond-factories-6.6.3.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/61/e4/e46e779841a9a67fec1f739dddbfe2f09235b77c1493a4093c4328b5c9b9/irene_pro-0.0.40.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/21/b0/cc47f068fc424d6fefb27110dfa46dc288e799344295be25857ad4ccef19/bgstools-0.1.0.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [jupyterhub-nativeauthenticator]: Downloading https://files.pythonhosted.org/packages/2f/e7/de2326124daa27c4207b3b9e57b143e84f15d60557a18ecc21babed5622d/jupyterhub-nativeauthenticator-1.0.5.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/21/b0/cc47f068fc424d6fefb27110dfa46dc288e799344295be25857ad4ccef19/bgstools-0.1.0.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [NuOCR]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [NuOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuOCR-0.2.4.tar.gz tmp/NuOCR-0.2.5.tar.gz --markdown 20230522/N/NuOCR/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [xzy-db]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [xzy-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xzy-db-0.0.4.tar.gz tmp/xzy-db-0.0.5.tar.gz --markdown 20230522/x/xzy-db/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.39.tar.gz tmp/irene_pro-0.0.40.tar.gz --markdown 20230522/i/irene-pro/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/1c/ec/4cea3b24f3de728120254a140c7fd63184ecd6c16ecbadb1a0d6ddebb12f/sparrow-order-lib-0.1.93.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/72/6f/b763e530fba25d96142ca330022f8bf608d773ff6937ad8a57fad0fc3dec/panda_client_light-1.5.52-py2.py3-none-any.whl
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/c3/df/22ba18f994ea8cb00af4114e12908814c29c9916ae5c85d167e02911fd33/bgstools-0.1.1.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/c3/df/22ba18f994ea8cb00af4114e12908814c29c9916ae5c85d167e02911fd33/bgstools-0.1.1.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [trytond-factories]: Downloading https://files.pythonhosted.org/packages/dd/1b/3d048bb3b2fb99ab089a29cc183700c74e3659d7b9dbbf8e74572dd5401f/trytond-factories-6.6.4.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.92.tar.gz tmp/sparrow-order-lib-0.1.93.tar.gz --markdown 20230522/s/sparrow-order-lib/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client-light]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_client_light-1.5.51-py2.py3-none-any.whl.zip tmp/panda_client_light-1.5.52-py2.py3-none-any.whl.zip --markdown 20230522/p/panda-client-light/1.5.51-1.5.52/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.0.tar.gz tmp/bgstools-0.1.1.tar.gz --markdown 20230522/b/bgstools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [trytond-factories]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [trytond-factories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-factories-6.6.3.tar.gz tmp/trytond-factories-6.6.4.tar.gz --markdown 20230522/t/trytond-factories/6.6.3-6.6.4/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.0.tar.gz tmp/bgstools-0.1.1.tar.gz --markdown 20230522/b/bgstools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-05-22 10:29:28] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230522/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-22 10:29:29] INFO root fetch - processPackages [jupyterhub-nativeauthenticator]: Downloading https://files.pythonhosted.org/packages/1e/6a/b0ad79673771d07880b12bea5d041d558d3f9bdb78164c085d9baf9cc11c/jupyterhub-nativeauthenticator-1.1.0.tar.gz
+[2023-05-22 10:29:29] INFO root fetch - processPackages [bgstools]: Start processing: nomenclature-iamc
+[2023-05-22 10:29:29] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-05-22 10:29:29] INFO root fetch - processPackages [irene-pro]: Start processing: exe-kg-lib
+[2023-05-22 10:29:29] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-22 10:29:30] INFO root fetch - processPackages [nomenclature-iamc]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-22 10:29:30] INFO root fetch - processPackages [exe-kg-lib]: New version: [3.0.0] Old Version: [2.0.4]
+[2023-05-22 10:29:30] INFO root fetch - processPackages [NuOCR]: Start processing: fireblocks-sdk
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [NuOCR]: success
+[2023-05-22 10:29:30] INFO root fetch - processPackages [xzy-db]: Start processing: tilburg-hand
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [xzy-db]: success
+[2023-05-22 10:29:30] INFO root fetch - processPackages [nomenclature-iamc]: Downloading https://files.pythonhosted.org/packages/03/83/421a616166415cb31ac1bf23eddc415cb38dcd7a42309e2af588f5fa0f6f/nomenclature-iamc-0.9.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [bgstools]: Start processing: hjj-ur
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-05-22 10:29:30] INFO root fetch - processPackages [fireblocks-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-22 10:29:30] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/04/cd/95e22ba27fdff0636686c3bec685352ad4ec8d95572bf342be5cb913436f/exe_kg_lib-2.0.4.tar.gz
+[2023-05-22 10:29:30] WARNING root fetch - processPackages [tilburg-hand]: Skipping, unable to determine old version
+[2023-05-22 10:29:30] INFO root fetch - processPackages [tilburg-hand]: Start processing: funasr
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [tilburg-hand] error
+[2023-05-22 10:29:30] WARNING root fetch - processPackages [hjj-ur]: Skipping, unable to determine old version
+[2023-05-22 10:29:30] INFO root fetch - processPackages [hjj-ur]: Start processing: hybrid-example
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [hjj-ur] error
+[2023-05-22 10:29:30] INFO root fetch - processPackages [funasr]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-22 10:29:30] INFO root fetch - processPackages [fireblocks-sdk]: Downloading https://files.pythonhosted.org/packages/61/fb/acd7b659573d0598131e5f7170c8083de13c3620b05f68a4991f06e099ac/fireblocks_sdk-1.9.0.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [nomenclature-iamc]: Downloading https://files.pythonhosted.org/packages/1b/8f/0cfce3e46f20b27c1fe9478b580d1257d9b79cfc596e77894616dbd5fa13/nomenclature-iamc-0.9.1.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [hybrid-example]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-22 10:29:30] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/fa/4d/4f69950bf0b01041afc50c8334199884f2adefba2da45bf539036e08b776/exe_kg_lib-3.0.0.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [panda-client-light]: Start processing: edman
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [panda-client-light]: success
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-05-22 10:29:30] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.5.22]
+[2023-05-22 10:29:30] INFO root fetch - processPackages [exe-kg-lib]: executing diffoscope
+[2023-05-22 10:29:30] INFO root fetch - processPackages [exe-kg-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exe_kg_lib-2.0.4.tar.gz tmp/exe_kg_lib-3.0.0.tar.gz --markdown 20230522/e/exe-kg-lib/2.0.4-3.0.0/diff.md --exclude *.pyd
+[2023-05-22 10:29:30] INFO root fetch - main [MainThread]: End processing [trytond-factories]: success
+[2023-05-22 10:29:30] INFO root fetch - processPackages [fireblocks-sdk]: Downloading https://files.pythonhosted.org/packages/42/45/164f5817380aa96c6e557180ac2a2ce78fd95846265a76773c78c268c4aa/fireblocks_sdk-1.9.1.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-22 10:29:30] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.5.22.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230522/e/edman/2023.5.22-2023.5.8/diff.md --exclude *.pyd
+[2023-05-22 10:29:30] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/08/20/baf3441ef0f94d8b85a5773f17a070f2b818f60df1d2b49b2e06ce8a8f2b/funasr-0.5.5.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [hybrid-example]: Downloading https://files.pythonhosted.org/packages/ba/dd/2c44f4cdeb3d161eaae6f0ddd1af2920894881c40ffc2d74416603c32507/hybrid_example-0.3.0.tar.gz
+[2023-05-22 10:29:30] INFO root fetch - processPackages [fireblocks-sdk]: executing diffoscope
+[2023-05-22 10:29:30] INFO root fetch - processPackages [fireblocks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireblocks_sdk-1.9.0.tar.gz tmp/fireblocks_sdk-1.9.1.tar.gz --markdown 20230522/f/fireblocks-sdk/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-22 10:29:30] INFO root fetch - processPackages [nomenclature-iamc]: executing diffoscope
+[2023-05-22 10:29:30] INFO root fetch - processPackages [nomenclature-iamc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenclature-iamc-0.9.tar.gz tmp/nomenclature-iamc-0.9.1.tar.gz --markdown 20230522/n/nomenclature-iamc/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-05-22 10:29:30] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-22 10:29:30] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.5.4.tar.gz tmp/funasr-0.5.5.tar.gz --markdown 20230522/f/funasr/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-22 10:29:31] INFO root fetch - processPackages [hybrid-example]: executing diffoscope
+[2023-05-22 10:29:31] INFO root fetch - processPackages [hybrid-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid_example-0.2.2.tar.gz tmp/hybrid_example-0.3.0.tar.gz --markdown 20230522/h/hybrid-example/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 10:29:31] INFO root fetch - processPackages [jupyterhub-nativeauthenticator]: executing diffoscope
+[2023-05-22 10:29:31] INFO root fetch - processPackages [jupyterhub-nativeauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-nativeauthenticator-1.0.5.tar.gz tmp/jupyterhub-nativeauthenticator-1.1.0.tar.gz --markdown 20230522/j/jupyterhub-nativeauthenticator/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 10:29:31] INFO root fetch - main [MainThread]: End processing [exe-kg-lib]: success
+[2023-05-22 10:29:31] INFO root fetch - main [MainThread]: End processing [fireblocks-sdk]: success
+[2023-05-22 10:29:32] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-22 10:29:32] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-05-22 10:29:32] INFO root fetch - main [MainThread]: End processing [nomenclature-iamc]: success
+[2023-05-22 10:29:34] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-22 10:29:34] INFO root fetch - main [MainThread]: End processing [jupyterhub-nativeauthenticator]: success
+[2023-05-22 10:29:38] INFO root fetch - main [MainThread]: End processing [hybrid-example]: success
+[2023-05-22 10:29:38] INFO root fetch - main [MainThread]: Store serial: [18194146]
