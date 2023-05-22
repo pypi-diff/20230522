@@ -8431,3 +8431,195 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:51:38] INFO root fetch - main [MainThread]: End processing [dyrun]: success
 [2023-05-22 10:51:51] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-22 10:51:51] INFO root fetch - main [MainThread]: Store serial: [18194343]
+[2023-05-22 10:56:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194343]
+[2023-05-22 10:57:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r2diaphora
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sample-package-test
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulp-deb
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YKDraco
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulp-deb-client
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sspqdd
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tigerblog
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynkdv
+[2023-05-22 10:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cutcutcodec
+[2023-05-22 10:57:00] WARNING root fetch - processPackages [sample-package-test]: Skipping, unable to determine old version
+[2023-05-22 10:57:00] INFO root fetch - processPackages [sample-package-test]: Start processing: antchain-mytc
+[2023-05-22 10:57:00] INFO root fetch - main [MainThread]: End processing [sample-package-test] error
+[2023-05-22 10:57:00] INFO root fetch - processPackages [tigerblog]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [YKDraco]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pulp-deb]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pynkdv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:57:00] WARNING root fetch - processPackages [cutcutcodec]: Skipping, unable to determine old version
+[2023-05-22 10:57:00] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [cutcutcodec]: Start processing: exe-kg-lib
+[2023-05-22 10:57:00] INFO root fetch - main [MainThread]: End processing [cutcutcodec] error
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pulp-deb-client]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [antchain-mytc]: New version: [1.3.2] Old Version: [1.2.9]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [cg]: New version: [31.0.1] Old Version: [31.0.0]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [exe-kg-lib]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pynkdv]: executing diffoscope
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pynkdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynkdv-0.0.8.tar.gz tmp/pynkdv-0.0.9.tar.gz --markdown 20230522/p/pynkdv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pulp-deb]: Downloading https://files.pythonhosted.org/packages/25/65/3aa0fbd56f82b310866a75aea8cb321de4bf9a50a9de61eea17c3971bbe6/pulp-deb-2.9.2.tar.gz
+[2023-05-22 10:57:00] INFO root fetch - processPackages [antchain-mytc]: Downloading https://files.pythonhosted.org/packages/68/0d/a7cd641a62c59f190f77d2a5d033891b2a1e5c672c1559125486603250a9/antchain_mytc-1.2.9.tar.gz
+[2023-05-22 10:57:00] INFO root fetch - processPackages [pulp-deb-client]: Downloading https://files.pythonhosted.org/packages/d3/18/51521b4b083fc5d1d0cbe7de05557d1e623452818d35f0c3da9f2646d5d0/pulp_deb-client-2.9.2.tar.gz
+[2023-05-22 10:57:00] INFO root fetch - processPackages [exe-kg-lib]: Downloading https://files.pythonhosted.org/packages/7c/52/367211775ac7caf5d37577dbc6ef41b94f2fd59f2d2519b89b3dcd083266/exe_kg_lib-2.0.3.tar.gz
+[2023-05-22 10:57:00] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-05-22 10:57:00] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/16/1a1d39bc4f438078f4080f27c5e16336f5573f9825fa6d51c38120024397/cg-31.0.1.tar.gz
+[2023-05-22 10:57:00] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-05-22 10:57:00] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.2.7.tar.gz tmp/r2diaphora-0.2.8.tar.gz --markdown 20230522/r/r2diaphora/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-22 10:57:00] INFO root fetch - processPackages [YKDraco]: Downloading https://files.pythonhosted.org/packages/fc/3b/6be96cb72848b4fc522b2c4a45973e92523614ada74adfbbfe5e25afea0a/YKDraco-0.0.4-cp311-cp311-win_amd64.whl
+[2023-05-22 10:57:00] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-22 10:57:00] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230522/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:57:00] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-22 10:57:00] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-31.0.0.tar.gz tmp/cg-31.0.1.tar.gz --markdown 20230522/c/cg/31.0.0-31.0.1/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-05-22 10:57:01] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.7.tar.gz tmp/tigerblog-0.1.8.tar.gz --markdown 20230522/t/tigerblog/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [antchain-mytc]: Downloading https://files.pythonhosted.org/packages/8d/13/f5ae6e479e59f1493f8675acbaba674d5a450c9797a59f18bbe19093c504/antchain_mytc-1.3.2.tar.gz
+[2023-05-22 10:57:01] INFO root fetch - processPackages [YKDraco]: executing diffoscope
+[2023-05-22 10:57:01] INFO root fetch - processPackages [YKDraco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YKDraco-0.0.3-cp311-cp311-win_amd64.whl.zip tmp/YKDraco-0.0.4-cp311-cp311-win_amd64.whl.zip --markdown 20230522/Y/YKDraco/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pulp-deb-client]: Downloading https://files.pythonhosted.org/packages/ad/ed/6e172bf550298d96b308c78fe5b9dc39110917a3f7fd551a5f1eb8051fd5/pulp_deb-client-2.9.3.tar.gz
+[2023-05-22 10:57:01] INFO root fetch - processPackages [exe-kg-lib]: executing diffoscope
+[2023-05-22 10:57:01] INFO root fetch - processPackages [exe-kg-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exe_kg_lib-2.0.3.tar.gz tmp/exe_kg_lib-2.0.4.tar.gz --markdown 20230522/e/exe-kg-lib/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [antchain-mytc]: executing diffoscope
+[2023-05-22 10:57:01] INFO root fetch - processPackages [antchain-mytc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_mytc-1.2.9.tar.gz tmp/antchain_mytc-1.3.2.tar.gz --markdown 20230522/a/antchain-mytc/1.2.9-1.3.2/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pulp-deb]: Downloading https://files.pythonhosted.org/packages/df/02/7ba76068c474e9569dc7fad55ac03e8cb1698bf450192154db825b48d3ba/pulp-deb-2.9.3.tar.gz
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pulp-deb-client]: executing diffoscope
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pulp-deb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_deb-client-2.9.2.tar.gz tmp/pulp_deb-client-2.9.3.tar.gz --markdown 20230522/p/pulp-deb-client/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pulp-deb]: executing diffoscope
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pulp-deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-deb-2.9.2.tar.gz tmp/pulp-deb-2.9.3.tar.gz --markdown 20230522/p/pulp-deb/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-22 10:57:01] INFO root fetch - processPackages [pynkdv]: Start processing: gs-quant
+[2023-05-22 10:57:01] INFO root fetch - main [MainThread]: End processing [pynkdv]: success
+[2023-05-22 10:57:02] INFO root fetch - processPackages [gs-quant]: New version: [1.0.0] Old Version: [0.9.99]
+[2023-05-22 10:57:02] INFO root fetch - processPackages [sspqdd]: Start processing: physiofit
+[2023-05-22 10:57:02] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-22 10:57:02] INFO root fetch - processPackages [physiofit]: New version: [3.0.6] Old Version: [3.0.4]
+[2023-05-22 10:57:02] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/34/a4/d09d734e5f90c2a28709eb1a61a5e930aabf32733b90964e3bfff5bc90df/gs_quant-1.0.0.tar.gz
+[2023-05-22 10:57:02] INFO root fetch - processPackages [tigerblog]: Start processing: dstack
+[2023-05-22 10:57:02] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-05-22 10:57:02] INFO root fetch - processPackages [dstack]: New version: [0.9.post1] Old Version: [0.8.1]
+[2023-05-22 10:57:02] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2023-05-22 10:57:02] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-0.9.99.tar.gz tmp/gs_quant-1.0.0.tar.gz --markdown 20230522/g/gs-quant/0.9.99-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 10:57:02] INFO root fetch - processPackages [physiofit]: Downloading https://files.pythonhosted.org/packages/8f/33/8b0420d1e3e084a44e13d994232312ec6f2e81c049b32943b9b4a21f4b6c/physiofit-3.0.4.tar.gz
+[2023-05-22 10:57:02] INFO root fetch - processPackages [exe-kg-lib]: Start processing: PDKMaster
+[2023-05-22 10:57:02] INFO root fetch - main [MainThread]: End processing [exe-kg-lib]: success
+[2023-05-22 10:57:02] INFO root fetch - processPackages [PDKMaster]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 10:57:02] INFO root fetch - processPackages [antchain-mytc]: Start processing: decore-Base
+[2023-05-22 10:57:02] INFO root fetch - main [MainThread]: End processing [antchain-mytc]: success
+[2023-05-22 10:57:02] INFO root fetch - processPackages [decore-Base]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:57:02] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/dc/10/01c67c68b283f4694c8a07b80957bf84bdab15253e7bdd1b0e9329273601/dstack-0.8.1.tar.gz
+[2023-05-22 10:57:02] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/24/e0/8598489850f804a403c9b7deadca78b9eec1624767b7e6a03bd745daf3f3/PDKMaster-0.9.1.tar.gz
+[2023-05-22 10:57:02] INFO root fetch - processPackages [physiofit]: Downloading https://files.pythonhosted.org/packages/7c/b6/71057d6b5b723542d3fb5038a08a6ce01790762393983631a45cd6462b81/physiofit-3.0.6.tar.gz
+[2023-05-22 10:57:02] INFO root fetch - main [MainThread]: End processing [pulp-deb]: success
+[2023-05-22 10:57:02] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/59/b5/314b37eb947bcaaaaf899fac2afd81edd9a89a519f4c360f8e78eb4ca173/decore_Base-0.0.9.tar.gz
+[2023-05-22 10:57:03] INFO root fetch - processPackages [physiofit]: executing diffoscope
+[2023-05-22 10:57:03] INFO root fetch - processPackages [physiofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physiofit-3.0.4.tar.gz tmp/physiofit-3.0.6.tar.gz --markdown 20230522/p/physiofit/3.0.4-3.0.6/diff.md --exclude *.pyd
+[2023-05-22 10:57:03] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-05-22 10:57:03] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/35/01/140c8164545834e5c93b91f6c5d1e6f0f3c52eedb638da19ed2e220d8496/PDKMaster-0.9.2.tar.gz
+[2023-05-22 10:57:03] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-05-22 10:57:03] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.8.1.tar.gz tmp/dstack-0.9.post1.tar.gz --markdown 20230522/d/dstack/0.8.1-0.9.post1/diff.md --exclude *.pyd
+[2023-05-22 10:57:03] INFO root fetch - processPackages [PDKMaster]: executing diffoscope
+[2023-05-22 10:57:03] INFO root fetch - processPackages [PDKMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDKMaster-0.9.1.tar.gz tmp/PDKMaster-0.9.2.tar.gz --markdown 20230522/P/PDKMaster/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 10:57:03] INFO root fetch - main [MainThread]: End processing [pulp-deb-client]: success
+[2023-05-22 10:57:03] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-05-22 10:57:03] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-05-22 10:57:03] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.8.tar.gz tmp/decore_Base-0.0.9.tar.gz --markdown 20230522/d/decore-Base/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:57:04] INFO root fetch - main [MainThread]: End processing [physiofit]: success
+[2023-05-22 10:57:05] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
+[2023-05-22 10:57:05] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-05-22 10:57:05] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-05-22 10:57:07] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2023-05-22 10:57:14] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-22 10:57:15] ERROR root fetch - processPackages [YKDraco]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140545087249760)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140545221467552)
+
+[2023-05-22 10:57:15] INFO root fetch - main [MainThread]: End processing [YKDraco] error
+[2023-05-22 10:57:15] INFO root fetch - main [MainThread]: Store serial: [18194396]
