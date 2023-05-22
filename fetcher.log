@@ -5206,3 +5206,16 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:45:15] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
 [2023-05-22 06:45:15] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-05-22 06:45:15] INFO root fetch - main [MainThread]: Store serial: [18192360]
+[2023-05-22 06:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192360]
+[2023-05-22 06:50:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-22 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchlogit
+[2023-05-22 06:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cast-vue
+[2023-05-22 06:50:23] WARNING root fetch - processPackages [cast-vue]: Skipping, unable to determine old version
+[2023-05-22 06:50:23] INFO root fetch - main [MainThread]: End processing [cast-vue] error
+[2023-05-22 06:50:23] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-22 06:50:24] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-05-22 06:50:24] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-05-22 06:50:24] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-05-22 06:50:24] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230522/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-22 06:50:26] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-05-22 06:50:26] INFO root fetch - main [MainThread]: Store serial: [18192399]
