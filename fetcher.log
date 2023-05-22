@@ -19764,3 +19764,84 @@ EOFError: EOF read where object expected
 [2023-05-22 18:25:25] INFO root fetch - main [MainThread]: End processing [azure-cosmos]: success
 [2023-05-22 18:25:27] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-22 18:25:27] INFO root fetch - main [MainThread]: Store serial: [18200815]
+[2023-05-22 18:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200815]
+[2023-05-22 18:30:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arequestsHelper
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adata
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-timeseries
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cerbeyra-api
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pfsc-core
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: git-viewer
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FastCG
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wasmtime
+[2023-05-22 18:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jorun
+[2023-05-22 18:30:36] INFO root fetch - processPackages [FastCG]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [cerbeyra-api]: New version: [1.1b1] Old Version: [1.0b0]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [arequestsHelper]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [jorun]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [pyg-timeseries]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 18:30:36] WARNING root fetch - processPackages [pfsc-core]: Skipping, unable to determine old version
+[2023-05-22 18:30:36] INFO root fetch - processPackages [pfsc-core]: Start processing: nbsite
+[2023-05-22 18:30:36] INFO root fetch - main [MainThread]: End processing [pfsc-core] error
+[2023-05-22 18:30:36] INFO root fetch - processPackages [jorun]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [jorun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jorun-0.0.6.tar.gz tmp/jorun-0.0.7.tar.gz --markdown 20230522/j/jorun/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230522/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [git-viewer]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [wasmtime]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-05-22 18:30:36] INFO root fetch - processPackages [arequestsHelper]: Downloading https://files.pythonhosted.org/packages/e2/26/3804c14bb0b20186ded7c3fbf4dfe915e17ad25125951142c69d077a60ff/arequestsHelper-0.4.3.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [FastCG]: Downloading https://files.pythonhosted.org/packages/ba/a9/f93d478f77c2018143b395a162069e8b38bfd41811a713dfabcc17c1f723/FastCG-0.0.2.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230522/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [pyg-timeseries]: Downloading https://files.pythonhosted.org/packages/f6/04/a0e191e5b7cb7a93e54e95a9213bc06921b99c5be8b0ca837f899f31f0be/pyg-timeseries-0.0.7.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230522/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [git-viewer]: Downloading https://files.pythonhosted.org/packages/d2/39/367931b3c32ec2d2b9a8be49634844aeafec1c539fcac42498251a37e9bd/git-viewer-1.8.1.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [wasmtime]: Downloading https://files.pythonhosted.org/packages/61/54/4d7dbe7af977a50964a5f6eae2bcea16deb6bc2ac1939343fc97e892145b/wasmtime-8.0.1-py3-none-win_amd64.whl
+[2023-05-22 18:30:36] INFO root fetch - processPackages [cerbeyra-api]: Downloading https://files.pythonhosted.org/packages/99/de/137f516f46c69137e50e89f14e21414009df1ba13764615737efe822977e/cerbeyra-api-1.1b1.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [FastCG]: Downloading https://files.pythonhosted.org/packages/89/7c/b2e14f6c5a21dc6097d03af5aa913bf0e606caa9fde608f47cfaa6dc1f69/FastCG-0.0.3.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [arequestsHelper]: Downloading https://files.pythonhosted.org/packages/91/12/56b96cf3f2188ef3a8d36d1a265d9953caf9b908f4a678003ee4cb42ba20/arequestsHelper-0.4.4.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [arequestsHelper]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [arequestsHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arequestsHelper-0.4.3.tar.gz tmp/arequestsHelper-0.4.4.tar.gz --markdown 20230522/a/arequestsHelper/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [FastCG]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [FastCG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastCG-0.0.2.tar.gz tmp/FastCG-0.0.3.tar.gz --markdown 20230522/F/FastCG/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [cerbeyra-api]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [cerbeyra-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbeyra-api-1.0b0.tar.gz tmp/cerbeyra-api-1.1b1.tar.gz --markdown 20230522/c/cerbeyra-api/1.0b0-1.1b1/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [pyg-timeseries]: Downloading https://files.pythonhosted.org/packages/17/1a/795d5070c1e8bc055f817e77da2fbe52c7973ea8b32d7a18d51ab973d17a/pyg-timeseries-0.0.8.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [git-viewer]: Downloading https://files.pythonhosted.org/packages/42/27/f521b2790d1536ad690f0a5a134b82c1fd55b4d211d2626841c09030476d/git-viewer-1.9.0.tar.gz
+[2023-05-22 18:30:36] INFO root fetch - processPackages [pyg-timeseries]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [pyg-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-timeseries-0.0.7.tar.gz tmp/pyg-timeseries-0.0.8.tar.gz --markdown 20230522/p/pyg-timeseries/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 18:30:36] INFO root fetch - processPackages [git-viewer]: executing diffoscope
+[2023-05-22 18:30:36] INFO root fetch - processPackages [git-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-viewer-1.8.1.tar.gz tmp/git-viewer-1.9.0.tar.gz --markdown 20230522/g/git-viewer/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 18:30:37] INFO root fetch - processPackages [wasmtime]: Downloading https://files.pythonhosted.org/packages/b1/77/04eaca5b44b802f7c55e4b6d3899b3eaca654385fee81ca4e893760d2729/wasmtime-9.0.0-py3-none-win_amd64.whl
+[2023-05-22 18:30:37] INFO root fetch - processPackages [jorun]: Start processing: astro-ghost
+[2023-05-22 18:30:37] INFO root fetch - main [MainThread]: End processing [jorun]: success
+[2023-05-22 18:30:37] INFO root fetch - processPackages [astro-ghost]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-05-22 18:30:37] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/e8/be/eca64a9f008487ce29428396d9b1e244fca5d4e2fff4c9129cdc1b1f6a72/astro_ghost-1.0.3.tar.gz
+[2023-05-22 18:30:38] INFO root fetch - processPackages [arequestsHelper]: Start processing: ItsuBot
+[2023-05-22 18:30:38] INFO root fetch - main [MainThread]: End processing [arequestsHelper]: success
+[2023-05-22 18:30:38] INFO root fetch - main [MainThread]: End processing [FastCG]: success
+[2023-05-22 18:30:38] INFO root fetch - processPackages [ItsuBot]: New version: [4.5.8] Old Version: [3.4.8]
+[2023-05-22 18:30:38] INFO root fetch - processPackages [wasmtime]: executing diffoscope
+[2023-05-22 18:30:38] INFO root fetch - processPackages [wasmtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmtime-8.0.1-py3-none-win_amd64.whl.zip tmp/wasmtime-9.0.0-py3-none-win_amd64.whl.zip --markdown 20230522/w/wasmtime/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-05-22 18:30:38] INFO root fetch - processPackages [ItsuBot]: Downloading https://files.pythonhosted.org/packages/21/6e/34f510786218d123117334906fa6e2bb283afe24a8728d4f06cf859c8331/ItsuBot-3.4.8.tar.gz
+[2023-05-22 18:30:38] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-22 18:30:38] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-22 18:30:38] INFO root fetch - processPackages [ItsuBot]: Downloading https://files.pythonhosted.org/packages/53/53/03ed9353c08a06510ee3ea8745e2ef4bdc1de8ee1e082ce5a3ad25a2bac5/ItsuBot-4.5.8.tar.gz
+[2023-05-22 18:30:38] INFO root fetch - main [MainThread]: End processing [git-viewer]: success
+[2023-05-22 18:30:38] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/7e/04/6d9935edfa213718ea1d2e8c5e2382ff82ca6cedff831c3054dc76a2a2ad/astro_ghost-2.0.0.tar.gz
+[2023-05-22 18:30:38] INFO root fetch - processPackages [ItsuBot]: executing diffoscope
+[2023-05-22 18:30:38] INFO root fetch - processPackages [ItsuBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ItsuBot-3.4.8.tar.gz tmp/ItsuBot-4.5.8.tar.gz --markdown 20230522/I/ItsuBot/3.4.8-4.5.8/diff.md --exclude *.pyd
+[2023-05-22 18:30:38] INFO root fetch - main [MainThread]: End processing [pyg-timeseries]: success
+[2023-05-22 18:30:39] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-05-22 18:30:39] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-1.0.3.tar.gz tmp/astro_ghost-2.0.0.tar.gz --markdown 20230522/a/astro-ghost/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-05-22 18:30:39] INFO root fetch - main [MainThread]: End processing [cerbeyra-api]: success
+[2023-05-22 18:30:40] INFO root fetch - main [MainThread]: End processing [ItsuBot]: success
+[2023-05-22 18:30:41] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-05-22 18:30:41] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-22 18:31:40] INFO root fetch - main [MainThread]: End processing [wasmtime]: success
+[2023-05-22 18:31:40] INFO root fetch - main [MainThread]: Store serial: [18200871]
