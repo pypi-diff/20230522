@@ -4468,3 +4468,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 05:08:07] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
 [2023-05-22 05:08:08] INFO root fetch - main [MainThread]: End processing [molfeat]: success
 [2023-05-22 05:08:08] INFO root fetch - main [MainThread]: Store serial: [18191887]
+[2023-05-22 05:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191887]
+[2023-05-22 05:13:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: persyn
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-antd-components
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelscope
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nupyosc
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neutrosopy
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2eqavn
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-22 05:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: singular-client
+[2023-05-22 05:13:17] INFO root fetch - processPackages [modelscope]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-05-22 05:13:17] INFO root fetch - processPackages [persyn]: New version: [0.1.2] Old Version: [0.1.1.dev0]
+[2023-05-22 05:13:17] WARNING root fetch - processPackages [nupyosc]: Skipping, unable to determine old version
+[2023-05-22 05:13:17] INFO root fetch - main [MainThread]: End processing [nupyosc] error
+[2023-05-22 05:13:17] INFO root fetch - processPackages [neutrosopy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 05:13:17] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 05:13:17] WARNING root fetch - processPackages [e2eqavn]: Skipping, unable to determine old version
+[2023-05-22 05:13:17] INFO root fetch - main [MainThread]: End processing [e2eqavn] error
+[2023-05-22 05:13:17] INFO root fetch - processPackages [singular-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 05:13:17] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/5e/f9/4e261abdd026aea5f14a01ae2eac5d58d37125e851b75133f6d99338239e/streamlit_antd_components-0.1.0-py3-none-any.whl
+[2023-05-22 05:13:17] INFO root fetch - processPackages [neutrosopy]: Downloading https://files.pythonhosted.org/packages/9d/f3/f8edb8eff53966558eb16c04f65d323e4f8013aea90668d6d91422f1db20/neutrosopy-0.0.4.tar.gz
+[2023-05-22 05:13:17] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/72/37/457930673d3f9623fd612068e58c79596ef0f2dff46a6eac88f41d7eb9ad/modelscope-1.5.2.tar.gz
+[2023-05-22 05:13:17] INFO root fetch - processPackages [singular-client]: Downloading https://files.pythonhosted.org/packages/32/f2/566f67aca507634d7271580ab5880e87a287170c2922393ef70a2272bbdf/singular_client-0.1.5.tar.gz
+[2023-05-22 05:13:17] INFO root fetch - processPackages [persyn]: Downloading https://files.pythonhosted.org/packages/7d/67/8e306428b2695c0abc691da6862865ad0d3e0bd518e44297cf67e5fcdd65/persyn-0.1.2.tar.gz
+[2023-05-22 05:13:17] INFO root fetch - processPackages [neutrosopy]: executing diffoscope
+[2023-05-22 05:13:17] INFO root fetch - processPackages [neutrosopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutrosopy-0.0.3.tar.gz tmp/neutrosopy-0.0.4.tar.gz --markdown 20230522/n/neutrosopy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 05:13:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-22 05:13:17] INFO root fetch - processPackages [persyn]: executing diffoscope
+[2023-05-22 05:13:17] INFO root fetch - processPackages [persyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persyn-0.1.1.dev0.tar.gz tmp/persyn-0.1.2.tar.gz --markdown 20230522/p/persyn/0.1.1.dev0-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 05:13:17] INFO root fetch - processPackages [singular-client]: Downloading https://files.pythonhosted.org/packages/8e/c0/c2544bfd58135608e34bfbd8c92001beae9a17778df708772fbf74290979/singular_client-0.1.6.tar.gz
+[2023-05-22 05:13:17] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/6e/10/da9ff402b75cdca686603040f2be59d1bd6fdd6b2164dbb7794af93da7d4/streamlit_antd_components-0.1.1-py3-none-any.whl
+[2023-05-22 05:13:17] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-05-22 05:13:18] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-05-22 05:13:18] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.1.0-py3-none-any.whl.zip tmp/streamlit_antd_components-0.1.1-py3-none-any.whl.zip --markdown 20230522/s/streamlit-antd-components/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 05:13:18] INFO root fetch - processPackages [singular-client]: executing diffoscope
+[2023-05-22 05:13:18] INFO root fetch - processPackages [singular-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singular_client-0.1.5.tar.gz tmp/singular_client-0.1.6.tar.gz --markdown 20230522/s/singular-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 05:13:18] INFO root fetch - processPackages [modelscope]: Downloading https://files.pythonhosted.org/packages/73/e4/9640d423d4c995c6309e3ed985a6122c07946cf25e83a59b378c2aaa2838/modelscope-1.6.0.tar.gz
+[2023-05-22 05:13:18] INFO root fetch - processPackages [modelscope]: executing diffoscope
+[2023-05-22 05:13:18] INFO root fetch - processPackages [modelscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscope-1.5.2.tar.gz tmp/modelscope-1.6.0.tar.gz --markdown 20230522/m/modelscope/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-05-22 05:13:18] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-05-22 05:13:18] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-22 05:13:18] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230522/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-22 05:13:18] INFO root fetch - main [MainThread]: End processing [neutrosopy]: success
+[2023-05-22 05:13:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-22 05:13:19] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-05-22 05:13:20] INFO root fetch - main [MainThread]: End processing [singular-client]: success
+[2023-05-22 05:13:21] INFO root fetch - main [MainThread]: End processing [persyn]: success
+[2023-05-22 05:14:10] INFO root fetch - main [MainThread]: End processing [modelscope]: success
+[2023-05-22 05:14:10] INFO root fetch - main [MainThread]: Store serial: [18191914]
