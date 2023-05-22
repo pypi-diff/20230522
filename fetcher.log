@@ -5219,3 +5219,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:50:24] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230522/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
 [2023-05-22 06:50:26] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
 [2023-05-22 06:50:26] INFO root fetch - main [MainThread]: Store serial: [18192399]
+[2023-05-22 06:55:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192399]
+[2023-05-22 06:55:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PHX
+[2023-05-22 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plotguy
+[2023-05-22 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packagetenssor
+[2023-05-22 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aroma
+[2023-05-22 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CADPR
+[2023-05-22 06:55:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatstream
+[2023-05-22 06:55:34] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-22 06:55:34] WARNING root fetch - processPackages [packagetenssor]: Skipping, unable to determine old version
+[2023-05-22 06:55:34] INFO root fetch - main [MainThread]: End processing [packagetenssor] error
+[2023-05-22 06:55:34] INFO root fetch - processPackages [plotguy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-22 06:55:34] INFO root fetch - processPackages [aroma]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2023-05-22 06:55:34] INFO root fetch - processPackages [chatstream]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 06:55:34] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 06:55:34] INFO root fetch - processPackages [aroma]: Downloading https://files.pythonhosted.org/packages/ac/b5/e6084298b9124234b7cf2519dc1e071dfe4fb37035afd9cff40c3050f452/aroma-0.0.0a2.tar.gz
+[2023-05-22 06:55:34] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/da/9f/f2a3445cab857df38c30171b98173fcd25be89708a3ec452bb411fdaf9cd/plotguy-1.0.7.tar.gz
+[2023-05-22 06:55:34] INFO root fetch - processPackages [chatstream]: Downloading https://files.pythonhosted.org/packages/3f/b7/941b2aece8093401791145209c0893101cef7c870bdbe05969847f174cf2/chatstream-0.1.3.tar.gz
+[2023-05-22 06:55:35] INFO root fetch - processPackages [chatstream]: executing diffoscope
+[2023-05-22 06:55:35] INFO root fetch - processPackages [chatstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatstream-0.1.2.tar.gz tmp/chatstream-0.1.3.tar.gz --markdown 20230522/c/chatstream/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 06:55:35] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-05-22 06:55:35] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230522/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 06:55:35] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 06:55:35] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 06:55:35] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/92/a7/88662fb2de0700cc438d1cd62622583a1a2890293af59a6ceb973e3dc175/plotguy-1.0.8.tar.gz
+[2023-05-22 06:55:35] INFO root fetch - processPackages [aroma]: Downloading https://files.pythonhosted.org/packages/85/38/c70bdde9d7ca92955d32393f6ff963bb00f4a83274cf6442c7c01104fc01/aroma-0.0.0a3.tar.gz
+[2023-05-22 06:55:35] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-05-22 06:55:35] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.0.7.tar.gz tmp/plotguy-1.0.8.tar.gz --markdown 20230522/p/plotguy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 06:55:35] INFO root fetch - processPackages [aroma]: executing diffoscope
+[2023-05-22 06:55:35] INFO root fetch - processPackages [aroma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aroma-0.0.0a2.tar.gz tmp/aroma-0.0.0a3.tar.gz --markdown 20230522/a/aroma/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [chatstream]: success
+[2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [aroma]: success
+[2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-05-22 06:55:36] INFO root fetch - main [MainThread]: Store serial: [18192427]
