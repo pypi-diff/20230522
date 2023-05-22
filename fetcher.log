@@ -14793,3 +14793,114 @@ EOFError: EOF read where object expected
 [2023-05-22 16:01:20] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-05-22 16:01:22] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
 [2023-05-22 16:01:22] INFO root fetch - main [MainThread]: Store serial: [18198048]
+[2023-05-22 16:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198048]
+[2023-05-22 16:06:31] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncio-pool-ng
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secret-message
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t4flib
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tokenfinderbot
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-ddmrp
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brilws
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ia-sdk
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: etsy-apiv3
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multimelt
+[2023-05-22 16:06:31] INFO root fetch - processPackages [etsy-apiv3]: New version: [1.8.0] Old Version: [1.7.9]
+[2023-05-22 16:06:31] WARNING root fetch - processPackages [secret-message]: Skipping, unable to determine old version
+[2023-05-22 16:06:31] INFO root fetch - processPackages [secret-message]: Start processing: djangoldp-energiepartagee
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-22 16:06:31] INFO root fetch - main [MainThread]: End processing [secret-message] error
+[2023-05-22 16:06:31] INFO root fetch - processPackages [multimelt]: New version: [0.3] Old Version: [0.2]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [asyncio-pool-ng]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [t4flib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [tokenfinderbot]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [brilws]: New version: [3.7.4] Old Version: [3.7.3]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 16:06:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-0.0.8.tar.gz tmp/djangoldp_energiepartagee-0.0.9.tar.gz --markdown 20230522/d/djangoldp-energiepartagee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [brilws]: Downloading https://files.pythonhosted.org/packages/47/df/425ca1014a4e704508a56f307fd8217ed225047999e7020349b5879598a1/brilws-3.7.3.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230522/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/12/ef/97830f568f988695c23fc9dd281f0984a87b302c66c3d2b033ef4b701a61/t4flib-0.2.4-py2.py3-none-any.whl
+[2023-05-22 16:06:31] INFO root fetch - processPackages [tokenfinderbot]: Downloading https://files.pythonhosted.org/packages/40/ea/62c2b780e431d858b03c421db3eadfb9f87c63ab0a875f9703ca955f8e79/tokenfinderbot-1.0.1.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/90/e8/41df6e9553036f67203cc29f343479bcaafed50d29db2e97f01ab31686c7/ia-sdk-0.3.8.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [multimelt]: Downloading https://files.pythonhosted.org/packages/7e/89/5d0daa46af1672cd5bc06d2a4296ff453d2558a23fe69eaec8b7d192f9a7/multimelt-0.3.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [etsy-apiv3]: Downloading https://files.pythonhosted.org/packages/bf/ed/5afc0148ffce262d579a82a4aabfefcfdc5afd9e79f7331568dcb61f1ff6/etsy-apiv3-1.8.0.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [multimelt]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [multimelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimelt-0.2.tar.gz tmp/multimelt-0.3.tar.gz --markdown 20230522/m/multimelt/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [t4flib]: Downloading https://files.pythonhosted.org/packages/c9/76/191e7bba31c621f3714d11620699abaabf296bfda912802997fa8bb6e44f/t4flib-0.2.5-py2.py3-none-any.whl
+[2023-05-22 16:06:31] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [etsy-apiv3]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230522/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [etsy-apiv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-apiv3-1.7.9.tar.gz tmp/etsy-apiv3-1.8.0.tar.gz --markdown 20230522/e/etsy-apiv3/1.7.9-1.8.0/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [asyncio-pool-ng]: Downloading https://files.pythonhosted.org/packages/91/03/4798e29b6df09af9f3a47c2d8cd3b3ba02dcb35ddb76a08a390498e2be70/asyncio_pool_ng-0.7.2.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [brilws]: Downloading https://files.pythonhosted.org/packages/e2/c3/6085e06e5a35a6b3b3ddc6339ccb43b741c308fdb154e7631d58f32c20cd/brilws-3.7.4.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [t4flib]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [t4flib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4flib-0.2.4-py2.py3-none-any.whl.zip tmp/t4flib-0.2.5-py2.py3-none-any.whl.zip --markdown 20230522/t/t4flib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [tokenfinderbot]: Downloading https://files.pythonhosted.org/packages/02/7c/b280a01141de3757231e2cf1e8fae3efe9e17e496e10eafc31a17e6b6552/tokenfinderbot-1.0.2.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [brilws]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [brilws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brilws-3.7.3.tar.gz tmp/brilws-3.7.4.tar.gz --markdown 20230522/b/brilws/3.7.3-3.7.4/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [ia-sdk]: Downloading https://files.pythonhosted.org/packages/15/b1/a36a944cde31a37170a8faf4c4a9b8e8938a6d9e17d861f96bc9bf3d64c3/ia-sdk-0.3.9.tar.gz
+[2023-05-22 16:06:31] INFO root fetch - processPackages [tokenfinderbot]: executing diffoscope
+[2023-05-22 16:06:31] INFO root fetch - processPackages [tokenfinderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenfinderbot-1.0.1.tar.gz tmp/tokenfinderbot-1.0.2.tar.gz --markdown 20230522/t/tokenfinderbot/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 16:06:31] INFO root fetch - processPackages [asyncio-pool-ng]: Downloading https://files.pythonhosted.org/packages/50/f8/ef56d70f5be4245e3af21ea51a6841fe7c16a5d7b4cd1f0f7aaeb2a0f8e3/asyncio_pool_ng-0.8.0.tar.gz
+[2023-05-22 16:06:32] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-05-22 16:06:32] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230522/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-22 16:06:32] INFO root fetch - processPackages [asyncio-pool-ng]: executing diffoscope
+[2023-05-22 16:06:32] INFO root fetch - processPackages [asyncio-pool-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_pool_ng-0.7.2.tar.gz tmp/asyncio_pool_ng-0.8.0.tar.gz --markdown 20230522/a/asyncio-pool-ng/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-05-22 16:06:33] INFO root fetch - processPackages [multimelt]: Start processing: betterdataclass
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [multimelt]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [betterdataclass]: New version: [2.1] Old Version: [2.0]
+[2023-05-22 16:06:33] INFO root fetch - processPackages [betterdataclass]: Downloading https://files.pythonhosted.org/packages/74/5d/6543da472cd166f365399b41287e65cbfa594a0ce68f8e7ab8a318ffee92/betterdataclass-2.0.tar.gz
+[2023-05-22 16:06:33] INFO root fetch - processPackages [t4flib]: Start processing: cpdb-api
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [t4flib]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [tokenfinderbot]: Start processing: runningz
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [tokenfinderbot]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [runningz]: New version: [0.11.3.3] Old Version: [0.11.3.2]
+[2023-05-22 16:06:33] INFO root fetch - processPackages [asyncio-pool-ng]: Start processing: adnbidder
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [asyncio-pool-ng]: success
+[2023-05-22 16:06:33] WARNING root fetch - processPackages [cpdb-api]: Skipping, unable to determine old version
+[2023-05-22 16:06:33] INFO root fetch - processPackages [cpdb-api]: Start processing: CardGameBase
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [cpdb-api] error
+[2023-05-22 16:06:33] INFO root fetch - processPackages [adnbidder]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 16:06:33] INFO root fetch - processPackages [CardGameBase]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 16:06:33] INFO root fetch - processPackages [etsy-apiv3]: Start processing: virheat
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [etsy-apiv3]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/e4/a2/ea4d8540a62efe0d71fcab830a8d579925bd7b1916ccf20909e3d6859b64/runningz-0.11.3.3-py39-none-any.whl
+[2023-05-22 16:06:33] WARNING root fetch - processPackages [virheat]: Skipping, unable to determine old version
+[2023-05-22 16:06:33] INFO root fetch - processPackages [virheat]: Start processing: nucliadb-contributor-assets
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [virheat] error
+[2023-05-22 16:06:33] INFO root fetch - processPackages [djangoldp-energiepartagee]: Start processing: nbox
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [betterdataclass]: Downloading https://files.pythonhosted.org/packages/70/92/269f0f15da0cb0a7f7a0c3277339c6d29a085844c214455db339ad04dabb/betterdataclass-2.1.tar.gz
+[2023-05-22 16:06:33] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-22 16:06:33] INFO root fetch - processPackages [adnbidder]: Downloading https://files.pythonhosted.org/packages/56/d0/194e5ec3cd21d621211da20151db659422baecad6ccbdeae814d1636ab19/adnbidder-1.0.3.tar.gz
+[2023-05-22 16:06:33] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-05-22 16:06:33] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.11.3.2-py39-none-any.whl.zip tmp/runningz-0.11.3.3-py39-none-any.whl.zip --markdown 20230522/r/runningz/0.11.3.2-0.11.3.3/diff.md --exclude *.pyd
+[2023-05-22 16:06:33] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/ce/1f/819397cd5abacfb9210035e02aef1554540f44da7a91db9e63a0a44a85e1/CardGameBase-1.0.2.tar.gz
+[2023-05-22 16:06:33] INFO root fetch - processPackages [betterdataclass]: executing diffoscope
+[2023-05-22 16:06:33] INFO root fetch - processPackages [betterdataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterdataclass-2.0.tar.gz tmp/betterdataclass-2.1.tar.gz --markdown 20230522/b/betterdataclass/2.0-2.1/diff.md --exclude *.pyd
+[2023-05-22 16:06:33] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post791] Old Version: [1.0.0.post790]
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-22 16:06:33] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230522/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-22 16:06:33] INFO root fetch - processPackages [adnbidder]: executing diffoscope
+[2023-05-22 16:06:33] INFO root fetch - processPackages [adnbidder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnbidder-1.0.2.tar.gz tmp/adnbidder-1.0.3.tar.gz --markdown 20230522/a/adnbidder/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 16:06:33] INFO root fetch - processPackages [CardGameBase]: Downloading https://files.pythonhosted.org/packages/b7/1e/82fb43900b9ea1d46e46bf74e83400a806193b3863a6a57e079b6854708c/CardGameBase-1.0.3.tar.gz
+[2023-05-22 16:06:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-22 16:06:33] INFO root fetch - processPackages [CardGameBase]: executing diffoscope
+[2023-05-22 16:06:33] INFO root fetch - processPackages [CardGameBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CardGameBase-1.0.2.tar.gz tmp/CardGameBase-1.0.3.tar.gz --markdown 20230522/C/CardGameBase/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 16:06:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/04/fd/83ff707690f15d868d519b8ae25186e182d5971fddeb57581bf9fb695f49/nucliadb_contributor_assets-1.0.0.post791-py3-none-any.whl
+[2023-05-22 16:06:34] INFO root fetch - main [MainThread]: End processing [brilws]: success
+[2023-05-22 16:06:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-22 16:06:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post790-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post791-py3-none-any.whl.zip --markdown 20230522/n/nucliadb-contributor-assets/1.0.0.post790-1.0.0.post791/diff.md --exclude *.pyd
+[2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [adnbidder]: success
+[2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [betterdataclass]: success
+[2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [CardGameBase]: success
+[2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-22 16:06:35] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-22 16:06:36] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-22 16:06:36] INFO root fetch - main [MainThread]: Store serial: [18198106]
