@@ -22578,3 +22578,46 @@ EOFError: EOF read where object expected
 [2023-05-22 21:07:37] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
 [2023-05-22 21:07:38] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-22 21:07:38] INFO root fetch - main [MainThread]: Store serial: [18202589]
+[2023-05-22 21:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202589]
+[2023-05-22 21:12:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 21:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plantstar-shared
+[2023-05-22 21:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpqueue
+[2023-05-22 21:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerflex-monitoring
+[2023-05-22 21:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oloren
+[2023-05-22 21:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plantstar-shared
+[2023-05-22 21:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-multiproject-plugin
+[2023-05-22 21:12:48] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 21:12:48] INFO root fetch - processPackages [powerflex-monitoring]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-05-22 21:12:48] INFO root fetch - processPackages [poetry-multiproject-plugin]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-22 21:12:48] INFO root fetch - processPackages [rpqueue]: New version: [0.33.5] Old Version: [0.33.4]
+[2023-05-22 21:12:48] INFO root fetch - processPackages [plantstar-shared]: New version: [2.0.3.0.2] Old Version: [2.0.3.0.1]
+[2023-05-22 21:12:48] INFO root fetch - processPackages [plantstar-shared]: New version: [2.0.3.0.2] Old Version: [2.0.3.0.1]
+[2023-05-22 21:12:49] INFO root fetch - processPackages [poetry-multiproject-plugin]: Downloading https://files.pythonhosted.org/packages/e4/82/1a224dcd2e94f42fca418c22d4a4ee62505b1117eff520b54c8e4e4c5a41/poetry_multiproject_plugin-1.2.1.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [powerflex-monitoring]: Downloading https://files.pythonhosted.org/packages/cc/75/63b4df6646bc12fdff7de6d9f9162811c303f91334f6171c5a55ff99d455/powerflex-monitoring-1.5.3.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/e5/bf/83793d10d9fcae83224e79f1c950c0ca273835a6ae7547345af7d3a3de22/plantstar-shared-2.0.3.0.1.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/e5/bf/83793d10d9fcae83224e79f1c950c0ca273835a6ae7547345af7d3a3de22/plantstar-shared-2.0.3.0.1.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [rpqueue]: Downloading https://files.pythonhosted.org/packages/9f/32/47bb400696ffe8d49f1b71631a511434e9cb9e79994d35ad2f7c5db5773b/rpqueue-0.33.4.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-22 21:12:49] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230522/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/c4/9f/f45674e6d661af40b4863e26ce41ea1c5493c50157b3ab1298969261bc1b/plantstar-shared-2.0.3.0.2.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/c4/9f/f45674e6d661af40b4863e26ce41ea1c5493c50157b3ab1298969261bc1b/plantstar-shared-2.0.3.0.2.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [rpqueue]: Downloading https://files.pythonhosted.org/packages/53/48/41b761825482c1def0eabd934278082705fa89a30c7bf7fbd597072506d7/rpqueue-0.33.5.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [powerflex-monitoring]: Downloading https://files.pythonhosted.org/packages/8e/e0/15d1fc066d17be1aa71a7eaf5e97dc1cdf5d50fafd7d1cdb62748e776967/powerflex-monitoring-1.6.0.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [poetry-multiproject-plugin]: Downloading https://files.pythonhosted.org/packages/8a/0f/aa68083643bfcca3765af4234ccdd07ebff057f67d2299ec41199922d4df/poetry_multiproject_plugin-1.2.2.tar.gz
+[2023-05-22 21:12:49] INFO root fetch - processPackages [rpqueue]: executing diffoscope
+[2023-05-22 21:12:49] INFO root fetch - processPackages [rpqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpqueue-0.33.4.tar.gz tmp/rpqueue-0.33.5.tar.gz --markdown 20230522/r/rpqueue/0.33.4-0.33.5/diff.md --exclude *.pyd
+[2023-05-22 21:12:49] INFO root fetch - processPackages [powerflex-monitoring]: executing diffoscope
+[2023-05-22 21:12:49] INFO root fetch - processPackages [powerflex-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerflex-monitoring-1.5.3.tar.gz tmp/powerflex-monitoring-1.6.0.tar.gz --markdown 20230522/p/powerflex-monitoring/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-05-22 21:12:49] INFO root fetch - processPackages [poetry-multiproject-plugin]: executing diffoscope
+[2023-05-22 21:12:49] INFO root fetch - processPackages [poetry-multiproject-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_multiproject_plugin-1.2.1.tar.gz tmp/poetry_multiproject_plugin-1.2.2.tar.gz --markdown 20230522/p/poetry-multiproject-plugin/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: executing diffoscope
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantstar-shared-2.0.3.0.1.tar.gz tmp/plantstar-shared-2.0.3.0.2.tar.gz --markdown 20230522/p/plantstar-shared/2.0.3.0.1-2.0.3.0.2/diff.md --exclude *.pyd
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: executing diffoscope
+[2023-05-22 21:12:49] INFO root fetch - processPackages [plantstar-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantstar-shared-2.0.3.0.1.tar.gz tmp/plantstar-shared-2.0.3.0.2.tar.gz --markdown 20230522/p/plantstar-shared/2.0.3.0.1-2.0.3.0.2/diff.md --exclude *.pyd
+[2023-05-22 21:12:50] INFO root fetch - main [MainThread]: End processing [rpqueue]: success
+[2023-05-22 21:12:50] INFO root fetch - main [MainThread]: End processing [poetry-multiproject-plugin]: success
+[2023-05-22 21:12:50] INFO root fetch - main [MainThread]: End processing [powerflex-monitoring]: success
+[2023-05-22 21:12:51] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
+[2023-05-22 21:12:51] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
+[2023-05-22 21:12:54] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-22 21:12:54] INFO root fetch - main [MainThread]: Store serial: [18202610]
