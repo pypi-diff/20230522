@@ -19024,3 +19024,89 @@ EOFError: EOF read where object expected
 [2023-05-22 17:52:24] INFO root fetch - main [MainThread]: End processing [nexgen]: success
 [2023-05-22 17:53:03] INFO root fetch - main [MainThread]: End processing [betterdataclass]: success
 [2023-05-22 17:53:03] INFO root fetch - main [MainThread]: Store serial: [18200385]
+[2023-05-22 17:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200385]
+[2023-05-22 17:58:12] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plombery
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-astro-uda
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk-preview
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rasm-arch
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deep-astro-uda
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alacorder
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: falcon-integration-gateway
+[2023-05-22 17:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbox
+[2023-05-22 17:58:12] WARNING root fetch - processPackages [plombery]: Skipping, unable to determine old version
+[2023-05-22 17:58:12] INFO root fetch - processPackages [plombery]: Start processing: socservthread
+[2023-05-22 17:58:12] INFO root fetch - main [MainThread]: End processing [plombery] error
+[2023-05-22 17:58:13] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [alacorder]: New version: [80.7.3] Old Version: [80.7.2]
+[2023-05-22 17:58:13] WARNING root fetch - processPackages [socservthread]: Skipping, unable to determine old version
+[2023-05-22 17:58:13] INFO root fetch - processPackages [socservthread]: Start processing: dbtgenlib
+[2023-05-22 17:58:13] INFO root fetch - main [MainThread]: End processing [socservthread] error
+[2023-05-22 17:58:13] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:58:13] WARNING root fetch - processPackages [rasm-arch]: Skipping, unable to determine old version
+[2023-05-22 17:58:13] INFO root fetch - processPackages [rasm-arch]: Start processing: mlfactory
+[2023-05-22 17:58:13] INFO root fetch - main [MainThread]: End processing [rasm-arch] error
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [falcon-integration-gateway]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230522/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [mlfactory]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230522/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-22 17:58:13] INFO root fetch - processPackages [falcon-integration-gateway]: Downloading https://files.pythonhosted.org/packages/1a/01/67a54d76d7c9ab7d1572f8006209e66220f921ab09241757ee068e6efea4/falcon-integration-gateway-3.1.8.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/41/01/02a28bbac6afaeb8b83075109d503ede4bd5490670d67b895cf57882382a/deep_astro_uda-0.3.4.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/41/01/02a28bbac6afaeb8b83075109d503ede4bd5490670d67b895cf57882382a/deep_astro_uda-0.3.4.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/d5/72/3a348e276f21b2271ea3ee962f67d182debfa0fea576ad7fbcba62130f54/mlfactory-0.0.6.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/b5/13/13c32a2b3ddd4832c783ea49e927d467839cdaa7e4b066ce18704cf756f8/alacorder-80.7.3.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [mlfactory]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [mlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfactory-0.0.5.tar.gz tmp/mlfactory-0.0.6.tar.gz --markdown 20230522/m/mlfactory/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.7.2.tar.gz tmp/alacorder-80.7.3.tar.gz --markdown 20230522/a/alacorder/80.7.2-80.7.3/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230522/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230522/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230522/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/63/bf/f1dc3d27ca9d56bc03e8715e90d5d10410afe74464a6ac0ef83825b75e73/deep_astro_uda-0.3.5.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/63/bf/f1dc3d27ca9d56bc03e8715e90d5d10410afe74464a6ac0ef83825b75e73/deep_astro_uda-0.3.5.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [falcon-integration-gateway]: Downloading https://files.pythonhosted.org/packages/c3/86/1fb8f850a6e182bb40d90eecea13f0f4cf75044d54ce657ab294e7978a72/falcon-integration-gateway-3.1.9.tar.gz
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.3.4.tar.gz tmp/deep_astro_uda-0.3.5.tar.gz --markdown 20230522/d/deep-astro-uda/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [falcon-integration-gateway]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [falcon-integration-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon-integration-gateway-3.1.8.tar.gz tmp/falcon-integration-gateway-3.1.9.tar.gz --markdown 20230522/f/falcon-integration-gateway/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:58:13] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.3.4.tar.gz tmp/deep_astro_uda-0.3.5.tar.gz --markdown 20230522/d/deep-astro-uda/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-22 17:58:14] INFO root fetch - processPackages [dbtgenlib]: Start processing: mypylib
+[2023-05-22 17:58:14] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-22 17:58:14] INFO root fetch - processPackages [mypylib]: New version: [0.1.74] Old Version: [0.1.73]
+[2023-05-22 17:58:14] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/5b/50/443ade0cd20b24a82eb2827abb80e9db45dada96eb49b8179cd9c2232305/mypylib-0.1.74.tar.gz
+[2023-05-22 17:58:14] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-05-22 17:58:14] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.73.tar.gz tmp/mypylib-0.1.74.tar.gz --markdown 20230522/m/mypylib/0.1.73-0.1.74/diff.md --exclude *.pyd
+[2023-05-22 17:58:15] INFO root fetch - processPackages [nbox]: Start processing: JestingLang
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-22 17:58:15] WARNING root fetch - processPackages [JestingLang]: Skipping, unable to determine old version
+[2023-05-22 17:58:15] INFO root fetch - processPackages [JestingLang]: Start processing: sequana-pacbio-qc
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [JestingLang] error
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-22 17:58:15] INFO root fetch - processPackages [sequana-pacbio-qc]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
+[2023-05-22 17:58:15] INFO root fetch - processPackages [sequana-pacbio-qc]: Downloading https://files.pythonhosted.org/packages/69/a4/21cd9f8edb0c96b180d6bb078baba01dcd8a1eb5ec6b8e17156092f51b05/sequana_pacbio_qc-0.9.0.tar.gz
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:58:15] INFO root fetch - main [MainThread]: End processing [falcon-integration-gateway]: success
+[2023-05-22 17:58:16] INFO root fetch - processPackages [sequana-pacbio-qc]: Downloading https://files.pythonhosted.org/packages/da/52/661ae18848bdf9a3f4c3893de46522d92f8b146f554c156fa245f7a7442e/sequana_pacbio_qc-1.0.0.tar.gz
+[2023-05-22 17:58:16] INFO root fetch - processPackages [sequana-pacbio-qc]: executing diffoscope
+[2023-05-22 17:58:16] INFO root fetch - processPackages [sequana-pacbio-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pacbio_qc-0.9.0.tar.gz tmp/sequana_pacbio_qc-1.0.0.tar.gz --markdown 20230522/s/sequana-pacbio-qc/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 17:58:17] INFO root fetch - main [MainThread]: End processing [sequana-pacbio-qc]: success
+[2023-05-22 17:58:17] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-05-22 17:58:34] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-22 17:58:47] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-22 17:58:47] INFO root fetch - main [MainThread]: Store serial: [18200440]
