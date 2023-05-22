@@ -23538,3 +23538,100 @@ EOFError: EOF read where object expected
 [2023-05-22 21:35:29] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
 [2023-05-22 21:35:45] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-05-22 21:35:45] INFO root fetch - main [MainThread]: Store serial: [18203129]
+[2023-05-22 21:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18203129]
+[2023-05-22 21:40:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surv-ai
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyshv
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e6data-python-connector
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbml-to-fides
+[2023-05-22 21:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylibrb
+[2023-05-22 21:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-helper-mod
+[2023-05-22 21:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotON_sdk
+[2023-05-22 21:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deklinacija
+[2023-05-22 21:40:56] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.94] Old Version: [0.0.4.93]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [e6data-python-connector]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pyshv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [dbml-to-fides]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pylibrb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [surv-ai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [deklinacija]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [py-helper-mod]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-22 21:40:56] INFO root fetch - processPackages [dbml-to-fides]: Downloading https://files.pythonhosted.org/packages/4a/04/f5a93375a48c9dea5f9a8647f633d6e11830615289ed822c85cb28fef7f2/dbml-to-fides-1.0.0a2.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pyshv]: Downloading https://files.pythonhosted.org/packages/86/84/177390274adc5f0827dcd039fd600cdfda8a85d859b25840eae1a537bdb2/pyshv-0.1.0.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/cc/df/a219edf88066cc67160ad6ac0bb54105df68ab82dca6a8cc4f13e0c1db7f/e6data-python-connector-1.0.4.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pylibrb]: Downloading https://files.pythonhosted.org/packages/dd/f6/a1a91395fb79156793898d6043a89491536635ba24e4a5e9576471b6515b/pylibrb-0.0.4.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/37/64/b6dc385fdfc040c1becd1e8b81ac383114c966a55526843236d723bb7832/spotON_sdk-0.0.4.94.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230522/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/cf/39/6896a605d5e3f85e7f1db73fddb57726f264f386d143bb8a953343afb211/deklinacija-0.0.3.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [py-helper-mod]: Downloading https://files.pythonhosted.org/packages/90/f2/ec438b5c73c0c32a6e7a9d174fe91552ec0c8af53d31a42b3b56dc61a0da/py-helper-mod-0.0.29.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [surv-ai]: Downloading https://files.pythonhosted.org/packages/91/32/d2eafd97a0bd8974bb7f7a95c82c40f0b5fdbd1c4d69d75378b9a991cd47/surv_ai-0.1.5.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.93.tar.gz tmp/spotON_sdk-0.0.4.94.tar.gz --markdown 20230522/s/spotON_sdk/0.0.4.93-0.0.4.94/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [deklinacija]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [deklinacija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deklinacija-0.0.2.tar.gz tmp/deklinacija-0.0.3.tar.gz --markdown 20230522/d/deklinacija/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [py-helper-mod]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [py-helper-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-helper-mod-0.0.28.tar.gz tmp/py-helper-mod-0.0.29.tar.gz --markdown 20230522/p/py-helper-mod/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [dbml-to-fides]: Downloading https://files.pythonhosted.org/packages/bc/9a/0903c8d9b6908d96c6f4eca34da69d07d941e24084dacabdc9db64fb2625/dbml-to-fides-1.0.0a3.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d0/2c/f710e9e7ab56ab8747156a6fb386926023b360f9e4a493fec122da05dfd1/e6data-python-connector-1.0.5.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pylibrb]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pylibrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibrb-0.0.3.tar.gz tmp/pylibrb-0.0.4.tar.gz --markdown 20230522/p/pylibrb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pyshv]: Downloading https://files.pythonhosted.org/packages/c5/39/fe2e0349a84489e53a0db5e5166ca0e65e3c13f4f1ed1c5875cfec7d79cb/pyshv-0.1.1.tar.gz
+[2023-05-22 21:40:56] INFO root fetch - processPackages [surv-ai]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [surv-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surv_ai-0.1.4.tar.gz tmp/surv_ai-0.1.5.tar.gz --markdown 20230522/s/surv-ai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [dbml-to-fides]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-1.0.4.tar.gz tmp/e6data-python-connector-1.0.5.tar.gz --markdown 20230522/e/e6data-python-connector/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [dbml-to-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbml-to-fides-1.0.0a2.tar.gz tmp/dbml-to-fides-1.0.0a3.tar.gz --markdown 20230522/d/dbml-to-fides/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pyshv]: executing diffoscope
+[2023-05-22 21:40:56] INFO root fetch - processPackages [pyshv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshv-0.1.0.tar.gz tmp/pyshv-0.1.1.tar.gz --markdown 20230522/p/pyshv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 21:40:58] INFO root fetch - processPackages [spotON_sdk]: Start processing: master-board
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-22 21:40:58] INFO root fetch - processPackages [sidetrek]: Start processing: cellmaps-ppidownloader
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppidownloader]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-05-22 21:40:58] WARNING root fetch - processPackages [master-board]: Skipping, unable to determine old version
+[2023-05-22 21:40:58] INFO root fetch - processPackages [master-board]: Start processing: django-helmholtz-aai
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [master-board] error
+[2023-05-22 21:40:58] INFO root fetch - processPackages [django-helmholtz-aai]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pylibrb]: Start processing: pdm-conda
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [pylibrb]: success
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppidownloader]: Downloading https://files.pythonhosted.org/packages/12/df/07f6275b89f20251fc0c0ded24340a4fc154acf89e4a65ff22db2e0bcdf9/cellmaps_ppidownloader-0.1.0a3.tar.gz
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2023-05-22 21:40:58] INFO root fetch - processPackages [py-helper-mod]: Start processing: pyload-ng
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [py-helper-mod]: success
+[2023-05-22 21:40:58] INFO root fetch - processPackages [deklinacija]: Start processing: cellmaps-ppi-embedding
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [deklinacija]: success
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppidownloader]: executing diffoscope
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppidownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_ppidownloader-0.1.0a2.tar.gz tmp/cellmaps_ppidownloader-0.1.0a3.tar.gz --markdown 20230522/c/cellmaps-ppidownloader/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20230522/p/pdm-conda/0.9.3b0-0.9.3b1/diff.md --exclude *.pyd
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pyload-ng]: New version: [0.5.0b3.dev70] Old Version: [0.5.0b3.dev69]
+[2023-05-22 21:40:58] INFO root fetch - processPackages [django-helmholtz-aai]: Downloading https://files.pythonhosted.org/packages/f7/68/c07ba772a12b3ed88b1aa39d78dea927b56dd1d31b226eb741f9fbefd70c/django-helmholtz-aai-0.1.7.tar.gz
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppi-embedding]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [dbml-to-fides]: success
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [surv-ai]: success
+[2023-05-22 21:40:58] INFO root fetch - main [MainThread]: End processing [pyshv]: success
+[2023-05-22 21:40:58] INFO root fetch - processPackages [django-helmholtz-aai]: Downloading https://files.pythonhosted.org/packages/0d/8b/4db84277f156fcef55adf26f5d6c7145f4bfb257fe21b1d3431859aba045/django-helmholtz-aai-0.1.8.tar.gz
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/5b/b5/f82db6cfe5a48e656217ddb8ecfd5c8e3460a5eadf91c9f516ce0b98f282/pyload-ng-0.5.0b3.dev70.tar.gz
+[2023-05-22 21:40:58] INFO root fetch - processPackages [django-helmholtz-aai]: executing diffoscope
+[2023-05-22 21:40:58] INFO root fetch - processPackages [django-helmholtz-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-helmholtz-aai-0.1.7.tar.gz tmp/django-helmholtz-aai-0.1.8.tar.gz --markdown 20230522/d/django-helmholtz-aai/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppi-embedding]: Downloading https://files.pythonhosted.org/packages/7a/46/552d1b266315b687108df4b61bd2a76c8b3292b883cc838aeebea6427984/cellmaps_ppi_embedding-0.1.0a4.tar.gz
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pyload-ng]: executing diffoscope
+[2023-05-22 21:40:58] INFO root fetch - processPackages [pyload-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyload-ng-0.5.0b3.dev69.tar.gz tmp/pyload-ng-0.5.0b3.dev70.tar.gz --markdown 20230522/p/pyload-ng/0.5.0b3.dev69-0.5.0b3.dev70/diff.md --exclude *.pyd
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppi-embedding]: executing diffoscope
+[2023-05-22 21:40:58] INFO root fetch - processPackages [cellmaps-ppi-embedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_ppi_embedding-0.1.0a3.tar.gz tmp/cellmaps_ppi_embedding-0.1.0a4.tar.gz --markdown 20230522/c/cellmaps-ppi-embedding/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-05-22 21:40:59] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2023-05-22 21:40:59] INFO root fetch - main [MainThread]: End processing [cellmaps-ppidownloader]: success
+[2023-05-22 21:40:59] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-22 21:40:59] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2023-05-22 21:41:00] INFO root fetch - main [MainThread]: End processing [django-helmholtz-aai]: success
+[2023-05-22 21:41:00] INFO root fetch - main [MainThread]: End processing [cellmaps-ppi-embedding]: success
+[2023-05-22 21:41:06] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
+[2023-05-22 21:41:06] INFO root fetch - main [MainThread]: Store serial: [18203219]
