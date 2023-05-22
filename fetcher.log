@@ -22101,3 +22101,95 @@ EOFError: EOF read where object expected
 [2023-05-22 20:25:26] INFO root fetch - main [MainThread]: End processing [ebeer]: success
 [2023-05-22 20:25:36] INFO root fetch - main [MainThread]: End processing [symgt]: success
 [2023-05-22 20:25:36] INFO root fetch - main [MainThread]: Store serial: [18202315]
+[2023-05-22 20:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202315]
+[2023-05-22 20:30:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: print-torch
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starrail-toolkit
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-thomas-doc-type-checker
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: katalytic-data
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: machineries
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upgini
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funcs
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tasked
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swoopyui
+[2023-05-22 20:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: soil
+[2023-05-22 20:30:46] WARNING root fetch - processPackages [machineries]: Skipping, unable to determine old version
+[2023-05-22 20:30:46] INFO root fetch - processPackages [machineries]: Start processing: abacusai
+[2023-05-22 20:30:46] INFO root fetch - main [MainThread]: End processing [machineries] error
+[2023-05-22 20:30:46] WARNING root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Skipping, unable to determine old version
+[2023-05-22 20:30:46] INFO root fetch - processPackages [certora-cli-alpha-thomas-doc-type-checker]: Start processing: googleapitranslate
+[2023-05-22 20:30:46] INFO root fetch - processPackages [soil]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-05-22 20:30:46] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-doc-type-checker] error
+[2023-05-22 20:30:46] WARNING root fetch - processPackages [tasked]: Skipping, unable to determine old version
+[2023-05-22 20:30:46] INFO root fetch - processPackages [katalytic-data]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [print-torch]: New version: [1.2] Old Version: [1.1]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [tasked]: Start processing: InsightIDR4Py
+[2023-05-22 20:30:46] INFO root fetch - processPackages [starrail-toolkit]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-05-22 20:30:46] INFO root fetch - main [MainThread]: End processing [tasked] error
+[2023-05-22 20:30:46] INFO root fetch - processPackages [swoopyui]: New version: [1.4] Old Version: [1.3.1]
+[2023-05-22 20:30:46] WARNING root fetch - processPackages [googleapitranslate]: Skipping, unable to determine old version
+[2023-05-22 20:30:46] INFO root fetch - processPackages [funcs]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [googleapitranslate]: Start processing: Orr-Sommerfeld-convmix-CGB
+[2023-05-22 20:30:46] INFO root fetch - main [MainThread]: End processing [googleapitranslate] error
+[2023-05-22 20:30:46] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [InsightIDR4Py]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 20:30:46] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-22 20:30:46] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230522/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [print-torch]: Downloading https://files.pythonhosted.org/packages/58/06/7247c3a4e841835a790ca115d5e32753876767f0e660954c7016c31dfcc6/print_torch-1.2.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [print-torch]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [print-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/print_torch-1.1.tar.gz tmp/print_torch-1.2.tar.gz --markdown 20230522/p/print-torch/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [katalytic-data]: Downloading https://files.pythonhosted.org/packages/77/3f/892eafd14d15b1b630e06729918fe8967fd8f186aaeaeaf50ad80c506485/katalytic-data-0.9.2.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Downloading https://files.pythonhosted.org/packages/8b/36/aa45f67629a2362b569e183e8def60eb827b0fef6cb4b30ea14940465730/orr_sommerfeld_convmix_cgb-0.1.7.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/c1/7e/6d520e17bc0b0d664dd186cfa838424769c812e5487c94a8d769cef5309e/soil-1.0.0rc9.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [katalytic-data]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [katalytic-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-data-0.9.1.tar.gz tmp/katalytic-data-0.9.2.tar.gz --markdown 20230522/k/katalytic-data/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [InsightIDR4Py]: Downloading https://files.pythonhosted.org/packages/21/f7/2aa333db32d70d5044bb1955189696b76641bed047212d2c4b7046e87dcc/InsightIDR4Py-0.1.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orr_sommerfeld_convmix_cgb-0.1.6.tar.gz tmp/orr_sommerfeld_convmix_cgb-0.1.7.tar.gz --markdown 20230522/O/Orr-Sommerfeld-convmix-CGB/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [starrail-toolkit]: Downloading https://files.pythonhosted.org/packages/90/ba/f9e9f5b6c727efe80d0f53b58e9bb768e3a3d1234d0c8b4e5a30f338cac3/starrail-toolkit-0.6.0.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [swoopyui]: Downloading https://files.pythonhosted.org/packages/6a/08/1545cbaa6f173636259e02ae153caf58044d7f78533798e2b9f31272dad7/swoopyui-1.4.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/d7/57/1c473ee8685efe7fb7e45457b02e37e0afe179a9f5b8245e060439c5d9ca/funcs-0.7.0.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [starrail-toolkit]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [starrail-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrail-toolkit-0.5.8.tar.gz tmp/starrail-toolkit-0.6.0.tar.gz --markdown 20230522/s/starrail-toolkit/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [swoopyui]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [swoopyui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swoopyui-1.3.1.tar.gz tmp/swoopyui-1.4.tar.gz --markdown 20230522/s/swoopyui/1.3.1-1.4/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230522/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.6.0.tar.gz tmp/funcs-0.7.0.tar.gz --markdown 20230522/f/funcs/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-1.0.0rc8.tar.gz tmp/soil-1.0.0rc9.tar.gz --markdown 20230522/s/soil/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-05-22 20:30:47] INFO root fetch - processPackages [InsightIDR4Py]: Downloading https://files.pythonhosted.org/packages/54/3a/168bc67765ca2690fac080d9f1f8a6009bfba18f6cf56ce2d264b4d3f90f/InsightIDR4Py-0.2.tar.gz
+[2023-05-22 20:30:47] INFO root fetch - processPackages [InsightIDR4Py]: executing diffoscope
+[2023-05-22 20:30:47] INFO root fetch - processPackages [InsightIDR4Py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InsightIDR4Py-0.1.tar.gz tmp/InsightIDR4Py-0.2.tar.gz --markdown 20230522/I/InsightIDR4Py/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 20:30:48] INFO root fetch - processPackages [print-torch]: Start processing: api-sap
+[2023-05-22 20:30:48] INFO root fetch - main [MainThread]: End processing [print-torch]: success
+[2023-05-22 20:30:48] INFO root fetch - processPackages [api-sap]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-22 20:30:48] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Start processing: isidore
+[2023-05-22 20:30:48] INFO root fetch - main [MainThread]: End processing [Orr-Sommerfeld-convmix-CGB]: success
+[2023-05-22 20:30:48] INFO root fetch - processPackages [api-sap]: executing diffoscope
+[2023-05-22 20:30:48] INFO root fetch - processPackages [api-sap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_sap-0.0.3.tar.gz tmp/api_sap-1.0.0.tar.gz --markdown 20230522/a/api-sap/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 20:30:48] INFO root fetch - processPackages [isidore]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 20:30:48] INFO root fetch - processPackages [abacusai]: Start processing: Orr-Sommerfeld-convmix-CGB
+[2023-05-22 20:30:48] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-05-22 20:30:48] INFO root fetch - processPackages [isidore]: Downloading https://files.pythonhosted.org/packages/f6/40/deb5a0844385142bc30c71cbb793280f8bcb3f23a27e4e3904a28d036dd7/isidore-0.1.2.tar.gz
+[2023-05-22 20:30:48] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 20:30:48] INFO root fetch - main [MainThread]: End processing [swoopyui]: success
+[2023-05-22 20:30:49] INFO root fetch - main [MainThread]: End processing [InsightIDR4Py]: success
+[2023-05-22 20:30:49] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-05-22 20:30:49] INFO root fetch - processPackages [isidore]: Downloading https://files.pythonhosted.org/packages/cb/a9/a29fef02bcd874a6c6fd7383ac1b27ffa960216696d26c104dff7006f461/isidore-0.1.3.tar.gz
+[2023-05-22 20:30:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: Downloading https://files.pythonhosted.org/packages/03/b5/e0db9082351ad8b8e0dda732a90902f9e54852219dde2e992ff6f1699b6e/orr_sommerfeld_convmix_cgb-0.1.8.tar.gz
+[2023-05-22 20:30:49] INFO root fetch - main [MainThread]: End processing [katalytic-data]: success
+[2023-05-22 20:30:49] INFO root fetch - processPackages [isidore]: executing diffoscope
+[2023-05-22 20:30:49] INFO root fetch - processPackages [isidore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isidore-0.1.2.tar.gz tmp/isidore-0.1.3.tar.gz --markdown 20230522/i/isidore/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 20:30:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: executing diffoscope
+[2023-05-22 20:30:49] INFO root fetch - processPackages [Orr-Sommerfeld-convmix-CGB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orr_sommerfeld_convmix_cgb-0.1.7.tar.gz tmp/orr_sommerfeld_convmix_cgb-0.1.8.tar.gz --markdown 20230522/O/Orr-Sommerfeld-convmix-CGB/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 20:30:49] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-05-22 20:30:49] INFO root fetch - main [MainThread]: End processing [starrail-toolkit]: success
+[2023-05-22 20:30:49] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-22 20:30:50] INFO root fetch - main [MainThread]: End processing [api-sap]: success
+[2023-05-22 20:30:50] INFO root fetch - main [MainThread]: End processing [isidore]: success
+[2023-05-22 20:30:50] INFO root fetch - main [MainThread]: End processing [Orr-Sommerfeld-convmix-CGB]: success
+[2023-05-22 20:30:50] INFO root fetch - main [MainThread]: Store serial: [18202375]
