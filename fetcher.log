@@ -5712,3 +5712,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:51:48] INFO root fetch - main [MainThread]: End processing [srec]: success
 [2023-05-22 07:51:48] INFO root fetch - main [MainThread]: End processing [pydal]: success
 [2023-05-22 07:51:48] INFO root fetch - main [MainThread]: Store serial: [18192709]
+[2023-05-22 07:56:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192709]
+[2023-05-22 07:56:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remyxai
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiges
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-tally
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YKDraco
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CADPR
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packagetenssor
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seabornai
+[2023-05-22 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s3namic
+[2023-05-22 07:56:57] INFO root fetch - processPackages [remyxai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 07:56:57] WARNING root fetch - processPackages [YKDraco]: Skipping, unable to determine old version
+[2023-05-22 07:56:57] INFO root fetch - main [MainThread]: End processing [YKDraco] error
+[2023-05-22 07:56:57] INFO root fetch - processPackages [packagetenssor]: New version: [0.5] Old Version: [0.4]
+[2023-05-22 07:56:57] INFO root fetch - processPackages [aiges]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-22 07:56:57] INFO root fetch - processPackages [pytest-tally]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-22 07:56:57] WARNING root fetch - processPackages [seabornai]: Skipping, unable to determine old version
+[2023-05-22 07:56:57] INFO root fetch - processPackages [s3namic]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 07:56:57] INFO root fetch - main [MainThread]: End processing [seabornai] error
+[2023-05-22 07:56:57] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 07:56:58] INFO root fetch - processPackages [remyxai]: Downloading https://files.pythonhosted.org/packages/fa/5f/1d8296b2be86559ace1ce11c7781e7414415baa1d2e6e3029b20d3635821/remyxai-0.1.1.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 07:56:58] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 07:56:58] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/e9/5c/bf2d0d6fedce00e3446e524a5aa7201f7e1ed00162aa2cbbc57ca8c075de/aiges-0.8.8.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [packagetenssor]: Downloading https://files.pythonhosted.org/packages/ff/90/43c64c6c2faca91793081f8b95879e90ab7642714e011f6c3843422e1caa/packagetenssor-0.5.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [s3namic]: Downloading https://files.pythonhosted.org/packages/31/51/ac962bf238e49d5ac6dd95037439a222188fbe42d62e3f6a15d146968ff0/s3namic-0.0.2.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [pytest-tally]: Downloading https://files.pythonhosted.org/packages/da/ec/307e2f5e558d8e3e0ae262b7c4b6340c4f61d7e6b6b657e4e452d30a1235/pytest-tally-1.3.1.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [packagetenssor]: executing diffoscope
+[2023-05-22 07:56:58] INFO root fetch - processPackages [packagetenssor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagetenssor-0.4.tar.gz tmp/packagetenssor-0.5.tar.gz --markdown 20230522/p/packagetenssor/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-22 07:56:58] INFO root fetch - processPackages [pytest-tally]: executing diffoscope
+[2023-05-22 07:56:58] INFO root fetch - processPackages [pytest-tally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-tally-1.3.0.tar.gz tmp/pytest-tally-1.3.1.tar.gz --markdown 20230522/p/pytest-tally/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-22 07:56:58] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/69/79/46d6a9d36c04e1b04b372af7578163390cb12d189453ec87c8ce910593b0/aiges-0.8.9.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [remyxai]: Downloading https://files.pythonhosted.org/packages/55/7e/ef07d980a91c6f97bec9cccdd32036d45ebb182a768547d736a3225c1ef7/remyxai-0.1.2.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [s3namic]: Downloading https://files.pythonhosted.org/packages/16/1b/42abc5c22c772ddb0e98995e40130b546bf0ca09ac42c79ac0b251978794/s3namic-0.0.3.tar.gz
+[2023-05-22 07:56:58] INFO root fetch - processPackages [remyxai]: executing diffoscope
+[2023-05-22 07:56:58] INFO root fetch - processPackages [remyxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remyxai-0.1.1.tar.gz tmp/remyxai-0.1.2.tar.gz --markdown 20230522/r/remyxai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 07:56:58] INFO root fetch - processPackages [aiges]: executing diffoscope
+[2023-05-22 07:56:58] INFO root fetch - processPackages [aiges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiges-0.8.8.tar.gz tmp/aiges-0.8.9.tar.gz --markdown 20230522/a/aiges/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-22 07:56:58] INFO root fetch - processPackages [s3namic]: executing diffoscope
+[2023-05-22 07:56:58] INFO root fetch - processPackages [s3namic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3namic-0.0.2.tar.gz tmp/s3namic-0.0.3.tar.gz --markdown 20230522/s/s3namic/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 07:56:59] INFO root fetch - main [MainThread]: End processing [packagetenssor]: success
+[2023-05-22 07:56:59] INFO root fetch - main [MainThread]: End processing [s3namic]: success
+[2023-05-22 07:56:59] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 07:56:59] INFO root fetch - main [MainThread]: End processing [remyxai]: success
+[2023-05-22 07:56:59] INFO root fetch - main [MainThread]: End processing [pytest-tally]: success
+[2023-05-22 07:57:00] INFO root fetch - main [MainThread]: End processing [aiges]: success
+[2023-05-22 07:57:00] INFO root fetch - main [MainThread]: Store serial: [18192736]
