@@ -4814,3 +4814,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 05:56:52] INFO root fetch - main [MainThread]: End processing [gradio-offline]: success
 [2023-05-22 05:57:29] INFO root fetch - main [MainThread]: End processing [dysweep]: success
 [2023-05-22 05:57:29] INFO root fetch - main [MainThread]: Store serial: [18192107]
+[2023-05-22 06:02:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192107]
+[2023-05-22 06:02:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feapder
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-offline
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edosnahb
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krutils
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mojo-xmodules
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mojo-waiting
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-networking
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mojo-interop
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swachhdata
+[2023-05-22 06:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mojo-runtime
+[2023-05-22 06:02:38] WARNING root fetch - processPackages [edosnahb]: Skipping, unable to determine old version
+[2023-05-22 06:02:38] INFO root fetch - main [MainThread]: End processing [edosnahb] error
+[2023-05-22 06:02:38] INFO root fetch - processPackages [mojo-waiting]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [gradio-offline]: New version: [3.31.0.4] Old Version: [3.31.0.3]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1259] Old Version: [0.20230522.1245]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [mojo-networking]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [swachhdata]: New version: [1.5.6a1] Old Version: [1.5.5a1]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [feapder]: New version: [1.8.6b7] Old Version: [1.8.6b6]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [swachhdata]: executing diffoscope
+[2023-05-22 06:02:38] INFO root fetch - processPackages [swachhdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swachhdata-1.5.5a1-py3-none-any.whl.zip tmp/swachhdata-1.5.6a1-py3-none-any.whl.zip --markdown 20230522/s/swachhdata/1.5.5a1-1.5.6a1/diff.md --exclude *.pyd
+[2023-05-22 06:02:38] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 06:02:38] INFO root fetch - processPackages [gradio-offline]: executing diffoscope
+[2023-05-22 06:02:38] INFO root fetch - processPackages [gradio-offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_offline-3.31.0.3.tar.gz tmp/gradio_offline-3.31.0.4.tar.gz --markdown 20230522/g/gradio-offline/3.31.0.3-3.31.0.4/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/f2/9a/9ef76cacacaad0a74ddb425ecc54e6e9ec1dd7a16455e0a8a7a57ead6dd2/krutils-0.20230522.1259.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/cf/16/dbd9b15008db8ee9e14c22fc7296f53aa60a5b79dea271463715fc98a0b5/mojo_waiting-1.0.1.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-networking]: Downloading https://files.pythonhosted.org/packages/b8/78/df800002b7a863c560629890025020259d57cb573eaed9dc00b35539cde9/mojo-networking-0.0.6.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/61/45/04366e11796a708ae4dcad7a4c5683c04853a0ff1c4ce12de9cdc0f858cf/feapder-1.8.6b6.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1245.tar.gz tmp/krutils-0.20230522.1259.tar.gz --markdown 20230522/k/krutils/0.20230522.1245-0.20230522.1259/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-networking]: Downloading https://files.pythonhosted.org/packages/ef/4c/3f2243d684e4810fc3fcb885fbc7bc3698566dddae8cb0ec1cf220005af1/mojo_networking-0.0.7.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-networking]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-networking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo-networking-0.0.6.tar.gz tmp/mojo_networking-0.0.7.tar.gz --markdown 20230522/m/mojo-networking/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/b7/b3/88e9106a2d483d9dfdabc5bf0387028dcbcf909feea7feb471a0949738bf/mojo_waiting-1.0.2.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [feapder]: Downloading https://files.pythonhosted.org/packages/3c/21/fad1179757732523e33edef255d8c260e9329aa875559570c946a3f92a1d/feapder-1.8.6b7.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-waiting]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-waiting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_waiting-1.0.1.tar.gz tmp/mojo_waiting-1.0.2.tar.gz --markdown 20230522/m/mojo-waiting/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230522/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230522/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230522/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 06:02:39] INFO root fetch - processPackages [feapder]: executing diffoscope
+[2023-05-22 06:02:39] INFO root fetch - processPackages [feapder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feapder-1.8.6b6.tar.gz tmp/feapder-1.8.6b7.tar.gz --markdown 20230522/f/feapder/1.8.6b6-1.8.6b7/diff.md --exclude *.pyd
+[2023-05-22 06:02:40] INFO root fetch - main [MainThread]: End processing [swachhdata]: success
+[2023-05-22 06:02:40] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 06:02:40] INFO root fetch - main [MainThread]: End processing [mojo-waiting]: success
+[2023-05-22 06:02:40] INFO root fetch - main [MainThread]: End processing [mojo-networking]: success
+[2023-05-22 06:02:40] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-05-22 06:02:41] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-05-22 06:02:41] INFO root fetch - main [MainThread]: End processing [feapder]: success
+[2023-05-22 06:02:42] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-05-22 06:02:47] INFO root fetch - main [MainThread]: End processing [gradio-offline]: success
+[2023-05-22 06:02:47] INFO root fetch - main [MainThread]: Store serial: [18192148]
