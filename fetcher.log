@@ -7723,3 +7723,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:12:52] INFO root fetch - main [MainThread]: End processing [xzy-db]: success
 [2023-05-22 10:12:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-22 10:12:58] INFO root fetch - main [MainThread]: Store serial: [18193959]
+[2023-05-22 10:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193959]
+[2023-05-22 10:18:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicsnovault
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xzy-db
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-recaptcha-solver
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProcessInteract
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mahdix
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garpix-favourite
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nshuman-python
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kn-flatten-json
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shipper-shippy
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cycode
+[2023-05-22 10:18:08] WARNING root fetch - processPackages [mahdix]: Skipping, unable to determine old version
+[2023-05-22 10:18:08] INFO root fetch - processPackages [mahdix]: Start processing: trailblazer
+[2023-05-22 10:18:08] INFO root fetch - main [MainThread]: End processing [mahdix] error
+[2023-05-22 10:18:08] INFO root fetch - processPackages [kn-flatten-json]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 10:18:08] WARNING root fetch - processPackages [nshuman-python]: Skipping, unable to determine old version
+[2023-05-22 10:18:08] INFO root fetch - processPackages [nshuman-python]: Start processing: vdk-heartbeat
+[2023-05-22 10:18:08] INFO root fetch - main [MainThread]: End processing [nshuman-python] error
+[2023-05-22 10:18:08] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.2b0] Old Version: [8.0.1.5b12]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [xzy-db]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-05-22 10:18:08] WARNING root fetch - processPackages [ProcessInteract]: Skipping, unable to determine old version
+[2023-05-22 10:18:08] INFO root fetch - processPackages [ProcessInteract]: Start processing: streamlit-antd-components
+[2023-05-22 10:18:08] INFO root fetch - main [MainThread]: End processing [ProcessInteract] error
+[2023-05-22 10:18:08] INFO root fetch - processPackages [garpix-favourite]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [kn-flatten-json]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [kn-flatten-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kn_flatten_json-0.0.2.tar.gz tmp/kn_flatten_json-0.0.3.tar.gz --markdown 20230522/k/kn-flatten-json/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [selenium-recaptcha-solver]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [cycode]: New version: [0.2.4.dev8] Old Version: [0.2.4.dev13]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [shipper-shippy]: New version: [1.9.0a5] Old Version: [1.9.0a4]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230522/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.5b12.tar.gz tmp/dcicsnovault-8.0.2b0.tar.gz --markdown 20230522/d/dcicsnovault/8.0.1.5b12-8.0.2b0/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [xzy-db]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [xzy-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xzy-db-0.0.3.tar.gz tmp/xzy-db-0.0.4.tar.gz --markdown 20230522/x/xzy-db/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.1.0-py3-none-any.whl.zip tmp/streamlit_antd_components-0.1.1-py3-none-any.whl.zip --markdown 20230522/s/streamlit-antd-components/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [selenium-recaptcha-solver]: Downloading https://files.pythonhosted.org/packages/db/8e/7d4df41fefbda6d0a087ec06b3fd78ce41e1a77b10951b5e94da8923029f/selenium-recaptcha-solver-1.8.0.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/b3/79/94698eeb710935639b603fda7c0c48d6f390e231364640bef1eccfa6eb24/cycode-0.2.4.dev13.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [garpix-favourite]: Downloading https://files.pythonhosted.org/packages/20/ac/412d0927f607505f432eb97108d027a350d8debf6ba9fa9ffee20b3dffba/garpix_favourite-2.0.0.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [vdk-heartbeat]: New version: [0.6.874308419] Old Version: [0.6.798738391]
+[2023-05-22 10:18:08] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/eb/15/f65e8ec8781b1861b0f35174209e711bcee065c10e1746193404222d4188/shipper-shippy-1.9.0a4.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [selenium-recaptcha-solver]: Downloading https://files.pythonhosted.org/packages/76/ff/fe7b334712504b9a171cd5fade90b1c98087e9b2ac2716d293da98d31e71/selenium-recaptcha-solver-1.8.1.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [garpix-favourite]: Downloading https://files.pythonhosted.org/packages/a9/6b/a911cce187756039e8e6710246c2147a1500b28792d21bb42ae72e88058c/garpix_favourite-2.1.0.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [vdk-heartbeat]: Downloading https://files.pythonhosted.org/packages/3e/17/04c375453b6c6b3ce8e04b37da204a4116c5ece7f9fa6fa98f491e4b9099/vdk-heartbeat-0.6.798738391.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [selenium-recaptcha-solver]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [selenium-recaptcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-recaptcha-solver-1.8.0.tar.gz tmp/selenium-recaptcha-solver-1.8.1.tar.gz --markdown 20230522/s/selenium-recaptcha-solver/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [garpix-favourite]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [garpix-favourite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_favourite-2.0.0.tar.gz tmp/garpix_favourite-2.1.0.tar.gz --markdown 20230522/g/garpix-favourite/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.4.dev13.tar.gz tmp/cycode-0.2.4.dev8.tar.gz --markdown 20230522/c/cycode/0.2.4.dev13-0.2.4.dev8/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/44/9f/7329e3598b4169adaefa20b50c5655e10ee330058150cfeb6b0d7bdc09d4/shipper-shippy-1.9.0a5.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [vdk-heartbeat]: Downloading https://files.pythonhosted.org/packages/9f/84/b817754cdc95fb6b3028aaceb283d7e5adcb2737460c743d42b569bf9bf2/vdk-heartbeat-0.6.874308419.tar.gz
+[2023-05-22 10:18:08] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper-shippy-1.9.0a4.tar.gz tmp/shipper-shippy-1.9.0a5.tar.gz --markdown 20230522/s/shipper-shippy/1.9.0a4-1.9.0a5/diff.md --exclude *.pyd
+[2023-05-22 10:18:08] INFO root fetch - processPackages [vdk-heartbeat]: executing diffoscope
+[2023-05-22 10:18:08] INFO root fetch - processPackages [vdk-heartbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-heartbeat-0.6.798738391.tar.gz tmp/vdk-heartbeat-0.6.874308419.tar.gz --markdown 20230522/v/vdk-heartbeat/0.6.798738391-0.6.874308419/diff.md --exclude *.pyd
+[2023-05-22 10:18:09] INFO root fetch - processPackages [kn-flatten-json]: Start processing: pytessel
+[2023-05-22 10:18:09] INFO root fetch - main [MainThread]: End processing [kn-flatten-json]: success
+[2023-05-22 10:18:09] INFO root fetch - processPackages [pytessel]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 10:18:09] INFO root fetch - processPackages [pytessel]: Downloading https://files.pythonhosted.org/packages/2a/25/c9f82a0548f71b2b584699e7f7fe3a3abf79ceee65f2e26e24f92d52a5c6/pytessel-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-22 10:18:09] INFO root fetch - processPackages [xzy-db]: Start processing: qontract-reconcile
+[2023-05-22 10:18:09] INFO root fetch - main [MainThread]: End processing [xzy-db]: success
+[2023-05-22 10:18:10] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-22 10:18:10] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-22 10:18:10] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-22 10:18:10] INFO root fetch - processPackages [selenium-recaptcha-solver]: Start processing: django-dashboards
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [selenium-recaptcha-solver]: success
+[2023-05-22 10:18:10] INFO root fetch - processPackages [pytessel]: Downloading https://files.pythonhosted.org/packages/d8/42/cb9574270917a87939a2252efd83f6e074441c7b52586a578bac83a0e608/pytessel-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-22 10:18:10] INFO root fetch - processPackages [trailblazer]: Start processing: fiddler-auditor
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-05-22 10:18:10] WARNING root fetch - processPackages [fiddler-auditor]: Skipping, unable to determine old version
+[2023-05-22 10:18:10] INFO root fetch - processPackages [fiddler-auditor]: Start processing: niimpy
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [fiddler-auditor] error
+[2023-05-22 10:18:10] WARNING root fetch - processPackages [niimpy]: Skipping, unable to determine old version
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [niimpy] error
+[2023-05-22 10:18:10] INFO root fetch - processPackages [django-dashboards]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 10:18:10] INFO root fetch - processPackages [pytessel]: executing diffoscope
+[2023-05-22 10:18:10] INFO root fetch - processPackages [pytessel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytessel-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytessel-1.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230522/p/pytessel/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [garpix-favourite]: success
+[2023-05-22 10:18:10] INFO root fetch - processPackages [django-dashboards]: Downloading https://files.pythonhosted.org/packages/06/e3/47c62b7b9b75446147a980ee6733197a43d99bcc85ae27c00f37f02ec3ed/django-dashboards-0.1.1.tar.gz
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [vdk-heartbeat]: success
+[2023-05-22 10:18:10] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-22 10:18:12] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-05-22 10:18:12] INFO root fetch - processPackages [django-dashboards]: Downloading https://files.pythonhosted.org/packages/6f/be/92d50166a56d1c825be42e8b52a8fb5d9672262fb3880cc10cda7612d0d1/django-dashboards-0.1.2.tar.gz
+[2023-05-22 10:18:14] INFO root fetch - processPackages [django-dashboards]: executing diffoscope
+[2023-05-22 10:18:14] INFO root fetch - processPackages [django-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dashboards-0.1.1.tar.gz tmp/django-dashboards-0.1.2.tar.gz --markdown 20230522/d/django-dashboards/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 10:18:15] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-22 10:18:16] INFO root fetch - main [MainThread]: End processing [django-dashboards]: success
+[2023-05-22 10:18:59] INFO root fetch - main [MainThread]: End processing [pytessel]: success
+[2023-05-22 10:18:59] INFO root fetch - main [MainThread]: Store serial: [18194028]
