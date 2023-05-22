@@ -4943,3 +4943,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [fixate]: success
 [2023-05-22 06:07:58] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
 [2023-05-22 06:07:58] INFO root fetch - main [MainThread]: Store serial: [18192187]
+[2023-05-22 06:13:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192187]
+[2023-05-22 06:13:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calculator-test-3200-sdk
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cengal
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: favicon-grabber
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiextras
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spatialprofilingtoolbox
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swachhdata
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiextras
+[2023-05-22 06:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-05-22 06:13:07] INFO root fetch - processPackages [calculator-test-3200-sdk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-22 06:13:07] INFO root fetch - processPackages [swachhdata]: New version: [2.0.0rc1] Old Version: [2.0.0a1]
+[2023-05-22 06:13:07] INFO root fetch - processPackages [cengal]: New version: [3.1.18.9] Old Version: [3.1.18.8]
+[2023-05-22 06:13:07] WARNING root fetch - processPackages [favicon-grabber]: Skipping, unable to determine old version
+[2023-05-22 06:13:07] INFO root fetch - main [MainThread]: End processing [favicon-grabber] error
+[2023-05-22 06:13:07] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 06:13:07] INFO root fetch - processPackages [spatialprofilingtoolbox]: New version: [0.9.2] Old Version: [0.9.107]
+[2023-05-22 06:13:07] INFO root fetch - processPackages [aiextras]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 06:13:07] INFO root fetch - processPackages [aiextras]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 06:13:07] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-22 06:13:07] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.18.8.tar.gz tmp/cengal-3.1.18.9.tar.gz --markdown 20230522/c/cengal/3.1.18.8-3.1.18.9/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-22 06:13:08] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230522/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [swachhdata]: Downloading https://files.pythonhosted.org/packages/1f/54/a37ed81b1fde75be9423a8479baf56878f765747fbde61d7d1cf36c02264/swachhdata-2.0.0a1-py3-none-any.whl
+[2023-05-22 06:13:08] INFO root fetch - processPackages [calculator-test-3200-sdk]: Downloading https://files.pythonhosted.org/packages/ee/a1/1f9926162a6c175f3acdab3d6df034edb19863c8b2d00487b32e5af13f54/calculator-test-3200-sdk-0.5.0.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/fa/99/796c452f05ca4ca769aa519cfe2a0e543393c53e4de0cc7e373d837dab40/aiextras-0.0.3.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/fa/99/796c452f05ca4ca769aa519cfe2a0e543393c53e4de0cc7e373d837dab40/aiextras-0.0.3.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [spatialprofilingtoolbox]: Downloading https://files.pythonhosted.org/packages/df/5b/6e14c3d9651f81036e00fa6c475096fba5dd03d721279295c11824085971/spatialprofilingtoolbox-0.9.107.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [calculator-test-3200-sdk]: Downloading https://files.pythonhosted.org/packages/68/db/27ece0d168d9130f917d915c88678feeb85c480665a8f404164974a9f7c8/calculator-test-3200-sdk-0.6.0.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/08/13/4712c83a6157a3fb523e48e707228a5d017a8ea9e5f0ce82ccdc9bada1e6/aiextras-0.0.4.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/08/13/4712c83a6157a3fb523e48e707228a5d017a8ea9e5f0ce82ccdc9bada1e6/aiextras-0.0.4.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [calculator-test-3200-sdk]: executing diffoscope
+[2023-05-22 06:13:08] INFO root fetch - processPackages [calculator-test-3200-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator-test-3200-sdk-0.5.0.tar.gz tmp/calculator-test-3200-sdk-0.6.0.tar.gz --markdown 20230522/c/calculator-test-3200-sdk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [swachhdata]: Downloading https://files.pythonhosted.org/packages/5e/ac/6c065155bbb3f30a4f83bac6e8095efa743f2fafa7573fa60bc67d3328af/swachhdata-2.0.0rc1-py3-none-any.whl
+[2023-05-22 06:13:08] INFO root fetch - processPackages [spatialprofilingtoolbox]: Downloading https://files.pythonhosted.org/packages/5a/1e/147c42a2f3bcf26b1d40cacf109bb42d315f16a204211b910bd049e4037f/spatialprofilingtoolbox-0.9.2.tar.gz
+[2023-05-22 06:13:08] INFO root fetch - processPackages [swachhdata]: executing diffoscope
+[2023-05-22 06:13:08] INFO root fetch - processPackages [swachhdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swachhdata-2.0.0a1-py3-none-any.whl.zip tmp/swachhdata-2.0.0rc1-py3-none-any.whl.zip --markdown 20230522/s/swachhdata/2.0.0a1-2.0.0rc1/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.3.tar.gz tmp/aiextras-0.0.4.tar.gz --markdown 20230522/a/aiextras/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:13:08] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.3.tar.gz tmp/aiextras-0.0.4.tar.gz --markdown 20230522/a/aiextras/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [spatialprofilingtoolbox]: executing diffoscope
+[2023-05-22 06:13:08] INFO root fetch - processPackages [spatialprofilingtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialprofilingtoolbox-0.9.107.tar.gz tmp/spatialprofilingtoolbox-0.9.2.tar.gz --markdown 20230522/s/spatialprofilingtoolbox/0.9.107-0.9.2/diff.md --exclude *.pyd
+[2023-05-22 06:13:08] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-22 06:13:09] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-22 06:13:09] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230522/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-22 06:13:09] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:13:09] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:13:09] INFO root fetch - main [MainThread]: End processing [swachhdata]: success
+[2023-05-22 06:13:09] INFO root fetch - main [MainThread]: End processing [calculator-test-3200-sdk]: success
+[2023-05-22 06:13:10] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-22 06:13:10] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-22 06:13:11] INFO root fetch - main [MainThread]: End processing [spatialprofilingtoolbox]: success
+[2023-05-22 06:13:24] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-22 06:13:24] INFO root fetch - main [MainThread]: Store serial: [18192213]
