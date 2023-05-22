@@ -3508,3 +3508,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 03:33:45] INFO root fetch - main [MainThread]: End processing [karrio.server.core]: success
 [2023-05-22 03:33:48] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
 [2023-05-22 03:33:48] INFO root fetch - main [MainThread]: Store serial: [18191398]
+[2023-05-22 03:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191398]
+[2023-05-22 03:38:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databased
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscrapbook
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tldrwl
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peakachu
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xuanpolicy
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pandas
+[2023-05-22 03:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sntn
+[2023-05-22 03:38:57] INFO root fetch - processPackages [databased]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-22 03:38:57] INFO root fetch - processPackages [webscrapbook]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-22 03:38:57] INFO root fetch - processPackages [xuanpolicy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 03:38:57] WARNING root fetch - processPackages [tldrwl]: Skipping, unable to determine old version
+[2023-05-22 03:38:57] INFO root fetch - main [MainThread]: End processing [tldrwl] error
+[2023-05-22 03:38:57] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 03:38:58] WARNING root fetch - processPackages [sntn]: Skipping, unable to determine old version
+[2023-05-22 03:38:58] INFO root fetch - main [MainThread]: End processing [sntn] error
+[2023-05-22 03:38:58] INFO root fetch - processPackages [peakachu]: New version: [2.2] Old Version: [2.1]
+[2023-05-22 03:38:58] INFO root fetch - processPackages [xuanpolicy]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [xuanpolicy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xuanpolicy-0.1.3.tar.gz tmp/xuanpolicy-0.1.4.tar.gz --markdown 20230522/x/xuanpolicy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-2.0.0b8.tar.gz tmp/webscrapbook-2.0.0b9.tar.gz --markdown 20230522/w/webscrapbook/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230522/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230522/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/f6/d6/ee2cb53a3bd617bce32320da6923305fcbe781514852b76fab5d0f0e654e/databased-2.3.0.tar.gz
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230522/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230522/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [peakachu]: Downloading https://files.pythonhosted.org/packages/72/9a/beda19b9856ad12ede596ab3937ccc63fac95932d416b65fae73946cceb2/peakachu-2.1.tar.gz
+[2023-05-22 03:38:58] INFO root fetch - processPackages [databased]: Downloading https://files.pythonhosted.org/packages/7e/9d/c81d5d98f67d867225775e89e3e0bb4b83bfbe4d6161d9019443151e40d8/databased-2.4.0.tar.gz
+[2023-05-22 03:38:58] INFO root fetch - processPackages [peakachu]: Downloading https://files.pythonhosted.org/packages/b3/c0/e7d4f102651315d1b34300210c41c308dfd246fd35cb53d26d76726116ce/peakachu-2.2.tar.gz
+[2023-05-22 03:38:58] INFO root fetch - processPackages [databased]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [databased]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databased-2.3.0.tar.gz tmp/databased-2.4.0.tar.gz --markdown 20230522/d/databased/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-22 03:38:58] INFO root fetch - processPackages [peakachu]: executing diffoscope
+[2023-05-22 03:38:58] INFO root fetch - processPackages [peakachu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakachu-2.1.tar.gz tmp/peakachu-2.2.tar.gz --markdown 20230522/p/peakachu/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-22 03:38:59] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-22 03:38:59] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-22 03:38:59] INFO root fetch - main [MainThread]: End processing [peakachu]: success
+[2023-05-22 03:38:59] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-22 03:39:00] INFO root fetch - main [MainThread]: End processing [databased]: success
+[2023-05-22 03:39:00] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-22 03:39:00] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-22 03:39:01] INFO root fetch - main [MainThread]: End processing [xuanpolicy]: success
+[2023-05-22 03:39:01] INFO root fetch - main [MainThread]: Store serial: [18191427]
