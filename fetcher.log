@@ -5444,3 +5444,46 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:19:08] INFO root fetch - main [MainThread]: End processing [upconan]: success
 [2023-05-22 07:19:08] INFO root fetch - main [MainThread]: End processing [vfo]: success
 [2023-05-22 07:19:08] INFO root fetch - main [MainThread]: Store serial: [18192532]
+[2023-05-22 07:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192532]
+[2023-05-22 07:24:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensearch-ruby
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packagetenssor
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-encode
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-locations
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MakerToolbox
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fennel-ai
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bpnet-lite
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: srec
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: s3namic
+[2023-05-22 07:24:17] WARNING root fetch - processPackages [packagetenssor]: Skipping, unable to determine old version
+[2023-05-22 07:24:17] INFO root fetch - main [MainThread]: End processing [packagetenssor] error
+[2023-05-22 07:24:17] WARNING root fetch - processPackages [s3namic]: Skipping, unable to determine old version
+[2023-05-22 07:24:17] INFO root fetch - main [MainThread]: End processing [s3namic] error
+[2023-05-22 07:24:17] WARNING root fetch - processPackages [opensearch-ruby]: Skipping, unable to determine old version
+[2023-05-22 07:24:17] INFO root fetch - main [MainThread]: End processing [opensearch-ruby] error
+[2023-05-22 07:24:17] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-22 07:24:17] INFO root fetch - processPackages [simple-locations]: New version: [4.1.0a0] Old Version: [4.0.1a0]
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.76] Old Version: [0.1.75]
+[2023-05-22 07:24:17] WARNING root fetch - processPackages [srec]: Skipping, unable to determine old version
+[2023-05-22 07:24:17] INFO root fetch - main [MainThread]: End processing [srec] error
+[2023-05-22 07:24:17] WARNING root fetch - processPackages [MakerToolbox]: Skipping, unable to determine old version
+[2023-05-22 07:24:17] INFO root fetch - processPackages [bpnet-lite]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-22 07:24:17] INFO root fetch - main [MainThread]: End processing [MakerToolbox] error
+[2023-05-22 07:24:17] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/50/14/b91494f442149ddb216696fb95e1c45ea92f855089de999e63ca2392985d/ansar-encode-0.1.75.tar.gz
+[2023-05-22 07:24:17] INFO root fetch - processPackages [simple-locations]: Downloading https://files.pythonhosted.org/packages/8d/30/836a574c802cf994296316a1f6347002a1553836f0a1a4358ae852736ad8/simple_locations-4.0.1a0.tar.gz
+[2023-05-22 07:24:18] INFO root fetch - processPackages [bpnet-lite]: Downloading https://files.pythonhosted.org/packages/2d/c6/226375493579a4ab4b840950cf7eccadc46be51c6cf397c57174ee30136c/bpnet-lite-0.4.0.tar.gz
+[2023-05-22 07:24:18] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-05-22 07:24:18] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230522/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-22 07:24:18] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/4e/77/05c2a52e1dad2a26363963f51c49c76284b549b07ba3c7b5734654710cec/ansar-encode-0.1.76.tar.gz
+[2023-05-22 07:24:18] INFO root fetch - processPackages [bpnet-lite]: executing diffoscope
+[2023-05-22 07:24:18] INFO root fetch - processPackages [bpnet-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpnet_lite-0.3.2-py3-none-any.whl.zip tmp/bpnet-lite-0.4.0.tar.gz --markdown 20230522/b/bpnet-lite/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 07:24:18] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-05-22 07:24:18] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.75.tar.gz tmp/ansar-encode-0.1.76.tar.gz --markdown 20230522/a/ansar-encode/0.1.75-0.1.76/diff.md --exclude *.pyd
+[2023-05-22 07:24:18] INFO root fetch - processPackages [simple-locations]: Downloading https://files.pythonhosted.org/packages/f6/c4/dcf8fab63d3b01bcd79c838f2c379e017e8275bcddaeb02a8ea09f2d1669/simple_locations-4.1.0a0.tar.gz
+[2023-05-22 07:24:18] INFO root fetch - processPackages [simple-locations]: executing diffoscope
+[2023-05-22 07:24:18] INFO root fetch - processPackages [simple-locations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_locations-4.0.1a0.tar.gz tmp/simple_locations-4.1.0a0.tar.gz --markdown 20230522/s/simple-locations/4.0.1a0-4.1.0a0/diff.md --exclude *.pyd
+[2023-05-22 07:24:19] INFO root fetch - main [MainThread]: End processing [bpnet-lite]: success
+[2023-05-22 07:24:19] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-05-22 07:24:19] INFO root fetch - main [MainThread]: End processing [simple-locations]: success
+[2023-05-22 07:24:21] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-05-22 07:24:21] INFO root fetch - main [MainThread]: Store serial: [18192564]
