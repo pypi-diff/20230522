@@ -5314,3 +5314,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:05:57] INFO root fetch - main [MainThread]: End processing [netcheck]: success
 [2023-05-22 07:05:57] INFO root fetch - main [MainThread]: End processing [jupyter-xblock]: success
 [2023-05-22 07:05:57] INFO root fetch - main [MainThread]: Store serial: [18192465]
+[2023-05-22 07:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192465]
+[2023-05-22 07:11:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krutils
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docchecker
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-edi-pdf2data-oca
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multi-model-server
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicutils
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlink-serverless
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-ubl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-edi
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-ubl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-edi
+[2023-05-22 07:11:06] WARNING root fetch - processPackages [docchecker]: Skipping, unable to determine old version
+[2023-05-22 07:11:06] INFO root fetch - processPackages [docchecker]: Start processing: tflite-model-maker-nightly
+[2023-05-22 07:11:06] INFO root fetch - main [MainThread]: End processing [docchecker] error
+[2023-05-22 07:11:06] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1405] Old Version: [0.20230522.1343]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.4]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: New version: [16.0.20230521.0] Old Version: [16.0.20230323.1]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: New version: [16.0.20230521.0] Old Version: [16.0.20230323.1]
+[2023-05-22 07:11:06] WARNING root fetch - processPackages [odoo14-addon-edi-pdf2data-oca]: Skipping, unable to determine old version
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo14-addon-edi-pdf2data-oca]: Start processing: specmatic
+[2023-05-22 07:11:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-pdf2data-oca] error
+[2023-05-22 07:11:06] INFO root fetch - processPackages [streamlink-serverless]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.4]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [dcicutils]: New version: [7.4.3.5b18] Old Version: [7.4.3.5b17]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230522] Old Version: [1.1.8b20230521]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [specmatic]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305210508] Old Version: [0.4.3.dev202305200508]
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/c1/65/e250643bb02b89cf5f9d8958e5cd4b982cb61d9040100309917163fdd244/odoo_addon_base_ubl-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/c1/65/e250643bb02b89cf5f9d8958e5cd4b982cb61d9040100309917163fdd244/odoo_addon_base_ubl-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-22 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305200508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305210508.tar.gz --markdown 20230522/t/tflite-model-maker-nightly/0.4.3.dev202305200508-0.4.3.dev202305210508/diff.md --exclude *.pyd
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/b7/cf/bd263e087fb845806b03c201fe83e468ad5cdaf327b8fdec4d0771b8eafc/odoo_addons_oca_edi-16.0.20230323.1-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/b7/cf/bd263e087fb845806b03c201fe83e468ad5cdaf327b8fdec4d0771b8eafc/odoo_addons_oca_edi-16.0.20230323.1-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/f4/42/2deb21f2412779cdd23f54e450a58d51eb0b13c835abb25cd8b9286f43ee/dcicutils-7.4.3.5b18.tar.gz
+[2023-05-22 07:11:06] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/9e/fc/98283cd49125c7a39495fd0953671aeab1e5362fc22cc447449f8a61fa51/multi_model_server-1.1.8b20230522-py2.py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/59/59/9802fcb6ca94879f16dd23911eecc6c590491bac890f80a9efb5a3902af7/specmatic-0.3.0.tar.gz
+[2023-05-22 07:11:06] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/f4/69/e3e142be5d3593c1d6a272ce94c57e2901afd267b86a3f2a39962f38dbea/streamlink-serverless-0.0.8.tar.gz
+[2023-05-22 07:11:06] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/38/f8/5fa53a833d1d358e798c63f48362b67f25eab4ba736bf0e485b551a7d2b7/krutils-0.20230522.1405.tar.gz
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/cc/59/f1cebde7f79c37b0766f93c2a88ccc3f5d5364a7975530c018ba03fe0411/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/cc/59/f1cebde7f79c37b0766f93c2a88ccc3f5d5364a7975530c018ba03fe0411/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 07:11:06] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1343.tar.gz tmp/krutils-0.20230522.1405.tar.gz --markdown 20230522/k/krutils/0.20230522.1343-0.20230522.1405/diff.md --exclude *.pyd
+[2023-05-22 07:11:06] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/4e/15/66026e8c81f2fabe021ba052bb6d5f16e136198781a3709410efea7a345f/odoo_addon_base_ubl-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.3.5b17.tar.gz tmp/dcicutils-7.4.3.5b18.tar.gz --markdown 20230522/d/dcicutils/7.4.3.5b17-7.4.3.5b18/diff.md --exclude *.pyd
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: executing diffoscope
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_edi-16.0.20230323.1-py3-none-any.whl.zip tmp/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl.zip --markdown 20230522/o/odoo-addons-oca-edi/16.0.20230323.1-16.0.20230521.0/diff.md --exclude *.pyd
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/4e/15/66026e8c81f2fabe021ba052bb6d5f16e136198781a3709410efea7a345f/odoo_addon_base_ubl-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: executing diffoscope
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addons-oca-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_edi-16.0.20230323.1-py3-none-any.whl.zip tmp/odoo_addons_oca_edi-16.0.20230521.0-py3-none-any.whl.zip --markdown 20230522/o/odoo-addons-oca-edi/16.0.20230323.1-16.0.20230521.0/diff.md --exclude *.pyd
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: executing diffoscope
+[2023-05-22 07:11:06] INFO root fetch - processPackages [odoo-addon-base-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_ubl-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_ubl-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-base-ubl/15.0.1.0.0.4-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-22 07:11:07] INFO root fetch - processPackages [streamlink-serverless]: Downloading https://files.pythonhosted.org/packages/38/68/27939e4527aa4f820fff11a0801161189ae3d676ebeb80bf700ba94779ee/streamlink-serverless-0.0.9.tar.gz
+[2023-05-22 07:11:07] INFO root fetch - processPackages [odoo-addon-base-ubl]: executing diffoscope
+[2023-05-22 07:11:07] INFO root fetch - processPackages [odoo-addon-base-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_ubl-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_ubl-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-base-ubl/15.0.1.0.0.4-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-22 07:11:07] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79085753>=10485760
+[2023-05-22 07:11:07] INFO root fetch - processPackages [specmatic]: Start processing: botdata
+[2023-05-22 07:11:07] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-05-22 07:11:07] INFO root fetch - processPackages [botdata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 07:11:07] INFO root fetch - processPackages [streamlink-serverless]: executing diffoscope
+[2023-05-22 07:11:07] INFO root fetch - processPackages [streamlink-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlink-serverless-0.0.8.tar.gz tmp/streamlink-serverless-0.0.9.tar.gz --markdown 20230522/s/streamlink-serverless/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 07:11:07] INFO root fetch - processPackages [botdata]: Downloading https://files.pythonhosted.org/packages/ee/cd/e9f72cf2906e1cf42787076d778f77762ea9c4c1dccdae629b1f1fbc26a7/botdata-0.1.1.tar.gz
+[2023-05-22 07:11:07] INFO root fetch - processPackages [botdata]: Downloading https://files.pythonhosted.org/packages/05/f5/9d402ba44873a48a594d74248af518749e4e75e0f1344ac158ff580c9c92/botdata-0.1.2.tar.gz
+[2023-05-22 07:11:07] INFO root fetch - processPackages [botdata]: executing diffoscope
+[2023-05-22 07:11:07] INFO root fetch - processPackages [botdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botdata-0.1.1.tar.gz tmp/botdata-0.1.2.tar.gz --markdown 20230522/b/botdata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 07:11:07] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-22 07:11:07] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230521-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230522-py2.py3-none-any.whl.zip --markdown 20230522/m/multi-model-server/1.1.8b20230521-1.1.8b20230522/diff.md --exclude *.pyd
+[2023-05-22 07:11:08] INFO root fetch - processPackages [odoo-addons-oca-edi]: Start processing: tflite-support-nightly
+[2023-05-22 07:11:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-edi]: success
+[2023-05-22 07:11:08] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230520] Old Version: [0.4.4.dev20230519]
+[2023-05-22 07:11:08] INFO root fetch - processPackages [odoo-addons-oca-edi]: Start processing: odoo14-addons-oca-edi
+[2023-05-22 07:11:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-edi]: success
+[2023-05-22 07:11:08] INFO root fetch - processPackages [odoo14-addons-oca-edi]: New version: [14.0.20230521.0] Old Version: [14.0.20230511.0]
+[2023-05-22 07:11:08] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/b1/af/423e02e94dc541579c50e56569691abb99d4af7a6cf6c6d50af5bb07a540/tflite_support_nightly-0.4.4.dev20230519-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-22 07:11:08] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-22 07:11:08] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60850718>=10485760
+[2023-05-22 07:11:08] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-05-22 07:11:08] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 07:11:08] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/93/b5/e591d3620ba540ca343b1629c9dfbec1c08cfec351d786c2a327f65cd43e/odoo14_addons_oca_edi-14.0.20230511.0-py3-none-any.whl
+[2023-05-22 07:11:08] INFO root fetch - main [MainThread]: End processing [botdata]: success
+[2023-05-22 07:11:09] INFO root fetch - processPackages [odoo14-addons-oca-edi]: Downloading https://files.pythonhosted.org/packages/53/bd/32cf7475defb8745b520602ec671dbf6deb668c242e9a9286b164a15d08d/odoo14_addons_oca_edi-14.0.20230521.0-py3-none-any.whl
+[2023-05-22 07:11:09] INFO root fetch - processPackages [odoo14-addons-oca-edi]: executing diffoscope
+[2023-05-22 07:11:09] INFO root fetch - processPackages [odoo14-addons-oca-edi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_edi-14.0.20230511.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_edi-14.0.20230521.0-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addons-oca-edi/14.0.20230511.0-14.0.20230521.0/diff.md --exclude *.pyd
+[2023-05-22 07:11:09] INFO root fetch - main [MainThread]: End processing [streamlink-serverless]: success
+[2023-05-22 07:11:10] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-edi]: success
+[2023-05-22 07:11:10] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-22 07:11:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
+[2023-05-22 07:11:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
+[2023-05-22 07:13:57] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-22 07:13:57] INFO root fetch - main [MainThread]: Store serial: [18192509]
