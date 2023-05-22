@@ -5908,3 +5908,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:15:54] ERROR root fetch - processPackages [enough]: Timeout during execution of pkgdiff
 [2023-05-22 08:15:54] INFO root fetch - main [MainThread]: End processing [enough] error
 [2023-05-22 08:15:54] INFO root fetch - main [MainThread]: Store serial: [18192803]
+[2023-05-22 08:20:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192803]
+[2023-05-22 08:21:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenextra
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revproxy-auth
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py4web
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weconnect-mqtt
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ignos-api-client
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-cloudformation-unxpose-iam-integration-module
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretext
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piwaterflow
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dynamicprompts
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DDesignerAPI
+[2023-05-22 08:21:03] INFO root fetch - processPackages [selenextra]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [cdk-cloudformation-unxpose-iam-integration-module]: New version: [1.1.1a7] Old Version: [1.0.0a7]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [py4web]: New version: [1.20230521.2] Old Version: [1.20230521.1]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ignos-api-client]: New version: [2023.5.22.5244] Old Version: [2023.1.9.4554]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [DDesignerAPI]: New version: [0.0.2.8] Old Version: [0.0.2.7]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [dynamicprompts]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [piwaterflow]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230522] Old Version: [1.5.4.dev20230521]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [weconnect-mqtt]: New version: [0.9.0.dev6] Old Version: [0.9.0.dev5]
+[2023-05-22 08:21:03] INFO root fetch - processPackages [dynamicprompts]: executing diffoscope
+[2023-05-22 08:21:03] INFO root fetch - processPackages [dynamicprompts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicprompts-0.7.0.tar.gz tmp/dynamicprompts-0.7.1.tar.gz --markdown 20230522/d/dynamicprompts/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ignos-api-client]: Downloading https://files.pythonhosted.org/packages/a1/a4/2b9f1233274da3116217a0397c20b1cf520ffcfb8b3c97e9605b4077316d/ignos-api-client-2023.1.9.4554.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/2e/d2/4f258e516258c22b847f2a003038f9ad0e3e0ccaf30061c4f76d5ad9c4ef/weconnect-mqtt-0.9.0.dev5.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/e8/a7/9e702510fd58ebf476c01670ca976cbf17ea9c57a0335fb2d9bd5a736dac/DDesignerAPI-0.0.2.7-py3-none-any.whl
+[2023-05-22 08:21:03] INFO root fetch - processPackages [cdk-cloudformation-unxpose-iam-integration-module]: Downloading https://files.pythonhosted.org/packages/96/0e/fb68dd1d87885c29e6a4d9b9b243171abe481258a3ccc9d73826eaafe609/cdk-cloudformation-unxpose-iam-integration-module-1.0.0a7.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/b7/f1/356270697780322feee858aaa0fb776bbef70aa1897c200b5fd8366f7408/pretext-1.5.4.dev20230522.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/86/f9/bcd0a8c0406c5c188df6477507e9c324e59bbba0864f753dfd6a3442f335/piwaterflow-0.5.3.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [selenextra]: Downloading https://files.pythonhosted.org/packages/da/c8/c9fecbad81a33eb4d338ab8949609b5a7fd6a70b2d4595b7cc3aea8bb5c0/selenextra-1.0.6.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/f1/5f/0ac33d724d55474f1610fe82eddb2f66b1bf8bbe25d36e417a991b7fd55d/py4web-1.20230521.2.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [selenextra]: executing diffoscope
+[2023-05-22 08:21:03] INFO root fetch - processPackages [selenextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenextra-1.0.5.tar.gz tmp/selenextra-1.0.6.tar.gz --markdown 20230522/s/selenextra/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-22 08:21:03] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/50/53/9d7809c514850b1e42de0fe175374d59da238b6f630dfd82eb6f9e44d3fc/revproxy_auth-0.1.1.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [DDesignerAPI]: Downloading https://files.pythonhosted.org/packages/ec/1f/0327278b93e7d649d6a95e31ca97caa361f5347f13b3da5114a39387267f/DDesignerAPI-0.0.2.8-py3-none-any.whl
+[2023-05-22 08:21:03] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-05-22 08:21:03] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.1.0.tar.gz tmp/revproxy_auth-0.1.1.tar.gz --markdown 20230522/r/revproxy-auth/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 08:21:03] INFO root fetch - processPackages [piwaterflow]: Downloading https://files.pythonhosted.org/packages/4f/dd/b69635c0a9c899ac5a4addab6895e5922471b88a3b72894d947d8a23fc9a/piwaterflow-0.5.4.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [cdk-cloudformation-unxpose-iam-integration-module]: Downloading https://files.pythonhosted.org/packages/1f/bb/ea68366aab089a230ea81d5ca1ee41a723c37f8ac22082535b2b58619174/cdk-cloudformation-unxpose-iam-integration-module-1.1.1a7.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [weconnect-mqtt]: Downloading https://files.pythonhosted.org/packages/5c/b8/26908f029bd8637cfc5ca40a4b8605fc3e7a651ed5ff373299b0e7289193/weconnect-mqtt-0.9.0.dev6.tar.gz
+[2023-05-22 08:21:03] INFO root fetch - processPackages [ignos-api-client]: Downloading https://files.pythonhosted.org/packages/58/d4/83a244b028ce6ad0e0fa8cc35d3e31a62d2dc62ed951d4d5d96d2ddada52/ignos-api-client-2023.5.22.5244.tar.gz
+[2023-05-22 08:21:04] INFO root fetch - processPackages [DDesignerAPI]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [DDesignerAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DDesignerAPI-0.0.2.7-py3-none-any.whl.zip tmp/DDesignerAPI-0.0.2.8-py3-none-any.whl.zip --markdown 20230522/D/DDesignerAPI/0.0.2.7-0.0.2.8/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [piwaterflow]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [piwaterflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwaterflow-0.5.3.tar.gz tmp/piwaterflow-0.5.4.tar.gz --markdown 20230522/p/piwaterflow/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230521.tar.gz tmp/pretext-1.5.4.dev20230522.tar.gz --markdown 20230522/p/pretext/1.5.4.dev20230521-1.5.4.dev20230522/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [cdk-cloudformation-unxpose-iam-integration-module]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [cdk-cloudformation-unxpose-iam-integration-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-unxpose-iam-integration-module-1.0.0a7.tar.gz tmp/cdk-cloudformation-unxpose-iam-integration-module-1.1.1a7.tar.gz --markdown 20230522/c/cdk-cloudformation-unxpose-iam-integration-module/1.0.0a7-1.1.1a7/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [weconnect-mqtt]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [weconnect-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weconnect-mqtt-0.9.0.dev5.tar.gz tmp/weconnect-mqtt-0.9.0.dev6.tar.gz --markdown 20230522/w/weconnect-mqtt/0.9.0.dev5-0.9.0.dev6/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [ignos-api-client]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [ignos-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignos-api-client-2023.1.9.4554.tar.gz tmp/ignos-api-client-2023.5.22.5244.tar.gz --markdown 20230522/i/ignos-api-client/2023.1.9.4554-2023.5.22.5244/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2023-05-22 08:21:04] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20230521.1.tar.gz tmp/py4web-1.20230521.2.tar.gz --markdown 20230522/p/py4web/1.20230521.1-1.20230521.2/diff.md --exclude *.pyd
+[2023-05-22 08:21:04] INFO root fetch - processPackages [dynamicprompts]: Start processing: NuOCR
+[2023-05-22 08:21:04] INFO root fetch - main [MainThread]: End processing [dynamicprompts]: success
+[2023-05-22 08:21:04] INFO root fetch - processPackages [NuOCR]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-22 08:21:04] INFO root fetch - processPackages [selenextra]: Start processing: auto-codebase-documenter
+[2023-05-22 08:21:04] INFO root fetch - main [MainThread]: End processing [selenextra]: success
+[2023-05-22 08:21:04] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.9] Old Version: [0.8]
+[2023-05-22 08:21:05] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/9f/4e/e1c8abf37f81ee3ebc6e50ff5eb6aee454c87b3c63b64c97bd5c21afd9df/auto-codebase-documenter-0.9.tar.gz
+[2023-05-22 08:21:05] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/99/ab/f03c8a8f61dcbfcff6f8d1ea30c114d93129f8b68d9427b797e003c83b6c/NuOCR-0.2.5.tar.gz
+[2023-05-22 08:21:05] INFO root fetch - processPackages [revproxy-auth]: Start processing: maxsmart
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-05-22 08:21:05] WARNING root fetch - processPackages [maxsmart]: Skipping, unable to determine old version
+[2023-05-22 08:21:05] INFO root fetch - processPackages [maxsmart]: Start processing: wordlink
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [maxsmart] error
+[2023-05-22 08:21:05] WARNING root fetch - processPackages [wordlink]: Skipping, unable to determine old version
+[2023-05-22 08:21:05] INFO root fetch - processPackages [wordlink]: Start processing: renus
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [wordlink] error
+[2023-05-22 08:21:05] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 08:21:05] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.8.tar.gz tmp/auto-codebase-documenter-0.9.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-22 08:21:05] INFO root fetch - processPackages [NuOCR]: executing diffoscope
+[2023-05-22 08:21:05] INFO root fetch - processPackages [NuOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuOCR-0.2.4.tar.gz tmp/NuOCR-0.2.5.tar.gz --markdown 20230522/N/NuOCR/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [piwaterflow]: success
+[2023-05-22 08:21:05] INFO root fetch - processPackages [renus]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-22 08:21:05] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/d3/7f/28f2a1a42c12b58a9de678287d750b65167136ccb0053221c9ca43e88829/renus-1.1.4.tar.gz
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [DDesignerAPI]: success
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [weconnect-mqtt]: success
+[2023-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-unxpose-iam-integration-module]: success
+[2023-05-22 08:21:06] INFO root fetch - processPackages [renus]: Downloading https://files.pythonhosted.org/packages/ce/23/df94fa05ece4b430fd3fb2ec76f80f1682e3aec0f5ec01ff6d658172d784/renus-1.1.5.tar.gz
+[2023-05-22 08:21:06] INFO root fetch - processPackages [renus]: executing diffoscope
+[2023-05-22 08:21:06] INFO root fetch - processPackages [renus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renus-1.1.4.tar.gz tmp/renus-1.1.5.tar.gz --markdown 20230522/r/renus/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-22 08:21:06] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 08:21:06] INFO root fetch - main [MainThread]: End processing [ignos-api-client]: success
+[2023-05-22 08:21:07] INFO root fetch - main [MainThread]: End processing [NuOCR]: success
+[2023-05-22 08:21:07] INFO root fetch - main [MainThread]: End processing [renus]: success
+[2023-05-22 08:21:08] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-22 08:21:19] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2023-05-22 08:21:19] INFO root fetch - main [MainThread]: Store serial: [18192845]
