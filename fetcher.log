@@ -9067,3 +9067,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:13:13] INFO root fetch - main [MainThread]: End processing [metobs-toolkit]: success
 [2023-05-22 11:14:03] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-22 11:14:03] INFO root fetch - main [MainThread]: Store serial: [18194624]
+[2023-05-22 11:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194624]
+[2023-05-22 11:19:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-code-ui
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oc-cdtapi
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstream
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-quant-reservation-info
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu121
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nkululeko
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tomotwin-cryoet
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvfuser-cu118
+[2023-05-22 11:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GrappyLfjv
+[2023-05-22 11:19:13] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [rstream]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info]: New version: [14.0.1.0.6] Old Version: [14.0.1.0.5]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [nkululeko]: New version: [0.45.5] Old Version: [0.45.3]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [GrappyLfjv]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [tomotwin-cryoet]: New version: [0.4.3b1] Old Version: [0.4.3]
+[2023-05-22 11:19:13] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-22 11:19:14] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230522] Old Version: [2.14.0.dev20230521]
+[2023-05-22 11:19:14] INFO root fetch - processPackages [tomotwin-cryoet]: Downloading https://files.pythonhosted.org/packages/82/cf/ec4fbb6878a09507d323f60a8d541e2c7e34d8438a710a2c249bdfa4182f/tomotwin-cryoet-0.4.3.tar.gz
+[2023-05-22 11:19:14] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/61/49/0b81532bbd7463ca23e4d83f655dfedc75b6a6682848072628c9baaea3ae/rstream-0.6.0.tar.gz
+[2023-05-22 11:19:14] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info]: Downloading https://files.pythonhosted.org/packages/52/17/2cd1342ed24f255b0a3d7ce4827fb2357021e17b4f84da085915ee88085f/odoo14_addon_stock_quant_reservation_info-14.0.1.0.5-py3-none-any.whl
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/30/3e/b95ccfde0901e2857226f234d604830783b3ecd9ec5cb1da53f2d4d162b5/nkululeko-0.45.5.tar.gz
+[2023-05-22 11:19:14] INFO root fetch - processPackages [GrappyLfjv]: Downloading https://files.pythonhosted.org/packages/9a/86/6e059e2278f96dd18fb127fa2bac20659c8289169df24f43f4d06446ae4d/GrappyLfjv-0.0.20.tar.gz
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.45.3.tar.gz tmp/nkululeko-0.45.5.tar.gz --markdown 20230522/n/nkululeko/0.45.3-0.45.5/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230522/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [GrappyLfjv]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [GrappyLfjv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrappyLfjv-0.0.19.tar.gz tmp/GrappyLfjv-0.0.20.tar.gz --markdown 20230522/G/GrappyLfjv/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/23/d2/cfea23611bb748f558b8d355ef4cba3ae94123bd0259a8822949707262b7/oc_cdtapi-3.9.2-py3-none-any.whl
+[2023-05-22 11:19:14] INFO root fetch - processPackages [rstream]: Downloading https://files.pythonhosted.org/packages/3e/29/907b74d0c24f7532c00d105c3210171e0a315debf55c88a8db49ec99a0d4/rstream-0.7.0.tar.gz
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230522/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.9.1-py3-none-any.whl.zip tmp/oc_cdtapi-3.9.2-py3-none-any.whl.zip --markdown 20230522/o/oc-cdtapi/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info]: Downloading https://files.pythonhosted.org/packages/e3/26/a631905c46df0a3ba415c75fe9afc914b2bd44edfeff383d938f263fbe0f/odoo14_addon_stock_quant_reservation_info-14.0.1.0.6-py3-none-any.whl
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230522/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] WARNING root fetch - processPackages [tomotwin-cryoet]: Skipping package: exceeds size limit 52112433>=10485760
+[2023-05-22 11:19:14] INFO root fetch - processPackages [tomotwin-cryoet]: Start processing: shaperglot
+[2023-05-22 11:19:14] INFO root fetch - main [MainThread]: End processing [tomotwin-cryoet] error
+[2023-05-22 11:19:14] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_quant_reservation_info-14.0.1.0.5-py3-none-any.whl.zip tmp/odoo14_addon_stock_quant_reservation_info-14.0.1.0.6-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-stock-quant-reservation-info/14.0.1.0.5-14.0.1.0.6/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c1/20/d94b451d79b938b04a507702931316ed8a6620946a178eea52b064eb4b44/tf_nightly-2.14.0.dev20230522-cp39-cp39-win_amd64.whl
+[2023-05-22 11:19:14] INFO root fetch - processPackages [rstream]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [rstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstream-0.6.0.tar.gz tmp/rstream-0.7.0.tar.gz --markdown 20230522/r/rstream/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] WARNING root fetch - processPackages [shaperglot]: Skipping, unable to determine old version
+[2023-05-22 11:19:14] INFO root fetch - processPackages [shaperglot]: Start processing: pubtools-iib
+[2023-05-22 11:19:14] INFO root fetch - main [MainThread]: End processing [shaperglot] error
+[2023-05-22 11:19:14] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-05-22 11:19:14] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230521-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230522-cp39-cp39-win_amd64.whl.zip --markdown 20230522/t/tf-nightly/2.14.0.dev20230521-2.14.0.dev20230522/diff.md --exclude *.pyd
+[2023-05-22 11:19:14] INFO root fetch - processPackages [pubtools-iib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 11:19:14] INFO root fetch - processPackages [pubtools-iib]: Downloading https://files.pythonhosted.org/packages/d5/49/08f98e810758a708556b164ace3087eff070448272b1a6e6f7c44ea46965/pubtools-iib-0.8.0.tar.gz
+[2023-05-22 11:19:15] INFO root fetch - processPackages [pubtools-iib]: Downloading https://files.pythonhosted.org/packages/5b/e2/4385174d08e15ecddd7863e287fc416693c819235d9ea13f377bcd2b879e/pubtools-iib-0.9.0.tar.gz
+[2023-05-22 11:19:15] INFO root fetch - processPackages [pubtools-iib]: executing diffoscope
+[2023-05-22 11:19:15] INFO root fetch - processPackages [pubtools-iib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-iib-0.8.0.tar.gz tmp/pubtools-iib-0.9.0.tar.gz --markdown 20230522/p/pubtools-iib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 11:19:15] INFO root fetch - processPackages [GrappyLfjv]: Start processing: nvfuser-cu117
+[2023-05-22 11:19:15] INFO root fetch - main [MainThread]: End processing [GrappyLfjv]: success
+[2023-05-22 11:19:15] INFO root fetch - processPackages [odoo14-addon-stock-quant-reservation-info]: Start processing: auto-screener
+[2023-05-22 11:19:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-quant-reservation-info]: success
+[2023-05-22 11:19:15] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-05-22 11:19:15] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:19:15] INFO root fetch - processPackages [oc-cdtapi]: Start processing: django-blob-storage
+[2023-05-22 11:19:15] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-05-22 11:19:15] INFO root fetch - processPackages [tf-nightly]: Start processing: dipex
+[2023-05-22 11:19:15] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-05-22 11:19:15] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-22 11:19:15] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230522/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:19:16] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-22 11:19:16] INFO root fetch - processPackages [gpt-code-ui]: Start processing: plotguy
+[2023-05-22 11:19:16] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-22 11:19:16] INFO root fetch - processPackages [plotguy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-22 11:19:16] WARNING root fetch - processPackages [django-blob-storage]: Skipping, unable to determine old version
+[2023-05-22 11:19:16] INFO root fetch - processPackages [django-blob-storage]: Start processing: gpt-code-ui
+[2023-05-22 11:19:16] INFO root fetch - main [MainThread]: End processing [django-blob-storage] error
+[2023-05-22 11:19:16] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-22 11:19:16] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-22 11:19:16] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230522/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-22 11:19:16] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-05-22 11:19:16] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.0.7.tar.gz tmp/plotguy-1.0.8.tar.gz --markdown 20230522/p/plotguy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 11:19:16] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-22 11:19:16] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230522/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-22 11:19:16] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-05-22 11:19:16] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230522/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-05-22 11:19:16] INFO root fetch - main [MainThread]: End processing [rstream]: success
+[2023-05-22 11:19:16] INFO root fetch - main [MainThread]: End processing [pubtools-iib]: success
+[2023-05-22 11:19:16] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-05-22 11:19:17] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-22 11:19:17] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-05-22 11:19:17] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-22 11:19:18] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-22 11:19:18] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-05-22 11:19:19] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-05-22 11:19:19] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-05-22 11:19:19] INFO root fetch - main [MainThread]: Store serial: [18194686]
