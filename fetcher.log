@@ -5759,3 +5759,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:56:59] INFO root fetch - main [MainThread]: End processing [pytest-tally]: success
 [2023-05-22 07:57:00] INFO root fetch - main [MainThread]: End processing [aiges]: success
 [2023-05-22 07:57:00] INFO root fetch - main [MainThread]: Store serial: [18192736]
+[2023-05-22 08:02:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192736]
+[2023-05-22 08:02:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-22 08:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlueWhale3-Text
+[2023-05-22 08:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-role
+[2023-05-22 08:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CADPR
+[2023-05-22 08:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-05-22 08:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tldrwl
+[2023-05-22 08:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cast
+[2023-05-22 08:02:09] INFO root fetch - processPackages [BlueWhale3-Text]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-22 08:02:09] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 08:02:09] INFO root fetch - processPackages [tldrwl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 08:02:09] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 08:02:09] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-22 08:02:09] INFO root fetch - processPackages [django-cast]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 08:02:09] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 08:02:09] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 08:02:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-22 08:02:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-22 08:02:09] INFO root fetch - processPackages [BlueWhale3-Text]: Downloading https://files.pythonhosted.org/packages/ad/29/4d5019ef4b5f8d110ec454f458d6b9fc0289461215759674b3949940b97d/BlueWhale3-Text-1.5.0.tar.gz
+[2023-05-22 08:02:09] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/5b/a5/2c72f1ae55a983fb8734bb015f83c0e5fe97c254e7b2869f94afb8e781ff/tldrwl-0.0.3.tar.gz
+[2023-05-22 08:02:10] INFO root fetch - processPackages [django-cast]: Downloading https://files.pythonhosted.org/packages/08/d0/6455a8c6cc1a455997e400140263ce181dbcef2b961935fa657f84fa4304/django-cast-0.2.8.tar.gz
+[2023-05-22 08:02:10] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-05-22 08:02:10] WARNING root fetch - processPackages [BlueWhale3-Text]: Skipping package: exceeds size limit 24865259>=10485760
+[2023-05-22 08:02:10] INFO root fetch - main [MainThread]: End processing [BlueWhale3-Text] error
+[2023-05-22 08:02:10] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/c8/47/c774fd2952d814d93d36386cdacc0436b422223bdc28741796249d3bd0a2/tldrwl-0.0.4.tar.gz
+[2023-05-22 08:02:10] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-22 08:02:10] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.3.tar.gz tmp/tldrwl-0.0.4.tar.gz --markdown 20230522/t/tldrwl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 08:02:10] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-05-22 08:02:10] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-05-22 08:02:10] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230522/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 08:02:10] INFO root fetch - processPackages [django-cast]: Downloading https://files.pythonhosted.org/packages/1e/ba/729f0c86f18455387a69c10dd88886e8da0093c7771abb6bd65065a7b70c/django-cast-0.2.9.tar.gz
+[2023-05-22 08:02:10] INFO root fetch - processPackages [django-cast]: executing diffoscope
+[2023-05-22 08:02:10] INFO root fetch - processPackages [django-cast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cast-0.2.8.tar.gz tmp/django-cast-0.2.9.tar.gz --markdown 20230522/d/django-cast/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 08:02:10] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 08:02:11] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-22 08:02:11] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-05-22 08:02:14] INFO root fetch - main [MainThread]: End processing [django-cast]: success
+[2023-05-22 08:02:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-22 08:02:14] INFO root fetch - main [MainThread]: Store serial: [18192753]
