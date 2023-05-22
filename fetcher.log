@@ -939,3 +939,73 @@
 [2023-05-22 02:02:47] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
 [2023-05-22 02:02:47] INFO root fetch - main [MainThread]: End processing [scrollingtext]: success
 [2023-05-22 02:02:47] INFO root fetch - main [MainThread]: Store serial: [18190011]
+[2023-05-22 02:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18190011]
+[2023-05-22 02:07:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 02:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2023-05-22 02:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-05-22 02:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqueduct-py
+[2023-05-22 02:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oknpatch
+[2023-05-22 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-AutoMLPlus
+[2023-05-22 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-05-22 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nigeria-banks
+[2023-05-22 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tccli
+[2023-05-22 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dea-tools
+[2023-05-22 02:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaxutils-nightly
+[2023-05-22 02:07:56] WARNING root fetch - processPackages [aqueduct-py]: Skipping, unable to determine old version
+[2023-05-22 02:07:56] INFO root fetch - processPackages [aqueduct-py]: Start processing: torchlayers-nightly
+[2023-05-22 02:07:56] INFO root fetch - main [MainThread]: End processing [aqueduct-py] error
+[2023-05-22 02:07:56] INFO root fetch - processPackages [my-AutoMLPlus]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [oknpatch]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [nigeria-banks]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev96] Old Version: [0.2.8.dev95]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230521] Old Version: [0.0.8.dev20230520]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1684627408] Old Version: [1684540990]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1684627659] Old Version: [1684541208]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-22 02:07:56] INFO root fetch - processPackages [oknpatch]: Downloading https://files.pythonhosted.org/packages/0f/6b/d37c0ee6e550f61fba86ccb51bad07b31f5110d0d8d159db4c0058c2d222/oknpatch-1.0.2.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230522/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230522/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [my-AutoMLPlus]: Downloading https://files.pythonhosted.org/packages/30/67/e820acdc3d9daf7a61eb333ec807318d320d3f444a52d2de9deb729b4bc5/my_AutoMLPlus-0.0.8.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/11/a4/353555d8c76c199ff1ade61293ed90bf515977f12af2758cad0126e9c72f/jaxutils-nightly-0.0.8.dev20230521.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [nigeria-banks]: Downloading https://files.pythonhosted.org/packages/78/ee/44b872339e3ab7d1cf72df96c4dabb5758c0a1fdab1b36118acb12b67925/nigeria_banks-0.1.6.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/a5/8f/e6c38c4a30e34e27c73d390677fb69b536831fdf18ceac5323ec7e5952f2/dea-tools-0.2.8.dev96.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/90/79/3394d411be56d11ae31a245b52e0f173bfaca4cb3a9ee23296665f7ae877/torchdatasets-nightly-1684627408.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [my-AutoMLPlus]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [my-AutoMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_AutoMLPlus-0.0.7.tar.gz tmp/my_AutoMLPlus-0.0.8.tar.gz --markdown 20230522/m/my-AutoMLPlus/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230520.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230521.tar.gz --markdown 20230522/j/jaxutils-nightly/0.0.8.dev20230520-0.0.8.dev20230521/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/d1/ae/0ea32e3e6a7397cfecef1e9e502c0f4b69c35a21066ff6bd01804508111d/torchlayers-nightly-1684627659.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [oknpatch]: Downloading https://files.pythonhosted.org/packages/b5/e1/2dd2da3a653df798723bbea3749340224f70eaa53f4afb174de7f3a0a188/oknpatch-2.0.0.tar.gz
+[2023-05-22 02:07:56] INFO root fetch - processPackages [nigeria-banks]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [nigeria-banks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nigeria_banks-0.1.5.tar.gz tmp/nigeria_banks-0.1.6.tar.gz --markdown 20230522/n/nigeria-banks/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1684540990.tar.gz tmp/torchdatasets-nightly-1684627408.tar.gz --markdown 20230522/t/torchdatasets-nightly/1684540990-1684627408/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1684541208.tar.gz tmp/torchlayers-nightly-1684627659.tar.gz --markdown 20230522/t/torchlayers-nightly/1684541208-1684627659/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230522/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev95.tar.gz tmp/dea-tools-0.2.8.dev96.tar.gz --markdown 20230522/d/dea-tools/0.2.8.dev95-0.2.8.dev96/diff.md --exclude *.pyd
+[2023-05-22 02:07:56] INFO root fetch - processPackages [oknpatch]: executing diffoscope
+[2023-05-22 02:07:56] INFO root fetch - processPackages [oknpatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oknpatch-1.0.2.tar.gz tmp/oknpatch-2.0.0.tar.gz --markdown 20230522/o/oknpatch/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-05-22 02:07:57] INFO root fetch - processPackages [my-AutoMLPlus]: Start processing: exergenics
+[2023-05-22 02:07:57] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
+[2023-05-22 02:07:57] INFO root fetch - processPackages [exergenics]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-22 02:07:57] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-22 02:07:58] INFO root fetch - main [MainThread]: End processing [oknpatch]: success
+[2023-05-22 02:07:58] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-22 02:07:58] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-05-22 02:07:58] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/03/2f/9dbdb120cb4f04dbc4bd713ec71a76f943eb731f39d525dde2f8a478a5df/exergenics-2.9-py3-none-any.whl
+[2023-05-22 02:07:58] INFO root fetch - main [MainThread]: End processing [nigeria-banks]: success
+[2023-05-22 02:07:58] INFO root fetch - processPackages [exergenics]: executing diffoscope
+[2023-05-22 02:07:58] INFO root fetch - processPackages [exergenics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-2.8.0.tar.gz tmp/exergenics-2.9-py3-none-any.whl.zip --markdown 20230522/e/exergenics/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-22 02:07:58] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-22 02:07:58] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-22 02:07:59] INFO root fetch - main [MainThread]: End processing [exergenics]: success
+[2023-05-22 02:08:03] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-05-22 02:08:07] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-22 02:08:07] INFO root fetch - main [MainThread]: Store serial: [18190048]
