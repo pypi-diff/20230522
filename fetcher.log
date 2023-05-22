@@ -6099,3 +6099,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:31:44] INFO root fetch - main [MainThread]: End processing [piwwwaterflow]: success
 [2023-05-22 08:31:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-22 08:31:48] INFO root fetch - main [MainThread]: Store serial: [18192888]
+[2023-05-22 08:36:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192888]
+[2023-05-22 08:36:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wallycore
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xgh-retrive-texts-from-dwgs
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywhu3d
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyPhases
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nshuman-python
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seamoney-secsdk
+[2023-05-22 08:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-watch
+[2023-05-22 08:36:57] WARNING root fetch - processPackages [xgh-retrive-texts-from-dwgs]: Skipping, unable to determine old version
+[2023-05-22 08:36:57] INFO root fetch - main [MainThread]: End processing [xgh-retrive-texts-from-dwgs] error
+[2023-05-22 08:36:57] INFO root fetch - processPackages [pyPhases]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-22 08:36:57] WARNING root fetch - processPackages [nshuman-python]: Skipping, unable to determine old version
+[2023-05-22 08:36:57] INFO root fetch - main [MainThread]: End processing [nshuman-python] error
+[2023-05-22 08:36:57] INFO root fetch - processPackages [pywhu3d]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-22 08:36:57] WARNING root fetch - processPackages [seamoney-secsdk]: Skipping, unable to determine old version
+[2023-05-22 08:36:57] INFO root fetch - main [MainThread]: End processing [seamoney-secsdk] error
+[2023-05-22 08:36:57] INFO root fetch - processPackages [wallycore]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-22 08:36:57] INFO root fetch - processPackages [MeUtils]: New version: [2023.5.9.15.50.17] Old Version: [2023.5.5.13.0.43]
+[2023-05-22 08:36:57] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-22 08:36:58] INFO root fetch - processPackages [django-watch]: New version: [0.5.3] Old Version: [0.5.2.1]
+[2023-05-22 08:36:58] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-22 08:36:58] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230522/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-22 08:36:58] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-05-22 08:36:58] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.5.5.13.0.43.tar.gz tmp/MeUtils-2023.5.9.15.50.17.tar.gz --markdown 20230522/M/MeUtils/2023.5.5.13.0.43-2023.5.9.15.50.17/diff.md --exclude *.pyd
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/97/65/4ea366f9f28e1a51999188aae13f6e0fd34ca465ec2f5111da067890a8a8/pywhu3d-0.2.2-py3-none-any.whl
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pyPhases]: Downloading https://files.pythonhosted.org/packages/41/4a/2e6976f1b158bf45f517d4c7c0aa44c2b141382b907346d79cc8beddf721/pyPhases-1.1.9.tar.gz
+[2023-05-22 08:36:58] INFO root fetch - processPackages [wallycore]: Downloading https://files.pythonhosted.org/packages/6f/37/2f44617bd8293e063ac90040724a891f496f56466d79d70a52909f7c38a3/wallycore-0.8.9-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-22 08:36:58] INFO root fetch - processPackages [django-watch]: Downloading https://files.pythonhosted.org/packages/0f/1c/ad0781bc07cb4bdacaa3deef0e63ea6b9e93557006d68b15edf20e051a15/django_watch-0.5.2.1-py3-none-any.whl
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/9b/da/3b5585c96bfa354dba45d9557e3bf92ca77ded42fe015cc0ac2c8433b3f0/pywhu3d-0.2.3-py3-none-any.whl
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pyPhases]: Downloading https://files.pythonhosted.org/packages/6c/82/bac898327fb415f19034614b3bde169b74bb853380f37ad3fc43e9e17a4d/pyPhases-1.2.0.tar.gz
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pywhu3d]: executing diffoscope
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pywhu3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhu3d-0.2.2-py3-none-any.whl.zip tmp/pywhu3d-0.2.3-py3-none-any.whl.zip --markdown 20230522/p/pywhu3d/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-22 08:36:58] INFO root fetch - processPackages [wallycore]: Downloading https://files.pythonhosted.org/packages/08/e2/cf7b2094d45052ea677eab153ce0dcc5077d5c1ac7284b4f3f76a6f37a88/wallycore-0.9.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pyPhases]: executing diffoscope
+[2023-05-22 08:36:58] INFO root fetch - processPackages [pyPhases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhases-1.1.9.tar.gz tmp/pyPhases-1.2.0.tar.gz --markdown 20230522/p/pyPhases/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-22 08:36:58] INFO root fetch - processPackages [django-watch]: Downloading https://files.pythonhosted.org/packages/7f/2f/5c3755f5a2bd40adc43199824653a859e3ec9bd0e5d1d19ceecaead9cd47/django_watch-0.5.3-py3-none-any.whl
+[2023-05-22 08:36:58] INFO root fetch - processPackages [django-watch]: executing diffoscope
+[2023-05-22 08:36:58] INFO root fetch - processPackages [django-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_watch-0.5.2.1-py3-none-any.whl.zip tmp/django_watch-0.5.3-py3-none-any.whl.zip --markdown 20230522/d/django-watch/0.5.2.1-0.5.3/diff.md --exclude *.pyd
+[2023-05-22 08:36:58] INFO root fetch - processPackages [wallycore]: executing diffoscope
+[2023-05-22 08:36:58] INFO root fetch - processPackages [wallycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallycore-0.8.9-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/wallycore-0.9.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230522/w/wallycore/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 08:36:59] INFO root fetch - main [MainThread]: End processing [pywhu3d]: success
+[2023-05-22 08:36:59] INFO root fetch - main [MainThread]: End processing [django-watch]: success
+[2023-05-22 08:36:59] INFO root fetch - main [MainThread]: End processing [pyPhases]: success
+[2023-05-22 08:36:59] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-22 08:37:03] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-05-22 08:37:06] INFO root fetch - main [MainThread]: End processing [wallycore]: success
+[2023-05-22 08:37:06] INFO root fetch - main [MainThread]: Store serial: [18192950]
