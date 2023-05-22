@@ -5798,3 +5798,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:02:14] INFO root fetch - main [MainThread]: End processing [django-cast]: success
 [2023-05-22 08:02:14] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-22 08:02:14] INFO root fetch - main [MainThread]: Store serial: [18192753]
+[2023-05-22 08:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192753]
+[2023-05-22 08:07:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3namic
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-stlr
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intelliw
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leap-model-parser
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swachhdata
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-codebase-documenter
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selenextra
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metaphor-connectors
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyg-nightly
+[2023-05-22 08:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: appletree
+[2023-05-22 08:07:23] INFO root fetch - processPackages [s3namic]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [swachhdata]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [intelliw]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [antchain-stlr]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.7] Old Version: [0.6]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [selenextra]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [appletree]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.98] Old Version: [0.1.97]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230521] Old Version: [2.4.0.dev20230520]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-22 08:07:23] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-22 08:07:23] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.97.tar.gz tmp/leap_model_parser-0.1.98.tar.gz --markdown 20230522/l/leap-model-parser/0.1.97-0.1.98/diff.md --exclude *.pyd
+[2023-05-22 08:07:23] INFO root fetch - processPackages [s3namic]: Downloading https://files.pythonhosted.org/packages/a8/e6/254fc70cdea9a0d09782655cf9099ea322973c670b4bb337e1640796512b/s3namic-0.0.4.tar.gz
+[2023-05-22 08:07:23] INFO root fetch - processPackages [selenextra]: Downloading https://files.pythonhosted.org/packages/4a/8f/0ceb4a2b20d2f0e6deff76505903d7292b162a1d4de4cbccf908c0b0cf14/selenextra-1.0.4.tar.gz
+[2023-05-22 08:07:23] INFO root fetch - processPackages [swachhdata]: Downloading https://files.pythonhosted.org/packages/75/93/62ff32549463695683df5cf03d000f7946b4417d55e1d5369e1f4187abba/swachhdata-2.0.0rc2-py3-none-any.whl
+[2023-05-22 08:07:23] INFO root fetch - processPackages [appletree]: Downloading https://files.pythonhosted.org/packages/1a/54/59c1d004351098819bbed14c5b9b46ed41c0e7c8807ddd2543b74ac9caf6/appletree-0.2.0.tar.gz
+[2023-05-22 08:07:23] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/05/7d/c2340a75f06c53eebe46672b22c7130225aeb2182d9aa22946980cccdb47/auto-codebase-documenter-0.7.tar.gz
+[2023-05-22 08:07:23] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/9a/ce/20850d455cee55870f68b4c52538dfbcad9360bd19b3fe310f2060fc3b4e/intelliw-1.2.8-py3-none-any.whl
+[2023-05-22 08:07:23] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/18/5d/854ea03eb623cdadb0845c25a92b2511876a578cd80ba59e7e97b0e154a0/pyg_nightly-2.4.0.dev20230521.tar.gz
+[2023-05-22 08:07:23] INFO root fetch - processPackages [s3namic]: executing diffoscope
+[2023-05-22 08:07:23] INFO root fetch - processPackages [s3namic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3namic-0.0.3.tar.gz tmp/s3namic-0.0.4.tar.gz --markdown 20230522/s/s3namic/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 08:07:23] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 08:07:23] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.6.tar.gz tmp/auto-codebase-documenter-0.7.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [swachhdata]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [swachhdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swachhdata-2.0.0rc1-py3-none-any.whl.zip tmp/swachhdata-2.0.0rc2-py3-none-any.whl.zip --markdown 20230522/s/swachhdata/2.0.0rc1-2.0.0rc2/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/53/68/09cb05cff891e757d824d3553677f134ddebb312519e032691a4237dbbc6/antchain_stlr-2.2.1.tar.gz
+[2023-05-22 08:07:24] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230522/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [selenextra]: Downloading https://files.pythonhosted.org/packages/b3/cf/d660c16954dbcad31f4c6957f5ad635eba524f8d773796950bb526dac870/selenextra-1.0.5.tar.gz
+[2023-05-22 08:07:24] INFO root fetch - processPackages [appletree]: Downloading https://files.pythonhosted.org/packages/f6/50/bfced6303d9c231313efba25a1db010a2722141ed8ae0a8b478a1eadd27c/appletree-0.2.1.tar.gz
+[2023-05-22 08:07:24] INFO root fetch - processPackages [antchain-stlr]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [antchain-stlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_stlr-2.2.0.tar.gz tmp/antchain_stlr-2.2.1.tar.gz --markdown 20230522/a/antchain-stlr/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230520.tar.gz tmp/pyg_nightly-2.4.0.dev20230521.tar.gz --markdown 20230522/p/pyg-nightly/2.4.0.dev20230520-2.4.0.dev20230521/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [selenextra]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [selenextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenextra-1.0.4.tar.gz tmp/selenextra-1.0.5.tar.gz --markdown 20230522/s/selenextra/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/56/39/8c9d9f02f068eb32b537f84561688a3542e0d77b426f926f06943dd7238a/intelliw-1.2.9-py3-none-any.whl
+[2023-05-22 08:07:24] INFO root fetch - processPackages [appletree]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [appletree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appletree-0.2.0.tar.gz tmp/appletree-0.2.1.tar.gz --markdown 20230522/a/appletree/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 08:07:24] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2023-05-22 08:07:24] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-1.2.8-py3-none-any.whl.zip tmp/intelliw-1.2.9-py3-none-any.whl.zip --markdown 20230522/i/intelliw/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-22 08:07:25] INFO root fetch - processPackages [auto-codebase-documenter]: Start processing: hcpdiff
+[2023-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 08:07:25] INFO root fetch - processPackages [hcpdiff]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [swachhdata]: success
+[2023-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [s3namic]: success
+[2023-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [selenextra]: success
+[2023-05-22 08:07:25] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/fd/4c/834d1fb80992459429a3ac8b5195a50dfd4df39d9dbe3f1a5a05af79d7ac/hcpdiff-0.4.1.tar.gz
+[2023-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
+[2023-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [appletree]: success
+[2023-05-22 08:07:25] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/04/7d/2a6ae047fe89e447c564c08e3031d9a7980561a513dc6a25c488a2a31f26/hcpdiff-0.4.2.tar.gz
+[2023-05-22 08:07:26] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-22 08:07:26] INFO root fetch - processPackages [hcpdiff]: executing diffoscope
+[2023-05-22 08:07:26] INFO root fetch - processPackages [hcpdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcpdiff-0.4.1.tar.gz tmp/hcpdiff-0.4.2.tar.gz --markdown 20230522/h/hcpdiff/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-22 08:07:26] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2023-05-22 08:07:27] INFO root fetch - main [MainThread]: End processing [hcpdiff]: success
+[2023-05-22 08:07:29] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-22 08:07:42] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-22 08:07:42] INFO root fetch - main [MainThread]: Store serial: [18192782]
