@@ -6943,3 +6943,100 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 09:31:48] INFO root fetch - main [MainThread]: End processing [taskproc]: success
 [2023-05-22 09:31:48] INFO root fetch - main [MainThread]: End processing [oc-cdt-queue2]: success
 [2023-05-22 09:31:48] INFO root fetch - main [MainThread]: Store serial: [18193490]
+[2023-05-22 09:36:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193490]
+[2023-05-22 09:36:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oc-cdt-queue2
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-easyview
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-seqviz
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robodyno
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicsnovault
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Accuinsight
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: VerdisMSPythonConfig
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VerdisMSConfig
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starvote
+[2023-05-22 09:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unicms-template-italia
+[2023-05-22 09:36:57] INFO root fetch - processPackages [starvote]: New version: [1.4] Old Version: [1.3]
+[2023-05-22 09:36:57] WARNING root fetch - processPackages [streamlit-seqviz]: Skipping, unable to determine old version
+[2023-05-22 09:36:57] INFO root fetch - processPackages [streamlit-seqviz]: Start processing: pytheia
+[2023-05-22 09:36:57] INFO root fetch - main [MainThread]: End processing [streamlit-seqviz] error
+[2023-05-22 09:36:57] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230516rc1] Old Version: [3.4.230426rc0]
+[2023-05-22 09:36:57] INFO root fetch - processPackages [starvote]: executing diffoscope
+[2023-05-22 09:36:57] INFO root fetch - processPackages [starvote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starvote-1.3.tar.gz tmp/starvote-1.4.tar.gz --markdown 20230522/s/starvote/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-22 09:36:57] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.2b0] Old Version: [8.0.1.5b12]
+[2023-05-22 09:36:57] WARNING root fetch - processPackages [VerdisMSConfig]: Skipping, unable to determine old version
+[2023-05-22 09:36:57] INFO root fetch - processPackages [oc-cdt-queue2]: New version: [4.0.2] Old Version: [4.0.1.20230403143600]
+[2023-05-22 09:36:57] INFO root fetch - processPackages [VerdisMSConfig]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-22 09:36:57] WARNING root fetch - processPackages [VerdisMSPythonConfig]: Skipping, unable to determine old version
+[2023-05-22 09:36:57] INFO root fetch - main [MainThread]: End processing [VerdisMSConfig] error
+[2023-05-22 09:36:57] INFO root fetch - processPackages [unicms-template-italia]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-22 09:36:57] INFO root fetch - processPackages [robodyno]: New version: [1.6.1b1] Old Version: [1.6.1b0]
+[2023-05-22 09:36:57] INFO root fetch - processPackages [VerdisMSPythonConfig]: Start processing: numba-progress
+[2023-05-22 09:36:57] WARNING root fetch - processPackages [drf-easyview]: Skipping, unable to determine old version
+[2023-05-22 09:36:57] INFO root fetch - main [MainThread]: End processing [VerdisMSPythonConfig] error
+[2023-05-22 09:36:57] INFO root fetch - processPackages [pytheia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 09:36:57] INFO root fetch - processPackages [drf-easyview]: Start processing: carveme
+[2023-05-22 09:36:57] INFO root fetch - main [MainThread]: End processing [drf-easyview] error
+[2023-05-22 09:36:57] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-05-22 09:36:57] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230426rc0.tar.gz tmp/Accuinsight-3.4.230516rc1.tar.gz --markdown 20230522/A/Accuinsight/3.4.230426rc0-3.4.230516rc1/diff.md --exclude *.pyd
+[2023-05-22 09:36:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-22 09:36:58] INFO root fetch - processPackages [numba-progress]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-05-22 09:36:58] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/aa/b8/1bc1d75f64da2f9c93ec52ab6d479cd075a6425be47e57b030f406ce541e/dcicsnovault-8.0.1.5b12.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] INFO root fetch - processPackages [carveme]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-22 09:36:58] INFO root fetch - processPackages [unicms-template-italia]: Downloading https://files.pythonhosted.org/packages/91/c3/eaafdd12a967f5f0acf566ee2782bb10d84c22a79f06cb9328adb8cefe6e/unicms_template_italia-1.0.3.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/fe/9d/aa501f05d7b9bf1724ba96d95e306c394313632ea565728f244da89c260b/robodyno-1.6.1b1.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [numba-progress]: Downloading https://files.pythonhosted.org/packages/f1/a8/89fa19a8ca8c1e7e4010e07fa843aef48ada7107c3151981192030f478d3/numba-progress-0.0.4.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [oc-cdt-queue2]: Downloading https://files.pythonhosted.org/packages/54/8d/eb82ad78b040ca05f03e172734dac812741d43a44d8f7e62ac197d1a86de/oc_cdt_queue2-4.0.2-py3-none-any.whl
+[2023-05-22 09:36:58] INFO root fetch - processPackages [carveme]: Downloading https://files.pythonhosted.org/packages/af/99/8c98cef2e4aad26ee9b8695e52982d72dca6cbe9e128fc90aa0e89f948e0/carveme-1.5.1.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230522/p/pytheia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] INFO root fetch - processPackages [oc-cdt-queue2]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [oc-cdt-queue2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdt_queue2-4.0.1.20230403143600-py3-none-any.whl.zip tmp/oc_cdt_queue2-4.0.2-py3-none-any.whl.zip --markdown 20230522/o/oc-cdt-queue2/4.0.1.20230403143600-4.0.2/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] INFO root fetch - processPackages [robodyno]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [robodyno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robodyno-1.6.1b0.tar.gz tmp/robodyno-1.6.1b1.tar.gz --markdown 20230522/r/robodyno/1.6.1b0-1.6.1b1/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] WARNING root fetch - processPackages [carveme]: Skipping package: exceeds size limit 29628094>=10485760
+[2023-05-22 09:36:58] INFO root fetch - processPackages [carveme]: Start processing: lalsuite
+[2023-05-22 09:36:58] INFO root fetch - main [MainThread]: End processing [carveme] error
+[2023-05-22 09:36:58] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.5b12.tar.gz tmp/dcicsnovault-8.0.2b0.tar.gz --markdown 20230522/d/dcicsnovault/8.0.1.5b12-8.0.2b0/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-22 09:36:58] INFO root fetch - processPackages [unicms-template-italia]: Downloading https://files.pythonhosted.org/packages/70/4e/f92b345526dcac2ac06319fc476bdfeee69c75e92df015db22a7503c9295/unicms_template_italia-1.1.0.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [numba-progress]: Downloading https://files.pythonhosted.org/packages/e9/aa/d8efb12ea5d8dc5a6fb89d06466d988fc4aa2400ba6ee8f5dc9916224255/numba-progress-1.0.0.tar.gz
+[2023-05-22 09:36:58] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-22 09:36:58] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-22 09:36:58] INFO root fetch - processPackages [lalsuite]: Start processing: gitopenlib
+[2023-05-22 09:36:58] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-22 09:36:58] INFO root fetch - processPackages [unicms-template-italia]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [unicms-template-italia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_italia-1.0.3.tar.gz tmp/unicms_template_italia-1.1.0.tar.gz --markdown 20230522/u/unicms-template-italia/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] INFO root fetch - processPackages [numba-progress]: executing diffoscope
+[2023-05-22 09:36:58] INFO root fetch - processPackages [numba-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-progress-0.0.4.tar.gz tmp/numba-progress-1.0.0.tar.gz --markdown 20230522/n/numba-progress/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 09:36:58] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-05-22 09:36:58] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-05-22 09:36:59] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-05-22 09:36:59] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-05-22 09:36:59] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230522/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-05-22 09:36:59] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: angeltools
+[2023-05-22 09:36:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-22 09:36:59] INFO root fetch - processPackages [angeltools]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-05-22 09:36:59] INFO root fetch - processPackages [starvote]: Start processing: unicms-template-unical
+[2023-05-22 09:36:59] INFO root fetch - main [MainThread]: End processing [starvote]: success
+[2023-05-22 09:36:59] INFO root fetch - main [MainThread]: End processing [oc-cdt-queue2]: success
+[2023-05-22 09:36:59] INFO root fetch - processPackages [unicms-template-unical]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-22 09:37:00] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-05-22 09:37:00] INFO root fetch - processPackages [angeltools]: Downloading https://files.pythonhosted.org/packages/37/e3/08226471b76a71afecb9b909055a8cc7d50c00a048ff894c32003224f0ae/angeltools-0.3.1.tar.gz
+[2023-05-22 09:37:00] INFO root fetch - main [MainThread]: End processing [numba-progress]: success
+[2023-05-22 09:37:00] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/bd/8e/211e23f40c6e7b62657e50c13b6495aa7bfc599e65d49f5614ab112c7903/unicms_template_unical-1.2.0.tar.gz
+[2023-05-22 09:37:00] INFO root fetch - processPackages [angeltools]: executing diffoscope
+[2023-05-22 09:37:00] INFO root fetch - processPackages [angeltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angeltools-0.2.9.tar.gz tmp/angeltools-0.3.1.tar.gz --markdown 20230522/a/angeltools/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-05-22 09:37:00] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-05-22 09:37:00] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-22 09:37:00] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/a8/29/57a90fb06f6cd9fe8518fc7e8433d98ee4e327ac69c01979b5ddf7bbf05d/unicms_template_unical-1.2.1.tar.gz
+[2023-05-22 09:37:01] INFO root fetch - processPackages [unicms-template-unical]: executing diffoscope
+[2023-05-22 09:37:01] INFO root fetch - processPackages [unicms-template-unical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_unical-1.2.0.tar.gz tmp/unicms_template_unical-1.2.1.tar.gz --markdown 20230522/u/unicms-template-unical/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-22 09:37:01] INFO root fetch - main [MainThread]: End processing [angeltools]: success
+[2023-05-22 09:37:01] INFO root fetch - main [MainThread]: End processing [robodyno]: success
+[2023-05-22 09:37:01] INFO root fetch - main [MainThread]: End processing [unicms-template-italia]: success
+[2023-05-22 09:37:03] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
+[2023-05-22 09:37:44] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2023-05-22 09:37:44] INFO root fetch - main [MainThread]: Store serial: [18193555]
