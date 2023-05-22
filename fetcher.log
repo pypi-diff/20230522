@@ -8283,3 +8283,88 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:40:55] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-05-22 10:40:55] INFO root fetch - main [MainThread]: End processing [kerbitat]: success
 [2023-05-22 10:40:55] INFO root fetch - main [MainThread]: Store serial: [18194279]
+[2023-05-22 10:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194279]
+[2023-05-22 10:46:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decore-Base
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tff-nightly
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbig-network-correspondence
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: z0lib
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openstef-dbc
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skretry
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neutron-lib
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trailblazer
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ito-diffusions
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-serve
+[2023-05-22 10:46:05] INFO root fetch - processPackages [decore-Base]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [openstef-dbc]: New version: [3.6.8a2] Old Version: [3.6.8a0]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [cbig-network-correspondence]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [skretry]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [z0lib]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [neutron-lib]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ito-diffusions]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230521] Old Version: [0.0.1.dev20230520]
+[2023-05-22 10:46:05] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-22 10:46:05] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230522/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 10:46:05] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/12/36/b0a750fb65561effd1b6f2795c8e41223cbaa0b6ccd92ca5ef8346e60609/decore_Base-0.0.6.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-05-22 10:46:05] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230522/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-05-22 10:46:05] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-22 10:46:05] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230520-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230521-py2.py3-none-any.whl.zip --markdown 20230522/t/tff-nightly/0.0.1.dev20230520-0.0.1.dev20230521/diff.md --exclude *.pyd
+[2023-05-22 10:46:05] INFO root fetch - processPackages [openstef-dbc]: Downloading https://files.pythonhosted.org/packages/b8/79/5fd64952522f2f9718e89be9406563cb163b228ad02962c89db0dc4187d6/openstef_dbc-3.6.8a2.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [cbig-network-correspondence]: Downloading https://files.pythonhosted.org/packages/67/38/6b4c369c345f5b63ab6b4f7069df57bd31243df767d233d0e31ecd7f3845/cbig_network_correspondence-0.1.0.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [neutron-lib]: Downloading https://files.pythonhosted.org/packages/67/7c/602c6e0b5a7a8a894c65174b22f8e28e9cde4cc06169b57c2f31ad810fc0/neutron-lib-3.6.0.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ito-diffusions]: Downloading https://files.pythonhosted.org/packages/e0/a5/c3fc9a145342897636ff2a64202963dec842a073d0732903e1c129291191/ito_diffusions-1.3.0.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [skretry]: Downloading https://files.pythonhosted.org/packages/db/ce/3c9c1336ab24d416229396804a758eaaaaf14a3cfd7906006ed75eea984d/skretry-0.1.4.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [z0lib]: Downloading https://files.pythonhosted.org/packages/e5/7f/a39ad10e912b5ec87a4ff74a8b5221fcb176667b1e82e53bdf54941494af/z0lib-2.0.4.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [openstef-dbc]: executing diffoscope
+[2023-05-22 10:46:05] INFO root fetch - processPackages [openstef-dbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef_dbc-3.6.8a0.tar.gz tmp/openstef_dbc-3.6.8a2.tar.gz --markdown 20230522/o/openstef-dbc/3.6.8a0-3.6.8a2/diff.md --exclude *.pyd
+[2023-05-22 10:46:05] INFO root fetch - processPackages [skretry]: executing diffoscope
+[2023-05-22 10:46:05] INFO root fetch - processPackages [skretry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skretry-0.1.3.tar.gz tmp/skretry-0.1.4.tar.gz --markdown 20230522/s/skretry/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 10:46:05] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/06/10/dd97cc13f04d586c6ca03d91aeac7fc73ad646abd2fb88932df1aeeb42f5/decore_Base-0.0.8.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [cbig-network-correspondence]: Downloading https://files.pythonhosted.org/packages/a1/09/c112b681cd745bfd8c493d37dc762c1822053ff9f6cc1c1d77458d451df8/cbig_network_correspondence-0.1.1.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [ito-diffusions]: Downloading https://files.pythonhosted.org/packages/55/40/22bc2ec4302ba8a2ac1b66df1bfbc4184b79a3b41fb130afbbae8b627951/ito_diffusions-1.4.0.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [neutron-lib]: Downloading https://files.pythonhosted.org/packages/e6/b0/f66a1810483a364dcd016f0d9f3e9eee34a4baac6b9b4a2d06690e1ddd35/neutron-lib-3.6.1.tar.gz
+[2023-05-22 10:46:05] INFO root fetch - processPackages [z0lib]: Downloading https://files.pythonhosted.org/packages/c7/40/9746dbe5e786eb78d82a84e6a982b36ebe6e4581bdca5172ae2f115db73f/z0lib-2.0.5.tar.gz
+[2023-05-22 10:46:06] INFO root fetch - processPackages [cbig-network-correspondence]: executing diffoscope
+[2023-05-22 10:46:06] INFO root fetch - processPackages [cbig-network-correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.1.0.tar.gz tmp/cbig_network_correspondence-0.1.1.tar.gz --markdown 20230522/c/cbig-network-correspondence/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 10:46:06] INFO root fetch - processPackages [z0lib]: executing diffoscope
+[2023-05-22 10:46:06] INFO root fetch - processPackages [z0lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z0lib-2.0.4.tar.gz tmp/z0lib-2.0.5.tar.gz --markdown 20230522/z/z0lib/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-22 10:46:06] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-05-22 10:46:06] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.6.tar.gz tmp/decore_Base-0.0.8.tar.gz --markdown 20230522/d/decore-Base/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 10:46:06] INFO root fetch - processPackages [neutron-lib]: executing diffoscope
+[2023-05-22 10:46:06] INFO root fetch - processPackages [neutron-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutron-lib-3.6.0.tar.gz tmp/neutron-lib-3.6.1.tar.gz --markdown 20230522/n/neutron-lib/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-05-22 10:46:06] INFO root fetch - processPackages [ito-diffusions]: executing diffoscope
+[2023-05-22 10:46:06] INFO root fetch - processPackages [ito-diffusions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ito_diffusions-1.3.0.tar.gz tmp/ito_diffusions-1.4.0.tar.gz --markdown 20230522/i/ito-diffusions/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-22 10:46:07] INFO root fetch - processPackages [skretry]: Start processing: syngen
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [skretry]: success
+[2023-05-22 10:46:07] INFO root fetch - processPackages [langchain-serve]: Start processing: nmping
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-22 10:46:07] INFO root fetch - processPackages [syngen]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-22 10:46:07] INFO root fetch - processPackages [nmping]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 10:46:07] INFO root fetch - processPackages [trailblazer]: Start processing: apis-bibsonomy
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-05-22 10:46:07] INFO root fetch - processPackages [nmping]: Downloading https://files.pythonhosted.org/packages/8a/ab/d5e0c25c4c126c3ecf797233534ea9c3d9a13f22b160ced2e36142d28130/nmping-0.1.tar.gz
+[2023-05-22 10:46:07] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/b2/f9/3ed830707df90eb767e3d279ef21aee5ef3e13e54782fcde5ba28e9e62f8/syngen-0.1.4.tar.gz
+[2023-05-22 10:46:07] INFO root fetch - processPackages [apis-bibsonomy]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [openstef-dbc]: success
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [z0lib]: success
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [cbig-network-correspondence]: success
+[2023-05-22 10:46:07] INFO root fetch - processPackages [nmping]: Downloading https://files.pythonhosted.org/packages/ca/28/8dbb406ed505d2230a1f26707e6b2fc4507b8a2aba3fd0281fd2549f4014/nmping-0.2.tar.gz
+[2023-05-22 10:46:07] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/50/c1/19091784a9b3429dfa57257b1ebdab156e33ff9b4030fd5c7878131ee3c8/syngen-0.1.5.tar.gz
+[2023-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [ito-diffusions]: success
+[2023-05-22 10:46:07] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/a2/d8/555d5d6ec63b142d7158b005b8b02aace7596973acfc06feaeea0bbbb1bb/apis_bibsonomy-0.7.0.tar.gz
+[2023-05-22 10:46:07] INFO root fetch - processPackages [nmping]: executing diffoscope
+[2023-05-22 10:46:07] INFO root fetch - processPackages [nmping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmping-0.1.tar.gz tmp/nmping-0.2.tar.gz --markdown 20230522/n/nmping/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 10:46:08] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-05-22 10:46:08] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.4.tar.gz tmp/syngen-0.1.5.tar.gz --markdown 20230522/s/syngen/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-22 10:46:08] INFO root fetch - processPackages [apis-bibsonomy]: executing diffoscope
+[2023-05-22 10:46:08] INFO root fetch - processPackages [apis-bibsonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis_bibsonomy-0.6.0.tar.gz tmp/apis_bibsonomy-0.7.0.tar.gz --markdown 20230522/a/apis-bibsonomy/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-22 10:46:08] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-05-22 10:46:08] INFO root fetch - main [MainThread]: End processing [nmping]: success
+[2023-05-22 10:46:08] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [apis-bibsonomy]: success
+[2023-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-05-22 10:46:25] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
+[2023-05-22 10:46:25] INFO root fetch - main [MainThread]: Store serial: [18194315]
