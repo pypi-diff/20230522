@@ -15548,3 +15548,202 @@ EOFError: EOF read where object expected
 [2023-05-22 16:38:20] INFO root fetch - main [MainThread]: End processing [Photini]: success
 [2023-05-22 16:38:25] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-05-22 16:38:25] INFO root fetch - main [MainThread]: Store serial: [18198485]
+[2023-05-22 16:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198485]
+[2023-05-22 16:43:35] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/de/90/3f80f6270e1704f89b4fc4da0ee912061f912b51f21ea54143bea99f6ab0/DroneSwarmSearchEnvironment-0.1.6.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:35] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/04/be/b99e40d8ec549616c0f704f197c65f7acf7bf62073257e4db8bdb02f2453/DroneSwarmSearchEnvironment-0.1.7.tar.gz
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:36] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.6.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-22 16:43:37] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: pyhyypapihawkmod
+[2023-05-22 16:43:37] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:37] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2023-05-22 16:43:37] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: upk2esphome
+[2023-05-22 16:43:37] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:37] INFO root fetch - processPackages [upk2esphome]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-22 16:43:37] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: cpdb-api
+[2023-05-22 16:43:37] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:37] INFO root fetch - processPackages [cpdb-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-22 16:43:37] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: cycode
+[2023-05-22 16:43:37] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:37] INFO root fetch - processPackages [cycode]: New version: [0.2.4.dev8] Old Version: [0.2.4.dev17]
+[2023-05-22 16:43:37] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/1e/97/f0efcd045a8f22ff6d8dda4b133b42866cd9918ad13c15a6f30e3a4fe438/pyhyypapihawkmod-0.0.0.4.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [cpdb-api]: Downloading https://files.pythonhosted.org/packages/93/05/c6caddb52265931b4ace76c470c570fc1b833abec3b1f311e7e5775b9ee7/cpdb_api-1.0.8.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [upk2esphome]: Downloading https://files.pythonhosted.org/packages/43/ed/27d741abd87dae9730a6e7a1433e952601928d2b08f10fc35dc7a8aa6eba/upk2esphome-1.1.2.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/c2/04/489fb0f6ad942936645ca1c491bdbcafa9b0b242b96392480103f625ccf6/cycode-0.2.4.dev17.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/86/63/919121fe590074e4e185e728f41998fd14d4ca0ddd62ec5b8e8902c636e2/pyhyypapihawkmod-0.0.0.5.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: bertagent
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:38] INFO root fetch - processPackages [bertagent]: New version: [0.0.8] Old Version: [0.0.7.post0.dev1]
+[2023-05-22 16:43:38] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: scorecardpy
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:38] INFO root fetch - processPackages [upk2esphome]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [upk2esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upk2esphome-1.1.1.tar.gz tmp/upk2esphome-1.1.2.tar.gz --markdown 20230522/u/upk2esphome/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] INFO root fetch - processPackages [cpdb-api]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [cpdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpdb_api-1.0.7.tar.gz tmp/cpdb_api-1.0.8.tar.gz --markdown 20230522/c/cpdb-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] INFO root fetch - processPackages [scorecardpy]: New version: [0.1.9.4] Old Version: [0.1.9.2]
+[2023-05-22 16:43:38] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.4.dev17.tar.gz tmp/cycode-0.2.4.dev8.tar.gz --markdown 20230522/c/cycode/0.2.4.dev17-0.2.4.dev8/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-0.0.0.4.tar.gz tmp/pyhyypapihawkmod-0.0.0.5.tar.gz --markdown 20230522/p/pyhyypapihawkmod/0.0.0.4-0.0.0.5/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/64/11/047e681243e7d692417ffa4bcff19c9c4ef18c0b376ca559724c6bc0bfc6/bertagent-0.0.7.post0.dev1-py3-none-any.whl
+[2023-05-22 16:43:38] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: YMS
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:38] INFO root fetch - processPackages [scorecardpy]: Downloading https://files.pythonhosted.org/packages/3e/18/8e3f675b9baaf027e84cb84f9bc3bb57381ab3d0b5241e089653d5d92784/scorecardpy-0.1.9.2.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [YMS]: New version: [0.791] Old Version: [0.79]
+[2023-05-22 16:43:38] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: soc-serv-thread
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:38] WARNING root fetch - processPackages [soc-serv-thread]: Skipping, unable to determine old version
+[2023-05-22 16:43:38] INFO root fetch - processPackages [soc-serv-thread]: Start processing: oakvar
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [soc-serv-thread] error
+[2023-05-22 16:43:38] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-05-22 16:43:38] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: pycontrails
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:38] INFO root fetch - processPackages [pycontrails]: New version: [0.42.2] Old Version: [0.42.0]
+[2023-05-22 16:43:38] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Start processing: qoqo-qasm
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:38] INFO root fetch - processPackages [qoqo-qasm]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-22 16:43:38] INFO root fetch - processPackages [scorecardpy]: Downloading https://files.pythonhosted.org/packages/ea/12/56551b26839fd6d694a6776efee6febc571d1cb224274ef4191eedc912a5/scorecardpy-0.1.9.4.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/36/2a/50c73fe96149f206b843f27d5e1b5bbb3f2499065d905ced57b1d3680568/YMS-0.791.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/f1/a9/f53037c9926f04e7b2a8105f871d85bdc62f32526f54852473904942c50f/bertagent-0.0.8-py3-none-any.whl
+[2023-05-22 16:43:38] INFO root fetch - processPackages [pycontrails]: Downloading https://files.pythonhosted.org/packages/83/c1/3e4f56a250c3f9afa07c85e60a0df63f222f960e8ae097f548195733e9e5/pycontrails-0.42.0.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [scorecardpy]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [scorecardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecardpy-0.1.9.2.tar.gz tmp/scorecardpy-0.1.9.4.tar.gz --markdown 20230522/s/scorecardpy/0.1.9.2-0.1.9.4/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/89/c4/c1c628c82c5c487bdecbc646099c26f2b868fb97e4be1587ad6fc2426774/qoqo_qasm-0.7.3.tar.gz
+[2023-05-22 16:43:38] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.79.tar.gz tmp/YMS-0.791.tar.gz --markdown 20230522/Y/YMS/0.79-0.791/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2023-05-22 16:43:38] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-0.0.7.post0.dev1-py3-none-any.whl.zip tmp/bertagent-0.0.8-py3-none-any.whl.zip --markdown 20230522/b/bertagent/0.0.7.post0.dev1-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 16:43:38] WARNING root fetch - processPackages [pycontrails]: Skipping package: exceeds size limit 11436979>=10485760
+[2023-05-22 16:43:38] INFO root fetch - processPackages [pycontrails]: Start processing: autoxx
+[2023-05-22 16:43:38] INFO root fetch - main [MainThread]: End processing [pycontrails] error
+[2023-05-22 16:43:38] INFO root fetch - processPackages [autoxx]: New version: [0.0.15] Old Version: [0.0.13]
+[2023-05-22 16:43:39] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-05-22 16:43:39] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230522/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-05-22 16:43:39] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-05-22 16:43:39] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.13.tar.gz tmp/autoxx-0.0.15.tar.gz --markdown 20230522/a/autoxx/0.0.13-0.0.15/diff.md --exclude *.pyd
+[2023-05-22 16:43:39] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/34/9e/8732eaf230b77408772520d3fe247f26d6002375d15078da9c44d99fc810/qoqo_qasm-0.7.4.tar.gz
+[2023-05-22 16:43:39] INFO root fetch - processPackages [qoqo-qasm]: executing diffoscope
+[2023-05-22 16:43:39] INFO root fetch - processPackages [qoqo-qasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qasm-0.7.3.tar.gz tmp/qoqo_qasm-0.7.4.tar.gz --markdown 20230522/q/qoqo-qasm/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-22 16:43:39] INFO root fetch - processPackages [pyhyypapihawkmod]: Start processing: youtube-summary
+[2023-05-22 16:43:39] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-05-22 16:43:39] INFO root fetch - processPackages [youtube-summary]: New version: [0.2] Old Version: [0.1.1]
+[2023-05-22 16:43:39] INFO root fetch - processPackages [cpdb-api]: Start processing: snowflake-cli-labs
+[2023-05-22 16:43:39] INFO root fetch - main [MainThread]: End processing [cpdb-api]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [youtube-summary]: executing diffoscope
+[2023-05-22 16:43:40] INFO root fetch - processPackages [youtube-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube-summary-0.1.1.tar.gz tmp/youtube-summary-0.2.tar.gz --markdown 20230522/y/youtube-summary/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 16:43:40] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 16:43:40] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/22/62/debbc9bfa1c39f90395e1e7bf2c5fbc1a7a1750f1c709403595b9759022c/snowflake_cli_labs-0.2.8.tar.gz
+[2023-05-22 16:43:40] INFO root fetch - processPackages [bertagent]: Start processing: metadata-client
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [metadata-client]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-22 16:43:40] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/0f/4b/b0610af437ad619d537ae2967190f249d5ee3d0b008b47a6c4dfba8a1d2e/snowflake_cli_labs-0.2.9.tar.gz
+[2023-05-22 16:43:40] INFO root fetch - processPackages [scorecardpy]: Start processing: qwak-core
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [scorecardpy]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [YMS]: Start processing: devchat
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [qwak-core]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-05-22 16:43:40] INFO root fetch - processPackages [autoxx]: Start processing: lanarky
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [lanarky]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-22 16:43:40] INFO root fetch - processPackages [upk2esphome]: Start processing: sallyjr
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [upk2esphome]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2023-05-22 16:43:40] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-0.2.8.tar.gz tmp/snowflake_cli_labs-0.2.9.tar.gz --markdown 20230522/s/snowflake-cli-labs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 16:43:40] INFO root fetch - processPackages [devchat]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 16:43:40] INFO root fetch - processPackages [metadata-client]: Downloading https://files.pythonhosted.org/packages/fb/3c/937711ea2b5ef8256127fade9f83f12ee9fb794fe1309d0153178a7201f4/metadata_client-3.8.0.tar.gz
+[2023-05-22 16:43:40] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-05-22 16:43:40] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.6.2.tar.gz tmp/lanarky-0.6.3.tar.gz --markdown 20230522/l/lanarky/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-22 16:43:40] WARNING root fetch - processPackages [sallyjr]: Skipping, unable to determine old version
+[2023-05-22 16:43:40] INFO root fetch - processPackages [sallyjr]: Start processing: NeuroConn
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [sallyjr] error
+[2023-05-22 16:43:40] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/97/6b/adee0142a37f10e5ea1862556ac4dab7c043281d6f4e3b0530b92544cfe0/qwak_core-0.0.70.tar.gz
+[2023-05-22 16:43:40] WARNING root fetch - processPackages [NeuroConn]: Skipping, unable to determine old version
+[2023-05-22 16:43:40] INFO root fetch - processPackages [NeuroConn]: Start processing: k8s-smuggler
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [NeuroConn] error
+[2023-05-22 16:43:40] INFO root fetch - processPackages [cycode]: Start processing: DroneSwarmSearchEnvironment
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-05-22 16:43:40] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 16:43:40] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-22 16:43:40] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.69.tar.gz tmp/qwak_core-0.0.70.tar.gz --markdown 20230522/q/qwak-core/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-05-22 16:43:40] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/8c/9e/997b3370719629437f943615771632cf84284882e471f53ed38cf2cb9cb4/devchat-0.1.8.tar.gz
+[2023-05-22 16:43:40] WARNING root fetch - processPackages [k8s-smuggler]: Skipping, unable to determine old version
+[2023-05-22 16:43:40] INFO root fetch - processPackages [k8s-smuggler]: Start processing: OpenGeode-core
+[2023-05-22 16:43:40] INFO root fetch - main [MainThread]: End processing [k8s-smuggler] error
+[2023-05-22 16:43:41] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.7]
+[2023-05-22 16:43:41] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-05-22 16:43:41] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.1.7.tar.gz tmp/devchat-0.1.8.tar.gz --markdown 20230522/d/devchat/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 16:43:41] INFO root fetch - processPackages [metadata-client]: Downloading https://files.pythonhosted.org/packages/fa/6d/11ab4c6d5546d66a543418fcd347f36dfee75b0fbcf1178e7235cfcf7191/metadata_client-3.9.0.tar.gz
+[2023-05-22 16:43:41] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: Downloading https://files.pythonhosted.org/packages/bd/45/7505c51663851b45a2b81756ce7565761c68503b751d09ff20b1c4c144bb/DroneSwarmSearchEnvironment-0.1.8.tar.gz
+[2023-05-22 16:43:41] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/c9/b6/6aa2cc75be57d167e938f12afd56fbd8ee281790e09cbb07011ea8b2e262/OpenGeode_core-14.1.7-cp39-cp39-win_amd64.whl
+[2023-05-22 16:43:41] INFO root fetch - processPackages [metadata-client]: executing diffoscope
+[2023-05-22 16:43:41] INFO root fetch - processPackages [metadata-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metadata_client-3.8.0.tar.gz tmp/metadata_client-3.9.0.tar.gz --markdown 20230522/m/metadata-client/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-22 16:43:41] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17504707>=10485760
+[2023-05-22 16:43:41] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-22 16:43:41] INFO root fetch - main [MainThread]: End processing [youtube-summary]: success
+[2023-05-22 16:43:41] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: executing diffoscope
+[2023-05-22 16:43:41] INFO root fetch - processPackages [DroneSwarmSearchEnvironment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroneSwarmSearchEnvironment-0.1.7.tar.gz tmp/DroneSwarmSearchEnvironment-0.1.8.tar.gz --markdown 20230522/D/DroneSwarmSearchEnvironment/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 16:43:41] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
+[2023-05-22 16:43:41] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-05-22 16:43:42] INFO root fetch - main [MainThread]: End processing [DroneSwarmSearchEnvironment]: success
+[2023-05-22 16:43:42] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2023-05-22 16:43:42] INFO root fetch - main [MainThread]: End processing [metadata-client]: success
+[2023-05-22 16:43:43] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-05-22 16:43:45] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-22 16:43:47] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-05-22 16:43:47] INFO root fetch - main [MainThread]: Store serial: [18198616]
