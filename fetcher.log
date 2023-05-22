@@ -5620,3 +5620,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:40:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-22 07:40:19] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-05-22 07:40:19] INFO root fetch - main [MainThread]: Store serial: [18192648]
+[2023-05-22 07:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192648]
+[2023-05-22 07:45:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Accuinsight
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-tally
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowery
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CADPR
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-sdk
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bpp-iplweb
+[2023-05-22 07:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Accuinsight
+[2023-05-22 07:45:28] INFO root fetch - processPackages [pytest-tally]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-22 07:45:28] WARNING root fetch - processPackages [flowery]: Skipping, unable to determine old version
+[2023-05-22 07:45:28] INFO root fetch - main [MainThread]: End processing [flowery] error
+[2023-05-22 07:45:28] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230516rc1] Old Version: [3.4.230426rc0]
+[2023-05-22 07:45:28] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 07:45:28] INFO root fetch - processPackages [bpp-iplweb]: New version: [202305.1102] Old Version: [202304.1101]
+[2023-05-22 07:45:28] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.9] Old Version: [6.1.8]
+[2023-05-22 07:45:28] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230516rc1] Old Version: [3.4.230426rc0]
+[2023-05-22 07:45:29] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 07:45:29] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 07:45:29] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/4b/97/dfd9f441eb71ee80ff53b50278fb3c46bea83dd0de672b00fc0ca93178f8/cognite_sdk-6.1.8.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/94/67/38d4eee89f443b43504530cc4110d81d54eb7196d2d7a6776426c3e6c352/Accuinsight-3.4.230426rc0.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/94/67/38d4eee89f443b43504530cc4110d81d54eb7196d2d7a6776426c3e6c352/Accuinsight-3.4.230426rc0.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/b1/44/d69291859c1158d1577a33ab5d36e83f32cb4f6f7b6a7444bab15e24ff24/bpp_iplweb-202304.1101-py3-none-any.whl
+[2023-05-22 07:45:29] INFO root fetch - processPackages [pytest-tally]: Downloading https://files.pythonhosted.org/packages/75/cf/f4203753b7873eb1e32118f5550f21480baab4d6c4a9870826115f56692c/pytest-tally-1.3.0.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [pytest-tally]: executing diffoscope
+[2023-05-22 07:45:29] INFO root fetch - processPackages [pytest-tally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-tally-1.2.0.tar.gz tmp/pytest-tally-1.3.0.tar.gz --markdown 20230522/p/pytest-tally/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-22 07:45:29] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/a9/13/4af1d9880ee1ad5d18dd1d1d23ade339aa76169c1a8dafc16f5df750dca2/cognite_sdk-6.1.9.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/a3/74/24160bcfe107e2545b51dae55876ed752d0a278ce0517ba4ab6493a20a92/Accuinsight-3.4.230516rc1.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/a3/74/24160bcfe107e2545b51dae55876ed752d0a278ce0517ba4ab6493a20a92/Accuinsight-3.4.230516rc1.tar.gz
+[2023-05-22 07:45:29] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-22 07:45:29] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.8.tar.gz tmp/cognite_sdk-6.1.9.tar.gz --markdown 20230522/c/cognite-sdk/6.1.8-6.1.9/diff.md --exclude *.pyd
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230426rc0.tar.gz tmp/Accuinsight-3.4.230516rc1.tar.gz --markdown 20230522/A/Accuinsight/3.4.230426rc0-3.4.230516rc1/diff.md --exclude *.pyd
+[2023-05-22 07:45:29] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230426rc0.tar.gz tmp/Accuinsight-3.4.230516rc1.tar.gz --markdown 20230522/A/Accuinsight/3.4.230426rc0-3.4.230516rc1/diff.md --exclude *.pyd
+[2023-05-22 07:45:29] INFO root fetch - processPackages [bpp-iplweb]: Downloading https://files.pythonhosted.org/packages/d6/a2/6ef961e19ffda8776c88a9d084078c237073592c3eb8ca5ce6797ce51718/bpp_iplweb-202305.1102-py3-none-any.whl
+[2023-05-22 07:45:30] INFO root fetch - processPackages [bpp-iplweb]: executing diffoscope
+[2023-05-22 07:45:30] INFO root fetch - processPackages [bpp-iplweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpp_iplweb-202304.1101-py3-none-any.whl.zip tmp/bpp_iplweb-202305.1102-py3-none-any.whl.zip --markdown 20230522/b/bpp-iplweb/202304.1101-202305.1102/diff.md --exclude *.pyd
+[2023-05-22 07:45:30] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 07:45:31] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-05-22 07:45:31] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-05-22 07:45:31] INFO root fetch - main [MainThread]: End processing [pytest-tally]: success
+[2023-05-22 07:45:32] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-22 07:46:37] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
+[2023-05-22 07:46:37] INFO root fetch - main [MainThread]: Store serial: [18192682]
