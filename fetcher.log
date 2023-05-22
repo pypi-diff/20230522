@@ -4064,3 +4064,38 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:26:15] INFO root fetch - main [MainThread]: End processing [dLux]: success
 [2023-05-22 04:26:16] INFO root fetch - main [MainThread]: End processing [dorado]: success
 [2023-05-22 04:26:16] INFO root fetch - main [MainThread]: Store serial: [18191696]
+[2023-05-22 04:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191696]
+[2023-05-22 04:31:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-22 04:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misc-io-operations
+[2023-05-22 04:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gameyamlspiderandgenerator
+[2023-05-22 04:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector2dggs
+[2023-05-22 04:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-05-22 04:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-yuqing20220301
+[2023-05-22 04:31:25] INFO root fetch - processPackages [misc-io-operations]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-22 04:31:25] INFO root fetch - processPackages [vector2dggs]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-22 04:31:25] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-22 04:31:25] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-22 04:31:25] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-22 04:31:25] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-22 04:31:25] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230522/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-22 04:31:25] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/b7/0d/9828f581a285ad1016e424e41be72c1ef95b7344bde303124c819bc9ddab/vector2dggs-0.3.1.tar.gz
+[2023-05-22 04:31:25] INFO root fetch - processPackages [misc-io-operations]: Downloading https://files.pythonhosted.org/packages/2d/af/0b94078e1ce3632b3fee8a90f6c083d266408fb229e729066b4f7e69c352/misc_io_operations-1.1.4.tar.gz
+[2023-05-22 04:31:25] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/4b/b3/4c01eb451e1f6a73c2f71c5b0867bf0563078058ccd935300f68e10bcae4/gameyamlspiderandgenerator-1.5.3.tar.gz
+[2023-05-22 04:31:25] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 04:31:25] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.1.3.tar.gz tmp/misc_io_operations-1.1.4.tar.gz --markdown 20230522/m/misc-io-operations/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-22 04:31:25] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: Downloading https://files.pythonhosted.org/packages/75/db/170d2808f7185c7ed1298f008d676daaa2a1f5b2055ac6b68efe38f21cec/alibabacloud_yuqing20220301-1.2.1.tar.gz
+[2023-05-22 04:31:25] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/30/32/be8636e7fbe46e77ed772580906da3526e05c978ae5d53ee5b4bf80efd2e/vector2dggs-0.3.2.tar.gz
+[2023-05-22 04:31:25] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/c6/ab/dff797ff1fa74764f0cffea601548927ff1384408a0eda2d022054a54fa6/gameyamlspiderandgenerator-1.5.4.tar.gz
+[2023-05-22 04:31:25] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-05-22 04:31:25] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.3.1.tar.gz tmp/vector2dggs-0.3.2.tar.gz --markdown 20230522/v/vector2dggs/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-22 04:31:25] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-05-22 04:31:25] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.5.3.tar.gz tmp/gameyamlspiderandgenerator-1.5.4.tar.gz --markdown 20230522/g/gameyamlspiderandgenerator/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-22 04:31:25] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: Downloading https://files.pythonhosted.org/packages/a4/72/6e5ea22465e57ca14a1727bf700a9bee7965d07649c28c4b920c6cd18269/alibabacloud_yuqing20220301-1.2.2.tar.gz
+[2023-05-22 04:31:26] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: executing diffoscope
+[2023-05-22 04:31:26] INFO root fetch - processPackages [alibabacloud-yuqing20220301]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_yuqing20220301-1.2.1.tar.gz tmp/alibabacloud_yuqing20220301-1.2.2.tar.gz --markdown 20230522/a/alibabacloud-yuqing20220301/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-22 04:31:26] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 04:31:26] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-05-22 04:31:26] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-05-22 04:31:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-yuqing20220301]: success
+[2023-05-22 04:31:28] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-22 04:31:28] INFO root fetch - main [MainThread]: Store serial: [18191712]
