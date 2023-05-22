@@ -21594,3 +21594,139 @@ EOFError: EOF read where object expected
 [2023-05-22 19:58:00] INFO root fetch - main [MainThread]: End processing [plone.app.contenttypes]: success
 [2023-05-22 19:58:27] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-22 19:58:27] INFO root fetch - main [MainThread]: Store serial: [18202020]
+[2023-05-22 20:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202020]
+[2023-05-22 20:03:38] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebeer
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KegElements
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codat-common
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solarkit
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codat-sync-for-expenses
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbsite
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellmaps-utils
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Simba-UW-tf-dev
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-xml-serializer-yedka
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oking
+[2023-05-22 20:03:38] WARNING root fetch - processPackages [json-xml-serializer-yedka]: Skipping, unable to determine old version
+[2023-05-22 20:03:38] INFO root fetch - processPackages [json-xml-serializer-yedka]: Start processing: semsimian
+[2023-05-22 20:03:38] INFO root fetch - main [MainThread]: End processing [json-xml-serializer-yedka] error
+[2023-05-22 20:03:38] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.60.3] Old Version: [1.60.2]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ebeer]: New version: [0.0.9] Old Version: [0.0.15]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [KegElements]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [codat-common]: New version: [0.8.1] Old Version: [0.6.5]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [cellmaps-utils]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [solarkit]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-22 20:03:38] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.60.2.tar.gz tmp/Simba-UW-tf-dev-1.60.3.tar.gz --markdown 20230522/S/Simba-UW-tf-dev/1.60.2-1.60.3/diff.md --exclude *.pyd
+[2023-05-22 20:03:38] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [codat-sync-for-expenses]: New version: [0.20.1] Old Version: [0.19.0]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [semsimian]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-22 20:03:38] INFO root fetch - processPackages [ebeer]: Downloading https://files.pythonhosted.org/packages/50/8a/070fe4f71a3587bff60ef376a0ad677f54a07d3292f5729a4712cf943c00/ebeer-0.0.15.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [solarkit]: Downloading https://files.pythonhosted.org/packages/33/01/80225f9d5b306d810ab699e0c791d2bd20ef1aad3fc5cb82490f92412f77/solarkit-0.1.5.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/0a/55/1f7b3a92bde846f8df40c4542e821c256b497b0492129e43c128921f97e6/cellmaps_utils-0.1.0a7.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [KegElements]: Downloading https://files.pythonhosted.org/packages/59/52/b5540bc2d6d97cbd55f5040c9e9621e8b0c6f7c09b38e5f4fd8eaff26da2/KegElements-0.9.0.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/66/50/7ccfde3ec5da8b993d9df7602bd9db5e485ecd3f7fde5b529438e452c4e2/semsimian-0.1.13-cp39-none-win_amd64.whl
+[2023-05-22 20:03:39] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-22 20:03:39] INFO root fetch - processPackages [oking]: Start processing: libmata
+[2023-05-22 20:03:39] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-22 20:03:39] INFO root fetch - processPackages [codat-common]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [codat-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-common-0.6.5.tar.gz tmp/codat-common-0.8.1.tar.gz --markdown 20230522/c/codat-common/0.6.5-0.8.1/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/47/7b/ed55f9dc569b0c3f6959a75d5e1754a3028770a74a4bd975cdb15028328b/codat-sync-for-expenses-0.20.1.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [libmata]: New version: [0.59.0] Old Version: [0.58.0]
+[2023-05-22 20:03:39] INFO root fetch - processPackages [solarkit]: Downloading https://files.pythonhosted.org/packages/a0/a3/d276fdc9b27a95ebc3d0388bf73c22c0c1446b0afd13dc89481450ff47c9/solarkit-1.0.0.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230522/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [KegElements]: Downloading https://files.pythonhosted.org/packages/11/ed/d493ad22db9fba2729300c3a958ef4698179c2eed19c848e018f9bd92445/KegElements-0.9.1.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/9c/4e/c7fcb6825e0c43bcbc83939a6d8d49a8a4935bcce6d5b37c2a8dd1ccfae7/semsimian-0.1.14-cp39-none-win_amd64.whl
+[2023-05-22 20:03:39] INFO root fetch - processPackages [solarkit]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [solarkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarkit-0.1.5.tar.gz tmp/solarkit-1.0.0.tar.gz --markdown 20230522/s/solarkit/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [codat-sync-for-expenses]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [codat-sync-for-expenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-expenses-0.19.0.tar.gz tmp/codat-sync-for-expenses-0.20.1.tar.gz --markdown 20230522/c/codat-sync-for-expenses/0.19.0-0.20.1/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/d8/56/96f3c59df022b8b0e72cf6063bf58817ace3ecf03cd86141a18a8e26c109/libmata-0.58.0.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/cf/df/fdfd764b1cf2ab712128c009da5f5071771a6dc51f1b741975a834810063/cellmaps_utils-0.1.0a8.tar.gz
+[2023-05-22 20:03:39] INFO root fetch - processPackages [KegElements]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [KegElements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KegElements-0.9.0.tar.gz tmp/KegElements-0.9.1.tar.gz --markdown 20230522/K/KegElements/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [semsimian]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [semsimian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsimian-0.1.13-cp39-none-win_amd64.whl.zip tmp/semsimian-0.1.14-cp39-none-win_amd64.whl.zip --markdown 20230522/s/semsimian/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [cellmaps-utils]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [cellmaps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_utils-0.1.0a7.tar.gz tmp/cellmaps_utils-0.1.0a8.tar.gz --markdown 20230522/c/cellmaps-utils/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-05-22 20:03:39] INFO root fetch - processPackages [ebeer]: executing diffoscope
+[2023-05-22 20:03:39] INFO root fetch - processPackages [ebeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebeer-0.0.15.tar.gz tmp/ebeer-0.0.9.tar.gz --markdown 20230522/e/ebeer/0.0.15-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 20:03:40] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/37/07/8b43b3018ae687c56a1ea858c1f58389613d396cfb2042c64d7552ccdf45/libmata-0.59.0.tar.gz
+[2023-05-22 20:03:40] INFO root fetch - processPackages [solarkit]: Start processing: chalkpy
+[2023-05-22 20:03:40] INFO root fetch - main [MainThread]: End processing [solarkit]: success
+[2023-05-22 20:03:40] INFO root fetch - processPackages [nbsite]: Start processing: codat-assess
+[2023-05-22 20:03:40] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-22 20:03:40] INFO root fetch - processPackages [semsimian]: Start processing: easy-gtfs
+[2023-05-22 20:03:40] INFO root fetch - main [MainThread]: End processing [semsimian]: success
+[2023-05-22 20:03:40] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-22 20:03:40] INFO root fetch - processPackages [codat-assess]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-05-22 20:03:40] INFO root fetch - processPackages [easy-gtfs]: New version: [0.1.0.4] Old Version: [0.1.0.3]
+[2023-05-22 20:03:41] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-05-22 20:03:41] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.58.0.tar.gz tmp/libmata-0.59.0.tar.gz --markdown 20230522/l/libmata/0.58.0-0.59.0/diff.md --exclude *.pyd
+[2023-05-22 20:03:41] INFO root fetch - processPackages [cellmaps-utils]: Start processing: klu
+[2023-05-22 20:03:41] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-sync-for-expenses]: Start processing: codat-sync-for-commerce
+[2023-05-22 20:03:41] INFO root fetch - main [MainThread]: End processing [codat-sync-for-expenses]: success
+[2023-05-22 20:03:41] WARNING root fetch - processPackages [klu]: Skipping, unable to determine old version
+[2023-05-22 20:03:41] INFO root fetch - processPackages [klu]: Start processing: codat-files
+[2023-05-22 20:03:41] INFO root fetch - main [MainThread]: End processing [klu] error
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-sync-for-commerce]: New version: [0.9.0] Old Version: [0.17.1]
+[2023-05-22 20:03:41] INFO root fetch - processPackages [ebeer]: Start processing: fortitudo-tech
+[2023-05-22 20:03:41] INFO root fetch - main [MainThread]: End processing [ebeer]: success
+[2023-05-22 20:03:41] INFO root fetch - processPackages [easy-gtfs]: Downloading https://files.pythonhosted.org/packages/08/d0/40890915ae9c004f3cf83fcda1b24322ba718a55a1b09aba18b8b21093ef/easy_gtfs-0.1.0.4.tar.gz
+[2023-05-22 20:03:41] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-22 20:03:41] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230522/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-assess]: executing diffoscope
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-assess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-assess-0.5.1.tar.gz tmp/codat-assess-0.9.6.tar.gz --markdown 20230522/c/codat-assess/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-files]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/9e/d6/0b087b8615c8080ba7f0cbc717d6a11452928dfb5abc8b2f41c031ef1c79/codat-sync-for-commerce-0.17.1.tar.gz
+[2023-05-22 20:03:41] INFO root fetch - processPackages [fortitudo-tech]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-22 20:03:41] INFO root fetch - processPackages [easy-gtfs]: executing diffoscope
+[2023-05-22 20:03:41] INFO root fetch - processPackages [easy-gtfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_gtfs-0.1.0.3.tar.gz tmp/easy_gtfs-0.1.0.4.tar.gz --markdown 20230522/e/easy-gtfs/0.1.0.3-0.1.0.4/diff.md --exclude *.pyd
+[2023-05-22 20:03:41] INFO root fetch - processPackages [fortitudo-tech]: Downloading https://files.pythonhosted.org/packages/e8/3d/2c67098ba1dbf5f191f01ce65d50d7fd5c6a54b1e1756946cb9ee6222e29/fortitudo_tech-0.9.tar.gz
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-files]: executing diffoscope
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-files-0.5.1.tar.gz tmp/codat-files-0.8.4.tar.gz --markdown 20230522/c/codat-files/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-sync-for-commerce]: executing diffoscope
+[2023-05-22 20:03:41] INFO root fetch - processPackages [codat-sync-for-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-commerce-0.17.1.tar.gz tmp/codat-sync-for-commerce-0.9.0.tar.gz --markdown 20230522/c/codat-sync-for-commerce/0.17.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 20:03:42] INFO root fetch - processPackages [fortitudo-tech]: Downloading https://files.pythonhosted.org/packages/cd/2e/bd279f10396fe2405a51f2fe2476a1634771c201993c255e4a110a004a63/fortitudo_tech-0.9.1.tar.gz
+[2023-05-22 20:03:42] INFO root fetch - processPackages [codat-common]: Start processing: plone.app.querystring
+[2023-05-22 20:03:42] INFO root fetch - main [MainThread]: End processing [codat-common]: success
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.querystring]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-22 20:03:42] INFO root fetch - processPackages [KegElements]: Start processing: plone.app.vocabularies
+[2023-05-22 20:03:42] INFO root fetch - main [MainThread]: End processing [KegElements]: success
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.querystring]: Downloading https://files.pythonhosted.org/packages/5b/52/1b44222fcf8edfbb385f02f5af16b796a048e3ac0b746d6c4ba31aea744e/plone.app.querystring-2.0.3.tar.gz
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.vocabularies]: New version: [5.0.3] Old Version: [5.0.2]
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.querystring]: Downloading https://files.pythonhosted.org/packages/2c/db/8471b02625ae4ed16530967d0fc66f136379d34c5fe5aa35b6435c35024a/plone.app.querystring-2.0.4.tar.gz
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.vocabularies]: Downloading https://files.pythonhosted.org/packages/e7/3b/80bf1f0c05cbf6436e1022807780a90f1b04c21b28077571610cd1e32059/plone.app.vocabularies-5.0.2.tar.gz
+[2023-05-22 20:03:42] INFO root fetch - processPackages [codat-files]: Start processing: lona
+[2023-05-22 20:03:42] INFO root fetch - main [MainThread]: End processing [codat-files]: success
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.querystring]: executing diffoscope
+[2023-05-22 20:03:42] INFO root fetch - processPackages [plone.app.querystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.querystring-2.0.3.tar.gz tmp/plone.app.querystring-2.0.4.tar.gz --markdown 20230522/p/plone.app.querystring/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-22 20:03:43] INFO root fetch - processPackages [lona]: New version: [1.9] Old Version: [1.8.5]
+[2023-05-22 20:03:43] INFO root fetch - processPackages [easy-gtfs]: Start processing: task-assembly
+[2023-05-22 20:03:43] INFO root fetch - main [MainThread]: End processing [easy-gtfs]: success
+[2023-05-22 20:03:43] INFO root fetch - processPackages [plone.app.vocabularies]: Downloading https://files.pythonhosted.org/packages/01/56/36c758cf3fab32baf6500cc1ea0e06d9897d785f36980694fa11145d2951/plone.app.vocabularies-5.0.3.tar.gz
+[2023-05-22 20:03:43] INFO root fetch - processPackages [task-assembly]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 20:03:43] INFO root fetch - processPackages [task-assembly]: executing diffoscope
+[2023-05-22 20:03:43] INFO root fetch - processPackages [task-assembly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_assembly-0.1.8.tar.gz tmp/task_assembly-0.1.9.tar.gz --markdown 20230522/t/task-assembly/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 20:03:43] INFO root fetch - processPackages [plone.app.vocabularies]: executing diffoscope
+[2023-05-22 20:03:43] INFO root fetch - processPackages [plone.app.vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.vocabularies-5.0.2.tar.gz tmp/plone.app.vocabularies-5.0.3.tar.gz --markdown 20230522/p/plone.app.vocabularies/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2023-05-22 20:03:43] INFO root fetch - processPackages [lona]: Downloading https://files.pythonhosted.org/packages/83/61/d2150282fe6b79aa4b23d9638b0fcdea4e57fa8b09e19dcded35f5834c8c/lona-1.8.5.tar.gz
+[2023-05-22 20:03:43] INFO root fetch - processPackages [fortitudo-tech]: executing diffoscope
+[2023-05-22 20:03:43] INFO root fetch - processPackages [fortitudo-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortitudo_tech-0.9.tar.gz tmp/fortitudo_tech-0.9.1.tar.gz --markdown 20230522/f/fortitudo-tech/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-05-22 20:03:43] INFO root fetch - processPackages [lona]: Downloading https://files.pythonhosted.org/packages/86/aa/9e7d60f5a341def5c43aff6771b9a7254fe60b07cc5c114265d59bde8319/lona-1.9.tar.gz
+[2023-05-22 20:03:43] INFO root fetch - processPackages [lona]: executing diffoscope
+[2023-05-22 20:03:43] INFO root fetch - processPackages [lona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lona-1.8.5.tar.gz tmp/lona-1.9.tar.gz --markdown 20230522/l/lona/1.8.5-1.9/diff.md --exclude *.pyd
+[2023-05-22 20:03:44] INFO root fetch - main [MainThread]: End processing [codat-assess]: success
+[2023-05-22 20:03:44] INFO root fetch - main [MainThread]: End processing [codat-sync-for-commerce]: success
+[2023-05-22 20:03:44] INFO root fetch - main [MainThread]: End processing [task-assembly]: success
+[2023-05-22 20:03:44] INFO root fetch - main [MainThread]: End processing [plone.app.vocabularies]: success
+[2023-05-22 20:03:45] INFO root fetch - main [MainThread]: End processing [fortitudo-tech]: success
+[2023-05-22 20:03:45] INFO root fetch - main [MainThread]: End processing [plone.app.querystring]: success
+[2023-05-22 20:03:47] INFO root fetch - main [MainThread]: End processing [lona]: success
+[2023-05-22 20:03:47] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-22 20:03:47] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-05-22 20:03:48] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-22 20:03:48] INFO root fetch - main [MainThread]: Store serial: [18202128]
