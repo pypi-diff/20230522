@@ -5405,3 +5405,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:11:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
 [2023-05-22 07:13:57] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-22 07:13:57] INFO root fetch - main [MainThread]: Store serial: [18192509]
+[2023-05-22 07:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192509]
+[2023-05-22 07:19:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kswutils
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upconan
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-xblock
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3namic
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vfo
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: packagetenssor
+[2023-05-22 07:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-xblock
+[2023-05-22 07:19:06] INFO root fetch - processPackages [jupyter-xblock]: New version: [15.0.1] Old Version: [15.0.0]
+[2023-05-22 07:19:06] INFO root fetch - processPackages [kswutils]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 07:19:06] INFO root fetch - processPackages [jupyter-xblock]: New version: [15.0.1] Old Version: [15.0.0]
+[2023-05-22 07:19:06] INFO root fetch - processPackages [upconan]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 07:19:06] WARNING root fetch - processPackages [s3namic]: Skipping, unable to determine old version
+[2023-05-22 07:19:06] INFO root fetch - main [MainThread]: End processing [s3namic] error
+[2023-05-22 07:19:06] WARNING root fetch - processPackages [packagetenssor]: Skipping, unable to determine old version
+[2023-05-22 07:19:06] INFO root fetch - main [MainThread]: End processing [packagetenssor] error
+[2023-05-22 07:19:06] INFO root fetch - processPackages [vfo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 07:19:06] INFO root fetch - processPackages [jupyter-xblock]: executing diffoscope
+[2023-05-22 07:19:06] INFO root fetch - processPackages [jupyter-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-xblock-15.0.0.tar.gz tmp/jupyter-xblock-15.0.1.tar.gz --markdown 20230522/j/jupyter-xblock/15.0.0-15.0.1/diff.md --exclude *.pyd
+[2023-05-22 07:19:06] INFO root fetch - processPackages [jupyter-xblock]: executing diffoscope
+[2023-05-22 07:19:06] INFO root fetch - processPackages [jupyter-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-xblock-15.0.0.tar.gz tmp/jupyter-xblock-15.0.1.tar.gz --markdown 20230522/j/jupyter-xblock/15.0.0-15.0.1/diff.md --exclude *.pyd
+[2023-05-22 07:19:06] INFO root fetch - processPackages [kswutils]: Downloading https://files.pythonhosted.org/packages/a5/43/9f979d21670d440af3b647ca1078d66130353e72602f3c3c34ee14a81cf4/kswutils-0.2.1.tar.gz
+[2023-05-22 07:19:07] INFO root fetch - processPackages [vfo]: Downloading https://files.pythonhosted.org/packages/22/89/bc9450ed228e298cefbb3e75740d646e77f0535eb47910ce0ea09ad60ef8/vfo-0.0.8.tar.gz
+[2023-05-22 07:19:07] INFO root fetch - processPackages [upconan]: Downloading https://files.pythonhosted.org/packages/01/9a/da61c33e8a1d37478b02d16324b8ccaeb8df0d6c374694e235cd0d29687d/upconan-1.0.3.tar.gz
+[2023-05-22 07:19:07] INFO root fetch - processPackages [kswutils]: Downloading https://files.pythonhosted.org/packages/57/fc/b149a64308c78cd68e69a3e5b01ffea02a23c5f5e35e1f7a3956b80ea742/kswutils-0.2.2.tar.gz
+[2023-05-22 07:19:07] INFO root fetch - processPackages [upconan]: executing diffoscope
+[2023-05-22 07:19:07] INFO root fetch - processPackages [upconan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upconan-1.0.2.tar.gz tmp/upconan-1.0.3.tar.gz --markdown 20230522/u/upconan/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 07:19:07] INFO root fetch - processPackages [kswutils]: executing diffoscope
+[2023-05-22 07:19:07] INFO root fetch - processPackages [kswutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kswutils-0.2.1.tar.gz tmp/kswutils-0.2.2.tar.gz --markdown 20230522/k/kswutils/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 07:19:07] INFO root fetch - processPackages [vfo]: Downloading https://files.pythonhosted.org/packages/27/94/f2e9323879b346faf68af1b8520aad47fe826f65e0b80797cc4e533d7654/vfo-0.0.9.tar.gz
+[2023-05-22 07:19:07] INFO root fetch - processPackages [vfo]: executing diffoscope
+[2023-05-22 07:19:07] INFO root fetch - processPackages [vfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfo-0.0.8.tar.gz tmp/vfo-0.0.9.tar.gz --markdown 20230522/v/vfo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 07:19:07] INFO root fetch - main [MainThread]: End processing [jupyter-xblock]: success
+[2023-05-22 07:19:07] INFO root fetch - main [MainThread]: End processing [jupyter-xblock]: success
+[2023-05-22 07:19:08] INFO root fetch - main [MainThread]: End processing [kswutils]: success
+[2023-05-22 07:19:08] INFO root fetch - main [MainThread]: End processing [upconan]: success
+[2023-05-22 07:19:08] INFO root fetch - main [MainThread]: End processing [vfo]: success
+[2023-05-22 07:19:08] INFO root fetch - main [MainThread]: Store serial: [18192532]
