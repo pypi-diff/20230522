@@ -19479,3 +19479,92 @@ EOFError: EOF read where object expected
 [2023-05-22 18:14:52] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
 [2023-05-22 18:14:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-22 18:14:52] INFO root fetch - main [MainThread]: Store serial: [18200643]
+[2023-05-22 18:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200643]
+[2023-05-22 18:20:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampo
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-vpc
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socservthread
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: morpheus-mail
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cdk.asset-awscli-v1
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: questdb-connect
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AkvoDjangoFormGateway
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miprimeraprueba
+[2023-05-22 18:20:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naruno
+[2023-05-22 18:20:01] INFO root fetch - processPackages [AkvoDjangoFormGateway]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 18:20:01] INFO root fetch - processPackages [morpheus-mail]: New version: [1.0.22] Old Version: [1.0.19]
+[2023-05-22 18:20:01] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 18:20:01] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-05-22 18:20:01] INFO root fetch - processPackages [socservthread]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-22 18:20:01] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-22 18:20:01] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-22 18:20:02] WARNING root fetch - processPackages [miprimeraprueba]: Skipping, unable to determine old version
+[2023-05-22 18:20:02] INFO root fetch - processPackages [miprimeraprueba]: Start processing: naruno-api
+[2023-05-22 18:20:02] INFO root fetch - main [MainThread]: End processing [miprimeraprueba] error
+[2023-05-22 18:20:02] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 18:20:02] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno]: New version: [0.58.0] Old Version: [0.57.3]
+[2023-05-22 18:20:02] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230522/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230522/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-05-22 18:20:02] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: naruno-gui
+[2023-05-22 18:20:02] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-05-22 18:20:02] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Downloading https://files.pythonhosted.org/packages/81/47/752926dd999ada3eafe3f7e8528b0e7829c2d0689efc93ca1da8924fe0fa/AkvoDjangoFormGateway-0.0.6.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [socservthread]: Downloading https://files.pythonhosted.org/packages/a4/7f/69a3007a9e278dd0493b60086fea2b140212307a285bad7738ea0a363d1b/socservthread-1.1.1.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-api]: New version: [0.58.0] Old Version: [0.57.3]
+[2023-05-22 18:20:02] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/81/b8/3a062799724ebd3368c1822d4625c25fcd901733f327550b917be8334a53/questdb-connect-1.0.4.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/94/a5/b071f21830f98aebc9cf8c0917fa3332343051a93bee74e2689b0f18c466/nonebot_plugin_spark_gpt-0.2.3.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [morpheus-mail]: Downloading https://files.pythonhosted.org/packages/01/77/880568f243cd014df956ef54a103c018a1ec091da84cc259752f87bc2576/morpheus-mail-1.0.19.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [AkvoDjangoFormGateway]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [AkvoDjangoFormGateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkvoDjangoFormGateway-0.0.5.tar.gz tmp/AkvoDjangoFormGateway-0.0.6.tar.gz --markdown 20230522/A/AkvoDjangoFormGateway/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-gui]: New version: [0.58.0] Old Version: [0.57.3]
+[2023-05-22 18:20:02] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11273830>=10485760
+[2023-05-22 18:20:02] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: naruno-remote-app
+[2023-05-22 18:20:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/85/64/16cbe484ba13946d57cd95113c54c55b599f43fbb46904bd88aa9a7af6a5/naruno-0.57.3.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.3.tar.gz tmp/questdb-connect-1.0.4.tar.gz --markdown 20230522/q/questdb-connect/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.58.0] Old Version: [0.57.3]
+[2023-05-22 18:20:02] INFO root fetch - processPackages [morpheus-mail]: Downloading https://files.pythonhosted.org/packages/f3/f9/a70e626379aff1219ca491d20798b018acd43feda340c3261c951a91aa4c/morpheus-mail-1.0.22.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [socservthread]: Downloading https://files.pythonhosted.org/packages/f3/e3/a11f8915b3fe117646fff3379304a946c37baef350ca7d9c7fc19a42c79d/socservthread-1.1.2.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-api]: Downloading https://files.pythonhosted.org/packages/ca/05/ff604fe9c843c035ac89c671bcdfe571637ae40d79753f906a2dd0df4178/naruno_api-0.58.0.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [socservthread]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [socservthread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socservthread-1.1.1.tar.gz tmp/socservthread-1.1.2.tar.gz --markdown 20230522/s/socservthread/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.57.3.tar.gz tmp/naruno_api-0.58.0.tar.gz --markdown 20230522/n/naruno-api/0.57.3-0.58.0/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno]: Downloading https://files.pythonhosted.org/packages/1b/74/acb2dd3d43ee0bc7b63862aefb87b05ddd35a0e4c0c8ccb8c6499f5faba6/naruno-0.58.0.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-gui]: Downloading https://files.pythonhosted.org/packages/c9/ae/c61f73077deaa5311f6b166fae2a222ded551a2f4a3d7ba211e2294f1222/naruno_gui-0.58.0.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [morpheus-mail]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [morpheus-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morpheus-mail-1.0.19.tar.gz tmp/morpheus-mail-1.0.22.tar.gz --markdown 20230522/m/morpheus-mail/1.0.19-1.0.22/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.57.3.tar.gz tmp/naruno_gui-0.58.0.tar.gz --markdown 20230522/n/naruno-gui/0.57.3-0.58.0/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.57.3.tar.gz tmp/naruno-0.58.0.tar.gz --markdown 20230522/n/naruno/0.57.3-0.58.0/diff.md --exclude *.pyd
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-remote-app]: Downloading https://files.pythonhosted.org/packages/8a/90/d9f3fcab67d0988cd3ee8a238d77657b14b0b1d8c72a625345056e63ff15/naruno_remote_app-0.58.0.tar.gz
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-05-22 18:20:02] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.57.3.tar.gz tmp/naruno_remote_app-0.58.0.tar.gz --markdown 20230522/n/naruno-remote-app/0.57.3-0.58.0/diff.md --exclude *.pyd
+[2023-05-22 18:20:03] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: naruno-tests
+[2023-05-22 18:20:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-22 18:20:03] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Start processing: LasBuildSeg
+[2023-05-22 18:20:03] INFO root fetch - main [MainThread]: End processing [AkvoDjangoFormGateway]: success
+[2023-05-22 18:20:03] INFO root fetch - processPackages [naruno-tests]: New version: [0.58.0] Old Version: [0.57.3]
+[2023-05-22 18:20:03] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [socservthread]: success
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-05-22 18:20:04] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/6d/c8/a8f6bc6f2498ec23c795795c9a1acd426368d2f076cc75e735b5ee9fffad/LasBuildSeg-0.1.17.tar.gz
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-05-22 18:20:04] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-22 18:20:04] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.1.16.tar.gz tmp/LasBuildSeg-0.1.17.tar.gz --markdown 20230522/L/LasBuildSeg/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-05-22 18:20:04] INFO root fetch - processPackages [naruno-tests]: Downloading https://files.pythonhosted.org/packages/24/cc/308a9297f4964775df63bd4d00e67d5976e35f6de4f8b64874b96853e80b/naruno_tests-0.58.0.tar.gz
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-22 18:20:04] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-05-22 18:20:04] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.57.3.tar.gz tmp/naruno_tests-0.58.0.tar.gz --markdown 20230522/n/naruno-tests/0.57.3-0.58.0/diff.md --exclude *.pyd
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-05-22 18:20:04] INFO root fetch - main [MainThread]: End processing [morpheus-mail]: success
+[2023-05-22 18:20:05] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-22 18:20:05] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-05-22 18:20:07] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-05-22 18:20:07] INFO root fetch - main [MainThread]: Store serial: [18200691]
