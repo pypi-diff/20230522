@@ -9392,3 +9392,131 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:29:56] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-05-22 11:30:01] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
 [2023-05-22 11:30:01] INFO root fetch - main [MainThread]: Store serial: [18194809]
+[2023-05-22 11:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194809]
+[2023-05-22 11:35:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-gpt
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-mgmt-voiceservices
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medsenger-api
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-networkcloud
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datarobot-model-metrics
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartchart
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-qumulo
+[2023-05-22 11:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-blob-storage
+[2023-05-22 11:35:12] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.41.dev9] Old Version: [0.18.41.dev8]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-voiceservices]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [datarobot-model-metrics]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [django-blob-storage]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202305220930] Old Version: [99.0.202305210833]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-qumulo]: New version: [1.0.0b1] Old Version: [1.0.0]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:35:12] WARNING root fetch - processPackages [azure-mgmt-networkcloud]: Skipping, unable to determine old version
+[2023-05-22 11:35:12] INFO root fetch - processPackages [smartchart]: New version: [6.6] Old Version: [6.5.6]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-networkcloud]: Start processing: mvtec-halcon
+[2023-05-22 11:35:12] INFO root fetch - main [MainThread]: End processing [azure-mgmt-networkcloud] error
+[2023-05-22 11:35:12] INFO root fetch - processPackages [mvtec-halcon]: New version: [23050.0.0] Old Version: [22111.0.0]
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-voiceservices]: Downloading https://files.pythonhosted.org/packages/53/29/3901ac41ea85ec308c074441a1ccee0291b1785b8a4b7c092baa142bd43a/azure-mgmt-voiceservices-1.0.0.zip
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-qumulo]: Downloading https://files.pythonhosted.org/packages/46/ae/2278af35a64f2baa161de6e1e7c9e8d851b2d01074eb58035a4341896193/azure-mgmt-qumulo-1.0.0.zip
+[2023-05-22 11:35:12] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/78/e9/3680b68b49553670cee198606ade1c25b07f611450d295863923110fa070/datarobot_model_metrics-0.1.4-py2.py3-none-any.whl
+[2023-05-22 11:35:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/5c/01/c39606e11806dc95a0ce58ca336ab260eb878558c2fbdbd181fa79cafe1a/kfish-99.0.202305210833-py3-none-any.whl
+[2023-05-22 11:35:12] INFO root fetch - processPackages [django-blob-storage]: Downloading https://files.pythonhosted.org/packages/d9/b8/dd589172a102388124dfcf152c2199b571a1a4ab1cadd2c0aac3454034a5/django_blob_storage-0.1.0.tar.gz
+[2023-05-22 11:35:12] INFO root fetch - processPackages [mvtec-halcon]: Downloading https://files.pythonhosted.org/packages/9d/7e/6408705cb814466515f35cd5d51bdeeb340da0b965afa07d19590cb07077/mvtec-halcon-22111.0.0.tar.gz
+[2023-05-22 11:35:12] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.41.dev8.tar.gz tmp/dev-gpt-0.18.41.dev9.tar.gz --markdown 20230522/d/dev-gpt/0.18.41.dev8-0.18.41.dev9/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/c5/97/7cb70392e803bbc2837d2544685843eaa1445867b8eeba4111be730355c1/smartchart-6.6.tar.gz
+[2023-05-22 11:35:12] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230522/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-voiceservices]: Downloading https://files.pythonhosted.org/packages/c6/13/190368dc02be101b7fc1065526307a377d531dd88fd2152b16da60116550/azure-mgmt-voiceservices-1.0.0b1.zip
+[2023-05-22 11:35:12] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d4/99/0fb6aa2a9ad5ae7d7ad4aa9076096975b21f637540dac013da0c19a37f15/kfish-99.0.202305220930-py3-none-any.whl
+[2023-05-22 11:35:12] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/b5/2c/cfdd9e6befb667c9eae0851425fab85f3189df6d10c410ce1b32c731307d/datarobot_model_metrics-0.1.5-py2.py3-none-any.whl
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-voiceservices]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-voiceservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-voiceservices-1.0.0.zip tmp/azure-mgmt-voiceservices-1.0.0b1.zip --markdown 20230522/a/azure-mgmt-voiceservices/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [django-blob-storage]: Downloading https://files.pythonhosted.org/packages/cd/03/faa0fb7041188cefa65fea75d84f3394e28d3bcec3db34c6d047776e7527/django_blob_storage-0.2.0.tar.gz
+[2023-05-22 11:35:12] INFO root fetch - processPackages [mvtec-halcon]: Downloading https://files.pythonhosted.org/packages/e8/61/f8df70b5ee30d09c0948c4b651c483da2b431f1637f488c7b0c3630471f8/mvtec_halcon-23050.0.0.tar.gz
+[2023-05-22 11:35:12] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305210833-py3-none-any.whl.zip tmp/kfish-99.0.202305220930-py3-none-any.whl.zip --markdown 20230522/k/kfish/99.0.202305210833-99.0.202305220930/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-6.5.6.tar.gz tmp/smartchart-6.6.tar.gz --markdown 20230522/s/smartchart/6.5.6-6.6/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-qumulo]: Downloading https://files.pythonhosted.org/packages/b7/fa/8303ba226043c47fe0e30e90e0d6727c49897994b9ab7c3aa86b86d372f2/azure-mgmt-qumulo-1.0.0b1.zip
+[2023-05-22 11:35:12] INFO root fetch - processPackages [mvtec-halcon]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [mvtec-halcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvtec-halcon-22111.0.0.tar.gz tmp/mvtec_halcon-23050.0.0.tar.gz --markdown 20230522/m/mvtec-halcon/22111.0.0-23050.0.0/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [datarobot-model-metrics]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [datarobot-model-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_model_metrics-0.1.4-py2.py3-none-any.whl.zip tmp/datarobot_model_metrics-0.1.5-py2.py3-none-any.whl.zip --markdown 20230522/d/datarobot-model-metrics/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-qumulo]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [azure-mgmt-qumulo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-qumulo-1.0.0.zip tmp/azure-mgmt-qumulo-1.0.0b1.zip --markdown 20230522/a/azure-mgmt-qumulo/1.0.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-05-22 11:35:12] INFO root fetch - processPackages [django-blob-storage]: executing diffoscope
+[2023-05-22 11:35:12] INFO root fetch - processPackages [django-blob-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_blob_storage-0.1.0.tar.gz tmp/django_blob_storage-0.2.0.tar.gz --markdown 20230522/d/django-blob-storage/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 11:35:14] INFO root fetch - processPackages [medsenger-api]: Start processing: MazgaDB
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MazgaDB]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/6d/53/e58cbd204f82779fc25cb90acd4c251d5e49c59cdf7573225e84e44963a2/MazgaDB-1.1.0.tar.gz
+[2023-05-22 11:35:14] INFO root fetch - processPackages [kfish]: Start processing: imaginAIry
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [imaginAIry]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-05-22 11:35:14] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: venv-modulefile
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:35:14] INFO root fetch - processPackages [django-blob-storage]: Start processing: kodexa-cli
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [django-blob-storage]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [kodexa-cli]: New version: [6.0.5a5044154294] Old Version: [6.0.5a4617368474]
+[2023-05-22 11:35:14] INFO root fetch - processPackages [imaginAIry]: Downloading https://files.pythonhosted.org/packages/9d/a1/ab3022cd84ebb1e643f069eb4e924453bf3c5b73555b73cc2d9003a2f48e/imaginAIry-9.0.1-py3-none-win_amd64.whl
+[2023-05-22 11:35:14] INFO root fetch - processPackages [datarobot-model-metrics]: Start processing: MCPoly
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/a8/0e/e3463613420be93bd9439aceb2e93c132f0da729ac1fbae182a0267b02dd/MazgaDB-1.1.1.tar.gz
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MCPoly]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-22 11:35:14] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/e3/ef/b8cf8b01bc081db1b77f1c37b3a4dab5f0c7b4a970c895e9885da7ce4f81/venv-modulefile-0.0.8.tar.gz
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MazgaDB]: executing diffoscope
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MazgaDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MazgaDB-1.1.0.tar.gz tmp/MazgaDB-1.1.1.tar.gz --markdown 20230522/M/MazgaDB/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 11:35:14] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/39/3a/b047e79cfd9dee8886f9e18540e1d7def1c203702da326cda964133ad9db/kodexa_cli-6.0.5a4617368474.tar.gz
+[2023-05-22 11:35:14] INFO root fetch - processPackages [azure-mgmt-qumulo]: Start processing: lk-logger
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [azure-mgmt-qumulo]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/8f/6a/cb37d74f7f7c38e127abd4387da338ce7a29c79453aca39e4fdb08000bc2/MCPoly-0.3.0.tar.gz
+[2023-05-22 11:35:14] INFO root fetch - processPackages [lk-logger]: New version: [5.6.0] Old Version: [5.5.2]
+[2023-05-22 11:35:14] INFO root fetch - processPackages [azure-mgmt-voiceservices]: Start processing: dipex
+[2023-05-22 11:35:14] INFO root fetch - main [MainThread]: End processing [azure-mgmt-voiceservices]: success
+[2023-05-22 11:35:14] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/23/4c/cf4415f2fbe0274febe787a6e87dd85ce6dc56f425396cca0a45442d4938/kodexa_cli-6.0.5a5044154294.tar.gz
+[2023-05-22 11:35:14] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-22 11:35:15] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/d5/60/80a53d7bc72f5ac6881d3dc4d7c923dc5d47b6594995001dfa76e8766f92/venv-modulefile-0.0.9.tar.gz
+[2023-05-22 11:35:15] INFO root fetch - processPackages [MCPoly]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9ae6504b6ce9ffff555be77af124ec014ac98a8329b680908d39885a64b/MCPoly-0.3.1.tar.gz
+[2023-05-22 11:35:15] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-22 11:35:15] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230522/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:35:15] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-22 11:35:15] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230522/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-22 11:35:15] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/ab/28/64391c2292b53af01d7d5008ca87d1ba6032382a76a720a2d763fbd71b92/lk_logger-5.6.0-py3-none-any.whl
+[2023-05-22 11:35:15] INFO root fetch - processPackages [MCPoly]: executing diffoscope
+[2023-05-22 11:35:15] INFO root fetch - processPackages [MCPoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCPoly-0.3.0.tar.gz tmp/MCPoly-0.3.1.tar.gz --markdown 20230522/M/MCPoly/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-22 11:35:15] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-05-22 11:35:15] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.0.5a4617368474.tar.gz tmp/kodexa_cli-6.0.5a5044154294.tar.gz --markdown 20230522/k/kodexa-cli/6.0.5a4617368474-6.0.5a5044154294/diff.md --exclude *.pyd
+[2023-05-22 11:35:15] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2023-05-22 11:35:15] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.5.2-py3-none-any.whl.zip tmp/lk_logger-5.6.0-py3-none-any.whl.zip --markdown 20230522/l/lk-logger/5.5.2-5.6.0/diff.md --exclude *.pyd
+[2023-05-22 11:35:16] INFO root fetch - processPackages [imaginAIry]: Downloading https://files.pythonhosted.org/packages/6e/20/bda9ce57edb66d0957c09818edabe0068a93d42e6aba1ac1313ee29b3e48/imaginAIry-9.0.2-py3-none-win_amd64.whl
+[2023-05-22 11:35:16] INFO root fetch - processPackages [MazgaDB]: Start processing: python-frank-energie
+[2023-05-22 11:35:16] INFO root fetch - main [MainThread]: End processing [MazgaDB]: success
+[2023-05-22 11:35:16] INFO root fetch - processPackages [python-frank-energie]: New version: [4.1.0] Old Version: [4.0.3]
+[2023-05-22 11:35:16] INFO root fetch - processPackages [python-frank-energie]: Downloading https://files.pythonhosted.org/packages/da/f7/e42eae6f2afa964d622732849767d9531c308bc0890c870d03710da39a3f/python_frank_energie-4.0.3.tar.gz
+[2023-05-22 11:35:16] INFO root fetch - processPackages [venv-modulefile]: Start processing: django-blob-storage
+[2023-05-22 11:35:16] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-22 11:35:16] INFO root fetch - processPackages [django-blob-storage]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 11:35:16] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-05-22 11:35:16] INFO root fetch - processPackages [python-frank-energie]: Downloading https://files.pythonhosted.org/packages/10/34/ad2e9ebc730f0d86abbc1a90bce39073865bab929bd519700c2317302aea/python_frank_energie-4.1.0.tar.gz
+[2023-05-22 11:35:16] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2023-05-22 11:35:16] INFO root fetch - processPackages [django-blob-storage]: Downloading https://files.pythonhosted.org/packages/af/0e/6419c5ca4ca716ba79d9416bd2364a9803df27f294b95d8ec84dc2cb5d88/django_blob_storage-0.2.1.tar.gz
+[2023-05-22 11:35:17] INFO root fetch - processPackages [python-frank-energie]: executing diffoscope
+[2023-05-22 11:35:17] INFO root fetch - processPackages [python-frank-energie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_frank_energie-4.0.3.tar.gz tmp/python_frank_energie-4.1.0.tar.gz --markdown 20230522/p/python-frank-energie/4.0.3-4.1.0/diff.md --exclude *.pyd
+[2023-05-22 11:35:17] INFO root fetch - processPackages [django-blob-storage]: executing diffoscope
+[2023-05-22 11:35:17] INFO root fetch - processPackages [django-blob-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_blob_storage-0.2.0.tar.gz tmp/django_blob_storage-0.2.1.tar.gz --markdown 20230522/d/django-blob-storage/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 11:35:17] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-22 11:35:17] INFO root fetch - processPackages [imaginAIry]: executing diffoscope
+[2023-05-22 11:35:17] INFO root fetch - processPackages [imaginAIry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginAIry-9.0.1-py3-none-win_amd64.whl.zip tmp/imaginAIry-9.0.2-py3-none-win_amd64.whl.zip --markdown 20230522/i/imaginAIry/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-05-22 11:35:18] INFO root fetch - main [MainThread]: End processing [python-frank-energie]: success
+[2023-05-22 11:35:18] INFO root fetch - main [MainThread]: End processing [MCPoly]: success
+[2023-05-22 11:35:18] INFO root fetch - main [MainThread]: End processing [django-blob-storage]: success
+[2023-05-22 11:35:19] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-05-22 11:35:19] INFO root fetch - main [MainThread]: End processing [imaginAIry]: success
+[2023-05-22 11:35:21] INFO root fetch - main [MainThread]: End processing [mvtec-halcon]: success
+[2023-05-22 11:35:51] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-22 11:35:51] INFO root fetch - main [MainThread]: Store serial: [18194865]
