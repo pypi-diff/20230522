@@ -8723,3 +8723,172 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:02:28] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
 [2023-05-22 11:02:29] INFO root fetch - main [MainThread]: End processing [orwynn]: success
 [2023-05-22 11:02:29] INFO root fetch - main [MainThread]: Store serial: [18194443]
+[2023-05-22 11:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194443]
+[2023-05-22 11:07:38] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-views
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sample-py-test
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: startstop
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accompanist
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrew
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: impick
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsaugmentation
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.common
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-hr-attendance-rfid
+[2023-05-22 11:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.core
+[2023-05-22 11:07:38] INFO root fetch - processPackages [fastapi-views]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-22 11:07:38] INFO root fetch - processPackages [startstop]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-22 11:07:38] WARNING root fetch - processPackages [sample-py-test]: Skipping, unable to determine old version
+[2023-05-22 11:07:38] INFO root fetch - processPackages [sample-py-test]: Start processing: autogluon.cloud
+[2023-05-22 11:07:38] INFO root fetch - processPackages [odoo14-addon-hr-attendance-rfid]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1.dev1]
+[2023-05-22 11:07:38] INFO root fetch - main [MainThread]: End processing [sample-py-test] error
+[2023-05-22 11:07:38] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-22 11:07:38] INFO root fetch - processPackages [accompanist]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-05-22 11:07:38] WARNING root fetch - processPackages [impick]: Skipping, unable to determine old version
+[2023-05-22 11:07:38] INFO root fetch - processPackages [impick]: Start processing: autogluon.features
+[2023-05-22 11:07:38] INFO root fetch - main [MainThread]: End processing [impick] error
+[2023-05-22 11:07:38] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-22 11:07:38] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:38] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230522] Old Version: [0.2.1b20230521]
+[2023-05-22 11:07:38] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:38] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:39] INFO root fetch - processPackages [fastapi-views]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [fastapi-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_views-0.0.2.tar.gz tmp/fastapi_views-0.0.4.tar.gz --markdown 20230522/f/fastapi-views/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [odoo14-addon-hr-attendance-rfid]: Downloading https://files.pythonhosted.org/packages/2c/ef/67f5734fcbe1dc84701150b079a1840deab3e39230d3c4d5e898770a5263/odoo14_addon_hr_attendance_rfid-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-22 11:07:39] INFO root fetch - processPackages [accompanist]: Downloading https://files.pythonhosted.org/packages/2a/b9/d82b4216a0f0c919d6f398c86ba5f29771d94d52cc4996847d4e5b4ef8ad/accompanist-1.1.2-py3-none-any.whl
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/32/ad/83fed6768f0c4a49cf4d6128ea91f0dc5a559f385d93ab108358b8910311/autogluon.cloud-0.2.1b20230521.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/6c/75/281acc3440b59e361a711aabfd42c6427818eaa54e24443030e7aefcd853/autogluon.common-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [startstop]: Downloading https://files.pythonhosted.org/packages/11/6e/e1f545e77224f7ee20043a05a848f2e415f6fd5c3fb9dcf029f940177c3d/startstop-1.0.8.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/f3/9b/312c91f8f1cc30f5caaf1b073170dc6315359db8a4162d1eda92efbde59a/autogluon.core-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/3a/de/912f2c5c96bd9f068b7b6517168eca12f7e16b15fdc196e7f364cd67bb39/autogluon.features-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [startstop]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [startstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startstop-1.0.7.tar.gz tmp/startstop-1.0.8.tar.gz --markdown 20230522/s/startstop/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230522/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230522/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [odoo14-addon-hr-attendance-rfid]: Downloading https://files.pythonhosted.org/packages/13/1c/6a098ffee9d2887462ce93e006d53e5a67ddc24a1fd8c5564bd3113b7749/odoo14_addon_hr_attendance_rfid-14.0.1.1.2-py3-none-any.whl
+[2023-05-22 11:07:39] INFO root fetch - processPackages [accompanist]: Downloading https://files.pythonhosted.org/packages/14/bc/5776240b02ba754e599c4629a5d66185de800485f4ec210486ed574c3d07/accompanist-1.1.4-py3-none-any.whl
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/3c/bd/91c581682cd9b17e9f90c874715e607c2d3de2c1ef904713da8e410bf095/autogluon.cloud-0.2.1b20230522.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/2b/22/61afe80f2eeb40aa7a5051d4f836e167827ef9c1c51c45074b028bf6ff05/autogluon.common-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b0/a6/687737617c87008b9938378c802053e1783f469a5d4b24dbb7a50511fb3f/autogluon.core-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/01/6e/a0f223052a718f2db5b4cf2ac4b28146021201c0d0305a6caec20e23ceaf/autogluon.features-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:39] INFO root fetch - processPackages [odoo14-addon-hr-attendance-rfid]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [odoo14-addon-hr-attendance-rfid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_rfid-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_rfid-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-hr-attendance-rfid/14.0.1.1.1.dev1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [accompanist]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [accompanist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accompanist-1.1.2-py3-none-any.whl.zip tmp/accompanist-1.1.4-py3-none-any.whl.zip --markdown 20230522/a/accompanist/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230521.tar.gz tmp/autogluon.common-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.common/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230521.tar.gz tmp/autogluon.cloud-0.2.1b20230522.tar.gz --markdown 20230522/a/autogluon.cloud/0.2.1b20230521-0.2.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230521.tar.gz tmp/autogluon.core-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.core/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-05-22 11:07:39] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230521.tar.gz tmp/autogluon.features-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.features/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:40] INFO root fetch - processPackages [fastapi-views]: Start processing: autogluon.tabular
+[2023-05-22 11:07:40] INFO root fetch - main [MainThread]: End processing [fastapi-views]: success
+[2023-05-22 11:07:40] INFO root fetch - processPackages [startstop]: Start processing: FHIRkit
+[2023-05-22 11:07:40] INFO root fetch - main [MainThread]: End processing [startstop]: success
+[2023-05-22 11:07:40] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:40] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:07:40] INFO root fetch - processPackages [pyrew]: Start processing: autogluon.multimodal
+[2023-05-22 11:07:40] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-22 11:07:40] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:40] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/e1/92/cd63402232fa9ed8e83f117d52820930e763984eea8107ab65fda6e09090/autogluon.tabular-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:40] INFO root fetch - processPackages [tsaugmentation]: Start processing: FHIRkit
+[2023-05-22 11:07:40] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-22 11:07:40] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:07:40] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/15/45/c821852c4c8159140182868b27386fbaa478df155b7178cb12e0ebf09a80/autogluon.multimodal-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/ce/0e/aa0acaab8a32b62b0172de3cb780632982e4ab70aa5249c91532e6df2481/FHIRkit-0.0.8.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/ce/0e/aa0acaab8a32b62b0172de3cb780632982e4ab70aa5249c91532e6df2481/FHIRkit-0.0.8.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [odoo14-addon-hr-attendance-rfid]: Start processing: cy-root
+[2023-05-22 11:07:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-rfid]: success
+[2023-05-22 11:07:41] INFO root fetch - processPackages [cy-root]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/2a/40/513944408a727f6f913f806e8a893236387beb96aef5445838de60fb27a7/autogluon.tabular-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/31/41/a32627c36928de6954609f8d263ee88491262ef498e59f3e92de4f5279dc/autogluon.multimodal-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [cy-root]: Downloading https://files.pythonhosted.org/packages/c2/7d/b11789d1967dc2c488c9e22f1ffd38019d5aa174c32630c950305be86072/cy-root-1.0.2.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [accompanist]: Start processing: autogluon.timeseries
+[2023-05-22 11:07:41] INFO root fetch - main [MainThread]: End processing [accompanist]: success
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.cloud]: Start processing: autogluon
+[2023-05-22 11:07:41] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/4d/26/2c357af26641150069e5ea9a97d7eda159b61f1533911d9063bbdf9461d2/FHIRkit-0.0.9.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: Downloading https://files.pythonhosted.org/packages/4d/26/2c357af26641150069e5ea9a97d7eda159b61f1533911d9063bbdf9461d2/FHIRkit-0.0.9.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.core]: Start processing: odoo14-addon-connector-search-engine
+[2023-05-22 11:07:41] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230521.tar.gz tmp/autogluon.tabular-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.tabular/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230521.tar.gz tmp/autogluon.multimodal-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.multimodal/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:41] INFO root fetch - processPackages [odoo14-addon-connector-search-engine]: New version: [14.0.2.8.2] Old Version: [14.0.2.8.1]
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230522/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-22 11:07:41] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230522/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/14/5d/6de55744162f7dab648f1f0da35a1d442fe40a5c0cb1a0cda2cc3cf94654/autogluon.timeseries-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [odoo14-addon-connector-search-engine]: Downloading https://files.pythonhosted.org/packages/bc/8e/f8c6a65e736b0b2828538c3a5ac4849636533ae1bbebdf69efbddf635afe/odoo14_addon_connector_search_engine-14.0.2.8.1-py3-none-any.whl
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/e7/d2/68cd8ac851e3ce2a729ea07e1c167c9ad1ee1671c0827a029b7fa8c3ad08/autogluon-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [cy-root]: Downloading https://files.pythonhosted.org/packages/54/ff/5f299a738475004e65f88517462da5cc27f829d770773999711cee96d5a1/cy-root-1.0.3.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.eda
+[2023-05-22 11:07:41] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230522] Old Version: [0.7.1b20230521]
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e0/de/69587659a15969b3e261ee4b121f400d5f5cbf5ffe40541ab14df810075d/autogluon.timeseries-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [cy-root]: executing diffoscope
+[2023-05-22 11:07:41] INFO root fetch - processPackages [cy-root]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy-root-1.0.2.tar.gz tmp/cy-root-1.0.3.tar.gz --markdown 20230522/c/cy-root/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/11/8f/a340af20ab26d1b8007bb49a80f3a08c5dbdd391665542e08169caff06ea/autogluon-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:41] INFO root fetch - processPackages [odoo14-addon-connector-search-engine]: Downloading https://files.pythonhosted.org/packages/81/3d/964871c5058658b4861845addfa396a4a1aa97487ba9c2c214a1e1ebac86/odoo14_addon_connector_search_engine-14.0.2.8.2-py3-none-any.whl
+[2023-05-22 11:07:41] INFO root fetch - processPackages [autogluon.features]: Start processing: aliyun-python-sdk-bpstudio
+[2023-05-22 11:07:41] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-05-22 11:07:41] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/4f/6a/bae554644ca4a912ea2520ba8abebe46d8406cb2f259d3bddb05a6a9d881/autogluon.eda-0.7.1b20230521.tar.gz
+[2023-05-22 11:07:42] INFO root fetch - processPackages [odoo14-addon-connector-search-engine]: executing diffoscope
+[2023-05-22 11:07:42] INFO root fetch - processPackages [odoo14-addon-connector-search-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_search_engine-14.0.2.8.1-py3-none-any.whl.zip tmp/odoo14_addon_connector_search_engine-14.0.2.8.2-py3-none-any.whl.zip --markdown 20230522/o/odoo14-addon-connector-search-engine/14.0.2.8.1-14.0.2.8.2/diff.md --exclude *.pyd
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230521.tar.gz tmp/autogluon.timeseries-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.timeseries/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230521.tar.gz tmp/autogluon-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:42] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Downloading https://files.pythonhosted.org/packages/1b/c5/4444cedee14025f35ccdea6287aa4bbf53c7b530673f51e1f89e99821e32/aliyun-python-sdk-bpstudio-1.0.1.tar.gz
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/a7/45/57a182e37f5637b84512f093e1f21b8f17ecbbefd617f4e266c4534f3b3f/autogluon.eda-0.7.1b20230522.tar.gz
+[2023-05-22 11:07:42] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: Downloading https://files.pythonhosted.org/packages/09/5c/220ad9abdd07f460acf178c2289e60b8b645c4820487e2fc180342cbb940/aliyun-python-sdk-bpstudio-1.0.2.tar.gz
+[2023-05-22 11:07:42] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: executing diffoscope
+[2023-05-22 11:07:42] INFO root fetch - processPackages [aliyun-python-sdk-bpstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-bpstudio-1.0.1.tar.gz tmp/aliyun-python-sdk-bpstudio-1.0.2.tar.gz --markdown 20230522/a/aliyun-python-sdk-bpstudio/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-05-22 11:07:42] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230521.tar.gz tmp/autogluon.eda-0.7.1b20230522.tar.gz --markdown 20230522/a/autogluon.eda/0.7.1b20230521-0.7.1b20230522/diff.md --exclude *.pyd
+[2023-05-22 11:07:42] INFO root fetch - processPackages [FHIRkit]: Start processing: discminer
+[2023-05-22 11:07:42] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-22 11:07:42] INFO root fetch - processPackages [discminer]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-22 11:07:43] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/08/c0/c01ceb9d46bb9939d426785c6c516af3ecc85ea2eaa96ef786ac90d375da/discminer-0.2.8.tar.gz
+[2023-05-22 11:07:43] INFO root fetch - processPackages [autogluon]: Start processing: pyikarus
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-05-22 11:07:43] INFO root fetch - processPackages [discminer]: executing diffoscope
+[2023-05-22 11:07:43] INFO root fetch - processPackages [discminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discminer-0.2.7.tar.gz tmp/discminer-0.2.8.tar.gz --markdown 20230522/d/discminer/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-22 11:07:43] INFO root fetch - processPackages [pyikarus]: New version: [0.3.2.dev20230522090628] Old Version: [0.3.1.dev20230522083503]
+[2023-05-22 11:07:43] INFO root fetch - processPackages [FHIRkit]: Start processing: qontract-reconcile
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-22 11:07:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-22 11:07:43] INFO root fetch - processPackages [odoo14-addon-connector-search-engine]: Start processing: pragyaniitian
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-search-engine]: success
+[2023-05-22 11:07:43] WARNING root fetch - processPackages [pragyaniitian]: Skipping, unable to determine old version
+[2023-05-22 11:07:43] INFO root fetch - processPackages [pragyaniitian]: Start processing: odoo-addon-l10n-eu-oss-oca
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [pragyaniitian] error
+[2023-05-22 11:07:43] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: New version: [16.0.1.0.0.2] Old Version: [15.0.2.1.1]
+[2023-05-22 11:07:43] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-22 11:07:43] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-05-22 11:07:43] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/39/19/19d539436a9e854902f772a423786158492c4f93eb5f24aa5bf752a0d4de/pyikarus-0.3.2.dev20230522090628.tar.gz
+[2023-05-22 11:07:43] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Downloading https://files.pythonhosted.org/packages/b8/e2/18f76bec7d83a1f02d986afa73ad5216f06e1355dde80a1ccd101ffcf93f/odoo_addon_l10n_eu_oss_oca-15.0.2.1.1-py3-none-any.whl
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-05-22 11:07:43] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-22 11:07:43] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.1.dev20230522083503.tar.gz tmp/pyikarus-0.3.2.dev20230522090628.tar.gz --markdown 20230522/p/pyikarus/0.3.1.dev20230522083503-0.3.2.dev20230522090628/diff.md --exclude *.pyd
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-bpstudio]: success
+[2023-05-22 11:07:43] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-05-22 11:07:44] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: Downloading https://files.pythonhosted.org/packages/8e/41/4cb7fde000e626f21b6024cce6b7421e8bb8a51cc127c4562cbd83edb1f1/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-22 11:07:44] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: executing diffoscope
+[2023-05-22 11:07:44] INFO root fetch - processPackages [odoo-addon-l10n-eu-oss-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_eu_oss_oca-15.0.2.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_eu_oss_oca-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-l10n-eu-oss-oca/15.0.2.1.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-22 11:07:44] INFO root fetch - main [MainThread]: End processing [discminer]: success
+[2023-05-22 11:07:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-eu-oss-oca]: success
+[2023-05-22 11:07:46] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-05-22 11:07:46] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-22 11:07:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-22 11:07:54] INFO root fetch - main [MainThread]: End processing [cy-root]: success
+[2023-05-22 11:07:54] INFO root fetch - main [MainThread]: Store serial: [18194539]
