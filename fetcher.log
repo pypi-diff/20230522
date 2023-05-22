@@ -15225,3 +15225,114 @@ EOFError: EOF read where object expected
 [2023-05-22 16:22:29] INFO root fetch - main [MainThread]: End processing [diffusion]: success
 [2023-05-22 16:22:29] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
 [2023-05-22 16:22:29] INFO root fetch - main [MainThread]: Store serial: [18198299]
+[2023-05-22 16:27:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198299]
+[2023-05-22 16:27:39] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scdiffeq
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpdb-api
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: questdb-connect
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlfactory
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arkitema-config
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qoa4ml
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edl-mod
+[2023-05-22 16:27:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starred-astro
+[2023-05-22 16:27:39] INFO root fetch - processPackages [cpdb-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [mlfactory]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [edl-mod]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [scdiffeq]: New version: [0.0.47rc0] Old Version: [0.0.46rc4]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [qoa4ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 16:27:39] WARNING root fetch - processPackages [arkitema-config]: Skipping, unable to determine old version
+[2023-05-22 16:27:39] INFO root fetch - processPackages [arkitema-config]: Start processing: bovine-process
+[2023-05-22 16:27:39] INFO root fetch - main [MainThread]: End processing [arkitema-config] error
+[2023-05-22 16:27:39] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-22 16:27:39] WARNING root fetch - processPackages [starred-astro]: Skipping, unable to determine old version
+[2023-05-22 16:27:39] INFO root fetch - processPackages [starred-astro]: Start processing: nwebclient
+[2023-05-22 16:27:39] INFO root fetch - main [MainThread]: End processing [starred-astro] error
+[2023-05-22 16:27:39] WARNING root fetch - processPackages [bovine-process]: Skipping, unable to determine old version
+[2023-05-22 16:27:39] INFO root fetch - processPackages [bovine-process]: Start processing: bovine-pubsub
+[2023-05-22 16:27:39] INFO root fetch - main [MainThread]: End processing [bovine-process] error
+[2023-05-22 16:27:39] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [nwebclient]: New version: [1.0.98] Old Version: [1.0.97]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [edl-mod]: Downloading https://files.pythonhosted.org/packages/1d/70/63a924dedfa7c3aa539642539c1887092e3c610430217c62cbef132c905d/edl-mod-0.0.37.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [cpdb-api]: Downloading https://files.pythonhosted.org/packages/7a/2d/4dacb6748677a57034130cee27c160faaedbdfc30ef17b8b1654796c4bff/cpdb_api-1.0.6.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [scdiffeq]: Downloading https://files.pythonhosted.org/packages/e5/c2/6d8280b82b04d734d3425df73ac896f720951a102e43d39bf78cce3631b2/scdiffeq-0.0.46rc4.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/40/95/23ad0616abfd4457247f73260cc246b5c7a6f583596f60f41ec0c5f14bf0/qoa4ml-0.0.8.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/a8/37/24cab9c7b79b56468ac78c7b7692702d81b1b17336c526ce763b38d7d321/mlfactory-0.0.4.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/ce/16/2aa7ba8202266600c4f5b73d598b94b6eb82e1f43c0f4b66af59df3cf4d7/questdb-connect-1.0.3.tar.gz
+[2023-05-22 16:27:39] WARNING root fetch - processPackages [bovine-pubsub]: Skipping, unable to determine old version
+[2023-05-22 16:27:39] INFO root fetch - processPackages [bovine-pubsub]: Start processing: neulabs-cdk-constructs
+[2023-05-22 16:27:39] INFO root fetch - main [MainThread]: End processing [bovine-pubsub] error
+[2023-05-22 16:27:39] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.97.tar.gz tmp/nwebclient-1.0.98.tar.gz --markdown 20230522/n/nwebclient/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-22 16:27:39] INFO root fetch - processPackages [mlfactory]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [mlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfactory-0.0.3.tar.gz tmp/mlfactory-0.0.4.tar.gz --markdown 20230522/m/mlfactory/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.2.tar.gz tmp/questdb-connect-1.0.3.tar.gz --markdown 20230522/q/questdb-connect/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [edl-mod]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [edl-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edl-mod-0.0.36.tar.gz tmp/edl-mod-0.0.37.tar.gz --markdown 20230522/e/edl-mod/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [cpdb-api]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [cpdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpdb_api-1.0.5.tar.gz tmp/cpdb_api-1.0.6.tar.gz --markdown 20230522/c/cpdb-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.4.0.tar.gz tmp/neulabs-cdk-constructs-0.4.1.tar.gz --markdown 20230522/n/neulabs-cdk-constructs/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [scdiffeq]: Downloading https://files.pythonhosted.org/packages/dc/07/8bd76ff1197f6e36326d9aba99ac0ebfc81cb2b10b4bfb781156ef5e20b3/scdiffeq-0.0.47rc0.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/0c/01/118d11594cadd27f432673733bcdd3696a16233bffeac49f779a2ff835f8/qoa4ml-0.0.9.tar.gz
+[2023-05-22 16:27:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230522/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230522/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.0.8.tar.gz tmp/qoa4ml-0.0.9.tar.gz --markdown 20230522/q/qoa4ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:27:39] INFO root fetch - processPackages [scdiffeq]: executing diffoscope
+[2023-05-22 16:27:39] INFO root fetch - processPackages [scdiffeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdiffeq-0.0.46rc4.tar.gz tmp/scdiffeq-0.0.47rc0.tar.gz --markdown 20230522/s/scdiffeq/0.0.46rc4-0.0.47rc0/diff.md --exclude *.pyd
+[2023-05-22 16:27:41] INFO root fetch - processPackages [questdb-connect]: Start processing: regpredict
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 16:27:41] INFO root fetch - processPackages [cpdb-api]: Start processing: modal-client
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [cpdb-api]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [modal-client]: New version: [0.49.2215] Old Version: [0.49.2212]
+[2023-05-22 16:27:41] INFO root fetch - processPackages [nwebclient]: Start processing: apify-client
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [neulabs-cdk-constructs]: Start processing: bovine-tool
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [edl-mod]: Start processing: gopro-overlay
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [edl-mod]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [qoa4ml]: Start processing: hydrogibs
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-22 16:27:41] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2212-py3-none-any.whl.zip tmp/modal_client-0.49.2215-py3-none-any.whl.zip --markdown 20230522/m/modal-client/0.49.2212-0.49.2215/diff.md --exclude *.pyd
+[2023-05-22 16:27:41] INFO root fetch - processPackages [spanishconjugator]: Start processing: vl-datasets
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [gopro-overlay]: New version: [0.93.0] Old Version: [0.92.0]
+[2023-05-22 16:27:41] WARNING root fetch - processPackages [bovine-tool]: Skipping, unable to determine old version
+[2023-05-22 16:27:41] INFO root fetch - processPackages [apify-client]: New version: [1.2.0b1] Old Version: [1.1.1b1]
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [bovine-tool] error
+[2023-05-22 16:27:41] INFO root fetch - processPackages [hydrogibs]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-22 16:27:41] INFO root fetch - processPackages [vl-datasets]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 16:27:41] INFO root fetch - processPackages [gopro-overlay]: executing diffoscope
+[2023-05-22 16:27:41] INFO root fetch - processPackages [gopro-overlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gopro-overlay-0.92.0.tar.gz tmp/gopro-overlay-0.93.0.tar.gz --markdown 20230522/g/gopro-overlay/0.92.0-0.93.0/diff.md --exclude *.pyd
+[2023-05-22 16:27:41] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/a3/d7/65783a61c949054a50bf52ea960840d936d2896a9d200c99e28a697b98a7/apify_client-1.1.1b1.tar.gz
+[2023-05-22 16:27:41] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-05-22 16:27:41] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230522/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:27:41] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/ea/05/1b37e58de641730cbd5f3280b19c88cc0e19d19548dfb99e9cfce297885d/hydrogibs-0.3.3.tar.gz
+[2023-05-22 16:27:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-22 16:27:41] INFO root fetch - processPackages [vl-datasets]: Downloading https://files.pythonhosted.org/packages/26/83/2c92ec00501dbb37b494fdaea2f4be37369954f34b59f6a7b9916760a78e/vl_datasets-0.0.8-py3.9-none-any.whl
+[2023-05-22 16:27:41] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/d7/de/24a4853056e34c20dd56577762c69a2afd5b338080f182f380e882485ebd/apify_client-1.2.0b1.tar.gz
+[2023-05-22 16:27:41] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/c2/bb/a6ccd0b23bbe43768bb4fca9931f15d6d4c9b84c983c052e8cb2dc6ec8c1/hydrogibs-0.3.4.tar.gz
+[2023-05-22 16:27:42] INFO root fetch - main [MainThread]: End processing [scdiffeq]: success
+[2023-05-22 16:27:42] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2023-05-22 16:27:42] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.1.1b1.tar.gz tmp/apify_client-1.2.0b1.tar.gz --markdown 20230522/a/apify-client/1.1.1b1-1.2.0b1/diff.md --exclude *.pyd
+[2023-05-22 16:27:42] INFO root fetch - processPackages [vl-datasets]: executing diffoscope
+[2023-05-22 16:27:42] INFO root fetch - processPackages [vl-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vl_datasets-0.0.7-py3.9-none-any.whl.zip tmp/vl_datasets-0.0.8-py3.9-none-any.whl.zip --markdown 20230522/v/vl-datasets/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 16:27:42] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-05-22 16:27:42] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.3.3.tar.gz tmp/hydrogibs-0.3.4.tar.gz --markdown 20230522/h/hydrogibs/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-22 16:27:42] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [vl-datasets]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: End processing [gopro-overlay]: success
+[2023-05-22 16:27:43] INFO root fetch - main [MainThread]: Store serial: [18198371]
