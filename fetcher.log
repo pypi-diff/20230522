@@ -5665,3 +5665,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:45:32] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2023-05-22 07:46:37] INFO root fetch - main [MainThread]: End processing [bpp-iplweb]: success
 [2023-05-22 07:46:37] INFO root fetch - main [MainThread]: Store serial: [18192682]
+[2023-05-22 07:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192682]
+[2023-05-22 07:51:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: srec
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srec
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: salesea
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CADPR
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydal
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: longalpha-utils
+[2023-05-22 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastjsonschema
+[2023-05-22 07:51:46] INFO root fetch - processPackages [salesea]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: New version: [1.1] Old Version: [1.0.1]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: New version: [1.1] Old Version: [1.0.1]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [longalpha-utils]: New version: [0.51] Old Version: [0.50]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [fastjsonschema]: New version: [2.9] Old Version: [2.8]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [pydal]: New version: [20230521.1] Old Version: [20230511.1]
+[2023-05-22 07:51:46] INFO root fetch - processPackages [salesea]: Downloading https://files.pythonhosted.org/packages/fa/97/6dd20ba0524815c4def2c41f1810b6500b602b12e5ebd624536fd3a7a06b/salesea-1.0.7.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: Downloading https://files.pythonhosted.org/packages/ea/6d/ee952b8f05647380989514f3be725d7e6bc7749e48cd894d671e7d349829/srec-1.0.1.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: Downloading https://files.pythonhosted.org/packages/ea/6d/ee952b8f05647380989514f3be725d7e6bc7749e48cd894d671e7d349829/srec-1.0.1.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [fastjsonschema]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [fastjsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastjsonschema-2.8.tar.gz tmp/fastjsonschema-2.9.tar.gz --markdown 20230522/f/fastjsonschema/2.8-2.9/diff.md --exclude *.pyd
+[2023-05-22 07:51:46] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 07:51:46] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/e3/23/41ca1bab1ead7693dd089a9a806e9dd64001463be8fade4017432cbbe2f0/longalpha_utils-0.51.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [pydal]: Downloading https://files.pythonhosted.org/packages/82/aa/4cdff70e75770d3fde73a19e4eb896050984b188335a95e0e43b2c604095/pydal-20230511.1.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.50.tar.gz tmp/longalpha_utils-0.51.tar.gz --markdown 20230522/l/longalpha-utils/0.50-0.51/diff.md --exclude *.pyd
+[2023-05-22 07:51:46] INFO root fetch - processPackages [salesea]: Downloading https://files.pythonhosted.org/packages/06/1d/d756d4ccc7704f0cfa3bbd13e4530f85bd97043079b39031698efc4a3f1a/salesea-1.0.8.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [salesea]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [salesea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesea-1.0.7.tar.gz tmp/salesea-1.0.8.tar.gz --markdown 20230522/s/salesea/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: Downloading https://files.pythonhosted.org/packages/24/19/ec159b64f03f7443ed4b568e101f07a02ba4d92dc5169ed739e631bbaaa1/srec-1.1.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: Downloading https://files.pythonhosted.org/packages/24/19/ec159b64f03f7443ed4b568e101f07a02ba4d92dc5169ed739e631bbaaa1/srec-1.1.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [pydal]: Downloading https://files.pythonhosted.org/packages/68/b4/15dc227f965cc0525ca7f432368706cc4087ad6d587a5a05b251d133023e/pydal-20230521.1.tar.gz
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srec-1.0.1.tar.gz tmp/srec-1.1.tar.gz --markdown 20230522/s/srec/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [srec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srec-1.0.1.tar.gz tmp/srec-1.1.tar.gz --markdown 20230522/s/srec/1.0.1-1.1/diff.md --exclude *.pyd
+[2023-05-22 07:51:46] INFO root fetch - processPackages [pydal]: executing diffoscope
+[2023-05-22 07:51:46] INFO root fetch - processPackages [pydal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal-20230511.1.tar.gz tmp/pydal-20230521.1.tar.gz --markdown 20230522/p/pydal/20230511.1-20230521.1/diff.md --exclude *.pyd
+[2023-05-22 07:51:47] INFO root fetch - main [MainThread]: End processing [fastjsonschema]: success
+[2023-05-22 07:51:47] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 07:51:47] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-05-22 07:51:47] INFO root fetch - main [MainThread]: End processing [salesea]: success
+[2023-05-22 07:51:48] INFO root fetch - main [MainThread]: End processing [srec]: success
+[2023-05-22 07:51:48] INFO root fetch - main [MainThread]: End processing [srec]: success
+[2023-05-22 07:51:48] INFO root fetch - main [MainThread]: End processing [pydal]: success
+[2023-05-22 07:51:48] INFO root fetch - main [MainThread]: Store serial: [18192709]
