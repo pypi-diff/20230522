@@ -21730,3 +21730,90 @@ EOFError: EOF read where object expected
 [2023-05-22 20:03:47] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-05-22 20:03:48] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-22 20:03:48] INFO root fetch - main [MainThread]: Store serial: [18202128]
+[2023-05-22 20:08:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202128]
+[2023-05-22 20:09:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shellcrafter
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plone.batching
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moto
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piperider-nightly
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psycopg-infdate
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geneagrapher-core
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxecm-llm
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datasette-sqlite-vss
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-vss
+[2023-05-22 20:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nexus-utilities
+[2023-05-22 20:09:00] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [nexus-utilities]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [plone.batching]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [psycopg-infdate]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [shellcrafter]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [geneagrapher-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [pyxecm-llm]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-22 20:09:00] INFO root fetch - processPackages [nexus-utilities]: executing diffoscope
+[2023-05-22 20:09:00] INFO root fetch - processPackages [nexus-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus-utilities-0.4.1.tar.gz tmp/nexus-utilities-0.5.0.tar.gz --markdown 20230522/n/nexus-utilities/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 20:09:00] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-22 20:09:00] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230522/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-22 20:09:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-22 20:09:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230522/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 20:09:00] INFO root fetch - processPackages [shellcrafter]: executing diffoscope
+[2023-05-22 20:09:00] INFO root fetch - processPackages [shellcrafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellcrafter-1.0.8.tar.gz tmp/shellcrafter-1.0.9.tar.gz --markdown 20230522/s/shellcrafter/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 20:09:00] INFO root fetch - processPackages [plone.batching]: Downloading https://files.pythonhosted.org/packages/5f/dd/f0cf75e872e3fbd1e353a3a8b7d8324e8f5d9fbbc206cb658ab925ba7c32/plone.batching-2.0.4.tar.gz
+[2023-05-22 20:09:00] INFO root fetch - processPackages [psycopg-infdate]: Downloading https://files.pythonhosted.org/packages/69/1f/dad6ca569246b7d07d234744973deb1278175bb70984acbf4c4d041972d4/psycopg_infdate-1.0.1.tar.gz
+[2023-05-22 20:09:00] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/b1/da/b3055183fedc03898a68f841db5da154776878b0140fedfaf50c1c38f058/sqlite_vss-0.1.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-22 20:09:00] INFO root fetch - processPackages [pyxecm-llm]: Downloading https://files.pythonhosted.org/packages/56/2d/593d605854f46de5774354ff6c71771197bac7a17c6a872f46e19a9dcd13/pyxecm-llm-0.0.0.tar.gz
+[2023-05-22 20:09:00] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/47/46/617d3024ed550048cdead1227794bdccc50b12ed3083869a1845ee8e1b67/datasette_sqlite_vss-0.1.1a1-py3-none-any.whl
+[2023-05-22 20:09:00] INFO root fetch - processPackages [geneagrapher-core]: Downloading https://files.pythonhosted.org/packages/e2/36/002cb2a037d2f9874cc2d2f2fd9f600d0b0882a08e2d64c1f9f8d1cc6cbb/geneagrapher_core-0.1.0.tar.gz
+[2023-05-22 20:09:01] INFO root fetch - processPackages [plone.batching]: Downloading https://files.pythonhosted.org/packages/ed/ff/c8f24cac6d09279e0d03f47aab31583a123d5a8038f5a887e9a83d9779ff/plone.batching-2.0.5.tar.gz
+[2023-05-22 20:09:01] INFO root fetch - processPackages [pyxecm-llm]: Downloading https://files.pythonhosted.org/packages/10/d2/30a57274951008ad2c5694fe927cf35e4e28f2f74e913610d2eaa720a6b9/pyxecm-llm-0.0.1.tar.gz
+[2023-05-22 20:09:01] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/86/6e/31ce71056528b5a2fa91f80bce44f3cd0bc408c486ff3e1144ca29d1ab78/datasette_sqlite_vss-0.1.1a2-py3-none-any.whl
+[2023-05-22 20:09:01] INFO root fetch - processPackages [geneagrapher-core]: Downloading https://files.pythonhosted.org/packages/09/0d/6bfd518af1f8e9b5bbc41a734fd619e688ad95153308a285510c70998033/geneagrapher_core-0.1.1.tar.gz
+[2023-05-22 20:09:01] INFO root fetch - processPackages [psycopg-infdate]: Downloading https://files.pythonhosted.org/packages/c3/8b/aaf9c5db99b5a99578528c787a810882cd145468365ad66c8e8c78527743/psycopg_infdate-1.0.2.tar.gz
+[2023-05-22 20:09:01] INFO root fetch - processPackages [plone.batching]: executing diffoscope
+[2023-05-22 20:09:01] INFO root fetch - processPackages [plone.batching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.batching-2.0.4.tar.gz tmp/plone.batching-2.0.5.tar.gz --markdown 20230522/p/plone.batching/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-22 20:09:01] INFO root fetch - processPackages [pyxecm-llm]: executing diffoscope
+[2023-05-22 20:09:01] INFO root fetch - processPackages [pyxecm-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxecm-llm-0.0.0.tar.gz tmp/pyxecm-llm-0.0.1.tar.gz --markdown 20230522/p/pyxecm-llm/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-22 20:09:01] INFO root fetch - processPackages [geneagrapher-core]: executing diffoscope
+[2023-05-22 20:09:01] INFO root fetch - processPackages [geneagrapher-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneagrapher_core-0.1.0.tar.gz tmp/geneagrapher_core-0.1.1.tar.gz --markdown 20230522/g/geneagrapher-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 20:09:01] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-22 20:09:01] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a1-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a2-py3-none-any.whl.zip --markdown 20230522/d/datasette-sqlite-vss/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-22 20:09:01] INFO root fetch - processPackages [psycopg-infdate]: executing diffoscope
+[2023-05-22 20:09:01] INFO root fetch - processPackages [psycopg-infdate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg_infdate-1.0.1.tar.gz tmp/psycopg_infdate-1.0.2.tar.gz --markdown 20230522/p/psycopg-infdate/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 20:09:01] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/21/91/0de747cdc9ac04ba4d7837c3d38af7bb4dffebdc179866a9ec188bd861c7/sqlite_vss-0.1.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-22 20:09:01] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-22 20:09:01] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230522/s/sqlite-vss/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-22 20:09:01] INFO root fetch - processPackages [nexus-utilities]: Start processing: dbt-upsolver
+[2023-05-22 20:09:01] INFO root fetch - main [MainThread]: End processing [nexus-utilities]: success
+[2023-05-22 20:09:02] INFO root fetch - processPackages [dbt-upsolver]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 20:09:02] INFO root fetch - processPackages [shellcrafter]: Start processing: assisted-service-client
+[2023-05-22 20:09:02] INFO root fetch - main [MainThread]: End processing [shellcrafter]: success
+[2023-05-22 20:09:02] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-22 20:09:02] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/03/0e/f946d522677b4e77352cfce7aca7a73479b1eec6f205655a4bd561540276/dbt-upsolver-0.2.2.tar.gz
+[2023-05-22 20:09:02] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-22 20:09:02] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230522/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-22 20:09:02] INFO root fetch - processPackages [dbt-upsolver]: executing diffoscope
+[2023-05-22 20:09:02] INFO root fetch - processPackages [dbt-upsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-upsolver-0.2.1.tar.gz tmp/dbt-upsolver-0.2.2.tar.gz --markdown 20230522/d/dbt-upsolver/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 20:09:02] INFO root fetch - processPackages [plone.batching]: Start processing: api-sap
+[2023-05-22 20:09:02] INFO root fetch - main [MainThread]: End processing [plone.batching]: success
+[2023-05-22 20:09:02] INFO root fetch - processPackages [geneagrapher-core]: Start processing: superpowered-sdk
+[2023-05-22 20:09:02] INFO root fetch - main [MainThread]: End processing [geneagrapher-core]: success
+[2023-05-22 20:09:02] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-22 20:09:02] INFO root fetch - processPackages [api-sap]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-22 20:09:02] INFO root fetch - main [MainThread]: End processing [psycopg-infdate]: success
+[2023-05-22 20:09:02] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-05-22 20:09:02] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.1.tar.gz tmp/superpowered-sdk-0.1.3.tar.gz --markdown 20230522/s/superpowered-sdk/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 20:09:02] INFO root fetch - main [MainThread]: End processing [pyxecm-llm]: success
+[2023-05-22 20:09:02] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-22 20:09:02] INFO root fetch - processPackages [api-sap]: Downloading https://files.pythonhosted.org/packages/a7/51/4603ebf75aef0e92805a628b6cf9d97be0a2aaf064adfd52461915785b68/api_sap-1.0.0.tar.gz
+[2023-05-22 20:09:03] INFO root fetch - processPackages [api-sap]: executing diffoscope
+[2023-05-22 20:09:03] INFO root fetch - processPackages [api-sap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_sap-0.0.3.tar.gz tmp/api_sap-1.0.0.tar.gz --markdown 20230522/a/api-sap/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 20:09:03] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
+[2023-05-22 20:09:04] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-05-22 20:09:04] INFO root fetch - main [MainThread]: End processing [api-sap]: success
+[2023-05-22 20:09:06] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-22 20:09:06] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-22 20:09:33] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-22 20:09:40] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-22 20:09:40] INFO root fetch - main [MainThread]: Store serial: [18202166]
