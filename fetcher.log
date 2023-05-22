@@ -6353,3 +6353,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:52:55] INFO root fetch - main [MainThread]: End processing [koios-api]: success
 [2023-05-22 08:52:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-22 08:52:58] INFO root fetch - main [MainThread]: Store serial: [18193048]
+[2023-05-22 08:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193048]
+[2023-05-22 08:58:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yambs
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: template-pptx-jinja-fix
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IntuneCD
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nshuman-python
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deep-training
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: power-grid-model
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selenextra
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drf-easyview
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nshuman-python
+[2023-05-22 08:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zypl-macro
+[2023-05-22 08:58:08] INFO root fetch - processPackages [yambs]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [selenextra]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 08:58:08] WARNING root fetch - processPackages [drf-easyview]: Skipping, unable to determine old version
+[2023-05-22 08:58:08] INFO root fetch - processPackages [drf-easyview]: Start processing: audiconnectpy
+[2023-05-22 08:58:08] INFO root fetch - main [MainThread]: End processing [drf-easyview] error
+[2023-05-22 08:58:08] WARNING root fetch - processPackages [nshuman-python]: Skipping, unable to determine old version
+[2023-05-22 08:58:08] INFO root fetch - processPackages [nshuman-python]: Start processing: fastramqpi
+[2023-05-22 08:58:08] WARNING root fetch - processPackages [template-pptx-jinja-fix]: Skipping, unable to determine old version
+[2023-05-22 08:58:08] INFO root fetch - processPackages [template-pptx-jinja-fix]: Start processing: odoo-addon-quality-control-oca
+[2023-05-22 08:58:08] INFO root fetch - main [MainThread]: End processing [nshuman-python] error
+[2023-05-22 08:58:08] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-fix] error
+[2023-05-22 08:58:08] WARNING root fetch - processPackages [nshuman-python]: Skipping, unable to determine old version
+[2023-05-22 08:58:08] INFO root fetch - processPackages [nshuman-python]: Start processing: aspose-ocr-python-net
+[2023-05-22 08:58:08] INFO root fetch - main [MainThread]: End processing [nshuman-python] error
+[2023-05-22 08:58:08] INFO root fetch - processPackages [zypl-macro]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [deep-training]: New version: [0.1.7.post0] Old Version: [0.1.7]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [fastramqpi]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [IntuneCD]: New version: [1.4.6b1] Old Version: [1.4.5b2]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [aspose-ocr-python-net]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [audiconnectpy]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9171103440397] Old Version: [1.5.0rc9166510100968]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/cf/94/e37a94b87996fd5ed154e0a24dd5aed720ab948c15390965b8a38ed5940f/yambs-1.4.3.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [selenextra]: Downloading https://files.pythonhosted.org/packages/dc/63/54096bc089a161fa756e79461f34ca9b5a5a9fc80bc9eb127f78c438673f/selenextra-1.0.8.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/b6/47/bd91714783bbed5faf03d2e19178ea58483cd54404187e2a36de077270ff/deep_training-0.1.7-py3-none-any.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/4a/02/6826682a67a8aa2ac36df594986296fe9e599bc282586611abc96ccad85b/fastramqpi-1.4.1.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/3e/ce/5ef66e6376a32882ccbdda845237bead6f8cccc8f429246d2a6c42de3832/IntuneCD-1.4.5b2.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [zypl-macro]: Downloading https://files.pythonhosted.org/packages/fd/d5/af38df9c074196d2965e0a495c68a17ff3fc682e33dbdd9cd818571350e7/zypl_macro-1.0.4.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/46/4d/d10b53f110461898f8e085704c5cfb283013c73f9bdcf378328f3030689c/odoo_addon_quality_control_oca-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/68/62/41ae17c7eda7ece69d1fa7e0dff9aedaedc142bd2cfe29009edf066d7775/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [aspose-ocr-python-net]: Downloading https://files.pythonhosted.org/packages/70/ec/71db8112c7fea7ab4c51db2c70ffd30c37097db9edbe367ad2bdc2a88c3b/aspose_ocr_python_net-23.4.0-py3-none-win_amd64.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/92/42/08a41dab550ce43fcb9d9169595bea34bb23b1dd4447836938a06dda2e66/yambs-1.4.4.tar.gz
+[2023-05-22 08:58:08] WARNING root fetch - processPackages [aspose-ocr-python-net]: Skipping package: exceeds size limit 278778076>=10485760
+[2023-05-22 08:58:08] INFO root fetch - processPackages [aspose-ocr-python-net]: Start processing: odoo-addons-oca-manufacture
+[2023-05-22 08:58:08] INFO root fetch - main [MainThread]: End processing [aspose-ocr-python-net] error
+[2023-05-22 08:58:08] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20230521.0] Old Version: [16.0.20230330.1]
+[2023-05-22 08:58:08] INFO root fetch - processPackages [selenextra]: Downloading https://files.pythonhosted.org/packages/ed/b3/dc9f575ed077b3b2139c132d5f567eab1ee8071b315a57c893fa33ba78c8/selenextra-1.0.9.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [fastramqpi]: Downloading https://files.pythonhosted.org/packages/0d/85/448e5900b8485fc382582d14376158180c99f404a3743f0c59da50eb6ecb/fastramqpi-1.4.2.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2023-05-22 08:58:08] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230522/o/odoo-addon-quality-control-oca/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-22 08:58:08] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/31/05/7c062f023debcc852bff489974a113d546015590e41315a2e3113eac7272/IntuneCD-1.4.6b1.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/4e/37/613a06a1a09697baa81ed4a361bcfbe78f326492b6b9a044596776407ff2/deep_training-0.1.7.post0-py3-none-any.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [zypl-macro]: Downloading https://files.pythonhosted.org/packages/77/64/1e15d8a95b0f0c6ceadec75e979609801b30fff41a16cf209874912aa6c5/zypl_macro-1.0.5.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/b7/3c/565e67a62ba09811c68a85285fb152fb981cf4118c93b8fbb831fcea7bb5/audiconnectpy-1.4.3.tar.gz
+[2023-05-22 08:58:08] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-05-22 08:58:08] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.4.3.tar.gz tmp/yambs-1.4.4.tar.gz --markdown 20230522/y/yambs/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-22 08:58:08] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/57/10/028cb2b4219b21fb1019082e6765e8ffaf22c9f747e7da95cbad3133c820/odoo_addons_oca_manufacture-16.0.20230330.1-py3-none-any.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [selenextra]: executing diffoscope
+[2023-05-22 08:58:08] INFO root fetch - processPackages [selenextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenextra-1.0.8.tar.gz tmp/selenextra-1.0.9.tar.gz --markdown 20230522/s/selenextra/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 08:58:08] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/b4/f3/369df5403348f16d94ba7f2fc9a7bec94dd47c3a1f172ef1ca136a3b4b44/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl
+[2023-05-22 08:58:08] INFO root fetch - processPackages [fastramqpi]: executing diffoscope
+[2023-05-22 08:58:08] INFO root fetch - processPackages [fastramqpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-1.4.1.tar.gz tmp/fastramqpi-1.4.2.tar.gz --markdown 20230522/f/fastramqpi/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-22 08:58:08] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2023-05-22 08:58:08] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-1.4.2.tar.gz tmp/audiconnectpy-1.4.3.tar.gz --markdown 20230522/a/audiconnectpy/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-22 08:58:08] INFO root fetch - processPackages [zypl-macro]: executing diffoscope
+[2023-05-22 08:58:08] INFO root fetch - processPackages [zypl-macro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zypl_macro-1.0.4.tar.gz tmp/zypl_macro-1.0.5.tar.gz --markdown 20230522/z/zypl-macro/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 08:58:09] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-05-22 08:58:09] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.7-py3-none-any.whl.zip tmp/deep_training-0.1.7.post0-py3-none-any.whl.zip --markdown 20230522/d/deep-training/0.1.7-0.1.7.post0/diff.md --exclude *.pyd
+[2023-05-22 08:58:09] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-05-22 08:58:09] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9171103440397-py3-none-macosx_10_9_x86_64.whl.zip --markdown 20230522/p/power-grid-model/1.5.0rc9166510100968-1.5.0rc9171103440397/diff.md --exclude *.pyd
+[2023-05-22 08:58:09] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2023-05-22 08:58:09] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-1.4.5b2.tar.gz tmp/IntuneCD-1.4.6b1.tar.gz --markdown 20230522/I/IntuneCD/1.4.5b2-1.4.6b1/diff.md --exclude *.pyd
+[2023-05-22 08:58:09] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/f0/8a/c7bd2f3e3c81dfd1f03c60a1fef754993fc4255ee774e4a60e69598056a9/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl
+[2023-05-22 08:58:09] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2023-05-22 08:58:09] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20230330.1-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20230521.0-py3-none-any.whl.zip --markdown 20230522/o/odoo-addons-oca-manufacture/16.0.20230330.1-16.0.20230521.0/diff.md --exclude *.pyd
+[2023-05-22 08:58:10] INFO root fetch - processPackages [fastramqpi]: Start processing: powerbiclient
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [fastramqpi]: success
+[2023-05-22 08:58:10] INFO root fetch - processPackages [powerbiclient]: New version: [3.0.2] Old Version: [3.0.0]
+[2023-05-22 08:58:10] INFO root fetch - processPackages [zypl-macro]: Start processing: selenextra
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [zypl-macro]: success
+[2023-05-22 08:58:10] INFO root fetch - processPackages [selenextra]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 08:58:10] INFO root fetch - processPackages [selenextra]: Start processing: tokenfinderbot
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [selenextra]: success
+[2023-05-22 08:58:10] INFO root fetch - processPackages [powerbiclient]: Downloading https://files.pythonhosted.org/packages/cf/8a/4fc8059846ee61ce53077ab1f252ddfc4ce09860c218a38f8ffa293ae598/powerbiclient-3.0.0-py2.py3-none-any.whl
+[2023-05-22 08:58:10] WARNING root fetch - processPackages [tokenfinderbot]: Skipping, unable to determine old version
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [tokenfinderbot] error
+[2023-05-22 08:58:10] INFO root fetch - processPackages [selenextra]: executing diffoscope
+[2023-05-22 08:58:10] INFO root fetch - processPackages [selenextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenextra-1.0.8.tar.gz tmp/selenextra-1.0.9.tar.gz --markdown 20230522/s/selenextra/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2023-05-22 08:58:10] INFO root fetch - processPackages [powerbiclient]: Downloading https://files.pythonhosted.org/packages/31/35/54b3e7768fc26ecddcc92871e96df92e5453dfe429276cb58a535b5741e7/powerbiclient-3.0.2-py2.py3-none-any.whl
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-05-22 08:58:10] INFO root fetch - processPackages [powerbiclient]: executing diffoscope
+[2023-05-22 08:58:10] INFO root fetch - processPackages [powerbiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbiclient-3.0.0-py2.py3-none-any.whl.zip tmp/powerbiclient-3.0.2-py2.py3-none-any.whl.zip --markdown 20230522/p/powerbiclient/3.0.0-3.0.2/diff.md --exclude *.pyd
+[2023-05-22 08:58:10] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2023-05-22 08:58:11] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2023-05-22 08:58:11] INFO root fetch - main [MainThread]: End processing [selenextra]: success
+[2023-05-22 08:58:11] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-05-22 08:58:13] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-05-22 08:58:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2023-05-22 08:58:18] INFO root fetch - main [MainThread]: End processing [powerbiclient]: success
+[2023-05-22 08:58:18] INFO root fetch - main [MainThread]: Store serial: [18193124]
