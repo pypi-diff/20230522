@@ -3941,3 +3941,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:15:49] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
 [2023-05-22 04:15:50] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
 [2023-05-22 04:15:50] INFO root fetch - main [MainThread]: Store serial: [18191629]
+[2023-05-22 04:20:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191629]
+[2023-05-22 04:20:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dorado
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-codebase-documenter
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmemo
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-vpc
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flunt
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-vpc20160428
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleeper
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clown-sort
+[2023-05-22 04:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: akari-proto
+[2023-05-22 04:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: git-debranch
+[2023-05-22 04:20:59] INFO root fetch - processPackages [flunt]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-22 04:20:59] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.4] Old Version: [0.3]
+[2023-05-22 04:20:59] INFO root fetch - processPackages [clown-sort]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-22 04:20:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-22 04:20:59] WARNING root fetch - processPackages [pmemo]: Skipping, unable to determine old version
+[2023-05-22 04:20:59] INFO root fetch - processPackages [pmemo]: Start processing: material-zui
+[2023-05-22 04:20:59] INFO root fetch - main [MainThread]: End processing [pmemo] error
+[2023-05-22 04:20:59] INFO root fetch - processPackages [akari-proto]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-22 04:20:59] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-22 04:20:59] WARNING root fetch - processPackages [git-debranch]: Skipping, unable to determine old version
+[2023-05-22 04:20:59] INFO root fetch - processPackages [sleeper]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-22 04:20:59] INFO root fetch - processPackages [git-debranch]: Start processing: ChatStream
+[2023-05-22 04:20:59] INFO root fetch - main [MainThread]: End processing [git-debranch] error
+[2023-05-22 04:20:59] INFO root fetch - processPackages [dorado]: New version: [2.0.6.dev99] Old Version: [2.0.6.dev97]
+[2023-05-22 04:20:59] WARNING root fetch - processPackages [ChatStream]: Skipping, unable to determine old version
+[2023-05-22 04:20:59] INFO root fetch - main [MainThread]: End processing [ChatStream] error
+[2023-05-22 04:20:59] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [aliyun-python-sdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-vpc-3.0.8.tar.gz tmp/aliyun-python-sdk-vpc-3.0.9.tar.gz --markdown 20230522/a/aliyun-python-sdk-vpc/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [dorado]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [dorado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorado-2.0.6.dev97.tar.gz tmp/dorado-2.0.6.dev99.tar.gz --markdown 20230522/d/dorado/2.0.6.dev97-2.0.6.dev99/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [material-zui]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 04:20:59] INFO root fetch - processPackages [flunt]: Downloading https://files.pythonhosted.org/packages/db/6b/92d791cacb4a8438b6303dd17ab2a0282f77abefc1553e16d4f720107f9e/Flunt-0.2.0.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/bb/75/ceb9ada30b40e935381bb765097c938459c6e82841498097ff2dadfd5753/clown_sort-1.4.0.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/c1/42/48521755d0c627ed7e04b13b9cc8eba7c60b0b385926869616b55d4a56d4/alibabacloud_vpc20160428-2.0.8.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/79/44/54cdb31a0a7960fc25afceef497880c24b519f8eb2bdaf0e100b71f409f1/auto-codebase-documenter-0.4.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [akari-proto]: Downloading https://files.pythonhosted.org/packages/7a/1e/7bb9faf8cb565e749a59d5d907c91c7d89389707b73ecf67fb0b32ba745f/akari-proto-0.3.1.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [sleeper]: Downloading https://files.pythonhosted.org/packages/ab/46/a2bcc7ddfef95fc8fd68035a91aa8a1520bc9c0995c4ad07ece9db003708/sleeper-1.5.0.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/55/05/4949a0dbb22ac1171a6fb9ce7fa5c06670f30c1b96213d0d5d1fc9c0e8aa/material_zui-0.1.0.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.3.tar.gz tmp/auto-codebase-documenter-0.4.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [flunt]: Downloading https://files.pythonhosted.org/packages/1f/bf/ef11f4731ad1daddde05f272ab958453cc4bc9acaa86344f1db47b3eb6c7/flunt-1.0.0.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [clown-sort]: Downloading https://files.pythonhosted.org/packages/f2/80/ef7cda19901ff6d35fcd75e35922302f8249f6e4643845de559948900f00/clown_sort-1.4.1.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [akari-proto]: Downloading https://files.pythonhosted.org/packages/5a/d5/a24086556f899580c5ee0501356ed181e2e5086c8a9a4c99e671cb47ae76/akari-proto-0.3.2.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [sleeper]: Downloading https://files.pythonhosted.org/packages/12/47/b699a868f69af9b344c85202892158f05fd67c12889d29bae4dfe7bad92a/sleeper-1.6.0.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: Downloading https://files.pythonhosted.org/packages/d1/54/1dd3bbe99d4e6b5bd0ece015e5e19c96f1d52dd2f19c4815e9327c5ab23c/alibabacloud_vpc20160428-2.0.9.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [material-zui]: Downloading https://files.pythonhosted.org/packages/af/61/f1f080472ced4ab95c82225ba927c686370005c0e2e82f2819cfc09c076d/material_zui-0.1.1.tar.gz
+[2023-05-22 04:20:59] INFO root fetch - processPackages [flunt]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [flunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flunt-0.2.0.tar.gz tmp/flunt-1.0.0.tar.gz --markdown 20230522/f/flunt/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [clown-sort]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [clown-sort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clown_sort-1.4.0.tar.gz tmp/clown_sort-1.4.1.tar.gz --markdown 20230522/c/clown-sort/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [akari-proto]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [akari-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akari-proto-0.3.1.tar.gz tmp/akari-proto-0.3.2.tar.gz --markdown 20230522/a/akari-proto/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [alibabacloud-vpc20160428]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428-2.0.8.tar.gz tmp/alibabacloud_vpc20160428-2.0.9.tar.gz --markdown 20230522/a/alibabacloud-vpc20160428/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [sleeper]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [sleeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleeper-1.5.0.tar.gz tmp/sleeper-1.6.0.tar.gz --markdown 20230522/s/sleeper/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-05-22 04:20:59] INFO root fetch - processPackages [material-zui]: executing diffoscope
+[2023-05-22 04:20:59] INFO root fetch - processPackages [material-zui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/material_zui-0.1.0.tar.gz tmp/material_zui-0.1.1.tar.gz --markdown 20230522/m/material-zui/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 04:21:00] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 04:21:00] INFO root fetch - main [MainThread]: End processing [flunt]: success
+[2023-05-22 04:21:01] INFO root fetch - main [MainThread]: End processing [clown-sort]: success
+[2023-05-22 04:21:01] INFO root fetch - main [MainThread]: End processing [akari-proto]: success
+[2023-05-22 04:21:01] INFO root fetch - main [MainThread]: End processing [material-zui]: success
+[2023-05-22 04:21:01] INFO root fetch - main [MainThread]: End processing [dorado]: success
+[2023-05-22 04:21:01] INFO root fetch - main [MainThread]: End processing [sleeper]: success
+[2023-05-22 04:21:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428]: success
+[2023-05-22 04:21:03] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vpc]: success
+[2023-05-22 04:21:03] INFO root fetch - main [MainThread]: Store serial: [18191665]
