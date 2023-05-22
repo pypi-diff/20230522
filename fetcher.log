@@ -5031,3 +5031,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:18:35] INFO root fetch - main [MainThread]: End processing [swachhdata]: success
 [2023-05-22 06:19:17] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2023-05-22 06:19:17] INFO root fetch - main [MainThread]: Store serial: [18192232]
+[2023-05-22 06:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192232]
+[2023-05-22 06:24:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keymap-drawer
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prfiesta
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krutils
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: compose-py
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krutils
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiextras
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiextras
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dea-tools
+[2023-05-22 06:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysubcipher
+[2023-05-22 06:24:28] INFO root fetch - processPackages [compose-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [keymap-drawer]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-22 06:24:28] WARNING root fetch - processPackages [prfiesta]: Skipping, unable to determine old version
+[2023-05-22 06:24:28] INFO root fetch - processPackages [aiextras]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 06:24:28] INFO root fetch - main [MainThread]: End processing [prfiesta] error
+[2023-05-22 06:24:28] INFO root fetch - processPackages [pysubcipher]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [aiextras]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1322] Old Version: [0.20230522.1320]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: New version: [0.20230522.1322] Old Version: [0.20230522.1320]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev96] Old Version: [0.2.8.dev95]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.874128920.dev10670] Old Version: [0.2.873689654.dev10635]
+[2023-05-22 06:24:28] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.4.tar.gz tmp/aiextras-0.0.5.tar.gz --markdown 20230522/a/aiextras/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev95.tar.gz tmp/dea-tools-0.2.8.dev96.tar.gz --markdown 20230522/d/dea-tools/0.2.8.dev95-0.2.8.dev96/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [pysubcipher]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [pysubcipher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysubcipher-2.2.0.tar.gz tmp/pysubcipher-2.2.1.tar.gz --markdown 20230522/p/pysubcipher/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.4.tar.gz tmp/aiextras-0.0.5.tar.gz --markdown 20230522/a/aiextras/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [compose-py]: Downloading https://files.pythonhosted.org/packages/c7/cc/5d0536eb2060b56ddd8d80ccf932d53fa39bfa3a8ebc4dea8516abc8285d/compose-py-0.1.0.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/d1/cf/073f4af7cd770bba1d53c98701205d296f097df7a7bd35a9173f00a164a0/quickstart-vdk-0.2.874128920.dev10670.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/e1/64/fc99c6b00e7dc518b31edd7ca98a2a2070321d72f22b572521a25fd98ff7/keymap_drawer-0.7.0-py3-none-any.whl
+[2023-05-22 06:24:28] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.873689654.dev10635.tar.gz tmp/quickstart-vdk-0.2.874128920.dev10670.tar.gz --markdown 20230522/q/quickstart-vdk/0.2.873689654.dev10635-0.2.874128920.dev10670/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/df/d5/b17a18077a31777d9865642a0c3611f91b051a25f4d22fb09c455362e3b7/krutils-0.20230522.1320.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/df/d5/b17a18077a31777d9865642a0c3611f91b051a25f4d22fb09c455362e3b7/krutils-0.20230522.1320.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [compose-py]: Downloading https://files.pythonhosted.org/packages/96/93/37d95d4c480b9e65e9dbd75e82797b5c685dcfd8958b6eff42532522437c/compose-py-0.1.1.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/80/f0/5dc1f3e2b9c4784418afaf551acc73238ae7739da0a68f7b3ad172f42cb3/keymap_drawer-0.7.1-py3-none-any.whl
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/76/2e/5e76e72518d62c7d9c4276fc2a57c91883c70771463aefc597ef01ff22e6/krutils-0.20230522.1322.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/76/2e/5e76e72518d62c7d9c4276fc2a57c91883c70771463aefc597ef01ff22e6/krutils-0.20230522.1322.tar.gz
+[2023-05-22 06:24:28] INFO root fetch - processPackages [compose-py]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [compose-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose-py-0.1.0.tar.gz tmp/compose-py-0.1.1.tar.gz --markdown 20230522/c/compose-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [keymap-drawer]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [keymap-drawer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keymap_drawer-0.7.0-py3-none-any.whl.zip tmp/keymap_drawer-0.7.1-py3-none-any.whl.zip --markdown 20230522/k/keymap-drawer/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1320.tar.gz tmp/krutils-0.20230522.1322.tar.gz --markdown 20230522/k/krutils/0.20230522.1320-0.20230522.1322/diff.md --exclude *.pyd
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-05-22 06:24:28] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230522.1320.tar.gz tmp/krutils-0.20230522.1322.tar.gz --markdown 20230522/k/krutils/0.20230522.1320-0.20230522.1322/diff.md --exclude *.pyd
+[2023-05-22 06:24:29] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:24:29] INFO root fetch - main [MainThread]: End processing [pysubcipher]: success
+[2023-05-22 06:24:29] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 06:24:29] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-05-22 06:24:29] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-05-22 06:24:30] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 06:24:30] INFO root fetch - main [MainThread]: End processing [compose-py]: success
+[2023-05-22 06:24:30] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
+[2023-05-22 06:24:30] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-05-22 06:24:30] INFO root fetch - main [MainThread]: Store serial: [18192263]
