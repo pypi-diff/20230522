@@ -5599,3 +5599,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 07:34:44] INFO root fetch - main [MainThread]: End processing [nurikit]: success
 [2023-05-22 07:34:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-22 07:34:48] INFO root fetch - main [MainThread]: Store serial: [18192640]
+[2023-05-22 07:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192640]
+[2023-05-22 07:39:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-22 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py4web
+[2023-05-22 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-ghost
+[2023-05-22 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2023-05-22 07:39:57] INFO root fetch - processPackages [py4web]: New version: [1.20230521.1] Old Version: [1.20230511.1]
+[2023-05-22 07:39:57] INFO root fetch - processPackages [astro-ghost]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 07:39:57] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-22 07:39:57] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-22 07:39:57] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-22 07:39:57] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/2d/83/d6ce2d18cf558a8a46c92666c6c8c4f1448c987f416a3b65d8edb2e4460b/py4web-1.20230511.1.tar.gz
+[2023-05-22 07:39:57] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/e7/67/271dddd61ec3539489d61963a2f654b0543e61f171ec4af6f6a0714ff3ee/astro_ghost-1.0.1.tar.gz
+[2023-05-22 07:39:57] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-05-22 07:39:57] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-1.0.0.tar.gz tmp/astro_ghost-1.0.1.tar.gz --markdown 20230522/a/astro-ghost/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 07:39:58] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/2b/bf/68c89464845b9f2c47f9fa403dc2f090d44bf6547d30f59fdd7c67e061b5/py4web-1.20230521.1.tar.gz
+[2023-05-22 07:39:59] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2023-05-22 07:39:59] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20230511.1.tar.gz tmp/py4web-1.20230521.1.tar.gz --markdown 20230522/p/py4web/1.20230511.1-1.20230521.1/diff.md --exclude *.pyd
+[2023-05-22 07:40:00] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-05-22 07:40:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-22 07:40:19] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2023-05-22 07:40:19] INFO root fetch - main [MainThread]: Store serial: [18192648]
