@@ -12468,3 +12468,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 14:22:41] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-22 14:22:42] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
 [2023-05-22 14:22:42] INFO root fetch - main [MainThread]: Store serial: [18196723]
+[2023-05-22 14:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196723]
+[2023-05-22 14:27:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-procurement-customer
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldimbenchmark
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teleapp
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Shimarin
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyroFork-dev
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkmk-dev-tools
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qdls
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fyerspysdk1
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartdash
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lavlab-python-utils
+[2023-05-22 14:27:50] WARNING root fetch - processPackages [odoo-addon-stock-procurement-customer]: Skipping, unable to determine old version
+[2023-05-22 14:27:50] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: Start processing: twitter-api-py
+[2023-05-22 14:27:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-procurement-customer] error
+[2023-05-22 14:27:50] WARNING root fetch - processPackages [checkmk-dev-tools]: Skipping, unable to determine old version
+[2023-05-22 14:27:50] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: PyroFork-dev
+[2023-05-22 14:27:50] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools] error
+[2023-05-22 14:27:50] INFO root fetch - processPackages [Shimarin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [teleapp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-22 14:27:50] WARNING root fetch - processPackages [lavlab-python-utils]: Skipping, unable to determine old version
+[2023-05-22 14:27:50] INFO root fetch - processPackages [lavlab-python-utils]: Start processing: mahdix
+[2023-05-22 14:27:50] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils] error
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-22 14:27:50] WARNING root fetch - processPackages [fyerspysdk1]: Skipping, unable to determine old version
+[2023-05-22 14:27:50] INFO root fetch - processPackages [twitter-api-py]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [fyerspysdk1]: Start processing: PyroFork-dev
+[2023-05-22 14:27:50] INFO root fetch - main [MainThread]: End processing [fyerspysdk1] error
+[2023-05-22 14:27:50] INFO root fetch - processPackages [qdls]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 14:27:50] WARNING root fetch - processPackages [smartdash]: Skipping, unable to determine old version
+[2023-05-22 14:27:50] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.8.dev202305221227] Old Version: [2.1.8.dev202305221226]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [mahdix]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [smartdash]: Start processing: cognite-power-ops
+[2023-05-22 14:27:50] INFO root fetch - main [MainThread]: End processing [smartdash] error
+[2023-05-22 14:27:50] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.8.dev202305221227] Old Version: [2.1.8.dev202305221226]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.8.dev202305221227] Old Version: [2.1.8.dev202305221226]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-22 14:27:50] INFO root fetch - processPackages [Shimarin]: Downloading https://files.pythonhosted.org/packages/d7/ca/9ca0e8b7c6f633789bef92a225df6832e96916784d6dc9b5c2fe8b5d6217/Shimarin-0.0.8.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/f2/26/bc516ab0d45d0e527bef604071147f5ac3ee0952d486384f9dac9e5294a8/mahdix-0.1.1.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/29/dd/a024825dbe1e305723c0b20c0b00d220d7ed1493c3d9d523c52f4de6c6a5/PyroFork-dev-2.1.8.dev202305221226.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/29/dd/a024825dbe1e305723c0b20c0b00d220d7ed1493c3d9d523c52f4de6c6a5/PyroFork-dev-2.1.8.dev202305221226.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/29/dd/a024825dbe1e305723c0b20c0b00d220d7ed1493c3d9d523c52f4de6c6a5/PyroFork-dev-2.1.8.dev202305221226.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/c6/4a/3c52ecce72749d9d5d7e210367ed7daca719364a0686163a4f406e2a32d2/cognite_power_ops-0.5.0.tar.gz
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-05-22 14:27:50] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230522/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [teleapp]: Downloading https://files.pythonhosted.org/packages/f4/f1/497cb2c4de0d890204b6ff77ed9b077388e340de4b858dee38a1b837069d/teleapp-0.3.0-cp36-cp36m-manylinux2014_aarch64.whl
+[2023-05-22 14:27:51] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/65/65/5f86b3c4192f15c9dd8132fe39f47a4a2c20da2b4aa77bcc20bb03400437/qdls-0.0.5.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/57/1b/5bab063613757473bbedb6140700aaaa96c25266b1782091450bc3167499/twitter_api_py-0.7.3.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [Shimarin]: Downloading https://files.pythonhosted.org/packages/8a/0e/9c52cbb98735bc597fe7dae5bbcd9cd802ff33814415be5f7cfb7ae1b432/Shimarin-0.0.9.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [mahdix]: Downloading https://files.pythonhosted.org/packages/b7/43/f57560cfdf8ff572c1ac0a0a9b1ba6a857394e66fd366d23734d61b98a0c/mahdix-0.1.2.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [teleapp]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [teleapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teleapp-0.2.0-cp38-cp38-manylinux1_x86_64.whl.zip tmp/teleapp-0.3.0-cp36-cp36m-manylinux2014_aarch64.whl.zip --markdown 20230522/t/teleapp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.7.2.tar.gz tmp/twitter_api_py-0.7.3.tar.gz --markdown 20230522/t/twitter-api-py/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [qdls]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [qdls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdls-0.0.4.tar.gz tmp/qdls-0.0.5.tar.gz --markdown 20230522/q/qdls/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [mahdix]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [mahdix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdix-0.1.1.tar.gz tmp/mahdix-0.1.2.tar.gz --markdown 20230522/m/mahdix/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/d2/f2/42038fbd788fc73d1b29bef044d1c693b1d810414b9c445c375b9cb734f5/PyroFork-dev-2.1.8.dev202305221227.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/d2/f2/42038fbd788fc73d1b29bef044d1c693b1d810414b9c445c375b9cb734f5/PyroFork-dev-2.1.8.dev202305221227.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/d2/f2/42038fbd788fc73d1b29bef044d1c693b1d810414b9c445c375b9cb734f5/PyroFork-dev-2.1.8.dev202305221227.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/fb/2a/7d725926a087d1dcb4b048868197f0f898992636441f25606d23b4a5f44c/cognite_power_ops-0.6.0.tar.gz
+[2023-05-22 14:27:51] INFO root fetch - processPackages [Shimarin]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [Shimarin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Shimarin-0.0.8.tar.gz tmp/Shimarin-0.0.9.tar.gz --markdown 20230522/S/Shimarin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.5.0.tar.gz tmp/cognite_power_ops-0.6.0.tar.gz --markdown 20230522/c/cognite-power-ops/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.8.dev202305221226.tar.gz tmp/PyroFork-dev-2.1.8.dev202305221227.tar.gz --markdown 20230522/P/PyroFork-dev/2.1.8.dev202305221226-2.1.8.dev202305221227/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.8.dev202305221226.tar.gz tmp/PyroFork-dev-2.1.8.dev202305221227.tar.gz --markdown 20230522/P/PyroFork-dev/2.1.8.dev202305221226-2.1.8.dev202305221227/diff.md --exclude *.pyd
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-22 14:27:51] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.8.dev202305221226.tar.gz tmp/PyroFork-dev-2.1.8.dev202305221227.tar.gz --markdown 20230522/P/PyroFork-dev/2.1.8.dev202305221226-2.1.8.dev202305221227/diff.md --exclude *.pyd
+[2023-05-22 14:27:52] INFO root fetch - main [MainThread]: End processing [mahdix]: success
+[2023-05-22 14:27:52] INFO root fetch - main [MainThread]: End processing [Shimarin]: success
+[2023-05-22 14:27:53] INFO root fetch - main [MainThread]: End processing [teleapp]: success
+[2023-05-22 14:27:53] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-05-22 14:27:53] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-22 14:27:54] INFO root fetch - main [MainThread]: End processing [qdls]: success
+[2023-05-22 14:27:55] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-22 14:27:56] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-22 14:27:56] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-22 14:27:58] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-22 14:27:58] INFO root fetch - main [MainThread]: Store serial: [18196786]
