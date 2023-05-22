@@ -20124,3 +20124,84 @@ EOFError: EOF read where object expected
 [2023-05-22 18:48:00] INFO root fetch - main [MainThread]: End processing [spinta]: success
 [2023-05-22 18:48:01] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
 [2023-05-22 18:48:01] INFO root fetch - main [MainThread]: Store serial: [18201051]
+[2023-05-22 18:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18201051]
+[2023-05-22 18:53:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-importar-lineas-compra
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-convo-reader
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adata
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weldyn
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-python-utilities
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas-appender
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fieldedge-utilities
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sidetrek
+[2023-05-22 18:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vgs-api-client
+[2023-05-22 18:53:11] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [gpt-convo-reader]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-22 18:53:11] WARNING root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Skipping, unable to determine old version
+[2023-05-22 18:53:11] INFO root fetch - processPackages [odoo13-addon-importar-lineas-compra]: Start processing: bagbag
+[2023-05-22 18:53:11] INFO root fetch - main [MainThread]: End processing [odoo13-addon-importar-lineas-compra] error
+[2023-05-22 18:53:11] INFO root fetch - processPackages [pandas-appender]: New version: [0.9.8.4] Old Version: [0.9.8.1]
+[2023-05-22 18:53:11] WARNING root fetch - processPackages [weldyn]: Skipping, unable to determine old version
+[2023-05-22 18:53:11] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [weldyn]: Start processing: ypricemagic
+[2023-05-22 18:53:11] INFO root fetch - main [MainThread]: End processing [weldyn] error
+[2023-05-22 18:53:11] INFO root fetch - processPackages [fieldedge-utilities]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [ypricemagic]: New version: [2.2.9.dev9] Old Version: [2.2.9.dev8]
+[2023-05-22 18:53:11] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.13.8.tar.gz tmp/openshift-python-utilities-4.13.9.tar.gz --markdown 20230522/o/openshift-python-utilities/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/d6/c1/a01273973cb760f6d1e2f44db94a166ca0800d29a3d5755cd76149ff224c/gpt-convo-reader-0.2.2.tar.gz
+[2023-05-22 18:53:11] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230522/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [fieldedge-utilities]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [fieldedge-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldedge-utilities-0.9.4.tar.gz tmp/fieldedge-utilities-0.9.5.tar.gz --markdown 20230522/f/fieldedge-utilities/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230522/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [pandas-appender]: Downloading https://files.pythonhosted.org/packages/b9/f4/38e90fbbf7f64a9933ff97bd05b24f40cb7b69e901ef0691b03386f79c4d/pandas_appender-0.9.8.1.tar.gz
+[2023-05-22 18:53:11] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.2.9.dev8.tar.gz tmp/ypricemagic-2.2.9.dev9.tar.gz --markdown 20230522/y/ypricemagic/2.2.9.dev8-2.2.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230522/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/9b/f5/3a62e95670d774c8a70fb28897fb93dd69cdb2c7a8f75329962e6b31b460/gpt-convo-reader-0.2.3.tar.gz
+[2023-05-22 18:53:11] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230522/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [gpt-convo-reader]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [gpt-convo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-convo-reader-0.2.2.tar.gz tmp/gpt-convo-reader-0.2.3.tar.gz --markdown 20230522/g/gpt-convo-reader/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-22 18:53:11] INFO root fetch - processPackages [pandas-appender]: Downloading https://files.pythonhosted.org/packages/71/37/ef6fc8ebc2b9a82adb9d6f9f14d642ddff27e80947a28ab5a29744ef2564/pandas_appender-0.9.8.4.tar.gz
+[2023-05-22 18:53:11] INFO root fetch - processPackages [pandas-appender]: executing diffoscope
+[2023-05-22 18:53:11] INFO root fetch - processPackages [pandas-appender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_appender-0.9.8.1.tar.gz tmp/pandas_appender-0.9.8.4.tar.gz --markdown 20230522/p/pandas-appender/0.9.8.1-0.9.8.4/diff.md --exclude *.pyd
+[2023-05-22 18:53:12] INFO root fetch - processPackages [fieldedge-utilities]: Start processing: proteinflow
+[2023-05-22 18:53:12] INFO root fetch - main [MainThread]: End processing [fieldedge-utilities]: success
+[2023-05-22 18:53:12] INFO root fetch - processPackages [proteinflow]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-22 18:53:12] INFO root fetch - processPackages [sidetrek]: Start processing: sherlockpipe
+[2023-05-22 18:53:12] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 18:53:12] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-22 18:53:12] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: katalytic-files
+[2023-05-22 18:53:12] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-05-22 18:53:12] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-22 18:53:12] INFO root fetch - processPackages [katalytic-files]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 18:53:13] INFO root fetch - main [MainThread]: End processing [gpt-convo-reader]: success
+[2023-05-22 18:53:13] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-05-22 18:53:13] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230522/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-22 18:53:13] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-22 18:53:13] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/7f/81/e53e6f6bda9d5c7041cb81bc3beb3d2f81e0d180fdfddc8308429bef6a6e/proteinflow-1.3.4.tar.gz
+[2023-05-22 18:53:13] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/ab/ec/7ce84080bb4d48d7e8602f0e4ba9a03de999ed857e610b1b827c15c40e15/katalytic-files-0.8.0.tar.gz
+[2023-05-22 18:53:13] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-05-22 18:53:13] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.3.3.tar.gz tmp/proteinflow-1.3.4.tar.gz --markdown 20230522/p/proteinflow/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-22 18:53:13] INFO root fetch - processPackages [katalytic-files]: Downloading https://files.pythonhosted.org/packages/3a/68/5a148cf1948bff3b7967298bbea31fe1fa174e614a6e520e48523e54041e/katalytic_files-0.9.0.tar.gz
+[2023-05-22 18:53:13] INFO root fetch - main [MainThread]: End processing [pandas-appender]: success
+[2023-05-22 18:53:13] INFO root fetch - processPackages [katalytic-files]: executing diffoscope
+[2023-05-22 18:53:13] INFO root fetch - processPackages [katalytic-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-files-0.8.0.tar.gz tmp/katalytic_files-0.9.0.tar.gz --markdown 20230522/k/katalytic-files/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 18:53:13] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-22 18:53:14] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-05-22 18:53:14] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-05-22 18:53:14] INFO root fetch - main [MainThread]: End processing [katalytic-files]: success
+[2023-05-22 18:53:14] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-05-22 18:53:16] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-22 18:53:16] INFO root fetch - main [MainThread]: Store serial: [18201101]
