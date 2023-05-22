@@ -12299,3 +12299,172 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 14:17:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
 [2023-05-22 14:17:26] INFO root fetch - main [MainThread]: End processing [tala]: success
 [2023-05-22 14:17:26] INFO root fetch - main [MainThread]: Store serial: [18196677]
+[2023-05-22 14:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18196677]
+[2023-05-22 14:22:36] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldimbenchmark
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shelephant
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otools-rpc
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GXYUR-env
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiwitcms-github-marketplace
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: knic-jupyter
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyroFork-dev
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oc-ldap-client
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gtki-module-orup-errors
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cycode
+[2023-05-22 14:22:36] WARNING root fetch - processPackages [otools-rpc]: Skipping, unable to determine old version
+[2023-05-22 14:22:36] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [otools-rpc]: Start processing: motion3d
+[2023-05-22 14:22:36] INFO root fetch - main [MainThread]: End processing [otools-rpc] error
+[2023-05-22 14:22:36] WARNING root fetch - processPackages [GXYUR-env]: Skipping, unable to determine old version
+[2023-05-22 14:22:36] INFO root fetch - processPackages [GXYUR-env]: Start processing: pyprocessors-chunk_sentences
+[2023-05-22 14:22:36] INFO root fetch - main [MainThread]: End processing [GXYUR-env] error
+[2023-05-22 14:22:36] INFO root fetch - processPackages [shelephant]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [kiwitcms-github-marketplace]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [cycode]: New version: [0.2.4.dev8] Old Version: [0.2.4.dev14]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.7.tar.gz tmp/knic_jupyter-0.1.8.tar.gz --markdown 20230522/k/knic-jupyter/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [oc-ldap-client]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.36.6] Old Version: [1.36.5]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.8.dev202305221218] Old Version: [2.1.8.dev202305201740]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [kiwitcms-github-marketplace]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [kiwitcms-github-marketplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwitcms-github-marketplace-2.3.3.tar.gz tmp/kiwitcms-github-marketplace-2.3.4.tar.gz --markdown 20230522/k/kiwitcms-github-marketplace/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.4.dev14.tar.gz tmp/cycode-0.2.4.dev8.tar.gz --markdown 20230522/c/cycode/0.2.4.dev14-0.2.4.dev8/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [shelephant]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [shelephant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelephant-0.8.1.tar.gz tmp/shelephant-0.9.0.tar.gz --markdown 20230522/s/shelephant/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: New version: [0.5.5] Old Version: [0.5.12]
+[2023-05-22 14:22:36] WARNING root fetch - processPackages [motion3d]: Skipping, unable to determine old version
+[2023-05-22 14:22:36] INFO root fetch - processPackages [motion3d]: Start processing: useragents-me-scraper
+[2023-05-22 14:22:36] INFO root fetch - main [MainThread]: End processing [motion3d] error
+[2023-05-22 14:22:36] INFO root fetch - processPackages [useragents-me-scraper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 14:22:36] INFO root fetch - processPackages [oc-ldap-client]: Downloading https://files.pythonhosted.org/packages/45/d5/5efa2433416cb87ae1238d23b5fb563c315c5ae1e7b5190e310012113d7f/oc_ldap_client-1.0.0-py3-none-any.whl
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-05-22 14:22:36] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: Downloading https://files.pythonhosted.org/packages/2a/24/78cd89e598f05be23676fab5a2f02833ee281f0a5aab6548fc3cc2b63a76/pyprocessors_chunk_sentences-0.5.12.tar.gz
+[2023-05-22 14:22:36] INFO root fetch - processPackages [useragents-me-scraper]: Downloading https://files.pythonhosted.org/packages/9b/d4/b27e0ddd91f65cd7a48677ac9895915552f3626fcca93e39e1eeb1a9adf0/useragents_me_scraper-0.1.3.tar.gz
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.7.tar.gz tmp/ldimbenchmark-0.2.8.tar.gz --markdown 20230522/l/ldimbenchmark/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/c6/46/6efe4f9bc8728dfdc6e5942df0085e5205bd75348da1b432a9e93d739c74/PyroFork-dev-2.1.8.dev202305221218.tar.gz
+[2023-05-22 14:22:36] INFO root fetch - processPackages [useragents-me-scraper]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [useragents-me-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragents_me_scraper-0.1.2.tar.gz tmp/useragents_me_scraper-0.1.3.tar.gz --markdown 20230522/u/useragents-me-scraper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/f6/93/712ce428b350aa924c08ea155fc6f122bf5b2faffdbc897f1e9136d3eb14/gtki_module_orup_errors-1.36.6-py3-none-any.whl
+[2023-05-22 14:22:36] INFO root fetch - processPackages [oc-ldap-client]: Downloading https://files.pythonhosted.org/packages/7e/67/fb23d1d34337b2f2dd5ef67824671edbce76b41e925e64d0d91e3f806601/oc_ldap_client-1.0.2-py3-none-any.whl
+[2023-05-22 14:22:36] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.8.dev202305201740.tar.gz tmp/PyroFork-dev-2.1.8.dev202305221218.tar.gz --markdown 20230522/P/PyroFork-dev/2.1.8.dev202305201740-2.1.8.dev202305221218/diff.md --exclude *.pyd
+[2023-05-22 14:22:36] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-22 14:22:36] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.36.5-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.36.6-py3-none-any.whl.zip --markdown 20230522/g/gtki-module-orup-errors/1.36.5-1.36.6/diff.md --exclude *.pyd
+[2023-05-22 14:22:37] INFO root fetch - processPackages [oc-ldap-client]: executing diffoscope
+[2023-05-22 14:22:37] INFO root fetch - processPackages [oc-ldap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ldap_client-1.0.0-py3-none-any.whl.zip tmp/oc_ldap_client-1.0.2-py3-none-any.whl.zip --markdown 20230522/o/oc-ldap-client/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 14:22:37] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: Downloading https://files.pythonhosted.org/packages/a6/fc/58a7c766b266216ce909b11e1c3653c7fc91d29e92e9cc695a760bf3b8cf/pyprocessors-chunk_sentences-0.5.5.tar.gz
+[2023-05-22 14:22:37] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: executing diffoscope
+[2023-05-22 14:22:37] INFO root fetch - processPackages [pyprocessors-chunk_sentences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_chunk_sentences-0.5.12.tar.gz tmp/pyprocessors-chunk_sentences-0.5.5.tar.gz --markdown 20230522/p/pyprocessors-chunk_sentences/0.5.12-0.5.5/diff.md --exclude *.pyd
+[2023-05-22 14:22:38] INFO root fetch - processPackages [kiwitcms-github-marketplace]: Start processing: cm-two
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [kiwitcms-github-marketplace]: success
+[2023-05-22 14:22:38] INFO root fetch - processPackages [useragents-me-scraper]: Start processing: inmantals
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [useragents-me-scraper]: success
+[2023-05-22 14:22:38] INFO root fetch - processPackages [cm-two]: New version: [2.3.15] Old Version: [2.3.14]
+[2023-05-22 14:22:38] INFO root fetch - processPackages [inmantals]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [shelephant]: success
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [oc-ldap-client]: success
+[2023-05-22 14:22:38] INFO root fetch - processPackages [inmantals]: Downloading https://files.pythonhosted.org/packages/f4/b4/edc5324c7a19f8b883730999971eb8ab269a008e3bbacbb6f66c078ffd70/inmantals-1.3.0.tar.gz
+[2023-05-22 14:22:38] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/12/23/c934b5dc5c408a2fa6504dcb28bfa4516189f612286327f317e1c090803a/cm_two-2.3.15-py3-none-any.whl
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [pyprocessors-chunk_sentences]: success
+[2023-05-22 14:22:38] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-05-22 14:22:38] INFO root fetch - processPackages [inmantals]: Downloading https://files.pythonhosted.org/packages/d1/79/ec884f6f5186f14c9c4e8794ab6c8b04bb5e99f0788fc3473704d06ce2e1/inmantals-1.3.1.tar.gz
+[2023-05-22 14:22:38] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-22 14:22:38] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.14-py3-none-any.whl.zip tmp/cm_two-2.3.15-py3-none-any.whl.zip --markdown 20230522/c/cm-two/2.3.14-2.3.15/diff.md --exclude *.pyd
+[2023-05-22 14:22:38] INFO root fetch - processPackages [inmantals]: executing diffoscope
+[2023-05-22 14:22:38] INFO root fetch - processPackages [inmantals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmantals-1.3.0.tar.gz tmp/inmantals-1.3.1.tar.gz --markdown 20230522/i/inmantals/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-22 14:22:39] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-05-22 14:22:39] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-22 14:22:39] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-22 14:22:39] INFO root fetch - main [MainThread]: End processing [inmantals]: success
+[2023-05-22 14:22:41] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-22 14:22:42] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-22 14:22:42] INFO root fetch - main [MainThread]: Store serial: [18196723]
