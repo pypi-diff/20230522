@@ -4377,3 +4377,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 04:57:45] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-05-22 04:57:45] INFO root fetch - main [MainThread]: End processing [scrapinglib]: success
 [2023-05-22 04:57:45] INFO root fetch - main [MainThread]: Store serial: [18191830]
+[2023-05-22 05:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18191830]
+[2023-05-22 05:02:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradflow
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fc2-live-dl
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: persyn
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MyoSuite
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adbblitz
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netteikei
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-AutoMLPlus
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: misc-io-operations
+[2023-05-22 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantbox
+[2023-05-22 05:02:54] INFO root fetch - processPackages [MyoSuite]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-05-22 05:02:54] INFO root fetch - processPackages [fc2-live-dl]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-22 05:02:54] WARNING root fetch - processPackages [adbblitz]: Skipping, unable to determine old version
+[2023-05-22 05:02:54] INFO root fetch - processPackages [persyn]: New version: [0.1.1.dev0] Old Version: [0.1.0]
+[2023-05-22 05:02:54] INFO root fetch - main [MainThread]: End processing [adbblitz] error
+[2023-05-22 05:02:54] INFO root fetch - processPackages [quantbox]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 05:02:54] INFO root fetch - processPackages [misc-io-operations]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-22 05:02:54] INFO root fetch - processPackages [my-AutoMLPlus]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 05:02:54] INFO root fetch - processPackages [quantbox]: executing diffoscope
+[2023-05-22 05:02:54] INFO root fetch - processPackages [quantbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantbox-0.0.7-py3-none-any.whl.zip tmp/quantbox-0.0.8-py3-none-any.whl.zip --markdown 20230522/q/quantbox/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 05:02:54] WARNING root fetch - processPackages [gradflow]: Skipping, unable to determine old version
+[2023-05-22 05:02:54] INFO root fetch - main [MainThread]: End processing [gradflow] error
+[2023-05-22 05:02:54] INFO root fetch - processPackages [my-AutoMLPlus]: executing diffoscope
+[2023-05-22 05:02:54] INFO root fetch - processPackages [my-AutoMLPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_AutoMLPlus-0.0.7.tar.gz tmp/my_AutoMLPlus-0.0.8.tar.gz --markdown 20230522/m/my-AutoMLPlus/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 05:02:54] INFO root fetch - processPackages [netteikei]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 05:02:54] INFO root fetch - processPackages [misc-io-operations]: executing diffoscope
+[2023-05-22 05:02:54] INFO root fetch - processPackages [misc-io-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_io_operations-1.2.6.tar.gz tmp/misc_io_operations-1.2.7.tar.gz --markdown 20230522/m/misc-io-operations/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-22 05:02:54] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/6d/cd/fcd8b0aadd9f715964179ecfe7da16632359a3b25dad44b4f2f2283d9871/MyoSuite-1.5.0.tar.gz
+[2023-05-22 05:02:54] INFO root fetch - processPackages [fc2-live-dl]: Downloading https://files.pythonhosted.org/packages/f3/ab/b60867bfd175286375ed1cff2e43d57c5593f42b079ae876642789ccd8a9/fc2-live-dl-2.1.2.tar.gz
+[2023-05-22 05:02:54] WARNING root fetch - processPackages [MyoSuite]: Skipping package: exceeds size limit 35321005>=10485760
+[2023-05-22 05:02:54] INFO root fetch - main [MainThread]: End processing [MyoSuite] error
+[2023-05-22 05:02:54] INFO root fetch - processPackages [persyn]: Downloading https://files.pythonhosted.org/packages/db/c9/9c928738382d6160e0bad1484f1d060e1c52f0b1232cea147fd897c02c44/persyn-0.1.0.tar.gz
+[2023-05-22 05:02:54] INFO root fetch - processPackages [netteikei]: Downloading https://files.pythonhosted.org/packages/d4/54/27b1616c9ee9d98b247aa643a54b768de4d8c12de8acb3224fe8378fb614/netteikei-0.2.0-py3-none-any.whl
+[2023-05-22 05:02:54] INFO root fetch - processPackages [persyn]: Downloading https://files.pythonhosted.org/packages/05/31/f064f7983b8dfb96246da002dea6ed1a4e0ffe76b7b4a5c7ce47103e8e8f/persyn-0.1.1.dev0.tar.gz
+[2023-05-22 05:02:54] INFO root fetch - processPackages [netteikei]: Downloading https://files.pythonhosted.org/packages/67/11/4fbaab1b7e5133bf64f555af0e8065c0e615128dbf7e0edacf68a2169703/netteikei-0.2.1-py3-none-any.whl
+[2023-05-22 05:02:55] INFO root fetch - processPackages [fc2-live-dl]: Downloading https://files.pythonhosted.org/packages/c9/b6/e62c046e448dfd0a082ca18367b9928931ed0efa5522ffd305e96d1e251e/fc2-live-dl-2.1.3.tar.gz
+[2023-05-22 05:02:55] INFO root fetch - processPackages [netteikei]: executing diffoscope
+[2023-05-22 05:02:55] INFO root fetch - processPackages [netteikei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netteikei-0.2.0-py3-none-any.whl.zip tmp/netteikei-0.2.1-py3-none-any.whl.zip --markdown 20230522/n/netteikei/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 05:02:55] INFO root fetch - processPackages [persyn]: executing diffoscope
+[2023-05-22 05:02:55] INFO root fetch - processPackages [persyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persyn-0.1.0.tar.gz tmp/persyn-0.1.1.dev0.tar.gz --markdown 20230522/p/persyn/0.1.0-0.1.1.dev0/diff.md --exclude *.pyd
+[2023-05-22 05:02:55] INFO root fetch - processPackages [fc2-live-dl]: executing diffoscope
+[2023-05-22 05:02:55] INFO root fetch - processPackages [fc2-live-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc2-live-dl-2.1.2.tar.gz tmp/fc2-live-dl-2.1.3.tar.gz --markdown 20230522/f/fc2-live-dl/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-22 05:02:55] INFO root fetch - main [MainThread]: End processing [my-AutoMLPlus]: success
+[2023-05-22 05:02:55] INFO root fetch - main [MainThread]: End processing [misc-io-operations]: success
+[2023-05-22 05:02:55] INFO root fetch - main [MainThread]: End processing [quantbox]: success
+[2023-05-22 05:02:56] INFO root fetch - main [MainThread]: End processing [netteikei]: success
+[2023-05-22 05:02:56] INFO root fetch - main [MainThread]: End processing [fc2-live-dl]: success
+[2023-05-22 05:02:56] INFO root fetch - main [MainThread]: End processing [persyn]: success
+[2023-05-22 05:02:56] INFO root fetch - main [MainThread]: Store serial: [18191869]
