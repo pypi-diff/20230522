@@ -7639,3 +7639,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:07:28] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-05-22 10:07:40] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-05-22 10:07:40] INFO root fetch - main [MainThread]: Store serial: [18193890]
+[2023-05-22 10:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193890]
+[2023-05-22 10:12:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-ttauto-crawler
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bann-flow
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsdotpy
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-ai-contentsafety
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prda
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: VerdisCloudConfig
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cicc-excel
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenGeode-core
+[2023-05-22 10:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opencv-stubs
+[2023-05-22 10:12:49] WARNING root fetch - processPackages [bann-flow]: Skipping, unable to determine old version
+[2023-05-22 10:12:49] INFO root fetch - processPackages [bann-flow]: Start processing: newrelic-data-exporter
+[2023-05-22 10:12:49] INFO root fetch - main [MainThread]: End processing [bann-flow] error
+[2023-05-22 10:12:49] INFO root fetch - processPackages [nsdotpy]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [cicc-excel]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 10:12:49] WARNING root fetch - processPackages [azure-ai-contentsafety]: Skipping, unable to determine old version
+[2023-05-22 10:12:49] WARNING root fetch - processPackages [VerdisCloudConfig]: Skipping, unable to determine old version
+[2023-05-22 10:12:49] INFO root fetch - processPackages [azure-ai-contentsafety]: Start processing: tldrwl
+[2023-05-22 10:12:49] INFO root fetch - processPackages [prda]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [VerdisCloudConfig]: Start processing: auto-codebase-documenter
+[2023-05-22 10:12:49] INFO root fetch - main [MainThread]: End processing [azure-ai-contentsafety] error
+[2023-05-22 10:12:49] INFO root fetch - processPackages [opencv-stubs]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 10:12:49] INFO root fetch - main [MainThread]: End processing [VerdisCloudConfig] error
+[2023-05-22 10:12:49] INFO root fetch - processPackages [newrelic-data-exporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [tldrwl]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230522080955] Old Version: [2.0.3.dev20230522065039]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [1.1] Old Version: [1.0]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.7]
+[2023-05-22 10:12:49] INFO root fetch - processPackages [cicc-excel]: Downloading https://files.pythonhosted.org/packages/90/f1/efa092e03c0c55bbc81533afe4cca8b2cc14d701384bdebcf10f5cfc3346/cicc_excel-0.1.0.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [opencv-stubs]: Downloading https://files.pythonhosted.org/packages/40/5b/5ad65950d6851dc4c70e9719ce7acaadd0346bf775300366f484c95ead73/opencv_stubs-0.0.7.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/c4/a5/04a2c545b6da0f2692335c39cd3a01ce563b9eacd60a976d2764725deca5/p-ttauto-crawler-0.0.8.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/4b/e5/3d1afa75dd476566ecb3853f0eb89abab6763d8085c94f4405d9d6ae33f4/prda-1.0.1.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/8e/fb/70b860272be9b82b641c5cac45f863dc491460f1b580f06d9d942faf8718/OpenGeode_core-14.1.7-cp38-cp38-win_amd64.whl
+[2023-05-22 10:12:49] INFO root fetch - processPackages [newrelic-data-exporter]: Downloading https://files.pythonhosted.org/packages/c0/fb/8763d90786ba2693dc210e232f6177589e478de340cad7e9bdbc490bff81/newrelic-data-exporter-0.0.8.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7e/f1/9370502b7416dfc5fc3e1b5ca41e7d563ec57e3f73e45473f85330162efb/localstack-core-2.0.3.dev20230522080955.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/e6/fd/7cd4eb6006095d099fc382f2295380d18f27847c56293571db30afdcdaec/auto-codebase-documenter-1.0.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [tldrwl]: Downloading https://files.pythonhosted.org/packages/e9/a7/d37795426c913c7c7a585c527d4d952dff11b6e4f91cd932e61fd61a8580/tldrwl-0.0.7.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/11/44/abf1277b1a79ba9912ecd13fd5ead5853fd5f89856e72ac63e35960c647d/nsdotpy-1.3.4.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [tldrwl]: executing diffoscope
+[2023-05-22 10:12:49] INFO root fetch - processPackages [tldrwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldrwl-0.0.6.tar.gz tmp/tldrwl-0.0.7.tar.gz --markdown 20230522/t/tldrwl/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 10:12:49] INFO root fetch - processPackages [nsdotpy]: executing diffoscope
+[2023-05-22 10:12:49] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.3.3.tar.gz tmp/nsdotpy-1.3.4.tar.gz --markdown 20230522/n/nsdotpy/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-22 10:12:49] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-22 10:12:49] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230522065039.tar.gz tmp/localstack-core-2.0.3.dev20230522080955.tar.gz --markdown 20230522/l/localstack-core/2.0.3.dev20230522065039-2.0.3.dev20230522080955/diff.md --exclude *.pyd
+[2023-05-22 10:12:49] INFO root fetch - processPackages [cicc-excel]: Downloading https://files.pythonhosted.org/packages/80/d3/b735830a992a1f0ba87a6321a7afd93a61752145dd2bf0cfc6bf4bcdba63/cicc_excel-0.2.0.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [opencv-stubs]: Downloading https://files.pythonhosted.org/packages/9a/39/069390e31eed2f92b61a5dcaf4d4febe29ce870ccd9df362354f0e2a77ee/opencv_stubs-0.0.8.tar.gz
+[2023-05-22 10:12:49] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/b4/f7/5bb1b0eca90eafbd5c9d828d6d1b59db3270a417f6544d298391274b8f03/p-ttauto-crawler-0.0.9.tar.gz
+[2023-05-22 10:12:50] INFO root fetch - processPackages [cicc-excel]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [cicc-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicc_excel-0.1.0.tar.gz tmp/cicc_excel-0.2.0.tar.gz --markdown 20230522/c/cicc-excel/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 10:12:50] INFO root fetch - processPackages [auto-codebase-documenter]: Downloading https://files.pythonhosted.org/packages/92/e7/954eb1bba713e8d18fb41f51a8a88e0a5feb6fe1f2da3f67d042b0a82bac/auto-codebase-documenter-1.1.tar.gz
+[2023-05-22 10:12:50] INFO root fetch - processPackages [newrelic-data-exporter]: Downloading https://files.pythonhosted.org/packages/33/f4/0256115a4f5f208451b46fc85d7d78cb376150e21e273d161e638fd621f8/newrelic-data-exporter-0.0.9.tar.gz
+[2023-05-22 10:12:50] INFO root fetch - processPackages [prda]: Downloading https://files.pythonhosted.org/packages/1f/b2/2d10053f8a5e0ae196f27691500150dd2199edf55946c376a9c751022b98/prda-1.0.2.tar.gz
+[2023-05-22 10:12:50] INFO root fetch - processPackages [opencv-stubs]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [opencv-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_stubs-0.0.7.tar.gz tmp/opencv_stubs-0.0.8.tar.gz --markdown 20230522/o/opencv-stubs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 10:12:50] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-1.0.tar.gz tmp/auto-codebase-documenter-1.1.tar.gz --markdown 20230522/a/auto-codebase-documenter/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-22 10:12:50] INFO root fetch - processPackages [newrelic-data-exporter]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [newrelic-data-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic-data-exporter-0.0.8.tar.gz tmp/newrelic-data-exporter-0.0.9.tar.gz --markdown 20230522/n/newrelic-data-exporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:12:50] INFO root fetch - processPackages [prda]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [prda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prda-1.0.1.tar.gz tmp/prda-1.0.2.tar.gz --markdown 20230522/p/prda/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-22 10:12:50] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17592253>=10485760
+[2023-05-22 10:12:50] INFO root fetch - processPackages [OpenGeode-core]: Start processing: xzy-db
+[2023-05-22 10:12:50] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-22 10:12:50] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230522/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:12:50] INFO root fetch - processPackages [xzy-db]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 10:12:50] INFO root fetch - processPackages [xzy-db]: Downloading https://files.pythonhosted.org/packages/8c/13/85a3976a624dd420e4c818b02d7d5edce300e12a4140848fe4c82cca8ee1/xzy-db-0.0.3.tar.gz
+[2023-05-22 10:12:50] INFO root fetch - processPackages [xzy-db]: Downloading https://files.pythonhosted.org/packages/2f/02/baa05ff05c22798e3ef70d76bc3b4ed179eb6ebfe10e3a3aafe63f9b9a8c/xzy-db-0.0.4.tar.gz
+[2023-05-22 10:12:50] INFO root fetch - processPackages [xzy-db]: executing diffoscope
+[2023-05-22 10:12:50] INFO root fetch - processPackages [xzy-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xzy-db-0.0.3.tar.gz tmp/xzy-db-0.0.4.tar.gz --markdown 20230522/x/xzy-db/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [tldrwl]: success
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [cicc-excel]: success
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [newrelic-data-exporter]: success
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [prda]: success
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-05-22 10:12:51] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 10:12:52] INFO root fetch - main [MainThread]: End processing [opencv-stubs]: success
+[2023-05-22 10:12:52] INFO root fetch - main [MainThread]: End processing [xzy-db]: success
+[2023-05-22 10:12:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-22 10:12:58] INFO root fetch - main [MainThread]: Store serial: [18193959]
