@@ -22386,3 +22386,53 @@ EOFError: EOF read where object expected
 [2023-05-22 20:51:43] INFO root fetch - main [MainThread]: End processing [license-manager-cli]: success
 [2023-05-22 20:51:47] INFO root fetch - main [MainThread]: End processing [orion-ml]: success
 [2023-05-22 20:51:47] INFO root fetch - main [MainThread]: Store serial: [18202489]
+[2023-05-22 20:56:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202489]
+[2023-05-22 20:56:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peeling
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymcp2221
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wds-client
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmeel-yaml-cpp
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotON_sdk
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antimony
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crossmark-jotform-api
+[2023-05-22 20:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agixt
+[2023-05-22 20:56:57] INFO root fetch - processPackages [peeling]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 20:56:57] WARNING root fetch - processPackages [cmeel-yaml-cpp]: Skipping, unable to determine old version
+[2023-05-22 20:56:57] INFO root fetch - processPackages [pymcp2221]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-22 20:56:57] INFO root fetch - main [MainThread]: End processing [cmeel-yaml-cpp] error
+[2023-05-22 20:56:57] INFO root fetch - processPackages [wds-client]: New version: [0.2.85] Old Version: [0.2.84]
+[2023-05-22 20:56:57] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-22 20:56:57] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.4.9] Old Version: [0.0.4.8]
+[2023-05-22 20:56:57] INFO root fetch - processPackages [antimony]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-05-22 20:56:57] INFO root fetch - processPackages [agixt]: New version: [1.1.65b0] Old Version: [1.1.64b0]
+[2023-05-22 20:56:57] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-05-22 20:56:57] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.1.64b0.tar.gz tmp/agixt-1.1.65b0.tar.gz --markdown 20230522/a/agixt/1.1.64b0-1.1.65b0/diff.md --exclude *.pyd
+[2023-05-22 20:56:58] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/e7/e7/8a9e8d0907bc9de4df82c6b4d2f44f740c4741d2840c48cdc089fe8d64b2/spotON_sdk-0.0.4.9.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [pymcp2221]: Downloading https://files.pythonhosted.org/packages/b4/c2/0138dcf300411a88cb4650cf6094efabe1a007a69533ada717dc2294367f/pymcp2221-1.0.6.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [peeling]: Downloading https://files.pythonhosted.org/packages/5a/fd/87c374e0cf4f9779b9363b21c8c9fe30c79119d8436254e1891e83a1897b/peeling-0.1.0.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [antimony]: Downloading https://files.pythonhosted.org/packages/51/42/bf39656b7b583240113f3b8a01d63272906fcfca4d5899290c15aafb6836/antimony-2.9.3-cp36-cp36m-win_amd64.whl
+[2023-05-22 20:56:58] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-22 20:56:58] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.4.8.tar.gz tmp/spotON_sdk-0.0.4.9.tar.gz --markdown 20230522/s/spotON_sdk/0.0.4.8-0.0.4.9/diff.md --exclude *.pyd
+[2023-05-22 20:56:58] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/36/15/31299737fa56287927b5b6b252b9bb3909d2893ca62c3f35466cdda74bb1/crossmark-jotform-api-0.3.4.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/836bbf3f66a8726aae3b76b84500c76c15bc46e566b3910df14b2c0539d9/wds-client-0.2.85.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-05-22 20:56:58] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.3.3.tar.gz tmp/crossmark-jotform-api-0.3.4.tar.gz --markdown 20230522/c/crossmark-jotform-api/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-22 20:56:58] INFO root fetch - processPackages [peeling]: Downloading https://files.pythonhosted.org/packages/3d/65/5d75ed9b9474e367a76a74cf7d4da24516620f3345d75f3d88bd54a1d393/peeling-0.2.0.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [pymcp2221]: Downloading https://files.pythonhosted.org/packages/74/49/affe199c269aa3002df7c0d8bbced4d20004af2f5a061c515c20015b1904/pymcp2221-1.0.7.tar.gz
+[2023-05-22 20:56:58] INFO root fetch - processPackages [peeling]: executing diffoscope
+[2023-05-22 20:56:58] INFO root fetch - processPackages [peeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peeling-0.1.0.tar.gz tmp/peeling-0.2.0.tar.gz --markdown 20230522/p/peeling/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 20:56:58] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-22 20:56:58] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.84.tar.gz tmp/wds-client-0.2.85.tar.gz --markdown 20230522/w/wds-client/0.2.84-0.2.85/diff.md --exclude *.pyd
+[2023-05-22 20:56:58] INFO root fetch - processPackages [pymcp2221]: executing diffoscope
+[2023-05-22 20:56:58] INFO root fetch - processPackages [pymcp2221]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymcp2221-1.0.6.tar.gz tmp/pymcp2221-1.0.7.tar.gz --markdown 20230522/p/pymcp2221/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-22 20:56:59] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-22 20:56:59] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-05-22 20:56:59] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-05-22 20:56:59] INFO root fetch - main [MainThread]: End processing [peeling]: success
+[2023-05-22 20:56:59] INFO root fetch - processPackages [antimony]: Downloading https://files.pythonhosted.org/packages/70/ea/d3e65056873bf3efe121154c520a45698e85be6be81944513d69da3d3eef/antimony-2.9.4-cp36-cp36m-win_amd64.whl
+[2023-05-22 20:56:59] INFO root fetch - main [MainThread]: End processing [pymcp2221]: success
+[2023-05-22 20:56:59] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-22 20:57:00] INFO root fetch - processPackages [antimony]: executing diffoscope
+[2023-05-22 20:57:00] INFO root fetch - processPackages [antimony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimony-2.9.3-cp36-cp36m-win_amd64.whl.zip tmp/antimony-2.9.4-cp36-cp36m-win_amd64.whl.zip --markdown 20230522/a/antimony/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-05-22 20:57:03] INFO root fetch - main [MainThread]: End processing [antimony]: success
+[2023-05-22 20:57:03] INFO root fetch - main [MainThread]: Store serial: [18202518]
