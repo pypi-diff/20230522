@@ -10166,3 +10166,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:13:24] INFO root fetch - main [MainThread]: End processing [SRPAstro.FITS]: success
 [2023-05-22 12:13:24] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
 [2023-05-22 12:13:24] INFO root fetch - main [MainThread]: Store serial: [18195277]
+[2023-05-22 12:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195277]
+[2023-05-22 12:18:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oc-portal-commons
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythttp
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exudyn
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiktok-signature
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awschains
+[2023-05-22 12:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medsenger-api
+[2023-05-22 12:18:33] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 12:18:33] INFO root fetch - processPackages [oc-portal-commons]: New version: [11.0.2] Old Version: [11.0.1]
+[2023-05-22 12:18:33] INFO root fetch - processPackages [pythttp]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-22 12:18:33] WARNING root fetch - processPackages [awschains]: Skipping, unable to determine old version
+[2023-05-22 12:18:33] INFO root fetch - main [MainThread]: End processing [awschains] error
+[2023-05-22 12:18:33] WARNING root fetch - processPackages [tiktok-signature]: Skipping, unable to determine old version
+[2023-05-22 12:18:33] INFO root fetch - main [MainThread]: End processing [tiktok-signature] error
+[2023-05-22 12:18:33] INFO root fetch - processPackages [exudyn]: New version: [1.6.80.dev1] Old Version: [1.6.65.dev1]
+[2023-05-22 12:18:33] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-22 12:18:33] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-22 12:18:33] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230522/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 12:18:33] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/b1/42/4a82e78d5ab14dff93a9553208e51310c9e1c424fd44d9bc04f34cfed842/pythttp-0.0.3.tar.gz
+[2023-05-22 12:18:33] INFO root fetch - processPackages [oc-portal-commons]: Downloading https://files.pythonhosted.org/packages/7c/35/cf5ac0e90bf128f2ee66943343cda8314aa8ed48ebcf343428ab2f111ecc/oc_portal_commons-11.0.1-py3-none-any.whl
+[2023-05-22 12:18:33] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/0e/f8/16fae9957d3c2a0f86928fd23e69ac4ea320387145035cd4fe0f2def4316/pythttp-0.0.4.tar.gz
+[2023-05-22 12:18:33] INFO root fetch - processPackages [exudyn]: executing diffoscope
+[2023-05-22 12:18:33] INFO root fetch - processPackages [exudyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exudyn-1.6.65.dev1-cp39-cp39-win_amd64.whl.zip tmp/exudyn-1.6.80.dev1-cp39-cp39-win_amd64.whl.zip --markdown 20230522/e/exudyn/1.6.65.dev1-1.6.80.dev1/diff.md --exclude *.pyd
+[2023-05-22 12:18:33] INFO root fetch - processPackages [pythttp]: executing diffoscope
+[2023-05-22 12:18:33] INFO root fetch - processPackages [pythttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythttp-0.0.3.tar.gz tmp/pythttp-0.0.4.tar.gz --markdown 20230522/p/pythttp/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-22 12:18:33] INFO root fetch - processPackages [oc-portal-commons]: Downloading https://files.pythonhosted.org/packages/15/79/cded335854278878fc0d83c92a2d84e4dce21cccb6e2468bcaa820ddf173/oc_portal_commons-11.0.2-py3-none-any.whl
+[2023-05-22 12:18:33] INFO root fetch - processPackages [oc-portal-commons]: executing diffoscope
+[2023-05-22 12:18:33] INFO root fetch - processPackages [oc-portal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_portal_commons-11.0.1-py3-none-any.whl.zip tmp/oc_portal_commons-11.0.2-py3-none-any.whl.zip --markdown 20230522/o/oc-portal-commons/11.0.1-11.0.2/diff.md --exclude *.pyd
+[2023-05-22 12:18:33] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-22 12:18:33] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230522/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-22 12:18:34] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-22 12:18:34] INFO root fetch - main [MainThread]: End processing [pythttp]: success
+[2023-05-22 12:18:35] INFO root fetch - main [MainThread]: End processing [exudyn]: success
+[2023-05-22 12:18:35] INFO root fetch - main [MainThread]: End processing [oc-portal-commons]: success
+[2023-05-22 12:19:27] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-22 12:19:27] INFO root fetch - main [MainThread]: Store serial: [18195318]
