@@ -12987,3 +12987,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-22 14:49:04] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
 [2023-05-22 14:49:04] INFO root fetch - main [MainThread]: End processing [aping-cli]: success
 [2023-05-22 14:49:04] INFO root fetch - main [MainThread]: Store serial: [18197019]
+[2023-05-22 14:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18197019]
+[2023-05-22 14:54:14] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldapKIT
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetnet
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-when
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twb-project
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulp-glue
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-cli
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HighResAnalysis
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: safe-eth-py
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exodia
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azurify
+[2023-05-22 14:54:14] INFO root fetch - processPackages [safe-eth-py]: New version: [5.4.0] Old Version: [5.3.1]
+[2023-05-22 14:54:14] WARNING root fetch - processPackages [exodia]: Skipping, unable to determine old version
+[2023-05-22 14:54:14] INFO root fetch - processPackages [exodia]: Start processing: ziku
+[2023-05-22 14:54:14] INFO root fetch - main [MainThread]: End processing [exodia] error
+[2023-05-22 14:54:14] INFO root fetch - processPackages [twb-project]: New version: [1.0.1a0] Old Version: [1.0.0]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-22 14:54:14] WARNING root fetch - processPackages [sweetnet]: Skipping, unable to determine old version
+[2023-05-22 14:54:14] INFO root fetch - processPackages [sweetnet]: Start processing: azurify
+[2023-05-22 14:54:14] INFO root fetch - main [MainThread]: End processing [sweetnet] error
+[2023-05-22 14:54:14] INFO root fetch - processPackages [HighResAnalysis]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pytest-when]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: New version: [0.72] Old Version: [0.71]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ldapKIT]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-glue]: New version: [0.19.2] Old Version: [0.19.1]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: New version: [0.72] Old Version: [0.71]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-5.3.1.tar.gz tmp/safe-eth-py-5.4.0.tar.gz --markdown 20230522/s/safe-eth-py/5.3.1-5.4.0/diff.md --exclude *.pyd
+[2023-05-22 14:54:14] WARNING root fetch - processPackages [ziku]: Skipping, unable to determine old version
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ziku]: Start processing: nwebclient
+[2023-05-22 14:54:14] INFO root fetch - main [MainThread]: End processing [ziku] error
+[2023-05-22 14:54:14] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-1.0.0.tar.gz tmp/twb_project-1.0.1a0.tar.gz --markdown 20230522/t/twb-project/1.0.0-1.0.1a0/diff.md --exclude *.pyd
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [nwebclient]: New version: [1.0.98] Old Version: [1.0.97]
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: Downloading https://files.pythonhosted.org/packages/bc/7f/c316967fe01b49f9bf176d0b711ea0f900fc18045e4bc8823080e30b14d3/azurify-0.71.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: Downloading https://files.pythonhosted.org/packages/bc/7f/c316967fe01b49f9bf176d0b711ea0f900fc18045e4bc8823080e30b14d3/azurify-0.71.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/2e/29/0e8bc0a5246a71f35123745afbe8c7cacac7b90f31065badce9cd25e8f9c/pulp-glue-0.19.1.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [HighResAnalysis]: Downloading https://files.pythonhosted.org/packages/bc/34/1cfff56862aa8a65960b1c3523b293f31dc0baf1f36e3032cf85b661055f/HighResAnalysis-0.0.2.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ldapKIT]: Downloading https://files.pythonhosted.org/packages/ed/64/6ed52b8cbc8e94934302b5ca98ba6d1234559b648b34158a204f87eefa6d/ldapKIT-1.4.8.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pytest-when]: Downloading https://files.pythonhosted.org/packages/8d/77/2391ce227d47bd09e6cc9ba3f26fe8c569a5d2484ee00eda4cdb26d6e8d0/pytest_when-1.0.6.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/d6/a6/113e28e8b7168df89a4f25d90cb067fc5443d9e886c012ec9cdba70c5699/nwebclient-1.0.97.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: Downloading https://files.pythonhosted.org/packages/08/9e/a641415068a2def7671f0195d3ed1814dfb7c07e76cf2d2246f0b26e8569/azurify-0.72.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: Downloading https://files.pythonhosted.org/packages/08/9e/a641415068a2def7671f0195d3ed1814dfb7c07e76cf2d2246f0b26e8569/azurify-0.72.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pytest-when]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pytest-when]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_when-1.0.5.tar.gz tmp/pytest_when-1.0.6.tar.gz --markdown 20230522/p/pytest-when/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/3a/e0/fb81c6118bf704b7e2dacea6664daf5d717676cec0529b3ecbc80f71b91a/pulp-glue-0.19.2.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azurify-0.71.tar.gz tmp/azurify-0.72.tar.gz --markdown 20230522/a/azurify/0.71-0.72/diff.md --exclude *.pyd
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [azurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azurify-0.71.tar.gz tmp/azurify-0.72.tar.gz --markdown 20230522/a/azurify/0.71-0.72/diff.md --exclude *.pyd
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [HighResAnalysis]: Downloading https://files.pythonhosted.org/packages/19/96/c041fc6af72c4108e3dc70cc33d84d65129ec95077d83e906062463d9ac5/HighResAnalysis-0.0.3.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.19.1.tar.gz tmp/pulp-glue-0.19.2.tar.gz --markdown 20230522/p/pulp-glue/0.19.1-0.19.2/diff.md --exclude *.pyd
+[2023-05-22 14:54:14] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/fe/0d/1b3a8ed8444aa2a0e3630fa63863911e5de864d045dbb99850e6202f4a74/nwebclient-1.0.98.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [ldapKIT]: Downloading https://files.pythonhosted.org/packages/97/9a/456fd5176ea6ee455adfd6e92712a4e0e32ab5ec50ee1d81f8f61f51bf19/ldapKIT-1.4.9.tar.gz
+[2023-05-22 14:54:14] INFO root fetch - processPackages [HighResAnalysis]: executing diffoscope
+[2023-05-22 14:54:14] INFO root fetch - processPackages [HighResAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HighResAnalysis-0.0.2.tar.gz tmp/HighResAnalysis-0.0.3.tar.gz --markdown 20230522/H/HighResAnalysis/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-22 14:54:15] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-22 14:54:15] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.97.tar.gz tmp/nwebclient-1.0.98.tar.gz --markdown 20230522/n/nwebclient/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2023-05-22 14:54:15] INFO root fetch - processPackages [ldapKIT]: executing diffoscope
+[2023-05-22 14:54:15] INFO root fetch - processPackages [ldapKIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldapKIT-1.4.8.tar.gz tmp/ldapKIT-1.4.9.tar.gz --markdown 20230522/l/ldapKIT/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-22 14:54:15] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2023-05-22 14:54:15] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20230522/p/pulp-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 14:54:15] INFO root fetch - processPackages [twb-project]: Start processing: thunder-ml
+[2023-05-22 14:54:15] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-05-22 14:54:15] WARNING root fetch - processPackages [thunder-ml]: Skipping, unable to determine old version
+[2023-05-22 14:54:15] INFO root fetch - processPackages [thunder-ml]: Start processing: Pello
+[2023-05-22 14:54:15] INFO root fetch - main [MainThread]: End processing [thunder-ml] error
+[2023-05-22 14:54:15] INFO root fetch - processPackages [Pello]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-22 14:54:16] INFO root fetch - processPackages [Pello]: Downloading https://files.pythonhosted.org/packages/63/94/bffec35fa2fc612bd18ca1dde19c4df177c6671a2525b15e4a6a782253d0/Pello-1.0.3.tar.gz
+[2023-05-22 14:54:16] INFO root fetch - processPackages [Pello]: Downloading https://files.pythonhosted.org/packages/4a/d0/c5047a342d7c2e82adaa6d601f00dd665cac297780448125c8494df88b22/Pello-1.0.4.tar.gz
+[2023-05-22 14:54:16] INFO root fetch - processPackages [azurify]: Start processing: pgfinder
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [azurify]: success
+[2023-05-22 14:54:16] INFO root fetch - processPackages [Pello]: executing diffoscope
+[2023-05-22 14:54:16] INFO root fetch - processPackages [Pello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pello-1.0.3.tar.gz tmp/Pello-1.0.4.tar.gz --markdown 20230522/P/Pello/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-22 14:54:16] INFO root fetch - processPackages [pgfinder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 14:54:16] INFO root fetch - processPackages [pytest-when]: Start processing: PySciMath
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [pytest-when]: success
+[2023-05-22 14:54:16] INFO root fetch - processPackages [pulp-glue]: Start processing: cycode
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [azurify]: success
+[2023-05-22 14:54:16] INFO root fetch - processPackages [cycode]: New version: [0.2.4.dev8] Old Version: [0.2.4.dev15]
+[2023-05-22 14:54:16] INFO root fetch - processPackages [pgfinder]: Downloading https://files.pythonhosted.org/packages/69/d8/bc7547cfd1f2e7312fe8dd88e1e841a4908467444e63094dd35cf8583960/pgfinder-0.0.2.tar.gz
+[2023-05-22 14:54:16] WARNING root fetch - processPackages [pgfinder]: Skipping package: exceeds size limit 18122583>=10485760
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [pgfinder] error
+[2023-05-22 14:54:16] INFO root fetch - processPackages [PySciMath]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-22 14:54:16] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/43/31/03893234ee5f9013141a3bb1d6c6672e8cebc0d270f9622cb43dde7a406f/cycode-0.2.4.dev15.tar.gz
+[2023-05-22 14:54:16] INFO root fetch - processPackages [PySciMath]: Downloading https://files.pythonhosted.org/packages/0e/c3/7043d437dc9e141f7c247d1a79f7f47b647226e53f855149f2af00f1cb07/PySciMath-1.5.5.tar.gz
+[2023-05-22 14:54:16] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-05-22 14:54:16] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.4.dev15.tar.gz tmp/cycode-0.2.4.dev8.tar.gz --markdown 20230522/c/cycode/0.2.4.dev15-0.2.4.dev8/diff.md --exclude *.pyd
+[2023-05-22 14:54:16] INFO root fetch - main [MainThread]: End processing [ldapKIT]: success
+[2023-05-22 14:54:16] INFO root fetch - processPackages [PySciMath]: executing diffoscope
+[2023-05-22 14:54:16] INFO root fetch - processPackages [PySciMath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySciMath-1.5.4.tar.gz tmp/PySciMath-1.5.5.tar.gz --markdown 20230522/P/PySciMath/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-22 14:54:17] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2023-05-22 14:54:17] INFO root fetch - main [MainThread]: End processing [Pello]: success
+[2023-05-22 14:54:17] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2023-05-22 14:54:18] INFO root fetch - main [MainThread]: End processing [PySciMath]: success
+[2023-05-22 14:54:18] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-05-22 14:54:18] INFO root fetch - main [MainThread]: End processing [HighResAnalysis]: success
+[2023-05-22 14:54:18] INFO root fetch - main [MainThread]: Store serial: [18197074]
