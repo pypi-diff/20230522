@@ -19845,3 +19845,92 @@ EOFError: EOF read where object expected
 [2023-05-22 18:30:41] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2023-05-22 18:31:40] INFO root fetch - main [MainThread]: End processing [wasmtime]: success
 [2023-05-22 18:31:40] INFO root fetch - main [MainThread]: Store serial: [18200871]
+[2023-05-22 18:37:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200871]
+[2023-05-22 18:37:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-volley
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tigrisdb
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlane
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clonalEvolution
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dyrun
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medsenger-api
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CADPR
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dynamic-file
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bgstools
+[2023-05-22 18:37:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbtgenlib
+[2023-05-22 18:37:22] INFO root fetch - processPackages [tigrisdb]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [py-volley]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [dyrun]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [clonalEvolution]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [bgstools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [dbtgenlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [CADPR]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [django-dynamic-file]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-22 18:37:22] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-22 18:37:23] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230522/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [CADPR]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [CADPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADPR-0.1.0.tar.gz tmp/CADPR-0.1.1.tar.gz --markdown 20230522/C/CADPR/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [dbtgenlib]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [dbtgenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtgenlib-0.0.8.tar.gz tmp/dbtgenlib-0.0.9.tar.gz --markdown 20230522/d/dbtgenlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/7d/b7/7fd447d0c0f364496259c250009622b36fbc87b90760ddd4482fca9aec3a/dyrun-1.1.0.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/6c/34/cb36a462c7f1a25e2397feb5161235a99057fb4cdc3ffeab7804a101669a/clonalEvolution-2.0.4.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [tigrisdb]: Downloading https://files.pythonhosted.org/packages/3a/27/2d300ae24355eff53e0e6274ad9d3169798134326b8172f4684389f094c1/tigrisdb-1.0.0b1.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [django-dynamic-file]: Downloading https://files.pythonhosted.org/packages/a7/f6/b06cd3ba96cf8e67565f24222517cfa97d9233bc8017fce8c25683df3069/django-dynamic-file-0.3.0.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/66/f6/e60558b330a3add8a9ea361a5284f06122e1a7ea8732acf7b986f53bfa0b/bgstools-0.1.2.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [py-volley]: Downloading https://files.pythonhosted.org/packages/fd/5a/1602e3188879a0f687daf2a4a27b82d90e25d3c0dd2919e388a7f124206b/py_volley-1.1.1.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.1.tar.gz tmp/bgstools-0.1.2.tar.gz --markdown 20230522/b/bgstools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230522/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [clonalEvolution]: Downloading https://files.pythonhosted.org/packages/29/b8/cf0ae68aa5b29fcba3ca38cf0ab1bfa53f746d8728d0b4e89f063854bc90/clonalEvolution-2.0.5.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [tigrisdb]: Downloading https://files.pythonhosted.org/packages/98/48/c8a6ba6f56946878d9a62eaa681977837ada7777e0962b7e48d80fc67c95/tigrisdb-1.0.0b2.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [py-volley]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [py-volley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_volley-1.1.0.tar.gz tmp/py_volley-1.1.1.tar.gz --markdown 20230522/p/py-volley/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [dyrun]: Downloading https://files.pythonhosted.org/packages/4b/7e/c22ea781fd97cafff3fc4acc3683e02d312a9c7c2e93b1d21df5f962d61b/dyrun-1.1.1.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [clonalEvolution]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [clonalEvolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clonalEvolution-2.0.4.tar.gz tmp/clonalEvolution-2.0.5.tar.gz --markdown 20230522/c/clonalEvolution/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [django-dynamic-file]: Downloading https://files.pythonhosted.org/packages/cf/97/4943fe8718c98523229de540f865d8965caf766e73097332d27edcd87d26/django-dynamic-file-0.4.0.tar.gz
+[2023-05-22 18:37:23] INFO root fetch - processPackages [tigrisdb]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [tigrisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigrisdb-1.0.0b1.tar.gz tmp/tigrisdb-1.0.0b2.tar.gz --markdown 20230522/t/tigrisdb/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [django-dynamic-file]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [django-dynamic-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-file-0.3.0.tar.gz tmp/django-dynamic-file-0.4.0.tar.gz --markdown 20230522/d/django-dynamic-file/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-22 18:37:23] INFO root fetch - processPackages [dyrun]: executing diffoscope
+[2023-05-22 18:37:23] INFO root fetch - processPackages [dyrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyrun-1.1.0.tar.gz tmp/dyrun-1.1.1.tar.gz --markdown 20230522/d/dyrun/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-22 18:37:24] INFO root fetch - processPackages [dbtgenlib]: Start processing: ucampurestorage
+[2023-05-22 18:37:24] INFO root fetch - main [MainThread]: End processing [dbtgenlib]: success
+[2023-05-22 18:37:24] INFO root fetch - processPackages [medsenger-api]: Start processing: sdvi-rally
+[2023-05-22 18:37:24] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-05-22 18:37:24] INFO root fetch - processPackages [ucampurestorage]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 18:37:24] INFO root fetch - processPackages [sdvi-rally]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 18:37:24] INFO root fetch - processPackages [ucampurestorage]: Downloading https://files.pythonhosted.org/packages/75/ff/dff5c105e7b4c3dea7835f3964261841c83e7e0b6d71413ce11be9289a10/ucampurestorage-1.0.9.tar.gz
+[2023-05-22 18:37:24] INFO root fetch - processPackages [sdvi-rally]: Downloading https://files.pythonhosted.org/packages/a6/d8/96eb47893769ae084356f6c0ef5628f455af9fbd921d1f88553b6b29f226/sdvi-rally-1.0.8.tar.gz
+[2023-05-22 18:37:24] INFO root fetch - processPackages [bgstools]: Start processing: serializer-Konchik
+[2023-05-22 18:37:24] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-05-22 18:37:24] WARNING root fetch - processPackages [serializer-Konchik]: Skipping, unable to determine old version
+[2023-05-22 18:37:24] INFO root fetch - processPackages [serializer-Konchik]: Start processing: exodia
+[2023-05-22 18:37:24] INFO root fetch - main [MainThread]: End processing [serializer-Konchik] error
+[2023-05-22 18:37:24] INFO root fetch - processPackages [exodia]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 18:37:24] INFO root fetch - processPackages [CADPR]: Start processing: holamundoplayerJG
+[2023-05-22 18:37:24] INFO root fetch - main [MainThread]: End processing [CADPR]: success
+[2023-05-22 18:37:24] INFO root fetch - processPackages [sdvi-rally]: Downloading https://files.pythonhosted.org/packages/34/f6/98cb03ac0d33383db88818a2c6d4d99589d7b3981fd1e44de66ff0da4e13/sdvi-rally-1.0.9.tar.gz
+[2023-05-22 18:37:25] WARNING root fetch - processPackages [holamundoplayerJG]: Skipping, unable to determine old version
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [holamundoplayerJG] error
+[2023-05-22 18:37:25] INFO root fetch - processPackages [exodia]: Downloading https://files.pythonhosted.org/packages/09/ab/fcd01128912ddad658e4918ae43e5fd1a8277836cd5e4a1e6afd87a47a68/exodia-1.0.2.tar.gz
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [clonalEvolution]: success
+[2023-05-22 18:37:25] INFO root fetch - processPackages [sdvi-rally]: executing diffoscope
+[2023-05-22 18:37:25] INFO root fetch - processPackages [sdvi-rally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdvi-rally-1.0.8.tar.gz tmp/sdvi-rally-1.0.9.tar.gz --markdown 20230522/s/sdvi-rally/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:37:25] INFO root fetch - processPackages [ucampurestorage]: executing diffoscope
+[2023-05-22 18:37:25] INFO root fetch - processPackages [ucampurestorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucampurestorage-1.0.8.tar.gz tmp/ucampurestorage-1.0.9.tar.gz --markdown 20230522/u/ucampurestorage/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [py-volley]: success
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [dyrun]: success
+[2023-05-22 18:37:25] INFO root fetch - processPackages [exodia]: Downloading https://files.pythonhosted.org/packages/2e/ea/36f2c67dd44ef2fc6daccc8e734b9ac53918b4d767267c46f9d653b1cbd9/exodia-1.0.3.tar.gz
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [tigrisdb]: success
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [django-dynamic-file]: success
+[2023-05-22 18:37:25] INFO root fetch - processPackages [exodia]: executing diffoscope
+[2023-05-22 18:37:25] INFO root fetch - processPackages [exodia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodia-1.0.2.tar.gz tmp/exodia-1.0.3.tar.gz --markdown 20230522/e/exodia/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 18:37:25] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-05-22 18:37:26] INFO root fetch - main [MainThread]: End processing [exodia]: success
+[2023-05-22 18:37:26] INFO root fetch - main [MainThread]: End processing [sdvi-rally]: success
+[2023-05-22 18:37:28] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
+[2023-05-22 18:37:28] INFO root fetch - main [MainThread]: Store serial: [18200922]
