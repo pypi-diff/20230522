@@ -5255,3 +5255,22 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [plotguy]: success
 [2023-05-22 06:55:36] INFO root fetch - main [MainThread]: End processing [PHX]: success
 [2023-05-22 06:55:36] INFO root fetch - main [MainThread]: Store serial: [18192427]
+[2023-05-22 07:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192427]
+[2023-05-22 07:00:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-22 07:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiextras
+[2023-05-22 07:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lognflow
+[2023-05-22 07:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miniwob
+[2023-05-22 07:00:45] INFO root fetch - processPackages [lognflow]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-22 07:00:45] WARNING root fetch - processPackages [miniwob]: Skipping, unable to determine old version
+[2023-05-22 07:00:45] INFO root fetch - main [MainThread]: End processing [miniwob] error
+[2023-05-22 07:00:45] INFO root fetch - processPackages [aiextras]: New version: [1.0] Old Version: [0.0.8]
+[2023-05-22 07:00:45] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/3b/94/3d20d81903b5d7ca3b8666db389608098cbfd66554c4db3b662f12762ef7/lognflow-0.7.0.tar.gz
+[2023-05-22 07:00:46] INFO root fetch - processPackages [aiextras]: Downloading https://files.pythonhosted.org/packages/06/fd/b6998baf556c6e9c809da419765c6dedb305cd2be48c5a281b14ded19f25/aiextras-1.0.tar.gz
+[2023-05-22 07:00:46] INFO root fetch - processPackages [aiextras]: executing diffoscope
+[2023-05-22 07:00:46] INFO root fetch - processPackages [aiextras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiextras-0.0.8.tar.gz tmp/aiextras-1.0.tar.gz --markdown 20230522/a/aiextras/0.0.8-1.0/diff.md --exclude *.pyd
+[2023-05-22 07:00:46] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/c8/63/f013be3e2962d27bcb96a3add89e031d104da6f0b353dc59d4ae6f178a68/lognflow-0.7.1.tar.gz
+[2023-05-22 07:00:46] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-05-22 07:00:46] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.7.0.tar.gz tmp/lognflow-0.7.1.tar.gz --markdown 20230522/l/lognflow/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-22 07:00:47] INFO root fetch - main [MainThread]: End processing [aiextras]: success
+[2023-05-22 07:00:47] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-05-22 07:00:47] INFO root fetch - main [MainThread]: Store serial: [18192438]
