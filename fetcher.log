@@ -15040,3 +15040,94 @@ EOFError: EOF read where object expected
 [2023-05-22 16:11:54] INFO root fetch - main [MainThread]: End processing [econml]: success
 [2023-05-22 16:11:54] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-22 16:11:54] INFO root fetch - main [MainThread]: Store serial: [18198187]
+[2023-05-22 16:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18198187]
+[2023-05-22 16:17:03] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yams-cli
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clear-skies
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpdb-api
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-component
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scimap
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meerschaum
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-remote-stack
+[2023-05-22 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FHIRkit
+[2023-05-22 16:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edl-mod
+[2023-05-22 16:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meerschaum
+[2023-05-22 16:17:04] INFO root fetch - processPackages [cpdb-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [pulumi-remote-stack]: New version: [0.1.5.dev0] Old Version: [0.1.5]
+[2023-05-22 16:17:04] WARNING root fetch - processPackages [test-component]: Skipping, unable to determine old version
+[2023-05-22 16:17:04] INFO root fetch - processPackages [test-component]: Start processing: fmpsdk
+[2023-05-22 16:17:04] INFO root fetch - main [MainThread]: End processing [test-component] error
+[2023-05-22 16:17:04] INFO root fetch - processPackages [yams-cli]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [FHIRkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [scimap]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [edl-mod]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [FHIRkit]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [FHIRkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FHIRkit-0.0.8.tar.gz tmp/FHIRkit-0.0.9.tar.gz --markdown 20230522/F/FHIRkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [pulumi-remote-stack]: Downloading https://files.pythonhosted.org/packages/39/d2/ebef925b294119ca29f59b53f98f3d0597f1b19171c2344701a377e06aef/pulumi-remote-stack-0.1.5.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [fmpsdk]: New version: [20230522.0] Old Version: [20230312.0]
+[2023-05-22 16:17:04] INFO root fetch - processPackages [cpdb-api]: Downloading https://files.pythonhosted.org/packages/38/c9/bf18d5467598fe481e3f0e0dc1647ed8fea5acb83f7b0a617a0a74623784/cpdb-api-1.0.4.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [pulumi-remote-stack]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [pulumi-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-remote-stack-0.1.5.tar.gz tmp/pulumi-remote-stack-0.1.5.dev0.tar.gz --markdown 20230522/p/pulumi-remote-stack/0.1.5-0.1.5.dev0/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [yams-cli]: Downloading https://files.pythonhosted.org/packages/66/df/b9d0768a069da9aa75bd93470461e80e288be03427d2e1dc2ab8733631a1/yams_cli-3.3.3-py3-none-any.whl
+[2023-05-22 16:17:04] INFO root fetch - processPackages [fmpsdk]: Downloading https://files.pythonhosted.org/packages/b0/16/282fe1048a5e8ec879c7c4447eb4a30bde8830d29a08051a5249f71c567f/fmpsdk-20230312.0.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230522/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [scimap]: Downloading https://files.pythonhosted.org/packages/06/56/3b730790f2f7b81c67d471968065c838f9feaa5ed7ada0b794a58bf53245/scimap-1.3.1.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/dd/93/9d445d4c459893320db4924b066f91b5953f057d377f23e43ea7a18ee127/meerschaum-1.6.8.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/dd/93/9d445d4c459893320db4924b066f91b5953f057d377f23e43ea7a18ee127/meerschaum-1.6.8.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [yams-cli]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [yams-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yams_cli-3.3.2-py3-none-any.whl.zip tmp/yams_cli-3.3.3-py3-none-any.whl.zip --markdown 20230522/y/yams-cli/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [cpdb-api]: Downloading https://files.pythonhosted.org/packages/71/4b/1236ac06a213a5d477ad42232861442113071218421f419bd9792314d87b/cpdb_api-1.0.5.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [edl-mod]: Downloading https://files.pythonhosted.org/packages/49/29/6c963c46840b72e2f423366b13e09233dbd111d343cb457ebe7e5aced8f2/edl-mod-0.0.36.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [scimap]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [scimap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scimap-1.3.0.tar.gz tmp/scimap-1.3.1.tar.gz --markdown 20230522/s/scimap/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [cpdb-api]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [cpdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpdb-api-1.0.4.tar.gz tmp/cpdb_api-1.0.5.tar.gz --markdown 20230522/c/cpdb-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [edl-mod]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [edl-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edl-mod-0.0.35.tar.gz tmp/edl-mod-0.0.36.tar.gz --markdown 20230522/e/edl-mod/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [fmpsdk]: Downloading https://files.pythonhosted.org/packages/b8/1b/80da69ca96cb84aec9382bab0670a304fc7c520bf8dc5187de64ea98fa8a/fmpsdk-20230522.0.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [fmpsdk]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [fmpsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmpsdk-20230312.0.tar.gz tmp/fmpsdk-20230522.0.tar.gz --markdown 20230522/f/fmpsdk/20230312.0-20230522.0/diff.md --exclude *.pyd
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/e7/a5/daf418e71bd16350c5ee45dedb45a0d0d3f4e01cfff517a1cb6e26ffcb96/meerschaum-1.6.9.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/e7/a5/daf418e71bd16350c5ee45dedb45a0d0d3f4e01cfff517a1cb6e26ffcb96/meerschaum-1.6.9.tar.gz
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-22 16:17:04] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230522/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-22 16:17:05] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-05-22 16:17:05] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230522/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-22 16:17:05] INFO root fetch - processPackages [pulumi-remote-stack]: Start processing: AkvoResponseGrouper
+[2023-05-22 16:17:05] INFO root fetch - main [MainThread]: End processing [pulumi-remote-stack]: success
+[2023-05-22 16:17:05] INFO root fetch - processPackages [AkvoResponseGrouper]: New version: [1.3.2a0] Old Version: [1.3.1a0]
+[2023-05-22 16:17:05] INFO root fetch - processPackages [AkvoResponseGrouper]: executing diffoscope
+[2023-05-22 16:17:05] INFO root fetch - processPackages [AkvoResponseGrouper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkvoResponseGrouper-1.3.1a0.tar.gz tmp/AkvoResponseGrouper-1.3.2a0.tar.gz --markdown 20230522/A/AkvoResponseGrouper/1.3.1a0-1.3.2a0/diff.md --exclude *.pyd
+[2023-05-22 16:17:06] INFO root fetch - processPackages [yams-cli]: Start processing: graspologic
+[2023-05-22 16:17:06] INFO root fetch - main [MainThread]: End processing [yams-cli]: success
+[2023-05-22 16:17:06] INFO root fetch - processPackages [FHIRkit]: Start processing: nbox
+[2023-05-22 16:17:06] INFO root fetch - main [MainThread]: End processing [FHIRkit]: success
+[2023-05-22 16:17:06] INFO root fetch - processPackages [graspologic]: New version: [3.1.0.dev5027620150] Old Version: [3.1.0]
+[2023-05-22 16:17:06] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-05-22 16:17:06] INFO root fetch - processPackages [cpdb-api]: Start processing: pytensor
+[2023-05-22 16:17:06] INFO root fetch - main [MainThread]: End processing [cpdb-api]: success
+[2023-05-22 16:17:06] INFO root fetch - main [MainThread]: End processing [edl-mod]: success
+[2023-05-22 16:17:06] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-05-22 16:17:06] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230522/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-05-22 16:17:06] INFO root fetch - processPackages [graspologic]: Downloading https://files.pythonhosted.org/packages/46/50/c0b07dde1feeda7be605f7787a7062a8744bb1edd7f58e5356baa8c28717/graspologic-3.1.0.tar.gz
+[2023-05-22 16:17:06] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-05-22 16:17:06] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-05-22 16:17:06] INFO root fetch - main [MainThread]: End processing [scimap]: success
+[2023-05-22 16:17:06] INFO root fetch - processPackages [graspologic]: executing diffoscope
+[2023-05-22 16:17:06] INFO root fetch - processPackages [graspologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graspologic-3.1.0.tar.gz tmp/graspologic-3.1.0.dev5027620150.tar.gz --markdown 20230522/g/graspologic/3.1.0-3.1.0.dev5027620150/diff.md --exclude *.pyd
+[2023-05-22 16:17:06] INFO root fetch - main [MainThread]: End processing [fmpsdk]: success
+[2023-05-22 16:17:07] INFO root fetch - main [MainThread]: End processing [AkvoResponseGrouper]: success
+[2023-05-22 16:17:07] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-22 16:17:07] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-05-22 16:17:08] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-05-22 16:17:08] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-22 16:17:08] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-05-22 16:17:08] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230522/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-05-22 16:17:09] INFO root fetch - main [MainThread]: End processing [graspologic]: success
+[2023-05-22 16:17:10] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-05-22 16:17:16] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-05-22 16:17:16] INFO root fetch - main [MainThread]: Store serial: [18198249]
