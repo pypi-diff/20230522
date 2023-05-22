@@ -22193,3 +22193,68 @@ EOFError: EOF read where object expected
 [2023-05-22 20:30:50] INFO root fetch - main [MainThread]: End processing [isidore]: success
 [2023-05-22 20:30:50] INFO root fetch - main [MainThread]: End processing [Orr-Sommerfeld-convmix-CGB]: success
 [2023-05-22 20:30:50] INFO root fetch - main [MainThread]: Store serial: [18202375]
+[2023-05-22 20:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202375]
+[2023-05-22 20:36:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsaugmentation
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cortex-cli
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noobminswap
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-exportar-deposito-xls
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-exportar-deposito-xls
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: querpyable
+[2023-05-22 20:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyComputer
+[2023-05-22 20:36:00] INFO root fetch - processPackages [cortex-cli]: New version: [1.14.1] Old Version: [1.14.0.post2]
+[2023-05-22 20:36:00] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: New version: [13.0.1.0.3.dev2] Old Version: [13.0.1.0.3.dev1]
+[2023-05-22 20:36:00] INFO root fetch - processPackages [tsaugmentation]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-22 20:36:00] ERROR root fetch - processPackages [noobminswap]: Unable to get metadata: No such project 'noobminswap'
+[2023-05-22 20:36:00] INFO root fetch - processPackages [noobminswap]: Start processing: pytest-httpserver
+[2023-05-22 20:36:00] INFO root fetch - main [MainThread]: End processing [noobminswap] error
+[2023-05-22 20:36:00] WARNING root fetch - processPackages [PyComputer]: Skipping, unable to determine old version
+[2023-05-22 20:36:00] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: New version: [13.0.1.0.3.dev2] Old Version: [13.0.1.0.3.dev1]
+[2023-05-22 20:36:00] INFO root fetch - main [MainThread]: End processing [PyComputer] error
+[2023-05-22 20:36:00] WARNING root fetch - processPackages [querpyable]: Skipping, unable to determine old version
+[2023-05-22 20:36:00] INFO root fetch - main [MainThread]: End processing [querpyable] error
+[2023-05-22 20:36:00] INFO root fetch - processPackages [kfish]: New version: [99.0.202305221834] Old Version: [99.0.202305221300]
+[2023-05-22 20:36:00] INFO root fetch - processPackages [coiled]: New version: [0.6.7.dev7] Old Version: [0.6.7.dev6]
+[2023-05-22 20:36:00] INFO root fetch - processPackages [kcli]: New version: [99.0.202305221831] Old Version: [99.0.202305221258]
+[2023-05-22 20:36:00] INFO root fetch - processPackages [tsaugmentation]: executing diffoscope
+[2023-05-22 20:36:00] INFO root fetch - processPackages [tsaugmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsaugmentation-0.5.8.tar.gz tmp/tsaugmentation-0.5.9.tar.gz --markdown 20230522/t/tsaugmentation/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-22 20:36:00] INFO root fetch - processPackages [pytest-httpserver]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-22 20:36:00] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Downloading https://files.pythonhosted.org/packages/dc/89/cf8f2c71eca878fbf1c2d21b6020b0b795927c06eea36bb5260406080c58/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev1-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [cortex-cli]: Downloading https://files.pythonhosted.org/packages/7e/22/7eb68980428a7c95d6ec88a0f9138b912627be41727457c8e679e3684871/cortex_cli-1.14.0.post2.tar.gz
+[2023-05-22 20:36:00] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Downloading https://files.pythonhosted.org/packages/dc/89/cf8f2c71eca878fbf1c2d21b6020b0b795927c06eea36bb5260406080c58/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev1-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d6/68/7961ab721d7a7930e548967cc68e439c204a4ff8fa0da0cf659ae19b6f88/kfish-99.0.202305221300-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a5/c7/3b0c4ba4639d15c6edf984a8680063a8d87dbcc9c9c628c95d5b13ace4e1/coiled-0.6.7.dev7.tar.gz
+[2023-05-22 20:36:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/93/0d/5935fe43d189349cf6034f5d47326ee303cd69c77dc998d8e419f042c2bc/kcli-99.0.202305221258-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [pytest-httpserver]: Downloading https://files.pythonhosted.org/packages/35/17/57b9884df7fbbb2321285a117124977858caa5c5ca4916656755728d620e/pytest_httpserver-1.0.7.tar.gz
+[2023-05-22 20:36:00] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-22 20:36:00] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.7.dev6.tar.gz tmp/coiled-0.6.7.dev7.tar.gz --markdown 20230522/c/coiled/0.6.7.dev6-0.6.7.dev7/diff.md --exclude *.pyd
+[2023-05-22 20:36:00] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Downloading https://files.pythonhosted.org/packages/fd/3b/b0b8359d893f963276b9fc15024cf7d79469b41cfcf8f2e8af77c52e7902/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/55/17/eaf82a493c47f9eaff5ed91c8d31d1e1fce43d80ff064488dde214c9b3bb/kfish-99.0.202305221834-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: Downloading https://files.pythonhosted.org/packages/fd/3b/b0b8359d893f963276b9fc15024cf7d79469b41cfcf8f2e8af77c52e7902/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-22 20:36:00] INFO root fetch - processPackages [cortex-cli]: Downloading https://files.pythonhosted.org/packages/4a/15/5cdde138c2399040a5879718c7a936caaf55dc79e1587cb76b715f5ad156/cortex_cli-1.14.1.tar.gz
+[2023-05-22 20:36:01] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-22 20:36:01] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305221300-py3-none-any.whl.zip tmp/kfish-99.0.202305221834-py3-none-any.whl.zip --markdown 20230522/k/kfish/99.0.202305221300-99.0.202305221834/diff.md --exclude *.pyd
+[2023-05-22 20:36:01] INFO root fetch - processPackages [cortex-cli]: executing diffoscope
+[2023-05-22 20:36:01] INFO root fetch - processPackages [cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cortex_cli-1.14.0.post2.tar.gz tmp/cortex_cli-1.14.1.tar.gz --markdown 20230522/c/cortex-cli/1.14.0.post2-1.14.1/diff.md --exclude *.pyd
+[2023-05-22 20:36:01] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d0/2e/15dcfe2baaae475b7d480203e055a7e8d75a3707596f5ecb1da9083324df/kcli-99.0.202305221831-py3-none-any.whl
+[2023-05-22 20:36:01] INFO root fetch - processPackages [pytest-httpserver]: Downloading https://files.pythonhosted.org/packages/d0/7c/4faed1c0633136fa5ce2242812910e31cbd501d1b3613d2f0213bc6cb238/pytest_httpserver-1.0.8.tar.gz
+[2023-05-22 20:36:01] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-22 20:36:01] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305221258-py3-none-any.whl.zip tmp/kcli-99.0.202305221831-py3-none-any.whl.zip --markdown 20230522/k/kcli/99.0.202305221258-99.0.202305221831/diff.md --exclude *.pyd
+[2023-05-22 20:36:01] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: executing diffoscope
+[2023-05-22 20:36:01] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: executing diffoscope
+[2023-05-22 20:36:01] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230522/o/odoo13-addon-exportar-deposito-xls/13.0.1.0.3.dev1-13.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-22 20:36:01] INFO root fetch - processPackages [odoo13-addon-exportar-deposito-xls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo13_addon_exportar_deposito_xls-13.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230522/o/odoo13-addon-exportar-deposito-xls/13.0.1.0.3.dev1-13.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-05-22 20:36:01] INFO root fetch - processPackages [pytest-httpserver]: executing diffoscope
+[2023-05-22 20:36:01] INFO root fetch - processPackages [pytest-httpserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_httpserver-1.0.7.tar.gz tmp/pytest_httpserver-1.0.8.tar.gz --markdown 20230522/p/pytest-httpserver/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-22 20:36:02] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-22 20:36:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-exportar-deposito-xls]: success
+[2023-05-22 20:36:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-exportar-deposito-xls]: success
+[2023-05-22 20:36:02] INFO root fetch - main [MainThread]: End processing [cortex-cli]: success
+[2023-05-22 20:36:02] INFO root fetch - main [MainThread]: End processing [pytest-httpserver]: success
+[2023-05-22 20:36:02] INFO root fetch - main [MainThread]: End processing [tsaugmentation]: success
+[2023-05-22 20:36:03] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-22 20:36:07] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-22 20:36:07] INFO root fetch - main [MainThread]: Store serial: [18202414]
