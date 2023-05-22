@@ -7578,3 +7578,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:02:05] INFO root fetch - main [MainThread]: End processing [ferveo]: success
 [2023-05-22 10:02:15] INFO root fetch - main [MainThread]: End processing [g2o-python]: success
 [2023-05-22 10:02:15] INFO root fetch - main [MainThread]: Store serial: [18193852]
+[2023-05-22 10:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18193852]
+[2023-05-22 10:07:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-easyview
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: template-pptx-jinja-fix
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmltools
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memory-graph
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-cdffs
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krxbot
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicutils
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nlp2fn
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cengal
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ddadevops
+[2023-05-22 10:07:24] INFO root fetch - processPackages [template-pptx-jinja-fix]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-22 10:07:24] INFO root fetch - processPackages [memory-graph]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-22 10:07:24] WARNING root fetch - processPackages [drf-easyview]: Skipping, unable to determine old version
+[2023-05-22 10:07:24] INFO root fetch - processPackages [drf-easyview]: Start processing: pyglove
+[2023-05-22 10:07:24] INFO root fetch - main [MainThread]: End processing [drf-easyview] error
+[2023-05-22 10:07:24] WARNING root fetch - processPackages [nlp2fn]: Skipping, unable to determine old version
+[2023-05-22 10:07:24] INFO root fetch - processPackages [nlp2fn]: Start processing: cli-base-utilities
+[2023-05-22 10:07:24] INFO root fetch - main [MainThread]: End processing [nlp2fn] error
+[2023-05-22 10:07:24] INFO root fetch - processPackages [dcicutils]: New version: [7.4.3.5b18] Old Version: [7.4.3.5b17]
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-22 10:07:24] WARNING root fetch - processPackages [cli-base-utilities]: Skipping, unable to determine old version
+[2023-05-22 10:07:24] INFO root fetch - main [MainThread]: End processing [cli-base-utilities] error
+[2023-05-22 10:07:24] INFO root fetch - processPackages [cengal]: New version: [3.2.0.23] Old Version: [3.1.18.9]
+[2023-05-22 10:07:24] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230521] Old Version: [0.3.1.dev20230520]
+[2023-05-22 10:07:24] WARNING root fetch - processPackages [krxbot]: Skipping, unable to determine old version
+[2023-05-22 10:07:24] INFO root fetch - main [MainThread]: End processing [krxbot] error
+[2023-05-22 10:07:24] INFO root fetch - processPackages [gmltools]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-05-22 10:07:24] INFO root fetch - processPackages [cognite-cdffs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 10:07:24] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-22 10:07:24] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.3.5b17.tar.gz tmp/dcicutils-7.4.3.5b18.tar.gz --markdown 20230522/d/dcicutils/7.4.3.5b17-7.4.3.5b18/diff.md --exclude *.pyd
+[2023-05-22 10:07:24] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-22 10:07:24] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.18.9.tar.gz tmp/cengal-3.2.0.23.tar.gz --markdown 20230522/c/cengal/3.1.18.9-3.2.0.23/diff.md --exclude *.pyd
+[2023-05-22 10:07:24] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-22 10:07:24] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230520.tar.gz tmp/pyglove-0.3.1.dev20230521.tar.gz --markdown 20230522/p/pyglove/0.3.1.dev20230520-0.3.1.dev20230521/diff.md --exclude *.pyd
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-22 10:07:24] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230522/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-22 10:07:24] INFO root fetch - processPackages [template-pptx-jinja-fix]: Downloading https://files.pythonhosted.org/packages/fc/cb/dc7ccc151a1956ed53bfb6c3e21d934b16d4a0f64ea31a1db629551cf6d0/template-pptx-jinja-fix-0.0.6.tar.gz
+[2023-05-22 10:07:24] INFO root fetch - processPackages [memory-graph]: Downloading https://files.pythonhosted.org/packages/8e/7a/baf65002054580c6c92e910c512e7f3236c599bf53efd8e6966f19fa60a9/memory_graph-0.1.8.tar.gz
+[2023-05-22 10:07:24] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/94/f1/380834a2797a988f92fb893bd0ed5d0a9eddbc7c8029d63ab4505a097cc3/gmltools-0.0.64.tar.gz
+[2023-05-22 10:07:24] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/16/c8/a834d0d86e7bb901034b991e51fbce15f0fd90c0fc21179f7457edd2b80f/cognite_cdffs-0.2.1.tar.gz
+[2023-05-22 10:07:24] INFO root fetch - processPackages [template-pptx-jinja-fix]: executing diffoscope
+[2023-05-22 10:07:24] INFO root fetch - processPackages [template-pptx-jinja-fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pptx-jinja-fix-0.0.5.tar.gz tmp/template-pptx-jinja-fix-0.0.6.tar.gz --markdown 20230522/t/template-pptx-jinja-fix/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-22 10:07:24] INFO root fetch - processPackages [memory-graph]: executing diffoscope
+[2023-05-22 10:07:24] INFO root fetch - processPackages [memory-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_graph-0.1.7.tar.gz tmp/memory_graph-0.1.8.tar.gz --markdown 20230522/m/memory-graph/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-22 10:07:25] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/96/88/fd24b0e28a2831a4a8dbff435d0eb3bd5a86f5163b2cdcdd79555b2f7813/gmltools-0.0.65.tar.gz
+[2023-05-22 10:07:25] INFO root fetch - processPackages [cognite-cdffs]: Downloading https://files.pythonhosted.org/packages/c4/14/1adaf3b494e4c6f7f00c112b3b72890d328a337bfb702e128ac2cbd69c9d/cognite_cdffs-0.2.2.tar.gz
+[2023-05-22 10:07:25] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-05-22 10:07:25] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.64.tar.gz tmp/gmltools-0.0.65.tar.gz --markdown 20230522/g/gmltools/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-05-22 10:07:25] INFO root fetch - processPackages [cognite-cdffs]: executing diffoscope
+[2023-05-22 10:07:25] INFO root fetch - processPackages [cognite-cdffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_cdffs-0.2.1.tar.gz tmp/cognite_cdffs-0.2.2.tar.gz --markdown 20230522/c/cognite-cdffs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 10:07:26] INFO root fetch - main [MainThread]: End processing [memory-graph]: success
+[2023-05-22 10:07:26] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-fix]: success
+[2023-05-22 10:07:26] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-22 10:07:26] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-22 10:07:26] INFO root fetch - main [MainThread]: End processing [cognite-cdffs]: success
+[2023-05-22 10:07:26] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-05-22 10:07:28] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-22 10:07:40] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-22 10:07:40] INFO root fetch - main [MainThread]: Store serial: [18193890]
