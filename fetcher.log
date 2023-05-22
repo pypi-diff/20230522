@@ -8892,3 +8892,178 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 11:07:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-22 11:07:54] INFO root fetch - main [MainThread]: End processing [cy-root]: success
 [2023-05-22 11:07:54] INFO root fetch - main [MainThread]: Store serial: [18194539]
+[2023-05-22 11:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194539]
+[2023-05-22 11:13:04] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuflow-rest
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuflow-robotframework
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuflow-temporal-common
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuflow-temporal-activity-kuflow
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuflow-temporal-activity-robotframework
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-bpstudio20210931-py2
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canals
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-bpstudio20210931
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydflow
+[2023-05-22 11:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: terraform-backend-s3-bucket
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-rest]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [canals]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/2e/2e/a82b792d622ce35d67390762e5df8b9073ab9d64767d27176dc062374d3d/kuflow_temporal_activity_robotframework-0.4.5.tar.gz
+[2023-05-22 11:13:04] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Downloading https://files.pythonhosted.org/packages/53/ec/599210ac9da2a827f954fddbaf8ad501d8e54002ff409f6f1b4181ec94dd/alibabacloud_bpstudio20210931_py2-1.0.2.tar.gz
+[2023-05-22 11:13:04] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/22/83/88e262c5cf55c0998110a1573dbdf056cfb589b1a8d5e30ad92cef0affb9/kuflow_rest-0.4.5.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/7f/25/c7a805cc6126600068e06334b0fdfd116a5cf10446192d9d99904beeb974/kuflow_robotframework-0.4.5.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Downloading https://files.pythonhosted.org/packages/73/0b/721bffd839323153c67072a1b051e7e80cba32329c2d7e3cddbd07c613cd/alibabacloud_bpstudio20210931-1.0.8.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/21/30/c274f68f582cf80dc1359dc6c3b3fcd2beab37e1001c720eb334432b6926/kuflow_temporal_common-0.4.5.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/a2/6e/476344ae5017a5e464a419b006515c6d7b47bb791e1a2dcd7a3ae86e6f1d/kuflow_temporal_activity_kuflow-0.4.5.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/98/ca/ba361f75ef8f6ab4ba0500d06acdf2ebd0b9ac7eef166e2ff13b41579177/canals-0.2.2.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [canals]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [canals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canals-0.2.1.tar.gz tmp/canals-0.2.2.tar.gz --markdown 20230522/c/canals/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/77/67/dd45453324038f7106c211fe9e8a1cad982a39a298dc18397bc864ce8d7f/kuflow_temporal_activity_robotframework-0.5.0.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Downloading https://files.pythonhosted.org/packages/d8/63/b3b43c40a36810dab5f896b8e25d0b119c584cdd40ec8d6f1d343a19c602/alibabacloud_bpstudio20210931_py2-1.0.3.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/bb/54/f2388634ed16c8800e2bf6ef655b5d44af3220c0c322e04008dbc0c2d959/kuflow_rest-0.5.0.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230522/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/1f/f5/532a31d81b6ed52cacbfb3af82e1019b9d6f93eae87be3c75598e0c3745f/kuflow_temporal_activity_kuflow-0.5.0.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/51/90/61023eefc5a7b1e4117b6534540344beb6174beb8085461c9576d08e8632/kuflow_robotframework-0.5.0.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-0.4.5.tar.gz tmp/kuflow_temporal_activity_robotframework-0.5.0.tar.gz --markdown 20230522/k/kuflow-temporal-activity-robotframework/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/c0/17/40f5e42c0dc3ddc33584fda16e819a2106714e923adf79be64adc672554b/kuflow_temporal_common-0.5.0.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Downloading https://files.pythonhosted.org/packages/1e/a8/1fb11774830b24f784d796c7aa6896b7722a6af43d3ce562bdf7984bff8a/alibabacloud_bpstudio20210931-1.0.9.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.4.5.tar.gz tmp/kuflow_rest-0.5.0.tar.gz --markdown 20230522/k/kuflow-rest/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.4.5.tar.gz tmp/kuflow_robotframework-0.5.0.tar.gz --markdown 20230522/k/kuflow-robotframework/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.4.5.tar.gz tmp/kuflow_temporal_activity_kuflow-0.5.0.tar.gz --markdown 20230522/k/kuflow-temporal-activity-kuflow/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bpstudio20210931_py2-1.0.2.tar.gz tmp/alibabacloud_bpstudio20210931_py2-1.0.3.tar.gz --markdown 20230522/a/alibabacloud-bpstudio20210931-py2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.4.5.tar.gz tmp/kuflow_temporal_common-0.5.0.tar.gz --markdown 20230522/k/kuflow-temporal-common/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_bpstudio20210931-1.0.8.tar.gz tmp/alibabacloud_bpstudio20210931-1.0.9.tar.gz --markdown 20230522/a/alibabacloud-bpstudio20210931/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:13:05] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-05-22 11:13:05] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230522/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:13:06] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Start processing: hummuspy
+[2023-05-22 11:13:06] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2023-05-22 11:13:06] INFO root fetch - processPackages [hummuspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:13:06] INFO root fetch - processPackages [hummuspy]: executing diffoscope
+[2023-05-22 11:13:06] INFO root fetch - processPackages [hummuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummuspy-0.0.8.tar.gz tmp/hummuspy-0.0.9.tar.gz --markdown 20230522/h/hummuspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:13:06] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: pepperize.projen-awscdk-construct
+[2023-05-22 11:13:06] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-05-22 11:13:06] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: nkululeko
+[2023-05-22 11:13:06] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nkululeko]: New version: [0.45.3] Old Version: [0.45.2]
+[2023-05-22 11:13:07] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-22 11:13:07] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: metobs-toolkit
+[2023-05-22 11:13:07] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-05-22 11:13:07] INFO root fetch - processPackages [metobs-toolkit]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2023-05-22 11:13:07] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Start processing: crosscheck
+[2023-05-22 11:13:07] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-05-22 11:13:07] INFO root fetch - processPackages [alibabacloud-bpstudio20210931-py2]: Start processing: nonebot-plugin-githubcard
+[2023-05-22 11:13:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-bpstudio20210931-py2]: success
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/e0/90/f82476f02a2bbf06bb221283493fb61d791f868844787c2471129ef149c3/nkululeko-0.45.2.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nonebot-plugin-githubcard]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-22 11:13:07] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-05-22 11:13:07] WARNING root fetch - processPackages [crosscheck]: Skipping, unable to determine old version
+[2023-05-22 11:13:07] INFO root fetch - processPackages [crosscheck]: Start processing: vantage6-common
+[2023-05-22 11:13:07] INFO root fetch - main [MainThread]: End processing [crosscheck] error
+[2023-05-22 11:13:07] INFO root fetch - processPackages [alibabacloud-bpstudio20210931]: Start processing: vantage6-client
+[2023-05-22 11:13:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-bpstudio20210931]: success
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nonebot-plugin-githubcard]: executing diffoscope
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nonebot-plugin-githubcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_githubcard-0.1.1.tar.gz tmp/nonebot_plugin_githubcard-0.1.2.tar.gz --markdown 20230522/n/nonebot-plugin-githubcard/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc2] Old Version: [3.8.8rc2]
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc2] Old Version: [3.8.8rc2]
+[2023-05-22 11:13:07] INFO root fetch - processPackages [metobs-toolkit]: Downloading https://files.pythonhosted.org/packages/a3/93/409c7385197b3667c6ae922c4ce547932149a25ab287ea064dbac1cca830/metobs_toolkit-0.0.2a5.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/0a/24/ac2120a2e8a28c79f72925d519ee3cc2e42467889fd527564e48be88544c/nkululeko-0.45.3.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/2a/8d/d5dea178d194f5afacd0449a0ff49f248b93e8c6c7e4ac8f84b57add05a6/vantage6-common-3.8.8rc2.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/fb/ee/e94d566c7f945d678bfeb0906f83df8e0a9d4cda75080f01e24e49971429/vantage6-client-3.8.8rc2.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-05-22 11:13:07] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.45.2.tar.gz tmp/nkululeko-0.45.3.tar.gz --markdown 20230522/n/nkululeko/0.45.2-0.45.3/diff.md --exclude *.pyd
+[2023-05-22 11:13:07] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-05-22 11:13:07] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230522/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/04/98/abda7369242fa6c3acba2926ec79b399130654bee32e327caf5a0dadd8c3/vantage6-common-3.9.0rc2.tar.gz
+[2023-05-22 11:13:07] INFO root fetch - processPackages [hummuspy]: Start processing: vantage6
+[2023-05-22 11:13:07] INFO root fetch - main [MainThread]: End processing [hummuspy]: success
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.8.8rc2.tar.gz tmp/vantage6-common-3.9.0rc2.tar.gz --markdown 20230522/v/vantage6-common/3.8.8rc2-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-22 11:13:07] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/cc/8a/7abb292e0070d775645f93a42c4c2021a36654aa36658a826b16e872bac6/vantage6-client-3.9.0rc2.tar.gz
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc2] Old Version: [3.8.8rc2]
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.8.8rc2.tar.gz tmp/vantage6-client-3.9.0rc2.tar.gz --markdown 20230522/v/vantage6-client/3.8.8rc2-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/dc/69/cd22fff79d5c1bb356d8c8ef0e00a6290760d1db73577db3bb4ffd73d651/vantage6-3.8.8rc2.tar.gz
+[2023-05-22 11:13:08] INFO root fetch - processPackages [metobs-toolkit]: executing diffoscope
+[2023-05-22 11:13:08] INFO root fetch - processPackages [metobs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metobs_toolkit-0.0.2a4.tar.gz tmp/metobs_toolkit-0.0.2a5.tar.gz --markdown 20230522/m/metobs-toolkit/0.0.2a4-0.0.2a5/diff.md --exclude *.pyd
+[2023-05-22 11:13:08] INFO root fetch - processPackages [canals]: Start processing: medialoopster
+[2023-05-22 11:13:08] INFO root fetch - main [MainThread]: End processing [canals]: success
+[2023-05-22 11:13:08] INFO root fetch - processPackages [medialoopster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/79/28/e84e0e783a03637496f2b5fd1c5d7b203696fd490d45d44eebad6876491d/vantage6-3.9.0rc2.tar.gz
+[2023-05-22 11:13:08] INFO root fetch - processPackages [nonebot-plugin-githubcard]: Start processing: vantage6-node
+[2023-05-22 11:13:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-githubcard]: success
+[2023-05-22 11:13:08] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/1c/0c/66496a5615318f18eb988da0d164764efc2e48d1e079f1bff85b32880753/medialoopster-0.0.8.tar.gz
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.8.8rc2.tar.gz tmp/vantage6-3.9.0rc2.tar.gz --markdown 20230522/v/vantage6/3.8.8rc2-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-22 11:13:08] INFO root fetch - processPackages [kuflow-rest]: Start processing: vantage6-server
+[2023-05-22 11:13:08] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc2] Old Version: [3.8.8rc2]
+[2023-05-22 11:13:08] INFO root fetch - processPackages [pydflow]: Start processing: algokit-client-generator
+[2023-05-22 11:13:08] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc2] Old Version: [3.8.8rc2]
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/e9/67/103ff27eadd24e238f167c8888949181b6b590b759ef4a581c8f30ef6683/vantage6-node-3.8.8rc2.tar.gz
+[2023-05-22 11:13:08] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.0b6] Old Version: [0.1.0b5]
+[2023-05-22 11:13:08] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/c1/3e/a4179f41caf4368dd57457489a0ec6c958b1c5f0f1682474fb152891d64a/medialoopster-0.0.9.tar.gz
+[2023-05-22 11:13:08] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/db/62/80e91d1fc9b942339b9bf96e19e88f7a912731704e05aad876d508ac608e/vantage6-server-3.8.8rc2.tar.gz
+[2023-05-22 11:13:09] INFO root fetch - processPackages [medialoopster]: executing diffoscope
+[2023-05-22 11:13:09] INFO root fetch - processPackages [medialoopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medialoopster-0.0.8.tar.gz tmp/medialoopster-0.0.9.tar.gz --markdown 20230522/m/medialoopster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 11:13:09] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: django-import-export-extensions
+[2023-05-22 11:13:09] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-05-22 11:13:09] INFO root fetch - processPackages [django-import-export-extensions]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-05-22 11:13:09] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/65/8e/fe42e5410ac13a35a1920fc8cf690781794b2a8bc534962319953d39990c/algokit_client_generator-0.1.0b6-py3-none-any.whl
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/90/d2/2f29a2ff10348e0426f2c1ddfdf2bd721cdf127d749f7854c12f28ba1a15/vantage6-node-3.9.0rc2.tar.gz
+[2023-05-22 11:13:09] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-05-22 11:13:09] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b5-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.0b6-py3-none-any.whl.zip --markdown 20230522/a/algokit-client-generator/0.1.0b5-0.1.0b6/diff.md --exclude *.pyd
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/93/a4/4faa09e9d314fa4e9ae0ddfc4677720ec30f7b78ec12b20c1174cb4e9e1a/vantage6-server-3.9.0rc2.tar.gz
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.8.8rc2.tar.gz tmp/vantage6-node-3.9.0rc2.tar.gz --markdown 20230522/v/vantage6-node/3.8.8rc2-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-22 11:13:09] INFO root fetch - processPackages [django-import-export-extensions]: Downloading https://files.pythonhosted.org/packages/08/88/95ba31108327a79dc4b75e10af1d65895a700e4d65a9739d61360097c628/django_import_export_extensions-0.1.3.tar.gz
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.8.8rc2.tar.gz tmp/vantage6-server-3.9.0rc2.tar.gz --markdown 20230522/v/vantage6-server/3.8.8rc2-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-22 11:13:09] INFO root fetch - processPackages [django-import-export-extensions]: Downloading https://files.pythonhosted.org/packages/1b/0e/b361cc7cbef09e3780f21795a374b83de01db1200d18eefa68dcde4eaf5d/django_import_export_extensions-1.0.0.tar.gz
+[2023-05-22 11:13:09] INFO root fetch - processPackages [django-import-export-extensions]: executing diffoscope
+[2023-05-22 11:13:09] INFO root fetch - processPackages [django-import-export-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_import_export_extensions-0.1.3.tar.gz tmp/django_import_export_extensions-1.0.0.tar.gz --markdown 20230522/d/django-import-export-extensions/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 11:13:09] INFO root fetch - processPackages [vantage6-common]: Start processing: mage-ai
+[2023-05-22 11:13:09] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-05-22 11:13:10] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.80]
+[2023-05-22 11:13:10] INFO root fetch - processPackages [medialoopster]: Start processing: finbourne-identity-sdk
+[2023-05-22 11:13:10] INFO root fetch - main [MainThread]: End processing [medialoopster]: success
+[2023-05-22 11:13:10] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/43/20/ee6920952d90dbcaf461ae6905a7e92a415396b8e455c46052df58ffcc7f/mage-ai-0.8.80.tar.gz
+[2023-05-22 11:13:10] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2436]
+[2023-05-22 11:13:10] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/13/a9/fbc01bddede2d342b2682791e4c30ae6bd9087c30e9451dcbc5ab1006f4b/finbourne-identity-sdk-0.0.2436.tar.gz
+[2023-05-22 11:13:10] INFO root fetch - processPackages [algokit-client-generator]: Start processing: exe-kg-lib
+[2023-05-22 11:13:10] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-05-22 11:13:10] INFO root fetch - processPackages [exe-kg-lib]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-22 11:13:10] INFO root fetch - processPackages [exe-kg-lib]: executing diffoscope
+[2023-05-22 11:13:10] INFO root fetch - processPackages [exe-kg-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exe_kg_lib-2.0.3.tar.gz tmp/exe_kg_lib-2.0.4.tar.gz --markdown 20230522/e/exe-kg-lib/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-22 11:13:10] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-05-22 11:13:10] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2436.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230522/f/finbourne-identity-sdk/0.0.2436-0.0.840/diff.md --exclude *.pyd
+[2023-05-22 11:13:10] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-05-22 11:13:10] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-05-22 11:13:10] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-05-22 11:13:11] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-05-22 11:13:11] INFO root fetch - main [MainThread]: End processing [django-import-export-extensions]: success
+[2023-05-22 11:13:11] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-05-22 11:13:11] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-05-22 11:13:11] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.80.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230522/m/mage-ai/0.8.80-0.8.9/diff.md --exclude *.pyd
+[2023-05-22 11:13:11] INFO root fetch - main [MainThread]: End processing [exe-kg-lib]: success
+[2023-05-22 11:13:12] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-05-22 11:13:13] INFO root fetch - main [MainThread]: End processing [metobs-toolkit]: success
+[2023-05-22 11:14:03] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-05-22 11:14:03] INFO root fetch - main [MainThread]: Store serial: [18194624]
