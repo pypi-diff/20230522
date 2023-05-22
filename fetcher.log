@@ -10347,3 +10347,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:29:53] INFO root fetch - main [MainThread]: End processing [django-import-export-extensions]: success
 [2023-05-22 12:29:59] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-05-22 12:29:59] INFO root fetch - main [MainThread]: Store serial: [18195410]
+[2023-05-22 12:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195410]
+[2023-05-22 12:35:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-import-export-extensions
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starsaiot-monit
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celescope
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sambristol-ssabp-w
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: num-stack-arithmac
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-AppBuilder
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-05-22 12:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remotemanager
+[2023-05-22 12:35:08] INFO root fetch - processPackages [django-import-export-extensions]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [sambristol-ssabp-w]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [remotemanager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [celescope]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [starsaiot-monit]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.439.0]
+[2023-05-22 12:35:08] WARNING root fetch - processPackages [num-stack-arithmac]: Skipping, unable to determine old version
+[2023-05-22 12:35:08] INFO root fetch - processPackages [num-stack-arithmac]: Start processing: aligned
+[2023-05-22 12:35:08] INFO root fetch - main [MainThread]: End processing [num-stack-arithmac] error
+[2023-05-22 12:35:08] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.3.2rc2] Old Version: [4.3.2rc1]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [pybiolib]: New version: [1.1.94] Old Version: [1.1.91]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-22 12:35:08] INFO root fetch - processPackages [starsaiot-monit]: executing diffoscope
+[2023-05-22 12:35:08] INFO root fetch - processPackages [starsaiot-monit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starsaiot-monit-1.2.8.tar.gz tmp/starsaiot-monit-1.2.9.tar.gz --markdown 20230522/s/starsaiot-monit/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-22 12:35:08] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/68/4b/08c4c07440fb40b1f4d35e95a3bebf38562714afa93c7d9a8dc3ead2c307/stigg_api_client-0.439.0.tar.gz
+[2023-05-22 12:35:08] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/83/b9/858378ee92e00801a34ac10f4b99aab872ffc2e1e079d875ea872e747caa/celescope-1.8.1.tar.gz
+[2023-05-22 12:35:08] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/94/ef/026b6a3731bc7a41a4e23e467182a62ecff3d6476ce96659a979213d4c1f/remotemanager-0.5.8.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230522/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-22 12:35:09] INFO root fetch - processPackages [sambristol-ssabp-w]: Downloading https://files.pythonhosted.org/packages/cc/50/dbf774af441c6c00f0b315a66e8323e3cda2ae5bf7004eacdf6cd06162de/sambristol_ssabp_w-0.0.15.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/65/d8/4a508af41f172e003ebd2f0a90f7639018d49338cd5803130633591e7d89/pybiolib-1.1.91.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/56/8e/ca31cee5c8f4dfc24fface4bd3d453d2f824fec580cd0256be03a3612196/Flask-AppBuilder-4.3.2rc1.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230522/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-22 12:35:09] INFO root fetch - processPackages [sambristol-ssabp-w]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [sambristol-ssabp-w]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sambristol_ssabp_w-0.0.14.tar.gz tmp/sambristol_ssabp_w-0.0.15.tar.gz --markdown 20230522/s/sambristol-ssabp-w/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-22 12:35:09] INFO root fetch - processPackages [django-import-export-extensions]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [django-import-export-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_import_export_extensions-0.1.2.tar.gz tmp/django_import_export_extensions-0.1.3.tar.gz --markdown 20230522/d/django-import-export-extensions/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 12:35:09] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/77/f2/16b8e51fa74fde2cac1e520b5abfa1c3c35043cf2c707a4d5aa2ca460f00/remotemanager-0.5.9.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/c7/aa/2c649477538ec0014ca38f8199af730781eb7e1e33dc1052c0b20a6f973a/pybiolib-1.1.94.tar.gz
+[2023-05-22 12:35:09] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.5.8.tar.gz tmp/remotemanager-0.5.9.tar.gz --markdown 20230522/r/remotemanager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-22 12:35:09] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.91.tar.gz tmp/pybiolib-1.1.94.tar.gz --markdown 20230522/p/pybiolib/1.1.91-1.1.94/diff.md --exclude *.pyd
+[2023-05-22 12:35:09] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-22 12:35:09] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.439.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230522/s/stigg-api-client/0.439.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 12:35:10] INFO root fetch - processPackages [celescope]: Downloading https://files.pythonhosted.org/packages/a5/6b/4116fc1b9d114067cd4ea6d81ab5023a9afd88347abbacac404f48300fa9/celescope-1.9.0.tar.gz
+[2023-05-22 12:35:10] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/41/4d/4bf9fbfabd3c38fe0a6c28f019d850dd3ede4ec11cced168d3e0ed4ec8f0/Flask-AppBuilder-4.3.2rc2.tar.gz
+[2023-05-22 12:35:10] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2023-05-22 12:35:10] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.3.2rc1.tar.gz tmp/Flask-AppBuilder-4.3.2rc2.tar.gz --markdown 20230522/F/Flask-AppBuilder/4.3.2rc1-4.3.2rc2/diff.md --exclude *.pyd
+[2023-05-22 12:35:10] INFO root fetch - processPackages [celescope]: executing diffoscope
+[2023-05-22 12:35:10] INFO root fetch - processPackages [celescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celescope-1.8.1.tar.gz tmp/celescope-1.9.0.tar.gz --markdown 20230522/c/celescope/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 12:35:10] INFO root fetch - processPackages [stigg-api-client]: Start processing: django-autocomplete-light
+[2023-05-22 12:35:10] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-22 12:35:10] INFO root fetch - processPackages [django-autocomplete-light]: New version: [3.9.8rc12] Old Version: [3.9.7]
+[2023-05-22 12:35:10] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/9e/b1/6dfeab35d090f4f318f428d3f4bf10e78428d3b46e05d18c60337f091dde/django-autocomplete-light-3.9.7.tar.gz
+[2023-05-22 12:35:10] INFO root fetch - processPackages [aligned]: Start processing: async-adbc
+[2023-05-22 12:35:10] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-05-22 12:35:10] INFO root fetch - processPackages [async-adbc]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 12:35:10] INFO root fetch - processPackages [remotemanager]: Start processing: cc12703-uiautomator2
+[2023-05-22 12:35:10] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-05-22 12:35:10] INFO root fetch - processPackages [cc12703-uiautomator2]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-05-22 12:35:10] INFO root fetch - processPackages [sambristol-ssabp-w]: Start processing: natalify
+[2023-05-22 12:35:10] INFO root fetch - main [MainThread]: End processing [sambristol-ssabp-w]: success
+[2023-05-22 12:35:10] INFO root fetch - main [MainThread]: End processing [starsaiot-monit]: success
+[2023-05-22 12:35:10] INFO root fetch - processPackages [natalify]: New version: [1.2] Old Version: [1.0]
+[2023-05-22 12:35:11] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/77/5c/9ed3daa572f06d1d3740182be266e420201713c3642f2b4a7bcd1f44c964/django-autocomplete-light-3.9.8rc12.tar.gz
+[2023-05-22 12:35:11] INFO root fetch - processPackages [cc12703-uiautomator2]: executing diffoscope
+[2023-05-22 12:35:11] INFO root fetch - processPackages [cc12703-uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc12703_uiautomator2-2.7.2.tar.gz tmp/cc12703_uiautomator2-2.7.3.tar.gz --markdown 20230522/c/cc12703-uiautomator2/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-05-22 12:35:11] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-05-22 12:35:11] INFO root fetch - processPackages [async-adbc]: Downloading https://files.pythonhosted.org/packages/d5/ad/47010c52115089bb15a3d930c8575c2dc567f94de8efd6a86b10b59a665f/async_adbc-1.0.9.tar.gz
+[2023-05-22 12:35:11] INFO root fetch - processPackages [natalify]: Downloading https://files.pythonhosted.org/packages/f9/0f/b69000747658f8493e54d8b8b5102a0f88643bafec528bb4abc337935b93/natalify-1.0.tar.gz
+[2023-05-22 12:35:11] INFO root fetch - processPackages [django-autocomplete-light]: executing diffoscope
+[2023-05-22 12:35:11] INFO root fetch - processPackages [django-autocomplete-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autocomplete-light-3.9.7.tar.gz tmp/django-autocomplete-light-3.9.8rc12.tar.gz --markdown 20230522/d/django-autocomplete-light/3.9.7-3.9.8rc12/diff.md --exclude *.pyd
+[2023-05-22 12:35:11] INFO root fetch - processPackages [natalify]: Downloading https://files.pythonhosted.org/packages/6d/06/02a0fd336d0b2a051ea903a29d6a66e3c1220dff33f9f7c6554373dc4b50/natalify-1.2.tar.gz
+[2023-05-22 12:35:11] INFO root fetch - processPackages [natalify]: executing diffoscope
+[2023-05-22 12:35:11] INFO root fetch - processPackages [natalify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natalify-1.0.tar.gz tmp/natalify-1.2.tar.gz --markdown 20230522/n/natalify/1.0-1.2/diff.md --exclude *.pyd
+[2023-05-22 12:35:11] INFO root fetch - processPackages [async-adbc]: executing diffoscope
+[2023-05-22 12:35:11] INFO root fetch - processPackages [async-adbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_adbc-1.0.8.tar.gz tmp/async_adbc-1.0.9.tar.gz --markdown 20230522/a/async-adbc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 12:35:12] INFO root fetch - main [MainThread]: End processing [django-import-export-extensions]: success
+[2023-05-22 12:35:12] INFO root fetch - main [MainThread]: End processing [natalify]: success
+[2023-05-22 12:35:12] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
+[2023-05-22 12:35:13] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-22 12:35:13] INFO root fetch - main [MainThread]: End processing [django-autocomplete-light]: success
+[2023-05-22 12:35:13] INFO root fetch - main [MainThread]: End processing [async-adbc]: success
+[2023-05-22 12:35:13] INFO root fetch - main [MainThread]: End processing [celescope]: success
+[2023-05-22 12:35:21] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2023-05-22 12:35:21] INFO root fetch - main [MainThread]: Store serial: [18195473]
