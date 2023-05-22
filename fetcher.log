@@ -18340,3 +18340,135 @@ EOFError: EOF read where object expected
 [2023-05-22 17:18:49] INFO root fetch - main [MainThread]: End processing [jax-xc]: success
 [2023-05-22 17:18:54] INFO root fetch - main [MainThread]: End processing [openstacksdk]: success
 [2023-05-22 17:18:54] INFO root fetch - main [MainThread]: Store serial: [18199921]
+[2023-05-22 17:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18199921]
+[2023-05-22 17:24:11] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-console-scripts
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scorecardpy
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idem-spotinst
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enkanetwork.py
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sidetrek
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cf-deploy
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nb-helpers
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: YMS
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ydata-sdk
+[2023-05-22 17:24:11] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [YMS]: New version: [0.792] Old Version: [0.791]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [pytest-console-scripts]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ydata-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-05-22 17:24:11] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230522/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 17:24:11] INFO root fetch - processPackages [enkanetwork.py]: New version: [1.4.4] Old Version: [1.4.2]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [idem-spotinst]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [scorecardpy]: New version: [0.1.9.6] Old Version: [0.1.9.2]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [nb-helpers]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-22 17:24:11] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-22 17:24:11] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230522/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-22 17:24:11] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/8f/29/4af70fc6191478d880dd2202e098e5a49f29eea60f0f7110771fb0af6882/YMS-0.792.tar.gz
+[2023-05-22 17:24:11] INFO root fetch - processPackages [pytest-console-scripts]: Downloading https://files.pythonhosted.org/packages/5a/2f/47afcacbe804735fef894d94e0a2e7848a1f488a8da74ac9ded81e7ac371/pytest-console-scripts-1.3.1.tar.gz
+[2023-05-22 17:24:11] INFO root fetch - processPackages [enkanetwork.py]: Downloading https://files.pythonhosted.org/packages/fa/49/6076ffbc78d9f54068121d7e418978b25835528918619fafe4c005da78ea/enkanetwork.py-1.4.2.tar.gz
+[2023-05-22 17:24:11] INFO root fetch - processPackages [ydata-sdk]: Downloading https://files.pythonhosted.org/packages/27/d3/a891f3dd38995b16e85b3abc3560e518c24bd93fbb31dc660a264cf46580/ydata_sdk-0.4.0-py39-none-any.whl
+[2023-05-22 17:24:11] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-05-22 17:24:11] INFO root fetch - processPackages [nb-helpers]: Downloading https://files.pythonhosted.org/packages/c1/d3/c3e81ec5ce38fd5ee7ed926156e1ea010f4a98488dbea7a4906195bb3ed9/nb_helpers-0.4.0.tar.gz
+[2023-05-22 17:24:11] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.791.tar.gz tmp/YMS-0.792.tar.gz --markdown 20230522/Y/YMS/0.791-0.792/diff.md --exclude *.pyd
+[2023-05-22 17:24:11] INFO root fetch - processPackages [idem-spotinst]: Downloading https://files.pythonhosted.org/packages/8c/c3/181b4ad5815a3f97fad1c520e78ae70539078d87599f51ec58cc90e18fcf/idem-spotinst-0.1.0.tar.gz
+[2023-05-22 17:24:11] INFO root fetch - processPackages [scorecardpy]: Downloading https://files.pythonhosted.org/packages/a3/67/463900c7b4a55abadcb9aae34a335c0a0353d2faa08e52cf86936b9a4757/scorecardpy-0.1.9.6.tar.gz
+[2023-05-22 17:24:12] INFO root fetch - processPackages [pytest-console-scripts]: Downloading https://files.pythonhosted.org/packages/32/f4/b4061f4bce9c6d855962c141f245eeaca38b3ed7954f5d5cb379163a3aa0/pytest-console-scripts-1.4.0.tar.gz
+[2023-05-22 17:24:12] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230522/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [enkanetwork.py]: Downloading https://files.pythonhosted.org/packages/c7/4c/5dcd7122b348e526b3943b5856b214ad2fbb0ca2f4cdd91ed48d00e3e744/enkanetwork.py-1.4.4.tar.gz
+[2023-05-22 17:24:12] INFO root fetch - processPackages [ydata-sdk]: Downloading https://files.pythonhosted.org/packages/57/d3/0759939fd00f84785011fc9e8e28cef09e49fd60312ce8fffc26497a175b/ydata_sdk-0.5.0-py39-none-any.whl
+[2023-05-22 17:24:12] INFO root fetch - processPackages [pytest-console-scripts]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [pytest-console-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-console-scripts-1.3.1.tar.gz tmp/pytest-console-scripts-1.4.0.tar.gz --markdown 20230522/p/pytest-console-scripts/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [scorecardpy]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [scorecardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecardpy-0.1.9.2.tar.gz tmp/scorecardpy-0.1.9.6.tar.gz --markdown 20230522/s/scorecardpy/0.1.9.2-0.1.9.6/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [nb-helpers]: Downloading https://files.pythonhosted.org/packages/37/17/69882150bd3ccd0d436fd9f454e4bc4b477bde0f0018d4abf57e7258654f/nb_helpers-0.5.0.tar.gz
+[2023-05-22 17:24:12] INFO root fetch - processPackages [enkanetwork.py]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [enkanetwork.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkanetwork.py-1.4.2.tar.gz tmp/enkanetwork.py-1.4.4.tar.gz --markdown 20230522/e/enkanetwork.py/1.4.2-1.4.4/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [idem-spotinst]: Downloading https://files.pythonhosted.org/packages/f3/26/3856d3095c03492ec7362c94c145a5091502705e6820c95b13e285203122/idem-spotinst-0.2.0.tar.gz
+[2023-05-22 17:24:12] INFO root fetch - processPackages [nb-helpers]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [nb-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_helpers-0.4.0.tar.gz tmp/nb_helpers-0.5.0.tar.gz --markdown 20230522/n/nb-helpers/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [ydata-sdk]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [ydata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydata_sdk-0.4.0-py39-none-any.whl.zip tmp/ydata_sdk-0.5.0-py39-none-any.whl.zip --markdown 20230522/y/ydata-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [idem-spotinst]: executing diffoscope
+[2023-05-22 17:24:12] INFO root fetch - processPackages [idem-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-spotinst-0.1.0.tar.gz tmp/idem-spotinst-0.2.0.tar.gz --markdown 20230522/i/idem-spotinst/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 17:24:12] INFO root fetch - processPackages [cf-deploy]: Start processing: djangocms-simple-admin-style
+[2023-05-22 17:24:12] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-05-22 17:24:13] INFO root fetch - processPackages [djangocms-simple-admin-style]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-22 17:24:13] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/1a/88/4aec2a3dc610c444c94f2c06283959d3d9f58e281f0974e9f6f11c397b59/djangocms-simple-admin-style-0.4.0.tar.gz
+[2023-05-22 17:24:13] INFO root fetch - processPackages [YMS]: Start processing: morecantile
+[2023-05-22 17:24:13] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-05-22 17:24:13] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/fd/59/37e2ea33f0969a3d8cdd4a476faa68080455ed1390ee18e9246ac019e496/djangocms-simple-admin-style-0.4.1.tar.gz
+[2023-05-22 17:24:13] INFO root fetch - processPackages [morecantile]: New version: [4.0.0a1] Old Version: [4.0.0a0]
+[2023-05-22 17:24:13] INFO root fetch - processPackages [djangocms-simple-admin-style]: executing diffoscope
+[2023-05-22 17:24:13] INFO root fetch - processPackages [djangocms-simple-admin-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-simple-admin-style-0.4.0.tar.gz tmp/djangocms-simple-admin-style-0.4.1.tar.gz --markdown 20230522/d/djangocms-simple-admin-style/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-22 17:24:13] INFO root fetch - processPackages [sidetrek]: Start processing: lkmlfmt-djhtml
+[2023-05-22 17:24:13] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-22 17:24:13] WARNING root fetch - processPackages [lkmlfmt-djhtml]: Skipping, unable to determine old version
+[2023-05-22 17:24:13] INFO root fetch - processPackages [lkmlfmt-djhtml]: Start processing: morpheus-mail
+[2023-05-22 17:24:13] INFO root fetch - main [MainThread]: End processing [lkmlfmt-djhtml] error
+[2023-05-22 17:24:13] INFO root fetch - processPackages [pytest-console-scripts]: Start processing: htutil
+[2023-05-22 17:24:13] INFO root fetch - main [MainThread]: End processing [pytest-console-scripts]: success
+[2023-05-22 17:24:13] INFO root fetch - processPackages [nb-helpers]: Start processing: deep-astro-uda
+[2023-05-22 17:24:13] INFO root fetch - main [MainThread]: End processing [nb-helpers]: success
+[2023-05-22 17:24:13] INFO root fetch - processPackages [morpheus-mail]: New version: [1.0.17] Old Version: [0.0.5]
+[2023-05-22 17:24:13] INFO root fetch - processPackages [scorecardpy]: Start processing: ansible-core
+[2023-05-22 17:24:13] INFO root fetch - main [MainThread]: End processing [scorecardpy]: success
+[2023-05-22 17:24:13] INFO root fetch - processPackages [deep-astro-uda]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-22 17:24:13] INFO root fetch - processPackages [morecantile]: executing diffoscope
+[2023-05-22 17:24:13] INFO root fetch - processPackages [morecantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecantile-4.0.0a0.tar.gz tmp/morecantile-4.0.0a1.tar.gz --markdown 20230522/m/morecantile/4.0.0a0-4.0.0a1/diff.md --exclude *.pyd
+[2023-05-22 17:24:13] INFO root fetch - processPackages [htutil]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-05-22 17:24:13] INFO root fetch - processPackages [ansible-core]: New version: [2.15.0rc2] Old Version: [2.15.0rc1]
+[2023-05-22 17:24:13] INFO root fetch - processPackages [morpheus-mail]: Downloading https://files.pythonhosted.org/packages/e9/69/a5b3a4dbbe9225c69ca6891ade522bda190f9d70ddfa343c12c8d49772a2/morpheus-mail-0.0.5.tar.gz
+[2023-05-22 17:24:13] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/ca/39/d043056d29b7507ca1eb6119be3adf846862263b865906cd6ee2da19acb3/deep_astro_uda-0.1.0.tar.gz
+[2023-05-22 17:24:14] INFO root fetch - processPackages [idem-spotinst]: Start processing: py-auth-micro
+[2023-05-22 17:24:14] INFO root fetch - main [MainThread]: End processing [idem-spotinst]: success
+[2023-05-22 17:24:14] INFO root fetch - processPackages [py-auth-micro]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-22 17:24:14] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/4a/e6/7863e2a7b655a876ab30cbd350021e127322253a3d4c3e033db50744a675/ansible-core-2.15.0rc1.tar.gz
+[2023-05-22 17:24:14] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10973235>=10485760
+[2023-05-22 17:24:14] INFO root fetch - processPackages [ansible-core]: Start processing: mlfactory
+[2023-05-22 17:24:14] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-05-22 17:24:14] INFO root fetch - processPackages [mlfactory]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 17:24:14] INFO root fetch - processPackages [htutil]: Downloading https://files.pythonhosted.org/packages/9f/08/d7a298cb5b3f2555fc8ec55c7b828abf88bb1d4325f466175252a79f8385/htutil-3.2.0.tar.gz
+[2023-05-22 17:24:14] INFO root fetch - processPackages [morpheus-mail]: Downloading https://files.pythonhosted.org/packages/13/66/f8ff4c31d4f7411fa5c96c124a4fa48bb78ff8e8548a1fa1e7a86cf34103/morpheus-mail-1.0.17.tar.gz
+[2023-05-22 17:24:14] INFO root fetch - processPackages [deep-astro-uda]: Downloading https://files.pythonhosted.org/packages/0f/4a/1f1682293835aa96faebb24148c81f387bd04be1a9d228dd694c85e03a76/deep_astro_uda-0.2.0.tar.gz
+[2023-05-22 17:24:14] INFO root fetch - processPackages [htutil]: executing diffoscope
+[2023-05-22 17:24:14] INFO root fetch - processPackages [htutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htutil-3.1.0.tar.gz tmp/htutil-3.2.0.tar.gz --markdown 20230522/h/htutil/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-05-22 17:24:14] INFO root fetch - processPackages [morpheus-mail]: executing diffoscope
+[2023-05-22 17:24:14] INFO root fetch - processPackages [morpheus-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morpheus-mail-0.0.5.tar.gz tmp/morpheus-mail-1.0.17.tar.gz --markdown 20230522/m/morpheus-mail/0.0.5-1.0.17/diff.md --exclude *.pyd
+[2023-05-22 17:24:14] INFO root fetch - processPackages [py-auth-micro]: Downloading https://files.pythonhosted.org/packages/e8/8e/71de9b23b3e28bdc17483b8778daf00e262b0e6274bb9136c77c60c97a34/py_auth_micro-0.1.4.tar.gz
+[2023-05-22 17:24:14] INFO root fetch - processPackages [deep-astro-uda]: executing diffoscope
+[2023-05-22 17:24:14] INFO root fetch - processPackages [deep-astro-uda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_astro_uda-0.1.0.tar.gz tmp/deep_astro_uda-0.2.0.tar.gz --markdown 20230522/d/deep-astro-uda/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-22 17:24:14] INFO root fetch - processPackages [mlfactory]: Downloading https://files.pythonhosted.org/packages/0e/9c/3c2716fd0a63a064512e7e4ce83a2f8944e248c9d523d714f9704f2edeff/mlfactory-0.0.5.tar.gz
+[2023-05-22 17:24:14] INFO root fetch - processPackages [py-auth-micro]: executing diffoscope
+[2023-05-22 17:24:14] INFO root fetch - processPackages [py-auth-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_micro-0.1.3.tar.gz tmp/py_auth_micro-0.1.4.tar.gz --markdown 20230522/p/py-auth-micro/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-22 17:24:14] INFO root fetch - processPackages [mlfactory]: executing diffoscope
+[2023-05-22 17:24:14] INFO root fetch - processPackages [mlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfactory-0.0.4.tar.gz tmp/mlfactory-0.0.5.tar.gz --markdown 20230522/m/mlfactory/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 17:24:15] INFO root fetch - processPackages [djangocms-simple-admin-style]: Start processing: cloudperf
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [djangocms-simple-admin-style]: success
+[2023-05-22 17:24:15] INFO root fetch - processPackages [cloudperf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:24:15] INFO root fetch - processPackages [ydata-sdk]: Start processing: msaBase
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [ydata-sdk]: success
+[2023-05-22 17:24:15] INFO root fetch - processPackages [cloudperf]: Downloading https://files.pythonhosted.org/packages/fc/d9/1f0079b24b4e304bd872c1ea918f04e1d18dfeae20b12d082430ce5be1d1/cloudperf-0.0.8.tar.gz
+[2023-05-22 17:24:15] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 17:24:15] INFO root fetch - processPackages [morpheus-mail]: Start processing: pyttsx3-alt
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [morpheus-mail]: success
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [htutil]: success
+[2023-05-22 17:24:15] WARNING root fetch - processPackages [pyttsx3-alt]: Skipping, unable to determine old version
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [pyttsx3-alt] error
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [py-auth-micro]: success
+[2023-05-22 17:24:15] INFO root fetch - processPackages [cloudperf]: Downloading https://files.pythonhosted.org/packages/b9/b8/46bc791c3ef97c7bd2b22dec2dbb2d30f735b56392804cbedbd287edeaf5/cloudperf-0.0.9.tar.gz
+[2023-05-22 17:24:15] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-22 17:24:15] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230522/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:24:15] INFO root fetch - processPackages [cloudperf]: executing diffoscope
+[2023-05-22 17:24:15] INFO root fetch - processPackages [cloudperf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudperf-0.0.8.tar.gz tmp/cloudperf-0.0.9.tar.gz --markdown 20230522/c/cloudperf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 17:24:15] INFO root fetch - main [MainThread]: End processing [morecantile]: success
+[2023-05-22 17:24:16] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-22 17:24:17] INFO root fetch - main [MainThread]: End processing [cloudperf]: success
+[2023-05-22 17:24:18] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-22 17:24:19] INFO root fetch - main [MainThread]: End processing [enkanetwork.py]: success
+[2023-05-22 17:24:21] INFO root fetch - main [MainThread]: End processing [deep-astro-uda]: success
+[2023-05-22 17:24:59] INFO root fetch - main [MainThread]: End processing [mlfactory]: success
+[2023-05-22 17:24:59] INFO root fetch - main [MainThread]: Store serial: [18200013]
