@@ -10596,3 +10596,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:45:50] INFO root fetch - main [MainThread]: End processing [jnt-django-admin-tools]: success
 [2023-05-22 12:45:52] INFO root fetch - main [MainThread]: End processing [allianceauth-corptools]: success
 [2023-05-22 12:45:52] INFO root fetch - main [MainThread]: Store serial: [18195579]
+[2023-05-22 12:50:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195579]
+[2023-05-22 12:51:03] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: natalify
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-dcdn
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openshift-python-utilities
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: win-defender
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feathub-nightly
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logprep
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yolo-pyutils
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parse-emails
+[2023-05-22 12:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotpajamas.pants.scie
+[2023-05-22 12:51:03] INFO root fetch - processPackages [natalify]: New version: [1.2] Old Version: [1.0]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230521] Old Version: [0.1.dev20230520]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [yolo-pyutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202305220926] Old Version: [99.0.202305210831]
+[2023-05-22 12:51:03] WARNING root fetch - processPackages [win-defender]: Skipping, unable to determine old version
+[2023-05-22 12:51:03] INFO root fetch - processPackages [win-defender]: Start processing: pyxecm
+[2023-05-22 12:51:03] INFO root fetch - main [MainThread]: End processing [win-defender] error
+[2023-05-22 12:51:03] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-22 12:51:03] WARNING root fetch - processPackages [robotpajamas.pants.scie]: Skipping, unable to determine old version
+[2023-05-22 12:51:03] INFO root fetch - processPackages [robotpajamas.pants.scie]: Start processing: dopplrSDK
+[2023-05-22 12:51:03] INFO root fetch - main [MainThread]: End processing [robotpajamas.pants.scie] error
+[2023-05-22 12:51:03] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [logprep]: New version: [6.3.0] Old Version: [6.2.0]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [parse-emails]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [yolo-pyutils]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [dopplrSDK]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [yolo-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolo-pyutils-0.1.8.tar.gz tmp/yolo-pyutils-0.1.9.tar.gz --markdown 20230522/y/yolo-pyutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305210831-py3-none-any.whl.zip tmp/kcli-99.0.202305220926-py3-none-any.whl.zip --markdown 20230522/k/kcli/99.0.202305210831-99.0.202305220926/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/1f/e7/fed9301251a08ff7c7428d5d0bf04366308b6ba7c9522c6e2069e140b693/feathub_nightly-0.1.dev20230520-py3-none-any.whl
+[2023-05-22 12:51:03] INFO root fetch - processPackages [natalify]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [natalify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natalify-1.0.tar.gz tmp/natalify-1.2.tar.gz --markdown 20230522/n/natalify/1.0-1.2/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [pyxecm]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [dopplrSDK]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [dopplrSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopplrSDK-1.6.0-py3-none-any.whl.zip tmp/dopplrSDK-1.7.0-py3-none-any.whl.zip --markdown 20230522/d/dopplrSDK/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12178639>=10485760
+[2023-05-22 12:51:03] INFO root fetch - processPackages [feathub-nightly]: Start processing: AkvoDjangoFormGateway
+[2023-05-22 12:51:03] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-22 12:51:03] INFO root fetch - processPackages [parse-emails]: Downloading https://files.pythonhosted.org/packages/d0/1f/b63b82e92164441e2fbcb5f2cbb938f02674ffa9cb49df0688dfda802705/parse_emails-0.1.8.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [AkvoDjangoFormGateway]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 12:51:03] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/ab/20/f2091f38f6d885582747702838beda595185eadbab0cdedd1c37a9245d86/logprep-6.2.0.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [pyxecm]: Downloading https://files.pythonhosted.org/packages/8f/82/74725956e32bae2318995e73e2e2295aeaa1af9a474d0f12ce55f0823608/pyxecm-0.0.16.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.13.8.tar.gz tmp/openshift-python-utilities-4.13.9.tar.gz --markdown 20230522/o/openshift-python-utilities/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [aliyun-python-sdk-dcdn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dcdn-2.2.8.tar.gz tmp/aliyun-python-sdk-dcdn-2.2.9.tar.gz --markdown 20230522/a/aliyun-python-sdk-dcdn/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Downloading https://files.pythonhosted.org/packages/c1/8d/321a3b91ee8458897fa6570aa50aa195071ec82fe70ca3feedd3348e97c0/AkvoDjangoFormGateway-0.0.4.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [pyxecm]: Downloading https://files.pythonhosted.org/packages/2e/a9/7e2f5af6159e9df56be9cb9f7300e526ba74c64cd0d55b12791fda0c0b1c/pyxecm-0.0.17.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/32/28/8be1801226f4ee7d89cebe939470284a249ea7fcbb482c13eede21cd44b1/logprep-6.3.0.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Downloading https://files.pythonhosted.org/packages/e3/da/2bb8516f697383516ff3bb81a63f28ba47ae244c9251e228dbcf48c08049/AkvoDjangoFormGateway-0.0.5.tar.gz
+[2023-05-22 12:51:03] INFO root fetch - processPackages [pyxecm]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [pyxecm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxecm-0.0.16.tar.gz tmp/pyxecm-0.0.17.tar.gz --markdown 20230522/p/pyxecm/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-6.2.0.tar.gz tmp/logprep-6.3.0.tar.gz --markdown 20230522/l/logprep/6.2.0-6.3.0/diff.md --exclude *.pyd
+[2023-05-22 12:51:03] INFO root fetch - processPackages [AkvoDjangoFormGateway]: executing diffoscope
+[2023-05-22 12:51:03] INFO root fetch - processPackages [AkvoDjangoFormGateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkvoDjangoFormGateway-0.0.4.tar.gz tmp/AkvoDjangoFormGateway-0.0.5.tar.gz --markdown 20230522/A/AkvoDjangoFormGateway/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 12:51:04] INFO root fetch - processPackages [dopplrSDK]: Start processing: fyersHuMe
+[2023-05-22 12:51:04] INFO root fetch - main [MainThread]: End processing [dopplrSDK]: success
+[2023-05-22 12:51:04] INFO root fetch - processPackages [yolo-pyutils]: Start processing: aa-structures
+[2023-05-22 12:51:04] INFO root fetch - main [MainThread]: End processing [yolo-pyutils]: success
+[2023-05-22 12:51:04] INFO root fetch - processPackages [aa-structures]: New version: [2.3.1b1] Old Version: [2.3.0]
+[2023-05-22 12:51:04] WARNING root fetch - processPackages [fyersHuMe]: Skipping, unable to determine old version
+[2023-05-22 12:51:04] INFO root fetch - processPackages [fyersHuMe]: Start processing: gravity-auto-exit
+[2023-05-22 12:51:04] INFO root fetch - main [MainThread]: End processing [fyersHuMe] error
+[2023-05-22 12:51:04] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.41] Old Version: [1.8.31]
+[2023-05-22 12:51:04] INFO root fetch - processPackages [aa-structures]: executing diffoscope
+[2023-05-22 12:51:04] INFO root fetch - processPackages [aa-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_structures-2.3.0.tar.gz tmp/aa_structures-2.3.1b1.tar.gz --markdown 20230522/a/aa-structures/2.3.0-2.3.1b1/diff.md --exclude *.pyd
+[2023-05-22 12:51:04] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: kfish
+[2023-05-22 12:51:04] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-05-22 12:51:04] INFO root fetch - processPackages [kfish]: New version: [99.0.202305220930] Old Version: [99.0.202305210833]
+[2023-05-22 12:51:05] INFO root fetch - processPackages [natalify]: Start processing: qwak-core
+[2023-05-22 12:51:05] INFO root fetch - main [MainThread]: End processing [natalify]: success
+[2023-05-22 12:51:05] INFO root fetch - processPackages [parse-emails]: Downloading https://files.pythonhosted.org/packages/86/2e/7d74e4e6e573160a15da3effd044c6ad9eac83ed0fa2a23be82b1b5002ae/parse_emails-0.1.9.tar.gz
+[2023-05-22 12:51:05] INFO root fetch - processPackages [qwak-core]: New version: [0.0.69] Old Version: [0.0.68]
+[2023-05-22 12:51:05] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-22 12:51:05] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305210833-py3-none-any.whl.zip tmp/kfish-99.0.202305220930-py3-none-any.whl.zip --markdown 20230522/k/kfish/99.0.202305210833-99.0.202305220930/diff.md --exclude *.pyd
+[2023-05-22 12:51:05] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/5b/44/e142b2416182b179b32eb23f772dcb7dc800668ef6108b376b5a10facbed/gravity_auto_exit-1.8.41-py3-none-any.whl
+[2023-05-22 12:51:05] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-05-22 12:51:05] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.31-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.41-py3-none-any.whl.zip --markdown 20230522/g/gravity-auto-exit/1.8.31-1.8.41/diff.md --exclude *.pyd
+[2023-05-22 12:51:05] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/07/58/20f955a229c537620f00bc43bf1f7d33d1b8c80668d8492474b26ec1e5b6/qwak_core-0.0.69.tar.gz
+[2023-05-22 12:51:05] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-22 12:51:05] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.68.tar.gz tmp/qwak_core-0.0.69.tar.gz --markdown 20230522/q/qwak-core/0.0.68-0.0.69/diff.md --exclude *.pyd
+[2023-05-22 12:51:05] INFO root fetch - processPackages [AkvoDjangoFormGateway]: Start processing: natalify
+[2023-05-22 12:51:05] INFO root fetch - main [MainThread]: End processing [AkvoDjangoFormGateway]: success
+[2023-05-22 12:51:05] INFO root fetch - processPackages [natalify]: New version: [1.6] Old Version: [1.4]
+[2023-05-22 12:51:05] INFO root fetch - processPackages [natalify]: Downloading https://files.pythonhosted.org/packages/17/c2/287034b3b2f241455d15a60a7be90f16641b97a4aa29dcbeb85703dfca4f/natalify-1.4.tar.gz
+[2023-05-22 12:51:05] INFO root fetch - processPackages [pyxecm]: Start processing: bdsf
+[2023-05-22 12:51:05] INFO root fetch - main [MainThread]: End processing [pyxecm]: success
+[2023-05-22 12:51:05] INFO root fetch - processPackages [parse-emails]: executing diffoscope
+[2023-05-22 12:51:05] INFO root fetch - processPackages [parse-emails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_emails-0.1.8.tar.gz tmp/parse_emails-0.1.9.tar.gz --markdown 20230522/p/parse-emails/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 12:51:05] INFO root fetch - processPackages [bdsf]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-22 12:51:06] INFO root fetch - processPackages [natalify]: Downloading https://files.pythonhosted.org/packages/cb/b2/5112507c8a738e7dbea83b5439ea2c4389268c15197269e39efbfa0e2ce4/natalify-1.6.tar.gz
+[2023-05-22 12:51:06] INFO root fetch - processPackages [bdsf]: Downloading https://files.pythonhosted.org/packages/e0/e0/f87bad049a1391d6e7844f4d364e4b6d53382ed91b9ed5c747e8ee4130a7/bdsf-1.9.1.tar.gz
+[2023-05-22 12:51:06] INFO root fetch - processPackages [natalify]: executing diffoscope
+[2023-05-22 12:51:06] INFO root fetch - processPackages [natalify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natalify-1.4.tar.gz tmp/natalify-1.6.tar.gz --markdown 20230522/n/natalify/1.4-1.6/diff.md --exclude *.pyd
+[2023-05-22 12:51:06] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-22 12:51:06] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dcdn]: success
+[2023-05-22 12:51:06] INFO root fetch - processPackages [bdsf]: Downloading https://files.pythonhosted.org/packages/c7/24/1c262df75c4556a19409d0abaa4a717a9328acc5099d0fa7d3691fd1dbf7/bdsf-1.9.2.tar.gz
+[2023-05-22 12:51:06] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-05-22 12:51:06] INFO root fetch - processPackages [bdsf]: executing diffoscope
+[2023-05-22 12:51:06] INFO root fetch - processPackages [bdsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdsf-1.9.1.tar.gz tmp/bdsf-1.9.2.tar.gz --markdown 20230522/b/bdsf/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-22 12:51:07] INFO root fetch - main [MainThread]: End processing [natalify]: success
+[2023-05-22 12:51:09] INFO root fetch - main [MainThread]: End processing [parse-emails]: success
+[2023-05-22 12:51:09] INFO root fetch - main [MainThread]: End processing [bdsf]: success
+[2023-05-22 12:51:10] INFO root fetch - main [MainThread]: End processing [aa-structures]: success
+[2023-05-22 12:51:11] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-22 12:51:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-22 12:51:11] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2023-05-22 12:51:11] INFO root fetch - main [MainThread]: Store serial: [18195642]
