@@ -10788,3 +10788,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-22 12:56:26] INFO root fetch - main [MainThread]: End processing [apache-airflow-client]: success
 [2023-05-22 12:56:27] INFO root fetch - main [MainThread]: End processing [bdsf]: success
 [2023-05-22 12:56:27] INFO root fetch - main [MainThread]: Store serial: [18195704]
+[2023-05-22 13:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18195704]
+[2023-05-22 13:01:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evidently
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oba
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: limiters
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyikarus
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtest-reporter
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-cisco-maintenance
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beam-up
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GXYUR-env
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbsite
+[2023-05-22 13:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: natalify
+[2023-05-22 13:01:36] INFO root fetch - processPackages [pyikarus]: New version: [0.3.2.dev20230522090628] Old Version: [0.3.1.dev20230522083503]
+[2023-05-22 13:01:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 13:01:36] INFO root fetch - processPackages [natalify]: New version: [1.6] Old Version: [1.4]
+[2023-05-22 13:01:36] INFO root fetch - processPackages [oba]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 13:01:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-22 13:01:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.8.tar.gz tmp/netbox-cisco-maintenance-0.0.9.tar.gz --markdown 20230522/n/netbox-cisco-maintenance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 13:01:36] ERROR root fetch - processPackages [limiters]: Unable to get metadata: No such project 'limiters'
+[2023-05-22 13:01:36] INFO root fetch - processPackages [limiters]: Start processing: questdb-connect
+[2023-05-22 13:01:36] INFO root fetch - main [MainThread]: End processing [limiters] error
+[2023-05-22 13:01:36] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-22 13:01:36] INFO root fetch - processPackages [qtest-reporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 13:01:36] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.1.dev20230522083503.tar.gz tmp/pyikarus-0.3.2.dev20230522090628.tar.gz --markdown 20230522/p/pyikarus/0.3.1.dev20230522083503-0.3.2.dev20230522090628/diff.md --exclude *.pyd
+[2023-05-22 13:01:36] WARNING root fetch - processPackages [GXYUR-env]: Skipping, unable to determine old version
+[2023-05-22 13:01:36] INFO root fetch - main [MainThread]: End processing [GXYUR-env] error
+[2023-05-22 13:01:37] INFO root fetch - processPackages [evidently]: New version: [0.3.2.1] Old Version: [0.3.2]
+[2023-05-22 13:01:37] INFO root fetch - processPackages [beam-up]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-22 13:01:37] INFO root fetch - processPackages [natalify]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [natalify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natalify-1.4.tar.gz tmp/natalify-1.6.tar.gz --markdown 20230522/n/natalify/1.4-1.6/diff.md --exclude *.pyd
+[2023-05-22 13:01:37] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-05-22 13:01:37] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-05-22 13:01:37] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.83.tar.gz tmp/questdb-connect-0.0.84.tar.gz --markdown 20230522/q/questdb-connect/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2023-05-22 13:01:37] INFO root fetch - processPackages [oba]: Downloading https://files.pythonhosted.org/packages/ed/63/f12b7c452417311f29736214a05c5ad973b286539582ef68ff1ac1000731/oba-0.0.7.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [evidently]: Downloading https://files.pythonhosted.org/packages/27/30/3dd701042092bcdf3ca0b1fc6393b369ea3267f8c503de53ee8a02ad018d/evidently-0.3.2.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [beam-up]: Downloading https://files.pythonhosted.org/packages/15/15/ec3fa0b9aaaa08df1801c385cb2a2afb3c6ce80d6dc681aa02d088b594bf/beam-up-1.0.8.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [qtest-reporter]: Downloading https://files.pythonhosted.org/packages/4e/84/32636c6c472d4c677af10abe0fe176a049b4902884df873d6890a779d78a/qtest_reporter-0.0.8.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [qtest-reporter]: Downloading https://files.pythonhosted.org/packages/f7/79/6a60fb571b1fc228c975ab37806b2bad291bfa0177e236e594be222e5178/qtest_reporter-0.0.9.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230522/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-05-22 13:01:37] INFO root fetch - processPackages [evidently]: Downloading https://files.pythonhosted.org/packages/66/62/e7897d42fa0e88cd3368770ecfd67bcad3bffee92a6f41117d80e14399aa/evidently-0.3.2.1.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [beam-up]: Downloading https://files.pythonhosted.org/packages/e0/2f/c95c501e00d5f48bac21c43fe2f5ca02680e2cffb42dc7baccbaccf64d79/beam-up-1.0.9.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [oba]: Downloading https://files.pythonhosted.org/packages/b1/d6/9f309216033edbad18c9d7ef34e5a5b4e3dfac73408aadf5edff09a32f7d/oba-0.0.8.tar.gz
+[2023-05-22 13:01:37] INFO root fetch - processPackages [qtest-reporter]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [qtest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtest_reporter-0.0.8.tar.gz tmp/qtest_reporter-0.0.9.tar.gz --markdown 20230522/q/qtest-reporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 13:01:37] INFO root fetch - processPackages [oba]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [oba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oba-0.0.7.tar.gz tmp/oba-0.0.8.tar.gz --markdown 20230522/o/oba/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 13:01:37] INFO root fetch - processPackages [beam-up]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [beam-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-up-1.0.8.tar.gz tmp/beam-up-1.0.9.tar.gz --markdown 20230522/b/beam-up/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-22 13:01:37] INFO root fetch - processPackages [evidently]: executing diffoscope
+[2023-05-22 13:01:37] INFO root fetch - processPackages [evidently]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evidently-0.3.2.tar.gz tmp/evidently-0.3.2.1.tar.gz --markdown 20230522/e/evidently/0.3.2-0.3.2.1/diff.md --exclude *.pyd
+[2023-05-22 13:01:38] INFO root fetch - main [MainThread]: End processing [natalify]: success
+[2023-05-22 13:01:38] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-22 13:01:38] INFO root fetch - main [MainThread]: End processing [beam-up]: success
+[2023-05-22 13:01:39] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-22 13:01:39] INFO root fetch - main [MainThread]: End processing [oba]: success
+[2023-05-22 13:01:39] INFO root fetch - main [MainThread]: End processing [qtest-reporter]: success
+[2023-05-22 13:01:39] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-05-22 13:01:39] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-22 13:01:41] INFO root fetch - main [MainThread]: End processing [evidently]: success
+[2023-05-22 13:01:41] INFO root fetch - main [MainThread]: Store serial: [18195739]
