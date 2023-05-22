@@ -8152,3 +8152,134 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 10:34:54] INFO root fetch - main [MainThread]: End processing [tranquilo]: success
 [2023-05-22 10:35:39] INFO root fetch - main [MainThread]: End processing [balance]: success
 [2023-05-22 10:35:39] INFO root fetch - main [MainThread]: Store serial: [18194201]
+[2023-05-22 10:40:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18194201]
+[2023-05-22 10:40:48] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trailblazer
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyrun
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rick-vfs
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-assaf-VerifyTACDump
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyikarus
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libcnmc
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kn-flatten-json
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seven2one
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nmping
+[2023-05-22 10:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynkdv
+[2023-05-22 10:40:48] INFO root fetch - processPackages [certora-cli-alpha-assaf-VerifyTACDump]: New version: [20230522.8.35.326662] Old Version: [20230521.9.25.275825]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [pynkdv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:40:48] WARNING root fetch - processPackages [nmping]: Skipping, unable to determine old version
+[2023-05-22 10:40:48] INFO root fetch - processPackages [nmping]: Start processing: mpyl
+[2023-05-22 10:40:48] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-05-22 10:40:48] INFO root fetch - main [MainThread]: End processing [nmping] error
+[2023-05-22 10:40:48] INFO root fetch - processPackages [seven2one]: New version: [4.2.0] Old Version: [4.1.4]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [rick-vfs]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [pyikarus]: New version: [0.3.1.dev20230522083503] Old Version: [0.3.1.dev20230522071144]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [kn-flatten-json]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-22 10:40:48] WARNING root fetch - processPackages [dyrun]: Skipping, unable to determine old version
+[2023-05-22 10:40:48] INFO root fetch - processPackages [dyrun]: Start processing: rasa
+[2023-05-22 10:40:48] INFO root fetch - main [MainThread]: End processing [dyrun] error
+[2023-05-22 10:40:48] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [mpyl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [rasa]: New version: [3.6.0a1] Old Version: [3.5.9]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [pynkdv]: executing diffoscope
+[2023-05-22 10:40:48] INFO root fetch - processPackages [pynkdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynkdv-0.0.8.tar.gz tmp/pynkdv-0.0.9.tar.gz --markdown 20230522/p/pynkdv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:40:48] INFO root fetch - processPackages [certora-cli-alpha-assaf-VerifyTACDump]: Downloading https://files.pythonhosted.org/packages/f5/ec/81a2cacd680271015282abd0efdbea109f4e4ae160ef2ae0f538af2a3993/certora-cli-alpha-assaf-VerifyTACDump-20230521.9.25.275825.tar.gz
+[2023-05-22 10:40:48] INFO root fetch - processPackages [kn-flatten-json]: Downloading https://files.pythonhosted.org/packages/e5/5f/19690c5607521129b0c6bc9a8bc5da771ab5c63ad72d256d19921fc7974b/kn_flatten_json-0.0.5.tar.gz
+[2023-05-22 10:40:48] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-05-22 10:40:48] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.9.tar.gz tmp/rasa-3.6.0a1.tar.gz --markdown 20230522/r/rasa/3.5.9-3.6.0a1/diff.md --exclude *.pyd
+[2023-05-22 10:40:48] WARNING root fetch - processPackages [certora-cli-alpha-assaf-VerifyTACDump]: Skipping package: exceeds size limit 38745257>=10485760
+[2023-05-22 10:40:48] INFO root fetch - processPackages [certora-cli-alpha-assaf-VerifyTACDump]: Start processing: visiongraph
+[2023-05-22 10:40:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-VerifyTACDump] error
+[2023-05-22 10:40:48] INFO root fetch - processPackages [rick-vfs]: Downloading https://files.pythonhosted.org/packages/a1/5e/5e751a47ebc9d59eb9dbf5a045bb6c8869efe918f25be4d384f2bd098d16/rick_vfs-0.1.0.tar.gz
+[2023-05-22 10:40:48] INFO root fetch - processPackages [visiongraph]: New version: [0.1.45.1] Old Version: [0.1.45]
+[2023-05-22 10:40:48] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/ed/b9/a22f151f130a876594c8ff3bebea939ce311ea470a2ca27ec9a5ed580b71/seven2one-4.1.4.tar.gz
+[2023-05-22 10:40:48] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-05-22 10:40:48] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230522/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-05-22 10:40:48] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-22 10:40:48] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230522/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-22 10:40:48] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-05-22 10:40:48] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-0.0.8-py3-none-any.whl.zip tmp/mpyl-0.0.9-py3-none-any.whl.zip --markdown 20230522/m/mpyl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 10:40:49] INFO root fetch - processPackages [rick-vfs]: Downloading https://files.pythonhosted.org/packages/61/f4/7877f4efc013297ac2f5e3717b7a5f41e9b56531ba52969a3c27ee96977b/rick_vfs-1.0.0.tar.gz
+[2023-05-22 10:40:49] INFO root fetch - processPackages [kn-flatten-json]: Downloading https://files.pythonhosted.org/packages/97/5a/3a39c4eed15a8e6e700dbedd6a9729829426198c3daa39bfe0bfc07f68ec/kn_flatten_json-0.0.7.tar.gz
+[2023-05-22 10:40:49] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/0d/f9/22fa8585ed4b9e5b285d405c1a06855691c524dd49706048ad990bc1cf30/pyikarus-0.3.1.dev20230522083503.tar.gz
+[2023-05-22 10:40:49] INFO root fetch - processPackages [seven2one]: Downloading https://files.pythonhosted.org/packages/20/90/1b67c50a3a180e5d79e5bc09b7c5758885b8c9b1dc82fe193d4f9b5faf8e/seven2one-4.2.0.tar.gz
+[2023-05-22 10:40:49] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/29/43/75042901dd762231f23fbde06dd2fbadebe844800daab8d2af5dfcdba3d3/visiongraph-0.1.45.1-py3-none-any.whl
+[2023-05-22 10:40:49] INFO root fetch - processPackages [kn-flatten-json]: executing diffoscope
+[2023-05-22 10:40:49] INFO root fetch - processPackages [kn-flatten-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kn_flatten_json-0.0.5.tar.gz tmp/kn_flatten_json-0.0.7.tar.gz --markdown 20230522/k/kn-flatten-json/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 10:40:49] INFO root fetch - processPackages [rick-vfs]: executing diffoscope
+[2023-05-22 10:40:49] INFO root fetch - processPackages [rick-vfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rick_vfs-0.1.0.tar.gz tmp/rick_vfs-1.0.0.tar.gz --markdown 20230522/r/rick-vfs/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 10:40:49] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-05-22 10:40:49] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.45-py3-none-any.whl.zip tmp/visiongraph-0.1.45.1-py3-none-any.whl.zip --markdown 20230522/v/visiongraph/0.1.45-0.1.45.1/diff.md --exclude *.pyd
+[2023-05-22 10:40:49] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-22 10:40:49] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.1.dev20230522071144.tar.gz tmp/pyikarus-0.3.1.dev20230522083503.tar.gz --markdown 20230522/p/pyikarus/0.3.1.dev20230522071144-0.3.1.dev20230522083503/diff.md --exclude *.pyd
+[2023-05-22 10:40:49] INFO root fetch - processPackages [seven2one]: executing diffoscope
+[2023-05-22 10:40:49] INFO root fetch - processPackages [seven2one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven2one-4.1.4.tar.gz tmp/seven2one-4.2.0.tar.gz --markdown 20230522/s/seven2one/4.1.4-4.2.0/diff.md --exclude *.pyd
+[2023-05-22 10:40:49] INFO root fetch - processPackages [pynkdv]: Start processing: tf-estimator-nightly
+[2023-05-22 10:40:49] INFO root fetch - main [MainThread]: End processing [pynkdv]: success
+[2023-05-22 10:40:49] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-22 10:40:49] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-22 10:40:49] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230522/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-22 10:40:50] INFO root fetch - processPackages [kn-flatten-json]: Start processing: ddadevops
+[2023-05-22 10:40:50] INFO root fetch - main [MainThread]: End processing [kn-flatten-json]: success
+[2023-05-22 10:40:50] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-05-22 10:40:50] INFO root fetch - processPackages [trailblazer]: Start processing: kerbitat
+[2023-05-22 10:40:50] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-05-22 10:40:50] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-05-22 10:40:50] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230522/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-22 10:40:50] INFO root fetch - processPackages [kerbitat]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 10:40:50] INFO root fetch - processPackages [seven2one]: Start processing: orthanc-tools
+[2023-05-22 10:40:50] INFO root fetch - main [MainThread]: End processing [seven2one]: success
+[2023-05-22 10:40:50] INFO root fetch - processPackages [orthanc-tools]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kerbitat]: Downloading https://files.pythonhosted.org/packages/80/73/f38800013589514d6a11c4bc0df015022dd5de9f7883728c47ef70a04191/kerbitat-0.0.1.tar.gz
+[2023-05-22 10:40:51] INFO root fetch - processPackages [rick-vfs]: Start processing: skretry
+[2023-05-22 10:40:51] INFO root fetch - main [MainThread]: End processing [rick-vfs]: success
+[2023-05-22 10:40:51] INFO root fetch - processPackages [skretry]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-22 10:40:51] INFO root fetch - processPackages [orthanc-tools]: Downloading https://files.pythonhosted.org/packages/81/1f/dd08a9962e01c646e33eb01a3e06bf78f04e37e4d586059b966e50fc9dfb/orthanc_tools-0.8.7.tar.gz
+[2023-05-22 10:40:51] INFO root fetch - processPackages [mpyl]: Start processing: polishstring
+[2023-05-22 10:40:51] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-05-22 10:40:51] WARNING root fetch - processPackages [polishstring]: Skipping, unable to determine old version
+[2023-05-22 10:40:51] INFO root fetch - processPackages [polishstring]: Start processing: kn-flatten-json
+[2023-05-22 10:40:51] INFO root fetch - main [MainThread]: End processing [polishstring] error
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kerbitat]: Downloading https://files.pythonhosted.org/packages/1b/b3/cf211b85e98be0c20e789fdd858ddfa9c64a583cad0caa136e1aad64d315/kerbitat-0.0.2.tar.gz
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kn-flatten-json]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-22 10:40:51] INFO root fetch - processPackages [skretry]: Downloading https://files.pythonhosted.org/packages/00/9f/8977e4f0fdd0ab4ac36e27cba5c2972fb05f826d6484b2df68b22c19169e/skretry-0.1.3.tar.gz
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kn-flatten-json]: executing diffoscope
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kn-flatten-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kn_flatten_json-0.0.5.tar.gz tmp/kn_flatten_json-0.0.7.tar.gz --markdown 20230522/k/kn-flatten-json/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-22 10:40:51] INFO root fetch - processPackages [skretry]: executing diffoscope
+[2023-05-22 10:40:51] INFO root fetch - processPackages [skretry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skretry-0.1.2.tar.gz tmp/skretry-0.1.3.tar.gz --markdown 20230522/s/skretry/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kerbitat]: executing diffoscope
+[2023-05-22 10:40:51] INFO root fetch - processPackages [kerbitat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerbitat-0.0.1.tar.gz tmp/kerbitat-0.0.2.tar.gz --markdown 20230522/k/kerbitat/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 10:40:51] INFO root fetch - processPackages [orthanc-tools]: Downloading https://files.pythonhosted.org/packages/12/8b/30b6de5fb7464462a04f8b5caadb93810232c2981f38995af713ad3fbf8f/orthanc_tools-0.8.8.tar.gz
+[2023-05-22 10:40:51] INFO root fetch - processPackages [orthanc-tools]: executing diffoscope
+[2023-05-22 10:40:51] INFO root fetch - processPackages [orthanc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthanc_tools-0.8.7.tar.gz tmp/orthanc_tools-0.8.8.tar.gz --markdown 20230522/o/orthanc-tools/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-22 10:40:51] INFO root fetch - processPackages [libcnmc]: Start processing: startstop
+[2023-05-22 10:40:51] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-22 10:40:51] INFO root fetch - processPackages [startstop]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-22 10:40:52] INFO root fetch - processPackages [startstop]: Downloading https://files.pythonhosted.org/packages/a2/1a/3745cf5afcb8a76b56aaa0733f7bf30d33c0183d6a8a40496ec99d7f1338/startstop-1.0.6.tar.gz
+[2023-05-22 10:40:52] INFO root fetch - processPackages [startstop]: Downloading https://files.pythonhosted.org/packages/bb/c9/b794ecbef298ec5a3118b5a440c395b76276b2d3ed11c72efa0571698c29/startstop-1.0.7.tar.gz
+[2023-05-22 10:40:52] INFO root fetch - processPackages [startstop]: executing diffoscope
+[2023-05-22 10:40:52] INFO root fetch - processPackages [startstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startstop-1.0.6.tar.gz tmp/startstop-1.0.7.tar.gz --markdown 20230522/s/startstop/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-22 10:40:52] INFO root fetch - processPackages [kn-flatten-json]: Start processing: py-auth-amqp-wrapper
+[2023-05-22 10:40:52] INFO root fetch - main [MainThread]: End processing [kn-flatten-json]: success
+[2023-05-22 10:40:52] INFO root fetch - processPackages [py-auth-amqp-wrapper]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-22 10:40:52] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: ibaqpy
+[2023-05-22 10:40:52] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-22 10:40:52] WARNING root fetch - processPackages [ibaqpy]: Skipping, unable to determine old version
+[2023-05-22 10:40:52] INFO root fetch - processPackages [ibaqpy]: Start processing: langchain-serve
+[2023-05-22 10:40:52] INFO root fetch - main [MainThread]: End processing [ibaqpy] error
+[2023-05-22 10:40:52] INFO root fetch - main [MainThread]: End processing [skretry]: success
+[2023-05-22 10:40:52] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-22 10:40:52] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-05-22 10:40:53] INFO root fetch - processPackages [py-auth-amqp-wrapper]: Downloading https://files.pythonhosted.org/packages/c9/b2/b9387adf9a294a2cc5d0ff8e51892a136f6efb7ce1c3c234d21ebdbde9c9/py_auth_amqp_wrapper-0.0.8.tar.gz
+[2023-05-22 10:40:53] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-05-22 10:40:53] INFO root fetch - processPackages [py-auth-amqp-wrapper]: executing diffoscope
+[2023-05-22 10:40:53] INFO root fetch - processPackages [py-auth-amqp-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_auth_amqp_wrapper-0.0.7.tar.gz tmp/py_auth_amqp_wrapper-0.0.8.tar.gz --markdown 20230522/p/py-auth-amqp-wrapper/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-22 10:40:53] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-22 10:40:53] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230522/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-22 10:40:53] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-22 10:40:53] INFO root fetch - main [MainThread]: End processing [orthanc-tools]: success
+[2023-05-22 10:40:53] INFO root fetch - main [MainThread]: End processing [startstop]: success
+[2023-05-22 10:40:53] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-05-22 10:40:54] INFO root fetch - main [MainThread]: End processing [py-auth-amqp-wrapper]: success
+[2023-05-22 10:40:55] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-22 10:40:55] INFO root fetch - main [MainThread]: End processing [kerbitat]: success
+[2023-05-22 10:40:55] INFO root fetch - main [MainThread]: Store serial: [18194279]
