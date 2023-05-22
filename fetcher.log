@@ -6000,3 +6000,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:21:08] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-22 08:21:19] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-05-22 08:21:19] INFO root fetch - main [MainThread]: Store serial: [18192845]
+[2023-05-22 08:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192845]
+[2023-05-22 08:26:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: renus
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k1lib
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpxfix
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-codebase-documenter
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NanoRepeat
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datumaro
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chb
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azureml-rag
+[2023-05-22 08:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: astro-ghost
+[2023-05-22 08:26:27] INFO root fetch - processPackages [renus]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-22 08:26:27] INFO root fetch - processPackages [NanoRepeat]: New version: [1.5] Old Version: [1.4.1]
+[2023-05-22 08:26:27] INFO root fetch - processPackages [astro-ghost]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-22 08:26:27] INFO root fetch - processPackages [k1lib]: New version: [1.3.8.7] Old Version: [1.3.8.6]
+[2023-05-22 08:26:27] INFO root fetch - processPackages [auto-codebase-documenter]: New version: [0.9] Old Version: [0.8]
+[2023-05-22 08:26:28] INFO root fetch - processPackages [gpxfix]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-22 08:26:28] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-22 08:26:28] INFO root fetch - processPackages [datumaro]: New version: [1.3.0rc1] Old Version: [1.2.1]
+[2023-05-22 08:26:28] INFO root fetch - processPackages [chb]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-22 08:26:28] INFO root fetch - processPackages [azureml-rag]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-22 08:26:28] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-1.0.0.tar.gz tmp/astro_ghost-1.0.1.tar.gz --markdown 20230522/a/astro-ghost/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [renus]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [renus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renus-1.1.4.tar.gz tmp/renus-1.1.5.tar.gz --markdown 20230522/r/renus/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [auto-codebase-documenter]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [auto-codebase-documenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-codebase-documenter-0.8.tar.gz tmp/auto-codebase-documenter-0.9.tar.gz --markdown 20230522/a/auto-codebase-documenter/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/24/f9/80bc3727dbb0e08f57e17fae84a7864e4a929012929bd2670150757f57ef/k1lib-1.3.8.6-py3-none-any.whl
+[2023-05-22 08:26:28] INFO root fetch - processPackages [gpxfix]: Downloading https://files.pythonhosted.org/packages/e0/e8/b923aec72757d7ac11fee1691d310fb70bc054796ff14240953dfd65df00/gpxfix-0.0.4.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [chb]: Downloading https://files.pythonhosted.org/packages/a6/a2/5fd7232f03db2985dd4cc3dc316ff4ae367a9dccfa4a8d1572870a108361/chb-2.1.5.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/31/63/1ef1d9e53b19a459827c8ef5208d91afc88cfdd722329b331a5c76c51fd2/datumaro-1.2.1.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [NanoRepeat]: Downloading https://files.pythonhosted.org/packages/1a/28/95e5c31fb61862d25da8b236ecd150906de8c2a77ca3640a76241ec4471c/NanoRepeat-1.5.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230522/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/fe/806c9369b251c632d85fc4be121e3268524ad03761bf8dc24aebe8fa91b3/azureml_rag-0.1.5-py3-none-any.whl
+[2023-05-22 08:26:28] INFO root fetch - processPackages [gpxfix]: Downloading https://files.pythonhosted.org/packages/61/3f/dca7857e953ef059a3e0fe0aed5b134c917bc30cf9a28e937c554a7f5b88/gpxfix-0.0.5.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [NanoRepeat]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [chb]: Downloading https://files.pythonhosted.org/packages/cd/75/2189b18c63cecd76eacd721d6680bce190a141838e9167f375c6e733d2dd/chb-2.1.6.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [NanoRepeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NanoRepeat-1.4.1.tar.gz tmp/NanoRepeat-1.5.tar.gz --markdown 20230522/N/NanoRepeat/1.4.1-1.5/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/62/95/07ec5c09c5fc11963111ba313876995a65601de5779769c633d40ee052d6/datumaro-1.3.0rc1.tar.gz
+[2023-05-22 08:26:28] INFO root fetch - processPackages [gpxfix]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [gpxfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpxfix-0.0.4.tar.gz tmp/gpxfix-0.0.5.tar.gz --markdown 20230522/g/gpxfix/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.2.1.tar.gz tmp/datumaro-1.3.0rc1.tar.gz --markdown 20230522/d/datumaro/1.2.1-1.3.0rc1/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [chb]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [chb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chb-2.1.5.tar.gz tmp/chb-2.1.6.tar.gz --markdown 20230522/c/chb/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2023-05-22 08:26:28] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.1.4-py3-none-any.whl.zip tmp/azureml_rag-0.1.5-py3-none-any.whl.zip --markdown 20230522/a/azureml-rag/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-22 08:26:28] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/34/ff/5b2a42293011879ab3305ce74c1daff8af393bc9f3531f978c7e4472a114/k1lib-1.3.8.7-py3-none-any.whl
+[2023-05-22 08:26:29] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-22 08:26:29] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.8.6-py3-none-any.whl.zip tmp/k1lib-1.3.8.7-py3-none-any.whl.zip --markdown 20230522/k/k1lib/1.3.8.6-1.3.8.7/diff.md --exclude *.pyd
+[2023-05-22 08:26:29] INFO root fetch - main [MainThread]: End processing [auto-codebase-documenter]: success
+[2023-05-22 08:26:29] INFO root fetch - main [MainThread]: End processing [NanoRepeat]: success
+[2023-05-22 08:26:30] INFO root fetch - main [MainThread]: End processing [renus]: success
+[2023-05-22 08:26:30] INFO root fetch - main [MainThread]: End processing [gpxfix]: success
+[2023-05-22 08:26:30] INFO root fetch - main [MainThread]: End processing [chb]: success
+[2023-05-22 08:26:30] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-05-22 08:26:30] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2023-05-22 08:26:30] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-22 08:26:33] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-05-22 08:26:33] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-22 08:26:33] INFO root fetch - main [MainThread]: Store serial: [18192873]
