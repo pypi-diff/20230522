@@ -22287,3 +22287,31 @@ EOFError: EOF read where object expected
 [2023-05-22 20:41:18] INFO root fetch - main [MainThread]: End processing [os-bedtime]: success
 [2023-05-22 20:41:18] INFO root fetch - main [MainThread]: End processing [enebootools]: success
 [2023-05-22 20:41:18] INFO root fetch - main [MainThread]: Store serial: [18202439]
+[2023-05-22 20:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18202439]
+[2023-05-22 20:46:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-22 20:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmazen-de2-1
+[2023-05-22 20:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adata
+[2023-05-22 20:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clear-skies
+[2023-05-22 20:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: machineries
+[2023-05-22 20:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: craft-parts
+[2023-05-22 20:46:28] WARNING root fetch - processPackages [kmazen-de2-1]: Skipping, unable to determine old version
+[2023-05-22 20:46:28] INFO root fetch - main [MainThread]: End processing [kmazen-de2-1] error
+[2023-05-22 20:46:28] INFO root fetch - processPackages [machineries]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-22 20:46:28] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-05-22 20:46:28] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-22 20:46:28] INFO root fetch - processPackages [craft-parts]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-22 20:46:29] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-22 20:46:29] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230522/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 20:46:29] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-05-22 20:46:29] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230522/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-05-22 20:46:29] INFO root fetch - processPackages [machineries]: Downloading https://files.pythonhosted.org/packages/13/d5/158747e1247b220202f4feee17130dd99eeb6a870d840b43ab6b00dd57c8/machineries-0.1.0.tar.gz
+[2023-05-22 20:46:29] INFO root fetch - processPackages [machineries]: Downloading https://files.pythonhosted.org/packages/62/27/d9dd8f623a14c007abdd0425ce91afb970e1ccacb7461e99cb93c731f0da/machineries-0.1.1.tar.gz
+[2023-05-22 20:46:29] INFO root fetch - processPackages [craft-parts]: executing diffoscope
+[2023-05-22 20:46:29] INFO root fetch - processPackages [craft-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-parts-1.8.1.tar.gz tmp/craft-parts-1.9.0.tar.gz --markdown 20230522/c/craft-parts/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-22 20:46:29] INFO root fetch - processPackages [machineries]: executing diffoscope
+[2023-05-22 20:46:29] INFO root fetch - processPackages [machineries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machineries-0.1.0.tar.gz tmp/machineries-0.1.1.tar.gz --markdown 20230522/m/machineries/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-22 20:46:30] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-05-22 20:46:30] INFO root fetch - main [MainThread]: End processing [machineries]: success
+[2023-05-22 20:46:30] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-22 20:46:30] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
+[2023-05-22 20:46:30] INFO root fetch - main [MainThread]: Store serial: [18202455]
