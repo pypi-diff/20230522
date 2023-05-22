@@ -6149,3 +6149,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-22 08:37:03] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-05-22 08:37:06] INFO root fetch - main [MainThread]: End processing [wallycore]: success
 [2023-05-22 08:37:06] INFO root fetch - main [MainThread]: Store serial: [18192950]
+[2023-05-22 08:42:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18192950]
+[2023-05-22 08:42:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nshuman-python
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudPackage
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: v8unpack
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xgh-retrieve-texts-from-dwgs
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oc-cdtapi
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyworxcloud
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nshuman-python
+[2023-05-22 08:42:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nshuman-python
+[2023-05-22 08:42:19] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [cloudPackage]: New version: [0.2] Old Version: [0.1]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.0.0.0.0.3] Old Version: [0.0.0.0.0.0.2]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.0.0.0.0.3] Old Version: [0.0.0.0.0.0.2]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: New version: [0.0.0.0.0.0.3] Old Version: [0.0.0.0.0.0.2]
+[2023-05-22 08:42:19] WARNING root fetch - processPackages [xgh-retrieve-texts-from-dwgs]: Skipping, unable to determine old version
+[2023-05-22 08:42:19] INFO root fetch - main [MainThread]: End processing [xgh-retrieve-texts-from-dwgs] error
+[2023-05-22 08:42:19] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230522/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-22 08:42:19] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.9.1] Old Version: [3.8.2.20230417085139]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/25/8a/556a15e6e7e13355d904789b0e176ae2bc432257978707e6cd44dd9f8c3d/nshuman_python-0.0.0.0.0.0.2-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [cloudPackage]: Downloading https://files.pythonhosted.org/packages/c6/e1/683c2f76ec46f5aca0d8490b2669de61cb1b6ad17cd28db7467df5fb86cb/cloudPackage-0.1-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/25/8a/556a15e6e7e13355d904789b0e176ae2bc432257978707e6cd44dd9f8c3d/nshuman_python-0.0.0.0.0.0.2-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/25/8a/556a15e6e7e13355d904789b0e176ae2bc432257978707e6cd44dd9f8c3d/nshuman_python-0.0.0.0.0.0.2-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/f4/a3/420a9e5ebbde0ca25c43631e61aa3af15798416eefc8c2dae99431902cdb/oc_cdtapi-3.8.2.20230417085139-py2-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/b0/fa/afee854cea033a908859097396a27ccd5d41055e289723c5d6e66eac41a4/pyworxcloud-3.1.8.tar.gz
+[2023-05-22 08:42:19] INFO root fetch - processPackages [cloudPackage]: Downloading https://files.pythonhosted.org/packages/37/ca/be29bd0b5abef0bd785d9736e008f4ab4e70d033f4f943c7a9d2cf61685d/cloudPackage-0.2-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20230522/v/v8unpack/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-22 08:42:19] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/6a/6e/57e14d35e06cd80e1478e5be14171b85525018b752034b4647bf127335d0/oc_cdtapi-3.9.1-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.7.tar.gz tmp/pyworxcloud-3.1.8.tar.gz --markdown 20230522/p/pyworxcloud/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-05-22 08:42:19] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.8.2.20230417085139-py2-none-any.whl.zip tmp/oc_cdtapi-3.9.1-py3-none-any.whl.zip --markdown 20230522/o/oc-cdtapi/3.8.2.20230417085139-3.9.1/diff.md --exclude *.pyd
+[2023-05-22 08:42:19] INFO root fetch - processPackages [cloudPackage]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [cloudPackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudPackage-0.1-py3-none-any.whl.zip tmp/cloudPackage-0.2-py3-none-any.whl.zip --markdown 20230522/c/cloudPackage/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/76/d5/d581b8b1932a8e1107b807301344684fe57b16e357fda4cf096d27147127/nshuman_python-0.0.0.0.0.0.3-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/76/d5/d581b8b1932a8e1107b807301344684fe57b16e357fda4cf096d27147127/nshuman_python-0.0.0.0.0.0.3-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: Downloading https://files.pythonhosted.org/packages/76/d5/d581b8b1932a8e1107b807301344684fe57b16e357fda4cf096d27147127/nshuman_python-0.0.0.0.0.0.3-py3-none-any.whl
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.0.0.0.0.2-py3-none-any.whl.zip tmp/nshuman_python-0.0.0.0.0.0.3-py3-none-any.whl.zip --markdown 20230522/n/nshuman-python/0.0.0.0.0.0.2-0.0.0.0.0.0.3/diff.md --exclude *.pyd
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-22 08:42:19] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.0.0.0.0.2-py3-none-any.whl.zip tmp/nshuman_python-0.0.0.0.0.0.3-py3-none-any.whl.zip --markdown 20230522/n/nshuman-python/0.0.0.0.0.0.2-0.0.0.0.0.0.3/diff.md --exclude *.pyd
+[2023-05-22 08:42:20] INFO root fetch - processPackages [nshuman-python]: executing diffoscope
+[2023-05-22 08:42:20] INFO root fetch - processPackages [nshuman-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nshuman_python-0.0.0.0.0.0.2-py3-none-any.whl.zip tmp/nshuman_python-0.0.0.0.0.0.3-py3-none-any.whl.zip --markdown 20230522/n/nshuman-python/0.0.0.0.0.0.2-0.0.0.0.0.0.3/diff.md --exclude *.pyd
+[2023-05-22 08:42:20] INFO root fetch - main [MainThread]: End processing [cloudPackage]: success
+[2023-05-22 08:42:20] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-05-22 08:42:21] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-05-22 08:42:21] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2023-05-22 08:42:21] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-22 08:42:21] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-22 08:42:21] INFO root fetch - main [MainThread]: End processing [nshuman-python]: success
+[2023-05-22 08:42:23] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-22 08:42:23] INFO root fetch - main [MainThread]: Store serial: [18192976]
