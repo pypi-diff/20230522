@@ -20018,3 +20018,109 @@ EOFError: EOF read where object expected
 [2023-05-22 18:42:42] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
 [2023-05-22 18:42:45] INFO root fetch - main [MainThread]: End processing [ovos-skill-setup]: success
 [2023-05-22 18:42:45] INFO root fetch - main [MainThread]: Store serial: [18200964]
+[2023-05-22 18:47:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18200964]
+[2023-05-22 18:47:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Konchik-serializer
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gto
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb-helpers
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-importar-lineas-pedido
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tg-botting
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veetility
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serializer-Konchik
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strawberry-django-plus
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deklinacija
+[2023-05-22 18:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-small-world
+[2023-05-22 18:47:56] INFO root fetch - processPackages [gto]: New version: [0.3.0rc3] Old Version: [0.3.0rc2]
+[2023-05-22 18:47:56] INFO root fetch - processPackages [nb-helpers]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-22 18:47:56] INFO root fetch - processPackages [tg-botting]: New version: [1.6.2.6] Old Version: [1.6.2.5]
+[2023-05-22 18:47:56] WARNING root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Skipping, unable to determine old version
+[2023-05-22 18:47:56] INFO root fetch - processPackages [odoo13-addon-importar-lineas-pedido]: Start processing: cognite-pygen
+[2023-05-22 18:47:56] INFO root fetch - main [MainThread]: End processing [odoo13-addon-importar-lineas-pedido] error
+[2023-05-22 18:47:56] WARNING root fetch - processPackages [nonebot-plugin-small-world]: Skipping, unable to determine old version
+[2023-05-22 18:47:56] WARNING root fetch - processPackages [serializer-Konchik]: Skipping, unable to determine old version
+[2023-05-22 18:47:56] INFO root fetch - processPackages [deklinacija]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-22 18:47:56] INFO root fetch - processPackages [nonebot-plugin-small-world]: Start processing: sarus
+[2023-05-22 18:47:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-small-world] error
+[2023-05-22 18:47:56] INFO root fetch - processPackages [serializer-Konchik]: Start processing: spinta
+[2023-05-22 18:47:56] INFO root fetch - processPackages [strawberry-django-plus]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-22 18:47:56] INFO root fetch - main [MainThread]: End processing [serializer-Konchik] error
+[2023-05-22 18:47:56] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 18:47:56] WARNING root fetch - processPackages [cognite-pygen]: Skipping, unable to determine old version
+[2023-05-22 18:47:56] INFO root fetch - processPackages [cognite-pygen]: Start processing: CoLT5-attention
+[2023-05-22 18:47:56] INFO root fetch - main [MainThread]: End processing [cognite-pygen] error
+[2023-05-22 18:47:56] INFO root fetch - processPackages [sarus]: New version: [0.6.5] Old Version: [0.6.4.dev0]
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spinta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-22 18:47:56] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-22 18:47:56] ERROR root fetch - processPackages [Konchik-serializer]: Unable to get metadata: No such project 'Konchik-serializer'
+[2023-05-22 18:47:56] INFO root fetch - processPackages [Konchik-serializer]: Start processing: spacetrack
+[2023-05-22 18:47:56] INFO root fetch - main [MainThread]: End processing [Konchik-serializer] error
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spacetrack]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-22 18:47:56] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/4f/98/df67ac973dc14cdf8390dd1cc9fe61bc4219decbcdd8aa33c7090c715947/deklinacija-0.0.1.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/c9/a6/60f2608dd7ec1d0b061e12584619b15af4faaeb7544d57ca78d4bd1bb7b9/sarus-0.6.4.dev0.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/d0/36/75b9e1a092299d2e4133715d0cde5769d4513b1c8e3c47e9562331f9b8ae/tg-botting-1.6.2.5.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spinta]: Downloading https://files.pythonhosted.org/packages/d6/18/9ed12f374957e944902814718feaf5b54bfd3c4d67635d80a745af0a9164/spinta-0.1.8.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/08/5a/020f77bea7ba8191c63a35219cbebe1d6eab1fe1ecc642b70e434c59175e/CoLT5-attention-0.8.1.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230522/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spacetrack]: Downloading https://files.pythonhosted.org/packages/52/87/7d871ddffc9c2ddade121f1d5ee1a0dea3aa36786a4db00bf118abc75e10/spacetrack-0.9.0.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [nb-helpers]: Downloading https://files.pythonhosted.org/packages/06/dd/00cf930237bc992533aaa9bf4b2e4ad1b4418e3dc29366cf9d17eca3e43b/nb_helpers-0.5.1.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/37/31/7f52b86931c3f6668fbb059feaa908d0509d0388f771a8a669d960d6d389/strawberry_django_plus-2.4.2.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [gto]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [gto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gto-0.3.0rc2.tar.gz tmp/gto-0.3.0rc3.tar.gz --markdown 20230522/g/gto/0.3.0rc2-0.3.0rc3/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/04/c6/cae5771a09086fc9d432b1538f47c61956b337dc255c63539dee234e25c5/deklinacija-0.0.2.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/36/f5/1922c28efbe57414614bb50b30bd608af008630d3f6d5a9f835a0b9cec1f/tg-botting-1.6.2.6.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/4e/8b/63b3f5eef48b6bafa1cf354148ebb792e455d9f9386355599913625c9204/sarus-0.6.5.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-2.4.1.tar.gz tmp/strawberry_django_plus-2.4.2.tar.gz --markdown 20230522/s/strawberry-django-plus/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spinta]: Downloading https://files.pythonhosted.org/packages/5a/9c/8d278829c1decafc04da79fe89230199cc6c397169ee377f8eab760997a9/spinta-0.1.9.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [nb-helpers]: Downloading https://files.pythonhosted.org/packages/ab/8e/7ad95ab63206ca612ac1f8dd25c9a340467d534f75e079fbe04f7ecbbf96/nb_helpers-0.5.2.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-1.6.2.5.tar.gz tmp/tg-botting-1.6.2.6.tar.gz --markdown 20230522/t/tg-botting/1.6.2.5-1.6.2.6/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [deklinacija]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/df/03/116d9dfdbb93326dde6f8a2bec26f18e4861ec6f83c9eabdf7683a204717/CoLT5-attention-0.9.0.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [deklinacija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deklinacija-0.0.1.tar.gz tmp/deklinacija-0.0.2.tar.gz --markdown 20230522/d/deklinacija/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spinta]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinta-0.1.8.tar.gz tmp/spinta-0.1.9.tar.gz --markdown 20230522/s/spinta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spacetrack]: Downloading https://files.pythonhosted.org/packages/0f/41/69a7a12528ab47053e236c37dea11ef247aa90184eab409e379b754a64c7/spacetrack-1.0.0.tar.gz
+[2023-05-22 18:47:56] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230522/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spacetrack]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [spacetrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetrack-0.9.0.tar.gz tmp/spacetrack-1.0.0.tar.gz --markdown 20230522/s/spacetrack/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.6.4.dev0.tar.gz tmp/sarus-0.6.5.tar.gz --markdown 20230522/s/sarus/0.6.4.dev0-0.6.5/diff.md --exclude *.pyd
+[2023-05-22 18:47:56] INFO root fetch - processPackages [nb-helpers]: executing diffoscope
+[2023-05-22 18:47:56] INFO root fetch - processPackages [nb-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_helpers-0.5.1.tar.gz tmp/nb_helpers-0.5.2.tar.gz --markdown 20230522/n/nb-helpers/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-22 18:47:58] INFO root fetch - processPackages [veetility]: Start processing: jutility
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-22 18:47:58] INFO root fetch - processPackages [jutility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-22 18:47:58] INFO root fetch - processPackages [gto]: Start processing: lzallright
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [gto]: success
+[2023-05-22 18:47:58] INFO root fetch - processPackages [lzallright]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-22 18:47:58] INFO root fetch - processPackages [strawberry-django-plus]: Start processing: datarobot-early-access
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-05-22 18:47:58] INFO root fetch - processPackages [tg-botting]: Start processing: reactivated
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [deklinacija]: success
+[2023-05-22 18:47:58] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.2.0.2023.5.8] Old Version: [3.2.0.2023.5.22]
+[2023-05-22 18:47:58] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-22 18:47:58] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-05-22 18:47:58] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230522/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-05-22 18:47:58] INFO root fetch - processPackages [jutility]: executing diffoscope
+[2023-05-22 18:47:58] INFO root fetch - processPackages [jutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jutility-0.0.8.tar.gz tmp/jutility-0.0.9.tar.gz --markdown 20230522/j/jutility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-22 18:47:58] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/cc/fa/4afb6cc9c2a1de83dd4c8eba9540e3c40894e49f759cb6fb7d55ad84f8ab/datarobot_early_access-3.2.0.2023.5.22.tar.gz
+[2023-05-22 18:47:58] INFO root fetch - processPackages [lzallright]: Downloading https://files.pythonhosted.org/packages/ea/03/42b687fb0b4e46614acf107220c7a55432974930e75a3cfe9618554cdd49/lzallright-0.2.1.tar.gz
+[2023-05-22 18:47:58] INFO root fetch - processPackages [lzallright]: executing diffoscope
+[2023-05-22 18:47:58] INFO root fetch - processPackages [lzallright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzallright-0.2.0.tar.gz tmp/lzallright-0.2.1.tar.gz --markdown 20230522/l/lzallright/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-22 18:47:58] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/f4/46/6e407af79ec0a78fe892c5b58fa9bcd15e85fd7937dbdb22872422d30151/datarobot_early_access-3.2.0.2023.5.8.tar.gz
+[2023-05-22 18:47:58] INFO root fetch - main [MainThread]: End processing [spacetrack]: success
+[2023-05-22 18:47:59] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2023-05-22 18:47:59] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230522:/home/abi/fetcher/20230522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.2.0.2023.5.22.tar.gz tmp/datarobot_early_access-3.2.0.2023.5.8.tar.gz --markdown 20230522/d/datarobot-early-access/3.2.0.2023.5.22-3.2.0.2023.5.8/diff.md --exclude *.pyd
+[2023-05-22 18:47:59] INFO root fetch - main [MainThread]: End processing [nb-helpers]: success
+[2023-05-22 18:47:59] INFO root fetch - main [MainThread]: End processing [jutility]: success
+[2023-05-22 18:48:00] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-22 18:48:00] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-05-22 18:48:00] INFO root fetch - main [MainThread]: End processing [lzallright]: success
+[2023-05-22 18:48:00] INFO root fetch - main [MainThread]: End processing [spinta]: success
+[2023-05-22 18:48:01] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2023-05-22 18:48:01] INFO root fetch - main [MainThread]: Store serial: [18201051]
